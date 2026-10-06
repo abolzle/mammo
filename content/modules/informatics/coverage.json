@@ -1,0 +1,267 @@
+{
+  "moduleId": "mod-informatics",
+  "version": "2026-10-06.1",
+  "assembledForCurriculumVersion": "2026-10-06.1",
+  "note": "Module-local coverage for the Stage 3 informatics/CAD module. The shared curriculum.json was not edited, so obj-ip-informatics, obj-ip-cad, obj-ip-receptors-monitors, and obj-qc-monitors-viewing still show sourceState needs_source in docs/COVERAGE.md until the follow-ups below are applied.",
+  "counts": {
+    "lessons": 10,
+    "questions": 44,
+    "practiceQuestions": 44,
+    "cards": 37,
+    "visuals": 4,
+    "evidence": 59
+  },
+  "objectiveCoverage": [
+    {
+      "objectiveId": "obj-ip-informatics",
+      "lessonIds": [
+        "les-inf-systems-map",
+        "les-inf-pacs-devices",
+        "les-inf-dicom",
+        "les-inf-integrity-backup"
+      ],
+      "questionIds": [
+        "q-inf-001",
+        "q-inf-002",
+        "q-inf-003",
+        "q-inf-004",
+        "q-inf-005",
+        "q-inf-006",
+        "q-inf-007",
+        "q-inf-008",
+        "q-inf-009",
+        "q-inf-010",
+        "q-inf-011",
+        "q-inf-012",
+        "q-inf-013",
+        "q-inf-041",
+        "q-inf-042",
+        "q-inf-043",
+        "q-inf-044"
+      ],
+      "cardIds": [
+        "card-inf-ris",
+        "card-inf-his",
+        "card-inf-ehr",
+        "card-inf-pacs-originals",
+        "card-inf-storage-class",
+        "card-inf-comm-tools",
+        "card-inf-mimps-standards",
+        "card-inf-dicom-what",
+        "card-inf-dicom-not",
+        "card-inf-dicom-uid",
+        "card-inf-dicom-mqsa",
+        "card-inf-integrity",
+        "card-inf-backup-vs-dr",
+        "card-inf-emergency-mode",
+        "card-inf-unique-user"
+      ],
+      "visualIds": [
+        "vis-inf-originals-home",
+        "vis-inf-contingency"
+      ]
+    },
+    {
+      "objectiveId": "obj-ip-cad",
+      "lessonIds": [
+        "les-inf-cad-types",
+        "les-inf-cad-limits"
+      ],
+      "questionIds": [
+        "q-inf-022",
+        "q-inf-023",
+        "q-inf-024",
+        "q-inf-025",
+        "q-inf-026",
+        "q-inf-027",
+        "q-inf-028",
+        "q-inf-029",
+        "q-inf-030",
+        "q-inf-031"
+      ],
+      "cardIds": [
+        "card-inf-cade",
+        "card-inf-cade-not",
+        "card-inf-cadx",
+        "card-inf-cadt",
+        "card-inf-cad-tradeoff",
+        "card-inf-cad-invasive",
+        "card-inf-cad-iq",
+        "card-inf-ai-unknowns"
+      ],
+      "visualIds": [
+        "vis-inf-cad-nomark"
+      ]
+    },
+    {
+      "objectiveId": "obj-ip-receptors-monitors",
+      "lessonIds": [
+        "les-inf-display-roles"
+      ],
+      "questionIds": [
+        "q-inf-014",
+        "q-inf-015",
+        "q-inf-016",
+        "q-inf-017"
+      ],
+      "cardIds": [
+        "card-inf-display-ifu",
+        "card-inf-display-510k"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-qc-monitors-viewing",
+      "lessonIds": [
+        "les-inf-display-qc"
+      ],
+      "questionIds": [
+        "q-inf-018",
+        "q-inf-019",
+        "q-inf-020",
+        "q-inf-021"
+      ],
+      "cardIds": [
+        "card-inf-qc-not-clearance",
+        "card-inf-gsdf",
+        "card-inf-digital-qa-source",
+        "card-inf-hotlight"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-mqsa-image-labeling",
+      "lessonIds": [
+        "les-inf-labeling-identity"
+      ],
+      "questionIds": [
+        "q-inf-031",
+        "q-inf-032",
+        "q-inf-033",
+        "q-inf-034",
+        "q-inf-035"
+      ],
+      "cardIds": [
+        "card-inf-label-elements",
+        "card-inf-label-quality",
+        "card-inf-report-id"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-mqsa-records-transfer",
+      "lessonIds": [
+        "les-inf-originals"
+      ],
+      "questionIds": [
+        "q-inf-036",
+        "q-inf-037",
+        "q-inf-038",
+        "q-inf-039",
+        "q-inf-044"
+      ],
+      "cardIds": [
+        "card-inf-lossless",
+        "card-inf-lossy",
+        "card-inf-cad-marks",
+        "card-inf-electronic"
+      ],
+      "visualIds": [
+        "vis-inf-original-set"
+      ]
+    },
+    {
+      "objectiveId": "obj-pc-prior-images",
+      "lessonIds": [],
+      "questionIds": [
+        "q-inf-004",
+        "q-inf-039",
+        "q-inf-040"
+      ],
+      "cardIds": [
+        "card-inf-interp-vs-comp"
+      ],
+      "visualIds": []
+    }
+  ],
+  "curriculumFollowUps": [
+    {
+      "objectiveId": "obj-ip-informatics",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-nlm-mesh-2026",
+        "src-ecfr-21-cfr-892-image-devices",
+        "src-ecfr-45-cfr-164-security",
+        "src-fr-88-15126",
+        "src-ecfr-21-cfr-900",
+        "src-dicom-ps3-1"
+      ],
+      "note": "System roles, PACS device classes, DICOM basics, integrity and backup are source-backed. The 'basic troubleshooting' clause stays a gap (see gapsNoted)."
+    },
+    {
+      "objectiveId": "obj-ip-cad",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-ecfr-21-cfr-892-image-devices",
+        "src-fda-cade-510k-guidance",
+        "src-nci-pdq-breast-screening-hp"
+      ],
+      "note": "Fully covered by FDA classification text, FDA guidance, and NCI PDQ."
+    },
+    {
+      "objectiveId": "obj-ip-receptors-monitors",
+      "suggestedSourceState": "needs_source",
+      "suggestedSourceIds": [
+        "src-fda-display-devices-guidance",
+        "src-fr-88-15126",
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "Interpretation-display half is source-backed. Digital image receptor half is not covered here (see image-production module and gapsNoted)."
+    },
+    {
+      "objectiveId": "obj-qc-monitors-viewing",
+      "suggestedSourceState": "needs_source",
+      "suggestedSourceIds": [
+        "src-fda-display-devices-guidance",
+        "src-dicom-ps3-1",
+        "src-ecfr-21-cfr-900",
+        "src-acr-dmqc-manual"
+      ],
+      "note": "Principles only. Procedures, test patterns, frequencies, and criteria remain manufacturer/ACR link-only and need qualified review."
+    }
+  ],
+  "gapsNoted": [
+    {
+      "objectiveId": "obj-ip-informatics",
+      "state": "needs_source",
+      "note": "Technologist-level PACS/RIS troubleshooting (failed sends, modality worklist mismatches, study reconciliation/merge, downtime re-send) is not described by any retrieved open source. Lessons point learners to facility procedure and observation prompts only.",
+      "urlsNeeded": [
+        "https://www.asrt.org/educators/asrt-curricula/mammography",
+        "https://dicom.nema.org/medical/dicom/current/output/html/part04.html (Modality Worklist; link-only)"
+      ]
+    },
+    {
+      "objectiveId": "obj-ip-receptors-monitors",
+      "state": "not_in_this_module",
+      "note": "Digital image receptor types (direct/indirect conversion detectors) are not taught here. Needs an open physics source or the image-production module."
+    },
+    {
+      "objectiveId": "obj-qc-monitors-viewing",
+      "state": "link_only_procedures",
+      "note": "SMPTE/AAPM TG18 test patterns, acquisition- vs interpretation-display QC frequencies, luminance/ambient limits, and pass/fail criteria are manufacturer/ACR DMQC content (link-only). All monitor-QC items carry requiresQualifiedReview and stay out of verified pools.",
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ]
+    },
+    {
+      "objectiveId": "obj-mqsa-image-labeling",
+      "state": "partial",
+      "note": "Two-identifier patient verification practice is taught via MQSA's name-plus-additional-identifier rule and MeSH. Joint Commission National Patient Safety Goal text is copyrighted and was not used."
+    },
+    {
+      "objectiveId": "obj-ip-cad",
+      "state": "evolving_evidence",
+      "note": "AI evidence summarized from NCI PDQ (updated 2025-04-10). Re-check PDQ and FDA's AI-enabled device list before each content release."
+    }
+  ]
+}
