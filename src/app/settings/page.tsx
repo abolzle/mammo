@@ -84,6 +84,28 @@ export default function SettingsPage() {
               }}
             />
           </Label>
+          <Label className="min-h-11 cursor-pointer rounded-lg border px-3 py-2">
+            Replace from backup
+            <input
+              type="file"
+              accept="application/json"
+              className="sr-only"
+              onChange={async (e) => {
+                const file = e.target.files?.[0];
+                if (!file) return;
+                const text = await file.text();
+                const parsed = parseBackupText(text);
+                if (!parsed.ok) {
+                  setMessage(parsed.message);
+                  return;
+                }
+                if (!confirm("Replace all progress on this device with this backup?")) return;
+                const result = await importBackup(parsed.data, versions, "replace");
+                setMessage([result.message, result.contentVersionNote].filter(Boolean).join(" "));
+                await refreshProfile();
+              }}
+            />
+          </Label>
         </div>
       </section>
       <section className="space-y-2">

@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const LEARNER_SCHEMA_VERSION = 1;
+export const LEARNER_SCHEMA_VERSION = 2;
 export const BACKUP_FORMAT = "mammo-backup";
 
 export const minutesPref = z.union([z.literal(5), z.literal(10), z.literal(15), z.literal(20)]);

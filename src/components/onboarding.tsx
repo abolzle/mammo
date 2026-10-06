@@ -5,23 +5,42 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import type { MinutesPref, Profile } from "@/lib/schemas/learner";
 
-export function Onboarding({ profile, onSave }: { profile: Profile; onSave: (p: Profile) => Promise<void> }) {
+export function Onboarding({
+  profile,
+  onSave,
+  onDiagnostic,
+}: {
+  profile: Profile;
+  onSave: (p: Profile) => Promise<void>;
+  onDiagnostic?: () => Promise<void>;
+}) {
   const [examDate, setExamDate] = useState(profile.examDate ?? "");
   const [minutes, setMinutes] = useState<MinutesPref>(profile.minutesPref);
   const [experience, setExperience] = useState(profile.experience);
+  const [days, setDays] = useState<number[]>(profile.studyDays);
+
+  function toggleDay(d: number) {
+    setDays((prev) => (prev.includes(d) ? prev.filter((x) => x !== d) : [...prev, d].sort()));
+  }
+
+  async function save(extra: Partial<Profile> = {}) {
+    await onSave({
+      ...profile,
+      examDate: examDate || null,
+      minutesPref: minutes,
+      experience,
+      studyDays: days.length ? days : [1, 2, 3, 4, 5],
+      onboardingComplete: true,
+      ...extra,
+    });
+  }
 
   return (
     <form
       className="space-y-3 rounded-xl border p-4"
       onSubmit={async (e) => {
         e.preventDefault();
-        await onSave({
-          ...profile,
-          examDate: examDate || null,
-          minutesPref: minutes,
-          experience,
-          onboardingComplete: true,
-        });
+        await save({ diagnosticStatus: "pending" });
       }}
     >
       <h2 className="font-heading text-lg">Optional setup</h2>
@@ -36,6 +55,16 @@ export function Onboarding({ profile, onSave }: { profile: Profile; onSave: (p: 
           onChange={(e) => setExamDate(e.target.value)}
         />
       </div>
+      <fieldset>
+        <legend className="text-sm font-medium">Study days</legend>
+        <div className="mt-2 flex flex-wrap gap-2">
+          {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((label, i) => (
+            <Button key={label} type="button" variant={days.includes(i) ? "default" : "outline"} className="min-h-11" onClick={() => toggleDay(i)}>
+              {label}
+            </Button>
+          ))}
+        </div>
+      </fieldset>
       <fieldset>
         <legend className="text-sm font-medium">Usual session length</legend>
         <div className="mt-2 flex flex-wrap gap-2">
@@ -70,10 +99,15 @@ export function Onboarding({ profile, onSave }: { profile: Profile; onSave: (p: 
           type="button"
           variant="ghost"
           className="min-h-11"
-          onClick={() => onSave({ ...profile, onboardingComplete: true, diagnosticStatus: "skipped" })}
+          onClick={() => save({ diagnosticStatus: "skipped" })}
         >
           Skip
         </Button>
+        {onDiagnostic ? (
+          <Button type="button" variant="outline" className="min-h-11" onClick={() => onDiagnostic()}>
+            Short diagnostic
+          </Button>
+        ) : null}
       </div>
     </form>
   );

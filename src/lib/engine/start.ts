@@ -1,7 +1,7 @@
 import { contentVersions, type LoadedContent } from "@/lib/content/load";
 import { allExposures, allObjectives, allSchedules, putSession } from "@/lib/db";
 import { createSession } from "@/lib/engine/create";
-import { planLessonSession, planQuiz, planStudySession, practiceQuestions } from "@/lib/engine/planner";
+import { planFormQuiz, planLessonSession, planQuiz, planStudySession, practiceQuestions } from "@/lib/engine/planner";
 import type { MinutesPref, Profile, StudySession } from "@/lib/schemas/learner";
 
 export async function startDailySession(content: LoadedContent, profile: Profile, minutes: MinutesPref): Promise<StudySession> {
@@ -45,6 +45,39 @@ export async function startQuizSession(
     beta: true,
     timed: mode === "test",
     timeLimitMs: mode === "test" ? minutes * 60 * 1000 : null,
+  });
+  await putSession(session);
+  return session;
+}
+
+export async function startFormQuizSession(content: LoadedContent, size: number): Promise<StudySession> {
+  const plan = planFormQuiz(content.modules, size);
+  const minutes = 15 as MinutesPref;
+  const session = createSession({
+    kind: "quiz",
+    mode: "test",
+    minutes,
+    items: plan.items,
+    why: plan.why,
+    contentVersion: contentVersions(content).curriculum,
+    beta: true,
+    timed: true,
+    timeLimitMs: minutes * 60 * 1000,
+  });
+  await putSession(session);
+  return session;
+}
+
+export async function startDiagnosticSession(content: LoadedContent): Promise<StudySession> {
+  const plan = planQuiz({ catalog: { curriculum: content.curriculum, modules: content.modules }, size: 5, mode: "study" });
+  const session = createSession({
+    kind: "diagnostic",
+    mode: "study",
+    minutes: 10,
+    items: plan.items,
+    why: "A short diagnostic from the practice pool. Skip anytime. Results are provisional.",
+    contentVersion: contentVersions(content).curriculum,
+    beta: true,
   });
   await putSession(session);
   return session;

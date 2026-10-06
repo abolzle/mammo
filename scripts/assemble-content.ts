@@ -9,7 +9,7 @@ import {
   parseSources,
   type ValidationIssue,
 } from "../src/lib/content/validate";
-import { coverageMatrix, sourceBreakdown } from "../src/lib/content/coverage";
+import { coverageMatrix, sourceBreakdown, coverageMarkdown } from "../src/lib/content/coverage";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -76,6 +76,14 @@ export function assemble() {
   writeFileSync(join(outDir, "sources.json"), JSON.stringify({ sources: loaded.sources }, null, 2));
   writeFileSync(join(outDir, "evidence.json"), JSON.stringify({ evidence: loaded.evidence }, null, 2));
   writeFileSync(join(outDir, "coverage.json"), JSON.stringify({ rows: coverage, breakdown }, null, 2));
+  const counts = {
+    lessons: loaded.modules.reduce((a, m) => a + m.lessons.length, 0),
+    cards: loaded.modules.reduce((a, m) => a + m.cards.length, 0),
+    practice: loaded.modules.reduce((a, m) => a + m.questions.filter((q) => q.pool === "practice").length, 0),
+    reserved: loaded.modules.reduce((a, m) => a + m.questions.filter((q) => q.pool !== "practice").length, 0),
+    visuals: loaded.modules.reduce((a, m) => a + m.visuals.length, 0),
+  };
+  writeFileSync(join(root, "docs/COVERAGE.md"), coverageMarkdown(coverage, breakdown, counts, catalog.assembledAt));
   mkdirSync(join(outDir, "pipeline"), { recursive: true });
   copyFileSync(join(root, "content/pipeline/generate.md"), join(outDir, "pipeline/generate.md"));
   copyFileSync(join(root, "content/pipeline/critique.md"), join(outDir, "pipeline/critique.md"));

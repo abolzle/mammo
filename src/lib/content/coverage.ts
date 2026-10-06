@@ -65,6 +65,54 @@ export function coverageMatrix(curriculum: Curriculum, modules: ModuleContent[])
   });
 }
 
+export function coverageMarkdown(
+  rows: CoverageRow[],
+  breakdown: ReturnType<typeof sourceBreakdown>,
+  counts: { lessons: number; cards: number; practice: number; reserved: number; visuals: number },
+  generatedOn: string,
+): string {
+  const complete = rows.filter(
+    (r) => r.sourceState !== "blocked" && r.sourceState !== "needs_source" && r.lessonIds.length > 0 && r.cardIds.length > 0 && r.learnerQuestionCount >= 3,
+  ).length;
+  const lines = [
+    "# Coverage report",
+    "",
+    `Generated ${generatedOn} by \`npm run content:assemble\`. Do not treat completeness as clinical review.`,
+    "",
+    "An objective is **complete** when it is source-backed and has a lesson, recall cards, and at least 3 practice questions.",
+    "",
+    "## Totals",
+    "",
+    "| Measure | Current | Production target |",
+    "|---|---|---|",
+    `| Objectives complete | ${complete} / ${rows.length} | all |`,
+    `| Micro-lessons | ${counts.lessons} | 60–80 |`,
+    `| Recall cards | ${counts.cards} | 200+ |`,
+    `| Practice questions | ${counts.practice} | ~800 incl. two full forms |`,
+    `| Reserved-form questions | ${counts.reserved} | two full forms |`,
+    `| Visual exercises | ${counts.visuals} | — |`,
+    "",
+    `Source state: ${breakdown.public_domain_open} open/public-domain, ${breakdown.link_only} link-only, ${breakdown.needs_source} need a source, ${breakdown.truly_blocked} blocked.`,
+    "",
+    "## Blocked objectives and the URLs needed",
+    "",
+  ];
+  const blocked = rows.filter((r) => r.sourceState === "blocked");
+  if (!blocked.length) lines.push("None.");
+  for (const r of blocked) {
+    const urls = (r.blockedUrls ?? []).join(", ");
+    lines.push(`- \`${r.objectiveId}\`: ${r.blockedNote ?? ""}${urls ? ` ${urls}` : ""}`);
+  }
+  lines.push("", "## Objective matrix", "", "| Objective | Source | Lessons | Cards | Practice | Visuals | Gap |", "|---|---|---|---|---|---|---|");
+  for (const r of rows) {
+    lines.push(
+      `| \`${r.objectiveId}\` | ${r.sourceState} | ${r.lessonIds.length} | ${r.cardIds.length} | ${r.learnerQuestionCount} | ${r.visualIds.length} | ${r.gap ?? ""} |`,
+    );
+  }
+  lines.push("");
+  return lines.join("\n");
+}
+
 export function sourceBreakdown(curriculum: Curriculum) {
   const counts = {
     public_domain_open: 0,

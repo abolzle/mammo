@@ -6,8 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useApp } from "@/components/app-provider";
 import { BetaBanner } from "@/components/review-badge";
-import { activeSession } from "@/lib/db";
-import { startDailySession } from "@/lib/engine/start";
+import { activeSession, allObjectives } from "@/lib/db";
+import { startDailySession, startDiagnosticSession } from "@/lib/engine/start";
+import { planInsufficientTime } from "@/lib/engine/planner";
 import { Onboarding } from "@/components/onboarding";
 import type { MinutesPref, StudySession } from "@/lib/schemas/learner";
 
@@ -16,10 +17,16 @@ export default function TodayPage() {
   const router = useRouter();
   const [open, setOpen] = useState<StudySession | null>(null);
   const [busy, setBusy] = useState(false);
+  const [unseen, setUnseen] = useState(0);
 
   useEffect(() => {
     void activeSession().then(setOpen);
-  }, [ready]);
+    void allObjectives().then((hist) => {
+      if (!content) return;
+      const seen = new Set(hist.filter((h) => h.seen > 0).map((h) => h.objectiveId));
+      setUnseen(content.curriculum.objectives.filter((o) => o.sourceState !== "blocked" && !seen.has(o.id)).length);
+    });
+  }, [ready, content]);
 
   if (!ready) return <p>Loading…</p>;
   if (error) return <p role="alert">{error}</p>;
@@ -27,6 +34,9 @@ export default function TodayPage() {
 
   const minutes = profile.minutesPref;
   const primary = open ? "Continue my session" : `Start my ${minutes} minutes`;
+  const fit = planInsufficientTime({ examDate: profile.examDate, minutesPref: minutes, remainingObjectives: unseen });
+  const absenceDays = (Date.now() - Date.parse(profile.lastActiveAt)) / (24 * 60 * 60 * 1000);
+  const longAbsence = profile.onboardingComplete && absenceDays >= 14;
 
   async function start(mins: MinutesPref) {
     if (!content || !profile) return;
@@ -51,7 +61,28 @@ export default function TodayPage() {
         </p>
       </header>
 
-      {!profile.onboardingComplete ? <Onboarding profile={profile} onSave={updateProfile} /> : null}
+      {!profile.onboardingComplete ? (
+        <Onboarding
+          profile={profile}
+          onSave={updateProfile}
+          onDiagnostic={async () => {
+            const s = await startDiagnosticSession(content);
+            await updateProfile({ ...profile, onboardingComplete: true, diagnosticStatus: "done" });
+            router.push(`/session/?id=${s.id}`);
+          }}
+        />
+      ) : null}
+
+      {fit ? (
+        <p className="rounded-lg border p-3 text-sm" role="status">
+          {fit}
+        </p>
+      ) : null}
+      {longAbsence ? (
+        <p className="rounded-lg border p-3 text-sm" role="status">
+          It has been a while. A short diagnostic is available from Practice if you want a recheck. Missed days do not become a backlog.
+        </p>
+      ) : null}
 
       <Card>
         <CardHeader>

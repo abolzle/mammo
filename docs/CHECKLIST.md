@@ -10,16 +10,22 @@ Keep this file current. A missing asset or unresolved source is a gap, not a com
 - [x] MQSA module: 12 lessons, 45 cards, 48 questions (38 practice / 10 form-a), 4 schematic visual exercises
 - [x] Content validator, assembler, coverage matrix
 - [x] Static-export Next.js app; no login; no live AI
-- [x] IndexedDB + schema version 1
+- [x] IndexedDB + schema version 2 (additive indexes; v1 guests upgrade)
 - [x] Today / Learn / Practice / Progress
 - [x] Session player with refresh/resume and idempotent events
 - [x] Spaced review (ts-fsrs)
-- [x] Short beta quizzes; honest refusal of 145-item simulation
-- [x] Backup/import
-- [x] Generation and critique prompt templates
+- [x] Short beta quizzes; honest refusal of 145-item simulation, 30-item baseline, and 60-item checkpoint
+- [x] Backup/import (merge and replace)
+- [x] Generation and critique prompt templates plus filled packet export / draft import
 - [x] Service worker offline cache for shell + MQSA assets
-- [x] Unit tests for validation, family separation, time budget, resume, backup, coverage
+- [x] Unit tests for validation, family separation, time budget, resume, backup, coverage, key correction
 - [x] README and this checklist
+- [x] Generated `docs/COVERAGE.md`
+
+## Intentionally not taken from `stage1-first-builder`
+
+- MQSA `questions.json` / `module.json` rewrite (main already validates; do not overwrite)
+- Parallel IndexedDB schema (`attempts` / `cardStates`) that would drop guest progress on main
 
 ## Content needing review (not done)
 

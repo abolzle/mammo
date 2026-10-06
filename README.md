@@ -17,6 +17,8 @@ Open [http://127.0.0.1:43147](http://127.0.0.1:43147). Studying starts on Today.
 ```bash
 npm test              # schema, planner, backup, resume unit tests
 npm run content:validate
+npm run content:packet -- --objective obj-mqsa-certification
+npm run typecheck
 npx playwright test   # core journey (install browsers once with npx playwright install)
 ```
 
@@ -37,7 +39,8 @@ Serve `out/` with any static host. The app uses IndexedDB on the learner's devic
 - Short beta quizzes; study mode vs test mode
 - JSON backup/import with merge (duplicate events skipped)
 - Service worker cache of the shell, MQSA JSON, and schematic SVGs
-- Maintainer workshop: coverage, paste-in JSON validation, generation/critique prompt templates
+- Maintainer workshop: coverage, paste-in JSON validation, filled generation packets, generation/critique prompt templates
+- IndexedDB schema v2 (status/session/due indexes) with additive migrations
 
 ## What is not claimed
 
@@ -62,6 +65,8 @@ Do not add leaked exam items, copied commercial banks, or patient images.
 ## Layout
 
 - `content/` — exam-aligned curriculum, source register, evidence, MQSA module, pipeline prompts
+- `content/drafts/` — validated unpublished imports (`npm run content:import`)
 - `public/content/` — assembled JSON produced by `npm run content:assemble`
 - `src/lib` — schemas, validator, IndexedDB, study engine
 - `docs/CHECKLIST.md` — completed vs remaining work
+- `docs/COVERAGE.md` — generated coverage matrix
