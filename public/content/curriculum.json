@@ -408,7 +408,7 @@
         "src-nci-pdq-breast-screening-hp",
         "src-nci-seer-breast"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-inherent-risk",
@@ -420,10 +420,12 @@
       "requiresQualifiedReview": false,
       "sourceIds": [
         "src-nci-pdq-breast-screening-hp",
+        "src-nci-pdq-breast-prevention-hp",
         "src-nci-mammograms",
-        "src-nci-dense-breasts"
+        "src-nci-dense-breasts",
+        "src-uspstf-breast-2024"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-social-risk",
@@ -434,9 +436,11 @@
       "depth": "explain",
       "requiresQualifiedReview": false,
       "sourceIds": [
-        "src-nci-pdq-breast-screening-hp"
+        "src-nci-pdq-breast-prevention-hp",
+        "src-nci-pdq-breast-screening-hp",
+        "src-nci-mammograms"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-signs-symptoms",
@@ -447,9 +451,11 @@
       "depth": "define",
       "requiresQualifiedReview": false,
       "sourceIds": [
-        "src-nci-seer-breast"
+        "src-nci-breast-symptoms",
+        "src-nci-seer-breast",
+        "src-nci-mammograms"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-history-documentation",
@@ -459,8 +465,13 @@
       "prerequisites": [],
       "depth": "apply",
       "requiresQualifiedReview": false,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-openstax-clinical-nursing-breast",
+        "src-nci-breast-symptoms",
+        "src-uspstf-breast-2024",
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-prior-images",
@@ -486,9 +497,12 @@
       "depth": "define",
       "requiresQualifiedReview": false,
       "sourceIds": [
-        "src-nci-pdq-breast-treatment-hp"
+        "src-nci-dictionary",
+        "src-nci-breast-surgery",
+        "src-nci-pdq-breast-treatment-hp",
+        "src-nci-seer-breast"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-nonsurgical-options",
@@ -499,9 +513,13 @@
       "depth": "define",
       "requiresQualifiedReview": false,
       "sourceIds": [
-        "src-nci-pdq-breast-treatment-hp"
+        "src-nci-dictionary",
+        "src-nci-breast-nonsurgical",
+        "src-nci-pdq-breast-treatment-hp",
+        "src-nci-breast-surgery",
+        "src-nci-seer-breast"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-kvp-tube",

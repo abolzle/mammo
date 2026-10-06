@@ -1,8 +1,8 @@
 {
   "id": "mod-patient-care",
-  "version": "1.0.0-beta.1",
+  "version": "1.1.0-beta.1",
   "title": "Patient care and communication",
-  "summary": "Technologist-level patient communication: preparing patients, explaining the exam and compression, screening versus diagnostic purpose, results and density notification boundaries, and infection-control habits with workplace observation prompts.",
+  "summary": "Technologist-level patient communication plus risk/epidemiology, signs and history, and treatment terminology: preparing patients, explaining the exam, screening versus diagnostic purpose, results boundaries, infection control, breast cancer incidence and risk factors, symptom recognition, history documentation, and surgical/nonsurgical definitions.",
   "topicIds": [
     "top-pc-preparation",
     "top-pc-education",
@@ -204,7 +204,7 @@
       "correctHotspotId": "a",
       "feedback": {
         "a": "Correct. Screening uses routine views in an asymptomatic patient.",
-        "b": "That path is diagnostic\u2014used for symptoms, signs, or an abnormal screening finding."
+        "b": "That path is diagnostic—used for symptoms, signs, or an abnormal screening finding."
       },
       "explanation": "NCI and MQSA audit language agree: screening is for asymptomatic routine imaging; diagnostic exams individualize views for symptoms, signs, or abnormal screening findings.",
       "accessibilityNote": "Paths are announced by purpose and view type; selecting either path is fully keyboard accessible.",
@@ -268,7 +268,7 @@
           "y": 30,
           "w": 140,
           "h": 160,
-          "revealLabel": "Dense \u2014 first dense category"
+          "revealLabel": "Dense — first dense category"
         },
         {
           "id": "d",
@@ -331,7 +331,7 @@
           "y": 30,
           "w": 196,
           "h": 190,
-          "revealLabel": "Technologist: process, comfort, MQSA timelines\u2014not individualized supplemental screening orders"
+          "revealLabel": "Technologist: process, comfort, MQSA timelines—not individualized supplemental screening orders"
         },
         {
           "id": "b",
@@ -412,7 +412,7 @@
           "y": 210,
           "w": 200,
           "h": 36,
-          "revealLabel": "Compression paddle \u2014 key patient-contact surface"
+          "revealLabel": "Compression paddle — key patient-contact surface"
         },
         {
           "id": "c",
@@ -421,7 +421,7 @@
           "y": 270,
           "w": 220,
           "h": 40,
-          "revealLabel": "Breast support / receptor cover \u2014 also a contact surface"
+          "revealLabel": "Breast support / receptor cover — also a contact surface"
         },
         {
           "id": "d",
@@ -430,7 +430,7 @@
           "y": 360,
           "w": 280,
           "h": 40,
-          "revealLabel": "Floor \u2014 facility housekeeping, not the MQSA equipment-contact rule itself"
+          "revealLabel": "Floor — facility housekeeping, not the MQSA equipment-contact rule itself"
         }
       ],
       "correctHotspotId": "b",
@@ -438,7 +438,7 @@
         "a": "The tube housing is not the patient-contact paddle surface highlighted by this question.",
         "b": "Correct. The paddle contacts the breast; MQSA requires procedures for cleaning equipment after blood/OPIM contact, following regulations and manufacturer guidance.",
         "c": "The support is also a contact surface, but this prompt asked specifically for the compression paddle zone.",
-        "d": "Floor cleaning matters in a clinic, but MQSA \u00a7 900.12(e)(13) is about mammography equipment after blood/OPIM contact."
+        "d": "Floor cleaning matters in a clinic, but MQSA § 900.12(e)(13) is about mammography equipment after blood/OPIM contact."
       },
       "explanation": "MQSA infection control is a documented system for cleaning and disinfecting mammography equipment after blood or OPIM contact, aligned with applicable regulations and manufacturer recommendations.",
       "accessibilityNote": "Zones are described by position; names appear after answering.",

@@ -8,20 +8,20 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 45 / 79 | all |
-| Micro-lessons | 91 | 60–80 |
-| Recall cards | 275 | 200+ |
-| Practice questions | 375 | ~800 incl. two full forms |
+| Objectives complete | 52 / 79 | all |
+| Micro-lessons | 99 | 60–80 |
+| Recall cards | 306 | 200+ |
+| Practice questions | 435 | ~800 incl. two full forms |
 | Reserved-form questions | 302 | two full forms |
 | Visual exercises | 32 | — |
 
-Source state: 48 open/public-domain, 7 link-only, 21 need a source, 3 blocked.
+Source state: 55 open/public-domain, 7 link-only, 14 need a source, 3 blocked.
 
 ## Complete objectives by domain
 
 | Domain | Complete | Objectives |
 |---|---|---|
-| dom-patient-care | 9 | 19 |
+| dom-patient-care | 16 | 19 |
 | dom-image-production | 20 | 34 |
 | dom-procedures | 16 | 26 |
 
@@ -36,7 +36,7 @@ Source state: 48 open/public-domain, 7 link-only, 21 need a source, 3 blocked.
 | Objective | Source | Lessons | Cards | Practice | Form | Visuals | Gap |
 |---|---|---|---|---|---|---|---|
 | `obj-pc-pre-exam-instructions` | source_backed_open | 1 | 3 | 4 | 2 | 0 |  |
-| `obj-pc-rapport-support` | source_backed_open | 1 | 1 | 3 | 3 | 0 |  |
+| `obj-pc-rapport-support` | source_backed_open | 1 | 1 | 4 | 3 | 0 |  |
 | `obj-pc-explain-compression` | source_backed_link_only | 2 | 3 | 7 | 5 | 0 |  |
 | `obj-pc-explain-repeat` | source_backed_open | 1 | 1 | 3 | 1 | 0 |  |
 | `obj-pc-screening-guidelines` | source_backed_link_only | 1 | 5 | 5 | 9 | 0 |  |
@@ -46,14 +46,14 @@ Source state: 48 open/public-domain, 7 link-only, 21 need a source, 3 blocked.
 | `obj-pc-results-pathway` | source_backed_open | 1 | 3 | 8 | 8 | 0 |  |
 | `obj-pc-additional-imaging` | source_backed_open | 1 | 2 | 5 | 2 | 0 |  |
 | `obj-pc-clinician-role` | needs_source | 0 | 1 | 5 | 4 | 1 | needs source retrieval before a lesson can be written |
-| `obj-pc-epidemiology` | needs_source | 0 | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-inherent-risk` | needs_source | 0 | 3 | 1 | 4 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-social-risk` | needs_source | 0 | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-signs-symptoms` | needs_source | 0 | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-history-documentation` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-prior-images` | source_backed_open | 0 | 2 | 5 | 2 | 0 | missing lesson |
-| `obj-pc-surgical-options` | needs_source | 0 | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-nonsurgical-options` | needs_source | 0 | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pc-epidemiology` | source_backed_open | 1 | 4 | 8 | 1 | 0 |  |
+| `obj-pc-inherent-risk` | source_backed_open | 1 | 7 | 9 | 4 | 0 |  |
+| `obj-pc-social-risk` | source_backed_open | 1 | 4 | 8 | 1 | 0 |  |
+| `obj-pc-signs-symptoms` | source_backed_open | 1 | 4 | 8 | 1 | 0 |  |
+| `obj-pc-history-documentation` | source_backed_open | 1 | 4 | 8 | 0 | 0 | no assessment-form item |
+| `obj-pc-prior-images` | source_backed_open | 1 | 4 | 10 | 2 | 0 |  |
+| `obj-pc-surgical-options` | source_backed_open | 1 | 5 | 8 | 1 | 0 |  |
+| `obj-pc-nonsurgical-options` | source_backed_open | 1 | 4 | 8 | 1 | 0 |  |
 | `obj-ip-kvp-tube` | needs_source | 1 | 5 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-paddles-grids` | source_backed_open | 1 | 4 | 5 | 3 | 0 |  |
 | `obj-ip-geometry` | needs_source | 1 | 2 | 0 | 3 | 0 | needs source retrieval before a lesson can be written |

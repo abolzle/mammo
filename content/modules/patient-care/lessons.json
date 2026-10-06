@@ -5,7 +5,7 @@
       "objectiveId": "obj-pc-pre-exam-instructions",
       "title": "Day-of instructions that protect the image",
       "estMinutes": 3,
-      "summary": "Deodorant, powders, and lotions under the arms or on the breasts can mimic or hide findings\u2014so patients leave them off for the appointment.",
+      "summary": "Deodorant, powders, and lotions under the arms or on the breasts can mimic or hide findings—so patients leave them off for the appointment.",
       "explanation": [
         {
           "heading": "What to tell patients before they change",
@@ -13,7 +13,7 @@
         },
         {
           "heading": "Clothing and access",
-          "body": "Patients typically remove clothing from the waist up and wear a facility gown open to the front. Jewelry at the neckline that overlays the field should come off. Keep instructions practical and respectful of modesty\u2014offer a private changing space and explain each step before you do it."
+          "body": "Patients typically remove clothing from the waist up and wear a facility gown open to the front. Jewelry at the neckline that overlays the field should come off. Keep instructions practical and respectful of modesty—offer a private changing space and explain each step before you do it."
         },
         {
           "heading": "If they already applied product",
@@ -28,7 +28,7 @@
       "variants": {
         "simpler": "Skip deodorant, powder, and lotion under the arms and on the breasts the day of the exam so the pictures stay clean.",
         "example": "If product is already on, clean per protocol before you image, and keep your tone matter-of-fact.",
-        "deeper": "The same NCI page also notes that breasts can be more tender around menses, so scheduling advice can reduce discomfort\u2014but product avoidance is the nonnegotiable image-quality instruction."
+        "deeper": "The same NCI page also notes that breasts can be more tender around menses, so scheduling advice can reduce discomfort—but product avoidance is the nonnegotiable image-quality instruction."
       },
       "observationPrompt": "Ask your preceptor where day-of prep instructions appear (scheduling script, text reminders, intake sheet) and what your site does when a patient arrives wearing deodorant.",
       "checkQuestionId": "q-pc-001",
@@ -60,7 +60,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       },
@@ -72,7 +72,7 @@
       "objectiveId": "obj-pc-rapport-support",
       "title": "Walking a patient through the exam without surprises",
       "estMinutes": 3,
-      "summary": "An informed process means the patient knows what will happen next\u2014positioning, compression, breath holds\u2014so anxiety drops and cooperation rises.",
+      "summary": "An informed process means the patient knows what will happen next—positioning, compression, breath holds—so anxiety drops and cooperation rises.",
       "explanation": [
         {
           "heading": "Informed process, not a speech",
@@ -80,14 +80,14 @@
         },
         {
           "heading": "Anxiety, modesty, and physical needs",
-          "body": "Mammography is intimate. Offer a cape or towel, keep the door closed, and uncover only what you need for the view. For limited mobility, cognitive impairment, or language barriers, slow down, use teach-back (\"Can you show me how you'll hold this handle?\"), and involve an interpreter or caregiver when the facility process allows\u2014without collecting stories you do not need."
+          "body": "Mammography is intimate. Offer a cape or towel, keep the door closed, and uncover only what you need for the view. For limited mobility, cognitive impairment, or language barriers, slow down, use teach-back (\"Can you show me how you'll hold this handle?\"), and involve an interpreter or caregiver when the facility process allows—without collecting stories you do not need."
         },
         {
           "heading": "What you are not doing",
           "body": "You are not delivering the diagnosis. You can explain the process, expected timelines for written results, and why a view might need repeating. Individual cancer-risk counseling and biopsy recommendations belong with the interpreting physician or referring clinician."
         }
       ],
-      "example": "A patient stiffens as the paddle lowers. You stop the drive, make eye contact, and say: \"I'm going to add a little more pressure so the tissue spreads\u2014tell me if we need to pause.\" Then you finish with the fine-adjustment control once she nods.",
+      "example": "A patient stiffens as the paddle lowers. You stop the drive, make eye contact, and say: \"I'm going to add a little more pressure so the tissue spreads—tell me if we need to pause.\" Then you finish with the fine-adjustment control once she nods.",
       "misconception": {
         "belief": "Talking less keeps anxious patients calmer.",
         "correction": "Short, concrete narration of the next step usually reduces fear of the unknown more than silence does."
@@ -128,7 +128,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       },
@@ -140,11 +140,11 @@
       "objectiveId": "obj-pc-explain-compression",
       "title": "Explaining firm compression in plain language",
       "estMinutes": 3,
-      "summary": "Compression spreads tissue and reduces motion so the radiologist can see more clearly\u2014say that, then coach through the few seconds of pressure.",
+      "summary": "Compression spreads tissue and reduces motion so the radiologist can see more clearly—say that, then coach through the few seconds of pressure.",
       "explanation": [
         {
           "heading": "The purpose sentence",
-          "body": "NCI's wording is enough for most patients: the breast is pressed between two plates **to get a better x-ray picture** of the inside of the breast. You can add that firm pressure thins overlapping tissue and helps prevent blur from motion\u2014ideas that also appear among MQSA clinical image attributes (compression and sharpness)."
+          "body": "NCI's wording is enough for most patients: the breast is pressed between two plates **to get a better x-ray picture** of the inside of the breast. You can add that firm pressure thins overlapping tissue and helps prevent blur from motion—ideas that also appear among MQSA clinical image attributes (compression and sharpness)."
         },
         {
           "heading": "Honesty about discomfort",
@@ -162,7 +162,7 @@
       },
       "variants": {
         "simpler": "Firm pressure for a few seconds makes a clearer picture. Warn first. Listen if it hurts.",
-        "example": "If a patient had bruising last year, ask what helped then\u2014slower fine adjustment, extra pause between views\u2014and document preferences.",
+        "example": "If a patient had bruising last year, ask what helped then—slower fine adjustment, extra pause between views—and document preferences.",
         "deeper": "MQSA equipment rules set force ranges for the unit's power drive; that is equipment QC, not a script for how hard to compress every patient."
       },
       "checkQuestionId": "q-pc-008",
@@ -196,7 +196,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       },
@@ -206,24 +206,24 @@
     {
       "id": "les-pc-repeat",
       "objectiveId": "obj-pc-explain-repeat",
-      "title": "When you need another image\u2014say why without alarming",
+      "title": "When you need another image—say why without alarming",
       "estMinutes": 3,
       "summary": "Motion, skinfolds, and artifacts can force a repeat. Name the technical reason; do not imply a cancer finding.",
       "explanation": [
         {
           "heading": "Technical reasons are enough",
-          "body": "Accreditation image review scores motion, artifacts, and positioning among other attributes. If the breast moves, a skinfold overlays tissue, or deodorant residue appears, you may need another exposure. Say that plainly: **\"The picture was blurry / something on the skin showed up\u2014I need one more so the radiologist can read it clearly.\"**"
+          "body": "Accreditation image review scores motion, artifacts, and positioning among other attributes. If the breast moves, a skinfold overlays tissue, or deodorant residue appears, you may need another exposure. Say that plainly: **\"The picture was blurry / something on the skin showed up—I need one more so the radiologist can read it clearly.\"**"
         },
         {
           "heading": "Separate repeats from callbacks",
-          "body": "A repeat **during the appointment** is a technologist quality decision. A **callback days later** means the interpreting physician wants more imaging. NCI reminds patients that most people called back do not have cancer\u2014use that reassurance for callbacks, not as a false promise about today's findings."
+          "body": "A repeat **during the appointment** is a technologist quality decision. A **callback days later** means the interpreting physician wants more imaging. NCI reminds patients that most people called back do not have cancer—use that reassurance for callbacks, not as a false promise about today's findings."
         },
         {
           "heading": "Tone",
           "body": "Apologize for the extra compression, not for doing your job. Avoid \"I see something weird.\" Avoid guessing BI-RADS categories from the acquisition monitor."
         }
       ],
-      "example": "Motion on the MLO: \"Your shoulder relaxed a little and the image blurred. Let's redo that one view\u2014same position, I'll coach your breath.\"",
+      "example": "Motion on the MLO: \"Your shoulder relaxed a little and the image blurred. Let's redo that one view—same position, I'll coach your breath.\"",
       "misconception": {
         "belief": "Any extra image means the technologist saw cancer.",
         "correction": "Many repeats fix motion, folds, or artifacts. Findings are interpreted by the radiologist, usually after the patient has left."
@@ -231,7 +231,7 @@
       "variants": {
         "simpler": "If the picture is blurry or blocked, take it again. Explain the technical reason. Don't diagnose.",
         "example": "Deodorant artifact: \"There are white speckles from skin product. I'll clean the skin and repeat so they don't hide real calcifications.\"",
-        "deeper": "Under EQUIP, facilities also review sample clinical images and give technologists feedback\u2014repeats are part of that quality culture, not a personal failure."
+        "deeper": "Under EQUIP, facilities also review sample clinical images and give technologists feedback—repeats are part of that quality culture, not a personal failure."
       },
       "observationPrompt": "Ask how your facility documents repeat/reject reasons and whether patients hear a standard phrase when a view is repeated.",
       "checkQuestionId": "q-pc-011",
@@ -265,7 +265,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       },
@@ -277,7 +277,7 @@
       "objectiveId": "obj-pp-screening-vs-diagnostic",
       "title": "Screening versus diagnostic: purpose, not just paperwork",
       "estMinutes": 3,
-      "summary": "Screening looks for cancer before symptoms with routine views. Diagnostic workups individualize views for symptoms, signs, or an abnormal screen\u2014and usually mean more images.",
+      "summary": "Screening looks for cancer before symptoms with routine views. Diagnostic workups individualize views for symptoms, signs, or an abnormal screen—and usually mean more images.",
       "explanation": [
         {
           "heading": "Purpose",
@@ -289,18 +289,18 @@
         },
         {
           "heading": "What to say at check-in",
-          "body": "Confirm why the patient is here. A \"screening\" order with a new palpable lump is a safety issue\u2014escalate per facility protocol rather than silently performing a four-view screen."
+          "body": "Confirm why the patient is here. A \"screening\" order with a new palpable lump is a safety issue—escalate per facility protocol rather than silently performing a four-view screen."
         }
       ],
       "example": "Patient: \"Why so many pictures today?\" You: \"Yesterday's screening needed a closer look, so today we take extra angled views of that one area.\"",
       "misconception": {
         "belief": "Diagnostic always means cancer.",
-        "correction": "Diagnostic means the exam is tailored to a question\u2014symptoms, signs, or an unclear screening finding. Most workups still rule out cancer."
+        "correction": "Diagnostic means the exam is tailored to a question—symptoms, signs, or an unclear screening finding. Most workups still rule out cancer."
       },
       "variants": {
         "simpler": "Screening: no symptoms, standard pictures. Diagnostic: a specific concern, more tailored pictures.",
         "example": "Asymptomatic patient with implants still may be a screening exam, but MQSA requires asking about implants and maximizing visible tissue.",
-        "deeper": "Recall rate in the MQSA outcomes audit is defined from screening exams assessed incomplete for additional imaging\u2014another reason the screening/diagnostic label matters in the record."
+        "deeper": "Recall rate in the MQSA outcomes audit is defined from screening exams assessed incomplete for additional imaging—another reason the screening/diagnostic label matters in the record."
       },
       "checkQuestionId": "q-pc-014",
       "evidenceIds": [
@@ -337,7 +337,7 @@
       "objectiveId": "obj-pc-screening-guidelines",
       "title": "Screening ages: USPSTF 2024 and ACS contrast",
       "estMinutes": 4,
-      "summary": "USPSTF (2024) recommends mammograms every other year from 40\u201374. ACS average-risk guidance uses annual screening for midlife ages with choices at the ends\u2014direct patients to their clinician for personal plans.",
+      "summary": "USPSTF (2024) recommends mammograms every other year from 40–74. ACS average-risk guidance uses annual screening for midlife ages with choices at the ends—direct patients to their clinician for personal plans.",
       "explanation": [
         {
           "heading": "USPSTF 2024 (retrieved)",
@@ -345,22 +345,22 @@
         },
         {
           "heading": "ACS average-risk contrast (link-only facts)",
-          "body": "ACS materials summarized in *Breast Cancer Facts & Figures 2024\u20132025*: ages **40\u201344** may start **annual** screening; **45\u201354** annual; **55+** may switch to every other year or stay annual; continue while in good health with roughly **10-year** life expectancy. High-risk ACS pathways (often annual mammogram + MRI starting around age 30 for defined high-risk groups) are separate from the USPSTF average-risk statement."
+          "body": "ACS materials summarized in *Breast Cancer Facts & Figures 2024–2025*: ages **40–44** may start **annual** screening; **45–54** annual; **55+** may switch to every other year or stay annual; continue while in good health with roughly **10-year** life expectancy. High-risk ACS pathways (often annual mammogram + MRI starting around age 30 for defined high-risk groups) are separate from the USPSTF average-risk statement."
         },
         {
           "heading": "Technologist role",
           "body": "Know the landscape so you do not contradict written guidelines, but **do not adjudicate** which society's schedule a patient must follow. People outside average-risk definitions need clinician-directed plans. When access is the barrier, NCI points to CDC's NBCCEDP for eligible low-income uninsured patients."
         }
       ],
-      "example": "Patient: \"My friend goes every year; the website said every two years.\" You: \"Different expert groups phrase schedules differently. Your clinician can match a plan to your risk\u2014today we'll complete the exam that was ordered.\"",
+      "example": "Patient: \"My friend goes every year; the website said every two years.\" You: \"Different expert groups phrase schedules differently. Your clinician can match a plan to your risk—today we'll complete the exam that was ordered.\"",
       "misconception": {
         "belief": "There is one national schedule every facility must enforce at the front desk.",
         "correction": "Orders and clinician advice govern the appointment. Guidelines differ; technologists explain options without rewriting the order."
       },
       "variants": {
-        "simpler": "USPSTF: every 2 years, ages 40\u201374. ACS average-risk: more often annual in the 45\u201354 band. Clinician decides the personal plan.",
-        "example": "Dense breasts alone do not let you promise an ultrasound\u2014USPSTF says evidence for supplemental screening is insufficient.",
-        "deeper": "USPSTF's applicable population includes many persons assigned female at birth at average risk; it excludes high-risk genetic syndromes, prior chest radiation at a young age, prior breast cancer, and high-risk lesions\u2014those patients need specialty pathways."
+        "simpler": "USPSTF: every 2 years, ages 40–74. ACS average-risk: more often annual in the 45–54 band. Clinician decides the personal plan.",
+        "example": "Dense breasts alone do not let you promise an ultrasound—USPSTF says evidence for supplemental screening is insufficient.",
+        "deeper": "USPSTF's applicable population includes many persons assigned female at birth at average risk; it excludes high-risk genetic syndromes, prior chest radiation at a young age, prior breast cancer, and high-risk lesions—those patients need specialty pathways."
       },
       "observationPrompt": "Ask how your site handles age/interval questions at scheduling and whether scripts reference USPSTF, ACS, or \"talk to your provider.\"",
       "checkQuestionId": "q-pc-018",
@@ -398,7 +398,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       },
@@ -408,13 +408,13 @@
     {
       "id": "les-pc-results",
       "objectiveId": "obj-pc-results-pathway",
-      "title": "How results reach patients\u2014and what you may say",
+      "title": "How results reach patients—and what you may say",
       "estMinutes": 3,
       "summary": "MQSA sets maximum timelines for lay summaries and provider reports. Technologists explain the pathway; they do not read out unofficial diagnoses from the acquisition screen.",
       "explanation": [
         {
           "heading": "Federal timelines",
-          "body": "Each patient gets a lay-language summary within **30 calendar days** of the exam (sooner\u2014within **7 days of final interpretation**\u2014if Suspicious or Highly Suggestive). Provider reports follow parallel urgency rules. NCI's patient page often says \"about 2 weeks\" as a practical expectation and tells patients to call if nothing arrives by then\u2014compatible with, not a replacement for, the MQSA maxima."
+          "body": "Each patient gets a lay-language summary within **30 calendar days** of the exam (sooner—within **7 days of final interpretation**—if Suspicious or Highly Suggestive). Provider reports follow parallel urgency rules. NCI's patient page often says \"about 2 weeks\" as a practical expectation and tells patients to call if nothing arrives by then—compatible with, not a replacement for, the MQSA maxima."
         },
         {
           "heading": "Self-referred patients",
@@ -432,7 +432,7 @@
       },
       "variants": {
         "simpler": "Written results come after the radiologist reads the exam. Know the 30-day and 7-day rules. Don't diagnose in the room.",
-        "example": "Suspicious case: the facility's process may include faster clinician contact\u2014follow local protocol rather than improvising.",
+        "example": "Suspicious case: the facility's process may include faster clinician contact—follow local protocol rather than improvising.",
         "deeper": "Density notification language is part of the lay summary effective September 10, 2024; that is separate from the assessment category."
       },
       "checkQuestionId": "q-pc-022",
@@ -471,9 +471,9 @@
     {
       "id": "les-pc-callback",
       "objectiveId": "obj-pc-additional-imaging",
-      "title": "Callbacks and additional imaging\u2014calm, accurate wording",
+      "title": "Callbacks and additional imaging—calm, accurate wording",
       "estMinutes": 3,
-      "summary": "Most callbacks are not cancer. Explain that more pictures (or ultrasound) clarify an area\u2014without predicting the outcome.",
+      "summary": "Most callbacks are not cancer. Explain that more pictures (or ultrasound) clarify an area—without predicting the outcome.",
       "explanation": [
         {
           "heading": "Why callbacks happen",
@@ -481,7 +481,7 @@
         },
         {
           "heading": "What helps patients",
-          "body": "NCI's sentence is gold: **most people called back are not found to have breast cancer.** Pair it with logistics\u2014when to arrive, whether to expect extra views or ultrasound, and that final answers may take another read."
+          "body": "NCI's sentence is gold: **most people called back are not found to have breast cancer.** Pair it with logistics—when to arrive, whether to expect extra views or ultrasound, and that final answers may take another read."
         },
         {
           "heading": "Stay in your lane",
@@ -491,12 +491,12 @@
       "example": "\"The radiologist wants a few extra pictures of one spot. That's common, and most of the time it turns out not to be cancer. We'll take our time and explain each view.\"",
       "misconception": {
         "belief": "A callback means the screening technologist did a poor job.",
-        "correction": "Many callbacks investigate overlapping tissue or findings that need tailored views\u2014even after excellent screening images."
+        "correction": "Many callbacks investigate overlapping tissue or findings that need tailored views—even after excellent screening images."
       },
       "variants": {
         "simpler": "Extra imaging clarifies. Most callbacks are not cancer. Be kind and specific about the next step.",
         "example": "If priors are requested, explain MQSA's 15-day transfer expectation when patients ask how long record requests take.",
-        "deeper": "Dense breasts raise both masking and callback likelihood (NCI)\u2014useful context, not a diagnosis."
+        "deeper": "Dense breasts raise both masking and callback likelihood (NCI)—useful context, not a diagnosis."
       },
       "checkQuestionId": "q-pc-026",
       "evidenceIds": [
@@ -549,7 +549,7 @@
           "body": "You may: density is common; it can make mammograms harder to read; it slightly raises risk compared with fatty breasts; the letter is required; questions about ultrasound/MRI go to their clinician because USPSTF finds evidence insufficient to recommend for or against supplemental screening for density alone.\n\nYou may not: invent a personal supplemental-screening prescription, or tell a patient her tissue is dense before the interpreting physician's report establishes the category."
         }
       ],
-      "example": "Patient reads \"dense\" in the portal and panics at the front desk. You: \"Dense tissue is common\u2014about half of women. It can hide small findings and is one risk factor among many. Your letter suggests talking with your provider about what's right for you; I can't order extra tests from here.\"",
+      "example": "Patient reads \"dense\" in the portal and panics at the front desk. You: \"Dense tissue is common—about half of women. It can hide small findings and is one risk factor among many. Your letter suggests talking with your provider about what's right for you; I can't order extra tests from here.\"",
       "misconception": {
         "belief": "If the patient felt a firm area, that proves dense breasts.",
         "correction": "Density is determined only on the mammogram by the radiologist, not by palpation."
@@ -557,7 +557,7 @@
       "variants": {
         "simpler": "Dense means more white tissue on the x-ray. Common. Letter required. Clinician discusses extra tests.",
         "example": "Use the four category names only if the report already uses them; otherwise stick to dense/not dense patient language.",
-        "deeper": "NCI notes breast-cancer patients with dense breasts are not more likely to die of breast cancer after accounting for other factors\u2014avoid fatalistic wording."
+        "deeper": "NCI notes breast-cancer patients with dense breasts are not more likely to die of breast cancer after accounting for other factors—avoid fatalistic wording."
       },
       "observationPrompt": "Read your facility's current lay-summary density paragraphs (no patient identifiers) and compare them with the federal sample statements.",
       "checkQuestionId": "q-pc-030",
@@ -624,8 +624,8 @@
       },
       "variants": {
         "simpler": "Blood or OPIM on the unit: clean per written procedure. Hands: sanitize between patients. Gloves plus hand hygiene.",
-        "example": "Ask where the exposure control plan and spill kit live on your unit\u2014not as a scavenger hunt during a real spill.",
-        "deeper": "Implant inquiry and infection control are both required MQSA policy areas\u2014different problems, same \"write it down and follow it\" habit."
+        "example": "Ask where the exposure control plan and spill kit live on your unit—not as a scavenger hunt during a real spill.",
+        "deeper": "Implant inquiry and infection control are both required MQSA policy areas—different problems, same \"write it down and follow it\" habit."
       },
       "observationPrompt": "With your preceptor, locate the written infection-control procedure for the mammography unit and the disinfectant contact time your site uses. Do not practice on equipment without supervision.",
       "checkQuestionId": "q-pc-034",
@@ -667,7 +667,7 @@
       "objectiveId": "obj-pp-implant-inquiry",
       "title": "Asking about implants before you image",
       "estMinutes": 3,
-      "summary": "MQSA requires a procedure to ask about implants before the exam. NCI: implants can hide tissue\u2014tell the facility and use displacement views when appropriate.",
+      "summary": "MQSA requires a procedure to ask about implants before the exam. NCI: implants can hide tissue—tell the facility and use displacement views when appropriate.",
       "explanation": [
         {
           "heading": "Ask every time",
@@ -675,14 +675,14 @@
         },
         {
           "heading": "Why it matters",
-          "body": "NCI: implants can hide breast tissue. Implant-displacement (ID) views help show more native tissue. Most reconstructed breasts after mastectomy usually do not need mammography of the reconstructed side\u2014confirm the order rather than assuming."
+          "body": "NCI: implants can hide breast tissue. Implant-displacement (ID) views help show more native tissue. Most reconstructed breasts after mastectomy usually do not need mammography of the reconstructed side—confirm the order rather than assuming."
         },
         {
           "heading": "Safety language",
           "body": "Explain that you will use careful positioning and, when ordered/appropriate, displacement views. If a physician modifies or contraindicates standard implant imaging, follow that direction and document it."
         }
       ],
-      "example": "\"Do you have breast implants, or any other devices in the breast?\" If yes: \"Thanks\u2014knowing that helps us take extra views that move the implant so we can see more of your tissue.\"",
+      "example": "\"Do you have breast implants, or any other devices in the breast?\" If yes: \"Thanks—knowing that helps us take extra views that move the implant so we can see more of your tissue.\"",
       "misconception": {
         "belief": "Patients with implants should skip mammograms.",
         "correction": "NCI states women with implants should continue mammograms; technique changes, not cancellation (with the reconstruction caveat above)."
@@ -727,7 +727,7 @@
       "objectiveId": "obj-pc-modalities",
       "title": "Explaining 2D, DBT, and ultrasound to patients",
       "estMinutes": 3,
-      "summary": "DBT builds a stack of thin images and also makes 2D pictures. It finds more tumors than 2D alone, but mortality benefit versus 2D is still being studied. Ultrasound is a different tool\u2014usually directed by the clinician.",
+      "summary": "DBT builds a stack of thin images and also makes 2D pictures. It finds more tumors than 2D alone, but mortality benefit versus 2D is still being studied. Ultrasound is a different tool—usually directed by the clinician.",
       "explanation": [
         {
           "heading": "2D versus DBT",
@@ -735,11 +735,11 @@
         },
         {
           "heading": "Ultrasound",
-          "body": "Ultrasound is not a replacement screening mammogram for average-risk patients in these sources. It may be used when a clinician wants more information about a specific area or as supplemental imaging in selected situations\u2014**ordered**, not invented at the technologist desk."
+          "body": "Ultrasound is not a replacement screening mammogram for average-risk patients in these sources. It may be used when a clinician wants more information about a specific area or as supplemental imaging in selected situations—**ordered**, not invented at the technologist desk."
         },
         {
           "heading": "Keep uncertainty honest",
-          "body": "If a patient asks which is \"best,\" say both 2D digital and DBT are accepted screening tools, DBT can find more cancers, and mortality comparison is still under study\u2014then point them to their clinician for modality choice and coverage questions."
+          "body": "If a patient asks which is \"best,\" say both 2D digital and DBT are accepted screening tools, DBT can find more cancers, and mortality comparison is still under study—then point them to their clinician for modality choice and coverage questions."
         }
       ],
       "example": "\"Today's tomosynthesis unit takes a quick arc of pictures and builds layered images plus a regular 2D view. You'll still feel compression like a standard mammogram.\"",
@@ -749,7 +749,7 @@
       },
       "variants": {
         "simpler": "DBT = many thin pictures stacked. Can find more tumors. Compression still happens. Ultrasound is separate and ordered.",
-        "example": "Insurance or availability may dictate 2D versus DBT locally\u2014don't promise a modality you cannot provide.",
+        "example": "Insurance or availability may dictate 2D versus DBT locally—don't promise a modality you cannot provide.",
         "deeper": "Synthesized 2D from DBT datasets is a facility/technology topic for later modules; for patients, stick to \"2D pictures are still produced\" unless your site teaches a specific product name."
       },
       "checkQuestionId": "q-pc-041",
@@ -782,12 +782,579 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       },
       "revision": 1,
       "moduleId": "mod-patient-care"
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-epidemiology",
+      "objectiveId": "obj-pc-epidemiology",
+      "title": "Incidence numbers that stay honest",
+      "summary": "Use year-labeled NCI figures for invasive, in situ, and male breast cancer—and explain why screening and hormone use move incidence.",
+      "explanation": [
+        {
+          "heading": "What to say about how common it is",
+          "body": "NCI's Screening PDQ states breast cancer is the most common **noncutaneous** cancer in U.S. women, with **2025** estimates of about **316,950 invasive**, **59,080 in situ**, and **42,170 deaths**. Men account for about **1%** of cases and deaths.\n\nSay the year. Estimates change. Never invent a \"1 in X lifetime\" number unless you have that exact sourced figure in front of you."
+        },
+        {
+          "heading": "Why the curve moves",
+          "body": "PDQ links incidence shifts to reproductive patterns, **screening participation** (more DCIS found), and **postmenopausal hormone therapy** use (rise, then decline when use fell). Inherited high-risk mutations including BRCA1/2 account for about **5%–10%** of cases—not most cases."
+        },
+        {
+          "heading": "Disparities without stereotypes",
+          "body": "Incidence is higher in White women than Black women overall, but Black women have lower stage-specific survival and about **40% higher mortality**, which PDQ ties to follow-up, treatment quality, screening quality, and tumor biology. Your job is timely, respectful care—not explaining away a person's risk."
+        }
+      ],
+      "example": "A patient asks, \"Is breast cancer exploding?\" You answer: \"More imaging finds more early disease, and hormone-therapy trends changed rates over time. The NCI figure for 2025 invasive cases is about 317,000—I'll stick to sourced numbers.\"",
+      "misconception": {
+        "belief": "Male breast cancer is so rare we can ignore it in education.",
+        "correction": "Men still account for about 1% of cases and deaths—small, not zero."
+      },
+      "variants": {
+        "simpler": "Use NCI's year-labeled counts. Mention that screening and hormones change incidence. About 1% of cases are in men.",
+        "example": "If asked for a personal lifetime risk, defer to the clinician and avoid unsourced slogans.",
+        "deeper": "PDQ notes adoption of screening is not automatically followed by a decline in advanced-stage incidence—another reason not to oversell incidence figures as proof of prevention."
+      },
+      "observationPrompt": "Ask your preceptor where the facility keeps current patient-education statistics and which year they cite.",
+      "checkQuestionId": "q-pc-104",
+      "evidenceIds": [
+        "ev-pc-pdq-incidence-2025",
+        "ev-pc-pdq-brca-share",
+        "ev-pc-pdq-incidence-drivers",
+        "ev-pc-pdq-disparity"
+      ]
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-inherent-risk",
+      "objectiveId": "obj-pc-inherent-risk",
+      "title": "Inherent risk factors that change the history",
+      "summary": "Female sex and age lead; reproductive history, personal/family history, genetics, prior chest radiation, and density also matter for imaging context.",
+      "explanation": [
+        {
+          "heading": "Start with the strongest factors",
+          "body": "PDQ: being **female**, then **advancing age**, are the biggest risks. A sourced illustration: about **1 in 175** chance of diagnosis in the next 10 years at age 30 versus about **1 in 9** at age 70—population figures, not a personal forecast."
+        },
+        {
+          "heading": "History items to capture",
+          "body": "Document reproductive history that increases estrogen exposure (**early menarche, late menopause, nulliparity, late first pregnancy**), **personal or family** breast cancer history, known **BRCA** or other high-risk genetics when disclosed, and **prior chest/mantle radiation**. Dense tissue is both a risk factor and a masking factor on mammography."
+        },
+        {
+          "heading": "Imaging implication",
+          "body": "High density lowers mammographic sensitivity. Prior high-dose chest radiation and high-risk genetics sit **outside** USPSTF average-risk screening rules—those patients need clinician-directed pathways. You gather history; you do not invent a screening schedule."
+        }
+      ],
+      "example": "Intake notes prior mantle radiation for lymphoma at age 15. You flag it for the radiologist/order pathway rather than treating the visit as average-risk screening chatter.",
+      "misconception": {
+        "belief": "If density is high, cancer death risk must also be high.",
+        "correction": "PDQ links high density to higher incidence and lower mammographic sensitivity, not to higher breast-cancer death."
+      },
+      "variants": {
+        "simpler": "Age and female sex matter most. Also note family/personal history, genetics, chest radiation, reproductive history, and density.",
+        "example": "Ask about prior chest radiation when the history form includes cancer treatment as a child or young adult.",
+        "deeper": "PDQ dense-breast supplemental imaging may find more cancers but has not shown a mortality benefit; more false positives are expected."
+      },
+      "observationPrompt": "Review your facility history sheet and mark which fields map to inherent risk factors in this lesson.",
+      "checkQuestionId": "q-pc-112",
+      "evidenceIds": [
+        "ev-pc-pdq-biggest-risks",
+        "ev-pc-prev-age-risk",
+        "ev-pc-prev-repro-mht",
+        "ev-pc-prev-radiation-mantle",
+        "ev-pc-pdq-density-imaging",
+        "ev-pc-nci-dense-risk",
+        "ev-pc-uspstf-gender-population"
+      ]
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-social-risk",
+      "objectiveId": "obj-pc-social-risk",
+      "title": "Hormones, lifestyle, and access on the imaging history",
+      "summary": "Alcohol, postmenopausal obesity, menopausal hormone therapy, and access barriers belong on the history—and they change how you talk about screening follow-up.",
+      "explanation": [
+        {
+          "heading": "Hormone and lifestyle factors",
+          "body": "Combination **estrogen-progesterone menopausal hormone therapy** increases risk. **Alcohol** is associated with increased risk. **Obesity** increases risk in postmenopausal women who have not used hormone therapy. Document MHT use because PDQ also links hormone therapy to **higher density, lower mammographic sensitivity, and more interval cancers**."
+        },
+        {
+          "heading": "Access is part of risk",
+          "body": "PDQ disparities discussion highlights delayed follow-up after abnormal screens and unequal treatment quality. Know your facility's path to programs such as NBCCEDP (via NCI patient guidance) without promising eligibility."
+        },
+        {
+          "heading": "Boundaries",
+          "body": "You are not prescribing hormones or diets. You record history accurately, explain why priors and timely callback matter, and hand clinical counseling to qualified clinicians."
+        }
+      ],
+      "example": "Patient reports current combined MHT. You document it and avoid saying \"hormones always cause cancer,\" while recognizing density/sensitivity effects described in PDQ.",
+      "misconception": {
+        "belief": "Social risk factors are optional small talk.",
+        "correction": "They affect incidence patterns and can change mammographic sensitivity—document them."
+      },
+      "variants": {
+        "simpler": "Ask about alcohol, weight-related history as your form requires, and menopausal hormone therapy. Access barriers matter for follow-up.",
+        "example": "If a patient cannot afford follow-up, share facility-approved resource language rather than inventing program rules.",
+        "deeper": "Distinguish menopausal hormone therapy (risk factor) from breast-cancer hormone/endocrine *treatment* (different purpose)."
+      },
+      "observationPrompt": "Locate where your EMR or paper history captures MHT, alcohol, and financial/access barriers.",
+      "checkQuestionId": "q-pc-120",
+      "evidenceIds": [
+        "ev-pc-prev-repro-mht",
+        "ev-pc-prev-obesity-alcohol",
+        "ev-pc-pdq-density-imaging",
+        "ev-pc-pdq-disparity",
+        "ev-pc-nci-access-nbccedp",
+        "ev-pc-nci-ht-receptors"
+      ]
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-signs-symptoms",
+      "objectiveId": "obj-pc-signs-symptoms",
+      "title": "Signs and symptoms that change the exam path",
+      "summary": "Recognize lumps, nipple and skin changes, and peau d’orange—and remember pain is usually not cancer while early cancer is often silent.",
+      "explanation": [
+        {
+          "heading": "What to notice and document",
+          "body": "NCI and SEER lists align: **lump or thickening** (breast or underarm), **size/shape change**, **dimpling/puckering**, **nipple inversion or non-milk discharge** (especially bloody), **scaliness, redness/swelling**, and **peau d’orange**. Document laterality, location language your facility uses, and onset."
+        },
+        {
+          "heading": "Pain and silence",
+          "body": "NCI: breast cancer **does not usually cause pain**. Early cancer often has **no symptoms**—that is why screening exists. Persistent pain still needs a clinician visit."
+        },
+        {
+          "heading": "Pathway",
+          "body": "Symptoms can prompt a **diagnostic** mammogram or other tests even after a recent normal screen. You do not diagnose; you escalate per protocol."
+        }
+      ],
+      "example": "Patient mentions new bloody nipple discharge on the history. You stop treating the study as asymptomatic screening and follow diagnostic intake steps.",
+      "misconception": {
+        "belief": "No pain means no problem worth documenting.",
+        "correction": "Many cancers are painless; documented symptoms still matter for exam type."
+      },
+      "variants": {
+        "simpler": "Lumps, skin/nipple changes, and underarm findings matter. Pain is an unreliable cancer signal. Screening finds silent disease.",
+        "example": "Peau d’orange means orange-peel skin dimpling—document and escalate; do not label inflammatory cancer yourself.",
+        "deeper": "SEER notes many women never develop symptoms because screening detects disease earlier—use that to reinforce why asymptomatic screening still matters."
+      },
+      "observationPrompt": "Ask how your site converts a screening appointment to diagnostic when new symptoms are reported at check-in.",
+      "checkQuestionId": "q-pc-128",
+      "evidenceIds": [
+        "ev-pc-nci-symptoms-list",
+        "ev-pc-nci-pain-not-usual",
+        "ev-pc-seer-symptoms-exam",
+        "ev-pc-nci-symptoms-diagnostic",
+        "ev-pc-nci-screen-vs-dx"
+      ]
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-history-doc",
+      "objectiveId": "obj-pc-history-documentation",
+      "title": "History that the images cannot say alone",
+      "summary": "Review the order, interview for risk and surgical history, document clinical findings, and note gender-inclusive screening population factors—marker details stay facility-specific.",
+      "explanation": [
+        {
+          "heading": "Start with the request",
+          "body": "Confirm the imaging request matches the visit type (screening vs diagnostic), laterality, and clinical question. Symptoms on the order should match what the patient reports today."
+        },
+        {
+          "heading": "What open sources support documenting",
+          "body": "OpenStax emphasizes a structured **health-history interview** (age, personal/family history, and other risk factors) plus inspection/palpation cues (dimpling, thickening, discharge, pain). NCI/SEER supply the symptom list. Document **surgical history** in plain terms (lumpectomy, mastectomy type, reconstruction/implants, axillary surgery) because it changes anatomy and comparison."
+        },
+        {
+          "heading": "Gender-affirming care — sourced boundary",
+          "body": "USPSTF average-risk recommendations include **transgender men and nonbinary persons assigned female at birth**. High-risk exclusions (BRCA syndromes, high-dose chest radiation young, prior breast cancer, high-risk biopsy lesions) need clinician pathways. Exact charting of top surgery or gender-affirming hormones follows **facility protocol**—do not invent fields."
+        },
+        {
+          "heading": "Scars, moles, tattoos",
+          "body": "Objective language expects documenting lumps, scars, moles, and tattoos for correlation. Open public sources retrieved for this batch do **not** specify marker shapes or diagram rules. Follow your written protocol and accreditation guidance; leave unsourced marker trivia out of scored teaching until a permitted source is registered."
+        }
+      ],
+      "example": "Order says screening, but the patient reports a new lump. You reconcile the history with the order before imaging and escalate per protocol.",
+      "misconception": {
+        "belief": "If it is not on the order, you can skip asking.",
+        "correction": "Intake interview still captures symptoms and surgical changes that affect the study."
+      },
+      "variants": {
+        "simpler": "Match the order to the patient story. Record surgeries and symptoms. Use facility rules for skin findings.",
+        "example": "Ask about prior breast surgery and reconstruction before positioning.",
+        "deeper": "Prior mammogram transfer (15 calendar days under MQSA) is part of history workflow when comparison is needed."
+      },
+      "observationPrompt": "With a preceptor, walk one history sheet and mark which items are required by policy versus optional local prompts.",
+      "checkQuestionId": "q-pc-136",
+      "evidenceIds": [
+        "ev-pc-openstax-breast-hx",
+        "ev-pc-nci-symptoms-list",
+        "ev-pc-seer-symptoms-exam",
+        "ev-pc-uspstf-gender-population",
+        "ev-mqsa-record-transfer",
+        "ev-pc-nci-symptoms-diagnostic"
+      ]
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-prior-images",
+      "objectiveId": "obj-pc-prior-images",
+      "title": "Why priors matter—and the 15-day transfer clock",
+      "summary": "Comparison reduces unnecessary callbacks; MQSA requires transfer of originals or copies within 15 calendar days when requested.",
+      "explanation": [
+        {
+          "heading": "Clinical reason",
+          "body": "Priors help the interpreting physician see stability versus change. Incomplete work-ups may explicitly need prior mammograms for comparison under MQSA reporting language."
+        },
+        {
+          "heading": "Regulatory clock",
+          "body": "On patient request, facilities transfer originals or release copies within **15 calendar days**, in the original modality, with digital/DBT available electronically as original digital images when sent for final interpretation."
+        },
+        {
+          "heading": "Technologist actions",
+          "body": "Ask where priors live, help patients request transfers early, and document when comparison is pending—without blaming the patient for another facility's delay."
+        }
+      ],
+      "example": "New patient has no priors on the workstation. You start the transfer request the same day rather than waiting until after the read.",
+      "misconception": {
+        "belief": "Priors are a courtesy; timing is flexible.",
+        "correction": "MQSA sets a 15-calendar-day transfer timeline after the facility receives the request."
+      },
+      "variants": {
+        "simpler": "Get priors for comparison. Transfers are due within 15 calendar days of the request.",
+        "example": "Give patients the facility's medical-records request path before they leave.",
+        "deeper": "Fees for copies cannot exceed documented costs under MQSA."
+      },
+      "observationPrompt": "Find your site's prior-request form and the person who tracks outstanding transfers.",
+      "checkQuestionId": "q-pc-144",
+      "evidenceIds": [
+        "ev-mqsa-record-transfer",
+        "ev-mqsa-incomplete-categories"
+      ]
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-surgical",
+      "objectiveId": "obj-pc-surgical-options",
+      "title": "Surgery words patients hear",
+      "summary": "Define lumpectomy, sentinel node biopsy, simple and modified radical mastectomy, and prophylactic mastectomy—without choosing a treatment.",
+      "explanation": [
+        {
+          "heading": "Breast-conserving surgery",
+          "body": "**Lumpectomy** removes the cancer/abnormal tissue and a rim of normal tissue, not the whole breast. It is also called breast-conserving or partial mastectomy. Radiation often follows."
+        },
+        {
+          "heading": "Mastectomy family",
+          "body": "**Simple/total mastectomy** removes the whole breast. **Modified radical mastectomy** removes the whole breast plus most axillary nodes. **Prophylactic/risk-reducing mastectomy** removes one or both breasts before disease in very high-risk people. Skin- and nipple-sparing variants exist when surgeons judge them appropriate."
+        },
+        {
+          "heading": "Nodes",
+          "body": "**Sentinel lymph node biopsy** finds and removes the first drainage node(s) using tracer and/or blue dye—less extensive than a full axillary dissection."
+        }
+      ],
+      "example": "A patient says she had a \"partial mastectomy.\" You map that synonym to lumpectomy/breast-conserving surgery when recording history.",
+      "misconception": {
+        "belief": "Mastectomy always includes removing chest muscles.",
+        "correction": "That describes historic radical mastectomy, which is rarely used now."
+      },
+      "variants": {
+        "simpler": "Lumpectomy keeps the breast; mastectomy removes it. Sentinel biopsy checks the first node. Prophylactic means risk-reducing before cancer.",
+        "example": "Ask whether reconstruction was immediate or delayed when relevant to anatomy.",
+        "deeper": "NCI notes lumpectomy plus radiation can match mastectomy for survival in appropriate candidates—still a clinician conversation."
+      },
+      "observationPrompt": "List the surgical history terms your intake form already includes and match them to this lesson's definitions.",
+      "checkQuestionId": "q-pc-148",
+      "evidenceIds": [
+        "ev-pc-dict-lumpectomy",
+        "ev-pc-dict-simple-mastectomy",
+        "ev-pc-dict-mrm",
+        "ev-pc-dict-prophylactic-mastectomy",
+        "ev-pc-dict-slnb",
+        "ev-pc-nci-mastectomy-types"
+      ]
+    },
+    {
+      "estMinutes": 3,
+      "moduleId": "mod-patient-care",
+      "revision": 1,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+          }
+        ]
+      },
+      "id": "les-pc-nonsurgical",
+      "objectiveId": "obj-pc-nonsurgical-options",
+      "title": "Systemic and local nonsurgical terms",
+      "summary": "Define radiation, chemotherapy, hormone therapy, ER/PR/HER2 status, and implant reconstruction at vocabulary level only.",
+      "explanation": [
+        {
+          "heading": "Local vs systemic",
+          "body": "**Radiation** is a local treatment using high-energy beams or internal sources. **Chemotherapy** is systemic drug therapy that kills or stops dividing cells. **Hormone/endocrine therapy** blocks or removes hormonal fuel for HR-positive disease—and is **not** the same as menopausal hormone therapy."
+        },
+        {
+          "heading": "Receptor status",
+          "body": "Tumors are tested for **ER**, **PR**, and **HER2**. Combinations include HER2-positive and **triple-negative** (ER/PR/HER2 negative). HR-positive cancers may respond to endocrine therapy; HR-negative do not. About **80%** of breast cancers are HR-positive per NCI patient guidance."
+        },
+        {
+          "heading": "Reconstruction implants",
+          "body": "Reconstruction may use **implants** (often expander then implant) and/or the patient's own tissue, immediate or delayed. Know the words for history; do not counsel cosmetic choices."
+        }
+      ],
+      "example": "Patient says she is on \"hormone therapy.\" You clarify whether she means breast-cancer endocrine treatment or menopausal hormones before documenting.",
+      "misconception": {
+        "belief": "Technologists should explain which chemo regimen is best.",
+        "correction": "Stay at definitions; regimens are clinician territory."
+      },
+      "variants": {
+        "simpler": "Radiation is local. Chemo and many drug therapies are systemic. ER/PR/HER2 guide drug classes. Implants are one reconstruction option.",
+        "example": "Triple-negative means ER, PR, and HER2 are all negative.",
+        "deeper": "SEER notes biomarkers can be diagnostic, predictive, or prognostic—predictive means they help anticipate treatment response."
+      },
+      "observationPrompt": "Ask oncology or your preceptor how biomarker results appear on reports patients bring to mammography visits.",
+      "checkQuestionId": "q-pc-156",
+      "evidenceIds": [
+        "ev-pc-dict-chemo-rt-ht",
+        "ev-pc-dict-er-pr-her2",
+        "ev-pc-pdq-receptor-classes",
+        "ev-pc-seer-biomarkers",
+        "ev-pc-nci-ht-receptors",
+        "ev-pc-nci-local-systemic",
+        "ev-pc-nci-reconstruction-implant"
+      ]
     }
   ]
 }

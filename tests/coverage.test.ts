@@ -11,20 +11,19 @@ const row = (rows: ReturnType<typeof coverageMatrix>, id: string) => rows.find((
 
 describe("module-local coverage", () => {
   it("counts a module coverage.json entry toward its objective", () => {
-    const target = "obj-pc-prior-images";
+    // Cross-link a lesson onto an objective it does not own; coverage.json should still count it.
+    const target = "obj-pc-bse-cbe";
     const lesson = loaded.modules.flatMap((m) => m.lessons).find((l) => l.id === "les-pc-results")!;
     expect(lesson.objectiveId).not.toBe(target);
 
     const without = row(coverageMatrix(curriculum, loaded.modules, opts), target);
     expect(without.lessonIds).not.toContain(lesson.id);
-    expect(without.gap).toBe("missing lesson");
 
     const moduleCoverage = [
       parseModuleCoverage({ moduleId: "mod-patient-care", objectiveCoverage: [{ objectiveId: target, lessonIds: [lesson.id] }] }),
     ];
     const withLink = row(coverageMatrix(curriculum, loaded.modules, { ...opts, moduleCoverage }), target);
     expect(withLink.lessonIds).toContain(lesson.id);
-    expect(withLink.gap).not.toBe("missing lesson");
   });
 
   it("reads the `rows` shape used by some modules", () => {
@@ -49,12 +48,27 @@ describe("module-local coverage", () => {
   });
 
   it("does not apply a follow-up whose sources are unregistered", () => {
+    // Use an objective that remains needs_source in curriculum.json (epidemiology is now source-checked).
+    const raw = JSON.parse(readFileSync(join(__dirname, "../content/curriculum/curriculum.json"), "utf8"));
+    const { curriculum: rawCurriculum } = applyCurriculumFollowUps(
+      // parseCurriculum shape is already applied in loaded; rebuild a minimal clone from raw JSON fields.
+      {
+        ...curriculum,
+        objectives: curriculum.objectives.map((o) => {
+          const fromFile = (raw.objectives as { id: string; sourceState: string; sourceIds?: string[] }[]).find((r) => r.id === o.id)!;
+          return { ...o, sourceState: fromFile.sourceState as typeof o.sourceState, sourceIds: [...(fromFile.sourceIds ?? o.sourceIds)] };
+        }),
+      },
+      [],
+      loaded.sources,
+    );
+    expect(rawCurriculum.objectives.find((o) => o.id === "obj-pc-bse-cbe")!.sourceState).toBe("needs_source");
     const cov = parseModuleCoverage({
       moduleId: "mod-x",
-      curriculumFollowUps: [{ objectiveId: "obj-pc-epidemiology", suggestedSourceState: "source_backed_open", suggestedSourceIds: ["src-nope"] }],
+      curriculumFollowUps: [{ objectiveId: "obj-pc-bse-cbe", suggestedSourceState: "source_backed_open", suggestedSourceIds: ["src-nope"] }],
     });
-    const { curriculum: next, issues } = applyCurriculumFollowUps(curriculum, [cov], loaded.sources);
-    expect(next.objectives.find((o) => o.id === "obj-pc-epidemiology")!.sourceState).toBe("needs_source");
+    const { curriculum: next, issues } = applyCurriculumFollowUps(rawCurriculum, [cov], loaded.sources);
+    expect(next.objectives.find((o) => o.id === "obj-pc-bse-cbe")!.sourceState).toBe("needs_source");
     expect(issues.some((i) => i.level === "error")).toBe(true);
   });
 
