@@ -70,3 +70,4 @@ Do not add leaked exam items, copied commercial banks, or patient images.
 - `src/lib` — schemas, validator, IndexedDB, study engine
 - `docs/CHECKLIST.md` — completed vs remaining work
 - `docs/COVERAGE.md` — generated coverage matrix
+- `docs/source-check-worksheet.md` — maintainer source-check for 18 content-ready `needs_source` objectives (Confirm / Reject / Needs more source). Regenerate with `npx tsx scripts/gen-source-check-worksheet.ts`. Do not flip `sourceState` until Aaron signs off.
