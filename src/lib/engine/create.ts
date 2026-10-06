@@ -1,17 +1,18 @@
-import type { MinutesPref, StudySession } from "@/lib/schemas/learner";
+import type { AssessmentMeta, StudySession } from "@/lib/schemas/learner";
 import { newId, nowIso } from "./ids";
 import type { SessionItem } from "@/lib/schemas/learner";
 
 export function createSession(args: {
   kind: StudySession["kind"];
   mode: StudySession["mode"];
-  minutes: MinutesPref;
+  minutes: number;
   items: SessionItem[];
   why: string;
   contentVersion: string;
   beta: boolean;
   timed?: boolean;
   timeLimitMs?: number | null;
+  assessment?: AssessmentMeta;
 }): StudySession {
   const now = nowIso();
   return {
@@ -33,5 +34,6 @@ export function createSession(args: {
     contentVersion: args.contentVersion,
     beta: args.beta,
     submitted: false,
+    ...(args.assessment ? { assessment: args.assessment } : {}),
   };
 }

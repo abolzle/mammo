@@ -2,14 +2,12 @@ import { describe, expect, it } from "vitest";
 import { loadRepoContent } from "../scripts/assemble-content";
 import { coverageMatrix, sourceBreakdown } from "../src/lib/content/coverage";
 import { isLearnerVisible, isValidatedPool, validateImportedJson } from "../src/lib/content/validate";
-import { planFullSimulationUnavailable, planQuiz, planStudySession, practiceQuestions, reservedFamilies } from "../src/lib/engine/planner";
+import { planQuiz, planStudySession, practiceQuestions, reservedFamilies } from "../src/lib/engine/planner";
 import { defaultProfile } from "../src/lib/db";
 import { applyAnswer, liveElapsedMs } from "../src/lib/engine/session";
 import { createSession } from "../src/lib/engine/create";
 import { eventId } from "../src/lib/engine/ids";
 import { parseBackupText, importBackup, exportBackup } from "../src/lib/engine/backup";
-import { EXAM } from "../src/config/exam";
-import { offerAssessment } from "../src/lib/engine/assessment";
 import { parseDraftJson, buildGeneratePacket } from "../src/lib/content/packet";
 import { reconcileEvent } from "../src/lib/engine/reconcile";
 import { ensureProfile, putEvent, putExposure, getExposure, resetDb } from "../src/lib/db";
@@ -72,8 +70,6 @@ describe("planner", () => {
 
   it("offers a shorter quiz instead of inventing a full simulation", () => {
     const available = practiceQuestions(loaded.modules).length;
-    const sim = planFullSimulationUnavailable(EXAM.totalQuestions, available);
-    expect(sim.allowed).toBe(false);
     const requested = available + 40;
     const quiz = planQuiz({
       catalog: { curriculum: loaded.curriculum!, modules: loaded.modules },
@@ -169,17 +165,7 @@ describe("backup", () => {
 });
 
 describe("assessment honesty", () => {
-  it("refuses a 60-question checkpoint and a 145-item simulation", () => {
-    const checkpoint = offerAssessment("checkpoint", loaded.modules);
-    expect(checkpoint.ok).toBe(false);
-    if (!checkpoint.ok) expect(checkpoint.fallback).toBeTruthy();
-    const sim = offerAssessment("simulation", loaded.modules);
-    expect(sim.ok).toBe(false);
-  });
-
-  it("offers a reserved Form A quiz without mixing those families into daily study", () => {
-    const form = offerAssessment("form_quiz", loaded.modules);
-    expect(form.ok).toBe(true);
+  it("keeps reserved Form A families out of daily study", () => {
     const reserved = reservedFamilies(loaded.modules);
     const daily = planStudySession({
       catalog: { curriculum: loaded.curriculum!, modules: loaded.modules },

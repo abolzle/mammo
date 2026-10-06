@@ -254,16 +254,6 @@ export function planQuiz(args: {
   return { items: [...slice.map(itemFromQuestion), recapItem()], why, offered: slice.length, requested, shorter };
 }
 
-export function planFormQuiz(modules: ModuleContent[], size: number) {
-  const qs = modules.flatMap((m) => m.questions.filter((q) => q.pool === "form-a" && isLearnerVisible(q.review.status)));
-  const slice = qs.slice(0, size);
-  const shorter = slice.length < size;
-  const why = shorter
-    ? `Form A has ${slice.length} items, not ${size}. This is a shorter reserved quiz, not a padded score.`
-    : `A ${slice.length}-item reserved Form A quiz in test mode. These families stay out of daily study.`;
-  return { items: [...slice.map(itemFromQuestion), recapItem()], why, offered: slice.length, requested: size, shorter };
-}
-
 export function planInsufficientTime(args: { examDate: string | null; minutesPref: MinutesPref; remainingObjectives: number; now?: Date }): string | null {
   if (!args.examDate) return null;
   const now = args.now ?? new Date();
@@ -277,13 +267,6 @@ export function planInsufficientTime(args: { examDate: string | null; minutesPre
     return `At ${args.minutesPref} minutes a day, the remaining mapped material does not fit before ${args.examDate}. You can lengthen sessions, move the date, or keep studying the highest-yield MQSA items you have. This is not a readiness claim.`;
   }
   return null;
-}
-
-export function planFullSimulationUnavailable(requested: number, available: number) {
-  return {
-    allowed: false as const,
-    message: `A ${requested}-question simulation is not offered. The practice pool currently has ${available} items, and reserved form families stay out of daily study. Use a shorter beta quiz instead of a fabricated full-length result.`,
-  };
 }
 
 export function planLessonSession(lesson: Lesson, check: Question | undefined): SessionItem[] {
