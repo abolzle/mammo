@@ -1,0 +1,303 @@
+{
+  "moduleId": "mod-patient-care",
+  "version": "2026-10-06.1",
+  "note": "Module-local coverage links for Stage 2 patient-care. Shared curriculum.json topic.moduleId fields were left unchanged to avoid merge conflicts with other batches.",
+  "objectiveCoverage": [
+    {
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pc-010"
+      ],
+      "cardIds": [
+        "card-pc-compression-attr"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-mqsa-density-reporting",
+      "lessonIds": [
+        "les-pc-density"
+      ],
+      "questionIds": [
+        "q-pc-030",
+        "q-pc-031",
+        "q-pc-032",
+        "q-pc-033",
+        "q-pc-046"
+      ],
+      "cardIds": [
+        "card-pc-dense-map",
+        "card-pc-dense-date"
+      ],
+      "visualIds": [
+        "vis-pc-density-boundary"
+      ]
+    },
+    {
+      "objectiveId": "obj-mqsa-required-policies",
+      "lessonIds": [
+        "les-pc-infection"
+      ],
+      "questionIds": [
+        "q-pc-034",
+        "q-pc-035",
+        "q-pc-047"
+      ],
+      "cardIds": [
+        "card-pc-infection"
+      ],
+      "visualIds": [
+        "vis-pc-infection-surface"
+      ]
+    },
+    {
+      "objectiveId": "obj-pc-additional-imaging",
+      "lessonIds": [
+        "les-pc-callback"
+      ],
+      "questionIds": [
+        "q-pc-012",
+        "q-pc-026",
+        "q-pc-027",
+        "q-pc-028",
+        "q-pc-029"
+      ],
+      "cardIds": [
+        "card-pc-repeat-vs-callback",
+        "card-pc-callback"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-clinician-role",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pc-006",
+        "q-pc-024",
+        "q-pc-030",
+        "q-pc-033",
+        "q-pc-043"
+      ],
+      "cardIds": [
+        "card-pc-no-diagnose"
+      ],
+      "visualIds": [
+        "vis-pc-who-explains-density"
+      ]
+    },
+    {
+      "objectiveId": "obj-pc-explain-compression",
+      "lessonIds": [
+        "les-pc-compression"
+      ],
+      "questionIds": [
+        "q-pc-008",
+        "q-pc-009",
+        "q-pc-010"
+      ],
+      "cardIds": [
+        "card-pc-compression-why"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-explain-repeat",
+      "lessonIds": [
+        "les-pc-repeat"
+      ],
+      "questionIds": [
+        "q-pc-011",
+        "q-pc-012",
+        "q-pc-013"
+      ],
+      "cardIds": [
+        "card-pc-repeat"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-inherent-risk",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pc-031"
+      ],
+      "cardIds": [
+        "card-pc-dense-common",
+        "card-pc-dense-feel",
+        "card-pc-dense-risk"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-modalities",
+      "lessonIds": [
+        "les-pc-modalities"
+      ],
+      "questionIds": [
+        "q-pc-041",
+        "q-pc-042",
+        "q-pc-043"
+      ],
+      "cardIds": [
+        "card-pc-dbt",
+        "card-pc-modalities-uspstf"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-pre-exam-instructions",
+      "lessonIds": [
+        "les-pc-pre-exam"
+      ],
+      "questionIds": [
+        "q-pc-001",
+        "q-pc-002",
+        "q-pc-003",
+        "q-pc-004"
+      ],
+      "cardIds": [
+        "card-pc-deodorant",
+        "card-pc-deodorant-why",
+        "card-pc-menses"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-prior-images",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pc-028"
+      ],
+      "cardIds": [
+        "card-pc-transfer-15"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-rapport-support",
+      "lessonIds": [
+        "les-pc-exam-process"
+      ],
+      "questionIds": [
+        "q-pc-005",
+        "q-pc-006",
+        "q-pc-007"
+      ],
+      "cardIds": [
+        "card-pc-narrate"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-results-pathway",
+      "lessonIds": [
+        "les-pc-results"
+      ],
+      "questionIds": [
+        "q-pc-022",
+        "q-pc-023",
+        "q-pc-024",
+        "q-pc-025",
+        "q-pc-044"
+      ],
+      "cardIds": [
+        "card-pc-lay-30",
+        "card-pc-lay-7",
+        "card-pc-nci-2w"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-screening-guidelines",
+      "lessonIds": [
+        "les-pc-guidelines"
+      ],
+      "questionIds": [
+        "q-pc-018",
+        "q-pc-019",
+        "q-pc-020",
+        "q-pc-021",
+        "q-pc-048"
+      ],
+      "cardIds": [
+        "card-pc-uspstf",
+        "card-pc-uspstf-75",
+        "card-pc-acs",
+        "card-pc-uspstf-dense-i",
+        "card-pc-nbccedp"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pp-biohazard",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pc-035",
+        "q-pc-036",
+        "q-pc-037"
+      ],
+      "cardIds": [
+        "card-pc-bbp",
+        "card-pc-hh",
+        "card-pc-gloves"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pp-implant-inquiry",
+      "lessonIds": [
+        "les-pc-implants"
+      ],
+      "questionIds": [
+        "q-pc-038",
+        "q-pc-039",
+        "q-pc-040"
+      ],
+      "cardIds": [
+        "card-pc-implant-ask",
+        "card-pc-implant-id"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "lessonIds": [
+        "les-pc-screen-vs-dx"
+      ],
+      "questionIds": [
+        "q-pc-014",
+        "q-pc-015",
+        "q-pc-016",
+        "q-pc-017",
+        "q-pc-045"
+      ],
+      "cardIds": [
+        "card-pc-screen",
+        "card-pc-diagnostic",
+        "card-pc-dx-dose"
+      ],
+      "visualIds": [
+        "vis-pc-screen-vs-dx"
+      ]
+    }
+  ],
+  "gapsNoted": [
+    {
+      "objectiveId": "obj-pc-bse-cbe",
+      "note": "ACS HTML page timed out; BSE/CBE position not extracted into evidence this batch. Left uncovered rather than inventing."
+    },
+    {
+      "objectiveId": "obj-pc-typical-dose",
+      "note": "Patient-friendly dose script needs qualified review with NRC/NCI numeric sources; not claimed complete here."
+    },
+    {
+      "objectiveId": "obj-pc-epidemiology",
+      "note": "Full incidence teaching reserved for a later risk/epidemiology batch."
+    },
+    {
+      "objectiveId": "obj-pc-history-documentation",
+      "note": "Detailed history-form skills need facility-procedure sources beyond this communication batch."
+    }
+  ]
+}

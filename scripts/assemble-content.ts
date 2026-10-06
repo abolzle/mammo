@@ -23,19 +23,32 @@ function loadRepoContent() {
   issues.push(...sIssues);
   const { curriculum, issues: cIssues } = parseCurriculum(readJson(join(root, "content/curriculum/curriculum.json")));
   issues.push(...cIssues);
-  const { evidence, issues: eIssues } = parseEvidenceFile(readJson(join(root, "content/evidence/mqsa.json")));
-  issues.push(...eIssues);
-  const moduleMeta = readJson(join(root, "content/modules/mqsa/module.json")) as Record<string, unknown>;
-  const lessons = (readJson(join(root, "content/modules/mqsa/lessons.json")) as { lessons: unknown[] }).lessons;
-  const questions = (readJson(join(root, "content/modules/mqsa/questions.json")) as { questions: unknown[] }).questions;
-  const cards = (readJson(join(root, "content/modules/mqsa/cards.json")) as { cards: unknown[] }).cards;
-  const { module, issues: mIssues } = assembleModule({ module: moduleMeta, lessons, questions, cards });
-  issues.push(...mIssues);
-  if (!curriculum || !module) {
-    return { ok: false as const, issues, curriculum, sources, evidence, modules: module ? [module] : [] };
+
+  const evidence: ReturnType<typeof parseEvidenceFile>["evidence"] = [];
+  for (const name of ["mqsa", "patient-care"]) {
+    const { evidence: chunk, issues: eIssues } = parseEvidenceFile(
+      readJson(join(root, `content/evidence/${name}.json`)),
+    );
+    evidence.push(...chunk);
+    issues.push(...eIssues);
   }
-  issues.push(...crossCheck({ curriculum, sources, evidence, modules: [module] }));
-  return { ok: issues.filter((i) => i.level === "error").length === 0, issues, curriculum, sources, evidence, modules: [module] };
+
+  const modules: NonNullable<ReturnType<typeof assembleModule>["module"]>[] = [];
+  for (const name of ["mqsa", "patient-care"]) {
+    const moduleMeta = readJson(join(root, `content/modules/${name}/module.json`)) as Record<string, unknown>;
+    const lessons = (readJson(join(root, `content/modules/${name}/lessons.json`)) as { lessons: unknown[] }).lessons;
+    const questions = (readJson(join(root, `content/modules/${name}/questions.json`)) as { questions: unknown[] }).questions;
+    const cards = (readJson(join(root, `content/modules/${name}/cards.json`)) as { cards: unknown[] }).cards;
+    const { module, issues: mIssues } = assembleModule({ module: moduleMeta, lessons, questions, cards });
+    issues.push(...mIssues);
+    if (module) modules.push(module);
+  }
+
+  if (!curriculum || modules.length === 0) {
+    return { ok: false as const, issues, curriculum, sources, evidence, modules };
+  }
+  issues.push(...crossCheck({ curriculum, sources, evidence, modules }));
+  return { ok: issues.filter((i) => i.level === "error").length === 0, issues, curriculum, sources, evidence, modules };
 }
 
 export function assemble() {

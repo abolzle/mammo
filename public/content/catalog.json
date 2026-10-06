@@ -26,12 +26,34 @@
       "questionCount": 48,
       "cardCount": 44,
       "visualCount": 4
+    },
+    {
+      "id": "mod-patient-care",
+      "version": "1.0.0-beta.1",
+      "title": "Patient care and communication",
+      "summary": "Technologist-level patient communication: preparing patients, explaining the exam and compression, screening versus diagnostic purpose, results and density notification boundaries, and infection-control habits with workplace observation prompts.",
+      "topicIds": [
+        "top-pc-preparation",
+        "top-pc-education",
+        "top-pc-results",
+        "top-pc-risk",
+        "top-pc-history",
+        "top-pp-exams",
+        "top-pp-variance",
+        "top-ip-mqsa-audit-policies",
+        "top-ip-mqsa-records"
+      ],
+      "path": "/content/modules/patient-care.json",
+      "lessonCount": 12,
+      "questionCount": 48,
+      "cardCount": 35,
+      "visualCount": 4
     }
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 12,
-    "withGap": 67,
+    "withLesson": 23,
+    "withGap": 62,
     "breakdown": {
       "public_domain_open": 23,
       "link_only": 0,
