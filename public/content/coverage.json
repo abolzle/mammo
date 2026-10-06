@@ -7,11 +7,22 @@
       "statement": "Explain common pre-exam instructions (such as removing deodorant or powder and clothing above the waist) and why they matter for image quality.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-pre-exam"
+      ],
+      "cardIds": [
+        "card-pc-deodorant",
+        "card-pc-deodorant-why",
+        "card-pc-menses"
+      ],
+      "questionIds": [
+        "q-pc-001",
+        "q-pc-002",
+        "q-pc-003",
+        "q-pc-004"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -22,11 +33,19 @@
       "statement": "Build rapport and respond to anxiety, modesty, and physical or cognitive needs while keeping the exam on track.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-exam-process"
+      ],
+      "cardIds": [
+        "card-pc-narrate"
+      ],
+      "questionIds": [
+        "q-pc-005",
+        "q-pc-006",
+        "q-pc-007"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -38,20 +57,25 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [
+        "les-pc-compression",
         "les-pos-compression-purpose"
       ],
       "cardIds": [
+        "card-pc-compression-why",
         "card-pos-compression-attr",
         "card-pos-nci-compression"
       ],
       "questionIds": [
+        "q-pc-008",
+        "q-pc-009",
+        "q-pc-010",
         "q-pos-017",
         "q-pos-018",
         "q-pos-019",
         "q-pos-020"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 7,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -62,11 +86,19 @@
       "statement": "Explain the need for a repeat image (for example motion or artifact) honestly and without alarming the patient.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-repeat"
+      ],
+      "cardIds": [
+        "card-pc-repeat"
+      ],
+      "questionIds": [
+        "q-pc-011",
+        "q-pc-012",
+        "q-pc-013"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -77,11 +109,25 @@
       "statement": "Summarize current ACS and ACR screening recommendations and how they differ from USPSTF guidance.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-guidelines"
+      ],
+      "cardIds": [
+        "card-pc-uspstf",
+        "card-pc-uspstf-75",
+        "card-pc-acs",
+        "card-pc-uspstf-dense-i",
+        "card-pc-nbccedp"
+      ],
+      "questionIds": [
+        "q-pc-018",
+        "q-pc-019",
+        "q-pc-020",
+        "q-pc-021",
+        "q-pc-048"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -107,11 +153,28 @@
       "statement": "Describe typical mammography dose in patient-friendly terms without overstating or minimizing risk.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ip-radiation-concepts"
+      ],
+      "cardIds": [
+        "card-ip-alara",
+        "card-ip-lnt",
+        "card-ip-low-dose-words",
+        "card-ip-dna",
+        "card-ip-gy",
+        "card-ip-barrier"
+      ],
+      "questionIds": [
+        "q-ip-041",
+        "q-ip-042",
+        "q-ip-043",
+        "q-ip-044",
+        "q-ip-045"
+      ],
+      "visualIds": [
+        "vis-ip-alara-shield"
+      ],
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -122,11 +185,20 @@
       "statement": "Explain the difference between 2D mammography, DBT, and breast ultrasound to a patient.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-modalities"
+      ],
+      "cardIds": [
+        "card-pc-dbt",
+        "card-pc-modalities-uspstf"
+      ],
+      "questionIds": [
+        "q-pc-041",
+        "q-pc-042",
+        "q-pc-043"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -137,17 +209,28 @@
       "statement": "Tell a patient how and when results reach them and their provider under MQSA.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-results"
+      ],
+      "cardIds": [
+        "card-pc-lay-30",
+        "card-pc-lay-7",
+        "card-pc-nci-2w"
+      ],
       "questionIds": [
         "q-mqsa-022",
         "q-mqsa-023",
-        "q-mqsa-026"
+        "q-mqsa-026",
+        "q-pc-022",
+        "q-pc-023",
+        "q-pc-024",
+        "q-pc-025",
+        "q-pc-044"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 7,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-additional-imaging",
@@ -156,13 +239,24 @@
       "statement": "Explain common reasons for additional imaging after screening without implying a diagnosis.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-callback"
+      ],
+      "cardIds": [
+        "card-pc-repeat-vs-callback",
+        "card-pc-callback"
+      ],
+      "questionIds": [
+        "q-pc-012",
+        "q-pc-026",
+        "q-pc-027",
+        "q-pc-028",
+        "q-pc-029"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "no learner assets yet"
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-clinician-role",
@@ -173,10 +267,20 @@
       "blockedNote": "MQSA covers who receives which report; the technologist's communication scope needs ASRT practice standards (link-only) or equivalent.",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "cardIds": [
+        "card-pc-no-diagnose"
+      ],
+      "questionIds": [
+        "q-pc-006",
+        "q-pc-024",
+        "q-pc-030",
+        "q-pc-033",
+        "q-pc-043"
+      ],
+      "visualIds": [
+        "vis-pc-who-explains-density"
+      ],
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -203,10 +307,16 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "cardIds": [
+        "card-pc-dense-common",
+        "card-pc-dense-feel",
+        "card-pc-dense-risk"
+      ],
+      "questionIds": [
+        "q-pc-031"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -263,12 +373,15 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
+      "cardIds": [
+        "card-pc-transfer-15"
+      ],
       "questionIds": [
-        "q-mqsa-030"
+        "q-mqsa-030",
+        "q-pc-028"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 2,
       "validatedQuestionCount": 0,
       "gap": "missing lesson"
     },
@@ -309,9 +422,22 @@
       "statement": "Explain why mammography uses a low kVp range and how anode material, filtration, window, and focal spot shape the beam.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-xray-production"
+      ],
+      "cardIds": [
+        "card-ip-brems",
+        "card-ip-characteristic",
+        "card-ip-emax",
+        "card-ip-low-e-contrast",
+        "card-ip-soft-tissue"
+      ],
+      "questionIds": [
+        "q-ip-005",
+        "q-ip-006",
+        "q-ip-007",
+        "q-ip-008"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -324,18 +450,26 @@
       "statement": "Describe compression paddle types and MQSA design requirements for paddles, and the role of grids.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-ip-paddles-grids"
+      ],
       "cardIds": [
+        "card-ip-paddle-deflect",
+        "card-ip-compression-why",
         "card-mqsa-paddle-deflect",
         "card-mqsa-mag-range"
       ],
       "questionIds": [
+        "q-ip-009",
+        "q-ip-010",
+        "q-ip-011",
+        "q-ip-012",
         "q-mqsa-038"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-geometry",
@@ -344,9 +478,19 @@
       "statement": "Relate SID, OID, and magnification, including the MQSA magnification range requirement.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-geometry"
+      ],
+      "cardIds": [
+        "card-ip-mag-range",
+        "card-ip-sid-word"
+      ],
+      "questionIds": [
+        "q-ip-013",
+        "q-ip-014",
+        "q-ip-015",
+        "q-ip-016"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -359,17 +503,28 @@
       "statement": "Identify the components that make up a mammography unit and how they relate along the beam path.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-ip-beam-path"
+      ],
+      "cardIds": [
+        "card-ip-unit-parts",
+        "card-ip-no-general-purpose",
+        "card-ip-beam-order"
+      ],
       "questionIds": [
+        "q-ip-001",
+        "q-ip-002",
+        "q-ip-003",
+        "q-ip-004",
         "q-mqsa-048"
       ],
       "visualIds": [
+        "vis-ip-beam-limiting",
         "vis-mqsa-unit-components"
       ],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-acquisition-types",
@@ -378,11 +533,25 @@
       "statement": "Compare FFDM, DBT, and synthesized 2D imaging.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ip-ffdm-dbt"
+      ],
+      "cardIds": [
+        "card-ip-modality-examples",
+        "card-ip-dbt-slices",
+        "card-ip-dbt-2d",
+        "card-ip-dbt-mortality"
+      ],
+      "questionIds": [
+        "q-ip-017",
+        "q-ip-018",
+        "q-ip-019",
+        "q-ip-020"
+      ],
+      "visualIds": [
+        "vis-ip-dbt-idea"
+      ],
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -393,11 +562,21 @@
       "statement": "Describe digital image receptors and the difference between acquisition and interpretation workstations.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-receptors-displays"
+      ],
+      "cardIds": [
+        "card-ip-acq-vs-interp",
+        "card-ip-digital-qc-pointer"
+      ],
+      "questionIds": [
+        "q-ip-021",
+        "q-ip-022",
+        "q-ip-023",
+        "q-ip-024"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -626,21 +805,31 @@
       "statement": "Map the four report density categories to the two required patient density statements effective September 10, 2024.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-density"
+      ],
       "cardIds": [
         "card-mqsa-density-map",
-        "card-mqsa-density-date"
+        "card-mqsa-density-date",
+        "card-pc-dense-map",
+        "card-pc-dense-date"
       ],
       "questionIds": [
         "q-mqsa-026",
-        "q-mqsa-043"
+        "q-mqsa-043",
+        "q-pc-030",
+        "q-pc-031",
+        "q-pc-032",
+        "q-pc-033",
+        "q-pc-046"
       ],
       "visualIds": [
-        "vis-mqsa-density-boundary"
+        "vis-mqsa-density-boundary",
+        "vis-pc-density-boundary"
       ],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-mqsa-image-labeling",
@@ -731,19 +920,26 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-policies"
+        "les-mqsa-policies",
+        "les-pc-infection"
       ],
       "cardIds": [
         "card-mqsa-complaint",
-        "card-mqsa-infection"
+        "card-mqsa-infection",
+        "card-pc-infection"
       ],
       "questionIds": [
         "q-mqsa-034",
         "q-mqsa-035",
-        "q-mqsa-047"
+        "q-mqsa-047",
+        "q-pc-034",
+        "q-pc-035",
+        "q-pc-047"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 2,
+      "visualIds": [
+        "vis-pc-infection-surface"
+      ],
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -758,6 +954,8 @@
         "les-mqsa-equipment-qc"
       ],
       "cardIds": [
+        "card-ip-phantom-dose",
+        "card-ip-standard-breast",
         "card-mqsa-dose",
         "card-mqsa-standard-breast",
         "card-mqsa-compression-force",
@@ -906,11 +1104,22 @@
       "statement": "Predict how kVp, mAs, AEC, and manual technique affect contrast, noise, and dose.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-exposure-factors"
+      ],
+      "cardIds": [
+        "card-ip-post-aec",
+        "card-ip-manual-mas",
+        "card-ip-diagnostic-dose"
+      ],
+      "questionIds": [
+        "q-ip-025",
+        "q-ip-026",
+        "q-ip-027",
+        "q-ip-028"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 2,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -921,11 +1130,20 @@
       "statement": "Relate compressed thickness, target/filter selection, focal spot, and grid use to image quality and dose.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-thickness-target"
+      ],
+      "cardIds": [
+        "card-ip-indicate-target"
+      ],
+      "questionIds": [
+        "q-ip-029",
+        "q-ip-030",
+        "q-ip-031",
+        "q-ip-032"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -936,11 +1154,23 @@
       "statement": "Explain technique changes for magnification (small focal spot, no grid, air gap).",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ip-mag-technique"
+      ],
+      "cardIds": [
+        "card-ip-mag-grid",
+        "card-ip-mag-trio"
+      ],
+      "questionIds": [
+        "q-ip-033",
+        "q-ip-034",
+        "q-ip-035",
+        "q-ip-036"
+      ],
+      "visualIds": [
+        "vis-ip-mag-air-gap"
+      ],
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -951,21 +1181,31 @@
       "statement": "Evaluate an image against the eight clinical image quality attributes used in accreditation review.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-ip-image-quality"
+      ],
       "cardIds": [
+        "card-ip-eight",
+        "card-ip-ongoing-ciq",
         "card-mqsa-8-attributes",
+        "card-pc-compression-attr",
         "card-pos-positioning-attr",
         "card-pos-eight"
       ],
       "questionIds": [
+        "q-ip-037",
+        "q-ip-038",
+        "q-ip-039",
+        "q-ip-040",
         "q-mqsa-004",
+        "q-pc-010",
         "q-pos-002",
         "q-pos-004"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 8,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-patient-artifacts",
@@ -1346,21 +1586,27 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
+        "les-pc-implants",
         "les-pos-implant-inquiry"
       ],
       "cardIds": [
+        "card-pc-implant-ask",
+        "card-pc-implant-id",
         "card-pos-implant-ask",
         "card-pos-implant-max"
       ],
       "questionIds": [
         "q-mqsa-035",
+        "q-pc-038",
+        "q-pc-039",
+        "q-pc-040",
         "q-pos-029",
         "q-pos-030",
         "q-pos-031",
         "q-pos-032"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 5,
+      "learnerQuestionCount": 8,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1413,10 +1659,14 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
+        "les-pc-screen-vs-dx",
         "les-pos-screening-diagnostic"
       ],
       "cardIds": [
         "card-mqsa-screen-def",
+        "card-pc-screen",
+        "card-pc-diagnostic",
+        "card-pc-dx-dose",
         "card-pos-screen-def",
         "card-pos-dx-def",
         "card-pos-nci-dx-angles",
@@ -1424,14 +1674,21 @@
       ],
       "questionIds": [
         "q-mqsa-033",
+        "q-pc-014",
+        "q-pc-015",
+        "q-pc-016",
+        "q-pc-017",
+        "q-pc-045",
         "q-pos-003",
         "q-pos-025",
         "q-pos-026",
         "q-pos-027",
         "q-pos-028"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 6,
+      "visualIds": [
+        "vis-pc-screen-vs-dx"
+      ],
+      "learnerQuestionCount": 10,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1488,10 +1745,18 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "cardIds": [
+        "card-pc-bbp",
+        "card-pc-hh",
+        "card-pc-gloves"
+      ],
+      "questionIds": [
+        "q-pc-035",
+        "q-pc-036",
+        "q-pc-037"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     }

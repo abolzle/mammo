@@ -1,0 +1,559 @@
+{
+  "lessons": [
+    {
+      "id": "les-ip-beam-path",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-unit-components",
+      "title": "Components along the beam path",
+      "estMinutes": 3,
+      "summary": "Name the required parts of a mammography unit and walk the beam from tube to receptor.",
+      "explanation": [
+        {
+          "heading": "What counts as a mammography unit",
+          "body": "Under MQSA, a **mammography unit** includes at least an **x-ray generator**, an **x-ray control**, a **tube housing assembly**, a **beam-limiting device**, and the **supporting structures** for those parts.\n\nGeneral-purpose radiographic equipment—even with mammography attachments—may not be used for mammography. The system must be designed for mammography."
+        },
+        {
+          "heading": "Follow the beam",
+          "body": "In clinical order along the primary beam:\n\n1. **Tube housing** — where x-rays are produced\n2. **Beam-limiting device** — shapes the field\n3. **Compression paddle** — contacts and compresses the breast\n4. **Breast** — the anatomy being imaged\n5. **Breast support with image receptor** — detects the remnant beam\n\nKnowing this order helps you troubleshoot artifacts, collimation problems, and labeling questions."
+        }
+      ],
+      "example": "If a bright edge of the paddle appears on the image, you are looking at a paddle/alignment problem near the breast support—not a tube-housing failure.",
+      "misconception": {
+        "belief": "Any x-ray room can do mammography if you add a special paddle.",
+        "correction": "MQSA prohibits using general-purpose or modified non-mammography systems for mammography."
+      },
+      "variants": {
+        "simpler": "Think: make the x-rays, shape them, compress the breast, then catch what gets through.",
+        "example": "On a schematic, the small block under the tube is usually the beam-limiting device, not the paddle.",
+        "deeper": "The compression device has its own MQSA design rules (hands-free power drive from both sides, paddle parallelism limits). Those sit beside the unit definition, not inside it."
+      },
+      "observationPrompt": "With your preceptor, point to each named component on your unit without looking at the service labels first.",
+      "checkQuestionId": "q-ip-001",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-prohibited-equipment",
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "les-ip-xray-production",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-kvp-tube",
+      "title": "How the tube makes the beam",
+      "estMinutes": 4,
+      "summary": "Bremsstrahlung, characteristic x-rays, and why accelerating voltage sets the maximum photon energy.",
+      "explanation": [
+        {
+          "heading": "Electrons become x-rays in the anode",
+          "body": "In an x-ray tube, electrons leave a heated filament, accelerate across a high voltage, and strike the **anode**. Two processes create x-rays:\n\n- **Bremsstrahlung** (\"braking radiation\"): electrons decelerate in the anode and emit a continuous spectrum of x-ray energies.\n- **Characteristic x-rays**: an electron knocks out an inner-shell electron; when that vacancy is filled, the atom emits photons at energies **characteristic of the anode element**."
+        },
+        {
+          "heading": "What kV controls",
+          "body": "Conservation of energy links accelerating voltage to the **maximum** photon energy: a 100 kV accelerating voltage can produce photons up to 100 keV. Not every electron converts all of its energy into one photon, so the spectrum is broad, with characteristic peaks riding on the bremsstrahlung curve."
+        },
+        {
+          "heading": "Why mammography cares about soft-tissue contrast",
+          "body": "OpenStax notes that soft tissues absorb x-rays similarly, so contrast is hard—especially in denser breasts. Mammography is designed for that soft-tissue problem. Facility technique charts and target/filter choices are device-specific; learn your unit's documented selections with your physicist and manufacturer materials rather than memorizing unsupported universal numbers."
+        }
+      ],
+      "example": "If someone says \"we used 100 kV,\" the *maximum* photon energy available is 100 keV; most photons in the beam are lower energy.",
+      "misconception": {
+        "belief": "Characteristic peaks mean every photon in the beam has that single energy.",
+        "correction": "Characteristic peaks sit on a broad bremsstrahlung continuum; the beam contains a range of energies up to E_max."
+      },
+      "variants": {
+        "simpler": "Electrons slam into the anode. Some slow down (bremsstrahlung). Some knock out inner electrons that get replaced (characteristic x-rays). Higher kV allows higher-energy photons.",
+        "example": "Tungsten is a common general radiographic anode example in textbooks because it tolerates heat; mammography systems may use other targets—check your unit documentation.",
+        "deeper": "Creating a K-shell vacancy requires the incident electron energy to exceed the shell binding energy. That is why characteristic lines appear only when kV is high enough for that anode."
+      },
+      "observationPrompt": "Ask your preceptor which target/filter combinations your unit offers and where that is documented (do not change clinical technique without supervision).",
+      "checkQuestionId": "q-ip-005",
+      "evidenceIds": [
+        "ev-ip-brems-characteristic",
+        "ev-ip-emax-kvp",
+        "ev-ip-breast-soft-tissue-contrast",
+        "ev-mqsa-technique-display"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ip-paddles-grids",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-paddles-grids",
+      "title": "Compression paddles and the grid's job",
+      "estMinutes": 3,
+      "summary": "MQSA paddle design rules, why compression helps the picture, and when the grid must come out.",
+      "explanation": [
+        {
+          "heading": "Compression is an image-quality tool",
+          "body": "NCI explains the practical point patients feel: the breast is pressed between two plates because **pressing helps get a better x-ray picture**. MQSA's clinical image attributes also judge compression for reducing overlapping tissue and motion."
+        },
+        {
+          "heading": "Paddle design you can be tested on",
+          "body": "Every system needs a compression device with initial **power-driven, hands-free** controls operable from both sides, plus fine adjustment from both sides. Flat paddles must stay within **1.0 cm of parallel** under compression, match full-field receptor sizes (spot paddles may be special-purpose), and keep the chest-wall edge straight and off the image."
+        },
+        {
+          "heading": "Grids and magnification",
+          "body": "Grids reduce scatter reaching the receptor in contact imaging. Systems used for magnification must be able to operate **with the grid removed**—magnification geometry uses an air gap instead. Exact grid ratios and Bucky factors are device-specific; do not invent universal numbers."
+        }
+      ],
+      "example": "Before a magnification view, confirm the unit is in a magnification mode that removes the grid and uses an approved magnification factor.",
+      "misconception": {
+        "belief": "Magnification views still use the grid the same way contact views do.",
+        "correction": "MQSA requires magnification systems to operate with the grid removed."
+      },
+      "variants": {
+        "simpler": "Compression thins and steadies the breast. Flat paddles must stay nearly parallel. Magnification: grid out.",
+        "example": "A spot paddle is allowed as a special-purpose paddle; it does not have to be full-field size.",
+        "deeper": "Compression force performance limits appear in MQSA testing language; treat numeric force limits as items that need qualified review before you rely on them as memorized absolutes for every digital unit."
+      },
+      "checkQuestionId": "q-ip-009",
+      "evidenceIds": [
+        "ev-ip-nci-compression-purpose",
+        "ev-mqsa-compression-device",
+        "ev-mqsa-magnification-equipment",
+        "ev-mqsa-clinical-image-attributes"
+      ]
+    },
+    {
+      "id": "les-ip-geometry",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-geometry",
+      "title": "SID, OID, and magnification range",
+      "estMinutes": 3,
+      "summary": "Relate geometry language to MQSA's magnification factor range and field-alignment checks that use percent of SID.",
+      "explanation": [
+        {
+          "heading": "Words that locate the anatomy",
+          "body": "- **SID**: source-to-image-receptor distance\n- **OID**: object-to-image-receptor distance\n- Raising the breast on a magnification platform increases OID, enlarges the projected anatomy, and creates an **air gap** above the receptor."
+        },
+        {
+          "heading": "MQSA magnification capability",
+          "body": "Systems used for magnification must provide **at least one magnification value between 1.4 and 2.0** and must be able to operate without the grid. That is a design requirement you can quote; it is not a claim that every exam uses 1.4×."
+        },
+        {
+          "heading": "Why SID shows up in QC language",
+          "body": "Alignment tolerances in MQSA are stated as percentages of SID (for example, how far the x-ray field or paddle edge may extend relative to the receptor). Those checks belong with physicist testing; technologists should recognize that SID is the reference length, not invent new percentages."
+        }
+      ],
+      "example": "If a question asks for the required magnification range on systems used for magnification, answer 1.4 to 2.0—not \"as large as possible.\"",
+      "misconception": {
+        "belief": "Any geometric enlargement counts as meeting MQSA magnification capability.",
+        "correction": "The regulation specifies at least one value in the 1.4–2.0 range, plus grid-out operation."
+      },
+      "variants": {
+        "simpler": "Pull the breast away from the detector to magnify it. MQSA wants a factor somewhere between 1.4 and 2.0, and the grid must be removable.",
+        "example": "Field-alignment failures are often discussed in \"percent of SID\" units because SID is the system's reference distance.",
+        "deeper": "Geometric blur grows with focal-spot size and OID. That is why magnification technique pairs a small focal spot with raised geometry—covered in the magnification-technique lesson."
+      },
+      "checkQuestionId": "q-ip-013",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment",
+        "ev-mqsa-field-alignment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ip-ffdm-dbt",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-acquisition-types",
+      "title": "FFDM, DBT, and synthesized 2D",
+      "estMinutes": 4,
+      "summary": "Compare 2D digital mammography with tomosynthesis using NCI and MQSA modality language.",
+      "explanation": [
+        {
+          "heading": "Modalities named in MQSA",
+          "body": "MQSA defines a **mammographic modality** as a breast radiography technology. Examples explicitly include **screen-film**, **full-field digital mammography (FFDM)**, and **digital breast tomosynthesis (DBT)**."
+        },
+        {
+          "heading": "What DBT adds",
+          "body": "NCI describes DBT (3D mammography) as acquiring multiple pictures of thin slices across the breast that software assembles into a 3D picture. DBT **also creates 2D images** like those from standard mammography. Many systems offer a **synthesized 2D** image reconstructed from the tomosynthesis data so a separate 2D exposure may not be needed—follow your unit's cleared workflow."
+        },
+        {
+          "heading": "What is known vs still studied",
+          "body": "NCI states DBT combined with standard mammography finds more tumors than standard mammography alone, but whether DBT reduces deaths more than standard mammography alone is still being studied (for example, the TMIST trial). Teach detection improvement carefully, without claiming proven mortality superiority."
+        }
+      ],
+      "example": "A facility transitioning every screening exam to DBT still treats DBT as its own modality for MQSA training hours.",
+      "misconception": {
+        "belief": "DBT replaces 2D entirely and never produces a 2D-looking image.",
+        "correction": "NCI notes DBT also creates 2D images; many systems add synthesized 2D from the DBT dataset."
+      },
+      "variants": {
+        "simpler": "2D digital: one projection image per view. DBT: many thin slices stacked into a 3D set, plus 2D images.",
+        "example": "If a patient asks whether 3D \"is proven to save more lives,\" the honest answer is that it finds more cancers in studies, while mortality benefit versus 2D alone is still being researched.",
+        "deeper": "For digital modalities, MQSA points QC to programs substantially the same as the manufacturer's (with the phantom dose ceiling still applying). Device-specific tests stay in the ACR manual / manufacturer docs—link-only here."
+      },
+      "observationPrompt": "Ask which acquisition modes your unit offers (2D, DBT, synthesized 2D) and how they are labeled on the console.",
+      "checkQuestionId": "q-ip-017",
+      "evidenceIds": [
+        "ev-mqsa-modality-definition",
+        "ev-ip-nci-dbt",
+        "ev-mqsa-other-modalities-qc",
+        "ev-ip-acr-dmqc-link"
+      ]
+    },
+    {
+      "id": "les-ip-receptors-displays",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-receptors-monitors",
+      "title": "Receptors and the two kinds of workstations",
+      "estMinutes": 3,
+      "summary": "Separate the detector that captures the image from the monitors used to acquire versus interpret it.",
+      "explanation": [
+        {
+          "heading": "The receptor captures the remnant beam",
+          "body": "In digital mammography the **image receptor** (detector) sits in the breast support and converts the remnant x-ray pattern into a digital signal. MQSA still requires a complete mammography unit (generator, control, tube housing, beam-limiting device, supports) around that receptor."
+        },
+        {
+          "heading": "Acquisition vs interpretation displays",
+          "body": "Technologists review images at an **acquisition workstation** to decide whether the exam is complete and adequate. Interpreting physicians use **interpretation workstations** intended for diagnostic review. Brightness, ambient light, and cleanliness matter for both; detailed monitor QC patterns and pass/fail criteria live in the facility's digital QC program (commonly the ACR Digital Mammography QC Manual—link-only in Mammo)."
+        },
+        {
+          "heading": "What not to invent",
+          "body": "Pixel pitches, required megapixel counts, and vendor calibration clicks are device-specific. Learn the purpose (detect problems before they affect clinical images) and follow your written QC procedures."
+        }
+      ],
+      "example": "Approving a noisy or motion-blurred image on a dim acquisition monitor can send a non-diagnostic study to interpretation—even if the detector itself is fine.",
+      "misconception": {
+        "belief": "If the acquisition monitor looks acceptable, interpretation quality is guaranteed.",
+        "correction": "Acquisition and interpretation environments differ; each has QC responsibilities in the digital QC program."
+      },
+      "variants": {
+        "simpler": "Detector captures. Acquisition screen checks technique. Interpretation screen is for diagnosis. Keep both clean and under QC.",
+        "example": "Dust or fingerprints on a monitor can mimic artifacts—clean per procedure before blaming the detector.",
+        "deeper": "FDA allows facilities to use the ACR 2018 Digital Mammography QC Manual for 2D and DBT QC. Mammo does not reprint that manual's steps."
+      },
+      "checkQuestionId": "q-ip-021",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-other-modalities-qc",
+        "ev-ip-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ip-exposure-factors",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-exposure-factors",
+      "title": "Exposure factors without fake rules of thumb",
+      "estMinutes": 4,
+      "summary": "Predict directional effects of kV and mAs on penetration, contrast, and relative exposure using physics you can source.",
+      "explanation": [
+        {
+          "heading": "Penetration vs contrast",
+          "body": "From OpenStax: **higher-energy** photons penetrate more; **lower-energy** x-rays generally give **better contrast** but are attenuated more in thick material. Soft-tissue contrast is inherently subtle—that is why mammography technique is specialized."
+        },
+        {
+          "heading": "Quantity of x-rays",
+          "body": "**mAs** (tube current × time) mainly scales how many electrons strike the anode and therefore how many x-ray photons are produced, affecting receptor exposure and patient dose in the same direction. AEC aims to deliver adequate receptor exposure automatically; manual mode is required to be available under MQSA."
+        },
+        {
+          "heading": "What the console must show",
+          "body": "After AEC exposures, MQSA requires the system to display the **actual kVp and mAs** used (and the target/focal spot actually used when chosen by algorithm). Before exposure, the selected focal spot and target material must be indicated. Read those values—they are part of evaluating the image."
+        }
+      ],
+      "example": "If an AEC image is underexposed and noisy, check displayed mAs/kVp, compression thickness, and whether the AEC sensor region matched dense tissue—before guessing a magic kV number.",
+      "misconception": {
+        "belief": "There is one universal mammography kVp that every unit uses for every breast.",
+        "correction": "Units differ. Learn directional physics plus your facility charts; do not memorize unsupported universal technique numbers."
+      },
+      "variants": {
+        "simpler": "More kV: beam punches through easier, contrast usually drops. More mAs: more photons, brighter signal, more dose. Read the post-exposure display.",
+        "example": "Diagnostic workups use more images/angles, so NCI notes dose is higher than a screening exam on the same machine—not because kV mysteriously changed by itself.",
+        "deeper": "Noise and contrast trade off with exposure. Fixing noise by always raising dose conflicts with ALARA; use adequate exposure, not reflexive overexposure."
+      },
+      "worked": {
+        "title": "Maximum photon energy from kV",
+        "given": "An exposure is made at 28 kV accelerating voltage. What is the maximum energy a photon in that beam can have, using E_max = qeV?",
+        "steps": [
+          {
+            "step": "Recall that accelerating voltage in kV sets maximum photon energy in keV one-for-one.",
+            "result": "28 kV → 28 keV maximum."
+          },
+          {
+            "step": "State what this does not tell you.",
+            "result": "It does not give average beam energy, HVL, or patient dose."
+          }
+        ],
+        "answer": "28 keV maximum photon energy. Most photons are lower energy.",
+        "checkedBy": "Direct application of OpenStax § 30.4 E_max = qeV example pattern; awaiting maintainer source check."
+      },
+      "checkQuestionId": "q-ip-025",
+      "evidenceIds": [
+        "ev-ip-energy-penetration-contrast",
+        "ev-ip-emax-kvp",
+        "ev-mqsa-technique-display",
+        "ev-ip-nci-diagnostic-more-images"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ip-thickness-target",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-thickness-target-filter",
+      "title": "Thickness, target/filter, and what you must verify",
+      "estMinutes": 3,
+      "summary": "Compressed thickness drives automatic technique; verify displayed target, filter, and focal spot rather than inventing charts.",
+      "explanation": [
+        {
+          "heading": "Thickness is an input to technique",
+          "body": "Compressed breast thickness (and composition) strongly influence automatic exposure control. NCI's compression purpose—better pictures—works partly because a thinner, more uniform path improves the remnant beam. Recorded thickness also matters for QC trends."
+        },
+        {
+          "heading": "Target and filtration are not decorations",
+          "body": "Anode material shapes characteristic peaks; filtration removes low-energy photons that would raise patient dose without helping the image. MQSA requires the system to **indicate the selected focal spot and target material before exposure**. After AEC, it must show the technique actually delivered."
+        },
+        {
+          "heading": "Stay honest about numbers",
+          "body": "Vendor-specific pairings (which target/filter for which thickness) belong in manufacturer documentation and your technique chart. Mammo will not invent universal Mo/Rh switch points. If a question asks for a device-specific pairing without a source, treat it as blocked until your facility materials are cited."
+        }
+      ],
+      "example": "Before exposing, glance at the indicated target and focal spot. After AEC, confirm the displayed kVp/mAs match what you expected for that thickness.",
+      "misconception": {
+        "belief": "If AEC is on, displayed technique factors can be ignored.",
+        "correction": "MQSA requires post-AEC display of actual kVp and mAs so you can evaluate whether the exposure makes sense."
+      },
+      "variants": {
+        "simpler": "Thicker breast → AEC usually gives more exposure. Check target/focal spot before, kV/mAs after.",
+        "example": "A sudden jump in displayed mAs for a thickness that usually needs less is a cue to recheck compression, AEC mode, or implant settings.",
+        "deeper": "Focal-spot selection trades sharpness against tube loading. Magnification typically needs the small spot—next lesson."
+      },
+      "checkQuestionId": "q-ip-029",
+      "evidenceIds": [
+        "ev-mqsa-technique-display",
+        "ev-ip-nci-compression-purpose",
+        "ev-ip-brems-characteristic"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ip-mag-technique",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-magnification-technique",
+      "title": "Magnification technique changes",
+      "estMinutes": 3,
+      "summary": "Small focal spot, grid out, air gap—and the MQSA magnification factor range.",
+      "explanation": [
+        {
+          "heading": "What changes for magnification",
+          "body": "When the breast is raised on a magnification stand:\n\n- **OID increases**, so the projected image enlarges.\n- An **air gap** reduces scatter reaching the detector.\n- The **grid is removed** (MQSA requires the system can operate without it).\n- A **small focal spot** is used to limit geometric blur at the larger OID."
+        },
+        {
+          "heading": "Required capability",
+          "body": "Systems used for magnification must offer **at least one magnification value between 1.4 and 2.0**. Spot compression paddles may be used with magnification for problem-solving, but paddle selection is still constrained by MQSA design rules."
+        },
+        {
+          "heading": "Dose and time awareness",
+          "body": "Magnification views are additional exposures. Keep the clinical indication clear, use ALARA thinking (no non-beneficial extras), and explain briefly to the patient why the extra images help characterize a finding—without quoting unsupported dose multipliers."
+        }
+      ],
+      "example": "A radiologist requests a mag view of microcalcifications. You select magnification mode (grid out, small focal spot, factor in the allowed range) and re-compress with appropriate collimation.",
+      "misconception": {
+        "belief": "Magnification is only a post-processing zoom on a contact image.",
+        "correction": "True geometric magnification changes acquisition geometry (OID, air gap, grid, focal spot), not merely on-screen zoom."
+      },
+      "variants": {
+        "simpler": "Raise the breast, take the grid out, use the small focal spot, factor between 1.4 and 2.0.",
+        "example": "Zooming a PACS image is not a magnification mammogram.",
+        "deeper": "Air-gap scatter cleanup is why removing the grid does not automatically ruin contrast in mag geometry—still verify image quality attributes before the patient leaves."
+      },
+      "checkQuestionId": "q-ip-033",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment",
+        "ev-ip-cdc-alara",
+        "ev-mqsa-compression-device"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ip-image-quality",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "title": "Eight attributes that define clinical image quality",
+      "estMinutes": 3,
+      "summary": "Use the accreditation review attributes as your everyday checklist before the patient gets dressed.",
+      "explanation": [
+        {
+          "heading": "The eight attributes",
+          "body": "Accreditation clinical image review evaluates:\n\n1. **Positioning** — enough tissue imaged that cancers are not likely missed\n2. **Compression** — reduces overlap and motion\n3. **Exposure level** — not under- or overexposed\n4. **Contrast** — subtle density differences visible\n5. **Sharpness** — margins of normal structures distinct\n6. **Noise** — does not obscure or mimic anatomy\n7. **Artifacts** — nothing external obscures or mimics structures\n8. **Examination identification** — required labels present and readable"
+        },
+        {
+          "heading": "Ongoing expectation",
+          "body": "Certified facilities must keep producing images that meet their accreditation body's clinical image quality standards—not only during the every-3-year review submission."
+        },
+        {
+          "heading": "Patient-related problems",
+          "body": "Motion, deodorant/powder artifacts, overlapping skin folds, and devices can fail the artifacts or sharpness attributes. Prevention (clear instructions, skin care product removal, careful positioning) is part of image production, not only \"patient care trivia.\""
+        }
+      ],
+      "example": "A sharp, well-positioned image with a deodorant speck over the axilla still fails the artifacts attribute and may need a repeat after cleaning the skin.",
+      "misconception": {
+        "belief": "If labeling is correct, image quality review has nothing left to judge.",
+        "correction": "Identification is only one of eight attributes; geometry and radiographic quality still matter."
+      },
+      "variants": {
+        "simpler": "Ask: tissue in? Held still? Brightness OK? Contrast OK? Sharp? Quiet? Clean? Labeled?",
+        "example": "Noise that looks like calcifications is a classic \"mimics structures\" failure.",
+        "deeper": "EQUIP asks whether your facility reviews sample images from each technologist between accreditation cycles—the eight attributes are the language of those reviews."
+      },
+      "checkQuestionId": "q-ip-037",
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes",
+        "ev-mqsa-clinical-image-quality-standard",
+        "ev-mqsa-equip"
+      ]
+    },
+    {
+      "id": "les-ip-radiation-concepts",
+      "revision": 1,
+      "moduleId": "mod-image-production",
+      "objectiveId": "obj-pc-typical-dose",
+      "title": "Radiation concepts for technologist conversations",
+      "estMinutes": 4,
+      "summary": "Low-dose framing, LNT conservatism, ALARA, and units—without inventing a typical patient dose number.",
+      "explanation": [
+        {
+          "heading": "What you can say from NCI",
+          "body": "NCI describes mammography as using **low-dose x-rays**. Screening and diagnostic exams use the same machines, but diagnostic exams need **more angles**, so dose is higher. Avoid quoting a single \"average mGy\" unless you are reading a sourced facility or physicist figure."
+        },
+        {
+          "heading": "Risk language from NRC and OpenStax",
+          "body": "Ionizing radiation can damage **DNA** and is both a cancer treatment tool and a cancer risk factor at higher doses. For low doses, public health data do not absolutely prove cancer risk below about **100 mSv (10,000 mrem)**, yet radiation protection conservatively uses the **linear no-threshold (LNT)** model: any increase in dose is assumed to increase risk a little. That is a protection philosophy, not a prediction that one mammogram will cause cancer."
+        },
+        {
+          "heading": "ALARA in the room",
+          "body": "CDC's ALARA means **as low as reasonably achievable**—skip exposure that has no benefit. Use **time**, **distance**, and **shielding**. The everyday occupational picture: the technologist steps behind a barrier for the exposure. For patients, ALARA means correct positioning the first time, no casual extras, and clear clinical purpose for repeats or additional views."
+        },
+        {
+          "heading": "Units worth knowing",
+          "body": "**Gray (Gy)** measures absorbed dose (1 Gy = 1 J/kg = 100 rad). **Sievert (Sv)** folds in radiation type (Sv = Gy × RBE). MQSA's phantom average-glandular-dose ceiling is a **QC limit on a phantom**, not a personal dosimeter reading—and it stays in the needs-review bucket for verified assessments."
+        }
+      ],
+      "example": "Patient: \"Is this a lot of radiation?\" You: \"It's a low-dose breast x-ray exam. We only take the images needed for a clear look, and I stand behind shielding for each exposure. Your report will explain the findings.\"",
+      "misconception": {
+        "belief": "If risk cannot be proven at mammography doses, ALARA does not apply.",
+        "correction": "ALARA and LNT are deliberately conservative: avoid non-beneficial exposure even when the dose is small."
+      },
+      "variants": {
+        "simpler": "Low-dose x-rays, only what's needed, technologist behind a barrier. We assume less dose is better even when risk is tiny.",
+        "example": "Repeating for a fixable deodorant artifact is an ALARA miss and an image-quality miss.",
+        "deeper": "Occupational dose limits and facility badge programs are important but are not reproduced here as memorized numbers until a maintainer sources the current regulation text into evidence."
+      },
+      "observationPrompt": "Ask where technologists stand during exposure and how your facility documents repeat reasons.",
+      "checkQuestionId": "q-ip-041",
+      "evidenceIds": [
+        "ev-ip-nci-mammogram-low-dose",
+        "ev-ip-nci-diagnostic-more-images",
+        "ev-ip-ionizing-dna",
+        "ev-ip-nrc-lnt",
+        "ev-ip-cdc-alara",
+        "ev-ip-cdc-tech-barrier",
+        "ev-ip-dose-units",
+        "ev-mqsa-dose-limit"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    }
+  ]
+}

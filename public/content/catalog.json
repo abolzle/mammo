@@ -3,6 +3,24 @@
   "assembledAt": "2026-10-06",
   "modules": [
     {
+      "id": "mod-image-production",
+      "version": "1.0.0-beta.1",
+      "title": "Image production: acquisition, quality, and radiation",
+      "summary": "How the mammography beam is made and shaped, how FFDM and DBT differ, how technologists judge image quality, and how to talk about radiation risk without inventing numbers.",
+      "topicIds": [
+        "top-ip-unit-design",
+        "top-ip-digital",
+        "top-ip-technique",
+        "top-ip-image-evaluation",
+        "top-pc-education"
+      ],
+      "path": "/content/modules/image-production.json",
+      "lessonCount": 11,
+      "questionCount": 45,
+      "cardCount": 34,
+      "visualCount": 4
+    },
+    {
       "id": "mod-mqsa",
       "version": "1.0.0-beta.1",
       "title": "MQSA quality standards",
@@ -28,6 +46,28 @@
       "visualCount": 4
     },
     {
+      "id": "mod-patient-care",
+      "version": "1.0.0-beta.1",
+      "title": "Patient care and communication",
+      "summary": "Technologist-level patient communication: preparing patients, explaining the exam and compression, screening versus diagnostic purpose, results and density notification boundaries, and infection-control habits with workplace observation prompts.",
+      "topicIds": [
+        "top-pc-preparation",
+        "top-pc-education",
+        "top-pc-results",
+        "top-pc-risk",
+        "top-pc-history",
+        "top-pp-exams",
+        "top-pp-variance",
+        "top-ip-mqsa-audit-policies",
+        "top-ip-mqsa-records"
+      ],
+      "path": "/content/modules/patient-care.json",
+      "lessonCount": 12,
+      "questionCount": 48,
+      "cardCount": 35,
+      "visualCount": 4
+    },
+    {
       "id": "mod-positioning",
       "version": "1.0.0-beta.1",
       "title": "Positioning and procedures",
@@ -50,8 +90,8 @@
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 21,
-    "withGap": 65,
+    "withLesson": 40,
+    "withGap": 59,
     "breakdown": {
       "public_domain_open": 23,
       "link_only": 0,

@@ -63,7 +63,7 @@ describe("planner", () => {
     const available = practiceQuestions(loaded.modules).length;
     const sim = planFullSimulationUnavailable(EXAM.totalQuestions, available);
     expect(sim.allowed).toBe(false);
-    const requested = available + 25;
+    const requested = available + 40;
     const quiz = planQuiz({
       catalog: { curriculum: loaded.curriculum!, modules: loaded.modules },
       size: requested,
