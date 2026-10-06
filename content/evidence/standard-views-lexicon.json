@@ -1,0 +1,516 @@
+{
+  "version": "2026-10-06.1",
+  "note": "CC/MLO evaluation and BI-RADS lexicon evidence verified against publicly accessible sources on 2026-10-06. All claims are original-wording restatements with link-only citations. Every record needs confirmation by a qualified reviewer.",
+  "defaults": {
+    "retrievedOn": "2026-10-06"
+  },
+  "evidence": [
+    {
+      "id": "ev-svl-acr-cit-four-views",
+      "sourceId": "src-acr-clinical-image-testing-mammo",
+      "locator": "ACR Clinical Image Testing: Mammography — For all submissions; initial/renewal requirements; reviewer scoring",
+      "claim": "For ACR mammography accreditation, each submitted exam is the CC and MLO views of both breasts (four images from one patient). Initial or renewal submissions include one fatty-breast exam and one dense-breast exam, and at least two ACR radiologist reviewers score eight image-quality parameters. ACR points to the Clinical Image Evaluation section of its 1999 QC manual for the detailed review criteria.",
+      "scope": "Accreditation logistics relevant to standard views.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "Male patients and patients with implants may not be submitted."
+    },
+    {
+      "id": "ev-svl-acr-table-nipple",
+      "sourceId": "src-acr-positioning-review-table",
+      "locator": "ACR Learning Network — Mammography Positioning Review Guidelines Table — Major criteria: Nipple in profile",
+      "claim": "The nipple should be in profile on at least one view (CC or MLO) of each breast.",
+      "scope": "Technologist evaluation of standard screening views. Teaches what to check, not hands-on correction maneuvers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "ACR states these are quality-improvement collaborative criteria, not accreditation scoring criteria. 2D or synthesized 2D images only; implant and tiled/mosaic exams excluded. Facility checklists may differ."
+    },
+    {
+      "id": "ev-svl-acr-table-pnl",
+      "sourceId": "src-acr-positioning-review-table",
+      "locator": "ACR Learning Network — Mammography Positioning Review Guidelines Table — Major criteria: Posterior Nipple Line (PNL)",
+      "claim": "The CC PNL should be within 1 cm of the MLO PNL. The PNL is measured from the base of the nipple back to the pectoralis at a right angle; if the nipple is rolled, measure from the skin line.",
+      "scope": "Technologist evaluation of standard screening views. Teaches what to check, not hands-on correction maneuvers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "ACR states these are quality-improvement collaborative criteria, not accreditation scoring criteria. 2D or synthesized 2D images only; implant and tiled/mosaic exams excluded. Facility checklists may differ."
+    },
+    {
+      "id": "ev-svl-acr-table-cc",
+      "sourceId": "src-acr-positioning-review-table",
+      "locator": "ACR Learning Network — Mammography Positioning Review Guidelines Table — Major: CC posterior tissue, breast cut off; Minor: CC exaggeration",
+      "claim": "On the CC, posterior tissue (typically the retroglandular fat plane) should be on the image; the pectoralis muscle is visible on the CC in roughly 30% of women. Medial or lateral tissue cut off on the CC is a failure. Ideally the nipple is centered near midline; exaggeration that moves the nipple off midline and loses medial or lateral posterior tissue is excessive.",
+      "scope": "Technologist evaluation of standard screening views. Teaches what to check, not hands-on correction maneuvers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "ACR states these are quality-improvement collaborative criteria, not accreditation scoring criteria. 2D or synthesized 2D images only; implant and tiled/mosaic exams excluded. Facility checklists may differ. With minimal retroglandular fat, posterior depth of fibroglandular tissue may be compared with prior exams."
+    },
+    {
+      "id": "ev-svl-acr-table-mlo-muscle",
+      "sourceId": "src-acr-positioning-review-table",
+      "locator": "ACR Learning Network — Mammography Positioning Review Guidelines Table — Minor criteria: MLO amount of pectoralis major muscle",
+      "claim": "On the MLO, the pectoralis should reach down to the PNL or below and be wider at the top, gradually narrowing toward the bottom. Muscle ending within 1 cm of the PNL partially meets the criterion. Muscle more than 1 cm short of the PNL, a thin or barely visible muscle, or a concave anterior muscle border is inadequate.",
+      "scope": "Technologist evaluation of standard screening views. Teaches what to check, not hands-on correction maneuvers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "ACR states these are quality-improvement collaborative criteria, not accreditation scoring criteria. 2D or synthesized 2D images only; implant and tiled/mosaic exams excluded. Facility checklists may differ."
+    },
+    {
+      "id": "ev-svl-acr-table-mlo-lower",
+      "sourceId": "src-acr-positioning-review-table",
+      "locator": "ACR Learning Network — Mammography Positioning Review Guidelines Table — Minor criteria: MLO IMF, sagging, detector position; Major: motion, other body parts",
+      "claim": "On the MLO, the inframammary fold should be open without folds; a closed or excluded IMF, or large folds hiding tissue, is inadequate. The breast should be lifted rather than sagging and centered on the detector; positioning too high shows too much abdomen and not enough axilla. Across views there should be no motion and no other body part (chin, hand, shoulder, opposite breast) over the breast.",
+      "scope": "Technologist evaluation of standard screening views. Teaches what to check, not hands-on correction maneuvers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "ACR states these are quality-improvement collaborative criteria, not accreditation scoring criteria. 2D or synthesized 2D images only; implant and tiled/mosaic exams excluded. Facility checklists may differ."
+    },
+    {
+      "id": "ev-svl-brahim-mlo",
+      "sourceId": "src-pmc-brahim-2022-positioning",
+      "locator": "PMC9562663 (Brahim et al. 2022) — 2.1 Mediolateral-Oblique View; 3.2 MLO: Pectoralis Muscle Level",
+      "claim": "The MLO shows the upper outer quadrant with the greatest amount of breast tissue. An adequate MLO has a relaxed pectoralis imaged to nipple level that is convex or straight (angle of at least about 10°), the nipple in profile, all breast tissue including retroglandular fat, and no skin folds. The lower pectoralis edge should be at or below the PNL, drawn from the nipple perpendicular to the pectoralis line.",
+      "scope": "Technologist evaluation of standard screening views. Teaches what to check, not hands-on correction maneuvers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "Criteria summarized by the study authors from published standards; used in a research algorithm, not a regulatory standard."
+    },
+    {
+      "id": "ev-svl-brahim-cc",
+      "sourceId": "src-pmc-brahim-2022-positioning",
+      "locator": "PMC9562663 (Brahim et al. 2022) — 2.2 Cranio-Caudal View; 3.5 CC: Nipple Position",
+      "claim": "The CC beam travels vertically downward from above. An adequate CC has the nipple in profile, ideally centered and pointing no more than about 20° medially or laterally; all quadrants shown; retroglandular fat (the dark band nearest the chest wall) present; and no skin folds obscuring glandular tissue.",
+      "scope": "Technologist evaluation of standard screening views. Teaches what to check, not hands-on correction maneuvers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Positioning evaluation: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "Criteria summarized by the study authors from published standards; used in a research algorithm, not a regulatory standard."
+    },
+    {
+      "id": "ev-svl-birads-mass",
+      "sourceId": "src-acr-birads-v2025-mammo-summary",
+      "locator": "ACR BI-RADS Mammography v2025, Appendix B summary form (manual pp.173–176) — A. Masses",
+      "claim": "A mass is three-dimensional and occupies space: it is seen on two different projections (or consecutive DBT slices) and has a wholly or partly convex-outward contour. v2025 shape terms are oval, lobulated, round, and irregular. Margin terms are circumscribed (at least 75% sharply demarcated), obscured (25% or more hidden by overlapping tissue, visible part circumscribed), indistinct, and spiculated (lines radiating from the mass). Density terms compare the mass with an equal volume of fibroglandular tissue: fat-containing, low, equal, or high.",
+      "scope": "Technologist recognition of lexicon terms. Radiologists apply descriptors and assessments; this is not interpretation training.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Lexicon descriptor: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "BI-RADS 5th edition (2013) lists three shapes (no 'lobulated') and includes a 'microlobulated' margin; check which edition a course uses."
+    },
+    {
+      "id": "ev-svl-birads-calc-morph",
+      "sourceId": "src-acr-birads-v2025-mammo-summary",
+      "locator": "ACR BI-RADS Mammography v2025, Appendix B summary form (manual pp.173–176) — B.1 Typically benign; B.2 Suspicious morphology",
+      "claim": "Calcification morphology is split into typically benign and suspicious. v2025 typically benign terms: skin, vascular, coarse, large rod-like, round, rim, layering, and suture. Suspicious morphology terms: amorphous (too small or hazy to define a shape), coarse heterogeneous (irregular, about 0.5–1 mm, tending to coalesce), fine pleomorphic (discrete varied shapes, usually under 0.5 mm), and fine linear or fine linear-branching (thin linear forms under 0.5 mm, sometimes branching).",
+      "scope": "Technologist recognition of lexicon terms. Radiologists apply descriptors and assessments; this is not interpretation training.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Lexicon descriptor: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "Older editions used different benign term sets (e.g., 'milk of calcium', 'dystrophic'); term lists vary by edition."
+    },
+    {
+      "id": "ev-svl-birads-calc-dist",
+      "sourceId": "src-acr-birads-v2025-mammo-summary",
+      "locator": "ACR BI-RADS Mammography v2025, Appendix B summary form (manual pp.173–176) — B.3 Distribution",
+      "claim": "Calcification distribution terms are diffuse (random throughout the breast), regional (a large area over 2 cm, not following a duct), grouped (relatively few calcifications in a small area, generally at least 5 within 1 cm or more within 2 cm), linear (arranged in a line), and segmental (suggesting deposits in a duct and its branches, often a triangle pointing toward the nipple).",
+      "scope": "Technologist recognition of lexicon terms. Radiologists apply descriptors and assessments; this is not interpretation training.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Lexicon descriptor: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-svl-birads-ad-asym",
+      "sourceId": "src-acr-birads-v2025-mammo-summary",
+      "locator": "ACR BI-RADS Mammography v2025, Appendix B summary form (manual pp.173–176) — C. Architectural distortion; D. Asymmetries",
+      "claim": "Architectural distortion means the parenchyma is distorted with no definite mass visible. Asymmetries are unilateral fibroglandular-density deposits that do not meet the mass definition: an asymmetry is seen on only one projection and often reflects superimposed normal tissue; a focal asymmetry is seen on more than one view, covers less than a quadrant, and has a concave-outward contour usually mixed with fat; a global asymmetry covers at least a quadrant.",
+      "scope": "Technologist recognition of lexicon terms. Radiologists apply descriptors and assessments; this is not interpretation training.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Lexicon descriptor: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-svl-nicosia-5th-descriptors",
+      "sourceId": "src-pmc-nicosia-2024-cem-birads",
+      "locator": "PMC10853105 (Nicosia et al. 2024) — BI-RADS CEM overview, findings on low-energy images",
+      "claim": "Using BI-RADS 5th-edition terms, mammographic masses are described by shape (oval, round, irregular), margin (circumscribed, obscured, microlobulated, indistinct, spiculated), and density (high, equal, low, fat-containing), and calcifications are divided into typically benign and suspicious morphology.",
+      "scope": "Technologist recognition of lexicon terms. Radiologists apply descriptors and assessments; this is not interpretation training.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Lexicon descriptor: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "5th-edition terminology; the v2025 summary form adds 'lobulated' shape and omits 'microlobulated' margin."
+    },
+    {
+      "id": "ev-svl-lee-asymmetry",
+      "sourceId": "src-pmc-lee-2018-birads3",
+      "locator": "PMC5787219 (Lee et al. 2018) — Mammography: masses and focal asymmetry",
+      "claim": "A focal asymmetry has concave borders, is confined to one quadrant, and is seen on at least two projections, often interspersed with fat. A focal asymmetry that is new or larger than before is called a developing asymmetry.",
+      "scope": "Technologist recognition of lexicon terms. Radiologists apply descriptors and assessments; this is not interpretation training.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Evidence restated in original wording from a source retrieved 2026-10-06. Lexicon descriptor: needs confirmation by a qualified reviewer."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "exceptions": "Management statements in the article (follow-up, biopsy) are radiologist decisions and are not taught here."
+    }
+  ]
+}

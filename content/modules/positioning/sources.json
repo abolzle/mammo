@@ -56,18 +56,20 @@
       "url": "https://learningnetworksupport.acr.org/support/solutions/articles/11000115257-mammography-positioning-review-guidelines-table",
       "publishedOrEffective": null,
       "retrievedOn": "2026-10-06",
-      "retrievalStatus": "link_only",
-      "retrievalNote": "Login-gated ACR Learning Network article. Not redistributed. Used only as a link-only pointer for detailed accreditation-style positioning criteria.",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Publicly viewable without login on 2026-10-06 (earlier note said login-gated). The page states these criteria are for quality improvement in ACR's Mammography Positioning improvement collaborative and are not to be used for accreditation; 2D/synthetic images only; implants and tiled/mosaic exams excluded.",
       "sections": [
-        "Major criteria overview"
+        "Instructions",
+        "Major criteria (7, bilateral)",
+        "Minor criteria (6, bilateral)"
       ],
       "rights": {
         "status": "copyrighted_link_only",
-        "canRead": false,
+        "canRead": true,
         "canQuote": false,
         "canRedistribute": false,
         "canSubmitToAI": false,
-        "basis": "ACR Learning Network copyrighted support article; link only."
+        "basis": "ACR Learning Network copyrighted support article, publicly viewable. Criteria restated in original wording with a link-only citation; table not reproduced."
       },
       "kind": "professional_guideline"
     }
