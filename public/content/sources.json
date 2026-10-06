@@ -1096,6 +1096,163 @@
         "basisSourceId": "src-fda-website-policies"
       },
       "kind": "government_guidance"
+    },
+    {
+      "id": "src-ecfr-21-cfr-892-image-devices",
+      "title": "21 CFR Part 892 Subpart C — Diagnostic Devices: medical image storage, communications, management/processing, and computer-assisted detection, diagnosis, and triage classifications (§§ 892.2010–892.2090)",
+      "publisher": "U.S. National Archives / Office of the Federal Register (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-892/subpart-C",
+      "publishedOrEffective": "eCFR text current as of 2026-10-02; § 892.2090 added 90 FR 24970 (June 13, 2025)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Section XML fetched from the eCFR versioner API (title 21 up to date as of 2026-10-02) on 2026-10-06 for §§ 892.2010, 892.2020, 892.2030, 892.2040, 892.2050, 892.2060, 892.2070, 892.2080, 892.2090.",
+      "sections": [
+        "§ 892.2010 Medical image storage device",
+        "§ 892.2020 Medical image communications device",
+        "§ 892.2050 Medical image management and processing system",
+        "§ 892.2060 Radiological computer-assisted diagnostic software for lesions suspicious of cancer",
+        "§ 892.2070 Medical image analyzer (CADe)",
+        "§ 892.2080 Radiological computer aided triage and notification software",
+        "§ 892.2090 Radiological computer-assisted detection and diagnosis software"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "Text of the Code of Federal Regulations is a U.S. Government work and not subject to copyright (17 U.S.C. 105)."
+      },
+      "kind": "regulation"
+    },
+    {
+      "id": "src-ecfr-45-cfr-164-security",
+      "title": "45 CFR Part 164 Subpart C — HIPAA Security Standards for the Protection of Electronic Protected Health Information",
+      "publisher": "U.S. National Archives / Office of the Federal Register (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-C/part-164/subpart-C",
+      "publishedOrEffective": "eCFR text current as of 2026-10-02",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Section XML fetched from the eCFR versioner API on 2026-10-06 for §§ 164.304, 164.308, 164.312. Used only for general data-integrity, backup, access, and audit concepts; not legal advice for any specific facility.",
+      "sections": [
+        "§ 164.304 Definitions (integrity)",
+        "§ 164.308(a)(7) Contingency plan",
+        "§ 164.312(a)–(c) Access control, audit controls, integrity"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "Text of the Code of Federal Regulations is a U.S. Government work and not subject to copyright (17 U.S.C. 105)."
+      },
+      "kind": "regulation"
+    },
+    {
+      "id": "src-fda-display-devices-guidance",
+      "title": "Display Devices for Diagnostic Radiology — Guidance for Industry and Food and Drug Administration Staff",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/display-devices-diagnostic-radiology",
+      "publishedOrEffective": "Final guidance, September 2022 (Docket FDA-2016-D-0270)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Guidance page and PDF (https://www.fda.gov/media/95527/download, 16 pages) fetched 2026-10-06. Nonbinding premarket (510(k)) recommendations for display device manufacturers; used here only to explain what makes a display intended for mammography interpretation and which display properties are characterized.",
+      "sections": [
+        "III. Scope",
+        "IV.A Indications for Use",
+        "IV.B Device Description",
+        "VII. Physical Laboratory Testing, Table 1"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-cade-510k-guidance",
+      "title": "Computer-Assisted Detection Devices Applied to Radiology Images and Radiology Device Data — Premarket Notification [510(k)] Submissions",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/computer-assisted-detection-devices-applied-radiology-images-and-radiology-device-data-premarket",
+      "publishedOrEffective": "Final guidance, September 2022 (Docket FDA-2009-D-0503)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Guidance page and PDF (https://www.fda.gov/media/77635/download, 30 pages) fetched 2026-10-06. Nonbinding manufacturer recommendations; used for CADe/CADx/triage definitions and example labeling warnings.",
+      "sections": [
+        "I. Introduction",
+        "III. Scope",
+        "VII. User Training",
+        "VIII.C Warnings"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nlm-mesh-2026",
+      "title": "Medical Subject Headings (MeSH) — descriptor scope notes (Radiology Information Systems; Hospital Information Systems; Electronic Health Records; Data Compression; Patient Identification Systems; Diagnosis, Computer-Assisted)",
+      "publisher": "U.S. National Library of Medicine",
+      "url": "https://meshb.nlm.nih.gov/",
+      "publishedOrEffective": "MeSH RDF current release as served by id.nlm.nih.gov on 2026-10-06",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Scope notes retrieved 2026-10-06 via the NLM MeSH SPARQL/lookup API for descriptors D011873, D006751, D057286, D044962, D010355, D003936. NLM MeSH Terms and Conditions (https://www.nlm.nih.gov/databases/download/terms_and_conditions_mesh.html) require clear acknowledgement of NLM as source, no implied endorsement, and identification of the MeSH version used. MeSH has no descriptor named PACS.",
+      "sections": [
+        "D011873",
+        "D006751",
+        "D057286",
+        "D044962",
+        "D010355",
+        "D003936"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "NLM Terms and Conditions for MeSH data",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NLM freely provides MeSH data; users must acknowledge NLM as the source, not imply endorsement, and identify the version used when redistributing."
+      },
+      "kind": "other"
+    },
+    {
+      "id": "src-dicom-ps3-1",
+      "title": "DICOM PS3.1 2026d — Introduction and Overview",
+      "publisher": "NEMA / Medical Imaging & Technology Alliance (DICOM Standards Committee)",
+      "url": "https://dicom.nema.org/medical/dicom/current/output/html/part01.html",
+      "publishedOrEffective": "DICOM Standard edition 2026d",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "link_only",
+      "retrievalNote": "Read 2026-10-06 (sections 1.1, 1.2, 1.4.3, 6.14, 6.15). The standard is free to read but copyright NEMA. NEMA website Terms & Conditions (https://www.dicomstandard.org/dicom-terms-conditions) permit copying only for informational or personal use without modification and prohibit republishing or distributing works without written consent. Mammo restates facts in original words and links; no excerpts and no AI submission.",
+      "sections": [
+        "1.1 Scope of DICOM",
+        "1.4.3 Information Objects and Unique Object Identification",
+        "6.14 PS3.14 Grayscale Standard Display Function",
+        "6.15 PS3.15 Security and System Management Profiles"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "Copyright NEMA. Site terms prohibit republication, modification, or distribution without written consent. Facts are taught in original wording with a link-only citation."
+      },
+      "kind": "professional_guideline"
     }
   ]
 }

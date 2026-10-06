@@ -41,6 +41,22 @@
       "visualCount": 4
     },
     {
+      "id": "mod-informatics",
+      "version": "1.0.0-beta.1",
+      "title": "Imaging informatics, displays, and CAD",
+      "summary": "Technologist-level PACS, RIS, EHR, and DICOM basics; which displays may be used to interpret mammograms and why display calibration matters; CAD and AI as decision support, not replacement; and data integrity, original-image retention, and patient identification in a digital workflow. Built from eCFR, the 2023 MQSA final rule, FDA guidance, NCI PDQ, NLM MeSH, and link-only DICOM.",
+      "topicIds": [
+        "top-ip-digital",
+        "top-ip-mqsa-records",
+        "top-ip-qc-technologist"
+      ],
+      "path": "/content/modules/informatics.json",
+      "lessonCount": 10,
+      "questionCount": 44,
+      "cardCount": 37,
+      "visualCount": 4
+    },
+    {
       "id": "mod-mqsa",
       "version": "1.0.0-beta.1",
       "title": "MQSA quality standards",
@@ -130,7 +146,7 @@
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 51,
+    "withLesson": 54,
     "withGap": 57,
     "breakdown": {
       "public_domain_open": 23,

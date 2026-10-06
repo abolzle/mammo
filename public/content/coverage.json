@@ -399,15 +399,19 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [
+        "card-inf-interp-vs-comp",
         "card-pc-transfer-15"
       ],
       "questionIds": [
+        "q-inf-004",
+        "q-inf-039",
+        "q-inf-040",
         "q-mqsa-030",
         "q-pc-028",
         "q-pc-070"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 2,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "missing lesson"
     },
@@ -594,21 +598,28 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-ip-receptors-displays"
+        "les-ip-receptors-displays",
+        "les-inf-display-roles"
       ],
       "cardIds": [
         "card-ip-acq-vs-interp",
-        "card-ip-digital-qc-pointer"
+        "card-ip-digital-qc-pointer",
+        "card-inf-display-ifu",
+        "card-inf-display-510k"
       ],
       "questionIds": [
         "q-ip-021",
         "q-ip-022",
         "q-ip-023",
         "q-ip-024",
-        "q-ip-054"
+        "q-ip-054",
+        "q-inf-014",
+        "q-inf-015",
+        "q-inf-016",
+        "q-inf-017"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -619,11 +630,53 @@
       "statement": "Explain HIS/RIS, EMR, and PACS roles, including storage, backup, archive, and basic troubleshooting.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-inf-systems-map",
+        "les-inf-pacs-devices",
+        "les-inf-dicom",
+        "les-inf-integrity-backup"
+      ],
+      "cardIds": [
+        "card-inf-ris",
+        "card-inf-his",
+        "card-inf-ehr",
+        "card-inf-pacs-originals",
+        "card-inf-storage-class",
+        "card-inf-comm-tools",
+        "card-inf-mimps-standards",
+        "card-inf-dicom-what",
+        "card-inf-dicom-not",
+        "card-inf-dicom-uid",
+        "card-inf-dicom-mqsa",
+        "card-inf-integrity",
+        "card-inf-backup-vs-dr",
+        "card-inf-emergency-mode",
+        "card-inf-unique-user"
+      ],
+      "questionIds": [
+        "q-inf-001",
+        "q-inf-002",
+        "q-inf-003",
+        "q-inf-004",
+        "q-inf-005",
+        "q-inf-006",
+        "q-inf-007",
+        "q-inf-008",
+        "q-inf-009",
+        "q-inf-010",
+        "q-inf-011",
+        "q-inf-012",
+        "q-inf-013",
+        "q-inf-041",
+        "q-inf-042",
+        "q-inf-043",
+        "q-inf-044"
+      ],
+      "visualIds": [
+        "vis-inf-originals-home",
+        "vis-inf-contingency"
+      ],
+      "learnerQuestionCount": 17,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -634,11 +687,36 @@
       "statement": "Describe what computer-aided detection does and does not do.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-inf-cad-types",
+        "les-inf-cad-limits"
+      ],
+      "cardIds": [
+        "card-inf-cade",
+        "card-inf-cade-not",
+        "card-inf-cadx",
+        "card-inf-cadt",
+        "card-inf-cad-tradeoff",
+        "card-inf-cad-invasive",
+        "card-inf-cad-iq",
+        "card-inf-ai-unknowns"
+      ],
+      "questionIds": [
+        "q-inf-022",
+        "q-inf-023",
+        "q-inf-024",
+        "q-inf-025",
+        "q-inf-026",
+        "q-inf-027",
+        "q-inf-028",
+        "q-inf-029",
+        "q-inf-030",
+        "q-inf-031"
+      ],
+      "visualIds": [
+        "vis-inf-cad-nomark"
+      ],
+      "learnerQuestionCount": 10,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -944,14 +1022,23 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
+        "les-inf-labeling-identity",
         "les-mqsa-labeling",
         "les-pos-labels"
       ],
       "cardIds": [
+        "card-inf-label-elements",
+        "card-inf-label-quality",
+        "card-inf-report-id",
         "card-mqsa-label-7",
         "card-pos-label-axilla"
       ],
       "questionIds": [
+        "q-inf-031",
+        "q-inf-032",
+        "q-inf-033",
+        "q-inf-034",
+        "q-inf-035",
         "q-mqsa-027",
         "q-mqsa-028",
         "q-mqsa-044",
@@ -964,7 +1051,7 @@
         "vis-mqsa-label-placement",
         "vis-pos-label-axilla"
       ],
-      "learnerQuestionCount": 7,
+      "learnerQuestionCount": 12,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -976,10 +1063,15 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
+        "les-inf-originals",
         "les-mqsa-records",
         "les-qcr-records-lifecycle"
       ],
       "cardIds": [
+        "card-inf-lossless",
+        "card-inf-lossy",
+        "card-inf-cad-marks",
+        "card-inf-electronic",
         "card-mqsa-retention",
         "card-mqsa-transfer-15",
         "card-qcr-retain-longest",
@@ -990,6 +1082,11 @@
       "questionIds": [
         "q-ip-073",
         "q-ip-075",
+        "q-inf-036",
+        "q-inf-037",
+        "q-inf-038",
+        "q-inf-039",
+        "q-inf-044",
         "q-mqsa-029",
         "q-mqsa-030",
         "q-mqsa-045",
@@ -1000,9 +1097,10 @@
         "q-qcr-032"
       ],
       "visualIds": [
+        "vis-inf-original-set",
         "vis-qcr-retention-rule"
       ],
-      "learnerQuestionCount": 8,
+      "learnerQuestionCount": 13,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1179,11 +1277,23 @@
       "statement": "Describe acquisition and interpretation monitor QC (cleanliness, calibration, test patterns such as SMPTE/TG18) and viewing conditions.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-inf-display-qc"
+      ],
+      "cardIds": [
+        "card-inf-qc-not-clearance",
+        "card-inf-gsdf",
+        "card-inf-digital-qa-source",
+        "card-inf-hotlight"
+      ],
+      "questionIds": [
+        "q-inf-018",
+        "q-inf-019",
+        "q-inf-020",
+        "q-inf-021"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
