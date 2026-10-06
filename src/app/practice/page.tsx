@@ -10,7 +10,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Switch } from "@/components/ui/switch";
 import { useApp } from "@/components/app-provider";
 import { EXAM } from "@/config/exam";
-import { allSessions } from "@/lib/db";
+import { allSessions, putSession } from "@/lib/db";
+import { abandonSession } from "@/lib/engine/session";
 import { dailyPracticePool, formPool, offerAssessment, topicQuestions, type AssessmentOffer, type AssessmentRequest } from "@/lib/engine/assessment";
 import { proportionalMinutes } from "@/lib/engine/forms";
 import { startAssessment, type TimingChoice } from "@/lib/engine/start";
@@ -98,6 +99,23 @@ export default function PracticePage() {
     .filter((s) => s.status === "completed" && s.assessment)
     .sort((a, b) => (b.completedAt ?? "").localeCompare(a.completedAt ?? ""));
 
+  async function startOver() {
+    if (busy) return;
+    setBusy(true);
+    setNote(null);
+    try {
+      const open = sessions.filter((s) => s.status === "in_progress" && s.assessment);
+      const abandoned = open.map((s) => abandonSession(s));
+      for (const s of abandoned) await putSession(s);
+      const ids = new Set(abandoned.map((s) => s.id));
+      setSessions((prev) => prev.map((s) => (ids.has(s.id) ? abandoned.find((a) => a.id === s.id)! : s)));
+    } catch (e) {
+      setNote(e instanceof Error ? e.message : "Those sessions could not be cleared.");
+    } finally {
+      setBusy(false);
+    }
+  }
+
   async function start(req: AssessmentRequest, forceMode?: "test") {
     if (!content || busy) return;
     setBusy(true);
@@ -125,7 +143,9 @@ export default function PracticePage() {
         <Card>
           <CardHeader>
             <CardTitle>Resume</CardTitle>
-            <CardDescription>Timed tests keep running while you are away.</CardDescription>
+            <CardDescription>
+              Timed tests keep running while you are away. Answers already saved stay on this device. Start over clears unfinished quizzes and assessments from Practice.
+            </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap gap-2">
             {inProgress.map((s) => (
@@ -133,6 +153,9 @@ export default function PracticePage() {
                 Resume {s.assessment!.label.toLowerCase()}
               </Button>
             ))}
+            <Button variant="ghost" className="min-h-11" disabled={busy} onClick={() => void startOver()}>
+              Start over
+            </Button>
           </CardContent>
         </Card>
       ) : null}
@@ -226,7 +249,7 @@ export default function PracticePage() {
 
       <section className="space-y-4" aria-labelledby="forms-h">
         <h2 id="forms-h" className="font-heading text-xl">
-          Reserved Form A assessments
+          Reserved Form A Assessments
         </h2>
         <div className="grid gap-4 md:grid-cols-3">
           {standardOffers.map((offer) => (

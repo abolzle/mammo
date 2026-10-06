@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 test("learner can start, answer, see explanation, finish, and resume after refresh", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByRole("heading", { name: /five minutes/i })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /you have \d+ minutes/i })).toBeVisible();
   await page.getByRole("button", { name: /skip/i }).click();
   await page.getByRole("button", { name: /five minutes instead/i }).click();
   await expect(page).toHaveURL(/session/);

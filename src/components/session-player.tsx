@@ -26,6 +26,7 @@ import {
 import {
   applyAnswer,
   bumpObjective,
+  advanceSession,
   completeSession,
   currentItem,
   liveElapsedMs,
@@ -155,16 +156,16 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
     await persist(next);
     setChoice("");
     setVariant("none");
+    // Recall cards and lessons have no second "next" step. Study-mode questions
+    // stay put so the explanation can be read, then Continue calls goNext.
+    if (item.type === "card" || item.type === "lesson") {
+      await persist(advanceSession(next));
+    }
   }
 
   async function goNext() {
     if (!session) return;
-    const idx = Math.min(session.currentIndex + 1, session.items.length - 1);
-    if (session.items[session.currentIndex]?.type === "recap") {
-      await persist(completeSession(session));
-      return;
-    }
-    await persist({ ...session, currentIndex: idx });
+    await persist(advanceSession(session));
   }
 
   async function finish() {

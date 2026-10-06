@@ -4,7 +4,7 @@ import { coverageMatrix, sourceBreakdown } from "../src/lib/content/coverage";
 import { isLearnerVisible, isValidatedPool, validateImportedJson } from "../src/lib/content/validate";
 import { planQuiz, planStudySession, practiceQuestions, reservedFamilies } from "../src/lib/engine/planner";
 import { defaultProfile } from "../src/lib/db";
-import { applyAnswer, liveElapsedMs } from "../src/lib/engine/session";
+import { abandonSession, applyAnswer, liveElapsedMs } from "../src/lib/engine/session";
 import { createSession } from "../src/lib/engine/create";
 import { eventId } from "../src/lib/engine/ids";
 import { parseBackupText, importBackup, exportBackup } from "../src/lib/engine/backup";
@@ -109,6 +109,22 @@ describe("session resume", () => {
     const b = applyAnswer({ session: a.session, itemId: "it-one", answer: "a", correct: true, firstExposure: false });
     expect(a.event.id).toBe(b.event.id);
     expect(a.event.id).toBe(eventId(session.id, "it-one"));
+  });
+
+  it("abandons an open session so Today can start fresh", () => {
+    const session = createSession({
+      kind: "study",
+      mode: "study",
+      minutes: 10,
+      why: "test",
+      contentVersion: "1",
+      beta: true,
+      items: [],
+    });
+    const abandoned = abandonSession(session);
+    expect(abandoned.status).toBe("abandoned");
+    expect(abandoned.completedAt).toBeTruthy();
+    expect(abandoned.id).toBe(session.id);
   });
 
   it("continues elapsed time after a simulated refresh", () => {

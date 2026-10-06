@@ -150,6 +150,12 @@ export async function activeSession() {
   return all.find((s) => s.status === "in_progress") ?? null;
 }
 
+/** In-progress study sessions that Today offers to resume. Practice assessments stay on Practice. */
+export async function openDailySessions() {
+  const all = await allSessions();
+  return all.filter((s) => s.status === "in_progress" && s.kind !== "assessment");
+}
+
 /** Idempotent: same event id is not stored twice. */
 export async function putEvent(ev: ResponseEvent): Promise<{ event: ResponseEvent; inserted: boolean }> {
   const db = await openMammoDB();

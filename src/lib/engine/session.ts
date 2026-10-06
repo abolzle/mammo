@@ -101,6 +101,14 @@ export function revealItem(session: StudySession, itemId: string): StudySession 
   };
 }
 
+export function abandonSession(session: StudySession): StudySession {
+  return commitElapsed({
+    ...session,
+    status: "abandoned",
+    completedAt: nowIso(),
+  });
+}
+
 export function completeSession(session: StudySession): StudySession {
   const now = nowIso();
   return commitElapsed({
@@ -171,6 +179,14 @@ export function scheduleAfterCard(
 
 export function currentItem(session: StudySession): SessionItem | undefined {
   return session.items[session.currentIndex];
+}
+
+/** Move to the next item. The recap, or a session that is already on its last item, completes. */
+export function advanceSession(session: StudySession): StudySession {
+  const current = currentItem(session);
+  const idx = Math.min(session.currentIndex + 1, Math.max(0, session.items.length - 1));
+  if (!current || current.type === "recap" || idx === session.currentIndex) return completeSession(session);
+  return { ...session, currentIndex: idx };
 }
 
 export function findQuestion(modules: ModuleContent[], id: string): Question | undefined {
