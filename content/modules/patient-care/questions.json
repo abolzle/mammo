@@ -6480,6 +6480,332 @@
         ]
       },
       "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-099",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-clinician-role"
+      ],
+      "familyId": "fam-pc-fb-mqsa-easy-read",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "NCI’s MQSA patient-education summary says facilities must meet uniform quality standards and also give patients what kind of mammogram result document?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An easy-to-read report of their mammogram results",
+          "rationale": "Correct. NCI: MQSA requires an easy-to-read report of mammogram results for patients."
+        },
+        {
+          "id": "b",
+          "text": "Only the raw DICOM files with no written summary",
+          "rationale": "MQSA patient communication is framed as an easy-to-read results report, not raw files alone."
+        },
+        {
+          "id": "c",
+          "text": "A verbal diagnosis of cancer or benign disease from the technologist before leaving",
+          "rationale": "Technologists do not issue cancer diagnoses; the lay summary comes from the facility’s required written communication."
+        },
+        {
+          "id": "d",
+          "text": "A physicist survey report listing kVp and HVL for that exposure",
+          "rationale": "Physicist survey paperwork is not the patient-facing results document described."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA requires facilities to meet uniform quality standards and to give patients an easy-to-read report of their mammogram results.",
+      "variants": {
+        "simpler": "MQSA: patients get an easy-to-read mammogram results report.",
+        "example": "When a patient asks what paperwork she should expect, point to the easy-to-read lay summary requirement."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-mqsa-lay"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-100",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-epidemiology"
+      ],
+      "familyId": "fam-pc-fb-dense-nearly-half",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "When educating average-risk patients about how common dense breasts are, which NCI figure should you use?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dense breasts are rare — under 5% of screened women.",
+          "rationale": "NCI says nearly half of women 40+ who get mammograms have dense tissue."
+        },
+        {
+          "id": "b",
+          "text": "Only women with a BRCA variant have dense breasts.",
+          "rationale": "Density is common and not limited to genetic high-risk groups."
+        },
+        {
+          "id": "c",
+          "text": "Nearly half of women age 40 and older who get mammograms are found to have dense breast tissue.",
+          "rationale": "Correct. NCI: nearly half of screened women ≥40 have dense tissue."
+        },
+        {
+          "id": "d",
+          "text": "Density disappears after menopause for almost everyone.",
+          "rationale": "NCI does not teach that density vanishes for almost everyone after menopause."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI reports dense breasts are common: nearly half of women age 40 and older who get mammograms have dense breast tissue.",
+      "variants": {
+        "simpler": "About half of screened women ≥40 have dense breasts (NCI).",
+        "example": "Use this prevalence when a patient assumes density is unusual."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-dense-common"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-101",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-signs-symptoms"
+      ],
+      "familyId": "fam-pc-fb-ibc-no-lump",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Which presentation feature of inflammatory breast cancer is emphasized in this module’s dictionary-level evidence?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It always presents as a painless, mobile, well-defined lump.",
+          "rationale": "That pattern fits common benign masses such as fibroadenoma, not IBC’s framing here."
+        },
+        {
+          "id": "b",
+          "text": "It is slow-growing and confined to a single milk duct without skin change.",
+          "rationale": "IBC is framed as rare, fast-growing, with skin lymph-vessel blockage."
+        },
+        {
+          "id": "c",
+          "text": "It often has no palpable lump, may not be seen on mammogram, and can show swollen/inflamed skin (including peau d’orange-like changes).",
+          "rationale": "Correct. Dictionary evidence: often no lump; skin inflammation; may be mammographically occult."
+        },
+        {
+          "id": "d",
+          "text": "It is defined solely by calcifications without clinical skin findings.",
+          "rationale": "IBC framing centers clinical skin/lymph findings, not calcifications alone."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Inflammatory breast cancer is rare and fast-growing; cells block skin lymph vessels, causing swollen/inflamed appearance; often no palpable lump and may not be seen on mammogram; peau d’orange-like changes.",
+      "variants": {
+        "simpler": "IBC: inflamed/swollen skin, often no lump, may miss on mammogram.",
+        "example": "Document skin erythema/edema/peau d’orange even when no discrete mass is felt."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-ibc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-102",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-surgical-options"
+      ],
+      "familyId": "fam-pc-fb-sentinel-first-node",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In plain language suitable for patient education, what is the sentinel lymph node?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Any axillary node that looks fatty on mammography.",
+          "rationale": "Sentinel status is about drainage order from the tumor, not mammographic fat appearance."
+        },
+        {
+          "id": "b",
+          "text": "Every lymph node removed during a modified radical mastectomy.",
+          "rationale": "That describes a larger axillary dissection, not the sentinel definition."
+        },
+        {
+          "id": "c",
+          "text": "A benign intramammary node that never communicates with axillary pathways.",
+          "rationale": "Intramammary nodes are a different anatomy topic; sentinel means first drainage node."
+        },
+        {
+          "id": "d",
+          "text": "The first lymph node to which cancer is likely to spread from the primary tumor.",
+          "rationale": "Correct. Dictionary: first node likely to receive spread from the primary."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "The sentinel lymph node is the first lymph node to which cancer is likely to spread from the primary tumor.",
+      "variants": {
+        "simpler": "Sentinel node = first drainage node from the tumor.",
+        "example": "When a patient hears “sentinel node biopsy,” this is the definition to use."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-sentinel"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-103",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-rapport-support"
+      ],
+      "familyId": "fam-pc-fb-callback-mostly-benign",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A patient calls after a callback letter and says she is sure the letter means she has cancer. Which NCI-supported response is accurate without dismissing her fear?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Callback letters are issued only after biopsy-proven malignancy.",
+          "rationale": "Callbacks request more imaging/biopsy workup; most are not cancer."
+        },
+        {
+          "id": "b",
+          "text": "Being called back can be frightening, but most people called back are not found to have breast cancer.",
+          "rationale": "Correct. NCI: most callbacks are not cancer."
+        },
+        {
+          "id": "c",
+          "text": "Any callback automatically upgrades the exam to Highly Suggestive of Malignancy.",
+          "rationale": "Callback ≠ that final assessment category."
+        },
+        {
+          "id": "d",
+          "text": "Technologists may tell her the radiologist already confirmed cancer on the screening images.",
+          "rationale": "Technologists must not invent a cancer diagnosis."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI notes callbacks can be frightening, but most people who are called back are not found to have breast cancer.",
+      "variants": {
+        "simpler": "Most callbacks are not cancer — acknowledge fear, share that NCI fact.",
+        "example": "Use this reassurance while still directing her to complete the recommended follow-up."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-callback"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
     }
   ]
 }
