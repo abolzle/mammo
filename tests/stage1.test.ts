@@ -169,12 +169,24 @@ describe("backup", () => {
 });
 
 describe("assessment honesty", () => {
-  it("refuses a 60-question checkpoint and a 145-item simulation", () => {
-    const checkpoint = offerAssessment("checkpoint", loaded.modules);
+  it("refuses a 60-question checkpoint and a 145-item simulation when the reserved pool is too small", () => {
+    let kept = 0;
+    const small = loaded.modules.map((m) => ({
+      ...m,
+      questions: m.questions.filter((q) => q.pool !== "form-a" || kept++ < 59),
+    }));
+    const checkpoint = offerAssessment("checkpoint", small);
     expect(checkpoint.ok).toBe(false);
     if (!checkpoint.ok) expect(checkpoint.fallback).toBeTruthy();
-    const sim = offerAssessment("simulation", loaded.modules);
+    const sim = offerAssessment("simulation", small);
     expect(sim.ok).toBe(false);
+  });
+
+  it("offers the checkpoint only when 60 distinct Form A items exist", () => {
+    const formA = loaded.modules.flatMap((m) => m.questions.filter((q) => q.pool === "form-a"));
+    expect(offerAssessment("checkpoint", loaded.modules).ok).toBe(formA.length >= 60);
+    const reserved = loaded.modules.flatMap((m) => m.questions.filter((q) => q.pool !== "practice"));
+    expect(offerAssessment("simulation", loaded.modules).ok).toBe(reserved.length >= EXAM.totalQuestions);
   });
 
   it("offers a reserved Form A quiz without mixing those families into daily study", () => {
