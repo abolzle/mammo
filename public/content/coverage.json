@@ -87,11 +87,12 @@
         "q-pos-096",
         "q-pos-105",
         "q-pos-106",
+        "q-pos-107",
         "q-pos-118"
       ],
       "visualIds": [],
       "learnerQuestionCount": 7,
-      "formQuestionCount": 5,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -1792,14 +1793,13 @@
         "q-pos-094",
         "q-pos-096",
         "q-pos-102",
-        "q-pos-107",
         "q-pos-108",
         "q-pos-124",
         "q-qcr-014"
       ],
       "visualIds": [],
       "learnerQuestionCount": 9,
-      "formQuestionCount": 7,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2342,6 +2342,7 @@
         "q-pos-013",
         "q-pos-016",
         "q-pos-048",
+        "q-pos-095",
         "q-pos-099",
         "q-pos-101"
       ],
@@ -2349,7 +2350,7 @@
         "vis-pos-mlo-muscle"
       ],
       "learnerQuestionCount": 6,
-      "formQuestionCount": 2,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-mlo-criteria",
@@ -2474,13 +2475,14 @@
       "questionIds": [
         "q-pos-033",
         "q-pos-034",
-        "q-pos-036"
+        "q-pos-036",
+        "q-pos-114"
       ],
       "visualIds": [
         "vis-pos-implant-panel"
       ],
       "learnerQuestionCount": 3,
-      "formQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "q-pos-035"
@@ -2606,12 +2608,11 @@
         "q-pos-046",
         "q-pos-079",
         "q-pos-088",
-        "q-pos-114",
         "q-pos-115"
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
-      "formQuestionCount": 4,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2664,17 +2665,14 @@
         "q-pos-091",
         "q-pos-092",
         "q-pos-093",
-        "q-pos-095",
         "q-pos-097",
-        "q-pos-104",
-        "q-pos-119",
-        "q-pos-122"
+        "q-pos-104"
       ],
       "visualIds": [
         "vis-pc-screen-vs-dx"
       ],
       "learnerQuestionCount": 11,
-      "formQuestionCount": 19,
+      "formQuestionCount": 16,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2731,6 +2729,7 @@
         "q-pos-074",
         "q-pos-075",
         "q-pos-109",
+        "q-pos-118",
         "q-pos-126",
         "q-pqd-042",
         "q-pqd-043",
@@ -2741,7 +2740,7 @@
         "vis-pqd-timeout-step"
       ],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 5,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
