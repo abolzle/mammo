@@ -46,7 +46,7 @@ Serve `out/` with any static host. The app uses IndexedDB on the learner's devic
 
 - Effectiveness or sufficiency for passing the registry exam
 - A clinically reviewed question pool (none yet)
-- Full-length 145-item simulation (the bank is too small; the UI says so)
+- That practice forms are equated for difficulty, or that a practice score maps to an ARRT scaled score (full simulations open only when the reserved bank can fill 115 scored + 30 pilot slots by blueprint; until then the UI says exactly what is short)
 - Cross-device sync
 - Secure proctored testing (answers ship with the static site)
 

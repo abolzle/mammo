@@ -204,6 +204,9 @@ function checkQuestion(
     issues.push({ level: "error", path: q.id, message: `Family ${q.familyId} spans pools ${prev} and ${q.pool}` });
   }
   ctx.familyByPool.set(q.familyId, q.pool);
+  if (q.pool === "practice" && q.simulationRole === "pilot") {
+    issues.push({ level: "warning", path: q.id, message: "simulationRole pilot only applies to reserved form pools" });
+  }
   const unsafe = [q.stem, q.explanation, ...q.choices.map((c) => c.text)].join(" ");
   if (/<script/i.test(unsafe)) issues.push({ level: "error", path: q.id, message: "Script tags are not allowed in content" });
   return issues;

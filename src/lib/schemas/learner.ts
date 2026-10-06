@@ -21,7 +21,9 @@ export const profile = z.object({
 });
 export type Profile = z.infer<typeof profile>;
 
-export const sessionKind = z.enum(["study", "quiz", "diagnostic", "lesson"]);
+export const sessionKind = z.enum(["study", "quiz", "diagnostic", "lesson", "assessment"]);
+export const assessmentKind = z.enum(["topic_quiz", "mixed_quiz", "form_quiz", "baseline", "checkpoint", "simulation"]);
+export type AssessmentKindValue = z.infer<typeof assessmentKind>;
 export const sessionMode = z.enum(["study", "test"]);
 export const sessionStatus = z.enum(["in_progress", "completed", "abandoned"]);
 export const itemType = z.enum(["lesson", "card", "question", "visual", "recap"]);
@@ -44,8 +46,34 @@ export const sessionItem = z.object({
   confidence: z.number().int().min(1).max(5).nullable().optional(),
   startedAt: z.string().nullable().optional(),
   answeredAt: z.string().nullable().optional(),
+  /** Assessment items: pilots are revealed after submit and excluded from the headline score. */
+  role: z.enum(["scored", "pilot"]).optional(),
+  pilotSource: z.enum(["marked", "designated"]).optional(),
+  flagged: z.boolean().optional(),
+  subdomainId: z.string().optional(),
+  /** Family already seen on this device when the form was assembled. Rewording does not make an item unseen. */
+  priorExposure: z.boolean().optional(),
 });
 export type SessionItem = z.infer<typeof sessionItem>;
+
+export const assessmentMeta = z.object({
+  kind: assessmentKind,
+  label: z.string(),
+  pool: z.string(),
+  formId: z.string(),
+  formVersion: z.string(),
+  topicId: z.string().optional(),
+  attempt: z.number().int().positive(),
+  retake: z.boolean(),
+  /** Standard conditions: configured timing, no accommodation, answer required where the exam requires it. */
+  standard: z.boolean(),
+  timing: z.enum(["standard", "extended", "untimed"]),
+  timeMultiplier: z.number().positive(),
+  requireAnswer: z.boolean(),
+  designatedPilots: z.number().int().nonnegative().default(0),
+  submitReason: z.enum(["learner", "time_expired"]).optional(),
+});
+export type AssessmentMeta = z.infer<typeof assessmentMeta>;
 
 export const session = z.object({
   id: z.string(),
@@ -68,6 +96,7 @@ export const session = z.object({
   contentVersion: z.string(),
   beta: z.boolean(),
   submitted: z.boolean().default(false),
+  assessment: assessmentMeta.optional(),
 });
 export type StudySession = z.infer<typeof session>;
 
