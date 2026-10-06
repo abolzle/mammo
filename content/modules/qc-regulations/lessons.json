@@ -1,0 +1,628 @@
+{
+  "lessons": [
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-equip-purpose",
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "title": "Why EQUIP exists: continuous clinical image quality",
+      "estMinutes": 3,
+      "summary": "Accreditation already graded clinical images. EQUIP put continuous image-quality duties into the annual inspection so facilities cannot treat quality as a once-every-three-years event.",
+      "explanation": [
+        {
+          "heading": "The standing rule",
+          "body": "\u00a7 900.12(i) already required certified facilities to keep producing clinical images that meet their accreditation body's clinical image quality standards. That duty never paused between accreditation reviews."
+        },
+        {
+          "heading": "What inspections used to miss",
+          "body": "FDA's EQUIP materials explain that questions tied to those clinical image quality rules had not been part of the annual inspection. EQUIP added inspection questions so continuous quality\u2014and the lead interpreting physician's role\u2014are checked every year."
+        },
+        {
+          "heading": "Three foci, not three new statutes",
+          "body": "EQUIP did not invent a separate law. It emphasizes existing requirements through three annual questions: corrective action with interpreting-physician feedback, periodic sample clinical image review, and lead interpreting physician oversight of QA/QC records."
+        }
+      ],
+      "example": "A facility that aces phantom tests but never samples technologists' clinical images is still missing an EQUIP focus area\u2014even if accreditation is years away.",
+      "misconception": {
+        "belief": "EQUIP created brand-new image-quality regulations.",
+        "correction": "EQUIP added inspection questions about rules that already existed, especially continuous compliance with accreditation-body clinical image standards and interpreting-physician corrective-action duties."
+      },
+      "variants": {
+        "simpler": "Accreditation visits are rare. EQUIP makes sure inspectors ask every year: are you still checking and fixing clinical image quality?",
+        "example": "An inspector asks for dated documentation of a sample-image review since last year's inspection\u2014not just a promise that images look fine.",
+        "deeper": "FDA's EQUIP overview ties the initiative to \u00a7 900.12(i) continuous clinical image quality, \u00a7 900.12(d)(1)(ii)(A) IP corrective-action duties, and \u00a7 900.12(d)(2) LIP responsibility for QA/QC records."
+      },
+      "observationPrompt": "Ask your preceptor which EQUIP documentation the facility prepares before the annual inspection.",
+      "checkQuestionId": "q-qcr-001",
+      "evidenceIds": [
+        "ev-qcr-equip-purpose",
+        "ev-qcr-ciq-standard",
+        "ev-qcr-equip-q1"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-equip-feedback",
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "title": "EQUIP corrective action: feedback you can prove",
+      "estMinutes": 3,
+      "summary": "Poor images need an interpreting-physician feedback path and documented corrective actions whose effectiveness is checked\u2014not only a verbal 'we'll do better.'",
+      "explanation": [
+        {
+          "heading": "The first EQUIP question",
+          "body": "Inspectors ask whether the facility has procedures for corrective action when clinical images are poor, including (1) ongoing interpreting-physician feedback to technologists or other designated staff and (2) documenting corrective actions and their effectiveness."
+        },
+        {
+          "heading": "Who calls an image poor",
+          "body": "For this inspection question, the interpreting physician decides whether images are of poor quality and provides feedback. Tools may help, but the IP owns the determination."
+        },
+        {
+          "heading": "Written SOP optional here",
+          "body": "Unlike some other MQSA systems, FDA's EQUIP FAQ says this corrective-action system need not be a written SOP. A verbal explanation can suffice if those two elements are present. The inspector checks that a system exists with those elements\u2014not every local detail of how you message staff."
+        }
+      ],
+      "example": "An IP flags repeated motion on one technologist's MLOs, the facility documents coaching and a follow-up sample, then records that later images met the expected sharpness\u2014closing the effectiveness loop.",
+      "misconception": {
+        "belief": "If we discuss poor images at huddle, EQUIP is satisfied.",
+        "correction": "Discussion helps, but EQUIP also expects a mechanism to document corrective actions and whether they worked."
+      },
+      "variants": {
+        "simpler": "Someone reading images must tell technologists when quality slips, and the facility must write down what was fixed and whether it stayed fixed.",
+        "example": "A memo that only says 'improve positioning' without a later check fails the effectiveness half of the requirement.",
+        "deeper": "\u00a7 900.12(d)(1)(ii)(A) already required interpreting physicians to follow facility corrective-action procedures for poor images; EQUIP made that duty visible at inspection."
+      },
+      "observationPrompt": "Ask how interpreting physicians at your site send image-quality feedback to technologists and where effectiveness is recorded.",
+      "checkQuestionId": "q-qcr-005",
+      "evidenceIds": [
+        "ev-qcr-equip-q1",
+        "ev-qcr-equip-q1-no-written-sop",
+        "ev-qcr-equip-q1-ip-decides",
+        "ev-qcr-ip-poor-quality-duty"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-equip-periodic",
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "title": "Periodic sample review under EQUIP",
+      "estMinutes": 4,
+      "summary": "At least once between inspections, document a dated review of sample images from every active technologist and every active interpreting physician against the eight attributes.",
+      "explanation": [
+        {
+          "heading": "What must be reviewed",
+          "body": "Procedures must include regular review of image-quality attributes for a sample of mammograms performed by each active RT and a sample accepted for interpretation by each active IP, with documentation since the last inspection."
+        },
+        {
+          "heading": "How often and how recorded",
+          "body": "Because inspectors look for a review since the last inspection, the default minimum is annual. More frequent review is encouraged. Documentation must be written and dated; a verbal claim is not enough. Sample size is facility-chosen, but every active RT and IP must be included\u2014including diagnostic-only staff. Former employees need not be included."
+        },
+        {
+          "heading": "What does not count",
+          "body": "Repeat/reject analysis is not a substitute. Reviewing every image only at the moment of interpretation also does not satisfy the periodic sample-review question. The eight attributes remain positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification."
+        }
+      ],
+      "example": "A dated summary listing each active RT and IP, the sample reviewed, and attribute notes is the kind of evidence EQUIP expects\u2014not a statement that 'we look at images every day.'",
+      "misconception": {
+        "belief": "Our reject-rate log covers EQUIP image review.",
+        "correction": "FDA's FAQ states repeat/reject analysis does not count as the periodic clinical image quality review."
+      },
+      "variants": {
+        "simpler": "Once a year at minimum, write down that you sampled images from every working technologist and reader and checked the eight quality attributes.",
+        "example": "A facility with twelve technologists cannot sample only the three newest hires; active means all currently performing.",
+        "deeper": "The LIP's own accepted images must be in the sample because the LIP is an interpreting physician; another IP may review them when available."
+      },
+      "observationPrompt": "Ask to see (without patient identifiers) how your facility documents the most recent periodic clinical image quality review.",
+      "checkQuestionId": "q-qcr-010",
+      "evidenceIds": [
+        "ev-qcr-equip-q2",
+        "ev-qcr-equip-periodic-annual",
+        "ev-qcr-equip-periodic-docs",
+        "ev-qcr-equip-not-repeat-analysis",
+        "ev-qcr-equip-all-active",
+        "ev-qcr-eight-attributes"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-equip-lip",
+      "objectiveId": "obj-mqsa-qa-roles",
+      "title": "LIP oversight on inspection day",
+      "estMinutes": 3,
+      "summary": "The lead interpreting physician must oversee QA/QC frequency and corrective-action appropriateness\u2014and one of three evidence paths must be available when the inspector asks.",
+      "explanation": [
+        {
+          "heading": "The third EQUIP question",
+          "body": "Does the facility have a procedure for LIP oversight of QA/QC records and corrective actions that includes reviewing how often all required tests are performed and reviewing whether corrective actions taken were appropriate?"
+        },
+        {
+          "heading": "Who the LIP is in this story",
+          "body": "EQUIP views the LIP as most responsible for continuous image quality. The LIP is still an IP whose accepted images belong in periodic review. The LIP title does not create supervisory authority over other interpreting physicians."
+        },
+        {
+          "heading": "Three ways to show it",
+          "body": "On inspection day, evidence may be (1) a signed LIP attestation, (2) the LIP describing the procedure in person or by phone, or (3) a written facility procedure with the required elements signed by the LIP. Missing all three yields a Level 2 citation on those questions."
+        }
+      ],
+      "example": "Keeping a signed LIP attestation with the QA/QC binder is a common way to avoid a last-minute scramble if the LIP cannot join the inspection call.",
+      "misconception": {
+        "belief": "The QC technologist's signature alone proves LIP oversight.",
+        "correction": "EQUIP looks for LIP oversight of frequency and corrective actions\u2014attestation, LIP verbal description, or LIP-signed written procedure."
+      },
+      "variants": {
+        "simpler": "The lead reader must oversee that QC was done on schedule and that fixes were real\u2014and be able to prove that on inspection day.",
+        "example": "If nobody can reach the LIP and no signed attestation or signed SOP is present, the inspector answers No and issues a Level 2 citation.",
+        "deeper": "After EQUIP's introductory year, clinical image quality review deficiencies are Level 2 findings with written responses; repeat findings shorten the response window and trigger accreditation-body image evaluation."
+      },
+      "observationPrompt": "Ask where your facility keeps LIP attestation or the signed LIP oversight procedure used for inspections.",
+      "checkQuestionId": "q-qcr-016",
+      "evidenceIds": [
+        "ev-qcr-equip-q3",
+        "ev-qcr-lip-attestation-paths",
+        "ev-qcr-lip-role",
+        "ev-qcr-qa-records-lip",
+        "ev-qcr-equip-citation-pathway"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-personnel-layers",
+      "objectiveId": "obj-mqsa-rt-continuing",
+      "title": "Two layers: MQSA continuing quals vs ARRT pathways",
+      "estMinutes": 3,
+      "summary": "Facilities track MQSA continuing education and experience so staff may perform mammography under the certificate. ARRT handbooks and clinical-experience documents govern credential eligibility\u2014link out; do not confuse the two.",
+      "explanation": [
+        {
+          "heading": "MQSA facility layer",
+          "body": "Under \u00a7 900.12(a)(2), technologists maintain mammography qualification with at least 15 CEUs in 36 months (6 per modality used) and at least 200 exams in 24 months, using a facility-chosen date in the inspection window. Falling short triggers defined requalification steps before unsupervised work resumes."
+        },
+        {
+          "heading": "ARRT credential layer",
+          "body": "ARRT postprimary handbooks and mammography clinical experience requirements describe what candidates need for ARRT eligibility and examination. Those documents are copyrighted; Mammo points to them rather than republishing tables."
+        },
+        {
+          "heading": "Why the distinction matters",
+          "body": "Meeting MQSA continuing experience does not automatically mean an ARRT portfolio is complete, and completing ARRT requirements does not replace a facility's duty to document MQSA qualifications for inspection."
+        }
+      ],
+      "example": "A technologist short of 200 MQSA exams in 24 months needs 25 supervised exams before unsupervised work\u2014even if their ARRT application paperwork looks complete.",
+      "misconception": {
+        "belief": "ARRT registration alone proves MQSA continuing experience for the facility.",
+        "correction": "Facilities must document MQSA continuing education and experience (or requalification). ARRT credentials are a separate pathway."
+      },
+      "variants": {
+        "simpler": "MQSA keeps you legal to scan at a certified facility. ARRT is the registry exam pathway. Both matter; they are not the same checklist.",
+        "example": "Before inspection, pull MQSA CE and exam-count records\u2014not only ARRT cards.",
+        "deeper": "Use the current ARRT clinical experience PDF and postprimary handbook for credential details; use 21 CFR 900.12(a) for facility personnel compliance."
+      },
+      "observationPrompt": "Ask your preceptor how the facility separates MQSA personnel files from ARRT application documentation.",
+      "checkQuestionId": "q-qcr-020",
+      "evidenceIds": [
+        "ev-qcr-rt-continuing-experience",
+        "ev-qcr-rt-continuing-education",
+        "ev-qcr-arrt-clinical-experience-link",
+        "ev-qcr-arrt-handbook-link"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-complaints",
+      "objectiveId": "obj-mqsa-required-policies",
+      "title": "Consumer complaints under \u00a7 900.12(h)",
+      "estMinutes": 3,
+      "summary": "Anyone commenting on an exam can be a consumer. Serious complaints need a written facility system, three-year records, and a clear path to the accreditation body if unresolved.",
+      "explanation": [
+        {
+          "heading": "Who counts as a consumer",
+          "body": "A consumer is anyone who comments or complains about a mammography examination\u2014including the patient or a representative such as a family member or referring physician."
+        },
+        {
+          "heading": "Serious complaints",
+          "body": "A serious complaint reports a serious adverse event. Adverse events include poor image quality, failure to send required reports on time, and use of unqualified personnel."
+        },
+        {
+          "heading": "Facility duties",
+          "body": "Each facility must establish a written documented system to collect and resolve complaints; keep each serious complaint record at least three years from receipt; give directions for filing unresolved serious complaints with the accreditation body; and report unresolved serious complaints to that body as it specifies."
+        }
+      ],
+      "example": "A referring clinician complains that reports repeatedly arrive after thirty days. That can be a serious adverse-event theme and must enter the facility's written complaint system.",
+      "misconception": {
+        "belief": "Only patients can file MQSA consumer complaints.",
+        "correction": "Representatives such as family members or referring physicians also count as consumers."
+      },
+      "variants": {
+        "simpler": "Write the complaint process down, keep serious ones for three years, and show people how to escalate to the accreditation body if you cannot fix it.",
+        "example": "Unresolved serious complaints are not ignored\u2014they are reported to the accreditation body on that body's timeline.",
+        "deeper": "Accreditation bodies themselves must maintain systems for serious unresolved facility complaints; facility \u00a7 900.12(h) duties feed that larger mechanism."
+      },
+      "observationPrompt": "Ask where the written consumer-complaint procedure lives and how serious complaints are logged.",
+      "checkQuestionId": "q-qcr-024",
+      "evidenceIds": [
+        "ev-qcr-consumer-def",
+        "ev-qcr-serious-complaint-def",
+        "ev-qcr-facility-complaints"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-records-lifecycle",
+      "objectiveId": "obj-mqsa-records-transfer",
+      "title": "Records lifecycle: keep, transfer, close, escalate",
+      "estMinutes": 4,
+      "summary": "Retention uses the longest applicable clock; transfers have a 15-day rule; closing facilities must preserve access; FDA can order additional review and notification if quality endangers patients.",
+      "explanation": [
+        {
+          "heading": "Retention",
+          "body": "Original mammograms and reports stay in the permanent record for the longest of: at least five years; at least ten years if no additional mammograms of that patient are performed at the facility; or any longer State or local mandate."
+        },
+        {
+          "heading": "Transfer and closure",
+          "body": "On request by or for the patient, originals (or required digital originals) and report copies move within fifteen calendar days. If mammography stops, the facility arranges continued access for the remaining retention period and notifies the accreditation body and certification agency in writing."
+        },
+        {
+          "heading": "When quality itself is the risk",
+          "body": "Under \u00a7 900.12(j), if FDA believes quality may present a serious risk to human health, the facility must supply images and information for additional mammography review and must notify patients, physicians, or the public if FDA so directs. Separately, the 2023 MQSA amendments (effective 2024-09-10) strengthened communication and related modernizations\u2014study those updates as current federal requirements, not optional tips."
+        }
+      ],
+      "example": "A patient who never returned still needs at least ten years of retention under federal rules\u2014even if your State only says seven\u2014because you keep the longest period.",
+      "misconception": {
+        "belief": "Five years is always enough under MQSA.",
+        "correction": "Five years is only the floor. No-return patients need at least ten years, and longer State rules win when they exceed federal times."
+      },
+      "variants": {
+        "simpler": "Keep films/reports for the longest clock that applies, move them within fifteen days when asked, and plan access if the service closes.",
+        "example": "Before a site stops mammography, leadership must document where records will live and tell the accreditation body and certification agency.",
+        "deeper": "Additional mammography review is a patient-safety escalation path distinct from routine EQUIP sample review."
+      },
+      "observationPrompt": "Ask how your facility handles transfer requests and what retention clock applies in your State.",
+      "checkQuestionId": "q-qcr-028",
+      "evidenceIds": [
+        "ev-qcr-record-retention",
+        "ev-qcr-record-transfer",
+        "ev-qcr-facility-ceases",
+        "ev-qcr-additional-review",
+        "ev-qcr-fr-amendments-theme"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-qc-framework",
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "title": "QC principles: program purpose, action limits, timing",
+      "estMinutes": 4,
+      "summary": "QA exists to protect safety, reliability, clarity, and accuracy. Digital systems follow manufacturer (or accepted alternative) QC. Failures outside action limits follow two federal timing buckets.",
+      "explanation": [
+        {
+          "heading": "Why a QA program exists",
+          "body": "\u00a7 900.12(d) requires a quality assurance program ensuring the safety, reliability, clarity, and accuracy of mammography services. Roles are assigned to qualified people with time to do the work; the lead interpreting physician holds general responsibility."
+        },
+        {
+          "heading": "Digital vs screen-film structure",
+          "body": "Part 900 still spells out a screen-film daily/weekly/quarterly/semiannual test structure. For FFDM/DBT and other non-screen-film receptors, the QA program must be substantially the same as the image-receptor manufacturer's recommended program, except the phantom average glandular dose still may not exceed 3.0 mGy for a standard-breast phantom CC view. Facilities using the ACR Digital Mammography QC Manual as an FDA-accepted alternative should follow that manual on site\u2014Mammo links to it and does not reprint its steps."
+        },
+        {
+          "heading": "Action limits and two clocks",
+          "body": "Results outside action limits require finding the cause and correcting it. Listed tests\u2014including phantom image tests, compression device performance, dose, mobile-unit checks, and other-modality manufacturer QC\u2014must be corrected before any further exams on the failed component. Other equipment QA tests in \u00a7 900.12(e) must be corrected within 30 days."
+        }
+      ],
+      "example": "A digital unit's manufacturer QC failure sits in the before-further-exams bucket even though the detailed worksheet lives in the manufacturer's (or ACR alternative) manual\u2014not in this lesson.",
+      "misconception": {
+        "belief": "Digital units ignore Part 900 QC because manufacturer manuals replaced it.",
+        "correction": "Digital QA must be substantially the manufacturer's program, and federal rules still govern dose ceiling and corrective-action timing."
+      },
+      "variants": {
+        "simpler": "Know your pass/fail limits, fix listed critical failures before scanning again, and fix other QC problems within thirty days.",
+        "example": "Stopping clinical use after a failed listed test is not optional politeness\u2014it is the federal timing rule.",
+        "deeper": "Device-specific numeric criteria beyond the federal dose ceiling belong in manufacturer or ACR DMQC materials and need qualified local review; they stay out of Mammo's verified pools."
+      },
+      "observationPrompt": "Ask the QC technologist which manual defines your digital QC schedule and where action limits are posted.",
+      "checkQuestionId": "q-qcr-033",
+      "evidenceIds": [
+        "ev-qcr-qa-program-purpose",
+        "ev-qcr-digital-manufacturer-qc",
+        "ev-qcr-action-limits",
+        "ev-qcr-corrective-timing",
+        "ev-qcr-dose-ceiling",
+        "ev-qcr-acr-dmqc-link"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-qc-frequency",
+      "objectiveId": "obj-qc-physicist-survey",
+      "title": "Why frequency categories matter",
+      "estMinutes": 3,
+      "summary": "Some checks guard patients the same day; others watch trends; physicist surveys and equipment evaluations catch what daily technologist tests cannot. Frequency is about risk and drift\u2014not busywork.",
+      "explanation": [
+        {
+          "heading": "Categories of QC attention",
+          "body": "Think in jobs, not trivia: readiness/image-quality checks before clinical use, trend monitoring (for example repeat analysis themes), display/viewing conditions, manufacturer calibrations, and physicist-level performance evaluation. Exact digital worksheets stay in the manufacturer or ACR alternative manual."
+        },
+        {
+          "heading": "Why cadence exists",
+          "body": "More frequent checks catch sudden failures before many patients are imaged. Less frequent analyses look for drift and process problems. Annual physicist surveys review facility QC results and perform required performance tests; mammography equipment evaluations are event-driven after install, reassembly, or major repair\u2014before return to clinical service."
+        },
+        {
+          "heading": "Records that prove cadence",
+          "body": "QC records for each required test are kept until the next annual inspection finds compliance or until the test has been done two more times at its required frequency, whichever is longer. Missing dates are a compliance problem, not a paperwork preference."
+        }
+      ],
+      "example": "Skipping a same-day readiness check risks imaging with a silent failure; skipping an annual survey risks missing slow performance drift the daily checklist will not see.",
+      "misconception": {
+        "belief": "If daily checks look fine, the annual physicist survey is optional.",
+        "correction": "Facilities must undergo a medical physicist survey at least once a year; daily technologist checks do not replace it."
+      },
+      "variants": {
+        "simpler": "Frequent tests catch sudden breaks. Scheduled deeper tests catch slow drift. Both are required for different reasons.",
+        "example": "After a major detector repair, an equipment evaluation must pass before patients return\u2014even if yesterday's checklist was perfect.",
+        "deeper": "Screen-film regulations illustrate frequency tiers (daily processor, weekly phantom, quarterly repeat analysis). Digital schedules follow manufacturer/alternative standards while preserving federal survey, evaluation, dose, and timing rules."
+      },
+      "observationPrompt": "Discuss with your preceptor which QC tasks are technologist-owned versus physicist-owned at your site.",
+      "checkQuestionId": "q-qcr-038",
+      "evidenceIds": [
+        "ev-qcr-sf-frequency-structure",
+        "ev-qcr-physicist-survey",
+        "ev-qcr-equipment-evaluation",
+        "ev-qcr-qc-records-retention",
+        "ev-qcr-digital-manufacturer-qc"
+      ]
+    },
+    {
+      "revision": 1,
+      "moduleId": "mod-qc-regulations",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "id": "les-qcr-inspection-bundle",
+      "objectiveId": "obj-mqsa-certification",
+      "title": "What the annual inspection bundle looks for",
+      "estMinutes": 3,
+      "summary": "Inspectors sample the pieces that most affect quality: equipment and QC evidence, personnel qualifications, reports and lay summaries, outcomes audit records, and EQUIP clinical image systems.",
+      "explanation": [
+        {
+          "heading": "The annual bundle",
+          "body": "FDA's inspection resources describe annual review of equipment performance; QA/QC records and tests; technologist tests; the medical physicist's survey; equipment evaluations when applicable; personnel qualification records; medical reports and lay summaries; and medical audit/outcome analysis records."
+        },
+        {
+          "heading": "EQUIP inside the visit",
+          "body": "Alongside classic QC binders, inspectors ask about poor-image corrective action, dated periodic sample review for each active RT and IP, and LIP oversight evidence."
+        },
+        {
+          "heading": "Scope honesty",
+          "body": "Standard inspection questions focus on items FDA considers most tied to performance and quality. Facilities remain responsible for all Part 900 requirements even when a given detail is not asked every year. State inspectors may add State items that do not change MQSA compliance itself."
+        }
+      ],
+      "example": "Having perfect phantom logs but no dated periodic clinical image review still leaves an EQUIP gap on inspection day.",
+      "misconception": {
+        "belief": "If the inspector did not ask about a rule, the facility need not follow it.",
+        "correction": "Inspection sampling does not shrink the facility's duty to meet all applicable MQSA requirements."
+      },
+      "variants": {
+        "simpler": "Inspection day is a spotlight on QC, people, reports, audits, and the EQUIP image-quality systems\u2014not a trivia quiz about every sentence in Part 900.",
+        "example": "Bring physicist survey reports, QC logs with corrective actions, personnel files, and EQUIP documentation to the same table.",
+        "deeper": "FDA notes inspections will not cover new regulations before their effective dates\u2014another reason to track amendment effective dates such as the 2024-09-10 MQSA updates."
+      },
+      "observationPrompt": "Ask which binder or shared drive folder your site uses as the inspection packet checklist.",
+      "checkQuestionId": "q-qcr-042",
+      "evidenceIds": [
+        "ev-qcr-inspection-scope",
+        "ev-qcr-equip-purpose",
+        "ev-qcr-fr-amendments-theme"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-label="Two corrective-action timing buckets after a failed QC test">
+  <rect width="640" height="260" fill="#F7F5F1"/>
+  <text x="24" y="34" font-family="Georgia, serif" font-size="18" fill="#1B2A41">When a QC result is outside action limits</text>
+  <rect x="40" y="60" width="260" height="150" rx="4" fill="#FDECEC" stroke="#8B3A3A" stroke-width="2"/>
+  <text x="56" y="95" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">Before further exams</text>
+  <text x="56" y="122" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Listed safety-critical tests</text>
+  <text x="56" y="142" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">(includes phantom image,</text>
+  <text x="56" y="162" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">compression device, dose,</text>
+  <text x="56" y="182" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">and digital manufacturer QC)</text>
+  <rect x="340" y="60" width="260" height="150" rx="4" fill="#FFF8E8" stroke="#8A6A20" stroke-width="2"/>
+  <text x="356" y="95" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">Within 30 days</text>
+  <text x="356" y="122" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">All other tests in the</text>
+  <text x="356" y="142" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">equipment QA section</text>
+  <text x="356" y="162" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">that are not in the</text>
+  <text x="356" y="182" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">before-further-exams list</text>
+</svg>
