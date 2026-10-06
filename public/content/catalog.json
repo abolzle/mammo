@@ -3,6 +3,26 @@
   "assembledAt": "2026-10-06",
   "modules": [
     {
+      "id": "mod-anatomy-pathology",
+      "version": "1.0.0-beta.1",
+      "title": "Anatomy, physiology, and pathology",
+      "summary": "Breast anatomy for positioning relevance, tissue composition and density concepts, findings vocabulary at technologist level, and BI-RADS/MQSA assessment–density awareness — without teaching independent image interpretation. Honest beta status throughout.",
+      "topicIds": [
+        "top-ap-localization",
+        "top-ap-external",
+        "top-ap-internal",
+        "top-ap-reporting",
+        "top-ap-benign",
+        "top-ap-high-risk",
+        "top-ap-malignant"
+      ],
+      "path": "/content/modules/anatomy-pathology.json",
+      "lessonCount": 12,
+      "questionCount": 50,
+      "cardCount": 30,
+      "visualCount": 4
+    },
+    {
       "id": "mod-image-production",
       "version": "1.0.0-beta.1",
       "title": "Image production: acquisition, quality, and radiation",
@@ -110,8 +130,8 @@
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 41,
-    "withGap": 58,
+    "withLesson": 51,
+    "withGap": 57,
     "breakdown": {
       "public_domain_open": 23,
       "link_only": 0,

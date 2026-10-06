@@ -25,6 +25,10 @@ describe("content validation", () => {
     expect(mqsa).toBeDefined();
     expect(mqsa!.questions).toHaveLength(48);
     expect(mqsa!.lessons.length).toBeGreaterThanOrEqual(8);
+    const anatomy = loaded.modules.find((m) => m.id === "mod-anatomy-pathology");
+    expect(anatomy).toBeDefined();
+    expect(anatomy!.questions.length).toBeGreaterThanOrEqual(40);
+    expect(anatomy!.lessons.length).toBeGreaterThanOrEqual(8);
     const qcr = loaded.modules.find((m) => m.id === "mod-qc-regulations");
     expect(qcr).toBeDefined();
     expect(qcr!.questions.length).toBeGreaterThanOrEqual(40);

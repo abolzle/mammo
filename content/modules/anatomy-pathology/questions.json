@@ -1,0 +1,3261 @@
+{
+  "questions": [
+    {
+      "id": "q-ap-001",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-ap-quadrants",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to SEER training, which structures are included in the central portion of the breast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only Cooper ligaments",
+          "rationale": "Ligaments are support structures, not the SEER central portion."
+        },
+        {
+          "id": "b",
+          "text": "The areola and nipple",
+          "rationale": "Correct. SEER places areola and nipple in the central portion."
+        },
+        {
+          "id": "c",
+          "text": "Only axillary lymph nodes",
+          "rationale": "Nodes are regional structures, not the central breast portion."
+        },
+        {
+          "id": "d",
+          "text": "Only the pectoralis major",
+          "rationale": "Pectoralis is the chest-wall muscle under the breast."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "SEER’s central portion contains the areola and nipple.",
+      "variants": {
+        "simpler": "Central = areola + nipple.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-002",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-ap-quadrants",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which ICD-O-3 code does SEER list for axillary tail of breast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "C500",
+          "rationale": "C500 is nipple."
+        },
+        {
+          "id": "b",
+          "text": "C502",
+          "rationale": "C502 is upper inner quadrant."
+        },
+        {
+          "id": "c",
+          "text": "C506",
+          "rationale": "Correct. C506 is axillary tail of breast."
+        },
+        {
+          "id": "d",
+          "text": "C509",
+          "rationale": "C509 is breast, NOS."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "SEER’s table lists C506 for axillary tail.",
+      "variants": {
+        "simpler": "SEER’s table lists C506 for axillary tail.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-003",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-ap-quadrants",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER notes that a single tumor located directly at which clock positions is treated as overlapping for coding?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1, 2, 4, and 5 o’clock only",
+          "rationale": "Those hours are not the boundary set SEER calls out."
+        },
+        {
+          "id": "b",
+          "text": "3, 6, 9, and 12 o’clock",
+          "rationale": "Correct. SEER’s overlapping note includes tumors at 3, 6, 9, or 12 o’clock."
+        },
+        {
+          "id": "c",
+          "text": "Only 12 o’clock",
+          "rationale": "3, 6, and 9 are included too."
+        },
+        {
+          "id": "d",
+          "text": "Clock language is never used in SEER",
+          "rationale": "SEER says location is typically described as a clock time."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Overlapping coding includes the 3/6/9/12 boundary hours for a single tumor.",
+      "variants": {
+        "simpler": "Overlapping coding includes the 3/6/9/12 boundary hours for a single tumor.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-004",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-ap-quadrants",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which set correctly lists SEER’s four breast quadrants?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Superior, inferior, medial, lateral lobes",
+          "rationale": "Those are directional words, not the SEER quadrant names."
+        },
+        {
+          "id": "b",
+          "text": "UIQ, UOQ, LIQ, LOQ",
+          "rationale": "Correct. Upper/lower × inner/outer quadrants."
+        },
+        {
+          "id": "c",
+          "text": "CC, MLO, ML, LM",
+          "rationale": "Those are mammographic views, not quadrants."
+        },
+        {
+          "id": "d",
+          "text": "Level I, II, III, Rotter",
+          "rationale": "Those are axillary node levels."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "SEER names UIQ, UOQ, LIQ, and LOQ.",
+      "variants": {
+        "simpler": "SEER names UIQ, UOQ, LIQ, and LOQ.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-005",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-ap-quadrants",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "When documenting localization, what must always accompany a clock or quadrant description?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The patient’s bra size",
+          "rationale": "Not required for localization language."
+        },
+        {
+          "id": "b",
+          "text": "Laterality (right or left)",
+          "rationale": "Correct. Each breast has its own quadrant/clock map."
+        },
+        {
+          "id": "c",
+          "text": "A BI-RADS category assigned by the technologist",
+          "rationale": "Technologists do not assign BI-RADS assessments."
+        },
+        {
+          "id": "d",
+          "text": "The kVp used",
+          "rationale": "Technique factors are separate from localization."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Pair every clock/quadrant statement with laterality.",
+      "variants": {
+        "simpler": "Pair every clock/quadrant statement with laterality.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-006",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-external-landmarks"
+      ],
+      "familyId": "fam-ap-external",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI Dictionary defines the areola as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The first lymph node in the axilla",
+          "rationale": "That is a sentinel/axillary node concept."
+        },
+        {
+          "id": "b",
+          "text": "The dark-colored skin surrounding the nipple",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "A malignant nipple ulcer",
+          "rationale": "Areola is normal anatomy."
+        },
+        {
+          "id": "d",
+          "text": "The pectoralis fascia only",
+          "rationale": "Not the definition of areola."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Areola = pigmented skin around the nipple.",
+      "variants": {
+        "simpler": "Areola = pigmented skin around the nipple.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-areola"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-007",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-external-landmarks"
+      ],
+      "familyId": "fam-ap-external",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to SEER, which statement about muscle and the breast is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The breast is mostly skeletal muscle",
+          "rationale": "SEER says the breast has no muscle tissue."
+        },
+        {
+          "id": "b",
+          "text": "The breast itself has no muscle tissue and rests on pectoralis major",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Pectoralis major is inside each lobule",
+          "rationale": "Pectoralis is the underlying chest muscle."
+        },
+        {
+          "id": "d",
+          "text": "Montgomery glands are muscle bundles",
+          "rationale": "They are oil glands on the areola."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "No intrinsic breast muscle; breasts rest on pectoralis major.",
+      "variants": {
+        "simpler": "No intrinsic breast muscle; breasts rest on pectoralis major.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-no-muscle-in-breast"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-008",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-external-landmarks"
+      ],
+      "familyId": "fam-ap-external",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax describes Montgomery glands as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lymph nodes behind the nipple",
+          "rationale": "Incorrect structure."
+        },
+        {
+          "id": "b",
+          "text": "Small areolar bumps that secrete oil",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Malignant calcifications",
+          "rationale": "They are normal glands."
+        },
+        {
+          "id": "d",
+          "text": "Suspensory ligaments",
+          "rationale": "Ligaments are separate connective-tissue bands."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Montgomery glands secrete oil on the areola.",
+      "variants": {
+        "simpler": "Montgomery glands secrete oil on the areola.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-009",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-external-landmarks"
+      ],
+      "familyId": "fam-ap-external",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why does SEER’s axillary-tail subsite matter for mammography practice?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It proves implants are present",
+          "rationale": "Unrelated."
+        },
+        {
+          "id": "b",
+          "text": "It names the breast tissue extending toward the underarm as its own localization region",
+          "rationale": "Correct — C506 axillary tail."
+        },
+        {
+          "id": "c",
+          "text": "It replaces the need for MLO imaging",
+          "rationale": "Views are not replaced by a code."
+        },
+        {
+          "id": "d",
+          "text": "It is only used for male patients",
+          "rationale": "Not what SEER states."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Axillary tail is a named breast subsite toward the axilla.",
+      "variants": {
+        "simpler": "Axillary tail is a named breast subsite toward the axilla.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-010",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-ap-internal",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax suspensory ligaments of the breast connect breast tissue to the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Humerus",
+          "rationale": "Wrong attachment."
+        },
+        {
+          "id": "b",
+          "text": "Dermis of the overlying skin",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Liver capsule",
+          "rationale": "Unrelated."
+        },
+        {
+          "id": "d",
+          "text": "Nipple pores only",
+          "rationale": "Ligaments support breast tissue to skin, not only pores."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Suspensory ligaments attach to overlying dermis.",
+      "variants": {
+        "simpler": "Suspensory ligaments attach to overlying dermis.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-suspensory"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-011",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-ap-internal",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Fibroglandular breast tissue includes:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only skin keratin",
+          "rationale": "Not fibroglandular tissue."
+        },
+        {
+          "id": "b",
+          "text": "Fibrous connective tissue and glandular tissue (ducts and lobules)",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Only pectoralis muscle fibers",
+          "rationale": "Muscle is not fibroglandular breast tissue."
+        },
+        {
+          "id": "d",
+          "text": "Only calcifications",
+          "rationale": "Calcifications are deposits, not the tissue type."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Fibroglandular = fibrous + glandular (ducts/lobules).",
+      "variants": {
+        "simpler": "Fibroglandular = fibrous + glandular (ducts/lobules).",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fibroglandular"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-012",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-ap-internal",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which definition matches the sentinel lymph node?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Any node anywhere in the body",
+          "rationale": "Too broad."
+        },
+        {
+          "id": "b",
+          "text": "The first lymph node to which cancer is likely to spread from the primary tumor",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "A node that never contains cancer",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "The interpreting physician’s workstation",
+          "rationale": "Not anatomy."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Sentinel = first likely drainage node from the tumor.",
+      "variants": {
+        "simpler": "Sentinel = first likely drainage node from the tumor.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-sentinel",
+        "ev-ap-seer-lymph-groups"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-013",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-ap-internal",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER lists which of the following as a regional lymph node group for breast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Popliteal nodes only",
+          "rationale": "Wrong region."
+        },
+        {
+          "id": "b",
+          "text": "Internal mammary (parasternal) nodes",
+          "rationale": "Correct — SEER lists internal mammary among regional nodes."
+        },
+        {
+          "id": "c",
+          "text": "Mesenteric nodes only",
+          "rationale": "Not breast regional."
+        },
+        {
+          "id": "d",
+          "text": "Inguinal nodes only",
+          "rationale": "Not breast regional."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Internal mammary nodes are regional for breast.",
+      "variants": {
+        "simpler": "Internal mammary nodes are regional for breast.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lymph-groups"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-014",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu"
+      ],
+      "familyId": "fam-ap-tdlu",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER states each breast has about how many lobes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2 to 3",
+          "rationale": "Too few. This does not match the cited source for the stem."
+        },
+        {
+          "id": "b",
+          "text": "15 to 20",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "200 to 300",
+          "rationale": "That overstates lobes (lobules/alveoli are more numerous)."
+        },
+        {
+          "id": "d",
+          "text": "Exactly 4",
+          "rationale": "Four refers to quadrants, not lobes."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "SEER: 15–20 lobes. Use the sourced definition in the stem.",
+      "variants": {
+        "simpler": "SEER: 15–20 lobes.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lobes-ducts"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-015",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu"
+      ],
+      "familyId": "fam-ap-tdlu",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In SEER’s wording, lobular carcinoma originates in the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skin epidermis only",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "Lobes (lobules)",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Axillary vein lumen",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Pectoralis tendon",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Lobular carcinoma originates in lobes/lobules.",
+      "variants": {
+        "simpler": "Lobular carcinoma originates in lobes/lobules.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-ductal-vs-lobular-origin"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-016",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu"
+      ],
+      "familyId": "fam-ap-tdlu",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax clusters of alveoli that drain to a common duct are called:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sentinel nodes",
+          "rationale": "Lymphatic structure."
+        },
+        {
+          "id": "b",
+          "text": "Lobules",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Macrocalcifications",
+          "rationale": "Calcium deposits."
+        },
+        {
+          "id": "d",
+          "text": "BI-RADS categories",
+          "rationale": "Report categories, not anatomy."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Alveolar clusters = lobules.",
+      "variants": {
+        "simpler": "Alveolar clusters = lobules.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-017",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu"
+      ],
+      "familyId": "fam-ap-tdlu",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why does ductal versus lobular origin matter to a mammography technologist?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It lets the technologist assign BI-RADS 5",
+          "rationale": "Out of scope."
+        },
+        {
+          "id": "b",
+          "text": "It explains disease names you will see in histories and reports without requiring you to diagnose them",
+          "rationale": "Correct — literacy for histories/reports."
+        },
+        {
+          "id": "c",
+          "text": "It sets the legal kVp",
+          "rationale": "Unrelated."
+        },
+        {
+          "id": "d",
+          "text": "It replaces the need for laterality markers",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Origin vocabulary supports understanding orders/reports, not interpretation.",
+      "variants": {
+        "simpler": "Origin vocabulary supports understanding orders/reports, not interpretation.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-ductal-vs-lobular-origin"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-018",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-cytology"
+      ],
+      "familyId": "fam-ap-cytology",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI defines in situ as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Already metastatic to bone",
+          "rationale": "Opposite idea."
+        },
+        {
+          "id": "b",
+          "text": "In its original place; abnormal cells have not spread from where they formed",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "A normal lactation finding",
+          "rationale": "Not the definition."
+        },
+        {
+          "id": "d",
+          "text": "A density category",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "In situ = still in the original place.",
+      "variants": {
+        "simpler": "In situ = still in the original place.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-insitu"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-019",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-cytology"
+      ],
+      "familyId": "fam-ap-cytology",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In DCIS, abnormal cells have:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Spread outside the duct into other breast tissues",
+          "rationale": "That would be invasive behavior."
+        },
+        {
+          "id": "b",
+          "text": "Not spread outside the duct to other tissues in the breast",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Always metastasized to sentinel nodes",
+          "rationale": "Not part of the DCIS definition."
+        },
+        {
+          "id": "d",
+          "text": "Formed only in pectoralis muscle",
+          "rationale": "Wrong location."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "DCIS remains in the duct lining.",
+      "variants": {
+        "simpler": "DCIS remains in the duct lining.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-dcis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-020",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-cytology"
+      ],
+      "familyId": "fam-ap-cytology",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax myoepithelial cells surrounding alveoli primarily:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Produce calcifications",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "Contract to move milk into ducts",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Assign BI-RADS categories",
+          "rationale": "Nonsense. This does not match the cited source for the stem."
+        },
+        {
+          "id": "d",
+          "text": "Form the axillary tail",
+          "rationale": "Wrong scale/structure."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Myoepithelial contraction supports milk ejection.",
+      "variants": {
+        "simpler": "Myoepithelial contraction supports milk ejection.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-021",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-cytology"
+      ],
+      "familyId": "fam-ap-cytology",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Compared with DCIS, invasive ductal carcinoma has:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stayed only in the duct lining",
+          "rationale": "That describes DCIS."
+        },
+        {
+          "id": "b",
+          "text": "Spread outside the ducts into surrounding normal tissue",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "No relationship to ducts",
+          "rationale": "IDC begins in duct lining then invades."
+        },
+        {
+          "id": "d",
+          "text": "Been redefined as a density category",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Invasion = outside the duct into surrounding tissue.",
+      "variants": {
+        "simpler": "Invasion = outside the duct into surrounding tissue.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-idc",
+        "ev-ap-dict-dcis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-022",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-density",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Breast density is assessed based on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "How firm the breast feels on exam",
+          "rationale": "NCI: density cannot be felt."
+        },
+        {
+          "id": "b",
+          "text": "Relative amounts of tissue types as seen on a mammogram",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Serum estrogen level alone",
+          "rationale": "Not the definition."
+        },
+        {
+          "id": "d",
+          "text": "Bra cup size alone",
+          "rationale": "Not the definition."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Density is a mammographic composition description.",
+      "variants": {
+        "simpler": "Density is a mammographic composition description.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-definition",
+        "ev-ap-nci-dense-not-palpable"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-023",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-density",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "About how common are dense breasts among women 40+ who get mammograms (NCI)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 1 in 100",
+          "rationale": "Too rare. This does not match the cited source for the stem."
+        },
+        {
+          "id": "b",
+          "text": "Nearly half",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Essentially all patients",
+          "rationale": "Overstated."
+        },
+        {
+          "id": "d",
+          "text": "Dense breasts do not occur after age 40",
+          "rationale": "Opposite of NCI’s statement."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Nearly half of women 40+ screened have dense tissue.",
+      "variants": {
+        "simpler": "Nearly half of women 40+ screened have dense tissue.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-common"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-024",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-density",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why can dense tissue make mammography less sensitive?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dense tissue is always radioactive",
+          "rationale": "False. This does not match the cited source for the stem."
+        },
+        {
+          "id": "b",
+          "text": "Dense tissue and some abnormalities both appear white, so findings can be masked",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Fat always appears whiter than cancer",
+          "rationale": "Fat appears darker."
+        },
+        {
+          "id": "d",
+          "text": "Density removes the need for compression",
+          "rationale": "Compression remains important."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "White-on-white masking reduces sensitivity.",
+      "variants": {
+        "simpler": "White-on-white masking reduces sensitivity.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-masking-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-025",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-density",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "If a report says “heterogeneously dense,” the MQSA patient density statement maps to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not dense",
+          "rationale": "Heterogeneously dense maps to dense."
+        },
+        {
+          "id": "b",
+          "text": "Dense",
+          "rationale": "Correct — C or D → dense letter."
+        },
+        {
+          "id": "c",
+          "text": "BI-RADS 6 automatically",
+          "rationale": "Density ≠ assessment category 6."
+        },
+        {
+          "id": "d",
+          "text": "No density statement is allowed",
+          "rationale": "MQSA requires a density statement."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Heterogeneously dense → dense patient wording.",
+      "variants": {
+        "simpler": "Heterogeneously dense → dense patient wording.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-four",
+        "ev-ap-mqsa-density"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-026",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-density",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Scattered areas of fibroglandular density map to which patient notification wording?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your breast tissue is dense",
+          "rationale": "That wording is for hetero/extremely dense."
+        },
+        {
+          "id": "b",
+          "text": "Your breast tissue is not dense",
+          "rationale": "Correct for fatty or scattered categories."
+        },
+        {
+          "id": "c",
+          "text": "Known biopsy-proven malignancy",
+          "rationale": "That is an assessment category, not density."
+        },
+        {
+          "id": "d",
+          "text": "Incomplete: need priors",
+          "rationale": "Incomplete assessment, not density."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Scattered = not dense on the lay summary mapping.",
+      "variants": {
+        "simpler": "Scattered = not dense on the lay summary mapping.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-four",
+        "ev-ap-mqsa-density"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-027",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-assessment",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "On NCI’s BI-RADS table, category 0 means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Known biopsy-proven malignancy",
+          "rationale": "That is category 6."
+        },
+        {
+          "id": "b",
+          "text": "Need additional imaging evaluation",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Definitely benign forever",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Extremely dense tissue",
+          "rationale": "Density is separate from assessment category."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "0 = incomplete pending additional imaging.",
+      "variants": {
+        "simpler": "0 = incomplete pending additional imaging.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-birads-table"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-028",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-assessment",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI’s table lists typical follow-up for BI-RADS 3 as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Immediate mastectomy",
+          "rationale": "Not the NCI table follow-up."
+        },
+        {
+          "id": "b",
+          "text": "A 6-month follow-up mammogram",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "No further imaging ever",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Category 3 is not used in BI-RADS",
+          "rationale": "It is listed."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Probably benign → short-interval follow-up in the NCI table.",
+      "variants": {
+        "simpler": "Probably benign → short-interval follow-up in the NCI table.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-birads-table"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-029",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-assessment",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Who assigns the overall BI-RADS assessment category on the mammography report?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The mammography technologist at the console",
+          "rationale": "Out of scope."
+        },
+        {
+          "id": "b",
+          "text": "The interpreting physician via the report process",
+          "rationale": "Correct — technologists do not assign assessments."
+        },
+        {
+          "id": "c",
+          "text": "The patient via the lay letter",
+          "rationale": "Patients receive the summary; they do not assign categories."
+        },
+        {
+          "id": "d",
+          "text": "The medical physicist during QC",
+          "rationale": "QC is separate."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Assessment is an interpreting-physician report element (MQSA report contents).",
+      "variants": {
+        "simpler": "Assessment is an interpreting-physician report element (MQSA report contents).",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-mqsa-assessment",
+        "ev-ap-nci-birads-table"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-030",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-assessment",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "BI-RADS category 5 on NCI’s table is described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Negative",
+          "rationale": "Category 1."
+        },
+        {
+          "id": "b",
+          "text": "Highly suggestive of malignancy, requires biopsy",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Need priors only",
+          "rationale": "Incomplete pathway."
+        },
+        {
+          "id": "d",
+          "text": "Almost entirely fatty",
+          "rationale": "Density category, not assessment 5."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "5 = highly suggestive; biopsy pathway.",
+      "variants": {
+        "simpler": "5 = highly suggestive; biopsy pathway.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-birads-table"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-031",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-findings",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to NCI, macrocalcifications on mammography are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always cancer",
+          "rationale": "NCI says usually benign."
+        },
+        {
+          "id": "b",
+          "text": "Often related to aging, old injury, or inflammation and usually benign",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Caused by eating too much dietary calcium",
+          "rationale": "NCI: not related to dietary calcium."
+        },
+        {
+          "id": "d",
+          "text": "Invisible on mammograms",
+          "rationale": "They are seen as white dots."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Macros are usually benign.",
+      "variants": {
+        "simpler": "Macros are usually benign.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-032",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-findings",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI states clustered microcalcifications may be a sign of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only deodorant artifact",
+          "rationale": "Artifact is a different issue."
+        },
+        {
+          "id": "b",
+          "text": "DCIS or breast cancer",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Normal lactation only",
+          "rationale": "Not NCI’s warning about clusters."
+        },
+        {
+          "id": "d",
+          "text": "BI-RADS density category A only",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Clustered micros can indicate DCIS/cancer — radiologist interprets.",
+      "variants": {
+        "simpler": "Clustered micros can indicate DCIS/cancer — radiologist interprets.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-033",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-findings",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI’s patient-facing description says a noncancerous lump often looks:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jagged with spiculations only",
+          "rationale": "That raises concern for more testing."
+        },
+        {
+          "id": "b",
+          "text": "Smooth and round with clear, defined edges",
+          "rationale": "Correct — often a benign cyst pattern in NCI’s wording."
+        },
+        {
+          "id": "c",
+          "text": "Exactly like inflammatory carcinoma skin changes",
+          "rationale": "Different entity."
+        },
+        {
+          "id": "d",
+          "text": "Invisible in all cases",
+          "rationale": "Masses can be visible."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Smooth/round/clear edges often benign cysts in NCI’s teaching.",
+      "variants": {
+        "simpler": "Smooth/round/clear edges often benign cysts in NCI’s teaching.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-034",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-findings",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Detailed ACR BI-RADS lexicon definitions for mass margins and calcification morphology are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fully redistributed in this free app from the atlas text",
+          "rationale": "Atlas is copyrighted; link-only."
+        },
+        {
+          "id": "b",
+          "text": "Available in the commercial ACR BI-RADS Atlas (link-only here)",
+          "rationale": "Correct — we do not invent atlas descriptors."
+        },
+        {
+          "id": "c",
+          "text": "Unnecessary because technologists assign categories",
+          "rationale": "Technologists do not assign assessments."
+        },
+        {
+          "id": "d",
+          "text": "Replaced by USPSTF age guidelines",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Lexicon depth stays link-only to ACR BI-RADS.",
+      "variants": {
+        "simpler": "Lexicon depth stays link-only to ACR BI-RADS.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-acr-birads-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-035",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-ap-benign",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "The most common type of benign breast tumor (NCI Dictionary) is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inflammatory carcinoma",
+          "rationale": "Malignant."
+        },
+        {
+          "id": "b",
+          "text": "Fibroadenoma",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "DCIS",
+          "rationale": "Not a benign tumor."
+        },
+        {
+          "id": "d",
+          "text": "Paget disease",
+          "rationale": "Malignant nipple disease."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Fibroadenoma is the most common benign breast tumor.",
+      "variants": {
+        "simpler": "Fibroadenoma is the most common benign breast tumor.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fibroadenoma"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-036",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-ap-benign",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A lipoma is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A malignant lymphoid cancer",
+          "rationale": "Wrong. This does not match the cited source for the stem."
+        },
+        {
+          "id": "b",
+          "text": "A benign tumor made of fat cells",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Always a BI-RADS 5 mass",
+          "rationale": "Technologists/atlas don’t work that way here."
+        },
+        {
+          "id": "d",
+          "text": "A type of sentinel node",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Lipoma = benign fat-cell tumor.",
+      "variants": {
+        "simpler": "Lipoma = benign fat-cell tumor.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-lipoma"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-037",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-ap-benign",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Intraductal papilloma is often found near the nipple and may cause:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nipple discharge",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "b",
+          "text": "Mandatory BI-RADS 6",
+          "rationale": "Not automatic."
+        },
+        {
+          "id": "c",
+          "text": "Pectoralis rupture",
+          "rationale": "Unrelated."
+        },
+        {
+          "id": "d",
+          "text": "Complete absence of ducts",
+          "rationale": "Opposite. This does not match the cited source for the stem."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Near-nipple papillomas may cause discharge.",
+      "variants": {
+        "simpler": "Near-nipple papillomas may cause discharge.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-papilloma"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-038",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-ap-benign",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Fat necrosis in the breast can follow:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only dietary fat intake",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "Injury, surgery, or radiation therapy",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Only BI-RADS category 1 exams",
+          "rationale": "Unrelated."
+        },
+        {
+          "id": "d",
+          "text": "Hand hygiene failure alone",
+          "rationale": "Not the NCI definition."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Fat necrosis follows trauma/surgery/radiation.",
+      "variants": {
+        "simpler": "Fat necrosis follows trauma/surgery/radiation.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fat-necrosis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-039",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-ap-benign",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Most cysts are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Malignant by definition",
+          "rationale": "NCI: most cysts are benign."
+        },
+        {
+          "id": "b",
+          "text": "Benign",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "The same as inflammatory breast cancer",
+          "rationale": "Different entity."
+        },
+        {
+          "id": "d",
+          "text": "Calcifications from diet",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Most cysts are benign.",
+      "variants": {
+        "simpler": "Most cysts are benign.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-cyst"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-040",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-ap-highrisk",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Atypical ductal hyperplasia (ADH) is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A malignant tumor that always metastasizes",
+          "rationale": "NCI calls ADH benign but risk-raising."
+        },
+        {
+          "id": "b",
+          "text": "A benign condition with abnormal-appearing increased duct cells that increases breast cancer risk",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Normal lactation histology",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "A density category",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ADH = benign atypia that raises risk.",
+      "variants": {
+        "simpler": "ADH = benign atypia that raises risk.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-adh"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-041",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-ap-highrisk",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "LCIS seldom becomes invasive cancer itself, but NCI states it:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Has no relationship to risk",
+          "rationale": "Opposite. This does not match the cited source for the stem."
+        },
+        {
+          "id": "b",
+          "text": "Increases the risk of developing breast cancer in either breast",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Is identical to BI-RADS 0",
+          "rationale": "Unrelated."
+        },
+        {
+          "id": "d",
+          "text": "Only occurs in men",
+          "rationale": "Not what NCI states."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "LCIS raises bilateral risk.",
+      "variants": {
+        "simpler": "LCIS raises bilateral risk.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-lcis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-042",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-ap-highrisk",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why do radial scars matter in mammography workflows?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are always fatty tissue and ignored",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "They may look like breast cancer on a mammogram, so biopsy is usually needed to differentiate",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "They are assigned by technologists as BI-RADS 1",
+          "rationale": "Out of scope."
+        },
+        {
+          "id": "d",
+          "text": "They only appear on ultrasound",
+          "rationale": "NCI discusses mammographic mimicry."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Radial scar can mimic cancer imaging — pathology decides.",
+      "variants": {
+        "simpler": "Radial scar can mimic cancer imaging — pathology decides.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-radial-scar"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-043",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-ap-highrisk",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Phyllodes tumors:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Never occur in the breast",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "b",
+          "text": "Are rare connective-tissue tumors that grow quickly; most are benign but some are malignant or borderline",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Are the same as macrocalcifications",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Are a required MQSA density category",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Phyllodes: uncommon, fast-growing, spectrum of biologic behavior.",
+      "variants": {
+        "simpler": "Phyllodes: uncommon, fast-growing, spectrum of biologic behavior.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-phyllodes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-044",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-ap-malignant",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER training attributes about what share of breast cancers to invasive ductal carcinoma?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 5%",
+          "rationale": "Too low. This does not match the cited source for the stem."
+        },
+        {
+          "id": "b",
+          "text": "About 70%",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "100%",
+          "rationale": "Other histologies exist."
+        },
+        {
+          "id": "d",
+          "text": "0% — only lobular exists",
+          "rationale": "False. This does not match the cited source for the stem."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "SEER: IDC ~70%. Use the sourced definition in the stem.",
+      "variants": {
+        "simpler": "SEER: IDC ~70%.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-histologies"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-045",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-ap-malignant",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Inflammatory breast cancer often:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forms an easy-to-feel lump and is always obvious on mammography",
+          "rationale": "NCI says usually no lump and may not be seen on mammogram."
+        },
+        {
+          "id": "b",
+          "text": "Presents with swollen/inflamed skin changes and may not form a palpable lump or mammographic mass",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Is identical to a lipoma",
+          "rationale": "Opposite. This does not match the cited source for the stem."
+        },
+        {
+          "id": "d",
+          "text": "Is a density category A finding",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "IBC is a clinical skin-lymphatic picture that can be mammographically occult.",
+      "variants": {
+        "simpler": "IBC is a clinical skin-lymphatic picture that can be mammographically occult.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-ibc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-046",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-ap-malignant",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Paget disease of the breast involves:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the liver",
+          "rationale": "Wrong organ."
+        },
+        {
+          "id": "b",
+          "text": "The nipple and usually the areola, often with underlying DCIS or invasive cancer",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "Only axillary level III nodes",
+          "rationale": "Not the definition."
+        },
+        {
+          "id": "d",
+          "text": "Only fatty breasts",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Paget = nipple/areola disease, usually with underlying carcinoma.",
+      "variants": {
+        "simpler": "Paget = nipple/areola disease, usually with underlying carcinoma.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-paget"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-047",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-ap-malignant",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Invasive lobular carcinoma begins in the:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lobules (milk glands)",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "b",
+          "text": "Epidermis only",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "Sentinel node capsule only",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Montgomery glands exclusively",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ILC begins in lobules.",
+      "variants": {
+        "simpler": "ILC begins in lobules.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-ilc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-048",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-ap-form-a",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A history reads “left breast LOQ.” LOQ means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lower outer quadrant",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "b",
+          "text": "Left occipital quadrant",
+          "rationale": "Wrong anatomy."
+        },
+        {
+          "id": "c",
+          "text": "Lateral only quadrant — upper",
+          "rationale": "LOQ is lower outer."
+        },
+        {
+          "id": "d",
+          "text": "Lymphatic-only quadrant",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "LOQ = lower outer quadrant.",
+      "variants": {
+        "simpler": "LOQ = lower outer quadrant.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-049",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-ap-form-a",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Extremely dense tissue on the report corresponds to which patient density wording?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not dense",
+          "rationale": "Extremely dense maps to dense."
+        },
+        {
+          "id": "b",
+          "text": "Dense",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "c",
+          "text": "BI-RADS 0 only",
+          "rationale": "Assessment ≠ density."
+        },
+        {
+          "id": "d",
+          "text": "No letter is required",
+          "rationale": "MQSA requires density notification."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Extremely dense → dense lay statement.",
+      "variants": {
+        "simpler": "Extremely dense → dense lay statement.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-four",
+        "ev-ap-mqsa-density"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-050",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-ap-form-a",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "DCIS is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Abnormal duct-lining cells that have not spread outside the duct",
+          "rationale": "Correct. This matches the cited source definition for the stem."
+        },
+        {
+          "id": "b",
+          "text": "Cancer already throughout the body",
+          "rationale": "Not DCIS. This does not match the cited source for the stem."
+        },
+        {
+          "id": "c",
+          "text": "A benign lipoma",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "d",
+          "text": "Normal myoepithelial physiology",
+          "rationale": "Incorrect."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "DCIS = in-duct abnormal cells without spread outside the duct.",
+      "variants": {
+        "simpler": "DCIS = in-duct abnormal cells without spread outside the duct.",
+        "example": "Match the stem to the sourced definition before choosing."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-dcis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "moduleId": "mod-anatomy-pathology",
+  "version": "2026-10-06.1",
+  "note": "Module-local coverage for Stage 2 anatomy-pathology. Shared curriculum.json left unchanged to avoid merge conflicts with parallel batches.",
+  "objectiveCoverage": [
+    {
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "lessonIds": [
+        "les-ap-density-tissue",
+        "les-ap-density-categories",
+        "les-ap-assessment"
+      ],
+      "questionIds": [
+        "q-ap-022",
+        "q-ap-023",
+        "q-ap-024",
+        "q-ap-025",
+        "q-ap-026",
+        "q-ap-027",
+        "q-ap-028",
+        "q-ap-029",
+        "q-ap-030",
+        "q-ap-049"
+      ],
+      "cardIds": [
+        "card-ap-dense-def",
+        "card-ap-dense-common",
+        "card-ap-dense-map",
+        "card-ap-birads0",
+        "card-ap-birads3"
+      ],
+      "visualIds": [
+        "vis-ap-dense-map"
+      ]
+    },
+    {
+      "objectiveId": "obj-ap-benign-conditions",
+      "lessonIds": [
+        "les-ap-benign"
+      ],
+      "questionIds": [
+        "q-ap-035",
+        "q-ap-036",
+        "q-ap-037",
+        "q-ap-038",
+        "q-ap-039"
+      ],
+      "cardIds": [
+        "card-ap-fibroadenoma",
+        "card-ap-papilloma"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-ap-clock-quadrants",
+      "lessonIds": [
+        "les-ap-clock-quadrants"
+      ],
+      "questionIds": [
+        "q-ap-001",
+        "q-ap-002",
+        "q-ap-003",
+        "q-ap-004",
+        "q-ap-005",
+        "q-ap-048"
+      ],
+      "cardIds": [
+        "card-ap-quadrants",
+        "card-ap-central",
+        "card-ap-ax-tail",
+        "card-ap-clock-overlap"
+      ],
+      "visualIds": [
+        "vis-ap-uoq-right"
+      ]
+    },
+    {
+      "objectiveId": "obj-ap-cytology",
+      "lessonIds": [
+        "les-ap-insitu-invasive"
+      ],
+      "questionIds": [
+        "q-ap-018",
+        "q-ap-019",
+        "q-ap-020",
+        "q-ap-021"
+      ],
+      "cardIds": [
+        "card-ap-insitu",
+        "card-ap-myoepithelial"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-ap-external-landmarks",
+      "lessonIds": [
+        "les-ap-external"
+      ],
+      "questionIds": [
+        "q-ap-006",
+        "q-ap-007",
+        "q-ap-008",
+        "q-ap-009"
+      ],
+      "cardIds": [
+        "card-ap-areola",
+        "card-ap-montgomery",
+        "card-ap-no-muscle"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-ap-high-risk-lesions",
+      "lessonIds": [
+        "les-ap-high-risk"
+      ],
+      "questionIds": [
+        "q-ap-040",
+        "q-ap-041",
+        "q-ap-042",
+        "q-ap-043"
+      ],
+      "cardIds": [
+        "card-ap-adh",
+        "card-ap-lcis"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-ap-internal-structures",
+      "lessonIds": [
+        "les-ap-internal"
+      ],
+      "questionIds": [
+        "q-ap-010",
+        "q-ap-011",
+        "q-ap-012",
+        "q-ap-013"
+      ],
+      "cardIds": [
+        "card-ap-suspensory",
+        "card-ap-fibroglandular",
+        "card-ap-sentinel"
+      ],
+      "visualIds": [
+        "vis-ap-axilla-node"
+      ]
+    },
+    {
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "lessonIds": [
+        "les-ap-findings-vocab"
+      ],
+      "questionIds": [
+        "q-ap-031",
+        "q-ap-032",
+        "q-ap-033",
+        "q-ap-034"
+      ],
+      "cardIds": [
+        "card-ap-macro",
+        "card-ap-micro"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-ap-malignant",
+      "lessonIds": [
+        "les-ap-malignant"
+      ],
+      "questionIds": [
+        "q-ap-044",
+        "q-ap-045",
+        "q-ap-046",
+        "q-ap-047",
+        "q-ap-050"
+      ],
+      "cardIds": [
+        "card-ap-dcis",
+        "card-ap-idc",
+        "card-ap-ibc",
+        "card-ap-paget"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-ap-tdlu",
+      "lessonIds": [
+        "les-ap-ductal-lobular"
+      ],
+      "questionIds": [
+        "q-ap-014",
+        "q-ap-015",
+        "q-ap-016",
+        "q-ap-017"
+      ],
+      "cardIds": [
+        "card-ap-lobes",
+        "card-ap-ductal-origin",
+        "card-ap-lobular-origin"
+      ],
+      "visualIds": [
+        "vis-ap-lobule"
+      ]
+    }
+  ],
+  "gapsNoted": [
+    {
+      "objectiveId": "obj-ap-triangulation",
+      "note": "No accessible open source retrieved that teaches a specific triangulation method between CC/MLO. Left uncovered rather than inventing rules."
+    },
+    {
+      "objectiveId": "obj-ap-cytology",
+      "note": "Basement-membrane breach as the histologic criterion for invasion not sourced in this batch; taught in situ vs invasive + myoepithelial physiology only."
+    },
+    {
+      "objectiveId": "obj-ap-tdlu",
+      "note": "Exact phrase “terminal ductal lobular unit” not retrieved from NCI Dictionary/SEER pages used; duct–lobule–alveoli structure taught instead."
+    },
+    {
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "note": "Full ACR BI-RADS mass/calcification descriptor lexicon remains blocked (copyrighted atlas). NCI patient-level mass/calc vocabulary taught; asymmetries/distortion left for a source-backed update."
+    },
+    {
+      "objectiveId": "obj-ap-benign-conditions",
+      "note": "Galactocele, duct ectasia, hematoma, abscess, edema, seroma, gynecomastia lack complete sourced teaching packages here (some dictionary stubs exist for later)."
+    },
+    {
+      "objectiveId": "obj-ap-high-risk-lesions",
+      "note": "Flat epithelial atypia and papilloma with atypia not retrieved into evidence this batch."
+    },
+    {
+      "objectiveId": "obj-ap-malignant",
+      "note": "Sarcoma, lymphoma, and metastases-to-breast reserved for a later expansion."
+    },
+    {
+      "objectiveId": "obj-ap-external-landmarks",
+      "note": "Inframammary fold and pectoral muscle angle criteria for image evaluation overlap positioning module; only anatomic identity taught here."
+    }
+  ]
+}

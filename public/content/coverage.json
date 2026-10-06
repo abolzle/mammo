@@ -1332,11 +1332,27 @@
       "statement": "Localize findings using clock positions and quadrants for right and left breasts.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ap-clock-quadrants"
+      ],
+      "cardIds": [
+        "card-ap-quadrants",
+        "card-ap-central",
+        "card-ap-ax-tail",
+        "card-ap-clock-overlap"
+      ],
+      "questionIds": [
+        "q-ap-001",
+        "q-ap-002",
+        "q-ap-003",
+        "q-ap-004",
+        "q-ap-005",
+        "q-ap-048"
+      ],
+      "visualIds": [
+        "vis-ap-uoq-right"
+      ],
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1362,11 +1378,22 @@
       "statement": "Identify external landmarks including breast margins, nipple, areola (Morgagni tubercles, Montgomery glands), skin structures, axillary tail, inframammary fold, and pectoral muscle angle.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ap-external"
+      ],
+      "cardIds": [
+        "card-ap-areola",
+        "card-ap-montgomery",
+        "card-ap-no-muscle"
+      ],
+      "questionIds": [
+        "q-ap-006",
+        "q-ap-007",
+        "q-ap-008",
+        "q-ap-009"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1377,11 +1404,24 @@
       "statement": "Describe fascial layers, retroglandular space, fibroglandular and adipose tissue, Cooper ligaments, pectoral muscle, vessels, and lymphatics.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ap-internal"
+      ],
+      "cardIds": [
+        "card-ap-suspensory",
+        "card-ap-fibroglandular",
+        "card-ap-sentinel"
+      ],
+      "questionIds": [
+        "q-ap-010",
+        "q-ap-011",
+        "q-ap-012",
+        "q-ap-013"
+      ],
+      "visualIds": [
+        "vis-ap-axilla-node"
+      ],
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1392,11 +1432,24 @@
       "statement": "Describe the terminal ductal lobular unit and its parts, and why it matters in pathology.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ap-ductal-lobular"
+      ],
+      "cardIds": [
+        "card-ap-lobes",
+        "card-ap-ductal-origin",
+        "card-ap-lobular-origin"
+      ],
+      "questionIds": [
+        "q-ap-014",
+        "q-ap-015",
+        "q-ap-016",
+        "q-ap-017"
+      ],
+      "visualIds": [
+        "vis-ap-lobule"
+      ],
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1407,11 +1460,21 @@
       "statement": "Define epithelial cells, myoepithelial cells, and basement membrane, and relate them to in situ versus invasive disease.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ap-insitu-invasive"
+      ],
+      "cardIds": [
+        "card-ap-insitu",
+        "card-ap-myoepithelial"
+      ],
+      "questionIds": [
+        "q-ap-018",
+        "q-ap-019",
+        "q-ap-020",
+        "q-ap-021"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1427,11 +1490,21 @@
         "https://radiopaedia.org/articles/breast-imaging-reporting-and-data-system-bi-rads"
       ],
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ap-findings-vocab"
+      ],
+      "cardIds": [
+        "card-ap-macro",
+        "card-ap-micro"
+      ],
+      "questionIds": [
+        "q-ap-031",
+        "q-ap-032",
+        "q-ap-033",
+        "q-ap-034"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "blocked: no accessible source verifies the fact"
     },
@@ -1442,17 +1515,38 @@
       "statement": "Match assessment and density categories to their meaning and typical recommendations.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-ap-density-tissue",
+        "les-ap-density-categories",
+        "les-ap-assessment"
+      ],
       "cardIds": [
+        "card-ap-dense-def",
+        "card-ap-dense-common",
+        "card-ap-dense-map",
+        "card-ap-birads0",
+        "card-ap-birads3",
         "card-mqsa-density-4"
       ],
       "questionIds": [
+        "q-ap-022",
+        "q-ap-023",
+        "q-ap-024",
+        "q-ap-025",
+        "q-ap-026",
+        "q-ap-027",
+        "q-ap-028",
+        "q-ap-029",
+        "q-ap-030",
+        "q-ap-049",
         "q-mqsa-018"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 1,
+      "visualIds": [
+        "vis-ap-dense-map"
+      ],
+      "learnerQuestionCount": 10,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-benign-conditions",
@@ -1461,11 +1555,22 @@
       "statement": "Describe the typical presentation and mammographic appearance of common benign conditions (cyst, galactocele, fibroadenoma, lipoma, hamartoma, papilloma, duct ectasia, hematoma, abscess, fat necrosis, lymph nodes, gynecomastia, edema, seroma).",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ap-benign"
+      ],
+      "cardIds": [
+        "card-ap-fibroadenoma",
+        "card-ap-papilloma"
+      ],
+      "questionIds": [
+        "q-ap-035",
+        "q-ap-036",
+        "q-ap-037",
+        "q-ap-038",
+        "q-ap-039"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1476,11 +1581,21 @@
       "statement": "Define LCIS, ADH, ALH, papilloma with atypia, flat epithelial atypia, radial scar, and phyllodes tumor, and why upgrade potential matters.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ap-high-risk"
+      ],
+      "cardIds": [
+        "card-ap-adh",
+        "card-ap-lcis"
+      ],
+      "questionIds": [
+        "q-ap-040",
+        "q-ap-041",
+        "q-ap-042",
+        "q-ap-043"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1491,11 +1606,24 @@
       "statement": "Describe DCIS, invasive ductal and lobular carcinoma, inflammatory carcinoma, Paget disease, sarcoma, lymphoma, and metastases at a technologist level.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ap-malignant"
+      ],
+      "cardIds": [
+        "card-ap-dcis",
+        "card-ap-idc",
+        "card-ap-ibc",
+        "card-ap-paget"
+      ],
+      "questionIds": [
+        "q-ap-044",
+        "q-ap-045",
+        "q-ap-046",
+        "q-ap-047",
+        "q-ap-050"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },

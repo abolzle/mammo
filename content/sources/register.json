@@ -1,21 +1,20 @@
 {
   "version": "2026-10-06.2",
-  "note": "Retrieval dates are the dates this register's maintainer tooling actually fetched each URL. Rights describe four separate permissions: read, quote, redistribute, and submit to an AI service. Copyright protects expression, not facts: facts verified in a link-only source are taught in original wording and cited by locator.",
   "sources": [
     {
       "id": "src-ecfr-21-cfr-900",
-      "title": "21 CFR Part 900 \u2014 Mammography (eCFR, current text)",
+      "title": "21 CFR Part 900 — Mammography (eCFR, current text)",
       "publisher": "U.S. Office of the Federal Register / National Archives (eCFR)",
       "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-I/part-900",
       "publishedOrEffective": "Current through latest amendment dated 2024-09-10 (eCFR versioner metadata)",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Fetched via eCFR renderer API (title-21, part=900). Full regulatory text read for \u00a7\u00a7 900.2, 900.4, 900.11, 900.12.",
+      "retrievalNote": "Fetched via eCFR renderer API (title-21, part=900). Full regulatory text read for §§ 900.2, 900.4, 900.11, 900.12.",
       "sections": [
-        "\u00a7 900.2",
-        "\u00a7 900.4",
-        "\u00a7 900.11",
-        "\u00a7 900.12"
+        "§ 900.2",
+        "§ 900.4",
+        "§ 900.11",
+        "§ 900.12"
       ],
       "rights": {
         "status": "public_domain",
@@ -23,13 +22,13 @@
         "canQuote": true,
         "canRedistribute": true,
         "canSubmitToAI": true,
-        "basis": "U.S. federal regulation text is a work of the U.S. Government and not subject to copyright (17 U.S.C. \u00a7 105). eCFR is an editorial compilation and not an official legal edition; verify against the annual CFR for legal use."
+        "basis": "U.S. federal regulation text is a work of the U.S. Government and not subject to copyright (17 U.S.C. § 105). eCFR is an editorial compilation and not an official legal edition; verify against the annual CFR for legal use."
       },
       "kind": "regulation"
     },
     {
       "id": "src-fr-88-15126",
-      "title": "Mammography Quality Standards Act \u2014 Final Rule (88 FR 15126, March 10, 2023)",
+      "title": "Mammography Quality Standards Act — Final Rule (88 FR 15126, March 10, 2023)",
       "publisher": "Food and Drug Administration via Federal Register",
       "url": "https://www.federalregister.gov/documents/2023/03/10/2023-04550/mammography-quality-standards-act",
       "publishedOrEffective": "Published 2023-03-10; effective 2024-09-10",
@@ -164,7 +163,7 @@
     },
     {
       "id": "src-arrt-mammography-page",
-      "title": "ARRT \u2014 Mammography credential page",
+      "title": "ARRT — Mammography credential page",
       "publisher": "American Registry of Radiologic Technologists",
       "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/mammography",
       "publishedOrEffective": null,
@@ -196,7 +195,7 @@
       "retrievalNote": "Read in full. Category counts (20/30/26/39; 115 scored; 30 pilot) verified on page 1. The curriculum in this app is an original concept map; it references outline categories by code and does not reproduce the outline.",
       "sections": [
         "p.1 content category table",
-        "pp.2\u20138 content outline"
+        "pp.2–8 content outline"
       ],
       "rights": {
         "status": "copyrighted_link_only",
@@ -218,7 +217,7 @@
       "retrievalStatus": "retrieved",
       "retrievalNote": "Mammography row of the exam timing chart (Section 4, p.47): 115 scored, 30 pilot, 145 total, 150 min test time, 170 min appointment. p.45: answer required before moving on; flag and review supported; about one minute per question.",
       "sections": [
-        "Section 4 pp.45\u201347 Exam format and timing"
+        "Section 4 pp.45–47 Exam format and timing"
       ],
       "rights": {
         "status": "copyrighted_link_only",
@@ -232,13 +231,13 @@
     },
     {
       "id": "src-arrt-score-report",
-      "title": "ARRT \u2014 Interpreting Your Score Report",
+      "title": "ARRT — Interpreting Your Score Report",
       "publisher": "American Registry of Radiologic Technologists",
       "url": "https://www.arrt.org/pages/resources/exam-information/after-the-exam/interpreting-your-score-report",
       "publishedOrEffective": null,
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Scaled score range 1\u201399; total scaled score of 75 required to pass; 75 is not 75% correct.",
+      "retrievalNote": "Scaled score range 1–99; total scaled score of 75 required to pass; 75 is not 75% correct.",
       "sections": [
         "How is my score calculated?"
       ],
@@ -254,7 +253,7 @@
     },
     {
       "id": "src-arrt-handbooks-index",
-      "title": "ARRT Reference Documents \u2014 Handbooks",
+      "title": "ARRT Reference Documents — Handbooks",
       "publisher": "American Registry of Radiologic Technologists",
       "url": "https://www.arrt.org/pages/arrt-reference-documents/by-document-type/handbooks",
       "publishedOrEffective": null,
@@ -330,7 +329,7 @@
     },
     {
       "id": "src-acr-dmqc-manual",
-      "title": "ACR 2018 Digital Mammography Quality Control Manual \u2014 resources page",
+      "title": "ACR 2018 Digital Mammography Quality Control Manual — resources page",
       "publisher": "American College of Radiology",
       "url": "https://www.acr.org/Accreditation/Resources/Digital-Mammography-QC-Manual",
       "publishedOrEffective": "2018 manual; FAQ updated 2024-05-01",
@@ -372,7 +371,7 @@
     },
     {
       "id": "src-acr-ciq-1999",
-      "title": "ACR Mammography Quality Control Manual \u2014 Clinical Image Quality (1999)",
+      "title": "ACR Mammography Quality Control Manual — Clinical Image Quality (1999)",
       "publisher": "American College of Radiology",
       "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards",
       "publishedOrEffective": "1999",
@@ -392,7 +391,7 @@
     },
     {
       "id": "src-acr-birads-atlas",
-      "title": "ACR BI-RADS\u00ae Atlas (Mammography lexicon)",
+      "title": "ACR BI-RADS® Atlas (Mammography lexicon)",
       "publisher": "American College of Radiology",
       "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS",
       "publishedOrEffective": null,
@@ -436,7 +435,7 @@
         "canQuote": true,
         "canRedistribute": true,
         "canSubmitToAI": true,
-        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary\u2014check each.",
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
         "basisSourceId": "src-nci-reuse"
       },
       "kind": "government_guidance"
@@ -493,7 +492,7 @@
     },
     {
       "id": "src-nci-pdq-breast-screening-hp",
-      "title": "Breast Cancer Screening (PDQ\u00ae) \u2014 Health Professional Version",
+      "title": "Breast Cancer Screening (PDQ®) — Health Professional Version",
       "publisher": "National Cancer Institute",
       "url": "https://www.cancer.gov/types/breast/hp/breast-screening-pdq",
       "publishedOrEffective": null,
@@ -514,7 +513,7 @@
     },
     {
       "id": "src-nci-pdq-breast-treatment-hp",
-      "title": "Breast Cancer Treatment (PDQ\u00ae) \u2014 Health Professional Version",
+      "title": "Breast Cancer Treatment (PDQ®) — Health Professional Version",
       "publisher": "National Cancer Institute",
       "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
       "publishedOrEffective": null,
@@ -535,7 +534,7 @@
     },
     {
       "id": "src-nci-seer-breast",
-      "title": "SEER Training Modules \u2014 Breast Cancer (anatomy, risk factors, imaging)",
+      "title": "SEER Training Modules — Breast Cancer (anatomy, risk factors, imaging)",
       "publisher": "National Cancer Institute SEER Program",
       "url": "https://training.seer.cancer.gov/breast/anatomy.html",
       "publishedOrEffective": null,
@@ -620,7 +619,7 @@
     },
     {
       "id": "src-tcia-cbis-ddsm",
-      "title": "CBIS-DDSM (Curated Breast Imaging Subset of DDSM) \u2014 The Cancer Imaging Archive",
+      "title": "CBIS-DDSM (Curated Breast Imaging Subset of DDSM) — The Cancer Imaging Archive",
       "publisher": "The Cancer Imaging Archive",
       "url": "https://www.cancerimagingarchive.net/collection/cbis-ddsm/",
       "publishedOrEffective": null,
@@ -649,7 +648,7 @@
       "publishedOrEffective": "2022",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "OpenStax CMS API reports license CC BY-NC-SA (not plain CC BY). \u00a7\u00a7 30.4 and 32.2 retrieved 2026-10-06 for image-production evidence.",
+      "retrievalNote": "OpenStax CMS API reports license CC BY-NC-SA (not plain CC BY). §§ 30.4 and 32.2 retrieved 2026-10-06 for image-production evidence.",
       "sections": [
         "30.4 X Rays: Atomic Origins and Applications",
         "32.2 Biological Effects of Ionizing Radiation",
@@ -668,7 +667,7 @@
     },
     {
       "id": "src-nrc-radiation-cancer",
-      "title": "NRC \u2014 Radiation Exposure and Cancer",
+      "title": "NRC — Radiation Exposure and Cancer",
       "publisher": "U.S. Nuclear Regulatory Commission",
       "url": "https://www.nrc.gov/about-nrc/radiation/health-effects/rad-exposure-cancer.html",
       "publishedOrEffective": "Page last reviewed/updated 2020-03-20",
@@ -690,7 +689,7 @@
     },
     {
       "id": "src-cdc-alara",
-      "title": "CDC \u2014 ALARA (As Low As Reasonably Achievable) Recommendations",
+      "title": "CDC — ALARA (As Low As Reasonably Achievable) Recommendations",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/radiation-health/safety/alara.html",
       "publishedOrEffective": "Updated 2026-07-17",
@@ -716,7 +715,7 @@
     },
     {
       "id": "src-osha-bloodborne",
-      "title": "OSHA \u2014 Bloodborne Pathogens and Needlestick Prevention",
+      "title": "OSHA — Bloodborne Pathogens and Needlestick Prevention",
       "publisher": "Occupational Safety and Health Administration",
       "url": "https://www.osha.gov/bloodborne-pathogens",
       "publishedOrEffective": null,
@@ -739,7 +738,7 @@
     },
     {
       "id": "src-cdc-hand-hygiene",
-      "title": "CDC \u2014 Clinical Safety: Hand Hygiene for Healthcare Workers",
+      "title": "CDC — Clinical Safety: Hand Hygiene for Healthcare Workers",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
       "publishedOrEffective": "Page dated 2024-02-27",
@@ -765,10 +764,10 @@
     },
     {
       "id": "src-acs-facts-2024-2025",
-      "title": "Breast Cancer Facts & Figures 2024-2025 \u2014 screening guideline sidebar",
+      "title": "Breast Cancer Facts & Figures 2024-2025 — screening guideline sidebar",
       "publisher": "American Cancer Society",
       "url": "https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/breast-cancer-facts-and-figures/2024/breast-cancer-facts-and-figures-2024.pdf",
-      "publishedOrEffective": "2024\u20132025 edition",
+      "publishedOrEffective": "2024–2025 edition",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
       "retrievalNote": "PDF retrieved 2026-10-06. Average-risk and high-risk screening ages read from the ACS recommendations sidebar. Copyrighted: facts taught in original wording with link-only citations; no quoted excerpts stored.",
@@ -787,7 +786,7 @@
     },
     {
       "id": "src-cdc-nbccedp",
-      "title": "CDC \u2014 National Breast and Cervical Cancer Early Detection Program",
+      "title": "CDC — National Breast and Cervical Cancer Early Detection Program",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/cancer/nbccedp/index.htm",
       "publishedOrEffective": null,
@@ -807,7 +806,7 @@
     },
     {
       "id": "src-acr-aapm-siim-dm-iq-2013",
-      "title": "ACR\u2013AAPM\u2013SIIM Practice Guideline for Determinants of Image Quality in Digital Mammography",
+      "title": "ACR–AAPM–SIIM Practice Guideline for Determinants of Image Quality in Digital Mammography",
       "publisher": "American College of Radiology / AAPM / SIIM (via Journal of Digital Imaging / PMC)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3553374/",
       "publishedOrEffective": "2013-01 (PMC3553374)",
@@ -815,7 +814,7 @@
       "retrievalStatus": "retrieved",
       "retrievalNote": "Full text retrieved from PMC on 2026-10-06. ACR practice guidelines are copyrighted; use link-only citations. Clinical positioning criteria restated in original wording for teaching; do not quote long passages.",
       "sections": [
-        "Digital Mammography Image Acquisition \u2014 Tissue coverage / positioning",
+        "Digital Mammography Image Acquisition — Tissue coverage / positioning",
         "Breast compression"
       ],
       "rights": {
@@ -830,7 +829,7 @@
     },
     {
       "id": "src-fda-equip-faq-facilities",
-      "title": "MQSA EQUIP Frequently Asked Questions \u2014 Facilities",
+      "title": "MQSA EQUIP Frequently Asked Questions — Facilities",
       "publisher": "U.S. Food and Drug Administration",
       "url": "https://www.fda.gov/media/101293/download",
       "publishedOrEffective": "FAQ updates noted through 2018 in document",
@@ -880,6 +879,127 @@
       "kind": "professional_guideline"
     },
     {
+      "id": "src-nci-dictionary",
+      "title": "NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms",
+      "publishedOrEffective": "Retrieved 2026-10-06 via NCI Glossary API",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Term definitions retrieved through https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/{termId} on 2026-10-06.",
+      "sections": [
+        "fibroadenoma",
+        "DCIS",
+        "IDC",
+        "ILC",
+        "inflammatory breast cancer",
+        "Paget disease",
+        "LCIS",
+        "ADH",
+        "ALH",
+        "radial scar",
+        "phyllodes",
+        "in situ",
+        "cyst",
+        "lipoma",
+        "intraductal papilloma",
+        "fat necrosis",
+        "sentinel lymph node",
+        "areola",
+        "fibroglandular breast tissue",
+        "breast density",
+        "calcification",
+        "microcalcification"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: Dictionary of Cancer Terms text is free of copyright unless otherwise indicated.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-seer-breast-types",
+      "title": "SEER Training Modules — Types of Breast Histologies",
+      "publisher": "National Cancer Institute SEER Program",
+      "url": "https://training.seer.cancer.gov/breast/types.html",
+      "publishedOrEffective": "Updated 2025-01-10",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Full page retrieved 2026-10-06.",
+      "sections": [
+        "DCIS share",
+        "Invasive ductal ~70%",
+        "Invasive lobular 10–15%",
+        "In situ vs invasive framing"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI/NIH government work; verify per-graphic credits (some figures © Terese Winslow — not redistributed).",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-openstax-anatomy-phys-2e",
+      "title": "Anatomy and Physiology 2e — § 28.6 Lactation",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+      "publishedOrEffective": "Anatomy and Physiology 2e",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Lactation / breast structure section retrieved 2026-10-06.",
+      "sections": [
+        "Structure of the Lactating Breast",
+        "alveoli",
+        "myoepithelial cells",
+        "lobules",
+        "Montgomery glands"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "OpenStax textbooks are licensed CC BY 4.0; attribute OpenStax."
+      },
+      "kind": "other"
+    },
+    {
+      "id": "src-openstax-clinical-nursing-breast",
+      "title": "Clinical Nursing Skills — § 23.4 Breast and Lymphatic System",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/23-4-breast-and-lymphatic-system",
+      "publishedOrEffective": "Clinical Nursing Skills",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Suspensory ligaments wording retrieved 2026-10-06.",
+      "sections": [
+        "Internal Breast",
+        "suspensory ligaments"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "OpenStax CC BY 4.0; attribute OpenStax."
+      },
+      "kind": "other"
+    },
+    {
       "id": "src-fda-equip-info",
       "title": "MQSA Important Information about the EQUIP Initiative",
       "publisher": "U.S. Food and Drug Administration",
@@ -890,7 +1010,7 @@
       "retrievalNote": "PDF fetched 2026-10-06. States the three EQUIP main questions, cites 21 CFR 900.12(i), (d)(1)(ii)(A), and (d)(2), and explains IP feedback plus documenting corrective-action effectiveness.",
       "sections": [
         "MQSA Clinical Image Quality-Related Regulations",
-        "Quality Assurance \u2014 Clinical Image Corrective Action",
+        "Quality Assurance — Clinical Image Corrective Action",
         "Clinical Image Quality",
         "Quality Control"
       ],

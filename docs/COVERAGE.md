@@ -8,12 +8,12 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 21 / 79 | all |
-| Micro-lessons | 57 | 60–80 |
-| Recall cards | 172 | 200+ |
-| Practice questions | 222 | ~800 incl. two full forms |
-| Reserved-form questions | 15 | two full forms |
-| Visual exercises | 20 | — |
+| Objectives complete | 22 / 79 | all |
+| Micro-lessons | 69 | 60–80 |
+| Recall cards | 202 | 200+ |
+| Practice questions | 269 | ~800 incl. two full forms |
+| Reserved-form questions | 18 | two full forms |
+| Visual exercises | 24 | — |
 
 Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 
@@ -80,17 +80,17 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-ip-magnification-technique` | needs_source | 1 | 2 | 1 | 1 | needs source retrieval before a lesson can be written |
 | `obj-ip-image-quality-attributes` | source_backed_open | 1 | 7 | 9 | 0 |  |
 | `obj-ip-patient-artifacts` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-clock-quadrants` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-clock-quadrants` | needs_source | 1 | 4 | 5 | 1 | needs source retrieval before a lesson can be written |
 | `obj-ap-triangulation` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-external-landmarks` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-internal-structures` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-tdlu` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-cytology` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-lexicon-masses-calcs` | blocked | 0 | 0 | 0 | 0 | blocked: no accessible source verifies the fact |
-| `obj-ap-assessment-density-categories` | source_backed_open | 0 | 1 | 1 | 0 | missing lesson |
-| `obj-ap-benign-conditions` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-high-risk-lesions` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-malignant` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-external-landmarks` | needs_source | 1 | 3 | 4 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-internal-structures` | needs_source | 1 | 3 | 4 | 1 | needs source retrieval before a lesson can be written |
+| `obj-ap-tdlu` | needs_source | 1 | 3 | 4 | 1 | needs source retrieval before a lesson can be written |
+| `obj-ap-cytology` | needs_source | 1 | 2 | 4 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-lexicon-masses-calcs` | blocked | 1 | 2 | 4 | 0 | blocked: no accessible source verifies the fact |
+| `obj-ap-assessment-density-categories` | source_backed_open | 3 | 6 | 10 | 1 |  |
+| `obj-ap-benign-conditions` | needs_source | 1 | 2 | 5 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-high-risk-lesions` | needs_source | 1 | 2 | 4 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-malignant` | needs_source | 1 | 4 | 4 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-cc` | blocked | 2 | 3 | 9 | 1 | blocked: no accessible source verifies the fact |
 | `obj-pp-mlo` | blocked | 2 | 2 | 7 | 1 | blocked: no accessible source verifies the fact |
 | `obj-pp-lateral-views` | needs_source | 1 | 1 | 1 | 0 | needs source retrieval before a lesson can be written |

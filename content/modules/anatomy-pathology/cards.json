@@ -1,0 +1,966 @@
+{
+  "cards": [
+    {
+      "id": "card-ap-quadrants",
+      "prompt": "Name the four breast quadrants used in SEER/ICD-O localization.",
+      "answer": "Upper inner (UIQ), upper outer (UOQ), lower inner (LIQ), lower outer (LOQ).",
+      "objectiveId": "obj-ap-clock-quadrants",
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-central",
+      "prompt": "What does the central portion of the breast contain in SEER’s description?",
+      "answer": "The areola and nipple.",
+      "objectiveId": "obj-ap-clock-quadrants",
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-ax-tail",
+      "prompt": "Which ICD-O breast subsite codes the axillary tail?",
+      "answer": "C506 — axillary tail of breast.",
+      "objectiveId": "obj-ap-clock-quadrants",
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-clock-overlap",
+      "prompt": "SEER treats a single tumor at which clock hours as overlapping for coding?",
+      "answer": "Directly at 3, 6, 9, or 12 o’clock (or otherwise overlapping quadrants).",
+      "objectiveId": "obj-ap-clock-quadrants",
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-areola",
+      "prompt": "Define areola.",
+      "answer": "The dark-colored skin surrounding the nipple.",
+      "objectiveId": "obj-ap-external-landmarks",
+      "evidenceIds": [
+        "ev-ap-dict-areola"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-montgomery",
+      "prompt": "What do Montgomery glands do (OpenStax)?",
+      "answer": "Secrete oil to cleanse/protect the nipple area.",
+      "objectiveId": "obj-ap-external-landmarks",
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-no-muscle",
+      "prompt": "Does the breast itself contain muscle tissue (SEER)?",
+      "answer": "No. It rests on pectoralis major; fat surrounds the mammary glands.",
+      "objectiveId": "obj-ap-external-landmarks",
+      "evidenceIds": [
+        "ev-ap-seer-no-muscle-in-breast"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-suspensory",
+      "prompt": "What are suspensory ligaments of the breast?",
+      "answer": "Connective-tissue bands connecting breast tissue to the overlying dermis.",
+      "objectiveId": "obj-ap-internal-structures",
+      "evidenceIds": [
+        "ev-ap-openstax-suspensory"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-fibroglandular",
+      "prompt": "What is fibroglandular breast tissue?",
+      "answer": "Fibrous connective tissue plus glandular tissue (ducts and lobules).",
+      "objectiveId": "obj-ap-internal-structures",
+      "evidenceIds": [
+        "ev-ap-dict-fibroglandular"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-sentinel",
+      "prompt": "Define sentinel lymph node.",
+      "answer": "The first lymph node to which cancer is likely to spread from the primary tumor.",
+      "objectiveId": "obj-ap-internal-structures",
+      "evidenceIds": [
+        "ev-ap-dict-sentinel"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lobes",
+      "prompt": "About how many lobes does each breast have (SEER)?",
+      "answer": "15 to 20.",
+      "objectiveId": "obj-ap-tdlu",
+      "evidenceIds": [
+        "ev-ap-seer-lobes-ducts"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-ductal-origin",
+      "prompt": "Where does ductal carcinoma start (SEER)?",
+      "answer": "In the milk ducts.",
+      "objectiveId": "obj-ap-tdlu",
+      "evidenceIds": [
+        "ev-ap-seer-ductal-vs-lobular-origin"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lobular-origin",
+      "prompt": "Where does lobular carcinoma originate (SEER)?",
+      "answer": "In the lobes/lobules.",
+      "objectiveId": "obj-ap-tdlu",
+      "evidenceIds": [
+        "ev-ap-seer-ductal-vs-lobular-origin"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-insitu",
+      "prompt": "What does in situ mean?",
+      "answer": "In its original place; abnormal cells have not spread from where they formed.",
+      "objectiveId": "obj-ap-cytology",
+      "evidenceIds": [
+        "ev-ap-dict-insitu"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-myoepithelial",
+      "prompt": "What do myoepithelial cells do in lactation (OpenStax)?",
+      "answer": "Contract to squeeze milk from alveoli into ducts.",
+      "objectiveId": "obj-ap-cytology",
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-dense-def",
+      "prompt": "What does breast density describe?",
+      "answer": "Relative amounts of glandular, fibrous, and fatty tissue on a mammogram.",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "evidenceIds": [
+        "ev-ap-nci-dense-definition"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-dense-common",
+      "prompt": "About what fraction of women 40+ have dense breasts (NCI)?",
+      "answer": "Nearly half.",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "evidenceIds": [
+        "ev-ap-nci-dense-common"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-dense-map",
+      "prompt": "Which two density categories map to “dense” on the patient letter?",
+      "answer": "Heterogeneously dense and extremely dense.",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "evidenceIds": [
+        "ev-ap-nci-dense-four",
+        "ev-ap-mqsa-density"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-birads0",
+      "prompt": "What does BI-RADS 0 mean on NCI’s table?",
+      "answer": "Need additional imaging evaluation before a category can be assigned.",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "evidenceIds": [
+        "ev-ap-nci-birads-table"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-birads3",
+      "prompt": "Typical follow-up for BI-RADS 3 on NCI’s table?",
+      "answer": "A 6-month follow-up mammogram.",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "evidenceIds": [
+        "ev-ap-nci-birads-table"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-macro",
+      "prompt": "Are macrocalcifications usually related to cancer (NCI)?",
+      "answer": "They are usually benign.",
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-micro",
+      "prompt": "Why can clustered microcalcifications matter?",
+      "answer": "They may be a sign of DCIS or breast cancer.",
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-fibroadenoma",
+      "prompt": "What is a fibroadenoma?",
+      "answer": "The most common benign breast tumor made of fibrous and glandular tissue.",
+      "objectiveId": "obj-ap-benign-conditions",
+      "evidenceIds": [
+        "ev-ap-dict-fibroadenoma"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-papilloma",
+      "prompt": "Classic symptom association of intraductal papilloma?",
+      "answer": "Nipple discharge (often near-nipple duct growth).",
+      "objectiveId": "obj-ap-benign-conditions",
+      "evidenceIds": [
+        "ev-ap-dict-papilloma"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-adh",
+      "prompt": "Does ADH increase breast cancer risk?",
+      "answer": "Yes — it is benign but increases risk.",
+      "objectiveId": "obj-ap-high-risk-lesions",
+      "evidenceIds": [
+        "ev-ap-dict-adh"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lcis",
+      "prompt": "Does LCIS usually become invasive cancer itself (NCI)?",
+      "answer": "Seldom; it increases risk of breast cancer in either breast.",
+      "objectiveId": "obj-ap-high-risk-lesions",
+      "evidenceIds": [
+        "ev-ap-dict-lcis"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-dcis",
+      "prompt": "Define DCIS in one sentence.",
+      "answer": "Abnormal cells in a breast duct lining that have not spread outside the duct.",
+      "objectiveId": "obj-ap-malignant",
+      "evidenceIds": [
+        "ev-ap-dict-dcis"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-idc",
+      "prompt": "What is the most common invasive breast cancer?",
+      "answer": "Invasive (infiltrating) ductal carcinoma.",
+      "objectiveId": "obj-ap-malignant",
+      "evidenceIds": [
+        "ev-ap-dict-idc",
+        "ev-ap-seer-histologies"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-ibc",
+      "prompt": "Why might inflammatory breast cancer be mammographically occult?",
+      "answer": "It often forms no palpable lump and may not be seen on a mammogram.",
+      "objectiveId": "obj-ap-malignant",
+      "evidenceIds": [
+        "ev-ap-dict-ibc"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-paget",
+      "prompt": "Which skin area does Paget disease of the breast involve?",
+      "answer": "The nipple and usually the areola.",
+      "objectiveId": "obj-ap-malignant",
+      "evidenceIds": [
+        "ev-ap-dict-paget"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}
