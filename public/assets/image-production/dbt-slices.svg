@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 280" role="img" aria-labelledby="t d">
+  <title id="t">DBT acquisition as thin slices</title>
+  <desc id="d">Schematic tube arc above a compressed breast with stacked reconstructed slice planes. Not a mammogram.</desc>
+  <rect width="560" height="280" fill="#fbfaf7"/>
+  <path d="M60 90 Q 180 20 300 90" fill="none" stroke="#1e3a5f" stroke-width="3"/>
+  <circle cx="60" cy="90" r="10" fill="#2f6f73"/>
+  <circle cx="180" cy="36" r="10" fill="#2f6f73"/>
+  <circle cx="300" cy="90" r="10" fill="#2f6f73"/>
+  <text x="180" y="22" fill="#334155" font-size="12" font-family="system-ui,sans-serif" text-anchor="middle">Tube positions</text>
+  <rect x="220" y="120" width="200" height="12" rx="2" fill="#5eead4" stroke="#0f766e"/>
+  <ellipse cx="320" cy="175" rx="90" ry="45" fill="#f1d9c7" stroke="#9a6b4f"/>
+  <line x1="250" y1="150" x2="390" y2="150" stroke="#0f766e" stroke-width="2"/>
+  <line x1="245" y1="165" x2="395" y2="165" stroke="#0f766e" stroke-width="2"/>
+  <line x1="242" y1="180" x2="398" y2="180" stroke="#0f766e" stroke-width="2"/>
+  <line x1="248" y1="195" x2="392" y2="195" stroke="#0f766e" stroke-width="2"/>
+  <rect x="230" y="220" width="180" height="22" rx="3" fill="#475569"/>
+  <text x="420" y="175" fill="#134e4a" font-size="12" font-family="system-ui,sans-serif">Thin slices</text>
+  <text x="540" y="268" fill="#334155" font-size="11" font-family="system-ui,sans-serif" text-anchor="end">SCHEMATIC — NOT A MAMMOGRAM</text>
+</svg>

@@ -1,0 +1,2289 @@
+{
+  "questions": [
+    {
+      "id": "q-ip-001",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-unit-components"
+      ],
+      "familyId": "fam-ip-unit-def",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which assemblage is the minimum MQSA definition of a mammography unit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Generator, control, tube housing, beam-limiting device, and supporting structures",
+          "rationale": "Correct. These are the minimum components in § 900.2(dd)."
+        },
+        {
+          "id": "b",
+          "text": "Only a digital detector and a compression paddle",
+          "rationale": "A detector and paddle alone omit required components."
+        },
+        {
+          "id": "c",
+          "text": "Any general radiographic room plus a mammography attachment",
+          "rationale": "General-purpose systems with attachments are prohibited."
+        },
+        {
+          "id": "d",
+          "text": "A mobile coach without an x-ray control",
+          "rationale": "An x-ray control is required."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA defines a mammography unit as including at least generator, control, tube housing assembly, beam-limiting device, and supports.",
+      "variants": {
+        "simpler": "Five parts minimum: make x-rays, control them, house the tube, limit the beam, and support them.",
+        "example": "If a schematic omits the beam-limiting device, it is incomplete."
+      },
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition"
+      ]
+    },
+    {
+      "id": "q-ip-002",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-unit-components"
+      ],
+      "familyId": "fam-ip-prohibited",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A clinic proposes using a general radiographic unit fitted with a mammography compression attachment. Under MQSA, this is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Allowed if a medical physicist surveys it annually",
+          "rationale": "Surveys do not legalize prohibited equipment."
+        },
+        {
+          "id": "b",
+          "text": "Allowed for screening but not diagnostic exams",
+          "rationale": "The prohibition is not limited by exam type."
+        },
+        {
+          "id": "c",
+          "text": "Prohibited; mammography must use equipment specifically designed for mammography",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "d",
+          "text": "Allowed only with DBT software enabled",
+          "rationale": "Software does not override the equipment prohibition."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "General-purpose or specially attached non-mammography systems shall not be used for mammography.",
+      "variants": {
+        "simpler": "No bolting a paddle onto a general room.",
+        "example": "Accreditation will not save a prohibited configuration."
+      },
+      "evidenceIds": [
+        "ev-mqsa-prohibited-equipment"
+      ]
+    },
+    {
+      "id": "q-ip-003",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-unit-components"
+      ],
+      "familyId": "fam-ip-beam-order",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Along the primary beam path, which component sits between the tube housing and the compression paddle?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Image receptor",
+          "rationale": "The receptor is beyond the breast."
+        },
+        {
+          "id": "b",
+          "text": "Beam-limiting device",
+          "rationale": "Correct. It shapes the field before the paddle and breast."
+        },
+        {
+          "id": "c",
+          "text": "Acquisition workstation",
+          "rationale": "Displays are not in the beam path."
+        },
+        {
+          "id": "d",
+          "text": "PACS archive",
+          "rationale": "Storage is not in the beam path."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Order: tube housing → beam-limiting device → paddle → breast → support/receptor.",
+      "variants": {
+        "simpler": "Shape the beam before it hits the patient.",
+        "example": "Collimation problems point to the beam-limiting device."
+      },
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "q-ip-004",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-unit-components"
+      ],
+      "familyId": "fam-ip-tube-role",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which component produces the x-rays in a mammography unit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Beam-limiting device",
+          "rationale": "It shapes the field."
+        },
+        {
+          "id": "b",
+          "text": "Compression paddle",
+          "rationale": "It compresses tissue."
+        },
+        {
+          "id": "c",
+          "text": "Tube housing assembly",
+          "rationale": "Correct. X-rays are produced in the tube within the housing."
+        },
+        {
+          "id": "d",
+          "text": "Image receptor",
+          "rationale": "It detects remnant radiation."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "The tube housing assembly contains the x-ray tube where electrons strike the anode.",
+      "variants": {
+        "simpler": "X-rays start in the tube housing.",
+        "example": "No exposure? Think generator/control/tube first."
+      },
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-ip-brems-characteristic"
+      ]
+    },
+    {
+      "id": "q-ip-005",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-kvp-tube"
+      ],
+      "familyId": "fam-ip-brems",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Bremsstrahlung x-rays are produced when:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An outer-shell electron falls without a vacancy being created",
+          "rationale": "Characteristic emission needs a vacancy."
+        },
+        {
+          "id": "b",
+          "text": "Electrons decelerate in the anode",
+          "rationale": "Correct. Bremsstrahlung means braking radiation."
+        },
+        {
+          "id": "c",
+          "text": "Photons scatter from the paddle toward the receptor",
+          "rationale": "That is not anode production."
+        },
+        {
+          "id": "d",
+          "text": "The grid absorbs scatter after the breast",
+          "rationale": "Grid action is after production."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "OpenStax: deceleration of electrons in the anode produces bremsstrahlung.",
+      "variants": {
+        "simpler": "Braking radiation = electrons slowing in the anode.",
+        "example": "The continuous spectrum under characteristic peaks is bremsstrahlung."
+      },
+      "evidenceIds": [
+        "ev-ip-brems-characteristic"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-006",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-kvp-tube"
+      ],
+      "familyId": "fam-ip-characteristic",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Characteristic x-ray energies primarily depend on:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The patient's breast thickness alone",
+          "rationale": "Thickness affects attenuation, not anode line energies."
+        },
+        {
+          "id": "b",
+          "text": "The electron binding energies of the anode material",
+          "rationale": "Correct. Energies identify the anode element."
+        },
+        {
+          "id": "c",
+          "text": "The matrix size of the digital detector",
+          "rationale": "Detector sampling is unrelated."
+        },
+        {
+          "id": "d",
+          "text": "Whether the grid is in or out",
+          "rationale": "Grid status does not set characteristic energies."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Characteristic x-rays are emitted when inner-shell vacancies are filled; energies are characteristic of the anode element.",
+      "variants": {
+        "simpler": "Anode element → characteristic peaks.",
+        "example": "Changing anode material moves the peaks."
+      },
+      "evidenceIds": [
+        "ev-ip-brems-characteristic"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-007",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-kvp-tube"
+      ],
+      "familyId": "fam-ip-emax",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Using E_max = qeV, a tube operated at 30 kV can produce photons with a maximum energy of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "30 eV",
+          "rationale": "Off by a factor of 1000."
+        },
+        {
+          "id": "b",
+          "text": "30 keV",
+          "rationale": "Correct. kV maps to keV maximum."
+        },
+        {
+          "id": "c",
+          "text": "30 MeV",
+          "rationale": "Far too high for diagnostic tubes."
+        },
+        {
+          "id": "d",
+          "text": "Only energies exactly at characteristic peaks",
+          "rationale": "E_max is the continuum cutoff."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "OpenStax pattern: 100 kV → 100 keV maximum; likewise 30 kV → 30 keV max.",
+      "variants": {
+        "simpler": "kV number matches keV maximum.",
+        "example": "Most photons are below E_max."
+      },
+      "evidenceIds": [
+        "ev-ip-emax-kvp"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-008",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-kvp-tube"
+      ],
+      "familyId": "fam-ip-contrast-energy",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which statement matches OpenStax teaching on x-ray energy and contrast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Higher-energy beams always improve soft-tissue contrast",
+          "rationale": "Higher energy usually reduces contrast."
+        },
+        {
+          "id": "b",
+          "text": "Lower-energy x-rays provide better contrast but are attenuated more by thicker material",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Photon energy does not affect penetration",
+          "rationale": "Penetration rises with energy."
+        },
+        {
+          "id": "d",
+          "text": "Soft tissues are easy to separate because absorption differs enormously",
+          "rationale": "Soft-tissue absorption is similar."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Low-energy x-rays provide better contrast; higher-energy photons penetrate more; soft-tissue absorption is similar.",
+      "variants": {
+        "simpler": "Softer beam: more contrast, less punch.",
+        "example": "That tension is why mammography technique is specialized."
+      },
+      "evidenceIds": [
+        "ev-ip-energy-penetration-contrast",
+        "ev-ip-breast-soft-tissue-contrast"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-009",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-paddles-grids"
+      ],
+      "familyId": "fam-ip-paddle-parallel",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under MQSA, a flat compression paddle under compression may deflect from parallel by no more than:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0.1 cm",
+          "rationale": "Too strict."
+        },
+        {
+          "id": "b",
+          "text": "1.0 cm",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "2.0 cm",
+          "rationale": "Not the stated limit."
+        },
+        {
+          "id": "d",
+          "text": "10% of SID",
+          "rationale": "Percent-of-SID language is for alignment tests."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "§ 900.12(b)(8): not more than 1.0 cm from parallel when compression is applied.",
+      "variants": {
+        "simpler": "One centimeter max.",
+        "example": "A clearly wedged paddle fails this expectation."
+      },
+      "evidenceIds": [
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "q-ip-010",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-paddles-grids"
+      ],
+      "familyId": "fam-ip-compression-why",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to NCI, why is the breast pressed between two plates?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "To sterilize the skin",
+          "rationale": "Not a sterilizing step."
+        },
+        {
+          "id": "b",
+          "text": "To help get a better x-ray picture of the inside of the breast",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "To permanently flatten fibroglandular tissue",
+          "rationale": "Compression is temporary."
+        },
+        {
+          "id": "d",
+          "text": "To replace the need for labeling",
+          "rationale": "Labeling remains required."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI: pressing helps get a better x-ray picture of the inside of the breast.",
+      "variants": {
+        "simpler": "Compression = better picture.",
+        "example": "Use that plain sentence with patients."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-compression-purpose"
+      ]
+    },
+    {
+      "id": "q-ip-011",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-paddles-grids"
+      ],
+      "familyId": "fam-ip-grid-mag",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Systems used for magnification procedures must be able to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Operate only with the grid in place",
+          "rationale": "Opposite of the requirement."
+        },
+        {
+          "id": "b",
+          "text": "Operate with the grid removed",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Disable compression entirely",
+          "rationale": "Compression is still used."
+        },
+        {
+          "id": "d",
+          "text": "Remove the beam-limiting device",
+          "rationale": "Collimation remains necessary."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "MQSA requires magnification systems to operate with the grid removed.",
+      "variants": {
+        "simpler": "Mag mode: grid out.",
+        "example": "Air-gap geometry replaces grid cleanup."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ]
+    },
+    {
+      "id": "q-ip-012",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-paddles-grids"
+      ],
+      "familyId": "fam-ip-paddle-controls",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "MQSA compression-device controls must include initial power-driven compression that is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Foot-pedal only on the left side of the patient",
+          "rationale": "Must be hands-free controls operable from both sides."
+        },
+        {
+          "id": "b",
+          "text": "Activated from hands-free controls operable from both sides of the patient",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Available only at the acquisition workstation keyboard",
+          "rationale": "Must be at the unit, both sides."
+        },
+        {
+          "id": "d",
+          "text": "Disabled for screening exams",
+          "rationale": "Compression is used for screening."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Initial power-driven compression is activated from hands-free controls operable from both sides; fine adjustment also from both sides.",
+      "variants": {
+        "simpler": "Both sides, hands-free power drive.",
+        "example": "You should not need to walk around the gantry to start compression."
+      },
+      "evidenceIds": [
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "q-ip-013",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-geometry"
+      ],
+      "familyId": "fam-ip-mag-range",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "For systems used for magnification, MQSA requires at least one magnification value in which range?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "1.1 to 1.2",
+          "rationale": "Too low. See the explanation for why this option fails."
+        },
+        {
+          "id": "b",
+          "text": "1.4 to 2.0",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "2.5 to 3.0",
+          "rationale": "Above the stated minimum range."
+        },
+        {
+          "id": "d",
+          "text": "Any value chosen by the technologist without a design minimum",
+          "rationale": "A design minimum range is specified."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "At least one magnification value within 1.4 to 2.0 is required.",
+      "variants": {
+        "simpler": "Remember 1.4–2.0.",
+        "example": "Having only 1.2× available would not meet the requirement."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-014",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-geometry"
+      ],
+      "familyId": "fam-ip-oid",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Raising the breast on a magnification platform primarily increases which distance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "SID only, with OID unchanged",
+          "rationale": "OID increases when the object moves away from the receptor."
+        },
+        {
+          "id": "b",
+          "text": "OID (object-to-image distance)",
+          "rationale": "Correct. That enlargement geometry creates the air gap."
+        },
+        {
+          "id": "c",
+          "text": "Detector pixel pitch",
+          "rationale": "Pixel pitch is a detector property."
+        },
+        {
+          "id": "d",
+          "text": "Paddle deflection limit",
+          "rationale": "Deflection limit is a paddle design rule."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Magnification increases OID, enlarging the projection and creating an air gap.",
+      "variants": {
+        "simpler": "Raise the breast → larger OID.",
+        "example": "Contact views keep the breast on the receptor."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-015",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-geometry"
+      ],
+      "familyId": "fam-ip-sid-ref",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why do some MQSA alignment tolerances use \"percent of SID\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Because SID is the reference distance for the system's geometry",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "b",
+          "text": "Because SID equals patient dose in mGy",
+          "rationale": "SID is a length, not a dose."
+        },
+        {
+          "id": "c",
+          "text": "Because SID replaces the need for a beam-limiting device",
+          "rationale": "Collimation is still required."
+        },
+        {
+          "id": "d",
+          "text": "Because SID is only defined for CT",
+          "rationale": "SID is used in mammography QC language."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Field and paddle alignment limits are expressed relative to SID.",
+      "variants": {
+        "simpler": "SID is the yardstick for those checks.",
+        "example": "Technologists recognize the term; physicists measure the tolerances."
+      },
+      "evidenceIds": [
+        "ev-mqsa-field-alignment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-016",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-geometry"
+      ],
+      "familyId": "fam-ip-air-gap",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In magnification geometry, the air gap's practical role is to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Increase scatter reaching the detector",
+          "rationale": "Air gap reduces scatter acceptance."
+        },
+        {
+          "id": "b",
+          "text": "Reduce scatter reaching the detector when the grid is removed",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Eliminate the need for compression",
+          "rationale": "Compression is still used."
+        },
+        {
+          "id": "d",
+          "text": "Convert FFDM into ultrasound",
+          "rationale": "Unrelated modality."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "With the grid removed, the air gap helps keep scatter from reaching the receptor.",
+      "variants": {
+        "simpler": "Air gap ≈ scatter control without a grid.",
+        "example": "That is why mag mode and grid-out travel together."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-017",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-acquisition-types"
+      ],
+      "familyId": "fam-ip-modality-def",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which list matches MQSA examples of mammographic modalities?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ultrasound, MRI, and PET",
+          "rationale": "Those are not mammographic modalities under § 900.2."
+        },
+        {
+          "id": "b",
+          "text": "Screen-film, FFDM, and DBT",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Fluoroscopy, angiography, and tomosynthesis of the chest",
+          "rationale": "Not breast mammography modalities."
+        },
+        {
+          "id": "d",
+          "text": "Only film systems installed before 1999",
+          "rationale": "Digital modalities are included."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Examples: screen-film, full-field digital mammography, and digital breast tomosynthesis.",
+      "variants": {
+        "simpler": "Film, FFDM, DBT.",
+        "example": "Modality-specific training hours attach to these categories."
+      },
+      "evidenceIds": [
+        "ev-mqsa-modality-definition"
+      ]
+    },
+    {
+      "id": "q-ip-018",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-acquisition-types"
+      ],
+      "familyId": "fam-ip-dbt-how",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "How does NCI describe the creation of a DBT (3D) image set?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A single exposure is mathematically stretched into depth",
+          "rationale": "DBT acquires multiple projections/slices."
+        },
+        {
+          "id": "b",
+          "text": "Multiple thin-slice pictures are taken and assembled by software into a 3D picture",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Only ultrasound slices are fused to a 2D mammogram",
+          "rationale": "That is not DBT."
+        },
+        {
+          "id": "d",
+          "text": "Film images are digitized after processing",
+          "rationale": "That describes historical film digitization, not DBT."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI: multiple thin-slice pictures assembled into a 3D picture by software.",
+      "variants": {
+        "simpler": "Many slices → 3D volume.",
+        "example": "Tube motion during acquisition is the usual hardware picture."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "q-ip-019",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-acquisition-types"
+      ],
+      "familyId": "fam-ip-dbt-2d",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to NCI, which statement about DBT and 2D images is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "DBT never produces 2D images",
+          "rationale": "NCI says DBT also creates 2D images."
+        },
+        {
+          "id": "b",
+          "text": "DBT also creates 2D images like those from standard mammography",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "DBT replaces labeling requirements",
+          "rationale": "Labeling still applies."
+        },
+        {
+          "id": "d",
+          "text": "DBT can be performed on general-purpose radiographic rooms",
+          "rationale": "Equipment must still be mammography systems."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "DBT creates 3D images and also creates 2D images like standard mammography.",
+      "variants": {
+        "simpler": "DBT still gives you 2D-looking images.",
+        "example": "Synthesized 2D is a common related workflow on modern units."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "q-ip-020",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-acquisition-types"
+      ],
+      "familyId": "fam-ip-dbt-outcome",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI states that DBT combined with standard mammography is better at finding tumors than standard mammography alone. What does NCI say about mortality benefit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mortality reduction is already proven to be larger than for 2D alone",
+          "rationale": "NCI says this is still unknown/being studied."
+        },
+        {
+          "id": "b",
+          "text": "It is still unknown whether DBT reduces deaths more than standard mammography alone",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "DBT has been proven to increase breast-cancer deaths",
+          "rationale": "Not what NCI states."
+        },
+        {
+          "id": "d",
+          "text": "Mortality questions are irrelevant because DBT uses no radiation",
+          "rationale": "DBT uses x-rays."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Detection improvement is described; mortality superiority versus standard mammography alone remains under study (e.g., TMIST).",
+      "variants": {
+        "simpler": "Finds more tumors ≠ proven life-saving superiority yet.",
+        "example": "Be precise with patients and on exams."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "q-ip-021",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-receptors-monitors"
+      ],
+      "familyId": "fam-ip-workstations",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which distinction best matches acquisition versus interpretation workstations?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Acquisition is for technologist image-quality checks; interpretation is for diagnostic review",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "b",
+          "text": "Acquisition is only for physicists; interpretation is only for technologists",
+          "rationale": "Roles are reversed/wrong."
+        },
+        {
+          "id": "c",
+          "text": "They are identical in purpose, so QC is unnecessary on one of them",
+          "rationale": "Both need appropriate QC."
+        },
+        {
+          "id": "d",
+          "text": "Interpretation workstations produce the x-ray beam",
+          "rationale": "Workstations do not produce the beam."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Technologists use acquisition displays to accept or reject images; interpreting physicians use interpretation displays for diagnosis.",
+      "variants": {
+        "simpler": "Two jobs, two display contexts.",
+        "example": "Do not approve poor images just because a dim screen hides the problem."
+      },
+      "evidenceIds": [
+        "ev-ip-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-022",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-receptors-monitors"
+      ],
+      "familyId": "fam-ip-digital-qc-home",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "For FFDM/DBT, MQSA says the facility QA program shall be substantially the same as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Any internet blog the lead interpreting physician prefers",
+          "rationale": "Not acceptable."
+        },
+        {
+          "id": "b",
+          "text": "The image receptor manufacturer's recommended program (with the phantom dose ceiling still applying)",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Screen-film darkroom chemistry logs only",
+          "rationale": "Digital programs are not darkroom chemistry."
+        },
+        {
+          "id": "d",
+          "text": "A one-time installation checklist with no ongoing tests",
+          "rationale": "Ongoing QC is required."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "§ 900.12(e)(6): other modalities follow a program substantially the same as the manufacturer's, with the dose maximum still applying.",
+      "variants": {
+        "simpler": "Manufacturer/ACR digital QC program, plus dose ceiling.",
+        "example": "Mammo links the ACR manual; it does not reprint device steps."
+      },
+      "evidenceIds": [
+        "ev-mqsa-other-modalities-qc",
+        "ev-ip-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-023",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-receptors-monitors"
+      ],
+      "familyId": "fam-ip-receptor-location",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In a digital mammography unit, the image receptor is located:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inside the tube housing above the collimator",
+          "rationale": "The tube produces x-rays; it is not the receptor."
+        },
+        {
+          "id": "b",
+          "text": "In the breast support that detects the remnant beam",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Only in the PACS server room",
+          "rationale": "PACS stores images after acquisition."
+        },
+        {
+          "id": "d",
+          "text": "In the technologist's lead apron",
+          "rationale": "Not a receptor location."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "The receptor sits in the breast support assembly along the beam path after the breast.",
+      "variants": {
+        "simpler": "Detector under the breast.",
+        "example": "Schematics show it as the base under the compressed breast."
+      },
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition"
+      ]
+    },
+    {
+      "id": "q-ip-024",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-receptors-monitors"
+      ],
+      "familyId": "fam-ip-monitor-qc-limit",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why does this module avoid listing vendor-specific monitor pass/fail numbers?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Monitor QC is never performed in mammography",
+          "rationale": "Monitor QC is part of digital programs."
+        },
+        {
+          "id": "b",
+          "text": "Those criteria live in copyrighted/manufacturer QC materials cited link-only, and inventing numbers would be unsupported",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "MQSA forbids all monitor testing",
+          "rationale": "MQSA points to manufacturer programs that include display QC."
+        },
+        {
+          "id": "d",
+          "text": "Only film viewboxes matter after 2024",
+          "rationale": "Digital displays are central."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Detailed patterns and limits are in the digital QC manual/manufacturer docs; Mammo uses link-only citation.",
+      "variants": {
+        "simpler": "Know the purpose; look up the numbers in your QC binder.",
+        "example": "ACR DMQC manual is the usual pointer."
+      },
+      "evidenceIds": [
+        "ev-ip-acr-dmqc-link",
+        "ev-mqsa-other-modalities-qc"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-025",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-exposure-factors"
+      ],
+      "familyId": "fam-ip-post-aec",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "After an AEC exposure, MQSA requires the system to indicate:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the patient's age",
+          "rationale": "Age is not the required display."
+        },
+        {
+          "id": "b",
+          "text": "The actual kVp and mAs used",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "The interpreting physician's NPI",
+          "rationale": "Not a technique display requirement."
+        },
+        {
+          "id": "d",
+          "text": "The accreditation body's phone number",
+          "rationale": "Not required on the console."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Following AEC use, the system shall indicate the actual kVp and mAs used.",
+      "variants": {
+        "simpler": "Read post-exposure kV and mAs.",
+        "example": "Those values help you judge whether exposure makes sense."
+      },
+      "evidenceIds": [
+        "ev-mqsa-technique-display"
+      ]
+    },
+    {
+      "id": "q-ip-026",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-exposure-factors"
+      ],
+      "familyId": "fam-ip-manual",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Regarding technique selection, MQSA requires that systems:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Disable manual mAs entirely",
+          "rationale": "Manual selection must be available."
+        },
+        {
+          "id": "b",
+          "text": "Provide manual selection of mAs or mA and/or time",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Allow only automatic kV with no display",
+          "rationale": "Displays are required; manual mAs must exist."
+        },
+        {
+          "id": "d",
+          "text": "Hide focal-spot selection from the operator",
+          "rationale": "Focal spot must be indicated before exposure."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Manual selection of mAs (or mA and/or time) must be available.",
+      "variants": {
+        "simpler": "AEC is common; manual must still exist.",
+        "example": "Implants or special cases may need manual control per protocol."
+      },
+      "evidenceIds": [
+        "ev-mqsa-technique-display"
+      ]
+    },
+    {
+      "id": "q-ip-027",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-exposure-factors"
+      ],
+      "familyId": "fam-ip-energy-direction",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "If photon energy increases while other factors are unchanged, which directional effect is best supported by OpenStax?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Penetration decreases and contrast always increases",
+          "rationale": "Penetration increases with energy."
+        },
+        {
+          "id": "b",
+          "text": "Penetration increases; subject contrast tends to decrease",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Neither penetration nor contrast can change",
+          "rationale": "Both can change."
+        },
+        {
+          "id": "d",
+          "text": "The beam becomes non-ionizing",
+          "rationale": "Diagnostic x-rays remain ionizing."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Higher-energy photons penetrate more; lower-energy x-rays provide better contrast.",
+      "variants": {
+        "simpler": "Harder beam: more punch, usually less contrast.",
+        "example": "Do not memorize unsupported universal mammo kV charts here."
+      },
+      "evidenceIds": [
+        "ev-ip-energy-penetration-contrast"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-028",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-exposure-factors"
+      ],
+      "familyId": "fam-ip-dx-vs-screen-dose",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI states diagnostic mammography dose is higher than screening on the same machines primarily because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diagnostic units use radioactive tracers",
+          "rationale": "Mammography uses x-rays, not tracers."
+        },
+        {
+          "id": "b",
+          "text": "Diagnostic exams require images from more angles",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Screening never uses compression",
+          "rationale": "Both use compression."
+        },
+        {
+          "id": "d",
+          "text": "Diagnostic exams never use AEC",
+          "rationale": "AEC may still be used."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Same machines; more angles for diagnostic work → higher dose.",
+      "variants": {
+        "simpler": "More images, more dose.",
+        "example": "Still describe mammography as low-dose overall in patient talk."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-diagnostic-more-images"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-029",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-thickness-target-filter"
+      ],
+      "familyId": "fam-ip-preselect",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Before exposure, MQSA requires the system to indicate:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Selected focal spot and target material",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "b",
+          "text": "The patient's BI-RADS assessment",
+          "rationale": "Assessment is after interpretation."
+        },
+        {
+          "id": "c",
+          "text": "The facility's malpractice carrier",
+          "rationale": "Not a console requirement."
+        },
+        {
+          "id": "d",
+          "text": "Only the time of day",
+          "rationale": "Insufficient."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Systems indicate selected focal spot and target material before exposure.",
+      "variants": {
+        "simpler": "Check spot and target before you expose.",
+        "example": "After AEC, also read actual kV/mAs."
+      },
+      "evidenceIds": [
+        "ev-mqsa-technique-display"
+      ]
+    },
+    {
+      "id": "q-ip-030",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-thickness-target-filter"
+      ],
+      "familyId": "fam-ip-filter-role",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Filtration in the x-ray beam is used primarily to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add low-energy photons that never reach the patient",
+          "rationale": "Filtration removes low-energy photons."
+        },
+        {
+          "id": "b",
+          "text": "Remove low-energy photons that would increase patient dose without contributing usefully to the image",
+          "rationale": "Correct conceptually with bremsstrahlung spectra."
+        },
+        {
+          "id": "c",
+          "text": "Replace the need for a beam-limiting device",
+          "rationale": "Collimation is separate."
+        },
+        {
+          "id": "d",
+          "text": "Convert x-rays into ultrasound",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "The beam includes a spectrum; filtration preferentially removes least-penetrating photons that add dose.",
+      "variants": {
+        "simpler": "Filter out useless soft photons.",
+        "example": "Exact filter materials are unit-specific—read the console/docs."
+      },
+      "evidenceIds": [
+        "ev-ip-brems-characteristic",
+        "ev-ip-energy-penetration-contrast"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-031",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-thickness-target-filter"
+      ],
+      "familyId": "fam-ip-thickness-aec",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why should a technologist notice a sudden large jump in displayed mAs for a thickness that usually needs less?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Displayed mAs is decorative and never meaningful",
+          "rationale": "MQSA requires the display so you can evaluate technique."
+        },
+        {
+          "id": "b",
+          "text": "It may signal a problem with compression, AEC mode, or setup that needs checking before finishing",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "It proves the detector has permanently failed",
+          "rationale": "One value is a cue, not an automatic failure diagnosis."
+        },
+        {
+          "id": "d",
+          "text": "It means labeling can be skipped",
+          "rationale": "Labeling is independent."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Post-exposure factors exist so operators can judge whether the exposure makes sense for thickness and mode.",
+      "variants": {
+        "simpler": "Unexpected mAs → stop and think.",
+        "example": "Re-check compression and AEC sensor region."
+      },
+      "evidenceIds": [
+        "ev-mqsa-technique-display",
+        "ev-ip-nci-compression-purpose"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-032",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-thickness-target-filter"
+      ],
+      "familyId": "fam-ip-no-fake-chart",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "This curriculum refuses to publish a universal \"use target X above Y cm\" chart because:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Target/filter selection never matters",
+          "rationale": "It matters, but pairings are device-specific."
+        },
+        {
+          "id": "b",
+          "text": "Those switch points are device-specific and unsupported as universal rules without manufacturer/facility sources",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "MQSA forbids displaying target material",
+          "rationale": "MQSA requires indicating target material."
+        },
+        {
+          "id": "d",
+          "text": "All units use identical anonymous targets",
+          "rationale": "Units differ."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Learn directional physics and your unit's documented chart; do not invent universal switch points.",
+      "variants": {
+        "simpler": "No fake universal technique chart.",
+        "example": "Ask your physicist/preceptor for the local chart."
+      },
+      "evidenceIds": [
+        "ev-mqsa-technique-display",
+        "ev-ip-brems-characteristic"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-033",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-magnification-technique"
+      ],
+      "familyId": "fam-ip-mag-changes",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which set best describes geometric magnification technique changes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Large focal spot, grid in, breast on the receptor",
+          "rationale": "That is contact technique."
+        },
+        {
+          "id": "b",
+          "text": "Small focal spot, grid out, increased OID/air gap",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "No compression, grid in, large focal spot",
+          "rationale": "Compression is still used; grid out for mag."
+        },
+        {
+          "id": "d",
+          "text": "Remove the receptor and photograph the paddle",
+          "rationale": "Nonsense. See the explanation for why this option fails."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Magnification: raise breast (OID/air gap), remove grid, use small focal spot; factor 1.4–2.0 available.",
+      "variants": {
+        "simpler": "Small spot, grid out, air gap.",
+        "example": "PACS zoom is not geometric magnification."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-034",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-magnification-technique"
+      ],
+      "familyId": "fam-ip-not-zoom",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Enlarging a contact image on a PACS monitor:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fully substitutes for a geometric magnification mammogram",
+          "rationale": "Display zoom is not acquisition magnification."
+        },
+        {
+          "id": "b",
+          "text": "Is not the same as acquiring a geometric magnification view",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Automatically removes scatter as an air gap would",
+          "rationale": "Zoom does not create an air gap."
+        },
+        {
+          "id": "d",
+          "text": "Changes the MQSA magnification design range of the unit",
+          "rationale": "Display zoom does not change equipment capability."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Geometric magnification changes OID, grid status, and focal spot; monitor zoom does not.",
+      "variants": {
+        "simpler": "Zoom ≠ mag view.",
+        "example": "If the radiologist asks for mag, change acquisition geometry."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-035",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-magnification-technique"
+      ],
+      "familyId": "fam-ip-mag-alara",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A magnification view is requested to characterize calcifications. Which action best fits ALARA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Add three extra unrequested mag views \"just in case\" without clinical purpose",
+          "rationale": "Non-beneficial extras violate ALARA."
+        },
+        {
+          "id": "b",
+          "text": "Acquire the indicated magnification images using proper mag technique and avoid non-beneficial extras",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Refuse all magnification because LNT forbids medical imaging",
+          "rationale": "LNT supports caution, not refusal of indicated imaging."
+        },
+        {
+          "id": "d",
+          "text": "Perform magnification on a general radiographic room",
+          "rationale": "Prohibited equipment."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ALARA: avoid exposure without direct benefit; indicated problem-solving views are beneficial when used correctly.",
+      "variants": {
+        "simpler": "Do the needed mag views well; skip souvenir extras.",
+        "example": "CDC: even small non-beneficial doses should be avoided."
+      },
+      "evidenceIds": [
+        "ev-ip-cdc-alara",
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-036",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-magnification-technique"
+      ],
+      "familyId": "fam-ip-mag-factor-pick",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A unit offers magnification factors of 1.5 and 1.8. Relative to MQSA's design requirement, this capability is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Noncompliant because two factors are offered",
+          "rationale": "Offering more than one is fine."
+        },
+        {
+          "id": "b",
+          "text": "Compliant because at least one value lies between 1.4 and 2.0",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Compliant only if the grid stays in",
+          "rationale": "Grid must be removable."
+        },
+        {
+          "id": "d",
+          "text": "Irrelevant because magnification is unregulated",
+          "rationale": "MQSA states a range."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "At least one value in 1.4–2.0 satisfies the listed design requirement.",
+      "variants": {
+        "simpler": "1.5 and 1.8 both sit in range.",
+        "example": "Still confirm grid-out operation."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ]
+    },
+    {
+      "id": "q-ip-037",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-image-quality-attributes"
+      ],
+      "familyId": "fam-ip-eight-list",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which option lists all eight clinical image review attributes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positioning, compression, exposure level, contrast, sharpness, noise, artifacts, examination identification",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "b",
+          "text": "kVp, mAs, SID, OID, grid, focal spot, filter, anode",
+          "rationale": "Those are technique factors, not the eight attributes."
+        },
+        {
+          "id": "c",
+          "text": "PPV, recall rate, and cancer detection rate only",
+          "rationale": "Those are audit metrics."
+        },
+        {
+          "id": "d",
+          "text": "Only labeling and dose",
+          "rationale": "Dose is not one of the eight attributes."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The eight attributes are positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "variants": {
+        "simpler": "Memorize the eight.",
+        "example": "Dose is QC/phantom territory, not an attribute scored on the clinical image set."
+      },
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ]
+    },
+    {
+      "id": "q-ip-038",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-image-quality-attributes"
+      ],
+      "familyId": "fam-ip-not-attribute",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which item is NOT one of the eight clinical image review attributes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sharpness",
+          "rationale": "Sharpness is one of the eight."
+        },
+        {
+          "id": "b",
+          "text": "Artifacts",
+          "rationale": "Artifacts are one of the eight."
+        },
+        {
+          "id": "c",
+          "text": "Patient absorbed dose in mGy",
+          "rationale": "Correct. Dose is not scored as a clinical image attribute."
+        },
+        {
+          "id": "d",
+          "text": "Examination identification",
+          "rationale": "Labeling is the eighth attribute."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Dose is controlled through equipment QC; it is not one of the eight visual attributes.",
+      "variants": {
+        "simpler": "If you cannot see it on the image as an attribute, it is not on the list.",
+        "example": "Exposure level (too light/dark) is different from a dose measurement."
+      },
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ]
+    },
+    {
+      "id": "q-ip-039",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-image-quality-attributes"
+      ],
+      "familyId": "fam-ip-ongoing",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Between accreditation clinical image reviews, certified facilities must:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ignore image quality until the next 3-year submission",
+          "rationale": "Ongoing compliance is required."
+        },
+        {
+          "id": "b",
+          "text": "Continue producing clinical images that meet their accreditation body's quality standards",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Stop using compression to save time",
+          "rationale": "Compression remains necessary."
+        },
+        {
+          "id": "d",
+          "text": "Disable labeling to reduce artifacts",
+          "rationale": "Labeling is required and is itself an attribute."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "§ 900.12(i): clinical images must continue to comply with the AB's clinical image quality standards.",
+      "variants": {
+        "simpler": "Quality is everyday, not only every 3 years.",
+        "example": "EQUIP asks how you check yourselves between reviews."
+      },
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-quality-standard",
+        "ev-mqsa-equip"
+      ]
+    },
+    {
+      "id": "q-ip-040",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-image-quality-attributes"
+      ],
+      "familyId": "fam-ip-artifact-fail",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A technically well-positioned image shows a deodorant speck projected over axillary tissue. Which attribute is most clearly failed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Examination identification",
+          "rationale": "Labeling is not the issue described."
+        },
+        {
+          "id": "b",
+          "text": "Artifacts",
+          "rationale": "Correct. External material obscures/mimics structures."
+        },
+        {
+          "id": "c",
+          "text": "Outcomes audit PPV",
+          "rationale": "Audit metrics are unrelated to this single image defect."
+        },
+        {
+          "id": "d",
+          "text": "Modality definition",
+          "rationale": "Modality definition is not an image attribute."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Artifacts include external material that obscures or mimics anatomy.",
+      "variants": {
+        "simpler": "Deodorant → artifact problem.",
+        "example": "Prevent with clear pre-exam instructions."
+      },
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ]
+    },
+    {
+      "id": "q-ip-041",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-ip-alara-def",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "ALARA means:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As large as regulators allow",
+          "rationale": "Opposite idea."
+        },
+        {
+          "id": "b",
+          "text": "As low as reasonably achievable",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Average lung and rib assessment",
+          "rationale": "Not a radiation term."
+        },
+        {
+          "id": "d",
+          "text": "Automatic lateral and right angulation",
+          "rationale": "Not a radiation term."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "CDC: ALARA = as low as reasonably achievable.",
+      "variants": {
+        "simpler": "Keep dose low when you can.",
+        "example": "Even small non-beneficial doses should be avoided."
+      },
+      "evidenceIds": [
+        "ev-ip-cdc-alara"
+      ]
+    },
+    {
+      "id": "q-ip-042",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-ip-alara-three",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "CDC's three basic ALARA protective measures are:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Time, distance, and shielding",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "b",
+          "text": "kVp, mAs, and grid",
+          "rationale": "Technique factors, not the ALARA triad."
+        },
+        {
+          "id": "c",
+          "text": "PPV, sensitivity, and specificity",
+          "rationale": "Performance metrics."
+        },
+        {
+          "id": "d",
+          "text": "Certification, accreditation, and inspection",
+          "rationale": "MQSA program features."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Time, distance, and shielding are the three basic measures.",
+      "variants": {
+        "simpler": "Less time, more distance, use a barrier.",
+        "example": "Technologists stepping behind a barrier is the clinic example."
+      },
+      "evidenceIds": [
+        "ev-ip-cdc-alara",
+        "ev-ip-cdc-tech-barrier"
+      ]
+    },
+    {
+      "id": "q-ip-043",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-ip-lnt",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "The NRC's linear no-threshold (LNT) model assumes that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Below 100 mSv, radiation is proven to be risk-free",
+          "rationale": "NRC notes data do not absolutely establish risk there, yet still uses LNT conservatively."
+        },
+        {
+          "id": "b",
+          "text": "Any increase in dose, no matter how small, results in an incremental increase in risk",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Only alpha particles can cause cancer",
+          "rationale": "Many radiation types are implicated at high doses."
+        },
+        {
+          "id": "d",
+          "text": "Mammography beams are non-ionizing",
+          "rationale": "X-rays are ionizing."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NRC accepts LNT as a conservative model: incremental dose → incremental risk estimate.",
+      "variants": {
+        "simpler": "LNT = no safe threshold assumed for protection math.",
+        "example": "Use it to support careful technique, not to terrify patients."
+      },
+      "evidenceIds": [
+        "ev-ip-nrc-lnt"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-044",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-ip-nci-low-dose",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI describes mammography as an imaging test that uses:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "High-dose therapeutic radiotherapy beams",
+          "rationale": "Mammography is diagnostic imaging, described as low-dose."
+        },
+        {
+          "id": "b",
+          "text": "Low-dose x-rays",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Only magnetic fields",
+          "rationale": "That describes MRI."
+        },
+        {
+          "id": "d",
+          "text": "Ultrasound exclusively",
+          "rationale": "Mammography uses x-rays."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI: mammography uses low-dose x-rays to create pictures of the breast.",
+      "variants": {
+        "simpler": "Say \"low-dose x-ray exam\" with patients.",
+        "example": "Still practice ALARA."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-mammogram-low-dose"
+      ]
+    },
+    {
+      "id": "q-ip-045",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-ip-dna",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax locates the key molecular target for ionizing-radiation effects in cells at:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keratin in nails only",
+          "rationale": "Not the key target discussed."
+        },
+        {
+          "id": "b",
+          "text": "DNA molecules",
+          "rationale": "Correct. This matches the cited source for this item."
+        },
+        {
+          "id": "c",
+          "text": "Dietary calcium in calcifications",
+          "rationale": "Calcifications are imaging findings, not the cellular target."
+        },
+        {
+          "id": "d",
+          "text": "Lead in aprons",
+          "rationale": "Shielding material, not a cellular target."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Ionizing radiation affects molecules within cells, particularly DNA; it can interfere with reproduction and function.",
+      "variants": {
+        "simpler": "DNA is the critical target in this teaching.",
+        "example": "That is why rapidly dividing cells are especially sensitive."
+      },
+      "evidenceIds": [
+        "ev-ip-ionizing-dna"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    }
+  ]
+}
