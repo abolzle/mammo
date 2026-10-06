@@ -4514,6 +4514,2440 @@
           }
         ]
       }
+    },
+    {
+      "id": "q-ip-080",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-ip-fb-va-exclusion",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Which facilities are excepted from MQSA Subpart B as stated in the module evidence?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Department of Veterans Affairs facilities",
+          "rationale": "Correct. Subpart B applies except for Department of Veterans Affairs facilities."
+        },
+        {
+          "id": "b",
+          "text": "All academic hospitals",
+          "rationale": "Academic hospitals are not broadly excepted."
+        },
+        {
+          "id": "c",
+          "text": "All facilities that use DBT",
+          "rationale": "DBT facilities remain subject to MQSA when under U.S. regulatory jurisdiction."
+        },
+        {
+          "id": "d",
+          "text": "Any facility with fewer than two units",
+          "rationale": "Unit count is not the VA exception."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Subpart B applies to facilities under U.S. regulatory jurisdiction that provide mammography, except the Department of Veterans Affairs.",
+      "variants": {
+        "simpler": "VA facilities are the stated Subpart B exception.",
+        "example": "A civilian outpatient breast center is not excused by the VA exception."
+      },
+      "evidenceIds": [
+        "ev-mqsa-va-exception",
+        "ev-mqsa-certificate-required"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-081",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-ip-fb-provisional-duration",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "How long may a new facility's provisional MQSA certificate remain effective, and can it be renewed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Up to 3 years with automatic renewal.",
+          "rationale": "That describes neither provisional duration nor renewal rules."
+        },
+        {
+          "id": "b",
+          "text": "Up to 6 months; it cannot be renewed (one 90-day extension may be requested separately).",
+          "rationale": "Correct. Provisional certificates last up to 6 months and cannot be renewed."
+        },
+        {
+          "id": "c",
+          "text": "Indefinitely until accreditation is denied.",
+          "rationale": "Provisional certificates have a 6-month maximum."
+        },
+        {
+          "id": "d",
+          "text": "30 days only, renewable monthly.",
+          "rationale": "The maximum is up to 6 months, not 30-day renewals."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "A provisional certificate is effective for up to 6 months and cannot be renewed, though one 90-day extension may be requested with the required showing.",
+      "variants": {
+        "simpler": "Provisional certificate: ≤6 months, not renewable.",
+        "example": "The separate 90-day extension is not the same as renewing the provisional certificate."
+      },
+      "evidenceIds": [
+        "ev-mqsa-provisional-certificate"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-082",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-ip-fb-cir-triennial",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "How often does the accreditation body review clinical images from each accredited facility under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Daily by the accreditation body",
+          "rationale": "Accreditation-body clinical image review is not daily."
+        },
+        {
+          "id": "b",
+          "text": "Only at initial accreditation, never again",
+          "rationale": "Ongoing periodic review is required."
+        },
+        {
+          "id": "c",
+          "text": "At least once every 3 years",
+          "rationale": "Correct. Clinical images are reviewed at least once every 3 years."
+        },
+        {
+          "id": "d",
+          "text": "Every 10 years unless complaints arise",
+          "rationale": "The stated cadence is at least every 3 years."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "The accreditation body reviews clinical images from each accredited facility at least once every 3 years.",
+      "variants": {
+        "simpler": "Accreditation clinical image review: at least every 3 years.",
+        "example": "Each unit submits CC and MLO views from two examinations for that review."
+      },
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-review-frequency"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-083",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-ip-fb-equip-triad",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "EQUIP added inspection questions focused on which three areas?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Parking, billing accuracy, and gown inventory",
+          "rationale": "Those are not EQUIP clinical-image focuses."
+        },
+        {
+          "id": "b",
+          "text": "Only consumer complaint logs",
+          "rationale": "Complaints are a separate required policy area."
+        },
+        {
+          "id": "c",
+          "text": "Only phantom testing frequency",
+          "rationale": "Phantom testing is QC; EQUIP targets clinical image quality systems."
+        },
+        {
+          "id": "d",
+          "text": "Procedures to keep clinical images compliant (including regular review), corrective procedures for poor-quality images with technologist feedback, and lead interpreting physician oversight of QA/QC records",
+          "rationale": "Correct. Those are the three EQUIP inspection focuses described in the evidence."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "EQUIP added three inspection questions on facility procedures for continuous clinical image compliance (including sample review), corrective action with feedback, and LIP oversight of QA/QC records.",
+      "variants": {
+        "simpler": "EQUIP: image review system, corrective feedback, LIP QA oversight.",
+        "example": "Reviewing a sample of each active RT's and IP's images supports the compliance question."
+      },
+      "evidenceIds": [
+        "ev-mqsa-equip",
+        "ev-qcr-equip-purpose"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-084",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-ip-fb-rt-license-path",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Before mammography-specific qualifications, what general credential path must a radiologic technologist meet under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "State licensure for general radiography or general certification from an FDA-recognized body",
+          "rationale": "Correct. Either state general radiography licensure or FDA-recognized general certification is required."
+        },
+        {
+          "id": "b",
+          "text": "A photography certificate only",
+          "rationale": "General radiography credentials are required."
+        },
+        {
+          "id": "c",
+          "text": "Any medical assistant credential",
+          "rationale": "MQSA specifies radiologic technologist pathways."
+        },
+        {
+          "id": "d",
+          "text": "Board certification in radiology as a physician",
+          "rationale": "That path is for interpreting physicians, not the RT general requirement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "A radiologic technologist performing mammography must be state-licensed for general radiography or hold general certification from an FDA-recognized certifying body.",
+      "variants": {
+        "simpler": "RT baseline: state general license or FDA-recognized general certification.",
+        "example": "Mammography-specific initial training builds on that general credential."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-general"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-085",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-ip-fb-initial-25",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "As part of MQSA initial mammography qualification, how many examinations must the technologist perform under direct supervision?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "5",
+          "rationale": "Too few; the requirement is 25."
+        },
+        {
+          "id": "b",
+          "text": "25",
+          "rationale": "Correct. Initial requirements include performance of at least 25 examinations under direct supervision."
+        },
+        {
+          "id": "c",
+          "text": "200",
+          "rationale": "200 exams in 24 months is the continuing-experience standard after the applicable anniversary."
+        },
+        {
+          "id": "d",
+          "text": "960",
+          "rationale": "960 is the interpreting-physician continuing interpretation count, not the RT initial supervised exams."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Initial mammography requirements include performance of at least 25 examinations under direct supervision.",
+      "variants": {
+        "simpler": "Initial RT path includes 25 supervised mammography exams.",
+        "example": "Continuing experience later uses a 200-in-24-months standard."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-initial-training",
+        "ev-mqsa-direct-supervision"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-086",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-ip-fb-modality-8-initial",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A newly qualifying technologist will use both FFDM and DBT. Besides the overall 40 contact hours and supervised exams, what modality-specific initial training hours does MQSA require?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 8 hours of training in each modality she will use",
+          "rationale": "Correct. Initial requirements include at least 8 hours in each mammography modality used."
+        },
+        {
+          "id": "b",
+          "text": "2 hours total split however she likes",
+          "rationale": "Each modality needs at least 8 hours."
+        },
+        {
+          "id": "c",
+          "text": "No modality-specific hours if the 40-hour course mentioned implants",
+          "rationale": "Implant content does not replace per-modality hours."
+        },
+        {
+          "id": "d",
+          "text": "40 additional hours for every modality beyond the first",
+          "rationale": "The per-modality requirement is at least 8 hours each, not another full 40 each."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Initial requirements include at least 8 hours of training in each mammography modality the technologist will use, in addition to the broader 40 contact hours and supervised exams.",
+      "variants": {
+        "simpler": "New modality at start → at least 8 hours in that modality.",
+        "example": "Starting DBT after screen-film training still needs modality-specific hours."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-initial-training"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-087",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial",
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-ip-fb-direct-supervision",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Under MQSA, what does direct supervision of an examination mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The supervisor reviews images the next week without being present.",
+          "rationale": "Direct supervision requires presence during the examination."
+        },
+        {
+          "id": "b",
+          "text": "Phone availability during the patient's drive home.",
+          "rationale": "Remote after-the-fact availability is not direct supervision."
+        },
+        {
+          "id": "c",
+          "text": "Any coworker in the building counts as supervision.",
+          "rationale": "Presence and ability to observe/correct the performer are required."
+        },
+        {
+          "id": "d",
+          "text": "The supervisor is present to observe and correct, as needed, the person performing the examination.",
+          "rationale": "Correct. That is the regulatory definition used here."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Direct supervision means the supervisor is present to observe and correct, as needed, the person performing the examination.",
+      "variants": {
+        "simpler": "Direct supervision = supervisor present to watch and correct.",
+        "example": "The same definition applies when requalifying with supervised exams."
+      },
+      "evidenceIds": [
+        "ev-mqsa-direct-supervision"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-088",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-ip-fb-ceu-per-modality",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Within the 15 mammography CEUs required in 36 months, how many must relate to each mammographic modality the technologist uses?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 6",
+          "rationale": "Correct. At least 6 CEUs related to each modality used."
+        },
+        {
+          "id": "b",
+          "text": "At least 1",
+          "rationale": "The requirement is at least 6 per modality used."
+        },
+        {
+          "id": "c",
+          "text": "All 15 must be modality-specific to only one modality",
+          "rationale": "The rule is at least 6 per modality used, not that all 15 must be a single modality."
+        },
+        {
+          "id": "d",
+          "text": "None; modality hours are only an initial-training rule",
+          "rationale": "Continuing education also includes per-modality minimums."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "After the applicable anniversary, a technologist must have taught or completed at least 15 mammography CEUs in 36 months, with at least 6 related to each modality used.",
+      "variants": {
+        "simpler": "Continuing CE: ≥6 hours tied to each modality you use.",
+        "example": "Using both FFDM and DBT means at least 6 CEUs related to each."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-continuing-education",
+        "ev-qcr-rt-continuing-education"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-089",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-ip-fb-ce-requalify",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A technologist falls short of the continuing mammography CE requirement. What must happen before unsupervised mammography resumes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing; CE shortfalls have no consequence.",
+          "rationale": "CE shortfalls require requalification steps."
+        },
+        {
+          "id": "b",
+          "text": "Bring the total to at least 15 CEUs in the previous 3 years (with at least 6 per modality used) before resuming unsupervised mammography",
+          "rationale": "Correct. That is the CE requalification path."
+        },
+        {
+          "id": "c",
+          "text": "Repeat the entire initial 25 supervised exams only, with no CE catch-up",
+          "rationale": "Experience requalification is separate; CE shortfalls require meeting the CE totals."
+        },
+        {
+          "id": "d",
+          "text": "Obtain a provisional facility certificate in the technologist's name",
+          "rationale": "Provisional certificates are for facilities, not individual CE catch-up."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "A technologist who falls short on CE must bring the total to at least 15 in the previous 3 years (at least 6 per modality) before resuming unsupervised mammography.",
+      "variants": {
+        "simpler": "CE short → catch up to 15 (and per-modality 6s) before working unsupervised.",
+        "example": "New-modality 8-hour rules are a separate add-on before using that modality independently."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-ce-requalification"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-090",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-ip-fb-exp-200",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "After the applicable anniversary, what continuing-experience count must a mammography technologist meet?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "25 examinations in 36 months",
+          "rationale": "25 supervised exams is the requalification path, not the continuing count."
+        },
+        {
+          "id": "b",
+          "text": "960 examinations in 24 months",
+          "rationale": "960 is the interpreting-physician continuing interpretation standard."
+        },
+        {
+          "id": "c",
+          "text": "200 mammography examinations in the 24 months before the inspection reference date",
+          "rationale": "Correct. 200 mammography examinations in the 24 months before the inspection reference date"
+        },
+        {
+          "id": "d",
+          "text": "15 examinations in 12 months",
+          "rationale": "Too low and wrong window."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "After the second anniversary of the end of the calendar quarter in which initial requirements were met, a technologist must have performed at least 200 mammography examinations in the 24 months before the inspection reference date.",
+      "variants": {
+        "simpler": "Continuing RT experience: 200 exams in 24 months.",
+        "example": "The facility picks a reference date inside the inspection window for the count."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-continuing-experience",
+        "ev-qcr-rt-continuing-experience"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-091",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-ip-fb-exp-requal-25",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "If a technologist falls short of the continuing-experience requirement, what requalification step applies before unsupervised work resumes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wait 36 months with no clinical activity",
+          "rationale": "Waiting without supervised exams does not requalify experience."
+        },
+        {
+          "id": "b",
+          "text": "Read 960 mammograms as if an interpreting physician",
+          "rationale": "That is not the RT experience requalification path."
+        },
+        {
+          "id": "c",
+          "text": "Retake a state basic radiography license exam only",
+          "rationale": "MQSA specifies supervised mammography examinations for this shortfall."
+        },
+        {
+          "id": "d",
+          "text": "Perform at least 25 examinations under direct supervision of a qualified technologist",
+          "rationale": "Correct. Perform at least 25 examinations under direct supervision of a qualified technologist"
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "A technologist who falls short on continuing experience must perform at least 25 examinations under direct supervision of a qualified technologist before resuming unsupervised work.",
+      "variants": {
+        "simpler": "Experience short → 25 supervised exams, then unsupervised again.",
+        "example": "Direct supervision means the qualified technologist is present to observe and correct."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-continuing-experience"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-092",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-ip-fb-ref-date-window",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "For technologist CE and experience counts, which reference-date choice does MQSA allow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The annual inspection date, the last day of the calendar quarter preceding the inspection, or any date in between",
+          "rationale": "Correct. The facility chooses among those options."
+        },
+        {
+          "id": "b",
+          "text": "Only January 1 of each year",
+          "rationale": "The window is tied to the inspection, not a fixed New Year date."
+        },
+        {
+          "id": "c",
+          "text": "Only the technologist's birthday",
+          "rationale": "Birthdays are not the regulatory reference options."
+        },
+        {
+          "id": "d",
+          "text": "Any date in the prior decade",
+          "rationale": "The allowed choices are inside the inspection-linked window."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The facility chooses a reference date: the date of its annual MQSA inspection, the last day of the calendar quarter preceding the inspection, or any date in between.",
+      "variants": {
+        "simpler": "Pick a count date inside the inspection window.",
+        "example": "Using the last day of the prior quarter is one allowed choice."
+      },
+      "evidenceIds": [
+        "ev-mqsa-inspection-window"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-093",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-ip-fb-qc-keep-rule",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "How long must QC records for each required test be kept under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "24 hours after the test",
+          "rationale": "Far too short."
+        },
+        {
+          "id": "b",
+          "text": "Until the next annual inspection is completed and FDA finds compliance, or until the test has been performed two additional times at the required frequency, whichever is longer",
+          "rationale": "Correct. Until the next annual inspection is completed and FDA finds compliance, or until the test has been performed two additional times at the required frequency, whichever is longer"
+        },
+        {
+          "id": "c",
+          "text": "Only while the tested unit remains under warranty",
+          "rationale": "Warranty status does not set the retention rule."
+        },
+        {
+          "id": "d",
+          "text": "Forever with no regulatory endpoint",
+          "rationale": "MQSA defines a finite retention rule keyed to inspection or repeat performance."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "QC records are kept until the next annual inspection is completed and FDA finds the facility compliant, or until the test has been performed two additional times at the required frequency, whichever is longer.",
+      "variants": {
+        "simpler": "Keep QC logs through the longer of inspection clearance or two more test cycles.",
+        "example": "Weekly tests therefore require keeping multiple subsequent runs, not a single sheet."
+      },
+      "evidenceIds": [
+        "ev-mqsa-qc-records-retention",
+        "ev-qcr-qc-records-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-094",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-labeling"
+      ],
+      "familyId": "fam-ip-fb-image-label-axilla",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Where must view and laterality markers be placed on each mammographic image under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only in the electronic metadata, never on the image",
+          "rationale": "MQSA requires permanent, legible image identification on the image."
+        },
+        {
+          "id": "b",
+          "text": "Over the nipple to prove centering",
+          "rationale": "Markers must not obscure anatomy; axilla placement is required for view/laterality."
+        },
+        {
+          "id": "c",
+          "text": "Near the axilla, using standardized codes",
+          "rationale": "Correct. View and laterality are placed near the axilla with standardized codes."
+        },
+        {
+          "id": "d",
+          "text": "Anywhere as long as the technologist remembers the view",
+          "rationale": "Placement near the axilla with standardized codes is specified."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Each image must show view and laterality placed near the axilla using standardized codes, among other required identifiers, without obscuring anatomy.",
+      "variants": {
+        "simpler": "View/laterality markers go near the axilla.",
+        "example": "Patient name and an additional identifier are also required on the image."
+      },
+      "evidenceIds": [
+        "ev-mqsa-image-identification"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-095",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-ip-fb-retention-floor",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "MQSA retention of original mammograms and reports is the longest of which set?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "2 years after the technologist leaves",
+          "rationale": "Personnel-record retention is a different rule."
+        },
+        {
+          "id": "b",
+          "text": "30 days only",
+          "rationale": "Lay-summary timing is not the retention period for originals."
+        },
+        {
+          "id": "c",
+          "text": "Until the patient requests transfer, then destroy immediately",
+          "rationale": "Transfer does not erase the retention obligation for remaining records."
+        },
+        {
+          "id": "d",
+          "text": "At least 5 years; at least 10 years if no additional mammograms are performed at the facility; or any longer period required by state or local law",
+          "rationale": "Correct. At least 5 years; at least 10 years if no additional mammograms are performed at the facility; or any longer period required by state or local law"
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Originals and reports are kept for the longest of at least 5 years, at least 10 years if no additional mammograms are performed at the facility, or any longer state/local requirement.",
+      "variants": {
+        "simpler": "Keep the longest of 5 years, 10 years if no return, or longer local law.",
+        "example": "A state 12-year rule would outrank the federal floors."
+      },
+      "evidenceIds": [
+        "ev-mqsa-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-096",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit"
+      ],
+      "familyId": "fam-ip-fb-ppv-calc",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In the MQSA medical outcomes audit, what is positive predictive value (PPV)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The percent of patients with positive mammograms diagnosed with breast cancer within 1 year of the exam",
+          "rationale": "Correct. The percent of patients with positive mammograms diagnosed with breast cancer within 1 year of the exam"
+        },
+        {
+          "id": "b",
+          "text": "The percent of all screening patients called back",
+          "rationale": "That describes recall rate, not PPV."
+        },
+        {
+          "id": "c",
+          "text": "Cancers found per 1,000 patients",
+          "rationale": "That is cancer detection rate."
+        },
+        {
+          "id": "d",
+          "text": "The percent of phantoms that pass weekly",
+          "rationale": "Phantom QC is not an outcomes-audit measure."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "PPV is the percent of patients with positive mammograms diagnosed with breast cancer within 1 year of the exam. Positive means Suspicious or Highly Suggestive of Malignancy.",
+      "variants": {
+        "simpler": "PPV = cancers among positive mammograms within a year.",
+        "example": "Recall rate and cancer detection rate are separate required measures."
+      },
+      "evidenceIds": [
+        "ev-mqsa-positive-mammogram",
+        "ev-mqsa-outcomes-audit"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-097",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit"
+      ],
+      "familyId": "fam-ip-fb-cdr-per-thousand",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "How does the MQSA medical outcomes audit express cancer detection rate at minimum?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Per square centimeter of detector",
+          "rationale": "Not an audit measure."
+        },
+        {
+          "id": "b",
+          "text": "Per 1,000 patients",
+          "rationale": "Correct. Cancer detection rate is determined per 1,000 patients."
+        },
+        {
+          "id": "c",
+          "text": "Only as a raw count with no denominator",
+          "rationale": "The required expression is per 1,000 patients."
+        },
+        {
+          "id": "d",
+          "text": "As a percentage of Incomplete assessments",
+          "rationale": "That relates to recall rate, not CDR."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "At minimum the outcomes audit determines positive predictive value, cancer detection rate (per 1,000 patients), and recall rate.",
+      "variants": {
+        "simpler": "Cancer detection rate is reported per 1,000 patients.",
+        "example": "PPV and recall rate complete the minimum measure set."
+      },
+      "evidenceIds": [
+        "ev-mqsa-outcomes-audit"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-098",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit"
+      ],
+      "familyId": "fam-ip-fb-recall-incomplete",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "For MQSA audit purposes, recall rate is the percentage of screening exams assessed how?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Negative",
+          "rationale": "Negative screens are not recalls."
+        },
+        {
+          "id": "b",
+          "text": "Known Biopsy-Proven Malignancy",
+          "rationale": "That is a final assessment category, not the recall definition."
+        },
+        {
+          "id": "c",
+          "text": "Incomplete: Need additional imaging evaluation",
+          "rationale": "Correct. Recall rate uses that incomplete assessment on screening exams."
+        },
+        {
+          "id": "d",
+          "text": "Post-Procedure Mammogram for Marker Placement",
+          "rationale": "Not the recall-rate definition."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Recall rate is the percentage of screening exams assessed Incomplete: Need additional imaging evaluation.",
+      "variants": {
+        "simpler": "Recall rate tracks screening exams needing additional imaging.",
+        "example": "Need-priors incomplete is a different incomplete category, not the recall-rate definition."
+      },
+      "evidenceIds": [
+        "ev-mqsa-outcomes-audit"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-099",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-compression-tests",
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-ip-fb-min-force-111",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Under MQSA compression-device performance, how much force must be available?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Force availability is unregulated",
+          "rationale": "MQSA sets force availability and initial power-drive maximum ranges."
+        },
+        {
+          "id": "b",
+          "text": "At most 50 newtons",
+          "rationale": "That is below the required available force."
+        },
+        {
+          "id": "c",
+          "text": "Exactly 500 newtons on every exposure",
+          "rationale": "There is no 500 N requirement; initial power drive also has a maximum range."
+        },
+        {
+          "id": "d",
+          "text": "At least 111 newtons (25 pounds)",
+          "rationale": "Correct. At least 111 N (25 lb) of force must be available."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Compression device performance requires that at least 111 newtons (25 pounds) of force be available; the maximum initial power-drive force must fall between 111 N and 200 N.",
+      "variants": {
+        "simpler": "The unit must be able to deliver at least 111 N (25 lb).",
+        "example": "A measured initial power-drive maximum of 230 N would be out of the allowed maximum range."
+      },
+      "evidenceIds": [
+        "ev-mqsa-compression-force"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-100",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-paddles-grids"
+      ],
+      "familyId": "fam-ip-fb-paddle-chestwall-edge",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Besides the 1.0 cm parallel-deflection limit, what does MQSA require of a flat compression paddle's chest-wall edge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It must appear on every image as a bright line for proof of contact.",
+          "rationale": "The chest-wall edge must not appear on the image."
+        },
+        {
+          "id": "b",
+          "text": "It must be curved away from the receptor by at least 3 cm.",
+          "rationale": "The edge must be straight and parallel to the receptor edge."
+        },
+        {
+          "id": "c",
+          "text": "It must be straight, parallel to the receptor edge, and must not appear on the image.",
+          "rationale": "Correct. MQSA requires a straight chest-wall edge parallel to the receptor that does not appear on the image."
+        },
+        {
+          "id": "d",
+          "text": "Chest-wall edge shape is unregulated if force is adequate.",
+          "rationale": "Edge geometry and visibility are regulated."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "A flat paddle's chest-wall edge is straight, parallel to the receptor edge, and must not appear on the image; deflection from parallel under compression is also capped at 1.0 cm.",
+      "variants": {
+        "simpler": "Paddle chest-wall edge: straight, parallel, not on the image.",
+        "example": "Seeing the paddle edge on the image fails that requirement."
+      },
+      "evidenceIds": [
+        "ev-mqsa-compression-device"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-101",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-ip-fb-dose-ceiling-digital",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A manager claims FFDM and DBT are exempt from MQSA's phantom average glandular dose ceiling because they are not screen-film. What is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Digital modalities may ignore the ceiling entirely.",
+          "rationale": "The ceiling also applies to non-screen-film modalities."
+        },
+        {
+          "id": "b",
+          "text": "The 3.0 mGy phantom CC ceiling also applies to non-screen-film modalities.",
+          "rationale": "Correct. MQSA states the maximum also applies to non-screen-film modalities."
+        },
+        {
+          "id": "c",
+          "text": "Only DBT is exempt; FFDM must meet 3.0 mGy.",
+          "rationale": "Neither FFDM nor DBT is exempt from the ceiling."
+        },
+        {
+          "id": "d",
+          "text": "The ceiling applies only to interventional breast procedures.",
+          "rationale": "Interventional radiography is outside the Part 900 mammography definition; the phantom dose ceiling applies to mammography units' standard-breast test."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Average glandular dose for a single CC phantom view of a standard breast must not exceed 3.0 mGy, and this maximum also applies to non-screen-film modalities.",
+      "variants": {
+        "simpler": "FFDM/DBT still face the 3.0 mGy phantom dose ceiling.",
+        "example": "Manufacturer QC does not waive the federal dose maximum."
+      },
+      "evidenceIds": [
+        "ev-mqsa-dose-limit",
+        "ev-mqsa-other-modalities-qc",
+        "ev-qcr-dose-ceiling"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-102",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-ip-fb-fail-before-use",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A listed equipment QA test such as the dose test or compression device performance falls outside action limits. When must corrective action occur?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only at the next accreditation cycle",
+          "rationale": "Timing is immediate for listed failures."
+        },
+        {
+          "id": "b",
+          "text": "Within 90 days if the schedule is busy",
+          "rationale": "Listed critical failures require correction before further exams."
+        },
+        {
+          "id": "c",
+          "text": "Before any further examinations using the failed component",
+          "rationale": "Correct. Before any further examinations using the failed component"
+        },
+        {
+          "id": "d",
+          "text": "Never; action limits are advisory only",
+          "rationale": "Results outside action limits require corrective action."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "For listed tests including dose, phantom image tests, compression device performance, and other-modality QC under (e)(6), corrective action must occur before any further examinations; other tests have a 30-day window.",
+      "variants": {
+        "simpler": "Dose/phantom/compression fail → fix before scanning patients again.",
+        "example": "Some non-listed tests allow up to 30 days for corrective action."
+      },
+      "evidenceIds": [
+        "ev-mqsa-corrective-action-timing",
+        "ev-qcr-corrective-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-103",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-physicist-survey"
+      ],
+      "familyId": "fam-ip-fb-mee-triggers",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "When is a mammography equipment evaluation by a medical physicist required?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Never for digital units",
+          "rationale": "Digital units still require MEE for the listed events."
+        },
+        {
+          "id": "b",
+          "text": "Only when a patient complains about compression",
+          "rationale": "Patient complaints do not define MEE triggers."
+        },
+        {
+          "id": "c",
+          "text": "Once every 10 years regardless of changes",
+          "rationale": "MEE is event-triggered; annual surveys are separate."
+        },
+        {
+          "id": "d",
+          "text": "When a unit is newly installed, disassembled and reassembled, or has major components changed or repaired",
+          "rationale": "Correct. Problems must be corrected before clinical use."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "A mammography equipment evaluation is required when a unit is newly installed, reassembled, or has major component changes/repairs; problems are corrected before clinical use. A modality conversion is treated as a new unit.",
+      "variants": {
+        "simpler": "Install, reassemble, or major repair → physicist equipment evaluation first.",
+        "example": "Converting a unit to another modality is treated like a new unit."
+      },
+      "evidenceIds": [
+        "ev-mqsa-equipment-evaluation",
+        "ev-qcr-equipment-evaluation"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-104",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-geometry"
+      ],
+      "familyId": "fam-ip-fb-light-field-align",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Besides the x-ray field's edge limit relative to the receptor, what light-field alignment tolerance does MQSA state?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Light field/x-ray field misalignment may not exceed 2% of SID",
+          "rationale": "Correct. MQSA caps light-field/x-ray-field misalignment at 2% of SID."
+        },
+        {
+          "id": "b",
+          "text": "Light field may miss the x-ray field by up to 25% of SID",
+          "rationale": "The stated limit is 2% of SID, not 25%."
+        },
+        {
+          "id": "c",
+          "text": "Light-field alignment is optional on digital units",
+          "rationale": "The misalignment limit is stated without a digital exemption."
+        },
+        {
+          "id": "d",
+          "text": "Light field must be larger than the x-ray field by exactly 5 cm",
+          "rationale": "No 5 cm enlargement requirement is stated."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Light field/x-ray field misalignment may not exceed 2% of SID; the x-ray field likewise may not extend beyond any receptor edge by more than 2% of SID.",
+      "variants": {
+        "simpler": "Light field vs x-ray field: misalignment ≤2% of SID.",
+        "example": "The same 2% SID figure appears in the x-ray field edge rule."
+      },
+      "evidenceIds": [
+        "ev-mqsa-field-alignment"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-105",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip",
+        "obj-qc-repeat-analysis"
+      ],
+      "familyId": "fam-ip-fb-equip-not-reject",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Does repeat/reject analysis QC satisfy EQUIP's periodic clinical image quality review?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes; they are the same requirement.",
+          "rationale": "FDA states repeat/reject analysis does not count as the periodic clinical image quality review."
+        },
+        {
+          "id": "b",
+          "text": "No; repeat/reject analysis does not count as that periodic review.",
+          "rationale": "Correct. No; repeat/reject analysis does not count as that periodic review."
+        },
+        {
+          "id": "c",
+          "text": "Yes, if performed daily",
+          "rationale": "Frequency does not convert reject analysis into EQUIP periodic review."
+        },
+        {
+          "id": "d",
+          "text": "Only for screen-film facilities",
+          "rationale": "The distinction applies regardless."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Repeat/reject analysis QC does not count as the periodic clinical image quality review under EQUIP.",
+      "variants": {
+        "simpler": "Reject analysis ≠ EQUIP clinical image sample review.",
+        "example": "Daily interpretation of every case also does not replace the required periodic sample review."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-not-repeat-analysis",
+        "ev-qcr-equip-not-daily-interp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-106",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-ip-fb-equip-docs-dated",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "What documentation standard does FDA's EQUIP guidance require for the periodic clinical image quality review?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Verbal discussion alone is accepted without records",
+          "rationale": "Verbal discussion alone is not accepted."
+        },
+        {
+          "id": "b",
+          "text": "Only unsigned sticky notes on the unit",
+          "rationale": "Written, dated documentation is required."
+        },
+        {
+          "id": "c",
+          "text": "Written documentation is required, and the review must be dated",
+          "rationale": "Correct. Written documentation is required, and the review must be dated"
+        },
+        {
+          "id": "d",
+          "text": "Documentation is optional if LIP tenure exceeds 5 years",
+          "rationale": "Documentation remains required."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Written documentation of the periodic clinical image quality review is required, and the review must be dated.",
+      "variants": {
+        "simpler": "EQUIP periodic image review needs a dated written record.",
+        "example": "Because inspectors look since the last inspection, review at least annually."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-periodic-docs",
+        "ev-qcr-equip-periodic-annual"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-107",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-ip-fb-sf-darkroom-fog",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A screen-film facility is mapping its Part 900 QC calendar. Which statement about darkroom fog testing is accurate in that federal screen-film frequency structure?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Darkroom fog is grouped with the semiannual tests.",
+          "rationale": "Correct. Part 900 lists darkroom fog among semiannual screen-film QC tests."
+        },
+        {
+          "id": "b",
+          "text": "Darkroom fog replaces the weekly phantom test.",
+          "rationale": "Phantom image quality remains a separate weekly listing."
+        },
+        {
+          "id": "c",
+          "text": "Darkroom fog is required every patient exam.",
+          "rationale": "It is not an every-exam test in the listed structure."
+        },
+        {
+          "id": "d",
+          "text": "Darkroom fog applies only to FFDM manufacturer QC.",
+          "rationale": "Darkroom fog belongs to the screen-film frequency structure; digital systems follow manufacturer or accepted-alternative QC."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Part 900's screen-film QC frequency structure includes semiannual darkroom fog (along with other listed semiannual tests). Digital systems follow manufacturer or accepted-alternative QC instead.",
+      "variants": {
+        "simpler": "Screen-film darkroom fog: semiannual in Part 900's structure.",
+        "example": "Processor performance is daily; phantom image quality is weekly."
+      },
+      "evidenceIds": [
+        "ev-qcr-sf-frequency-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-108",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-ip-fb-new-modality-ceu",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Before independently using a new mammography modality not covered by initial training, how many CEUs in that modality does MQSA require?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 8 hours",
+          "rationale": "Correct. At least 8 hours"
+        },
+        {
+          "id": "b",
+          "text": "1 hour of vendor marketing video",
+          "rationale": "The requirement is at least 8 hours of CEUs in that modality."
+        },
+        {
+          "id": "c",
+          "text": "40 new contact hours repeating all initial topics",
+          "rationale": "The new-modality add-on is at least 8 hours in that modality."
+        },
+        {
+          "id": "d",
+          "text": "No additional training if the technologist has 15 general CEUs",
+          "rationale": "General CEUs do not replace modality-specific hours for a new modality."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Before independently using a new modality not covered by initial training, the technologist needs at least 8 hours of CEUs in that modality.",
+      "variants": {
+        "simpler": "New modality later → ≥8 hours in that modality first.",
+        "example": "Adding DBT after qualifying only on another modality triggers this rule."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-ce-requalification"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-109",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-ip-fb-sv-equals-gy-rbe",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In the dose-unit relationships taught from OpenStax in this module, how are sievert and gray related?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sv = Gy ÷ 100 always, with no radiation-type factor",
+          "rationale": "The RBE factor is part of the relationship; 100 relates Sv to rem."
+        },
+        {
+          "id": "b",
+          "text": "Sv = Gy × RBE",
+          "rationale": "Correct. Equivalent dose uses Sv = Gy × RBE (with 1 Sv = 100 rem)."
+        },
+        {
+          "id": "c",
+          "text": "Gy and Sv are identical for all radiations without adjustment",
+          "rationale": "RBE adjusts equivalent dose."
+        },
+        {
+          "id": "d",
+          "text": "Sv measures only absorbed energy in joules per kilogram",
+          "rationale": "J/kg is the gray; sievert accounts for radiation type via RBE."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Absorbed dose is in gray; equivalent dose uses sievert where Sv = Gy × RBE, and 1 Sv = 100 rem.",
+      "variants": {
+        "simpler": "Sievert = gray times RBE.",
+        "example": "1 Gy = 100 rad remains the absorbed-dose conversion."
+      },
+      "evidenceIds": [
+        "ev-ip-dose-units"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-110",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-ip-fb-equip-sample-facility",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Who sets the sample size for EQUIP's periodic clinical image quality review?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "FDA mandates a fixed sample of 50 images per technologist",
+          "rationale": "FDA does not set a required sample size."
+        },
+        {
+          "id": "b",
+          "text": "Only the accreditation body may choose a size, never the facility",
+          "rationale": "The facility determines sample size."
+        },
+        {
+          "id": "c",
+          "text": "The facility determines sample size",
+          "rationale": "Correct. FDA does not set a required sample size."
+        },
+        {
+          "id": "d",
+          "text": "Sample size must equal the number of units squared",
+          "rationale": "No such formula is stated."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "FDA does not set a required sample size for the periodic clinical image quality review; the facility determines sample size.",
+      "variants": {
+        "simpler": "EQUIP sample size is a facility decision.",
+        "example": "The review must still include all active RTs and IPs."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-sample-size",
+        "ev-qcr-equip-all-active"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ip-111",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-ip-fb-lip-no-supervision",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Under EQUIP's description of the lead interpreting physician role, what does the LIP designation not confer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Responsibility for continuous clinical image quality leadership as described",
+          "rationale": "EQUIP views the LIP as most responsible for continuous image quality."
+        },
+        {
+          "id": "b",
+          "text": "Any duty related to image quality",
+          "rationale": "Image quality leadership is central to the LIP role under EQUIP."
+        },
+        {
+          "id": "c",
+          "text": "Any role in QA/QC record oversight",
+          "rationale": "LIP oversight of QA/QC records is an EQUIP focus."
+        },
+        {
+          "id": "d",
+          "text": "Supervisory responsibility over other interpreting physicians",
+          "rationale": "Correct. The LIP designation does not confer supervisory responsibility over other interpreting physicians."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Under EQUIP, the lead interpreting physician is viewed as most responsible for ensuring continuous image quality, but the LIP designation does not confer supervisory responsibility over other interpreting physicians.",
+      "variants": {
+        "simpler": "LIP ≠ boss of the other interpreting physicians.",
+        "example": "LIP attestation paths still document QA/QC oversight on inspection day."
+      },
+      "evidenceIds": [
+        "ev-qcr-lip-role",
+        "ev-qcr-qa-records-lip"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ip-112",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-ip-fb-facility-ceases-notify",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "If a facility ceases mammography, what notification is required about record arrangements?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Notify its accreditation body and certification agency in writing of the arrangements for continued record access",
+          "rationale": "Correct. It must also arrange continued access for the remaining retention period."
+        },
+        {
+          "id": "b",
+          "text": "Notify only patients by social media",
+          "rationale": "Written notice to the accreditation body and certification agency is required."
+        },
+        {
+          "id": "c",
+          "text": "No notice is required if records are shredded immediately",
+          "rationale": "Records must remain accessible for the remaining retention period."
+        },
+        {
+          "id": "d",
+          "text": "Notify only the film vendor",
+          "rationale": "AB and certification agency notification is required."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "If a facility ceases mammography, it must arrange continued access to records for the remaining retention period and notify its accreditation body and certification agency in writing of the arrangements.",
+      "variants": {
+        "simpler": "Closing mammo services → written notice to AB and cert agency about records.",
+        "example": "A facility that continues as a medical entity may retain records if it can meet recordkeeping rules unless transfer is requested."
+      },
+      "evidenceIds": [
+        "ev-qcr-facility-ceases"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ip-113",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit"
+      ],
+      "familyId": "fam-ip-fb-audit-notify-ips",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Besides reviewing and documenting audit analyses at least every 12 months, what must the designated audit interpreting physician do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Destroy pathology correlation records yearly",
+          "rationale": "Pathology correlation is part of the audit, not something to destroy yearly by rule."
+        },
+        {
+          "id": "b",
+          "text": "Notify other interpreting physicians of their individual and facility results",
+          "rationale": "Correct. Notify other interpreting physicians of their individual and facility results"
+        },
+        {
+          "id": "c",
+          "text": "Replace the lead interpreting physician after each audit",
+          "rationale": "No such replacement rule exists."
+        },
+        {
+          "id": "d",
+          "text": "Publish each patient's audit row publicly",
+          "rationale": "Patient-level public posting is not the requirement."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Audit analyses are conducted at least once every 12 months, and at least one designated audit interpreting physician reviews the data, documents results, and notifies other interpreting physicians of their individual and facility results.",
+      "variants": {
+        "simpler": "Audit IP tells other IPs their personal and facility audit results.",
+        "example": "The audit still must follow up positive mammograms and correlate pathology."
+      },
+      "evidenceIds": [
+        "ev-mqsa-audit-frequency",
+        "ev-mqsa-outcomes-audit"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ip-114",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-ip-fb-complaint-3yr",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "How long must a facility keep a record of each serious consumer complaint under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Until the next phantom test",
+          "rationale": "Complaint retention is not tied to phantom testing."
+        },
+        {
+          "id": "b",
+          "text": "30 days",
+          "rationale": "Too short."
+        },
+        {
+          "id": "c",
+          "text": "At least 3 years",
+          "rationale": "Correct. At least 3 years"
+        },
+        {
+          "id": "d",
+          "text": "Only until the consumer hangs up",
+          "rationale": "Serious complaints have a multi-year retention requirement."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Facilities keep a record of each serious complaint for at least 3 years.",
+      "variants": {
+        "simpler": "Serious complaint records: keep ≥3 years.",
+        "example": "Unresolved serious complaints are also reported to the accreditation body."
+      },
+      "evidenceIds": [
+        "ev-mqsa-consumer-complaints",
+        "ev-qcr-facility-complaints"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ip-115",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-geometry",
+        "obj-ip-paddles-grids"
+      ],
+      "familyId": "fam-ip-fb-paddle-cw-1pct",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A physicist measures how far the compression paddle's chest-wall edge overhangs the receptor's chest-wall edge. Which MQSA limit applies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No more than 1% of the SID, and the paddle's vertical edge must not be visible on the image",
+          "rationale": "Correct. Paddle chest-wall overhang is limited to 1% of SID, and the vertical edge must not appear on the image."
+        },
+        {
+          "id": "b",
+          "text": "No more than 10 cm regardless of SID",
+          "rationale": "The limit is 1% of SID, not a flat 10 cm."
+        },
+        {
+          "id": "c",
+          "text": "Unlimited overhang if force is between 25 and 45 lb",
+          "rationale": "Force compliance does not waive paddle overhang limits."
+        },
+        {
+          "id": "d",
+          "text": "The paddle must overhang by at least 5% of SID",
+          "rationale": "Overhang is capped, not required."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The compression paddle's chest-wall edge may not extend beyond the receptor's chest-wall edge by more than 1% of SID, and the paddle's vertical edge must not be visible on the image.",
+      "variants": {
+        "simpler": "Paddle chest-wall overhang: ≤1% of SID.",
+        "example": "X-ray field edge limits use a separate 2% SID tolerance."
+      },
+      "evidenceIds": [
+        "ev-mqsa-field-alignment"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ip-116",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-kvp-tube",
+        "obj-ip-exposure-factors"
+      ],
+      "familyId": "fam-ip-fb-two-anode-processes",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "OpenStax lists two processes that produce x-rays when electrons strike the anode. Which pair is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bremsstrahlung and characteristic x-rays",
+          "rationale": "Correct. Those are the two anode production processes described."
+        },
+        {
+          "id": "b",
+          "text": "Photoelectric effect in the patient and Compton scatter only",
+          "rationale": "Those are attenuation interactions in tissue, not the two anode production processes."
+        },
+        {
+          "id": "c",
+          "text": "Fluorescence of the collimator and grid cleanup only",
+          "rationale": "Collimator/grid effects are not the two anode production processes."
+        },
+        {
+          "id": "d",
+          "text": "Ultrasound pulse generation and radiofrequency emission",
+          "rationale": "Those are not x-ray tube anode processes."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Electrons striking the anode produce x-rays by bremsstrahlung (braking radiation) and by characteristic x-ray emission when inner-shell vacancies are filled.",
+      "variants": {
+        "simpler": "Anode x-ray production: bremsstrahlung + characteristic.",
+        "example": "Practice items may drill each process alone; this item asks for the pair."
+      },
+      "evidenceIds": [
+        "ev-ip-brems-characteristic"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
     }
   ]
 }
