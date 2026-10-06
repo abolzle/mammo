@@ -9,7 +9,7 @@ import { createSession } from "../src/lib/engine/create";
 import { eventId } from "../src/lib/engine/ids";
 import { parseBackupText, importBackup, exportBackup } from "../src/lib/engine/backup";
 import { EXAM } from "../src/config/exam";
-import { formQuestions, offerAssessment } from "../src/lib/engine/assessment";
+import { offerAssessment } from "../src/lib/engine/assessment";
 import { parseDraftJson, buildGeneratePacket } from "../src/lib/content/packet";
 import { reconcileEvent } from "../src/lib/engine/reconcile";
 import { ensureProfile, putEvent, putExposure, getExposure, resetDb } from "../src/lib/db";
@@ -169,15 +169,24 @@ describe("backup", () => {
 });
 
 describe("assessment honesty", () => {
-  it("offers a 60-question checkpoint only when 60 reserved items exist, and refuses an underfilled 145-item simulation", () => {
-    const formA = formQuestions(loaded.modules).length;
-    const checkpoint = offerAssessment("checkpoint", loaded.modules);
-    expect(checkpoint.ok).toBe(formA >= 60);
+  it("refuses a 60-question checkpoint and a 145-item simulation when the reserved pool is too small", () => {
+    let kept = 0;
+    const small = loaded.modules.map((m) => ({
+      ...m,
+      questions: m.questions.filter((q) => q.pool !== "form-a" || kept++ < 59),
+    }));
+    const checkpoint = offerAssessment("checkpoint", small);
+    expect(checkpoint.ok).toBe(false);
     if (!checkpoint.ok) expect(checkpoint.fallback).toBeTruthy();
-    const reserved = loaded.modules.flatMap((m) => m.questions.filter((q) => q.pool !== "practice")).length;
-    const sim = offerAssessment("simulation", loaded.modules);
-    expect(sim.ok).toBe(reserved >= 145);
-    if (!sim.ok) expect(sim.fallback).toBeTruthy();
+    const sim = offerAssessment("simulation", small);
+    expect(sim.ok).toBe(false);
+  });
+
+  it("offers the checkpoint only when 60 distinct Form A items exist", () => {
+    const formA = loaded.modules.flatMap((m) => m.questions.filter((q) => q.pool === "form-a"));
+    expect(offerAssessment("checkpoint", loaded.modules).ok).toBe(formA.length >= 60);
+    const reserved = loaded.modules.flatMap((m) => m.questions.filter((q) => q.pool !== "practice"));
+    expect(offerAssessment("simulation", loaded.modules).ok).toBe(reserved.length >= EXAM.totalQuestions);
   });
 
   it("offers a reserved Form A quiz without mixing those families into daily study", () => {

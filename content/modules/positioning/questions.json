@@ -279,7 +279,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -289,6 +289,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence names CC and MLO as the accreditation pair and defines the positioning attribute, but does not describe the CC beam path or purpose; obj-pp-cc is blocked pending the ARRT-named ACR Clinical Image Quality reference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -337,7 +344,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -347,6 +354,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Key restates CC/MLO PNL criteria from a link-only guideline; obj-pp-cc is blocked until the ARRT-named ACR Clinical Image Quality reference (or an accessible equivalent) verifies them. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -395,7 +409,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -405,6 +419,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -453,7 +474,7 @@
         "ev-pos-acr-ciq-link-only"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -463,6 +484,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Key rests on placeholder (draft) evidence ev-pos-acr-ciq-link-only rather than a checked source record. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -512,7 +540,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -522,6 +550,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence describes PNL and pectoralis appearance on the MLO but not the purpose of angling or axillary-tail inclusion; obj-pp-mlo is blocked pending the ARRT-named ACR Clinical Image Quality reference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -570,7 +605,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -580,6 +615,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on MLO pectoralis criteria that remain unverified while obj-pp-mlo is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -628,7 +670,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -638,6 +680,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on MLO PNL orientation criteria that remain unverified while obj-pp-mlo is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -744,7 +793,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -754,6 +803,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc and obj-pp-mlo are blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -802,7 +858,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -812,6 +868,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Applies the approximate 1 cm PNL comparison, which remains unverified while obj-pp-cc is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -860,7 +923,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -870,6 +933,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -918,7 +988,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -928,6 +998,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc and obj-pp-mlo are blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -1382,10 +1459,11 @@
         "example": "Also remember patient name + second identifier, date, view/laterality, facility, etc."
       },
       "evidenceIds": [
-        "ev-pos-mqsa-image-identification"
+        "ev-pos-mqsa-image-identification",
+        "ev-mqsa-image-identification"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1395,6 +1473,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: The positioning evidence record quotes only the view/laterality clause; added ev-mqsa-image-identification, which lists technologist identification. Needs a fresh maintainer source check against that record. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -1619,7 +1704,7 @@
         "ev-pos-mqsa-cc-mlo-submission"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1629,6 +1714,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Evidence defines screening as routine views and names CC/MLO for accreditation review, but does not state that the routine screening set is bilateral CC and MLO; the key is an inference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2261,7 +2353,7 @@
         "ev-pos-nci-screening-vs-diagnostic"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2271,6 +2363,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: Neither cited record discusses workstation zoom versus geometric magnification; the key is not supported by the evidence. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2320,7 +2419,7 @@
         "ev-pos-mqsa-screening-diagnostic-audit"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2330,6 +2429,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Cited evidence defines diagnostic exams as individualized but does not itself say magnification is used for them; key is an inference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2378,7 +2484,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2388,6 +2494,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The positioning-attribute evidence does not state that the side of interest goes closer to the receptor; no accessible source is registered for lateral views. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2437,7 +2550,7 @@
         "ev-pos-nci-screening-vs-diagnostic"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2447,6 +2560,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence does not describe exaggerated CC views; no accessible source is registered for XCCL. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2496,7 +2616,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2506,6 +2626,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence does not describe rolled views; no accessible source is registered for tangential/rolled views. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2554,7 +2681,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2564,6 +2691,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The positioning-attribute evidence does not describe cleavage views; no accessible source is registered for this view. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2612,7 +2746,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2622,6 +2756,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Evidence supports the sufficient-tissue goal only; documenting limitations and following facility guidance are not in the cited record. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2672,7 +2813,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2682,6 +2823,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Evidence supports implant inquiry and reconstruction guidance; the broader surgical-history framing is an inference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2731,7 +2879,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2741,6 +2889,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Key rests partly on placeholder (draft) evidence ev-pos-acr-ciq-link-only. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2792,7 +2947,7 @@
         "ev-pos-mqsa-image-identification"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2802,6 +2957,2633 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Combines unverified CC/MLO PNL and pectoralis criteria with the labeling rule; obj-pp-cc and obj-pp-mlo are blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-049",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-049",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient's screening exam was assessed \"Incomplete: Need additional imaging evaluation,\" and she returns for individualized views. For MQSA audit purposes, today's exam is a:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Screening mammogram, because it follows a screening exam",
+          "rationale": "Follow-up of an abnormal screening finding uses individualized views, which MQSA calls diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "Screening mammogram, because she has no symptoms",
+          "rationale": "An abnormal screening finding is enough to make the follow-up diagnostic."
+        },
+        {
+          "id": "c",
+          "text": "Diagnostic mammogram",
+          "rationale": "Correct. MQSA defines a diagnostic mammogram as individualized views for a patient with symptoms, physical signs, or abnormal screening findings."
+        },
+        {
+          "id": "d",
+          "text": "Neither, because callback views are not mammography",
+          "rationale": "Callback imaging is mammography under MQSA."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA's audit definitions separate routine views of an asymptomatic patient (screening) from individualized views for symptoms, physical signs, or abnormal screening findings (diagnostic).",
+      "variants": {
+        "simpler": "Callback after an abnormal screen = diagnostic.",
+        "example": "A patient with no symptoms can still have a diagnostic exam if her screening was abnormal."
+      },
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition",
+        "ev-mqsa-incomplete-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-050",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-050",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "MQSA's medical outcomes audit tracks a recall rate. Which exams does that rate describe?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The percentage of diagnostic exams sent to biopsy",
+          "rationale": "Biopsy follow-up relates to positive mammograms and PPV, not recall rate."
+        },
+        {
+          "id": "b",
+          "text": "The percentage of patients who return for their next annual screening",
+          "rationale": "Return for routine screening is not the audit's recall rate."
+        },
+        {
+          "id": "c",
+          "text": "The percentage of screening exams assessed \"Incomplete: Need additional imaging evaluation\"",
+          "rationale": "Correct. MQSA defines recall rate this way."
+        },
+        {
+          "id": "d",
+          "text": "The percentage of images repeated for positioning",
+          "rationale": "Repeated images are a QC topic, not the outcomes-audit recall rate."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "The outcomes audit must determine at least the positive predictive value, the cancer detection rate per 1,000 patients, and the recall rate: the percentage of screening exams assessed as needing additional imaging.",
+      "variants": {
+        "simpler": "Recall rate = share of screens that call the patient back for more imaging.",
+        "example": "Each callback for additional views counts toward the facility's recall rate."
+      },
+      "evidenceIds": [
+        "ev-mqsa-outcomes-audit"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-051",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-051",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "While booking her routine screening, a patient mentions a new lump she found last week. Using NCI's distinction, which type of mammogram fits her situation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diagnostic, because it evaluates a lump or other change",
+          "rationale": "Correct. NCI says diagnostic mammograms evaluate a lump or other change found by the patient or clinician."
+        },
+        {
+          "id": "b",
+          "text": "Screening, because she originally asked for a screening exam",
+          "rationale": "Her new lump changes the purpose; NCI says screening looks for cancer before symptoms."
+        },
+        {
+          "id": "c",
+          "text": "Screening, because she is due for her annual exam",
+          "rationale": "Being due for screening doesn't change the fact that she now has a symptom."
+        },
+        {
+          "id": "d",
+          "text": "No mammogram, because lumps are evaluated only by touch",
+          "rationale": "NCI describes diagnostic mammography as the way to evaluate a lump."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Screening looks for cancer before any symptoms appear. A new lump is a symptom, so the exam's purpose becomes diagnostic. Follow facility procedures for routing her request to the right exam.",
+      "variants": {
+        "simpler": "A symptom turns the visit into a diagnostic exam.",
+        "example": "Tell scheduling or the radiologist about the lump instead of quietly keeping her on the screening list."
+      },
+      "evidenceIds": [
+        "ev-pos-nci-screening-vs-diagnostic",
+        "ev-mqsa-screening-diagnostic-definition"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-052",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-052",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A patient scheduled for a diagnostic exam asks whether it uses a different, more powerful machine than her screening exams. Which answer matches NCI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes, diagnostic exams use a special high-dose unit",
+          "rationale": "NCI says the same machines are used."
+        },
+        {
+          "id": "b",
+          "text": "It is identical to screening in every way, including dose",
+          "rationale": "NCI notes more angles and a higher dose."
+        },
+        {
+          "id": "c",
+          "text": "Diagnostic exams use ultrasound instead of x-rays",
+          "rationale": "NCI describes diagnostic mammography as an x-ray exam."
+        },
+        {
+          "id": "d",
+          "text": "It uses the same machines; diagnostic exams take images from more angles, so the dose is higher",
+          "rationale": "Correct. NCI states the same machines are used and diagnostic exams need more angles, giving a higher dose."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Same equipment, different purpose: diagnostic mammography adds views to answer a specific question, which raises the total dose compared with screening.",
+      "variants": {
+        "simpler": "Same machine, more pictures.",
+        "example": "\"It's the same type of machine. We'll take a few more pictures to look closely at the area.\""
+      },
+      "evidenceIds": [
+        "ev-pos-nci-screening-vs-diagnostic"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-053",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-053",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient called back after screening is frightened that she has cancer. Which NCI statement can the technologist share?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Being called back means cancer was found",
+          "rationale": "NCI says most callbacks do not end in a cancer diagnosis."
+        },
+        {
+          "id": "b",
+          "text": "Most people called back for more imaging or biopsy are not found to have breast cancer",
+          "rationale": "Correct. NCI states most people who are called back do not have breast cancer."
+        },
+        {
+          "id": "c",
+          "text": "Callbacks happen only when a biopsy is already scheduled",
+          "rationale": "NCI describes callbacks for further imaging or biopsy; a callback does not mean a biopsy is already scheduled."
+        },
+        {
+          "id": "d",
+          "text": "She should skip the callback if she feels well",
+          "rationale": "Callbacks evaluate a screening finding and shouldn't be skipped because she feels well."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI acknowledges callbacks can be frightening and states most people called back are not found to have breast cancer. The technologist can reassure her with that fact without interpreting her images.",
+      "variants": {
+        "simpler": "Most callbacks are not cancer.",
+        "example": "\"Being called back is common, and most people called back don't have cancer. The radiologist will explain what the extra pictures show.\""
+      },
+      "evidenceIds": [
+        "ev-pc-nci-callback"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-054",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-implant-inquiry"
+      ],
+      "familyId": "fam-forma-pos-054",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under MQSA, patients with breast implants receive views that maximize visualization of breast tissue. When may that expectation be changed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Whenever the technologist prefers a shorter exam",
+          "rationale": "MQSA does not leave this to technologist preference."
+        },
+        {
+          "id": "b",
+          "text": "When it is contraindicated or modified by a physician",
+          "rationale": "Correct. 21 CFR 900.12(g) applies unless contraindicated or modified by a physician."
+        },
+        {
+          "id": "c",
+          "text": "Whenever the patient has implants on both sides",
+          "rationale": "Bilateral implants do not waive the requirement."
+        },
+        {
+          "id": "d",
+          "text": "Only when the facility has no displacement paddle",
+          "rationale": "MQSA names contraindication or physician modification, not equipment availability."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "MQSA requires facilities to ask about implants before the exam and to obtain views that maximize visible breast tissue, unless contraindicated or modified by a physician.",
+      "variants": {
+        "simpler": "A physician can modify the implant views.",
+        "example": "If the referring physician documents a modification, follow the order and record it."
+      },
+      "evidenceIds": [
+        "ev-mqsa-implant-inquiry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-055",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-implant-inquiry"
+      ],
+      "familyId": "fam-forma-pos-055",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "Partway through an exam, a technologist discovers the patient has implants because nobody asked beforehand. Which MQSA requirement was not met?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The requirement to place laterality markers near the axilla",
+          "rationale": "Labeling is required, but this scenario is about missing the implant question."
+        },
+        {
+          "id": "b",
+          "text": "The annual medical physicist survey",
+          "rationale": "The physicist survey covers equipment and QC, not patient history."
+        },
+        {
+          "id": "c",
+          "text": "The 30-day lay summary deadline",
+          "rationale": "The lay summary deadline relates to reporting, not the exam history."
+        },
+        {
+          "id": "d",
+          "text": "The facility's procedure to ask about implants before the exam",
+          "rationale": "Correct. MQSA requires facilities to have a procedure for asking about implants before the exam."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Asking before the exam lets the technologist plan views that maximize visible tissue. Learning about implants mid-exam means the facility's pre-exam procedure did not work.",
+      "variants": {
+        "simpler": "Ask about implants before you start.",
+        "example": "Build the implant question into the intake form and repeat it at check-in."
+      },
+      "evidenceIds": [
+        "ev-mqsa-implant-inquiry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-056",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-spot-mag-nipple"
+      ],
+      "familyId": "fam-forma-pos-056",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which MQSA equipment provision directly supports performing spot compression views?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Special-purpose compression paddles, such as spot paddles, may be provided",
+          "rationale": "Correct. 21 CFR 900.12(b)(8) allows special-purpose paddles such as spot paddles."
+        },
+        {
+          "id": "b",
+          "text": "Spot views must be done with general-purpose radiographic equipment",
+          "rationale": "MQSA prohibits general-purpose radiographic equipment for mammography."
+        },
+        {
+          "id": "c",
+          "text": "Spot views require removing all compression",
+          "rationale": "Spot views use a small paddle to apply focal compression."
+        },
+        {
+          "id": "d",
+          "text": "Spot paddles must match the full-field receptor size",
+          "rationale": "MQSA requires paddles matching each full-field receptor size; spot paddles are separate special-purpose paddles."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Every system has a compression device with paddles that match its full-field receptor sizes. Special-purpose paddles, such as spot paddles, may also be provided for focal compression.",
+      "variants": {
+        "simpler": "MQSA allows small spot paddles.",
+        "example": "A spot paddle concentrates compression over a small area the radiologist wants to see more clearly."
+      },
+      "evidenceIds": [
+        "ev-mqsa-compression-device"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-057",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-spot-mag-nipple"
+      ],
+      "familyId": "fam-forma-pos-057",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A facility plans to use a unit for noninterventional problem-solving work. Which capability must that system have under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Breast CT capability",
+          "rationale": "MQSA's definition of mammography excludes breast CT."
+        },
+        {
+          "id": "b",
+          "text": "Ultrasound capability",
+          "rationale": "MQSA's equipment standards do not require ultrasound."
+        },
+        {
+          "id": "c",
+          "text": "Magnification capability",
+          "rationale": "Correct. MQSA requires magnification capability for systems used for noninterventional problem solving."
+        },
+        {
+          "id": "d",
+          "text": "A fixed grid that cannot be removed",
+          "rationale": "Magnification systems must be able to operate with the grid removed."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Problem-solving views often include magnification. MQSA requires such systems to have magnification capability with at least one factor from 1.4 to 2.0, operable without the grid.",
+      "variants": {
+        "simpler": "Problem-solving units need magnification.",
+        "example": "Diagnostic workups that use magnification views need a unit built for them."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-058",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-spot-mag-nipple"
+      ],
+      "familyId": "fam-forma-pos-058",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "calculation",
+      "estSeconds": 75,
+      "stem": "A magnification stand offers only two settings: 1.2\u00d7 and 2.2\u00d7. Does it meet the MQSA magnification requirement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes; any two settings satisfy the requirement",
+          "rationale": "MQSA sets a range, not a count of settings."
+        },
+        {
+          "id": "b",
+          "text": "Yes; 2.2\u00d7 exceeds the minimum, so it qualifies",
+          "rationale": "The requirement is a value within 1.4\u20132.0, not simply above 1.4."
+        },
+        {
+          "id": "c",
+          "text": "No; MQSA requires at least one magnification value from 1.4 to 2.0",
+          "rationale": "Correct. Neither 1.2 nor 2.2 falls in the 1.4\u20132.0 range."
+        },
+        {
+          "id": "d",
+          "text": "Yes; 1.2\u00d7 is close enough to 1.4\u00d7",
+          "rationale": "1.2 is outside the range."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "21 CFR 900.12(b)(6): systems used for magnification provide at least one magnification value within 1.4 to 2.0. Check each available setting against that range.",
+      "variants": {
+        "simpler": "At least one setting has to be between 1.4 and 2.0.",
+        "example": "A stand offering 1.5\u00d7 and 1.8\u00d7 would meet it."
+      },
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-059",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-forma-pos-059",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A patient with dense breasts and a negative screening mammogram asks whether she should have supplemental ultrasound or MRI. What is the 2024 USPSTF position?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Evidence is insufficient to assess the benefits and harms (an I statement)",
+          "rationale": "Correct. USPSTF issued an I statement on supplemental ultrasound or MRI in this situation."
+        },
+        {
+          "id": "b",
+          "text": "USPSTF recommends annual MRI for all women with dense breasts",
+          "rationale": "USPSTF did not recommend this; it found evidence insufficient."
+        },
+        {
+          "id": "c",
+          "text": "USPSTF recommends against any supplemental imaging",
+          "rationale": "An I statement is neither for nor against."
+        },
+        {
+          "id": "d",
+          "text": "USPSTF recommends ultrasound instead of mammography",
+          "rationale": "USPSTF did not recommend replacing mammography."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "USPSTF concluded evidence is insufficient for supplemental ultrasound or MRI screening in women with dense breasts and an otherwise negative mammogram. NCI echoes this and advises patients to talk with their clinician.",
+      "variants": {
+        "simpler": "Not enough evidence yet; talk with your clinician.",
+        "example": "\"Experts haven't found enough evidence to recommend it for everyone. Your provider can talk through your situation.\""
+      },
+      "evidenceIds": [
+        "ev-pc-uspstf-dense-i",
+        "ev-pc-nci-dense-supplemental"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-060",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-forma-pos-060",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In ACS guidance as stated in Breast Cancer Facts & Figures 2024\u20132025, women at high risk generally begin annual MRI and mammography at what age?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Age 40",
+          "rationale": "Age 40 is when ACS says average-risk women may begin annual screening."
+        },
+        {
+          "id": "b",
+          "text": "Age 45",
+          "rationale": "Age 45 is when ACS says average-risk women should have annual mammograms."
+        },
+        {
+          "id": "c",
+          "text": "Age 55",
+          "rationale": "Age 55 is when average-risk women may move to every other year."
+        },
+        {
+          "id": "d",
+          "text": "Age 30",
+          "rationale": "Correct. ACS high-risk guidance generally begins annual MRI and mammography at age 30."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "ACS separates average-risk screening by age from high-risk screening, which generally adds annual MRI to mammography beginning at 30.",
+      "variants": {
+        "simpler": "High risk: MRI plus mammography from about 30.",
+        "example": "A 32-year-old with a known high-risk gene variant may be on an MRI-plus-mammography schedule."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-high-risk",
+        "ev-pc-acs-average-ages"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-061",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-forma-pos-061",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "ACS describes high risk using family-history-based risk tools. About what estimated lifetime risk does ACS use as the threshold?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 5% or greater",
+          "rationale": "This is far below the ACS high-risk threshold."
+        },
+        {
+          "id": "b",
+          "text": "About 20\u201325% or greater",
+          "rationale": "Correct. ACS uses about 20\u201325% or greater lifetime risk."
+        },
+        {
+          "id": "c",
+          "text": "About 10% or greater",
+          "rationale": "This is below the ACS high-risk threshold."
+        },
+        {
+          "id": "d",
+          "text": "About 75% or greater",
+          "rationale": "ACS does not use a threshold this high."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "In ACS guidance, high risk includes about 20\u201325% or greater lifetime risk by family-history tools, a known high-risk genetic variant (or a first-degree relative with one), a strong family history, or prior chest radiation.",
+      "variants": {
+        "simpler": "High risk is about a 1-in-5 lifetime risk or higher.",
+        "example": "Risk estimates come from clinicians' tools; the technologist records the history that feeds them."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-high-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-062",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-forma-pos-062",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "Which history, by itself, places a patient in ACS's high-risk group for annual MRI plus mammography?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Being 45 with no other risk factors",
+          "rationale": "Age 45 at average risk falls under annual mammography, not high-risk MRI."
+        },
+        {
+          "id": "b",
+          "text": "Radiation therapy to the chest earlier in life",
+          "rationale": "Correct. ACS lists prior chest radiation among high-risk criteria."
+        },
+        {
+          "id": "c",
+          "text": "A history of a single simple cyst",
+          "rationale": "A cyst is a common benign finding and is not an ACS high-risk criterion."
+        },
+        {
+          "id": "d",
+          "text": "Having had a prior negative screening mammogram",
+          "rationale": "A negative screening history does not raise risk."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ACS high-risk criteria include about 20\u201325% or greater lifetime risk, a known high-risk genetic variant (or a first-degree relative with one), a strong family history, and prior chest radiation.",
+      "variants": {
+        "simpler": "Past chest radiation is a high-risk criterion.",
+        "example": "Record prior chest radiation clearly in the history; it changes the screening plan."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-high-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-063",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-forma-pos-063",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under MQSA, the lay summary for a patient with dense tissue includes an added sentence about other tests. What does it say, in substance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She must schedule an MRI within 30 days",
+          "rationale": "MQSA does not order supplemental imaging."
+        },
+        {
+          "id": "b",
+          "text": "No other imaging can help with dense tissue",
+          "rationale": "MQSA's wording says other tests may help some people."
+        },
+        {
+          "id": "c",
+          "text": "Dense tissue means the mammogram was unusable",
+          "rationale": "Dense tissue lowers sensitivity; it does not make the exam unusable."
+        },
+        {
+          "id": "d",
+          "text": "Other imaging tests may help find cancer in some people with dense tissue",
+          "rationale": "Correct. MQSA's dense-tissue paragraph adds that other imaging tests may help some people."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Lay summaries use one of two required density paragraphs. The \"dense\" paragraph adds that other imaging tests may help some people, which leads into a conversation with the clinician.",
+      "variants": {
+        "simpler": "The dense letter says other tests may help some people.",
+        "example": "If a patient asks about ultrasound or MRI after her letter, refer her to her provider."
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-statements"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-064",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization"
+      ],
+      "familyId": "fam-forma-pos-064",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under 21 CFR 900.2, how is radiography performed during an invasive localization or biopsy procedure treated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is excluded from the Part 900 definition of mammography",
+          "rationale": "Correct. Part 900's definition of mammography excludes radiography during invasive localization or biopsy procedures."
+        },
+        {
+          "id": "b",
+          "text": "It counts as a screening mammogram",
+          "rationale": "Procedure radiography is not screening."
+        },
+        {
+          "id": "c",
+          "text": "It counts as a diagnostic mammogram for the outcomes audit",
+          "rationale": "Part 900 excludes it from the definition of mammography altogether."
+        },
+        {
+          "id": "d",
+          "text": "It is classed the same as breast CT",
+          "rationale": "Breast CT is a separate exclusion; the two aren't classed together."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "For Part 900, \"mammography\" excludes radiography during invasive localization or biopsy, investigational-device studies, and breast CT.",
+      "variants": {
+        "simpler": "Biopsy-procedure radiography isn't \"mammography\" under Part 900.",
+        "example": "The post-procedure mammogram after clip placement is still mammography and gets its own assessment category."
+      },
+      "evidenceIds": [
+        "ev-mqsa-modality-definition"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-065",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization"
+      ],
+      "familyId": "fam-forma-pos-065",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "After a stereotactic biopsy with clip placement, a mammogram documents the marker's position. Which MQSA final assessment category fits that exam?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Incomplete: Need additional imaging evaluation",
+          "rationale": "The purpose is documenting the marker, not an unresolved finding."
+        },
+        {
+          "id": "b",
+          "text": "Probably Benign",
+          "rationale": "Probably Benign is an assessment of a finding, not of a marker check."
+        },
+        {
+          "id": "c",
+          "text": "Post-Procedure Mammogram for Marker Placement",
+          "rationale": "Correct. MQSA lists this as a final assessment category."
+        },
+        {
+          "id": "d",
+          "text": "Known Biopsy-Proven Malignancy",
+          "rationale": "Pathology may not be back yet, and the exam's purpose is marker documentation."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA's final assessment categories include \"Post-Procedure Mammogram for Marker Placement\" for exactly this situation.",
+      "variants": {
+        "simpler": "Clip-check mammogram has its own category.",
+        "example": "Accurate view labels on the post-clip images help the radiologist confirm marker location."
+      },
+      "evidenceIds": [
+        "ev-mqsa-assessment-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-066",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization"
+      ],
+      "familyId": "fam-forma-pos-066",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which categories on NCI's BI-RADS table carry a biopsy recommendation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Category 0 and category 1",
+          "rationale": "Category 0 needs additional imaging; category 1 is negative."
+        },
+        {
+          "id": "b",
+          "text": "Category 2 and category 3",
+          "rationale": "Category 2 continues screening; category 3 gets a 6-month follow-up."
+        },
+        {
+          "id": "c",
+          "text": "Category 4 (may require biopsy) and category 5 (requires biopsy)",
+          "rationale": "Correct. NCI lists category 4 as possibly needing biopsy and category 5 as requiring it."
+        },
+        {
+          "id": "d",
+          "text": "Category 6 only",
+          "rationale": "Category 6 means malignancy is already biopsy-proven."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "On NCI's table, category 4 (suspicious) may require biopsy and category 5 (highly suggestive of malignancy) requires biopsy.",
+      "variants": {
+        "simpler": "4 = may biopsy; 5 = biopsy.",
+        "example": "Patients arriving for stereotactic biopsy usually carry one of these assessments."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-birads-table"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-067",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-067",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OSHA names several bloodborne pathogens that can cause disease in humans. Which set does OSHA list?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hepatitis B virus, hepatitis C virus, and HIV",
+          "rationale": "Correct. OSHA lists HBV, HCV, and HIV."
+        },
+        {
+          "id": "b",
+          "text": "Influenza, measles, and tuberculosis",
+          "rationale": "These spread mainly through the air, not through blood."
+        },
+        {
+          "id": "c",
+          "text": "C. difficile and norovirus",
+          "rationale": "CDC discusses these in its hand hygiene guidance, not as bloodborne pathogens."
+        },
+        {
+          "id": "d",
+          "text": "Staphylococcus on intact skin only",
+          "rationale": "This is not OSHA's bloodborne pathogen list."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Bloodborne pathogens are infectious microorganisms in human blood. OSHA lists HBV, HCV, and HIV as examples.",
+      "variants": {
+        "simpler": "Bloodborne = HBV, HCV, HIV.",
+        "example": "Any procedure with needles, like a biopsy, carries this exposure risk."
+      },
+      "evidenceIds": [
+        "ev-pc-osha-bbp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-068",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard",
+        "obj-pp-interventional-prep"
+      ],
+      "familyId": "fam-forma-pos-068",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "While cleaning up after an image-guided biopsy, which event does OSHA identify as a way workers may be exposed to bloodborne pathogens?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Touching a clean, dry gown",
+          "rationale": "A clean gown is not a bloodborne exposure route."
+        },
+        {
+          "id": "b",
+          "text": "Reading the procedure log",
+          "rationale": "Paperwork is not an exposure route."
+        },
+        {
+          "id": "c",
+          "text": "Talking with the patient",
+          "rationale": "Conversation is not a bloodborne exposure route."
+        },
+        {
+          "id": "d",
+          "text": "Needlesticks and other sharps injuries",
+          "rationale": "Correct. OSHA notes needlesticks and other sharps injuries may expose workers."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Sharps used during biopsy are a key exposure route, which is why exposure control plans address engineering and work-practice controls for them.",
+      "variants": {
+        "simpler": "Sharps injuries are a main exposure risk.",
+        "example": "Use the sharps container right away rather than leaving needles on the tray."
+      },
+      "evidenceIds": [
+        "ev-pc-osha-bbp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-069",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-069",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under OSHA's bloodborne pathogens standard, which item is part of the employer's required exposure control plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Annual mammography CE credits",
+          "rationale": "CE is an MQSA personnel requirement, not part of the OSHA plan."
+        },
+        {
+          "id": "b",
+          "text": "Hepatitis B vaccination",
+          "rationale": "Correct. OSHA lists hepatitis B vaccination among the plan's provisions."
+        },
+        {
+          "id": "c",
+          "text": "Medical physicist survey",
+          "rationale": "The physicist survey is an MQSA equipment requirement."
+        },
+        {
+          "id": "d",
+          "text": "Patient lay summary letters",
+          "rationale": "Lay summaries are an MQSA reporting requirement."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "OSHA's exposure control plan covers engineering and work-practice controls, PPE, training, medical surveillance, hepatitis B vaccination, and other provisions of 29 CFR 1910.1030.",
+      "variants": {
+        "simpler": "Hep B vaccination is part of the plan.",
+        "example": "Ask employee health about hepatitis B vaccination when you start a role involving biopsies."
+      },
+      "evidenceIds": [
+        "ev-pc-osha-ecp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-070",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-070",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under OSHA's bloodborne pathogens standard, who must implement the exposure control plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Each patient",
+          "rationale": "Patients are not responsible for workplace exposure control."
+        },
+        {
+          "id": "b",
+          "text": "The employer",
+          "rationale": "Correct. OSHA places the exposure control plan requirement on employers."
+        },
+        {
+          "id": "c",
+          "text": "The accreditation body",
+          "rationale": "Accreditation bodies review image quality; OSHA rules apply to employers."
+        },
+        {
+          "id": "d",
+          "text": "The equipment manufacturer",
+          "rationale": "Manufacturers supply cleaning instructions; the employer implements the plan."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "OSHA requires employers to implement an exposure control plan. Technologists follow it and complete its required training.",
+      "variants": {
+        "simpler": "The employer owns the plan; staff follow it.",
+        "example": "Know where your facility keeps its exposure control plan before you assist with a biopsy."
+      },
+      "evidenceIds": [
+        "ev-pc-osha-ecp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-071",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-071",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "After a biopsy, blood is found on the compression paddle. Which MQSA requirement applies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wipe it with a dry cloth and continue",
+          "rationale": "MQSA requires the facility's documented disinfection procedure."
+        },
+        {
+          "id": "b",
+          "text": "Record the event in the outcomes audit",
+          "rationale": "The outcomes audit tracks results, not equipment contamination."
+        },
+        {
+          "id": "c",
+          "text": "Send the paddle for a medical physicist survey",
+          "rationale": "Contamination calls for cleaning and disinfection, not a survey."
+        },
+        {
+          "id": "d",
+          "text": "Follow the facility's documented procedure for cleaning and disinfecting equipment after contact with blood",
+          "rationale": "Correct. 21 CFR 900.12(e)(13) requires documented cleaning and disinfection procedures after contact with blood or other potentially infectious materials."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA requires documented procedures for cleaning and disinfecting mammography equipment after contact with blood or other potentially infectious materials. The procedures must comply with applicable regulations and follow the manufacturer's recommendations.",
+      "variants": {
+        "simpler": "Blood on equipment: use the documented disinfection procedure.",
+        "example": "Clean the paddle with the product and contact time the facility procedure specifies before the next patient."
+      },
+      "evidenceIds": [
+        "ev-mqsa-infection-control"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-072",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-072",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "If a manufacturer's cleaning recommendations for mammography equipment are unavailable or inadequate, what does MQSA say the facility's procedure should follow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Generally accepted guidance on infection control",
+          "rationale": "Correct. MQSA allows generally accepted guidance when adequate manufacturer recommendations are unavailable."
+        },
+        {
+          "id": "b",
+          "text": "Whatever product is cheapest",
+          "rationale": "Cost is not the MQSA standard."
+        },
+        {
+          "id": "c",
+          "text": "No cleaning until the manufacturer responds",
+          "rationale": "MQSA does not allow skipping disinfection."
+        },
+        {
+          "id": "d",
+          "text": "The radiologist's preferred brand only",
+          "rationale": "MQSA names generally accepted guidance, not a preferred brand."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA's infection-control rule follows the manufacturer's procedures first. Generally accepted guidance applies when adequate manufacturer recommendations are unavailable.",
+      "variants": {
+        "simpler": "No good manufacturer instructions? Use accepted guidance.",
+        "example": "The facility documents which guidance it adopted, and staff follow that document."
+      },
+      "evidenceIds": [
+        "ev-mqsa-infection-control"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-073",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-073",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "After handling a specimen container, a technologist's hands are visibly soiled. Which hand hygiene method does CDC indicate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alcohol-based hand sanitizer only",
+          "rationale": "CDC prefers sanitizer only when hands are not visibly soiled."
+        },
+        {
+          "id": "b",
+          "text": "Put on gloves over the soiled hands",
+          "rationale": "Gloves are not a substitute for hand hygiene."
+        },
+        {
+          "id": "c",
+          "text": "Wash with soap and water",
+          "rationale": "Correct. CDC says to wash with soap and water when hands are visibly soiled."
+        },
+        {
+          "id": "d",
+          "text": "Wipe hands on a gown",
+          "rationale": "This is not a hand hygiene method."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Alcohol-based sanitizer is preferred in most clinical situations unless hands are visibly soiled. Visibly soiled hands need soap and water.",
+      "variants": {
+        "simpler": "Visibly dirty hands: soap and water.",
+        "example": "Use the sink before touching the next patient or clean supplies."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-abhs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-074",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard",
+        "obj-pp-interventional-prep"
+      ],
+      "familyId": "fam-forma-pos-074",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A technologist removes gloves after assisting with a biopsy. What does CDC say to do next?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing, because gloves kept the hands clean",
+          "rationale": "CDC states gloves are not a substitute for hand hygiene."
+        },
+        {
+          "id": "b",
+          "text": "Wait until the end of the shift to wash",
+          "rationale": "CDC calls for hand hygiene immediately after glove removal."
+        },
+        {
+          "id": "c",
+          "text": "Clean hands immediately after removing the gloves",
+          "rationale": "Correct. CDC says to perform hand hygiene immediately after glove removal."
+        },
+        {
+          "id": "d",
+          "text": "Reuse the same gloves for the next patient",
+          "rationale": "Gloves are not reused between patients."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "CDC's hand hygiene moments include immediately after glove removal. Gloves can have defects, and hands can be contaminated while taking them off.",
+      "variants": {
+        "simpler": "Gloves off, hands cleaned.",
+        "example": "Make it a habit: gloves into the bin, then sanitizer."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-gloves",
+        "ev-pc-cdc-hh-moments"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-075",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-interventional-prep",
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-075",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "Before preparing a sterile tray for an image-guided biopsy, when does CDC say hand hygiene should happen?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Immediately before the aseptic task",
+          "rationale": "Correct. CDC lists \"before performing an aseptic task\" as a hand hygiene moment."
+        },
+        {
+          "id": "b",
+          "text": "Only after the procedure is finished",
+          "rationale": "CDC also requires hand hygiene before aseptic tasks."
+        },
+        {
+          "id": "c",
+          "text": "Only if the patient asks",
+          "rationale": "Hand hygiene is not optional or patient-requested."
+        },
+        {
+          "id": "d",
+          "text": "Gloves make hand hygiene unnecessary",
+          "rationale": "CDC says to clean hands before putting on gloves."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "CDC's moments include immediately before touching a patient and before aseptic tasks. Setting up sterile supplies is an aseptic task.",
+      "variants": {
+        "simpler": "Clean hands right before sterile setup.",
+        "example": "Sanitize, glove, then open the sterile field."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-hh-moments",
+        "ev-pc-cdc-gloves"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-076",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-076",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "CDC prefers alcohol-based hand sanitizer in most clinical situations. During an outbreak, which organisms are a reason to wash with soap and water instead?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "HIV and hepatitis C",
+          "rationale": "These are bloodborne; CDC's soap-and-water exception names C. difficile and norovirus."
+        },
+        {
+          "id": "b",
+          "text": "Any virus at any time",
+          "rationale": "CDC still prefers sanitizer in most situations."
+        },
+        {
+          "id": "c",
+          "text": "Influenza only",
+          "rationale": "CDC's guidance here names C. difficile and norovirus."
+        },
+        {
+          "id": "d",
+          "text": "C. difficile or norovirus",
+          "rationale": "Correct. CDC names suspected or confirmed C. difficile or norovirus during outbreaks."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Use soap and water when hands are visibly soiled, before eating, after using the restroom, and during care of patients with suspected or confirmed C. difficile or norovirus in outbreaks.",
+      "variants": {
+        "simpler": "C. diff or norovirus outbreak: soap and water.",
+        "example": "Watch for facility outbreak notices that change your hand hygiene routine."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-abhs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-077",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-077",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "During an exam, a technologist touches a contaminated area of the patient's skin and then needs to reposition a clean area on the same patient. What does CDC say?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No hand hygiene is needed within the same patient",
+          "rationale": "CDC includes soiled-to-clean moves within the same patient."
+        },
+        {
+          "id": "b",
+          "text": "Clean hands before moving from the soiled site to the clean site",
+          "rationale": "Correct. CDC lists \"before moving from a soiled to a clean body site\" as a hand hygiene moment."
+        },
+        {
+          "id": "c",
+          "text": "Change only the compression paddle",
+          "rationale": "Equipment cleaning does not replace hand hygiene."
+        },
+        {
+          "id": "d",
+          "text": "Wait until leaving the room",
+          "rationale": "The moment is before moving to the clean site."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Hand hygiene moments are not limited to entering and leaving the room. Moving from a soiled to a clean body site on the same patient is one of them.",
+      "variants": {
+        "simpler": "Dirty site to clean site: clean your hands in between.",
+        "example": "Sanitize before you touch the clean area."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-hh-moments"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-078",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-078",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Between two routine screening patients, a technologist's hands are not visibly soiled. Which hand hygiene method does CDC prefer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gloves without hand hygiene",
+          "rationale": "Gloves are not a substitute for hand hygiene."
+        },
+        {
+          "id": "b",
+          "text": "Alcohol-based hand sanitizer",
+          "rationale": "Correct. CDC prefers alcohol-based sanitizer in most clinical situations unless hands are visibly soiled."
+        },
+        {
+          "id": "c",
+          "text": "Water rinse only",
+          "rationale": "A plain water rinse is not CDC's preferred method."
+        },
+        {
+          "id": "d",
+          "text": "No hand hygiene, since screening patients are healthy",
+          "rationale": "CDC moments apply to every patient contact."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "CDC guidance: alcohol-based hand sanitizer is preferred in most clinical situations, with soap and water for visibly soiled hands and specific exceptions.",
+      "variants": {
+        "simpler": "Hands look clean? Use sanitizer.",
+        "example": "Sanitize in front of the patient so she sees it done."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-abhs",
+        "ev-pc-cdc-hh-moments"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-079",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-forma-pos-079",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient treated with lumpectomy and radiation reports a firm, round lump near her scar. Which benign condition does NCI link to prior surgery or radiation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lipoma",
+          "rationale": "A lipoma is a benign fat-cell tumor; NCI does not tie it to surgery or radiation."
+        },
+        {
+          "id": "b",
+          "text": "Intraductal papilloma",
+          "rationale": "Papillomas are duct growths near the nipple, not post-treatment changes."
+        },
+        {
+          "id": "c",
+          "text": "Gynecomastia",
+          "rationale": "Gynecomastia is not a post-surgical change in NCI's definitions."
+        },
+        {
+          "id": "d",
+          "text": "Fat necrosis",
+          "rationale": "Correct. NCI describes fat necrosis after injury, surgery, or radiation, sometimes felt as a firm lump."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "In fat necrosis, damaged fat may be replaced by a cyst or scar tissue that can feel like a firm lump. The technologist records the lump and its location relative to the scar; the radiologist interprets it.",
+      "variants": {
+        "simpler": "Surgery or radiation can cause fat necrosis.",
+        "example": "Document the lump's location and the scar so the radiologist can compare."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fat-necrosis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-080",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-body-habitus"
+      ],
+      "familyId": "fam-forma-pos-080",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A patient's kyphosis makes standard positioning difficult. Which MQSA clinical image review standard defines the goal the technologist is still working toward?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Imaging enough breast tissue that cancers are not likely to be missed because of inadequate positioning",
+          "rationale": "Correct. That is the MQSA positioning attribute."
+        },
+        {
+          "id": "b",
+          "text": "Matching a textbook body posture exactly",
+          "rationale": "MQSA defines the goal by tissue imaged, not posture."
+        },
+        {
+          "id": "c",
+          "text": "Using the highest compression force available",
+          "rationale": "Compression has its own attribute and is not a substitute for adequate tissue coverage."
+        },
+        {
+          "id": "d",
+          "text": "Completing the exam in the fewest exposures",
+          "rationale": "Exposure count is not the positioning attribute."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The positioning attribute focuses on the result: sufficient tissue imaged. Detailed adaptations for body habitus need preceptor guidance and qualified-reviewed sources.",
+      "variants": {
+        "simpler": "Goal: enough tissue on the image.",
+        "example": "Adapting technique serves that goal; the exact maneuvers come from training, not this question."
+      },
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-081",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-implant-inquiry",
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-081",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient with breast implants arrives with a new palpable lump. Which combination of MQSA concepts applies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a screening exam because implants are routine",
+          "rationale": "A palpable lump makes it diagnostic, regardless of implants."
+        },
+        {
+          "id": "b",
+          "text": "Implant views are waived for diagnostic exams",
+          "rationale": "MQSA's implant requirement isn't limited to screening."
+        },
+        {
+          "id": "c",
+          "text": "It is a diagnostic exam, and views should maximize visible breast tissue unless contraindicated or modified by a physician",
+          "rationale": "Correct. Her symptom makes it diagnostic, and the implant requirement still applies."
+        },
+        {
+          "id": "d",
+          "text": "No mammogram is allowed when implants are present",
+          "rationale": "NCI and MQSA expect patients with implants to have mammography, with views that maximize visible tissue."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Two rules apply at once. The exam is diagnostic because of the symptom, and the implant requirement still calls for views that maximize visible breast tissue.",
+      "variants": {
+        "simpler": "Symptom = diagnostic; implants = maximize tissue. Both apply.",
+        "example": "Confirm the implant history and the symptom location before the first exposure."
+      },
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition",
+        "ev-mqsa-implant-inquiry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-082",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization",
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-082",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "After a stereotactic biopsy with clip placement, the technologist performs the post-clip mammogram and notices blood on the paddle. Which pairing is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Assessed as Known Biopsy-Proven Malignancy; wipe the paddle dry",
+          "rationale": "Pathology may be pending, and MQSA requires documented disinfection."
+        },
+        {
+          "id": "b",
+          "text": "Excluded from mammography; no cleaning needed",
+          "rationale": "The post-clip mammogram is mammography, and blood contact requires disinfection."
+        },
+        {
+          "id": "c",
+          "text": "Assessed as Post-Procedure Mammogram for Marker Placement; disinfect the paddle per the facility's documented procedure",
+          "rationale": "Correct. Both match the MQSA provisions."
+        },
+        {
+          "id": "d",
+          "text": "Assessed as Probably Benign; replace the unit",
+          "rationale": "Neither part matches MQSA."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA lists a dedicated category for post-procedure marker mammograms and requires documented cleaning and disinfection after contact with blood.",
+      "variants": {
+        "simpler": "Clip-check category, then disinfect.",
+        "example": "Clean the paddle before the next patient, using the facility's product and steps."
+      },
+      "evidenceIds": [
+        "ev-mqsa-assessment-categories",
+        "ev-mqsa-infection-control"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-083",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-spot-mag-nipple",
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-083",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "After a screening callback, the radiologist requests a magnification view. Which statement is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "This is a diagnostic exam, and the unit must provide at least one magnification factor from 1.4 to 2.0",
+          "rationale": "Correct. A callback is diagnostic, and MQSA sets the magnification range."
+        },
+        {
+          "id": "b",
+          "text": "This is still screening, so no additional views are needed",
+          "rationale": "A callback is diagnostic; individualized views such as magnification may be requested."
+        },
+        {
+          "id": "c",
+          "text": "This is diagnostic, but magnification must use the grid",
+          "rationale": "MQSA requires magnification systems to be able to operate with the grid removed."
+        },
+        {
+          "id": "d",
+          "text": "Magnification is prohibited on diagnostic exams",
+          "rationale": "MQSA requires magnification capability on units used for problem solving."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The callback makes the exam diagnostic (individualized views). The equipment must meet MQSA's magnification requirements: at least one factor from 1.4 to 2.0, operable with the grid removed.",
+      "variants": {
+        "simpler": "Callback = diagnostic; magnification needs a 1.4\u20132.0 factor.",
+        "example": "Check the unit's magnification stand setting before positioning."
+      },
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition",
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-084",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-forma-pos-084",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient has no complaints, but her referring clinician noted skin dimpling during a clinical breast exam and ordered imaging. Under MQSA's audit definitions, which exam type fits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Screening, because she has no symptoms of her own",
+          "rationale": "A physical sign found by a clinician makes the exam diagnostic."
+        },
+        {
+          "id": "b",
+          "text": "Screening, because the order came from a clinician",
+          "rationale": "Who orders the exam doesn't determine the type; the reason for it does."
+        },
+        {
+          "id": "c",
+          "text": "Neither, because clinical exam findings are not imaged",
+          "rationale": "NCI says diagnostic mammograms evaluate changes found by a patient or clinician."
+        },
+        {
+          "id": "d",
+          "text": "Diagnostic, because she has a physical sign of breast disease",
+          "rationale": "Correct. MQSA's diagnostic definition includes physical signs, not only symptoms the patient reports."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA's diagnostic definition covers breast symptoms, physical signs of breast disease, or abnormal screening findings. NCI likewise says diagnostic mammograms evaluate changes found by the patient or a clinician.",
+      "variants": {
+        "simpler": "A clinician-found sign also makes it diagnostic.",
+        "example": "Record where the clinician noted the dimpling so the views can be individualized."
+      },
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition",
+        "ev-pos-nci-screening-vs-diagnostic"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-085",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-085",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In CDC's hand hygiene moments, when should hand hygiene happen relative to first touching a patient for positioning?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only after the exam is complete",
+          "rationale": "CDC also calls for hand hygiene before patient contact."
+        },
+        {
+          "id": "b",
+          "text": "Immediately before touching the patient",
+          "rationale": "Correct. CDC lists \"immediately before touching a patient\" as a hand hygiene moment."
+        },
+        {
+          "id": "c",
+          "text": "Only if the patient appears ill",
+          "rationale": "Hand hygiene moments apply to every patient."
+        },
+        {
+          "id": "d",
+          "text": "Only before the first patient of the day",
+          "rationale": "The moment applies before each patient contact."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "CDC's moments: immediately before touching a patient; before aseptic tasks; before moving from a soiled to a clean body site; after touching a patient or surroundings; after contact with blood, body fluids, or contaminated surfaces; and immediately after glove removal.",
+      "variants": {
+        "simpler": "Clean hands right before you touch the patient.",
+        "example": "Sanitize as you greet the patient, before you help with her gown or start positioning."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-hh-moments"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-086",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-forma-pos-086",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "After an exam, the technologist has adjusted the patient's chair and touched the countertop beside her. According to CDC, is hand hygiene needed before the next task?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; only direct skin contact counts",
+          "rationale": "CDC includes the patient's surroundings."
+        },
+        {
+          "id": "b",
+          "text": "Yes; CDC includes after touching a patient's surroundings",
+          "rationale": "Correct. CDC lists hand hygiene after touching a patient or the patient's surroundings."
+        },
+        {
+          "id": "c",
+          "text": "No; surfaces are cleaned weekly",
+          "rationale": "Routine surface cleaning doesn't replace hand hygiene."
+        },
+        {
+          "id": "d",
+          "text": "Only if blood was visible",
+          "rationale": "Blood contact is one moment, but touching surroundings is another."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "CDC's moments include after touching a patient or the patient's surroundings, even without touching the patient's skin.",
+      "variants": {
+        "simpler": "Touched her surroundings? Clean your hands.",
+        "example": "Sanitize after you leave the patient's area, before you touch the workstation."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-hh-moments"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-087",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-forma-pos-087",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A 35-year-old with a known high-risk genetic marker asks whether the 2024 USPSTF biennial screening recommendation applies to her. Which answer is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes; it applies to everyone assigned female at birth age 40 and older",
+          "rationale": "It applies to average-risk people 40 and older, and it explicitly excludes high-risk genetic markers."
+        },
+        {
+          "id": "b",
+          "text": "Yes; USPSTF recommends she start biennial mammograms at 35",
+          "rationale": "USPSTF's biennial recommendation covers ages 40\u201374 at average risk."
+        },
+        {
+          "id": "c",
+          "text": "No; USPSTF says she should never have mammography",
+          "rationale": "Being excluded from the recommendation doesn't mean she shouldn't be screened. High-risk screening is planned separately with her clinician."
+        },
+        {
+          "id": "d",
+          "text": "No; USPSTF says its recommendation does not apply to people with high-risk genetic markers",
+          "rationale": "Correct. The 2024 USPSTF recommendation excludes people with high-risk genetic markers or syndromes."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "The USPSTF recommendation covers average-risk people 40 and older, including those with a first-degree family history or dense breasts. It does not apply to people with high-risk genetic markers or syndromes, high-dose chest radiation at a young age, previous breast cancer, or a high-risk lesion on prior biopsy. ACS guidance for high-risk women generally adds annual MRI starting at 30.",
+      "variants": {
+        "simpler": "High-risk genetics falls outside the USPSTF average-risk recommendation.",
+        "example": "Record her genetic history accurately; her clinician plans high-risk screening such as MRI."
+      },
+      "evidenceIds": [
+        "ev-pc-uspstf-population",
+        "ev-pc-acs-high-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-088",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical",
+        "obj-pp-implant-inquiry"
+      ],
+      "familyId": "fam-forma-pos-088",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient had a left mastectomy with implant reconstruction and has a native right breast. Which general NCI statement helps the technologist confirm the exam plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both breasts always need identical bilateral views",
+          "rationale": "NCI notes the reconstructed breast usually does not need a mammogram; follow the order."
+        },
+        {
+          "id": "b",
+          "text": "People with implant reconstruction after mastectomy usually do not need a mammogram of the reconstructed breast",
+          "rationale": "Correct. NCI says most people with implants after mastectomy reconstruction usually do not need a mammogram of the reconstructed breast. Confirm the order for her native right breast."
+        },
+        {
+          "id": "c",
+          "text": "Mammography is not allowed for any patient with an implant",
+          "rationale": "NCI says people with implants should keep having mammograms of native breast tissue."
+        },
+        {
+          "id": "d",
+          "text": "Implant history doesn't need to be asked because the surgery is in her chart",
+          "rationale": "MQSA requires asking about implants before every exam."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Surgical history changes the exam plan. NCI's general guidance says the reconstructed breast usually does not need mammography, and MQSA still requires asking about implants before the exam. The order and facility protocol determine the final views.",
+      "variants": {
+        "simpler": "Reconstructed side usually not imaged; confirm the plan for the native breast.",
+        "example": "\"I see your left side was reconstructed. Today's order is for your right breast. Is that what you expected?\""
+      },
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement",
+        "ev-mqsa-implant-inquiry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
           }
         ]
       }

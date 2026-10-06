@@ -996,7 +996,7 @@ add("q-ap-047", "obj-ap-malignant", "fam-ap-malignant",
     ["ev-ap-dict-ilc"], review=NEED)
 
 # Form-a reserved
-add("q-ap-048", "obj-ap-clock-quadrants", "fam-ap-form-a",
+add("q-ap-048", "obj-ap-clock-quadrants", "fam-ap-form-a-loq",
     "A history reads “left breast LOQ.” LOQ means:",
     [("a", "Lower outer quadrant", "Correct."),
      ("b", "Left occipital quadrant", "Wrong anatomy."),
@@ -1005,23 +1005,23 @@ add("q-ap-048", "obj-ap-clock-quadrants", "fam-ap-form-a",
     "a", "LOQ = lower outer quadrant.",
     ["ev-ap-seer-quadrants-clock"], pool="form-a")
 
-add("q-ap-049", "obj-ap-assessment-density-categories", "fam-ap-form-a",
+add("q-ap-049", "obj-ap-assessment-density-categories", "fam-ap-form-a-dense-wording",
     "Extremely dense tissue on the report corresponds to which patient density wording?",
     [("a", "Not dense", "Extremely dense maps to dense."),
      ("b", "Dense", "Correct."),
      ("c", "BI-RADS 0 only", "Assessment ≠ density."),
      ("d", "No letter is required", "MQSA requires density notification.")],
     "b", "Extremely dense → dense lay statement.",
-    ["ev-ap-nci-dense-four", "ev-ap-mqsa-density"], pool="form-a", diff="apply")
+    ["ev-ap-nci-dense-four", "ev-ap-mqsa-density"], pool="practice", diff="apply")
 
-add("q-ap-050", "obj-ap-malignant", "fam-ap-form-a",
+add("q-ap-050", "obj-ap-malignant", "fam-ap-form-a-dcis",
     "DCIS is best described as:",
     [("a", "Abnormal duct-lining cells that have not spread outside the duct", "Correct."),
      ("b", "Cancer already throughout the body", "Not DCIS."),
      ("c", "A benign lipoma", "Incorrect."),
      ("d", "Normal myoepithelial physiology", "Incorrect.")],
     "a", "DCIS = in-duct abnormal cells without spread outside the duct.",
-    ["ev-ap-dict-dcis"], pool="form-a", review=NEED)
+    ["ev-ap-dict-dcis"], pool="practice", review=NEED)
 
 wjson(MOD / "questions.json", {"questions": questions})
 print("questions", len(questions), "lessons", len(lessons), "cards", len(cards))

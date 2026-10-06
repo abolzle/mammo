@@ -11,8 +11,8 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 | Objectives complete | 22 / 79 | all |
 | Micro-lessons | 79 | 60–80 |
 | Recall cards | 239 | 200+ |
-| Practice questions | 325 | ~800 incl. two full forms |
-| Reserved-form questions | 65 | two full forms |
+| Practice questions | 327 | ~800 incl. two full forms |
+| Reserved-form questions | 146 | two full forms |
 | Visual exercises | 28 | — |
 
 Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
@@ -87,17 +87,17 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-ap-tdlu` | needs_source | 1 | 3 | 4 | 1 | needs source retrieval before a lesson can be written |
 | `obj-ap-cytology` | needs_source | 1 | 2 | 4 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-lexicon-masses-calcs` | blocked | 1 | 2 | 4 | 0 | blocked: no accessible source verifies the fact |
-| `obj-ap-assessment-density-categories` | source_backed_open | 3 | 6 | 10 | 1 |  |
+| `obj-ap-assessment-density-categories` | source_backed_open | 3 | 6 | 11 | 1 |  |
 | `obj-ap-benign-conditions` | needs_source | 1 | 2 | 5 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-high-risk-lesions` | needs_source | 1 | 2 | 4 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-malignant` | needs_source | 1 | 4 | 4 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-cc` | blocked | 2 | 3 | 9 | 1 | blocked: no accessible source verifies the fact |
-| `obj-pp-mlo` | blocked | 2 | 2 | 7 | 1 | blocked: no accessible source verifies the fact |
-| `obj-pp-lateral-views` | needs_source | 1 | 1 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-exaggerated-cleavage-at` | needs_source | 0 | 1 | 2 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-tangential-rolled` | needs_source | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-malignant` | needs_source | 1 | 4 | 5 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-cc` | blocked | 2 | 3 | 8 | 1 | blocked: no accessible source verifies the fact |
+| `obj-pp-mlo` | blocked | 2 | 2 | 6 | 1 | blocked: no accessible source verifies the fact |
+| `obj-pp-lateral-views` | needs_source | 1 | 1 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-exaggerated-cleavage-at` | needs_source | 0 | 1 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-tangential-rolled` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-implant-displaced` | needs_source | 1 | 1 | 4 | 1 | needs source retrieval before a lesson can be written |
-| `obj-pp-spot-mag-nipple` | needs_source | 1 | 1 | 4 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-spot-mag-nipple` | needs_source | 1 | 1 | 3 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-implant-inquiry` | source_backed_open | 2 | 4 | 8 | 0 |  |
 | `obj-pp-body-habitus` | needs_source | 1 | 1 | 2 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-postsurgical` | needs_source | 0 | 1 | 1 | 0 | needs source retrieval before a lesson can be written |
