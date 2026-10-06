@@ -1,0 +1,436 @@
+{
+  "cards": [
+    {
+      "id": "card-ip-unit-parts",
+      "revision": 1,
+      "objectiveId": "obj-ip-unit-components",
+      "estSeconds": 20,
+      "prompt": "Minimum components of a mammography unit under MQSA?",
+      "answer": "X-ray generator, x-ray control, tube housing assembly, beam-limiting device, and supporting structures.",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition"
+      ]
+    },
+    {
+      "id": "card-ip-no-general-purpose",
+      "revision": 1,
+      "objectiveId": "obj-ip-unit-components",
+      "estSeconds": 15,
+      "prompt": "May general-purpose x-ray equipment with mammography attachments be used for mammography?",
+      "answer": "No. MQSA prohibits general-purpose or specially modified non-mammography systems.",
+      "evidenceIds": [
+        "ev-mqsa-prohibited-equipment"
+      ]
+    },
+    {
+      "id": "card-ip-beam-order",
+      "revision": 1,
+      "objectiveId": "obj-ip-unit-components",
+      "estSeconds": 25,
+      "prompt": "Order along the beam after the tube housing?",
+      "answer": "Beam-limiting device → compression paddle → breast → breast support/image receptor.",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "card-ip-brems",
+      "revision": 1,
+      "objectiveId": "obj-ip-kvp-tube",
+      "estSeconds": 20,
+      "prompt": "What is bremsstrahlung?",
+      "answer": "X-rays produced when electrons decelerate in the anode (braking radiation).",
+      "evidenceIds": [
+        "ev-ip-brems-characteristic"
+      ]
+    },
+    {
+      "id": "card-ip-characteristic",
+      "revision": 1,
+      "objectiveId": "obj-ip-kvp-tube",
+      "estSeconds": 20,
+      "prompt": "What are characteristic x-rays?",
+      "answer": "Photons emitted when an inner-shell vacancy in an anode atom is filled; energies identify the element.",
+      "evidenceIds": [
+        "ev-ip-brems-characteristic"
+      ]
+    },
+    {
+      "id": "card-ip-emax",
+      "revision": 1,
+      "objectiveId": "obj-ip-kvp-tube",
+      "estSeconds": 20,
+      "prompt": "How is maximum photon energy related to tube voltage?",
+      "answer": "E_max equals the electron energy from the accelerating voltage (e.g., 100 kV → 100 keV max).",
+      "evidenceIds": [
+        "ev-ip-emax-kvp"
+      ]
+    },
+    {
+      "id": "card-ip-low-e-contrast",
+      "revision": 1,
+      "objectiveId": "obj-ip-kvp-tube",
+      "estSeconds": 20,
+      "prompt": "Do lower- or higher-energy x-rays generally provide better subject contrast?",
+      "answer": "Lower-energy x-rays generally provide better contrast; higher-energy photons penetrate more.",
+      "evidenceIds": [
+        "ev-ip-energy-penetration-contrast"
+      ]
+    },
+    {
+      "id": "card-ip-soft-tissue",
+      "revision": 1,
+      "objectiveId": "obj-ip-kvp-tube",
+      "estSeconds": 20,
+      "prompt": "Why is soft-tissue contrast difficult on radiographs?",
+      "answer": "Different soft tissues absorb x-rays very similarly.",
+      "evidenceIds": [
+        "ev-ip-breast-soft-tissue-contrast"
+      ]
+    },
+    {
+      "id": "card-ip-paddle-deflect",
+      "revision": 1,
+      "objectiveId": "obj-ip-paddles-grids",
+      "estSeconds": 15,
+      "prompt": "Maximum flat-paddle deflection from parallel under compression?",
+      "answer": "1.0 cm.",
+      "evidenceIds": [
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "card-ip-compression-why",
+      "revision": 1,
+      "objectiveId": "obj-ip-paddles-grids",
+      "estSeconds": 15,
+      "prompt": "Why press the breast between plates (NCI)?",
+      "answer": "Pressing helps get a better x-ray picture of the inside of the breast.",
+      "evidenceIds": [
+        "ev-ip-nci-compression-purpose"
+      ]
+    },
+    {
+      "id": "card-ip-mag-range",
+      "revision": 1,
+      "objectiveId": "obj-ip-geometry",
+      "estSeconds": 15,
+      "prompt": "MQSA magnification factor range that must be available?",
+      "answer": "At least one value between 1.4 and 2.0.",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ]
+    },
+    {
+      "id": "card-ip-mag-grid",
+      "revision": 1,
+      "objectiveId": "obj-ip-magnification-technique",
+      "estSeconds": 15,
+      "prompt": "Grid requirement for magnification systems?",
+      "answer": "Must be able to operate with the grid removed.",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ]
+    },
+    {
+      "id": "card-ip-sid-word",
+      "revision": 1,
+      "objectiveId": "obj-ip-geometry",
+      "estSeconds": 15,
+      "prompt": "What does SID stand for?",
+      "answer": "Source-to-image-receptor distance.",
+      "evidenceIds": [
+        "ev-mqsa-field-alignment"
+      ]
+    },
+    {
+      "id": "card-ip-modality-examples",
+      "revision": 1,
+      "objectiveId": "obj-ip-acquisition-types",
+      "estSeconds": 20,
+      "prompt": "Examples of mammographic modalities in MQSA?",
+      "answer": "Screen-film, full-field digital mammography (FFDM), and digital breast tomosynthesis (DBT).",
+      "evidenceIds": [
+        "ev-mqsa-modality-definition"
+      ]
+    },
+    {
+      "id": "card-ip-dbt-slices",
+      "revision": 1,
+      "objectiveId": "obj-ip-acquisition-types",
+      "estSeconds": 25,
+      "prompt": "How does DBT create a 3D picture (NCI)?",
+      "answer": "Takes multiple thin-slice pictures across the breast; software assembles them into a 3D picture.",
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "card-ip-dbt-2d",
+      "revision": 1,
+      "objectiveId": "obj-ip-acquisition-types",
+      "estSeconds": 15,
+      "prompt": "Does DBT also create 2D images?",
+      "answer": "Yes. NCI states DBT also creates 2D images like standard mammography.",
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "card-ip-dbt-mortality",
+      "revision": 1,
+      "objectiveId": "obj-ip-acquisition-types",
+      "estSeconds": 25,
+      "prompt": "Is DBT proven to reduce breast-cancer deaths more than standard mammography alone?",
+      "answer": "Not established yet; NCI notes this is still being studied (e.g., TMIST).",
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "card-ip-acq-vs-interp",
+      "revision": 1,
+      "objectiveId": "obj-ip-receptors-monitors",
+      "estSeconds": 20,
+      "prompt": "Acquisition workstation vs interpretation workstation?",
+      "answer": "Acquisition: technologist checks completeness/quality. Interpretation: physician diagnostic review.",
+      "evidenceIds": [
+        "ev-ip-acr-dmqc-link"
+      ]
+    },
+    {
+      "id": "card-ip-digital-qc-pointer",
+      "revision": 1,
+      "objectiveId": "obj-ip-receptors-monitors",
+      "estSeconds": 20,
+      "prompt": "Where do detailed digital/DBT QC procedures live for many facilities?",
+      "answer": "In the image receptor manufacturer's program / commonly the ACR Digital Mammography QC Manual (link-only).",
+      "evidenceIds": [
+        "ev-mqsa-other-modalities-qc",
+        "ev-ip-acr-dmqc-link"
+      ]
+    },
+    {
+      "id": "card-ip-post-aec",
+      "revision": 1,
+      "objectiveId": "obj-ip-exposure-factors",
+      "estSeconds": 20,
+      "prompt": "After AEC, what technique factors must the system display?",
+      "answer": "Actual kVp and mAs used (and target/focal spot when algorithm-selected).",
+      "evidenceIds": [
+        "ev-mqsa-technique-display"
+      ]
+    },
+    {
+      "id": "card-ip-manual-mas",
+      "revision": 1,
+      "objectiveId": "obj-ip-exposure-factors",
+      "estSeconds": 15,
+      "prompt": "Must manual selection of mAs (or mA/time) be available?",
+      "answer": "Yes.",
+      "evidenceIds": [
+        "ev-mqsa-technique-display"
+      ]
+    },
+    {
+      "id": "card-ip-diagnostic-dose",
+      "revision": 1,
+      "objectiveId": "obj-ip-exposure-factors",
+      "estSeconds": 20,
+      "prompt": "Why is diagnostic mammography dose higher than screening (NCI)?",
+      "answer": "Diagnostic exams require images from more angles.",
+      "evidenceIds": [
+        "ev-ip-nci-diagnostic-more-images"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ip-indicate-target",
+      "revision": 1,
+      "objectiveId": "obj-ip-thickness-target-filter",
+      "estSeconds": 15,
+      "prompt": "What must be indicated before exposure regarding the tube?",
+      "answer": "Selected focal spot and target material.",
+      "evidenceIds": [
+        "ev-mqsa-technique-display"
+      ]
+    },
+    {
+      "id": "card-ip-mag-trio",
+      "revision": 1,
+      "objectiveId": "obj-ip-magnification-technique",
+      "estSeconds": 25,
+      "prompt": "Three technique changes typical of geometric magnification?",
+      "answer": "Increased OID/air gap, grid removed, small focal spot (with factor 1.4–2.0 available).",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ]
+    },
+    {
+      "id": "card-ip-eight",
+      "revision": 1,
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "estSeconds": 30,
+      "prompt": "List the eight clinical image review attributes.",
+      "answer": "Positioning, compression, exposure level, contrast, sharpness, noise, artifacts, examination identification.",
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ]
+    },
+    {
+      "id": "card-ip-ongoing-ciq",
+      "revision": 1,
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "estSeconds": 20,
+      "prompt": "Must clinical images keep meeting accreditation quality standards between reviews?",
+      "answer": "Yes. Certified facilities must continue to comply with their AB's clinical image quality standards.",
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-quality-standard"
+      ]
+    },
+    {
+      "id": "card-ip-alara",
+      "revision": 1,
+      "objectiveId": "obj-pc-typical-dose",
+      "estSeconds": 20,
+      "prompt": "What does ALARA stand for, and what are the three measures?",
+      "answer": "As low as reasonably achievable; time, distance, and shielding.",
+      "evidenceIds": [
+        "ev-ip-cdc-alara"
+      ]
+    },
+    {
+      "id": "card-ip-lnt",
+      "revision": 1,
+      "objectiveId": "obj-pc-typical-dose",
+      "estSeconds": 25,
+      "prompt": "What is the LNT model (NRC)?",
+      "answer": "Linear no-threshold: any increase in dose is assumed to increase cancer risk; used conservatively for protection estimates.",
+      "evidenceIds": [
+        "ev-ip-nrc-lnt"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ip-low-dose-words",
+      "revision": 1,
+      "objectiveId": "obj-pc-typical-dose",
+      "estSeconds": 15,
+      "prompt": "How does NCI describe the x-ray dose level of mammography?",
+      "answer": "Low-dose x-rays.",
+      "evidenceIds": [
+        "ev-ip-nci-mammogram-low-dose"
+      ]
+    },
+    {
+      "id": "card-ip-dna",
+      "revision": 1,
+      "objectiveId": "obj-pc-typical-dose",
+      "estSeconds": 15,
+      "prompt": "Primary cellular target of ionizing radiation damage discussed in OpenStax?",
+      "answer": "DNA molecules.",
+      "evidenceIds": [
+        "ev-ip-ionizing-dna"
+      ]
+    },
+    {
+      "id": "card-ip-gy",
+      "revision": 1,
+      "objectiveId": "obj-pc-typical-dose",
+      "estSeconds": 15,
+      "prompt": "Define the gray.",
+      "answer": "1 Gy = 1 J/kg absorbed dose (= 100 rad).",
+      "evidenceIds": [
+        "ev-ip-dose-units"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ip-barrier",
+      "revision": 1,
+      "objectiveId": "obj-pc-typical-dose",
+      "estSeconds": 15,
+      "prompt": "CDC clinic example of shielding for the technologist?",
+      "answer": "Going behind a barrier while making the x-ray exposure.",
+      "evidenceIds": [
+        "ev-ip-cdc-tech-barrier"
+      ]
+    },
+    {
+      "id": "card-ip-phantom-dose",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "estSeconds": 20,
+      "prompt": "MQSA phantom average glandular dose limit (single CC of standard-breast phantom)?",
+      "answer": "Must not exceed 3.0 mGy (0.3 rad) per exposure.",
+      "evidenceIds": [
+        "ev-mqsa-dose-limit"
+      ],
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ip-standard-breast",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "estSeconds": 15,
+      "prompt": "MQSA standard breast definition used with phantom dose?",
+      "answer": "4.2 cm compressed; 50% glandular / 50% adipose.",
+      "evidenceIds": [
+        "ev-mqsa-dose-limit"
+      ]
+    }
+  ]
+}

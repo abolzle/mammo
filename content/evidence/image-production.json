@@ -1,0 +1,275 @@
+{
+  "version": "2026-10-06.1",
+  "defaults": {
+    "retrievedOn": "2026-10-06",
+    "review": {
+      "status": "draft",
+      "requiresQualifiedReview": false,
+      "aiAssisted": true,
+      "history": [
+        {
+          "at": "2026-10-06",
+          "status": "draft",
+          "actor": "ai-assisted",
+          "kind": "revision",
+          "note": "AI-assisted draft from retrieved sources. Not yet maintainer source-checked."
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev-ip-brems-characteristic",
+      "sourceId": "src-openstax-college-physics-2e",
+      "locator": "College Physics 2e § 30.4",
+      "claim": "In an x-ray tube, electrons accelerated by high voltage strike the anode and produce x-rays by two processes: bremsstrahlung (braking radiation from electron deceleration) and characteristic x-rays (emitted when an inner-shell vacancy in an anode atom is filled).",
+      "scope": "General x-ray tube physics; not mammography-specific technique charts.",
+      "excerpt": "There are two processes by which x rays are produced in the anode of an x-ray tube. In one process, the deceleration of electrons produces x rays, and these x rays are called bremsstrahlung, or braking radiation. The second process is atomic in nature and produces characteristic x rays, so called because they are characteristic of the anode material.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": []
+      }
+    },
+    {
+      "id": "ev-ip-emax-kvp",
+      "sourceId": "src-openstax-college-physics-2e",
+      "locator": "College Physics 2e § 30.4",
+      "claim": "The maximum energy of an x-ray photon from a tube equals the electron kinetic energy set by the accelerating voltage: E_max = qeV (for example, 100 kV accelerating voltage yields a maximum photon energy of 100 keV).",
+      "scope": "General tube physics relating kV setting to maximum photon energy.",
+      "excerpt": "Thus the accelerating voltage and the maximum x-ray energy are related by conservation of energy. Electric potential energy is converted to kinetic energy and then to photon energy, so that Emax=hfmax=qeV. Units of electron volts are convenient. For example, a 100-kV accelerating voltage produces x-ray photons with a maximum energy of 100 keV.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": []
+      }
+    },
+    {
+      "id": "ev-ip-energy-penetration-contrast",
+      "sourceId": "src-openstax-college-physics-2e",
+      "locator": "College Physics 2e § 30.4 (Medical and Other Diagnostic Uses)",
+      "claim": "Higher-energy x-ray photons penetrate more material; lower-energy x-rays provide better contrast (sharper differentiation) but are more attenuated by thicker materials. Soft-tissue structures with similar absorption are hard to separate on a simple radiograph.",
+      "scope": "General radiographic contrast and penetration principles.",
+      "excerpt": "The more energy an x-ray photon has, the more material it will penetrate. … Low-energy x rays provide better contrast (sharper images). However, due to greater attenuation and less scattering, they are more absorbed by thicker materials. … X-ray absorption by different types of soft tissue is very similar, so contrast is difficult",
+      "citation": "quoted_public",
+      "context": {
+        "modality": []
+      }
+    },
+    {
+      "id": "ev-ip-breast-soft-tissue-contrast",
+      "sourceId": "src-openstax-college-physics-2e",
+      "locator": "College Physics 2e § 30.4 (mammogram paragraph)",
+      "claim": "Mammography is used because early detection matters, but a mammogram cannot diagnose malignancy by itself—it shows evidence of a lump or denser region. Soft-tissue absorption is similar across tissue types, so contrast is difficult, especially in denser younger breasts; more fat in older breasts can improve contrast of a lump.",
+      "scope": "Conceptual soft-tissue imaging challenge; not a positioning or BI-RADS lesson.",
+      "excerpt": "A mammogram cannot diagnose a malignant tumor, only give evidence of a lump or region of increased density within the breast. X-ray absorption by different types of soft tissue is very similar, so contrast is difficult; this is especially true for younger women, who typically have denser breasts.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-ionizing-dna",
+      "sourceId": "src-openstax-college-physics-2e",
+      "locator": "College Physics 2e § 32.2",
+      "claim": "Ionizing radiation affects molecules within cells, particularly DNA. It can interfere with cell reproduction and cell function; rapidly dividing cells (including many cancer cells) are especially sensitive, so radiation can both treat and cause cancer.",
+      "scope": "Technologist-level radiation biology concepts.",
+      "excerpt": "All the effects of ionizing radiation on biological tissue can be understood by knowing that ionizing radiation affects molecules within cells, particularly DNA molecules. … Since ionizing radiation damages the DNA, which is critical in cell reproduction, it has its greatest effect on cells that rapidly reproduce, including most types of cancer. … Without contradiction, ionizing radiation can be both a cure and a cause.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": []
+      }
+    },
+    {
+      "id": "ev-ip-dose-units",
+      "sourceId": "src-openstax-college-physics-2e",
+      "locator": "College Physics 2e § 32.2",
+      "claim": "Absorbed dose is measured in gray (Gy), where 1 Gy = 1 J/kg = 100 rad. Equivalent dose accounting for radiation type uses sievert (Sv) and rem, with Sv = Gy × RBE and 1 Sv = 100 rem.",
+      "scope": "Unit definitions only; not occupational dose limits or mammography technique factors.",
+      "excerpt": "The SI unit for radiation dose is the gray (Gy), which is defined to be 1 Gy = 1 J/kg = 100 rad. … The SI equivalent of the rem is the sievert (Sv), defined to be Sv = Gy × RBE and 1 Sv = 100 rem.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": []
+      },
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-linear-hypothesis",
+      "sourceId": "src-openstax-college-physics-2e",
+      "locator": "College Physics 2e § 32.2 / Ch. 32 summary",
+      "claim": "Immediate effects of very low doses are not observed, but radiation protection often assumes risk is proportional to dose even at low levels (the linear hypothesis). OpenStax also notes radiation protection uses shielding, distance, and limiting time of exposure.",
+      "scope": "Risk model language for teaching; not a numerical risk calculator.",
+      "excerpt": "Effects due to low doses are not observed, but their risk is assumed to be directly proportional to those of high doses, an assumption known as the linear hypothesis. … To physically limit radiation doses, we use shielding, increase the distance from a source, and limit the time of exposure.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": []
+      }
+    },
+    {
+      "id": "ev-ip-nrc-lnt",
+      "sourceId": "src-nrc-radiation-cancer",
+      "locator": "NRC Radiation Exposure and Cancer (reviewed 2020-03-20)",
+      "claim": "Public health data do not absolutely establish cancer occurrence below about 10,000 mrem (100 mSv), but the radiation protection community conservatively assumes any amount of radiation may pose some risk and that risk rises with dose. The NRC accepts the linear no-threshold (LNT) hypothesis as a conservative model for estimating radiation risk.",
+      "scope": "Risk-communication framing for technologists; not a patient-specific risk number.",
+      "excerpt": "Although radiation may cause cancer at high doses and high dose rates, public health data do not absolutely establish the occurrence of cancer following exposure to low doses and dose rates — below about 10,000 mrem (100 mSv). … A linear no-threshold (LNT) dose-response relationship is used to describe the relationship between radiation dose and the occurrence of cancer. … The U.S. Nuclear Regulatory Commission (NRC) accepts the LNT hypothesis as a conservative model for estimating radiation risk.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-cdc-alara",
+      "sourceId": "src-cdc-alara",
+      "locator": "CDC ALARA page (updated 2026-07-17)",
+      "claim": "ALARA means as low as reasonably achievable: avoid radiation exposure that has no direct benefit, even if the dose is small. The three basic protective measures are time (minimize), distance (maximize), and shielding (place an appropriate barrier).",
+      "scope": "General radiation safety philosophy; clinical mammography practice applies these ideas with facility procedures.",
+      "excerpt": "ALARA stands for \"as low as reasonably achievable.\" ALARA means avoiding exposure to radiation that does not have a direct benefit to you, even if the dose is small. To do this, you can use three basic protective measures in radiation safety: time, distance, and shielding.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-ip-cdc-tech-barrier",
+      "sourceId": "src-cdc-alara",
+      "locator": "CDC ALARA page, time/distance/shielding clinic example",
+      "claim": "In a medical x-ray setting, the three ALARA measures work together when the technologist goes behind a barrier while making the exposure, protecting against repeated occupational exposure.",
+      "scope": "Occupational protection concept illustration from CDC.",
+      "excerpt": "You can see how these principles work together when you have an x-ray at your doctor's office or clinic. The radiation technician goes behind a barrier while taking the x-ray image. The barrier protects them from repeated daily exposure to radiation.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "radiography"
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-nci-mammogram-low-dose",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet (updated 2025-12-02), 'What is a mammogram?'",
+      "claim": "Mammography uses low-dose x-rays to create pictures of the breast for screening and diagnosis.",
+      "scope": "Patient-facing description of modality; not a quantitative typical dose.",
+      "excerpt": "Mammography is an imaging test that uses low-dose x-rays to create pictures of the breast. It is used both to screen for breast cancer and diagnose breast conditions.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-nci-dbt",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, 'What are 3D mammograms?'",
+      "claim": "Digital breast tomosynthesis (DBT, 3D mammography) takes multiple thin-slice pictures across the breast that software assembles into a 3D picture; DBT also creates 2D images like standard mammography. Combining DBT with standard mammography finds more tumors than standard mammography alone, but whether DBT reduces breast-cancer deaths more than standard mammography alone is still being studied (e.g., TMIST).",
+      "scope": "Modality comparison at fact-sheet level.",
+      "excerpt": "Three-dimensional, or 3D, mammography, also called digital breast tomosynthesis (DBT), creates three-dimensional images of the breast. To do this, the DBT machine takes multiple pictures of thin “slices” across the breast that are then assembled into a 3D picture by computer software. DBT also creates 2D images of the breast like those created by standard mammography. DBT combined with standard mammography is better at finding tumors than standard mammography alone. However, it's still unknown whether DBT is more effective than standard mammography at reducing deaths from breast cancer.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "FFDM",
+          "DBT"
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-nci-diagnostic-more-images",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, screening vs diagnostic",
+      "claim": "The same machines are used for screening and diagnostic mammograms, but diagnostic mammography requires images from more angles, so the radiation dose is higher.",
+      "scope": "Relative dose concept; not a numeric dose value.",
+      "excerpt": "The same machines are used for both types of mammograms. However, diagnostic mammography requires images from more angles than screening mammography, so the dose of radiation is higher.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ]
+      },
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-nci-compression-purpose",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, 'What happens during a mammogram?'",
+      "claim": "During a mammogram the breast is placed between two plates that are pressed together; pressing helps get a better x-ray picture of the inside of the breast.",
+      "scope": "Patient-facing purpose of compression.",
+      "excerpt": "During a mammogram, your breast is placed between two plates that are then pressed together. Pressing the breast helps get a better x-ray picture of the inside of your breast.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-acr-dmqc-link",
+      "sourceId": "src-acr-dmqc-manual",
+      "locator": "ACR Digital Mammography QC Manual resources page",
+      "claim": "FDA has determined that facilities may use the ACR 2018 Digital Mammography QC Manual for quality control of both 2D digital mammography and DBT; the manual itself is copyrighted and is cited link-only in Mammo (no redistributed text or device-specific pass/fail criteria).",
+      "scope": "Pointer to the accepted digital QC program source; not a substitute for reading the manual.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "FFDM",
+          "DBT"
+        ]
+      },
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          }
+        ]
+      }
+    }
+  ]
+}

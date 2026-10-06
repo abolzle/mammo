@@ -1,0 +1,281 @@
+{
+  "moduleId": "mod-image-production",
+  "version": "1.0.0-beta.1",
+  "assembledForCurriculumVersion": "2026-10-06.1",
+  "note": "Module-local coverage to avoid conflicting edits to shared curriculum.json. Topic moduleId pointers in curriculum may still list mod-mqsa for overlapping topics.",
+  "counts": {
+    "lessons": 11,
+    "questions": 45,
+    "cards": 34,
+    "visuals": 4,
+    "objectivesTouched": 12,
+    "rowsWithGap": 1
+  },
+  "blockedOrNeedsReview": [
+    {
+      "objectiveId": "obj-ip-informatics",
+      "state": "not_in_this_module",
+      "note": "No open sourced evidence packet yet."
+    },
+    {
+      "objectiveId": "obj-ip-cad",
+      "state": "not_in_this_module",
+      "note": "No open sourced evidence packet yet."
+    },
+    {
+      "objectiveId": "obj-qc-phantom",
+      "state": "excluded_device_qc",
+      "note": "Device-specific QC stays out; see ACR DMQC link-only source.",
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ]
+    },
+    {
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "state": "partial_needs_review",
+      "note": "Phantom dose limit taught as QC concept with requiresQualifiedReview; not verified-pool ready."
+    }
+  ],
+  "rows": [
+    {
+      "objectiveId": "obj-ip-acquisition-types",
+      "lessonIds": [
+        "les-ip-ffdm-dbt"
+      ],
+      "questionIds": [
+        "q-ip-017",
+        "q-ip-018",
+        "q-ip-019",
+        "q-ip-020"
+      ],
+      "cardIds": [
+        "card-ip-modality-examples",
+        "card-ip-dbt-slices",
+        "card-ip-dbt-2d",
+        "card-ip-dbt-mortality"
+      ],
+      "visualIds": [
+        "vis-ip-dbt-idea"
+      ],
+      "gap": false,
+      "notes": ""
+    },
+    {
+      "objectiveId": "obj-ip-exposure-factors",
+      "lessonIds": [
+        "les-ip-exposure-factors"
+      ],
+      "questionIds": [
+        "q-ip-025",
+        "q-ip-026",
+        "q-ip-027",
+        "q-ip-028"
+      ],
+      "cardIds": [
+        "card-ip-post-aec",
+        "card-ip-manual-mas",
+        "card-ip-diagnostic-dose"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-ip-geometry",
+      "lessonIds": [
+        "les-ip-geometry"
+      ],
+      "questionIds": [
+        "q-ip-013",
+        "q-ip-014",
+        "q-ip-015",
+        "q-ip-016"
+      ],
+      "cardIds": [
+        "card-ip-mag-range",
+        "card-ip-sid-word"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "lessonIds": [
+        "les-ip-image-quality"
+      ],
+      "questionIds": [
+        "q-ip-037",
+        "q-ip-038",
+        "q-ip-039",
+        "q-ip-040"
+      ],
+      "cardIds": [
+        "card-ip-eight",
+        "card-ip-ongoing-ciq"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": ""
+    },
+    {
+      "objectiveId": "obj-ip-kvp-tube",
+      "lessonIds": [
+        "les-ip-xray-production"
+      ],
+      "questionIds": [
+        "q-ip-005",
+        "q-ip-006",
+        "q-ip-007",
+        "q-ip-008"
+      ],
+      "cardIds": [
+        "card-ip-brems",
+        "card-ip-characteristic",
+        "card-ip-emax",
+        "card-ip-low-e-contrast",
+        "card-ip-soft-tissue"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-ip-magnification-technique",
+      "lessonIds": [
+        "les-ip-mag-technique"
+      ],
+      "questionIds": [
+        "q-ip-033",
+        "q-ip-034",
+        "q-ip-035",
+        "q-ip-036"
+      ],
+      "cardIds": [
+        "card-ip-mag-grid",
+        "card-ip-mag-trio"
+      ],
+      "visualIds": [
+        "vis-ip-mag-air-gap"
+      ],
+      "gap": false,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-ip-paddles-grids",
+      "lessonIds": [
+        "les-ip-paddles-grids"
+      ],
+      "questionIds": [
+        "q-ip-009",
+        "q-ip-010",
+        "q-ip-011",
+        "q-ip-012"
+      ],
+      "cardIds": [
+        "card-ip-paddle-deflect",
+        "card-ip-compression-why"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": ""
+    },
+    {
+      "objectiveId": "obj-ip-receptors-monitors",
+      "lessonIds": [
+        "les-ip-receptors-displays"
+      ],
+      "questionIds": [
+        "q-ip-021",
+        "q-ip-022",
+        "q-ip-023",
+        "q-ip-024"
+      ],
+      "cardIds": [
+        "card-ip-acq-vs-interp",
+        "card-ip-digital-qc-pointer"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-ip-thickness-target-filter",
+      "lessonIds": [
+        "les-ip-thickness-target"
+      ],
+      "questionIds": [
+        "q-ip-029",
+        "q-ip-030",
+        "q-ip-031",
+        "q-ip-032"
+      ],
+      "cardIds": [
+        "card-ip-indicate-target"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-ip-unit-components",
+      "lessonIds": [
+        "les-ip-beam-path"
+      ],
+      "questionIds": [
+        "q-ip-001",
+        "q-ip-002",
+        "q-ip-003",
+        "q-ip-004"
+      ],
+      "cardIds": [
+        "card-ip-unit-parts",
+        "card-ip-no-general-purpose",
+        "card-ip-beam-order"
+      ],
+      "visualIds": [
+        "vis-ip-beam-limiting"
+      ],
+      "gap": false,
+      "notes": ""
+    },
+    {
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "lessonIds": [],
+      "questionIds": [],
+      "cardIds": [
+        "card-ip-phantom-dose",
+        "card-ip-standard-breast"
+      ],
+      "visualIds": [],
+      "gap": true,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-pc-typical-dose",
+      "lessonIds": [
+        "les-ip-radiation-concepts"
+      ],
+      "questionIds": [
+        "q-ip-041",
+        "q-ip-042",
+        "q-ip-043",
+        "q-ip-044",
+        "q-ip-045"
+      ],
+      "cardIds": [
+        "card-ip-alara",
+        "card-ip-lnt",
+        "card-ip-low-dose-words",
+        "card-ip-dna",
+        "card-ip-gy",
+        "card-ip-barrier"
+      ],
+      "visualIds": [
+        "vis-ip-alara-shield"
+      ],
+      "gap": false,
+      "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    }
+  ]
+}

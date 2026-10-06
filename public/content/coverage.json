@@ -97,11 +97,28 @@
       "statement": "Describe typical mammography dose in patient-friendly terms without overstating or minimizing risk.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ip-radiation-concepts"
+      ],
+      "cardIds": [
+        "card-ip-alara",
+        "card-ip-lnt",
+        "card-ip-low-dose-words",
+        "card-ip-dna",
+        "card-ip-gy",
+        "card-ip-barrier"
+      ],
+      "questionIds": [
+        "q-ip-041",
+        "q-ip-042",
+        "q-ip-043",
+        "q-ip-044",
+        "q-ip-045"
+      ],
+      "visualIds": [
+        "vis-ip-alara-shield"
+      ],
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -299,9 +316,22 @@
       "statement": "Explain why mammography uses a low kVp range and how anode material, filtration, window, and focal spot shape the beam.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-xray-production"
+      ],
+      "cardIds": [
+        "card-ip-brems",
+        "card-ip-characteristic",
+        "card-ip-emax",
+        "card-ip-low-e-contrast",
+        "card-ip-soft-tissue"
+      ],
+      "questionIds": [
+        "q-ip-005",
+        "q-ip-006",
+        "q-ip-007",
+        "q-ip-008"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -314,18 +344,26 @@
       "statement": "Describe compression paddle types and MQSA design requirements for paddles, and the role of grids.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-ip-paddles-grids"
+      ],
       "cardIds": [
+        "card-ip-paddle-deflect",
+        "card-ip-compression-why",
         "card-mqsa-paddle-deflect",
         "card-mqsa-mag-range"
       ],
       "questionIds": [
+        "q-ip-009",
+        "q-ip-010",
+        "q-ip-011",
+        "q-ip-012",
         "q-mqsa-038"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-geometry",
@@ -334,9 +372,19 @@
       "statement": "Relate SID, OID, and magnification, including the MQSA magnification range requirement.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-geometry"
+      ],
+      "cardIds": [
+        "card-ip-mag-range",
+        "card-ip-sid-word"
+      ],
+      "questionIds": [
+        "q-ip-013",
+        "q-ip-014",
+        "q-ip-015",
+        "q-ip-016"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -349,17 +397,28 @@
       "statement": "Identify the components that make up a mammography unit and how they relate along the beam path.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-ip-beam-path"
+      ],
+      "cardIds": [
+        "card-ip-unit-parts",
+        "card-ip-no-general-purpose",
+        "card-ip-beam-order"
+      ],
       "questionIds": [
+        "q-ip-001",
+        "q-ip-002",
+        "q-ip-003",
+        "q-ip-004",
         "q-mqsa-048"
       ],
       "visualIds": [
+        "vis-ip-beam-limiting",
         "vis-mqsa-unit-components"
       ],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-acquisition-types",
@@ -368,11 +427,25 @@
       "statement": "Compare FFDM, DBT, and synthesized 2D imaging.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ip-ffdm-dbt"
+      ],
+      "cardIds": [
+        "card-ip-modality-examples",
+        "card-ip-dbt-slices",
+        "card-ip-dbt-2d",
+        "card-ip-dbt-mortality"
+      ],
+      "questionIds": [
+        "q-ip-017",
+        "q-ip-018",
+        "q-ip-019",
+        "q-ip-020"
+      ],
+      "visualIds": [
+        "vis-ip-dbt-idea"
+      ],
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -383,11 +456,21 @@
       "statement": "Describe digital image receptors and the difference between acquisition and interpretation workstations.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-receptors-displays"
+      ],
+      "cardIds": [
+        "card-ip-acq-vs-interp",
+        "card-ip-digital-qc-pointer"
+      ],
+      "questionIds": [
+        "q-ip-021",
+        "q-ip-022",
+        "q-ip-023",
+        "q-ip-024"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -741,6 +824,8 @@
         "les-mqsa-equipment-qc"
       ],
       "cardIds": [
+        "card-ip-phantom-dose",
+        "card-ip-standard-breast",
         "card-mqsa-dose",
         "card-mqsa-standard-breast",
         "card-mqsa-compression-force",
@@ -889,11 +974,22 @@
       "statement": "Predict how kVp, mAs, AEC, and manual technique affect contrast, noise, and dose.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-exposure-factors"
+      ],
+      "cardIds": [
+        "card-ip-post-aec",
+        "card-ip-manual-mas",
+        "card-ip-diagnostic-dose"
+      ],
+      "questionIds": [
+        "q-ip-025",
+        "q-ip-026",
+        "q-ip-027",
+        "q-ip-028"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 2,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -904,11 +1000,20 @@
       "statement": "Relate compressed thickness, target/filter selection, focal spot, and grid use to image quality and dose.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-thickness-target"
+      ],
+      "cardIds": [
+        "card-ip-indicate-target"
+      ],
+      "questionIds": [
+        "q-ip-029",
+        "q-ip-030",
+        "q-ip-031",
+        "q-ip-032"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -919,11 +1024,23 @@
       "statement": "Explain technique changes for magnification (small focal spot, no grid, air gap).",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-ip-mag-technique"
+      ],
+      "cardIds": [
+        "card-ip-mag-grid",
+        "card-ip-mag-trio"
+      ],
+      "questionIds": [
+        "q-ip-033",
+        "q-ip-034",
+        "q-ip-035",
+        "q-ip-036"
+      ],
+      "visualIds": [
+        "vis-ip-mag-air-gap"
+      ],
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -934,17 +1051,25 @@
       "statement": "Evaluate an image against the eight clinical image quality attributes used in accreditation review.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-ip-image-quality"
+      ],
       "cardIds": [
+        "card-ip-eight",
+        "card-ip-ongoing-ciq",
         "card-mqsa-8-attributes"
       ],
       "questionIds": [
+        "q-ip-037",
+        "q-ip-038",
+        "q-ip-039",
+        "q-ip-040",
         "q-mqsa-004"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-patient-artifacts",

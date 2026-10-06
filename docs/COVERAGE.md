@@ -8,12 +8,12 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 9 / 79 | all |
-| Micro-lessons | 12 | 60–80 |
-| Recall cards | 44 | 200+ |
-| Practice questions | 38 | ~800 incl. two full forms |
+| Objectives complete | 12 / 79 | all |
+| Micro-lessons | 23 | 60–80 |
+| Recall cards | 78 | 200+ |
+| Practice questions | 83 | ~800 incl. two full forms |
 | Reserved-form questions | 10 | two full forms |
-| Visual exercises | 4 | — |
+| Visual exercises | 8 | — |
 
 Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 
@@ -33,7 +33,7 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-pc-explain-repeat` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-screening-guidelines` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-bse-cbe` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-typical-dose` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pc-typical-dose` | needs_source | 1 | 6 | 3 | 1 | needs source retrieval before a lesson can be written |
 | `obj-pc-modalities` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-results-pathway` | source_backed_open | 0 | 0 | 3 | 0 | missing lesson |
 | `obj-pc-additional-imaging` | source_backed_open | 0 | 0 | 0 | 0 | no learner assets yet |
@@ -46,12 +46,12 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-pc-prior-images` | source_backed_open | 0 | 0 | 1 | 0 | missing lesson |
 | `obj-pc-surgical-options` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-nonsurgical-options` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-kvp-tube` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-paddles-grids` | source_backed_open | 0 | 2 | 1 | 0 | missing lesson |
-| `obj-ip-geometry` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-unit-components` | source_backed_open | 0 | 0 | 0 | 1 | missing lesson |
-| `obj-ip-acquisition-types` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-receptors-monitors` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-kvp-tube` | needs_source | 1 | 5 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-paddles-grids` | source_backed_open | 1 | 4 | 5 | 0 |  |
+| `obj-ip-geometry` | needs_source | 1 | 2 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-unit-components` | source_backed_open | 1 | 3 | 4 | 2 |  |
+| `obj-ip-acquisition-types` | needs_source | 1 | 4 | 4 | 1 | needs source retrieval before a lesson can be written |
+| `obj-ip-receptors-monitors` | needs_source | 1 | 2 | 1 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-informatics` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-cad` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-mqsa-certification` | source_backed_open | 1 | 4 | 3 | 0 |  |
@@ -66,7 +66,7 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-mqsa-records-transfer` | source_backed_open | 1 | 2 | 2 | 0 |  |
 | `obj-mqsa-outcomes-audit` | source_backed_open | 1 | 2 | 3 | 0 |  |
 | `obj-mqsa-required-policies` | source_backed_open | 1 | 2 | 2 | 0 |  |
-| `obj-mqsa-equipment-qc` | source_backed_open | 1 | 4 | 3 | 0 |  |
+| `obj-mqsa-equipment-qc` | source_backed_open | 1 | 6 | 3 | 0 |  |
 | `obj-qc-phantom` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-qc-compression-tests` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-qc-visual-checklist` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
@@ -75,10 +75,10 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-qc-detector-calibration` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-qc-physicist-survey` | source_backed_open | 0 | 2 | 1 | 0 | missing lesson |
 | `obj-qc-physicist-tests` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-exposure-factors` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-thickness-target-filter` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-magnification-technique` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-image-quality-attributes` | source_backed_open | 0 | 1 | 1 | 0 | missing lesson |
+| `obj-ip-exposure-factors` | needs_source | 1 | 3 | 2 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-thickness-target-filter` | needs_source | 1 | 1 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-magnification-technique` | needs_source | 1 | 2 | 1 | 1 | needs source retrieval before a lesson can be written |
+| `obj-ip-image-quality-attributes` | source_backed_open | 1 | 3 | 5 | 0 |  |
 | `obj-ip-patient-artifacts` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-clock-quadrants` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-triangulation` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
