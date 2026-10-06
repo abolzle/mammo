@@ -207,6 +207,8 @@ export const question = z.object({
   familyId: id("fam"),
   /** practice = daily study; form-* = reserved for an assessment form and excluded from daily study. */
   pool: z.enum(["practice", "form-a", "form-b"]),
+  /** Reserved-form items only: "pilot" pre-designates a simulated unscored pilot in full simulations. Absent means scored. */
+  simulationRole: z.enum(["scored", "pilot"]).optional(),
   difficultyIntent: z.enum(["recall", "understand", "apply"]),
   kind: z.enum(["single", "case", "calculation", "visual"]),
   stem: z.string().min(10),
