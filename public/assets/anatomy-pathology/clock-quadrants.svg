@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img" aria-labelledby="t d">
+  <title id="t">Schematic breast quadrants and clock face</title>
+  <desc id="d">Two schematic breast outlines labeled Right and Left, each with upper/lower and inner/outer quadrant labels and a simple clock face. Labeled SCHEMATIC — NOT A MAMMOGRAM.</desc>
+  <rect width="640" height="340" fill="#fbfaf7"/>
+  <text x="320" y="22" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#0f766e" font-weight="600">SCHEMATIC — NOT A MAMMOGRAM</text>
+  <!-- Right breast (viewer left when facing patient) -->
+  <ellipse cx="170" cy="175" rx="110" ry="120" fill="#e8eef5" stroke="#193854" stroke-width="2"/>
+  <circle cx="170" cy="175" r="10" fill="#193854"/>
+  <line x1="170" y1="55" x2="170" y2="295" stroke="#94a3b8" stroke-dasharray="4 3"/>
+  <line x1="60" y1="175" x2="280" y2="175" stroke="#94a3b8" stroke-dasharray="4 3"/>
+  <!-- Facing patient: outer/lateral toward axilla (outside of page); inner/medial toward midline -->
+  <text x="100" y="120" font-family="system-ui,sans-serif" font-size="12" fill="#193854">UOQ</text>
+  <text x="210" y="120" font-family="system-ui,sans-serif" font-size="12" fill="#193854">UIQ</text>
+  <text x="100" y="240" font-family="system-ui,sans-serif" font-size="12" fill="#193854">LOQ</text>
+  <text x="210" y="240" font-family="system-ui,sans-serif" font-size="12" fill="#193854">LIQ</text>
+  <text x="170" y="318" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#193854">Right breast</text>
+  <!-- Left breast -->
+  <ellipse cx="470" cy="175" rx="110" ry="120" fill="#e8eef5" stroke="#193854" stroke-width="2"/>
+  <circle cx="470" cy="175" r="10" fill="#193854"/>
+  <line x1="470" y1="55" x2="470" y2="295" stroke="#94a3b8" stroke-dasharray="4 3"/>
+  <line x1="360" y1="175" x2="580" y2="175" stroke="#94a3b8" stroke-dasharray="4 3"/>
+  <text x="420" y="120" font-family="system-ui,sans-serif" font-size="12" fill="#193854">UIQ</text>
+  <text x="510" y="120" font-family="system-ui,sans-serif" font-size="12" fill="#193854">UOQ</text>
+  <text x="420" y="240" font-family="system-ui,sans-serif" font-size="12" fill="#193854">LIQ</text>
+  <text x="510" y="240" font-family="system-ui,sans-serif" font-size="12" fill="#193854">LOQ</text>
+  <text x="470" y="318" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#193854">Left breast</text>
+  <text x="320" y="48" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Quadrant names as SEER ICD-O subsites; clock language overlays the same map</text>
+</svg>

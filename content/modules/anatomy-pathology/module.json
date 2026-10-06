@@ -1,0 +1,574 @@
+{
+  "id": "mod-anatomy-pathology",
+  "version": "1.0.0-beta.1",
+  "title": "Anatomy, physiology, and pathology",
+  "summary": "Breast anatomy for positioning relevance, tissue composition and density concepts, findings vocabulary at technologist level, and BI-RADS/MQSA assessment–density awareness — without teaching independent image interpretation. Honest beta status throughout.",
+  "topicIds": [
+    "top-ap-localization",
+    "top-ap-external",
+    "top-ap-internal",
+    "top-ap-reporting",
+    "top-ap-benign",
+    "top-ap-high-risk",
+    "top-ap-malignant"
+  ],
+  "assets": [
+    {
+      "id": "asset-ap-clock",
+      "kind": "svg_schematic",
+      "title": "Schematic quadrants on right and left breasts",
+      "src": "/assets/anatomy-pathology/clock-quadrants.svg",
+      "width": 640,
+      "height": 340,
+      "alt": "Schematic right and left breast outlines with UIQ/UOQ/LIQ/LOQ labels. Labeled SCHEMATIC — NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-ap-ductal",
+      "kind": "svg_schematic",
+      "title": "Schematic ductal–lobular tree",
+      "src": "/assets/anatomy-pathology/ductal-lobular.svg",
+      "width": 640,
+      "height": 300,
+      "alt": "Schematic nipple-to-lobule duct tree with alveoli clusters. Labeled SCHEMATIC — NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-ap-seer-lobes-ducts",
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-ap-density",
+      "kind": "svg_schematic",
+      "title": "Schematic density categories",
+      "src": "/assets/anatomy-pathology/density-categories.svg",
+      "width": 640,
+      "height": 220,
+      "alt": "Four shaded boxes for density categories with not-dense vs dense mapping. Labeled SCHEMATIC — NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-ap-nci-dense-four",
+        "ev-ap-mqsa-density"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-ap-lymph",
+      "kind": "svg_schematic",
+      "title": "Schematic regional lymph node groups",
+      "src": "/assets/anatomy-pathology/lymph-regions.svg",
+      "width": 520,
+      "height": 320,
+      "alt": "Schematic breast with markers for axillary, infra/supraclavicular, and internal mammary regions. Labeled SCHEMATIC — NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-ap-seer-lymph-groups"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-ap-insitu",
+      "kind": "svg_schematic",
+      "title": "Schematic in situ versus invasive",
+      "src": "/assets/anatomy-pathology/insitu-vs-invasive.svg",
+      "width": 640,
+      "height": 260,
+      "alt": "Two duct schematics comparing cells confined in place versus spreading outside. Labeled SCHEMATIC — NOT A MAMMOGRAM / NOT DIAGNOSTIC.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-ap-dict-insitu",
+        "ev-ap-dict-dcis",
+        "ev-ap-dict-idc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "visuals": [
+    {
+      "id": "vis-ap-uoq-right",
+      "revision": 1,
+      "objectiveId": "obj-ap-clock-quadrants",
+      "assetId": "asset-ap-clock",
+      "estSeconds": 45,
+      "title": "Find the right-breast UOQ",
+      "prompt": "On the left schematic (right breast, facing patient), select the upper outer quadrant label region (lateral/axillary side).",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Region A, upper-left area of the left schematic (toward axilla)",
+          "x": 70,
+          "y": 90,
+          "w": 70,
+          "h": 50,
+          "revealLabel": "Right UOQ"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Region B, upper-right area of the left schematic (toward midline)",
+          "x": 185,
+          "y": 90,
+          "w": 70,
+          "h": 50,
+          "revealLabel": "Right UIQ"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Region C, lower-left area of the left schematic",
+          "x": 70,
+          "y": 210,
+          "w": 70,
+          "h": 50,
+          "revealLabel": "Right LOQ"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Region D, nipple marker center",
+          "x": 150,
+          "y": 155,
+          "w": 40,
+          "h": 40,
+          "revealLabel": "Central nipple"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. Outer/lateral on the right breast is toward the axilla (outside of the page).",
+        "b": "That is UIQ (upper inner / toward midline).",
+        "c": "That is LOQ (lower outer).",
+        "d": "The center marker is the nipple/central region."
+      },
+      "explanation": "SEER names UOQ as upper outer quadrant. Match the label on the correct laterality schematic.",
+      "accessibilityNote": "Regions described by position on the left (right-breast) schematic until reveal.",
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-ap-lobule",
+      "revision": 1,
+      "objectiveId": "obj-ap-tdlu",
+      "assetId": "asset-ap-ductal",
+      "estSeconds": 40,
+      "title": "Find a lobule/alveoli cluster",
+      "prompt": "Select the region that represents lobule/alveoli clusters on this duct-tree schematic.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Region A, far-left circle",
+          "x": 50,
+          "y": 120,
+          "w": 60,
+          "h": 60,
+          "revealLabel": "Nipple"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Region B, right-side clustered circles",
+          "x": 300,
+          "y": 50,
+          "w": 80,
+          "h": 60,
+          "revealLabel": "Lobule / alveoli"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Region C, empty lower margin",
+          "x": 100,
+          "y": 250,
+          "w": 100,
+          "h": 30,
+          "revealLabel": "Margin / label area"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Region D, title banner",
+          "x": 200,
+          "y": 5,
+          "w": 200,
+          "h": 25,
+          "revealLabel": "Schematic banner"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "That is the nipple marker.",
+        "b": "Correct — clustered circles represent lobules/alveoli.",
+        "c": "Not a lobule cluster.",
+        "d": "Banner text, not anatomy."
+      },
+      "explanation": "Lobules are clusters of alveoli along the duct tree.",
+      "accessibilityNote": "Choose by position description; names reveal after answer.",
+      "evidenceIds": [
+        "ev-ap-openstax-structure",
+        "ev-ap-seer-lobes-ducts"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-ap-dense-map",
+      "revision": 1,
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "assetId": "asset-ap-density",
+      "estSeconds": 40,
+      "title": "Which categories are “dense” for patients?",
+      "prompt": "Select a box that maps to the dense patient statement.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Box A, farthest left",
+          "x": 16,
+          "y": 36,
+          "w": 140,
+          "h": 110,
+          "revealLabel": "Almost entirely fatty — not dense"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Box B, second from left",
+          "x": 172,
+          "y": 36,
+          "w": 140,
+          "h": 110,
+          "revealLabel": "Scattered — not dense"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Box C, third from left",
+          "x": 328,
+          "y": 36,
+          "w": 140,
+          "h": 110,
+          "revealLabel": "Heterogeneously dense — dense"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Banner text at top",
+          "x": 200,
+          "y": 0,
+          "w": 240,
+          "h": 28,
+          "revealLabel": "Schematic banner"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "Fatty maps to not dense.",
+        "b": "Scattered maps to not dense.",
+        "c": "Correct — heterogeneously dense maps to dense.",
+        "d": "Not a density category box."
+      },
+      "explanation": "Heterogeneously dense and extremely dense map to the dense patient statement.",
+      "accessibilityNote": "Boxes described left-to-right without revealing dense/not-dense until feedback.",
+      "evidenceIds": [
+        "ev-ap-nci-dense-four",
+        "ev-ap-mqsa-density"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-ap-axilla-node",
+      "revision": 1,
+      "objectiveId": "obj-ap-internal-structures",
+      "assetId": "asset-ap-lymph",
+      "estSeconds": 40,
+      "title": "Find the axillary node region marker",
+      "prompt": "Select the marker that represents the axillary (underarm) node region.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Marker A, left of the breast outline",
+          "x": 120,
+          "y": 120,
+          "w": 40,
+          "h": 40,
+          "revealLabel": "Axilla"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Marker B, upper center-left",
+          "x": 180,
+          "y": 50,
+          "w": 40,
+          "h": 40,
+          "revealLabel": "Supraclavicular area"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Marker C, on the breast labeled IM",
+          "x": 285,
+          "y": 145,
+          "w": 35,
+          "h": 35,
+          "revealLabel": "Internal mammary"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Marker D, upper center-right",
+          "x": 300,
+          "y": 50,
+          "w": 40,
+          "h": 40,
+          "revealLabel": "Infraclavicular area"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct — underarm/axillary region marker.",
+        "b": "That marker is toward the supraclavicular area.",
+        "c": "IM marks internal mammary (parasternal) region.",
+        "d": "That marker is toward the infraclavicular area."
+      },
+      "explanation": "SEER lists axillary nodes under the arm among regional groups.",
+      "accessibilityNote": "Markers described by position until reveal.",
+      "evidenceIds": [
+        "ev-ap-seer-lymph-groups"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Areola",
+      "definition": "Dark-colored skin surrounding the nipple.",
+      "evidenceIds": [
+        "ev-ap-dict-areola"
+      ]
+    },
+    {
+      "term": "Fibroglandular tissue",
+      "definition": "Fibrous connective tissue plus glandular tissue (ducts and lobules).",
+      "evidenceIds": [
+        "ev-ap-dict-fibroglandular"
+      ]
+    },
+    {
+      "term": "In situ",
+      "definition": "In its original place; abnormal cells have not spread from where they formed.",
+      "evidenceIds": [
+        "ev-ap-dict-insitu"
+      ]
+    },
+    {
+      "term": "Sentinel lymph node",
+      "definition": "First lymph node to which cancer is likely to spread from a primary tumor.",
+      "evidenceIds": [
+        "ev-ap-dict-sentinel"
+      ]
+    },
+    {
+      "term": "DCIS",
+      "definition": "Abnormal cells in a breast duct lining that have not spread outside the duct.",
+      "evidenceIds": [
+        "ev-ap-dict-dcis"
+      ]
+    },
+    {
+      "term": "Suspensory ligaments",
+      "definition": "Connective-tissue bands connecting breast tissue to the overlying dermis.",
+      "evidenceIds": [
+        "ev-ap-openstax-suspensory"
+      ]
+    }
+  ]
+}
