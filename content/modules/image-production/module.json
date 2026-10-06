@@ -1,0 +1,414 @@
+{
+  "id": "mod-image-production",
+  "version": "1.0.0-beta.1",
+  "title": "Image production: acquisition, quality, and radiation",
+  "summary": "How the mammography beam is made and shaped, how FFDM and DBT differ, how technologists judge image quality, and how to talk about radiation risk without inventing numbers.",
+  "topicIds": [
+    "top-ip-unit-design",
+    "top-ip-digital",
+    "top-ip-technique",
+    "top-ip-image-evaluation",
+    "top-pc-education"
+  ],
+  "assets": [
+    {
+      "id": "asset-ip-beam-path",
+      "kind": "svg_schematic",
+      "title": "Beam path through a mammography unit",
+      "src": "/assets/image-production/beam-path.svg",
+      "width": 320,
+      "height": 420,
+      "alt": "Schematic side view: tube housing at top, then beam-limiting device, compression paddle, breast, and breast support with image receptor. Not a photograph and not to scale.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "asset-ip-dbt-slices",
+      "kind": "svg_schematic",
+      "title": "DBT acquisition as thin slices",
+      "src": "/assets/image-production/dbt-slices.svg",
+      "width": 560,
+      "height": 280,
+      "alt": "Schematic: an x-ray tube arc above a compressed breast, with several thin slice planes through the breast labeled as reconstructed tomosynthesis slices. Not a mammogram.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "asset-ip-alara-triad",
+      "kind": "svg_schematic",
+      "title": "ALARA: time, distance, shielding",
+      "src": "/assets/image-production/alara-triad.svg",
+      "width": 600,
+      "height": 220,
+      "alt": "Three labeled panels: minimize time near a source, maximize distance, and place shielding between you and the source.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-ip-cdc-alara"
+      ]
+    },
+    {
+      "id": "asset-ip-geometry-mag",
+      "kind": "svg_schematic",
+      "title": "Contact versus magnification geometry",
+      "src": "/assets/image-production/geometry-mag.svg",
+      "width": 560,
+      "height": 300,
+      "alt": "Two schematic side views: contact geometry with breast on the receptor, and magnification geometry with the breast raised on a platform creating an air gap above the receptor. Not to scale.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "requiresQualifiedReview": true
+      }
+    },
+    {
+      "id": "asset-ip-eight-attributes",
+      "kind": "svg_schematic",
+      "title": "Eight clinical image quality attributes",
+      "src": "/assets/image-production/eight-attributes.svg",
+      "width": 640,
+      "height": 240,
+      "alt": "Eight equal boxes listing positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ]
+    }
+  ],
+  "visuals": [
+    {
+      "id": "vis-ip-beam-limiting",
+      "revision": 1,
+      "objectiveId": "obj-ip-unit-components",
+      "assetId": "asset-ip-beam-path",
+      "estSeconds": 45,
+      "title": "Find the beam-limiting device",
+      "prompt": "Select the beam-limiting device on this schematic unit.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Component A, top block on the C-arm",
+          "x": 105,
+          "y": 22,
+          "w": 110,
+          "h": 55,
+          "revealLabel": "Tube housing assembly"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Component B, small block just below A",
+          "x": 130,
+          "y": 90,
+          "w": 60,
+          "h": 28,
+          "revealLabel": "Beam-limiting device"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Component C, thin plate above the breast",
+          "x": 85,
+          "y": 230,
+          "w": 150,
+          "h": 16,
+          "revealLabel": "Compression paddle"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Component D, base under the breast",
+          "x": 75,
+          "y": 295,
+          "w": 170,
+          "h": 28,
+          "revealLabel": "Breast support / image receptor"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "That is the tube housing, where x-rays are produced.",
+        "b": "Correct. The beam-limiting device shapes the field between the tube and the patient.",
+        "c": "That is the compression paddle.",
+        "d": "That is the breast support with the image receptor."
+      },
+      "explanation": "Along the beam: tube housing → beam-limiting device → compression paddle → breast → breast support and receptor. MQSA's unit definition includes generator, control, tube housing, beam-limiting device, and supports.",
+      "accessibilityNote": "Components are described by position only until after you answer.",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-compression-device"
+      ]
+    },
+    {
+      "id": "vis-ip-dbt-idea",
+      "revision": 1,
+      "objectiveId": "obj-ip-acquisition-types",
+      "assetId": "asset-ip-dbt-slices",
+      "estSeconds": 40,
+      "title": "What does DBT reconstruct?",
+      "prompt": "Select the part of the schematic that represents the thin reconstructed slice planes through the breast.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Region A, the tube arc above the breast",
+          "x": 40,
+          "y": 20,
+          "w": 200,
+          "h": 70,
+          "revealLabel": "Tube motion arc"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Region B, stacked horizontal lines inside the breast",
+          "x": 250,
+          "y": 110,
+          "w": 160,
+          "h": 90,
+          "revealLabel": "Reconstructed thin slices"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Region C, the paddle alone",
+          "x": 230,
+          "y": 95,
+          "w": 200,
+          "h": 18,
+          "revealLabel": "Compression paddle"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Region D, the support table only",
+          "x": 220,
+          "y": 210,
+          "w": 220,
+          "h": 30,
+          "revealLabel": "Breast support"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "The arc shows tube positions during acquisition, not the reconstructed slices.",
+        "b": "Correct. DBT assembles multiple thin-slice images into a 3D dataset.",
+        "c": "The paddle compresses the breast; it is not the reconstructed volume.",
+        "d": "The support holds the breast; the slices are the reconstructed planes inside tissue."
+      },
+      "explanation": "NCI describes DBT as acquiring multiple thin-slice pictures that software assembles into a 3D picture, while also creating 2D images.",
+      "accessibilityNote": "Regions are announced by location; names appear after answering.",
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "id": "vis-ip-alara-shield",
+      "revision": 1,
+      "objectiveId": "obj-pc-typical-dose",
+      "assetId": "asset-ip-alara-triad",
+      "estSeconds": 35,
+      "title": "Which panel is shielding?",
+      "prompt": "Select the ALARA panel that shows placing a barrier between you and the source.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Left panel",
+          "x": 20,
+          "y": 30,
+          "w": 170,
+          "h": 160,
+          "revealLabel": "Time: minimize stay"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Center panel",
+          "x": 215,
+          "y": 30,
+          "w": 170,
+          "h": 160,
+          "revealLabel": "Distance: stand farther away"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Right panel",
+          "x": 410,
+          "y": 30,
+          "w": 170,
+          "h": 160,
+          "revealLabel": "Shielding: barrier between you and source"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Title banner only",
+          "x": 20,
+          "y": 0,
+          "w": 560,
+          "h": 28,
+          "revealLabel": "Title, not a protective measure"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "That panel is time: finish the necessary work and leave.",
+        "b": "That panel is distance: farther away means lower dose.",
+        "c": "Correct. Shielding puts material between you and the source.",
+        "d": "The banner labels the figure; it is not one of the three measures."
+      },
+      "explanation": "CDC's ALARA measures are time, distance, and shielding. In a clinic, standing behind a barrier while exposing is the everyday shielding example.",
+      "accessibilityNote": "Panels are selectable by left/center/right position.",
+      "evidenceIds": [
+        "ev-ip-cdc-alara",
+        "ev-ip-cdc-tech-barrier"
+      ]
+    },
+    {
+      "id": "vis-ip-mag-air-gap",
+      "revision": 1,
+      "objectiveId": "obj-ip-magnification-technique",
+      "assetId": "asset-ip-geometry-mag",
+      "estSeconds": 45,
+      "title": "Which setup is magnification geometry?",
+      "prompt": "Select the schematic that shows the breast raised above the receptor with an air gap.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Left schematic",
+          "x": 20,
+          "y": 40,
+          "w": 240,
+          "h": 220,
+          "revealLabel": "Contact geometry"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Right schematic",
+          "x": 300,
+          "y": 40,
+          "w": 240,
+          "h": 220,
+          "revealLabel": "Magnification geometry with air gap"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Left label only",
+          "x": 20,
+          "y": 10,
+          "w": 240,
+          "h": 28,
+          "revealLabel": "Label for contact view"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Right label only",
+          "x": 300,
+          "y": 10,
+          "w": 240,
+          "h": 28,
+          "revealLabel": "Label for magnification view"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "Contact geometry places the breast on the receptor; there is no air gap.",
+        "b": "Correct. Magnification raises the breast, creating OID and an air gap; MQSA requires the system can operate with the grid removed.",
+        "c": "That is only the caption for the contact diagram.",
+        "d": "That is only the caption; select the diagram itself."
+      },
+      "explanation": "MQSA requires magnification systems to provide at least one factor between 1.4 and 2.0 and to operate with the grid removed. The air gap replaces grid cleanup in that geometry.",
+      "accessibilityNote": "Left versus right schematic can be chosen from the keyboard.",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ],
+      "review": {
+        "requiresQualifiedReview": true
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Bremsstrahlung",
+      "definition": "X-rays produced when electrons decelerate in the anode (braking radiation).",
+      "evidenceIds": [
+        "ev-ip-brems-characteristic"
+      ]
+    },
+    {
+      "term": "Characteristic x-ray",
+      "definition": "X-ray emitted when an electron fills an inner-shell vacancy in an anode atom; energies identify the element.",
+      "evidenceIds": [
+        "ev-ip-brems-characteristic"
+      ]
+    },
+    {
+      "term": "Digital breast tomosynthesis (DBT)",
+      "definition": "3D mammography that acquires multiple thin-slice projections and reconstructs a volumetric image set; also produces 2D images.",
+      "evidenceIds": [
+        "ev-ip-nci-dbt"
+      ]
+    },
+    {
+      "term": "FFDM",
+      "definition": "Full-field digital mammography: a digital 2D mammographic modality under MQSA's modality definition.",
+      "evidenceIds": [
+        "ev-mqsa-modality-definition"
+      ]
+    },
+    {
+      "term": "ALARA",
+      "definition": "As low as reasonably achievable: avoid non-beneficial radiation exposure; use time, distance, and shielding.",
+      "evidenceIds": [
+        "ev-ip-cdc-alara"
+      ]
+    },
+    {
+      "term": "Linear no-threshold (LNT)",
+      "definition": "Conservative model assuming any increase in dose incrementally increases cancer risk; accepted by the NRC for radiation protection estimates.",
+      "evidenceIds": [
+        "ev-ip-nrc-lnt"
+      ]
+    },
+    {
+      "term": "Gray (Gy)",
+      "definition": "SI unit of absorbed dose: 1 Gy = 1 J/kg = 100 rad.",
+      "evidenceIds": [
+        "ev-ip-dose-units"
+      ]
+    },
+    {
+      "term": "Sievert (Sv)",
+      "definition": "SI unit of equivalent dose: Sv = Gy × RBE; 1 Sv = 100 rem.",
+      "evidenceIds": [
+        "ev-ip-dose-units"
+      ]
+    },
+    {
+      "term": "Beam-limiting device",
+      "definition": "Component that shapes the x-ray field; required part of a mammography unit under MQSA.",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition"
+      ]
+    },
+    {
+      "term": "Air gap",
+      "definition": "Space between the magnified breast and the receptor that reduces scatter reaching the detector when the grid is removed.",
+      "evidenceIds": [
+        "ev-mqsa-magnification-equipment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="t d">
+  <title id="t">Beam path through a mammography unit</title>
+  <desc id="d">Schematic side view from tube housing at top through beam-limiting device, compression paddle, breast, and breast support with image receptor. Not to scale.</desc>
+  <rect width="320" height="420" fill="#fbfaf7"/>
+  <rect x="24" y="16" width="28" height="390" rx="6" fill="#cbd5e1"/>
+  <rect x="52" y="48" width="36" height="300" fill="#e2e8f0"/>
+  <rect x="108" y="28" width="110" height="58" rx="10" fill="#1e3a5f"/>
+  <text x="163" y="62" fill="#f8fafc" font-size="11" font-family="system-ui,sans-serif" text-anchor="middle">Tube</text>
+  <rect x="138" y="96" width="50" height="26" rx="3" fill="#2f6f73"/>
+  <path d="M163 122 L110 305 L216 305 Z" fill="#14b8a6" opacity="0.12"/>
+  <rect x="90" y="238" width="150" height="10" rx="2" fill="#5eead4" stroke="#0f766e" stroke-width="2"/>
+  <path d="M96 248 L96 300 L200 300 C 224 290, 226 260, 204 248 Z" fill="#f1d9c7" stroke="#9a6b4f" stroke-width="1.5"/>
+  <rect x="80" y="302" width="170" height="28" rx="3" fill="#475569"/>
+  <text x="165" y="320" fill="#f8fafc" font-size="10" font-family="system-ui,sans-serif" text-anchor="middle">Receptor</text>
+  <line x1="163" y1="86" x2="163" y2="302" stroke="#0f766e" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="300" y="408" fill="#334155" font-size="11" font-family="system-ui,sans-serif" text-anchor="end">SCHEMATIC — NOT TO SCALE</text>
+</svg>

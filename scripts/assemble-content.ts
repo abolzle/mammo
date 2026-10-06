@@ -1,4 +1,4 @@
-import { copyFileSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -24,23 +24,33 @@ function loadRepoContent() {
   const { curriculum, issues: cIssues } = parseCurriculum(readJson(join(root, "content/curriculum/curriculum.json")));
   issues.push(...cIssues);
 
-  const evidence: ReturnType<typeof parseEvidenceFile>["evidence"] = [];
-  for (const name of ["mqsa", "patient-care"]) {
-    const { evidence: chunk, issues: eIssues } = parseEvidenceFile(
-      readJson(join(root, `content/evidence/${name}.json`)),
-    );
-    evidence.push(...chunk);
-    issues.push(...eIssues);
+  const evidenceDir = join(root, "content/evidence");
+  const evidenceFiles = existsSync(evidenceDir)
+    ? readdirSync(evidenceDir).filter((f) => f.endsWith(".json")).sort()
+    : [];
+  const evidence = [];
+  for (const file of evidenceFiles) {
+    const { evidence: ev, issues: eIssues } = parseEvidenceFile(readJson(join(evidenceDir, file)));
+    for (const issue of eIssues) issues.push({ ...issue, path: `${file}:${issue.path}` });
+    evidence.push(...ev);
   }
 
-  const modules: NonNullable<ReturnType<typeof assembleModule>["module"]>[] = [];
-  for (const name of ["mqsa", "patient-care"]) {
-    const moduleMeta = readJson(join(root, `content/modules/${name}/module.json`)) as Record<string, unknown>;
-    const lessons = (readJson(join(root, `content/modules/${name}/lessons.json`)) as { lessons: unknown[] }).lessons;
-    const questions = (readJson(join(root, `content/modules/${name}/questions.json`)) as { questions: unknown[] }).questions;
-    const cards = (readJson(join(root, `content/modules/${name}/cards.json`)) as { cards: unknown[] }).cards;
+  const modulesDir = join(root, "content/modules");
+  const moduleNames = existsSync(modulesDir)
+    ? readdirSync(modulesDir, { withFileTypes: true })
+        .filter((d) => d.isDirectory())
+        .map((d) => d.name)
+        .sort()
+    : [];
+  const modules = [];
+  for (const name of moduleNames) {
+    const base = join(modulesDir, name);
+    const moduleMeta = readJson(join(base, "module.json")) as Record<string, unknown>;
+    const lessons = (readJson(join(base, "lessons.json")) as { lessons: unknown[] }).lessons;
+    const questions = (readJson(join(base, "questions.json")) as { questions: unknown[] }).questions;
+    const cards = (readJson(join(base, "cards.json")) as { cards: unknown[] }).cards;
     const { module, issues: mIssues } = assembleModule({ module: moduleMeta, lessons, questions, cards });
-    issues.push(...mIssues);
+    for (const issue of mIssues) issues.push({ ...issue, path: `${name}:${issue.path}` });
     if (module) modules.push(module);
   }
 
@@ -48,7 +58,14 @@ function loadRepoContent() {
     return { ok: false as const, issues, curriculum, sources, evidence, modules };
   }
   issues.push(...crossCheck({ curriculum, sources, evidence, modules }));
-  return { ok: issues.filter((i) => i.level === "error").length === 0, issues, curriculum, sources, evidence, modules };
+  return {
+    ok: issues.filter((i) => i.level === "error").length === 0,
+    issues,
+    curriculum,
+    sources,
+    evidence,
+    modules,
+  };
 }
 
 export function assemble() {
