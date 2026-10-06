@@ -1,0 +1,579 @@
+{
+  "id": "mod-informatics",
+  "version": "1.0.0-beta.1",
+  "title": "Imaging informatics, displays, and CAD",
+  "summary": "Technologist-level PACS, RIS, EHR, and DICOM basics; which displays may be used to interpret mammograms and why display calibration matters; CAD and AI as decision support, not replacement; and data integrity, original-image retention, and patient identification in a digital workflow. Built from eCFR, the 2023 MQSA final rule, FDA guidance, NCI PDQ, NLM MeSH, and link-only DICOM.",
+  "topicIds": [
+    "top-ip-digital",
+    "top-ip-mqsa-records",
+    "top-ip-qc-technologist"
+  ],
+  "assets": [
+    {
+      "id": "asset-inf-systems-map",
+      "kind": "svg_schematic",
+      "title": "Imaging information systems map",
+      "src": "/assets/informatics/systems-map.svg",
+      "width": 640,
+      "height": 300,
+      "alt": "Schematic: RIS and HIS/EHR boxes on the left feed a mammography unit; images flow to a PACS archive box, which feeds an interpretation display box.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-inf-mesh-ris",
+        "ev-inf-mesh-his",
+        "ev-inf-mesh-ehr",
+        "ev-inf-fr-pacs-retains",
+        "ev-inf-892-storage",
+        "ev-inf-892-mimps"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-inf-cad-types",
+      "kind": "svg_schematic",
+      "title": "CADe, CADx, and CADt categories",
+      "src": "/assets/informatics/cad-types.svg",
+      "width": 640,
+      "height": 270,
+      "alt": "Three boxes labeled CADe (21 CFR 892.2070), CADx (892.2060), and CADt (892.2080), with a caption that the clinician interprets.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-inf-892-cade",
+        "ev-inf-892-cadx",
+        "ev-inf-892-cadt"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-inf-original-copies",
+      "kind": "svg_schematic",
+      "title": "Which stored set is the original?",
+      "src": "/assets/informatics/original-copies.svg",
+      "width": 640,
+      "height": 270,
+      "alt": "Three boxes: Set A lossless-compressed full-fidelity files; Set B lossy-compressed with full files deleted; Set C permanent CAD marks with no unmarked version.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-inf-fr-lossless",
+        "ev-inf-fr-lossy",
+        "ev-inf-fr-cad-marks"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-inf-contingency",
+      "kind": "svg_schematic",
+      "title": "HIPAA contingency plan elements",
+      "src": "/assets/informatics/contingency.svg",
+      "width": 640,
+      "height": 260,
+      "alt": "Three boxes: Data backup plan, Disaster recovery, Emergency mode, each with its 45 CFR 164.308(a)(7)(ii) citation.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-inf-hipaa-contingency"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "visuals": [
+    {
+      "id": "vis-inf-originals-home",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "assetId": "asset-inf-systems-map",
+      "estSeconds": 45,
+      "title": "Where do original digital mammograms live?",
+      "prompt": "Select the system where a facility's original FFDM/DBT images are typically retained for MQSA recordkeeping.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Box: RIS",
+          "x": 24,
+          "y": 56,
+          "w": 150,
+          "h": 90,
+          "revealLabel": "RIS: scheduling and tracking"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Box: HIS / EHR",
+          "x": 24,
+          "y": 170,
+          "w": 150,
+          "h": 90,
+          "revealLabel": "HIS/EHR: patient record and hospital information"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Box: Mammography unit",
+          "x": 214,
+          "y": 110,
+          "w": 170,
+          "h": 100,
+          "revealLabel": "Acquisition, not the long-term archive"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Box: PACS archive",
+          "x": 424,
+          "y": 56,
+          "w": 192,
+          "h": 100,
+          "revealLabel": "PACS archive: originals typically retained here"
+        },
+        {
+          "id": "e",
+          "neutralLabel": "Box: Interpretation display",
+          "x": 424,
+          "y": 180,
+          "w": 192,
+          "h": 90,
+          "revealLabel": "Display for review, not storage"
+        }
+      ],
+      "correctHotspotId": "d",
+      "feedback": {
+        "a": "The RIS manages radiology administration such as scheduling. It doesn't archive images.",
+        "b": "The HIS/EHR holds the patient record and reports, not the original image files.",
+        "c": "The unit acquires images, but long-term retention is in the archive.",
+        "d": "Correct. FDA notes that original FFDM and DBT images are typically retained in the performing facility's PACS.",
+        "e": "The display shows images. It isn't the retention store."
+      },
+      "explanation": "Originals stay in the performing facility's PACS, and copies are what usually get released to other sites.",
+      "accessibilityNote": "Each box is announced by its system name. Feedback explains each system's role.",
+      "evidenceIds": [
+        "ev-inf-fr-pacs-retains",
+        "ev-inf-mesh-ris",
+        "ev-inf-mesh-ehr"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-inf-cad-nomark",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "assetId": "asset-inf-cad-types",
+      "estSeconds": 45,
+      "title": "Which category never marks the image?",
+      "prompt": "Select the category of software that notifies clinicians about time-sensitive studies but does not mark locations on the image or remove cases from the reading queue.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Box 1: CADe",
+          "x": 24,
+          "y": 60,
+          "w": 184,
+          "h": 140,
+          "revealLabel": "CADe marks or highlights regions"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Box 2: CADx",
+          "x": 228,
+          "y": 60,
+          "w": 184,
+          "h": 140,
+          "revealLabel": "CADx characterizes lesions"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Box 3: CADt",
+          "x": 432,
+          "y": 60,
+          "w": 184,
+          "h": 140,
+          "revealLabel": "CADt notifies, with no marks"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "CADe's job is to mark or highlight regions that may be abnormal.",
+        "b": "CADx characterizes lesions as suspicious. It provides information about specific lesions.",
+        "c": "Correct. § 892.2080 says triage software doesn't mark the image or remove cases, and it runs alongside standard care."
+      },
+      "explanation": "CADt prioritizes and notifies. CADe marks. CADx characterizes. None replaces the clinician.",
+      "accessibilityNote": "Boxes are announced by category name and regulation number. The function appears only after answering.",
+      "evidenceIds": [
+        "ev-inf-892-cadt",
+        "ev-inf-892-cade-function",
+        "ev-inf-892-cadx"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-inf-original-set",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "assetId": "asset-inf-original-copies",
+      "estSeconds": 45,
+      "title": "Which set meets MQSA retention?",
+      "prompt": "An archive holds only one of these sets for each exam. Select the set FDA would generally consider the original mammograms for MQSA retention.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Box: Set A",
+          "x": 24,
+          "y": 60,
+          "w": 184,
+          "h": 150,
+          "revealLabel": "Lossless: meets retention"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Box: Set B",
+          "x": 228,
+          "y": 60,
+          "w": 184,
+          "h": 150,
+          "revealLabel": "Lossy only: generally not original"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Box: Set C",
+          "x": 432,
+          "y": 60,
+          "w": 184,
+          "h": 150,
+          "revealLabel": "Permanent CAD marks only: not sufficient"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. Lossless compression allows complete reconstruction, so the images are generally treated as originals.",
+        "b": "Lossy compression discards data. Without the full files, the facility no longer holds originals.",
+        "c": "CAD marks must be removable. A permanently marked set alone doesn't meet retention."
+      },
+      "explanation": "FDA Responses 98 and 100 (88 FR 15126): lossless is generally original, lossy is not, and CAD marks must be removable.",
+      "accessibilityNote": "Sets are announced by letter, and each box's text describes its storage method.",
+      "evidenceIds": [
+        "ev-inf-fr-lossless",
+        "ev-inf-fr-lossy",
+        "ev-inf-fr-cad-marks"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-inf-contingency",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "assetId": "asset-inf-contingency",
+      "estSeconds": 45,
+      "title": "Which plan creates exact copies?",
+      "prompt": "Select the contingency plan element that requires procedures to create and maintain retrievable exact copies of electronic health information.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Box 1: Data backup plan",
+          "x": 24,
+          "y": 60,
+          "w": 184,
+          "h": 140,
+          "revealLabel": "Backup: retrievable exact copies"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Box 2: Disaster recovery",
+          "x": 228,
+          "y": 60,
+          "w": 184,
+          "h": 140,
+          "revealLabel": "Restores lost data"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Box 3: Emergency mode",
+          "x": 432,
+          "y": 60,
+          "w": 184,
+          "h": 140,
+          "revealLabel": "Keeps critical processes running securely"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. The data backup plan creates and maintains retrievable exact copies.",
+        "b": "Disaster recovery restores lost data, usually from the backups.",
+        "c": "Emergency mode keeps critical processes running securely during an emergency."
+      },
+      "explanation": "45 CFR 164.308(a)(7)(ii) separates backup (copies), disaster recovery (restore), and emergency mode operation (continue securely).",
+      "accessibilityNote": "Boxes are announced by plan name.",
+      "evidenceIds": [
+        "ev-inf-hipaa-contingency"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "RIS (radiology information system)",
+      "definition": "Information system for radiology's administrative activities such as scheduling and tracking exams.",
+      "evidenceIds": [
+        "ev-inf-mesh-ris"
+      ]
+    },
+    {
+      "term": "HIS (hospital information system)",
+      "definition": "Hospital-wide integrated system for administrative and clinical information.",
+      "evidenceIds": [
+        "ev-inf-mesh-his"
+      ]
+    },
+    {
+      "term": "EHR / EMR",
+      "definition": "Electronic record that carries a patient's health information across providers and locations.",
+      "evidenceIds": [
+        "ev-inf-mesh-ehr"
+      ]
+    },
+    {
+      "term": "PACS",
+      "definition": "Picture archiving and communication system: image storage, communication, and review. Original digital mammograms are typically retained here.",
+      "evidenceIds": [
+        "ev-inf-fr-pacs-retains",
+        "ev-inf-892-storage",
+        "ev-inf-892-communications",
+        "ev-inf-892-mimps"
+      ]
+    },
+    {
+      "term": "DICOM",
+      "definition": "Digital Imaging and Communications in Medicine: the predominant standard for imaging communication and storage. MQSA does not mandate it.",
+      "evidenceIds": [
+        "ev-inf-dicom-scope",
+        "ev-inf-fr-dicom-not-required"
+      ]
+    },
+    {
+      "term": "Conformance statement",
+      "definition": "A vendor's published description of which DICOM services and objects a product supports.",
+      "evidenceIds": [
+        "ev-inf-dicom-scope",
+        "ev-inf-dicom-limits"
+      ]
+    },
+    {
+      "term": "GSDF (Grayscale Standard Display Function)",
+      "definition": "DICOM's perception-based calibration curve that keeps grayscale images consistent across displays and printers.",
+      "evidenceIds": [
+        "ev-inf-dicom-gsdf"
+      ]
+    },
+    {
+      "term": "Lossless compression",
+      "definition": "Compression that allows complete reconstruction. Losslessly compressed mammograms are generally originals under MQSA.",
+      "evidenceIds": [
+        "ev-inf-fr-lossless",
+        "ev-inf-mesh-compression"
+      ]
+    },
+    {
+      "term": "Lossy compression",
+      "definition": "Compression that discards data. Lossy images generally are not original mammograms under MQSA.",
+      "evidenceIds": [
+        "ev-inf-fr-lossy",
+        "ev-inf-mesh-compression"
+      ]
+    },
+    {
+      "term": "CADe",
+      "definition": "Computer-aided detection: marks or highlights possible abnormalities for the clinician. Not a replacement for the radiologist's review.",
+      "evidenceIds": [
+        "ev-inf-892-cade",
+        "ev-inf-892-cade-function"
+      ]
+    },
+    {
+      "term": "CADx",
+      "definition": "Computer-aided diagnosis: characterizes lesions, for example as suspicious for cancer. The clinician makes the decisions.",
+      "evidenceIds": [
+        "ev-inf-892-cadx"
+      ]
+    },
+    {
+      "term": "CADt",
+      "definition": "Computer-aided triage and notification: alerts clinicians about time-sensitive studies without marking images or removing cases.",
+      "evidenceIds": [
+        "ev-inf-892-cadt"
+      ]
+    },
+    {
+      "term": "Data integrity (HIPAA)",
+      "definition": "The property that data have not been altered or destroyed in an unauthorized manner.",
+      "evidenceIds": [
+        "ev-inf-hipaa-integrity-def"
+      ]
+    }
+  ]
+}

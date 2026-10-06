@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270" role="img" aria-label="Three labeled boxes for FDA computer-assisted radiology software categories: CADe under section 892.2070, CADx under section 892.2060, and CADt under section 892.2080. A caption says the radiologist interprets every exam.">
+  <rect width="640" height="270" fill="#F7F5F1"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" fill="#1B2A41">Three FDA categories of computer-assisted radiology software</text>
+  <rect x="24" y="60" width="184" height="140" rx="6" fill="#E3F2F1" stroke="#0F6E6E" stroke-width="2"/>
+  <text x="36" y="88" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">CADe</text>
+  <text x="36" y="112" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">21 CFR 892.2070</text>
+  <text x="36" y="130" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Medical image analyzer</text>
+  <rect x="228" y="60" width="184" height="140" rx="6" fill="#E3F2F1" stroke="#0F6E6E" stroke-width="2"/>
+  <text x="240" y="88" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">CADx</text>
+  <text x="240" y="112" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">21 CFR 892.2060</text>
+  <text x="240" y="130" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Lesion characterization</text>
+  <rect x="432" y="60" width="184" height="140" rx="6" fill="#E3F2F1" stroke="#0F6E6E" stroke-width="2"/>
+  <text x="444" y="88" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">CADt</text>
+  <text x="444" y="112" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">21 CFR 892.2080</text>
+  <text x="444" y="130" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Triage and notification</text>
+  <text x="24" y="230" font-family="system-ui,sans-serif" font-size="11" fill="#5A6475">In every category, the clinician makes the interpretation and decisions.</text>
+  <text x="24" y="250" font-family="system-ui,sans-serif" font-size="11" fill="#5A6475">Schematic only. Not a screenshot of any product.</text>
+</svg>

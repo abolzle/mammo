@@ -19,7 +19,8 @@
         "q-pc-001",
         "q-pc-002",
         "q-pc-003",
-        "q-pc-004"
+        "q-pc-004",
+        "q-pc-050"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
@@ -42,7 +43,9 @@
       "questionIds": [
         "q-pc-005",
         "q-pc-006",
-        "q-pc-007"
+        "q-pc-007",
+        "q-pc-051",
+        "q-pc-052"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
@@ -69,6 +72,7 @@
         "q-pc-008",
         "q-pc-009",
         "q-pc-010",
+        "q-pc-053",
         "q-pos-017",
         "q-pos-018",
         "q-pos-019",
@@ -95,7 +99,8 @@
       "questionIds": [
         "q-pc-011",
         "q-pc-012",
-        "q-pc-013"
+        "q-pc-013",
+        "q-pc-073"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
@@ -124,10 +129,14 @@
         "q-pc-019",
         "q-pc-020",
         "q-pc-021",
-        "q-pc-048"
+        "q-pc-048",
+        "q-pc-054",
+        "q-pc-055",
+        "q-pc-056",
+        "q-pc-057"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -169,7 +178,11 @@
         "q-ip-042",
         "q-ip-043",
         "q-ip-044",
-        "q-ip-045"
+        "q-ip-045",
+        "q-pc-058",
+        "q-pc-059",
+        "q-pc-060",
+        "q-pc-068"
       ],
       "visualIds": [
         "vis-ip-alara-shield"
@@ -195,7 +208,8 @@
       "questionIds": [
         "q-pc-041",
         "q-pc-042",
-        "q-pc-043"
+        "q-pc-043",
+        "q-pc-071"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
@@ -225,10 +239,14 @@
         "q-pc-023",
         "q-pc-024",
         "q-pc-025",
-        "q-pc-044"
+        "q-pc-044",
+        "q-pc-061",
+        "q-pc-062",
+        "q-pc-063",
+        "q-pc-064"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 7,
+      "learnerQuestionCount": 8,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -251,7 +269,8 @@
         "q-pc-026",
         "q-pc-027",
         "q-pc-028",
-        "q-pc-029"
+        "q-pc-029",
+        "q-pc-065"
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
@@ -275,7 +294,9 @@
         "q-pc-024",
         "q-pc-030",
         "q-pc-033",
-        "q-pc-043"
+        "q-pc-043",
+        "q-pc-067",
+        "q-pc-069"
       ],
       "visualIds": [
         "vis-pc-who-explains-density"
@@ -313,7 +334,9 @@
         "card-pc-dense-risk"
       ],
       "questionIds": [
-        "q-pc-031"
+        "q-pc-031",
+        "q-pc-049",
+        "q-pc-066"
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
@@ -329,7 +352,9 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pc-052"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -374,14 +399,19 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [
+        "card-inf-interp-vs-comp",
         "card-pc-transfer-15"
       ],
       "questionIds": [
+        "q-inf-004",
+        "q-inf-039",
+        "q-inf-040",
         "q-mqsa-030",
-        "q-pc-028"
+        "q-pc-028",
+        "q-pc-070"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 2,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "missing lesson"
     },
@@ -409,7 +439,9 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pc-072"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -464,6 +496,7 @@
         "q-ip-010",
         "q-ip-011",
         "q-ip-012",
+        "q-ip-049",
         "q-mqsa-038"
       ],
       "visualIds": [],
@@ -489,7 +522,8 @@
         "q-ip-013",
         "q-ip-014",
         "q-ip-015",
-        "q-ip-016"
+        "q-ip-016",
+        "q-ip-048"
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
@@ -522,7 +556,7 @@
         "vis-ip-beam-limiting",
         "vis-mqsa-unit-components"
       ],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -546,7 +580,8 @@
         "q-ip-017",
         "q-ip-018",
         "q-ip-019",
-        "q-ip-020"
+        "q-ip-020",
+        "q-ip-053"
       ],
       "visualIds": [
         "vis-ip-dbt-idea"
@@ -563,20 +598,28 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-ip-receptors-displays"
+        "les-ip-receptors-displays",
+        "les-inf-display-roles"
       ],
       "cardIds": [
         "card-ip-acq-vs-interp",
-        "card-ip-digital-qc-pointer"
+        "card-ip-digital-qc-pointer",
+        "card-inf-display-ifu",
+        "card-inf-display-510k"
       ],
       "questionIds": [
         "q-ip-021",
         "q-ip-022",
         "q-ip-023",
-        "q-ip-024"
+        "q-ip-024",
+        "q-ip-054",
+        "q-inf-014",
+        "q-inf-015",
+        "q-inf-016",
+        "q-inf-017"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -587,11 +630,53 @@
       "statement": "Explain HIS/RIS, EMR, and PACS roles, including storage, backup, archive, and basic troubleshooting.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-inf-systems-map",
+        "les-inf-pacs-devices",
+        "les-inf-dicom",
+        "les-inf-integrity-backup"
+      ],
+      "cardIds": [
+        "card-inf-ris",
+        "card-inf-his",
+        "card-inf-ehr",
+        "card-inf-pacs-originals",
+        "card-inf-storage-class",
+        "card-inf-comm-tools",
+        "card-inf-mimps-standards",
+        "card-inf-dicom-what",
+        "card-inf-dicom-not",
+        "card-inf-dicom-uid",
+        "card-inf-dicom-mqsa",
+        "card-inf-integrity",
+        "card-inf-backup-vs-dr",
+        "card-inf-emergency-mode",
+        "card-inf-unique-user"
+      ],
+      "questionIds": [
+        "q-inf-001",
+        "q-inf-002",
+        "q-inf-003",
+        "q-inf-004",
+        "q-inf-005",
+        "q-inf-006",
+        "q-inf-007",
+        "q-inf-008",
+        "q-inf-009",
+        "q-inf-010",
+        "q-inf-011",
+        "q-inf-012",
+        "q-inf-013",
+        "q-inf-041",
+        "q-inf-042",
+        "q-inf-043",
+        "q-inf-044"
+      ],
+      "visualIds": [
+        "vis-inf-originals-home",
+        "vis-inf-contingency"
+      ],
+      "learnerQuestionCount": 17,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -602,11 +687,36 @@
       "statement": "Describe what computer-aided detection does and does not do.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-inf-cad-types",
+        "les-inf-cad-limits"
+      ],
+      "cardIds": [
+        "card-inf-cade",
+        "card-inf-cade-not",
+        "card-inf-cadx",
+        "card-inf-cadt",
+        "card-inf-cad-tradeoff",
+        "card-inf-cad-invasive",
+        "card-inf-cad-iq",
+        "card-inf-ai-unknowns"
+      ],
+      "questionIds": [
+        "q-inf-022",
+        "q-inf-023",
+        "q-inf-024",
+        "q-inf-025",
+        "q-inf-026",
+        "q-inf-027",
+        "q-inf-028",
+        "q-inf-029",
+        "q-inf-030",
+        "q-inf-031"
+      ],
+      "visualIds": [
+        "vis-inf-cad-nomark"
+      ],
+      "learnerQuestionCount": 10,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -630,6 +740,8 @@
         "card-qcr-fr-effective"
       ],
       "questionIds": [
+        "q-ip-047",
+        "q-ip-068",
         "q-mqsa-001",
         "q-mqsa-002",
         "q-mqsa-003",
@@ -673,6 +785,9 @@
         "card-qcr-sample-size"
       ],
       "questionIds": [
+        "q-ip-069",
+        "q-ip-070",
+        "q-ip-078",
         "q-mqsa-004",
         "q-mqsa-005",
         "q-mqsa-006",
@@ -716,6 +831,7 @@
         "card-mqsa-ceu"
       ],
       "questionIds": [
+        "q-ip-062",
         "q-mqsa-007",
         "q-mqsa-008",
         "q-mqsa-009",
@@ -723,7 +839,7 @@
         "q-mqsa-040"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -750,6 +866,9 @@
         "card-qcr-arrt-separate"
       ],
       "questionIds": [
+        "q-ip-060",
+        "q-ip-061",
+        "q-ip-063",
         "q-mqsa-011",
         "q-mqsa-012",
         "q-mqsa-013",
@@ -761,7 +880,7 @@
         "q-qcr-023"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 8,
+      "learnerQuestionCount": 9,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -786,6 +905,9 @@
         "card-qcr-qc-record-keep"
       ],
       "questionIds": [
+        "q-ip-051",
+        "q-ip-057",
+        "q-ip-058",
         "q-mqsa-015",
         "q-mqsa-016",
         "q-mqsa-017",
@@ -817,6 +939,8 @@
         "card-mqsa-incomplete-30"
       ],
       "questionIds": [
+        "q-ip-064",
+        "q-ip-065",
         "q-mqsa-018",
         "q-mqsa-019",
         "q-mqsa-020",
@@ -872,6 +996,8 @@
         "card-pc-dense-date"
       ],
       "questionIds": [
+        "q-ip-071",
+        "q-ip-072",
         "q-mqsa-026",
         "q-mqsa-043",
         "q-pc-030",
@@ -884,7 +1010,7 @@
         "vis-mqsa-density-boundary",
         "vis-pc-density-boundary"
       ],
-      "learnerQuestionCount": 5,
+      "learnerQuestionCount": 7,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -896,14 +1022,23 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
+        "les-inf-labeling-identity",
         "les-mqsa-labeling",
         "les-pos-labels"
       ],
       "cardIds": [
+        "card-inf-label-elements",
+        "card-inf-label-quality",
+        "card-inf-report-id",
         "card-mqsa-label-7",
         "card-pos-label-axilla"
       ],
       "questionIds": [
+        "q-inf-031",
+        "q-inf-032",
+        "q-inf-033",
+        "q-inf-034",
+        "q-inf-035",
         "q-mqsa-027",
         "q-mqsa-028",
         "q-mqsa-044",
@@ -916,7 +1051,7 @@
         "vis-mqsa-label-placement",
         "vis-pos-label-axilla"
       ],
-      "learnerQuestionCount": 6,
+      "learnerQuestionCount": 12,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -928,10 +1063,15 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
+        "les-inf-originals",
         "les-mqsa-records",
         "les-qcr-records-lifecycle"
       ],
       "cardIds": [
+        "card-inf-lossless",
+        "card-inf-lossy",
+        "card-inf-cad-marks",
+        "card-inf-electronic",
         "card-mqsa-retention",
         "card-mqsa-transfer-15",
         "card-qcr-retain-longest",
@@ -940,6 +1080,13 @@
         "card-qcr-amr"
       ],
       "questionIds": [
+        "q-ip-073",
+        "q-ip-075",
+        "q-inf-036",
+        "q-inf-037",
+        "q-inf-038",
+        "q-inf-039",
+        "q-inf-044",
         "q-mqsa-029",
         "q-mqsa-030",
         "q-mqsa-045",
@@ -950,9 +1097,10 @@
         "q-qcr-032"
       ],
       "visualIds": [
+        "vis-inf-original-set",
         "vis-qcr-retention-rule"
       ],
-      "learnerQuestionCount": 7,
+      "learnerQuestionCount": 13,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -971,6 +1119,8 @@
         "card-mqsa-audit-freq"
       ],
       "questionIds": [
+        "q-ip-066",
+        "q-ip-067",
         "q-mqsa-031",
         "q-mqsa-032",
         "q-mqsa-033",
@@ -1003,6 +1153,8 @@
         "card-qcr-complaint-ab"
       ],
       "questionIds": [
+        "q-ip-074",
+        "q-ip-079",
         "q-mqsa-034",
         "q-mqsa-035",
         "q-mqsa-047",
@@ -1019,7 +1171,7 @@
         "vis-pc-infection-surface",
         "vis-qcr-complaint-step"
       ],
-      "learnerQuestionCount": 9,
+      "learnerQuestionCount": 11,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1048,6 +1200,10 @@
         "card-qcr-dose-ceiling"
       ],
       "questionIds": [
+        "q-ip-050",
+        "q-ip-054",
+        "q-ip-055",
+        "q-ip-056",
         "q-mqsa-036",
         "q-mqsa-037",
         "q-mqsa-038",
@@ -1063,7 +1219,7 @@
       "visualIds": [
         "vis-qcr-timing-bucket"
       ],
-      "learnerQuestionCount": 10,
+      "learnerQuestionCount": 11,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1076,7 +1232,9 @@
       "requiresQualifiedReview": true,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-ip-077"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -1119,11 +1277,23 @@
       "statement": "Describe acquisition and interpretation monitor QC (cleanliness, calibration, test patterns such as SMPTE/TG18) and viewing conditions.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-inf-display-qc"
+      ],
+      "cardIds": [
+        "card-inf-qc-not-clearance",
+        "card-inf-gsdf",
+        "card-inf-digital-qa-source",
+        "card-inf-hotlight"
+      ],
+      "questionIds": [
+        "q-inf-018",
+        "q-inf-019",
+        "q-inf-020",
+        "q-inf-021"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1136,7 +1306,9 @@
       "requiresQualifiedReview": true,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-ip-076"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -1174,6 +1346,7 @@
         "card-qcr-mee"
       ],
       "questionIds": [
+        "q-ip-059",
         "q-mqsa-016",
         "q-qcr-038",
         "q-qcr-039"
@@ -1266,7 +1439,8 @@
         "q-ip-033",
         "q-ip-034",
         "q-ip-035",
-        "q-ip-036"
+        "q-ip-036",
+        "q-ip-052"
       ],
       "visualIds": [
         "vis-ip-mag-air-gap"
@@ -1299,6 +1473,7 @@
         "q-ip-038",
         "q-ip-039",
         "q-ip-040",
+        "q-ip-046",
         "q-mqsa-004",
         "q-pc-010",
         "q-pos-002",
@@ -1988,7 +2163,7 @@
       "visualIds": [
         "vis-pc-screen-vs-dx"
       ],
-      "learnerQuestionCount": 10,
+      "learnerQuestionCount": 11,
       "validatedQuestionCount": 0,
       "gap": null
     },

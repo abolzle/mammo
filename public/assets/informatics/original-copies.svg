@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270" role="img" aria-label="Three stored image sets: a lossless-compressed full set, a lossy-compressed set with full files deleted, and a set with permanently burned-in CAD marks only.">
+  <rect width="640" height="270" fill="#F7F5F1"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="18" fill="#1B2A41">Three ways an archive might store a digital mammogram</text>
+  <rect x="24" y="60" width="184" height="150" rx="6" fill="#EEF0F3" stroke="#5A6475" stroke-width="2"/>
+  <text x="36" y="88" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">Set A</text>
+  <text x="36" y="112" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Lossless-compressed</text>
+  <text x="36" y="130" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">full-fidelity files</text>
+  <rect x="228" y="60" width="184" height="150" rx="6" fill="#EEF0F3" stroke="#5A6475" stroke-width="2"/>
+  <text x="240" y="88" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">Set B</text>
+  <text x="240" y="112" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Lossy-compressed;</text>
+  <text x="240" y="130" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">full files deleted</text>
+  <rect x="432" y="60" width="184" height="150" rx="6" fill="#EEF0F3" stroke="#5A6475" stroke-width="2"/>
+  <text x="444" y="88" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#1B2A41">Set C</text>
+  <text x="444" y="112" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Permanent CAD marks</text>
+  <text x="444" y="130" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">burned in; no</text>
+  <text x="444" y="148" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">unmarked version</text>
+  <text x="24" y="250" font-family="system-ui,sans-serif" font-size="11" fill="#5A6475">Schematic only. No clinical images are shown.</text>
+</svg>
