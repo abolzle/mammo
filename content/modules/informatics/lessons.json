@@ -1,0 +1,675 @@
+{
+  "lessons": [
+    {
+      "id": "les-inf-systems-map",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-ip-informatics",
+      "title": "Who holds what: HIS, RIS, EHR, and PACS",
+      "estMinutes": 3,
+      "summary": "Four systems touch every mammogram. Knowing which one holds orders, schedules, the patient's record, and the images tells you where to look when something is missing.",
+      "explanation": [
+        {
+          "heading": "Four systems, four jobs",
+          "body": "A hospital information system (HIS) is the hospital-wide system for administrative and clinical information. A radiology information system (RIS) handles the department's administrative work: planning, organizing, and controlling radiology services such as scheduling and exam tracking. An electronic health record (EHR, also called EMR) carries the patient's health information across providers and locations. A picture archiving and communication system (PACS) stores, moves, and displays the images."
+        },
+        {
+          "heading": "Where the originals live",
+          "body": "FDA's 2023 MQSA rulemaking notes that original FFDM and DBT images are typically retained in the performing facility's PACS, and that copies, not originals, are what usually leave the building when another facility asks for priors."
+        },
+        {
+          "heading": "Vocabulary exam writers use",
+          "body": "NLM's MeSH vocabulary lists EMR as another name for EHR. It has no separate heading for PACS; FDA instead regulates PACS pieces by function: image storage, image communication, and image management and processing."
+        }
+      ],
+      "example": "The scheduler books a diagnostic workup in the RIS. You acquire the images, and they go to PACS. The radiologist compares them with priors in PACS, and the referring provider reads the final report in the EHR.",
+      "misconception": {
+        "belief": "PACS is just the radiologist's viewing software.",
+        "correction": "PACS includes archive storage, image communication between devices, and review/processing. FDA expects original digital mammograms to stay retrievable there for the full retention period."
+      },
+      "variants": {
+        "simpler": "RIS runs the radiology schedule. EHR is the patient's chart. HIS covers the whole hospital. PACS holds and shows the pictures.",
+        "example": "A prior from three years ago is missing from the reading list. That's a PACS archive or retrieval question, not an EHR charting question.",
+        "deeper": "MeSH defines RIS around administrative activities of radiology services and HIS around both administrative and clinical aspects hospital-wide. FDA's Response 101 in the 2023 final rule describes originals as retained in the sending facility's PACS while copies are released."
+      },
+      "checkQuestionId": "q-inf-001",
+      "evidenceIds": [
+        "ev-inf-mesh-ris",
+        "ev-inf-mesh-his",
+        "ev-inf-mesh-ehr",
+        "ev-inf-fr-pacs-retains"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "observationPrompt": "Ask your preceptor to trace one exam: where the order is entered, where images go after you send them, and where the referring provider reads the report."
+    },
+    {
+      "id": "les-inf-pacs-devices",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-ip-informatics",
+      "title": "PACS through FDA's eyes: storage, communication, and review",
+      "estMinutes": 3,
+      "summary": "FDA doesn't regulate 'a PACS' as one box. It classifies storage hardware, communication devices, and image management/processing systems separately, and that affects which components need clearance.",
+      "explanation": [
+        {
+          "heading": "Storage",
+          "body": "A medical image storage device (21 CFR 892.2010) provides electronic storage and retrieval of images. It is Class I and exempt from premarket notification, subject to the limits in § 892.9."
+        },
+        {
+          "heading": "Communication",
+          "body": "A medical image communications device (§ 892.2020) transfers image data between devices. It may offer simple review tools such as window/level, zoom and pan, measurements, compression, and annotations, but not advanced processing."
+        },
+        {
+          "heading": "Management and processing",
+          "body": "A medical image management and processing system (§ 892.2050) supports review and digital processing for interpretation by a trained practitioner. It is Class II, and its classification names DICOM, JPEG, and the SMPTE test pattern as voluntary standards."
+        },
+        {
+          "heading": "The MQSA link",
+          "body": "Since the 2023 amendments, § 900.12(b)(2)(i) requires every device used in mammography to meet the FDA premarket requirements for its type and intended use. FDA explained that this reaches devices used to acquire, process, or display digital mammograms. A display used for interpretation generally needs 510(k) clearance, but storage devices may be exempt."
+        }
+      ],
+      "example": "A facility replaces its archive hardware and its reading-room monitors in the same month. The storage array may be a premarket-exempt device. The new interpretation displays generally need 510(k) clearance for mammography interpretation before radiologists use them.",
+      "misconception": {
+        "belief": "Everything in the imaging chain needs the same FDA clearance.",
+        "correction": "Requirements depend on device type and intended use. Storage devices may be exempt from premarket notification, while displays used to interpret mammograms generally need 510(k) clearance."
+      },
+      "variants": {
+        "simpler": "FDA treats PACS as separate pieces: storage, sending, and viewing/processing. Some pieces need FDA clearance and some don't.",
+        "example": "Window/level and zoom are simple review tools that even an image communications device may include.",
+        "deeper": "In Response 19 of the 2023 final rule, FDA dropped the narrower term 'digital accessory components' in favor of 'devices' and pointed facilities to the relevant classification regulation to determine premarket requirements."
+      },
+      "checkQuestionId": "q-inf-005",
+      "evidenceIds": [
+        "ev-inf-892-storage",
+        "ev-inf-892-communications",
+        "ev-inf-892-mimps",
+        "ev-inf-892-mimps-standards",
+        "ev-inf-cfr-devices-authorized",
+        "ev-inf-fr-display-clearance"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-inf-dicom",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-ip-informatics",
+      "title": "DICOM: the shared language and its limits",
+      "estMinutes": 3,
+      "summary": "DICOM is why images from one vendor's unit can be stored and read on another vendor's system. It is a standard, not a guarantee, and MQSA does not require it.",
+      "explanation": [
+        {
+          "heading": "What DICOM standardizes",
+          "body": "DICOM, the Digital Imaging and Communications in Medicine standard, covers how imaging devices communicate and manage image data. It sets network protocols and commands, a file format and directory structure for media such as CDs, and the information a vendor must publish when it claims conformance (a conformance statement)."
+        },
+        {
+          "heading": "What DICOM does not promise",
+          "body": "The standard doesn't dictate how a vendor builds features. It doesn't guarantee what a set of separately conforming devices will do together, and it doesn't provide a conformance test. Two products labeled 'DICOM' can still fail to work together on a particular feature. That's why sites compare conformance statements."
+        },
+        {
+          "heading": "Unique identifiers",
+          "body": "Each DICOM object, such as a single image, carries a globally unique identifier that stays with it across systems. A site can map the Patient ID to its local value without changing what the image means. Changing the image's actual content creates a new object with a new identifier."
+        },
+        {
+          "heading": "Not an MQSA mandate",
+          "body": "In the 2023 final rule, FDA called DICOM the predominant image format but declined to require any specific file format. MQSA's concern is that originals are retained and transferable, not which format is used."
+        }
+      ],
+      "example": "A CD of priors from another facility opens on your PACS because both systems support the same DICOM media format. A different CD that uses a proprietary viewer may not import.",
+      "misconception": {
+        "belief": "If two devices both say 'DICOM conformant,' every feature will work between them.",
+        "correction": "DICOM conformance is claimed feature by feature. The standard explicitly doesn't guarantee how an integrated group of conforming devices behaves, so compatibility is checked against conformance statements."
+      },
+      "variants": {
+        "simpler": "DICOM is a common language for medical images. Speaking the same language doesn't mean two machines understand every sentence.",
+        "example": "One vendor's DBT objects may display as expected on the acquisition console but not on an older review station that never claimed support for that object type.",
+        "deeper": "DICOM PS3.1 sections 1.1 and 1.4.3 (link-only) cover scope and unique object identification. PS3.15 provides security mechanisms but leaves security policy to the local organization."
+      },
+      "checkQuestionId": "q-inf-009",
+      "evidenceIds": [
+        "ev-inf-dicom-scope",
+        "ev-inf-dicom-limits",
+        "ev-inf-dicom-uid",
+        "ev-inf-fr-dicom-not-required",
+        "ev-inf-dicom-security"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-inf-display-roles",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-ip-receptors-monitors",
+      "title": "Which screens may be used to interpret mammograms",
+      "estMinutes": 3,
+      "summary": "A display's cleared intended use, not its sharpness or location, determines whether radiologists may interpret mammograms on it.",
+      "explanation": [
+        {
+          "heading": "Diagnostic displays are devices",
+          "body": "FDA's display guidance covers diagnostic radiology displays classified under 21 CFR 892.2050. These are sometimes called soft-copy displays or medical grade monitors."
+        },
+        {
+          "heading": "Mammography must be named",
+          "body": "FDA recommends that a display's indications for use state whether it is or is not intended for mammography, including FFDM and DBT. A display labeled 'not intended for mammography' is not a mammography interpretation display."
+        },
+        {
+          "heading": "MQSA enforces the clearance",
+          "body": "Under § 900.12(b)(2)(i), devices must meet premarket requirements for their intended use. FDA stated that interpreting mammograms on a display that lacks the applicable authorization would generally violate the MQSA quality standards."
+        },
+        {
+          "heading": "Separate from QC",
+          "body": "Passing display QC is a different MQSA requirement. FDA noted that having QC tests for a display does not by itself satisfy premarket requirements."
+        }
+      ],
+      "example": "A new high-resolution monitor arrives for a satellite reading room. Its labeling says it is not intended for mammography. It cannot become a mammography interpretation display just because it passes a calibration check.",
+      "misconception": {
+        "belief": "Any high-resolution monitor can be used to read mammograms if it is calibrated.",
+        "correction": "For mammography interpretation, the display must have the applicable FDA authorization for that intended use, and it must also be covered by the facility's QC program."
+      },
+      "variants": {
+        "simpler": "Reading mammograms needs a screen that FDA has cleared for mammography. A nice screen isn't enough.",
+        "example": "Two identical-looking monitors sit side by side. Only the one whose cleared indications include mammography may be used to interpret mammograms.",
+        "deeper": "FDA Responses 19 and 22 (88 FR 15126) and the 2022 display guidance (Indications for Use). Technologist acquisition-workstation monitor QC and receptor details remain link-only to the manufacturer and ACR manuals."
+      },
+      "checkQuestionId": "q-inf-014",
+      "evidenceIds": [
+        "ev-inf-disp-scope",
+        "ev-inf-disp-ifu",
+        "ev-inf-cfr-devices-authorized",
+        "ev-inf-fr-display-clearance",
+        "ev-inf-fr-display-qc-separate"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-inf-display-qc",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-qc-monitors-viewing",
+      "title": "Display calibration and viewing conditions: the principles",
+      "estMinutes": 3,
+      "summary": "Display QC keeps the same image looking the same over time and across screens. This lesson covers why; the procedures, test patterns, frequencies, and limits come from your manufacturer's program.",
+      "explanation": [
+        {
+          "heading": "Why calibrate to a standard curve",
+          "body": "Human contrast sensitivity is not linear across a display's brightness range. DICOM's Grayscale Standard Display Function (GSDF, in PS3.14) defines a perception-based target curve so grayscale images look consistent on different monitors and printers."
+        },
+        {
+          "heading": "What gets characterized",
+          "body": "FDA's display guidance asks manufacturers to characterize luminance range, conformance to a grayscale-to-luminance function such as the GSDF, pixel defects, artifacts, uniformity, and off-angle luminance. It also asks them to describe calibration tools and the QC tests that users or physicists perform, with action limits."
+        },
+        {
+          "heading": "Whose QC program applies",
+          "body": "For FFDM and DBT, § 900.12(e)(6) requires a QA program substantially the same as the image receptor manufacturer's recommendations. Facilities using the ACR Digital Mammography QC Manual follow it as an FDA-accepted alternative standard. Mammo links to both and does not reproduce their procedures."
+        },
+        {
+          "heading": "Film viewing conditions",
+          "body": "For film interpretation, MQSA requires hot-lights brighter than the view box and film masking devices that limit light to the exposed film. These rules are a reminder that viewing conditions, not just the image, affect what a reader can see."
+        }
+      ],
+      "example": "A reading-room display drifts darker over months. A calibration check against the target curve catches the drift before subtle low-contrast detail becomes harder to see.",
+      "misconception": {
+        "belief": "If a display passes its QC check, it is automatically approved for mammography.",
+        "correction": "QC and clearance are separate. QC confirms ongoing performance. FDA premarket authorization for mammography interpretation is a separate device requirement."
+      },
+      "variants": {
+        "simpler": "Calibration keeps grays looking the same on every screen, every month.",
+        "example": "Your preceptor can show you which display QC tasks the technologist performs and which ones the physicist performs.",
+        "deeper": "SMPTE and AAPM TG18 test patterns and pass/fail criteria are manufacturer, ACR, and physicist territory (link-only). This lesson needs qualified review before verified use."
+      },
+      "checkQuestionId": "q-inf-018",
+      "evidenceIds": [
+        "ev-inf-dicom-gsdf",
+        "ev-inf-disp-tests",
+        "ev-inf-cfr-other-modality-qa",
+        "ev-inf-fr-display-qc-separate",
+        "ev-inf-cfr-film-viewing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "observationPrompt": "With your preceptor, look at the display QC log for one reading station and ask who performs each test and what happens when a result is out of limits."
+    },
+    {
+      "id": "les-inf-cad-types",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-ip-cad",
+      "title": "CADe, CADx, CADt: what each one is cleared to do",
+      "estMinutes": 3,
+      "summary": "FDA sorts computer-assisted radiology software by what it outputs. Detection software points, diagnosis software characterizes, and triage software notifies. None of them replaces the radiologist.",
+      "explanation": [
+        {
+          "heading": "CADe: points attention",
+          "body": "A CADe device (21 CFR 892.2070) is a prescription device that identifies, marks, or highlights image areas that may be abnormal during the clinician's interpretation. It works on images that have already been acquired. It is not intended to replace a qualified radiologist's review, to triage, or to recommend a diagnosis."
+        },
+        {
+          "heading": "CADx: characterizes",
+          "body": "CADx software (§ 892.2060) helps characterize lesions as suspicious for cancer, including on mammography. Diagnostic and patient-management decisions are made by the clinical user."
+        },
+        {
+          "heading": "CADt: notifies, doesn't mark",
+          "body": "Triage and notification software (§ 892.2080) alerts designated clinicians to time-sensitive studies. It does not mark the image, does not remove cases from the reading queue, and runs alongside the standard of care."
+        },
+        {
+          "heading": "Combined tools",
+          "body": "A 2025 classification (§ 892.2090) covers software that both detects and characterizes findings. It also is not a replacement for the clinician's complete review and judgment."
+        }
+      ],
+      "example": "A CADe overlay circles a cluster of calcifications on the CC view. The radiologist still reviews every image and decides whether the finding needs a recall. The circle is a prompt, not an assessment.",
+      "misconception": {
+        "belief": "CAD reads the mammogram first and the radiologist only checks what CAD flags.",
+        "correction": "CADe is not intended to replace the radiologist's review or to triage cases. The radiologist reviews the entire exam, and triage software does not remove cases from the queue."
+      },
+      "variants": {
+        "simpler": "Detection CAD points, diagnosis CAD describes, triage CAD sends alerts. The radiologist decides.",
+        "example": "A triage tool may push a study up the worklist with a notification, but it never draws a box on the image.",
+        "deeper": "NLM's MeSH vocabulary likewise defines computer-assisted diagnosis as programs that assist the physician, who remains the decision-maker. FDA's 2022 CADe guidance contrasts CADe with CADx (likelihood, type, severity, or stage of disease) and with triage devices, which would reduce or eliminate part of a clinician's care."
+      },
+      "checkQuestionId": "q-inf-022",
+      "evidenceIds": [
+        "ev-inf-cadg-def",
+        "ev-inf-mesh-cad",
+        "ev-inf-892-cade",
+        "ev-inf-892-cade-function",
+        "ev-inf-892-cadx",
+        "ev-inf-892-cadt",
+        "ev-inf-892-cadex",
+        "ev-inf-cadg-cadx-triage"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-inf-cad-limits",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-ip-cad",
+      "title": "CAD and AI are decision support: evidence and limits",
+      "estMinutes": 3,
+      "summary": "CAD can flag more areas to look at, but large studies have not shown that it detects more invasive cancers. Image quality and the radiologist's complete review still decide the outcome.",
+      "explanation": [
+        {
+          "heading": "What studies show",
+          "body": "NCI's PDQ summary reports that CAD generally raises sensitivity and DCIS detection while lowering specificity. Large studies found no improvement in invasive cancer detection, and one found no gains in sensitivity, specificity, or interval cancers."
+        },
+        {
+          "heading": "AI is still being evaluated",
+          "body": "AI algorithms for reading screening mammograms are in development. They may improve speed and reproducibility, but it is not yet known whether they will worsen overdiagnosis or how they will influence radiologists' final assessments."
+        },
+        {
+          "heading": "Labeling warns about failure",
+          "body": "CADe labeling must describe situations where the device may fail or underperform, such as poor image quality or certain subpopulations. FDA's example warning tells users not to rely solely on the output and to review the entire dataset systematically. FDA also recommends that directions encourage local training on how to use each device safely."
+        },
+        {
+          "heading": "Why this matters to you",
+          "body": "Algorithms analyze the images you produce. Good positioning, compression, and technique still matter, and CAD is not a safety net for a technically inadequate image."
+        }
+      ],
+      "example": "A patient asks whether 'the computer already checked' her mammogram. An accurate answer: some facilities use software that points the radiologist to areas worth a second look, and the radiologist makes the interpretation.",
+      "misconception": {
+        "belief": "CAD makes up for a poorly positioned or underexposed image.",
+        "correction": "CADe labeling must warn that performance can drop with poor image quality, and the radiologist must still review every image. A technically inadequate image is a problem whether or not CAD runs."
+      },
+      "variants": {
+        "simpler": "CAD finds more spots to check but hasn't been shown to catch more invasive cancers. It works best on good images.",
+        "example": "More CAD marks can mean more callbacks without finding more invasive cancers. That's the specificity trade-off.",
+        "deeper": "PDQ (updated April 10, 2025) cites Fenton 2007, Fenton 2013, and Lehman 2015 for CAD outcomes. § 892.2070(b)(1)(iii) uses improvement in aided reader performance as the benchmark, not standalone accuracy."
+      },
+      "checkQuestionId": "q-inf-027",
+      "evidenceIds": [
+        "ev-inf-cadg-training",
+        "ev-inf-nci-cad-effect",
+        "ev-inf-nci-cad-studies",
+        "ev-inf-nci-ai",
+        "ev-inf-892-cad-limits",
+        "ev-inf-cadg-warning",
+        "ev-inf-892-cad-reader"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-inf-labeling-identity",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-mqsa-image-labeling",
+      "title": "Image labels and patient identity in a digital workflow",
+      "estMinutes": 3,
+      "summary": "Digital systems move images automatically, so identity errors move too. MQSA's labeling rule and basic data-integrity principles keep each image tied to the right patient.",
+      "explanation": [
+        {
+          "heading": "Required on every image",
+          "body": "Each mammographic image must permanently, legibly, and unambiguously show the patient's name and an additional identifier, the exam date, view and laterality placed near the axilla, the facility name and location, technologist identification, cassette/screen identification, and the unit identification when the facility has more than one unit. Labels must not obscure anatomy."
+        },
+        {
+          "heading": "The report matches",
+          "body": "The written report also carries the patient's name and an additional patient identifier. Two identifiers on both images and report make mismatches easier to catch."
+        },
+        {
+          "heading": "Identity inside the file",
+          "body": "Each DICOM image carries a unique identifier. Systems may map a Patient ID to a local value without changing what the image means, but changing an image's actual content creates a new object. Corrections go through your facility's defined process, not ad-hoc edits."
+        },
+        {
+          "heading": "Who did what",
+          "body": "HIPAA's Security Rule requires unique user identification and audit controls on systems holding electronic health information. Logging in as yourself is part of keeping the record trustworthy."
+        }
+      ],
+      "example": "Two patients with the same last name are on today's schedule. Checking the name and a second identifier before you start, and again on the image label, catches a wrong-worklist selection before images go to PACS.",
+      "misconception": {
+        "belief": "The patient's name alone is enough identification on a mammogram.",
+        "correction": "MQSA requires the name plus an additional patient identifier on each image and on the report, along with the other required label elements."
+      },
+      "variants": {
+        "simpler": "Every image needs: who, when, which view and side, where, which tech, and which unit (if there's more than one).",
+        "example": "A RCC label placed near the axilla and away from breast tissue meets the placement rule. One placed over the lateral breast does not.",
+        "deeper": "§ 900.12(c)(5) lists seven label elements, and accreditation bodies set the standardized view/laterality codes. NLM MeSH defines patient identification systems as organized procedures for establishing identity."
+      },
+      "checkQuestionId": "q-inf-031",
+      "evidenceIds": [
+        "ev-inf-cfr-image-id",
+        "ev-inf-cfr-image-id-more",
+        "ev-inf-cfr-report-id",
+        "ev-inf-dicom-uid",
+        "ev-inf-hipaa-access-audit",
+        "ev-inf-mesh-patient-id"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "observationPrompt": "Ask your preceptor what your facility's procedure is when an image is found under the wrong patient, and who is authorized to correct it."
+    },
+    {
+      "id": "les-inf-originals",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-mqsa-records-transfer",
+      "title": "What counts as the original digital mammogram",
+      "estMinutes": 3,
+      "summary": "MQSA retention and transfer rules depend on keeping the original. For digital exams, that means full-fidelity files: lossless compression is fine, but lossy-only copies and burned-in CAD marks are not.",
+      "explanation": [
+        {
+          "heading": "Keep the original modality",
+          "body": "MQSA names screen-film, FFDM, and DBT as examples of mammographic modalities. Originals must be retained retrievably in the modality in which they were produced. They cannot be replaced by copies or digitized hardcopy. For FFDM and DBT, FDA expects the file format and all other characteristics of the original files to be preserved."
+        },
+        {
+          "heading": "Lossless vs lossy",
+          "body": "Lossless compression allows complete reconstruction, so FDA generally treats losslessly compressed images as originals. Lossy compression discards data, so lossy images generally are not originals and could affect how tissue and abnormalities are visualized."
+        },
+        {
+          "heading": "CAD marks must come off",
+          "body": "CAD marks added after acquisition must be removable, and images must be displayable without them. A set with permanent CAD marks may be kept, but that set alone does not meet retention."
+        },
+        {
+          "heading": "Transfer vs copies",
+          "body": "Transfer means the original leaves the facility, which is rare for digital exams. Copies are the usual route. Both must happen within 15 calendar days of the request. For digital exams sent for final interpretation, the facility must be able to provide images electronically, for example by HIPAA-compliant transmission, remote PACS access, CD viewing, or uploading media into the receiving PACS."
+        }
+      ],
+      "example": "An archive vendor proposes saving space by storing older mammograms with lossy compression. FDA's reasoning says those files would generally no longer count as originals for MQSA retention.",
+      "misconception": {
+        "belief": "Lossy compression is fine for the archive as long as the images look the same on screen.",
+        "correction": "Lossy compression permanently discards data. FDA generally does not consider lossy images to be originals for retention or transfer, whatever they look like on screen."
+      },
+      "variants": {
+        "simpler": "Keep the full-quality file. Squeezing it without losing anything is OK. Throwing data away is not.",
+        "example": "A second-opinion request for a DBT exam must receive the DBT images (original or exact digital copy), not a printout or a scan of one.",
+        "deeper": "FDA Responses 98–102 (88 FR 15126) cover original modality, lossless vs lossy compression, CAD marks, why DICOM isn't mandated, and the interpretation vs comparison distinction."
+      },
+      "checkQuestionId": "q-inf-036",
+      "evidenceIds": [
+        "ev-inf-cfr-modality-def",
+        "ev-inf-cfr-records-loss",
+        "ev-inf-fr-digital-format",
+        "ev-inf-fr-lossless",
+        "ev-inf-fr-lossy",
+        "ev-inf-fr-cad-marks",
+        "ev-inf-cfr-transfer-electronic",
+        "ev-inf-cfr-copies-15",
+        "ev-inf-fr-electronic-methods"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-inf-integrity-backup",
+      "revision": 1,
+      "moduleId": "mod-informatics",
+      "objectiveId": "obj-ip-informatics",
+      "title": "Data integrity, backup, and downtime",
+      "estMinutes": 3,
+      "summary": "An archive is only useful if images are unaltered, retrievable, and recoverable after a failure. HIPAA's security standards name the pieces, and MQSA requires policies to minimize record loss.",
+      "explanation": [
+        {
+          "heading": "Integrity",
+          "body": "Under HIPAA, integrity means data have not been altered or destroyed in an unauthorized way. Covered entities must have policies to protect electronic health information from improper alteration or destruction."
+        },
+        {
+          "heading": "Three different plans",
+          "body": "A HIPAA contingency plan includes a data backup plan (retrievable exact copies), a disaster recovery plan (procedures to restore any loss of data), and an emergency mode operation plan (keeping critical processes running securely during an emergency)."
+        },
+        {
+          "heading": "Access and audit",
+          "body": "Each user needs a unique identifier, and audit controls record activity in systems holding health information. Shared logins defeat both."
+        },
+        {
+          "heading": "The MQSA layer",
+          "body": "MQSA separately requires facilities to implement policies and procedures that minimize the possibility of losing mammograms and reports. Troubleshooting steps for a failed send or an archive outage are vendor- and site-specific, so learn your facility's downtime procedure."
+        }
+      ],
+      "example": "The PACS archive server fails overnight. The backup plan means exact copies exist. The disaster recovery plan restores the lost data. The emergency mode plan keeps scheduled patients moving safely in the meantime.",
+      "misconception": {
+        "belief": "Having backups is the same as having a disaster recovery plan.",
+        "correction": "Backups create retrievable exact copies. Disaster recovery is the separate procedure for restoring lost data. HIPAA lists them as separate required specifications."
+      },
+      "variants": {
+        "simpler": "Backup makes copies, recovery puts data back, and emergency mode keeps work going safely during the outage.",
+        "example": "A colleague offers to let you use their login while yours is reset. Unique user identification and audit controls are why you say no.",
+        "deeper": "45 CFR 164.308(a)(7) also lists testing and revision procedures as addressable. § 164.312(c)(2) suggests electronic mechanisms to corroborate that data haven't been improperly altered."
+      },
+      "checkQuestionId": "q-inf-041",
+      "evidenceIds": [
+        "ev-inf-hipaa-integrity-def",
+        "ev-inf-hipaa-integrity-std",
+        "ev-inf-hipaa-contingency",
+        "ev-inf-hipaa-access-audit",
+        "ev-inf-hipaa-audit",
+        "ev-inf-cfr-records-loss"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "observationPrompt": "Ask your preceptor what the facility's downtime procedure is when images cannot be sent to PACS, and who you notify."
+    }
+  ]
+}

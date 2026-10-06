@@ -1,0 +1,2114 @@
+{
+  "version": "2026-10-06.1",
+  "defaults": {
+    "retrievedOn": "2026-10-06",
+    "review": {
+      "status": "auto_checked",
+      "requiresQualifiedReview": false,
+      "aiAssisted": true,
+      "history": [
+        {
+          "at": "2026-10-06",
+          "status": "draft",
+          "actor": "ai-assisted",
+          "kind": "revision",
+          "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+        },
+        {
+          "at": "2026-10-06",
+          "status": "auto_checked",
+          "actor": "automation",
+          "kind": "automated_validation",
+          "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev-inf-mesh-ris",
+      "sourceId": "src-nlm-mesh-2026",
+      "locator": "MeSH descriptor D011873 Radiology Information Systems, scope note",
+      "claim": "A radiology information system is an information system for planning, organizing, directing, and controlling the administrative activities of radiology services (scheduling, tracking, and similar workflow).",
+      "scope": "General definition; vendor products and local configurations vary.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "none"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Information systems, usually computer-assisted, designed to store, manipulate, and retrieve information for planning, organizing, directing, and controlling administrative activities associated with the provision and utilization of radiology services and facilities."
+    },
+    {
+      "id": "ev-inf-mesh-his",
+      "sourceId": "src-nlm-mesh-2026",
+      "locator": "MeSH descriptor D006751 Hospital Information Systems, scope note",
+      "claim": "A hospital information system is an integrated system handling both administrative and clinical information for the hospital as a whole, broader than the radiology department.",
+      "scope": "General definition.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "none"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Integrated, computer-assisted systems designed to store, manipulate, and retrieve information concerned with the administrative and clinical aspects of providing medical services within the hospital."
+    },
+    {
+      "id": "ev-inf-mesh-ehr",
+      "sourceId": "src-nlm-mesh-2026",
+      "locator": "MeSH descriptor D057286 Electronic Health Records, scope note",
+      "claim": "An electronic health record carries a patient's health information across different providers and locations.",
+      "scope": "General definition; EMR is an entry term for this descriptor.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "none"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Media that facilitate transportability of pertinent information concerning patient's illness across varied providers and geographic locations."
+    },
+    {
+      "id": "ev-inf-mesh-compression",
+      "sourceId": "src-nlm-mesh-2026",
+      "locator": "MeSH descriptor D044962 Data Compression (entry term: Image Compression), scope note",
+      "claim": "Data (including image) compression uses coding methods to reduce the amount of data stored, retrieved, or transmitted, mainly to lower cost and improve efficiency.",
+      "scope": "General definition; does not by itself say which compression is acceptable for mammograms.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "none"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Information application based on a variety of coding methods to minimize the amount of data to be stored, retrieved, or transmitted."
+    },
+    {
+      "id": "ev-inf-mesh-patient-id",
+      "sourceId": "src-nlm-mesh-2026",
+      "locator": "MeSH descriptor D010355 Patient Identification Systems, scope note",
+      "claim": "Patient identification systems are organized procedures for establishing patient identity, such as wristbands.",
+      "scope": "General definition; specific two-identifier policies come from facility policy and accrediting organizations not reproduced here.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "none"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Organized procedures for establishing patient identity, including use of bracelets, etc."
+    },
+    {
+      "id": "ev-inf-mesh-cad",
+      "sourceId": "src-nlm-mesh-2026",
+      "locator": "MeSH descriptor D003936 Diagnosis, Computer-Assisted, scope note",
+      "claim": "Computer-assisted diagnosis means computer programs designed to assist the physician with a diagnostic problem; the physician remains the problem-solver.",
+      "scope": "General definition.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "none"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Application of computer programs designed to assist the physician in solving a diagnostic problem."
+    },
+    {
+      "id": "ev-inf-892-storage",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2010(a)–(b)",
+      "claim": "A medical image storage device is hardware that stores and retrieves medical images; it is Class I and exempt from premarket notification (subject to § 892.9).",
+      "scope": "FDA device classification; describes the device type, not facility storage policy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "A medical image storage device is a hardware device that provides electronic storage and retrieval functions for medical images."
+    },
+    {
+      "id": "ev-inf-892-communications",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2020(a)",
+      "claim": "A medical image communications device electronically transfers image data between devices and may include simple review functions such as window/level, zoom and pan, measurements, compression, and annotations, but not advanced processing.",
+      "scope": "FDA device classification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "A medical image communications device provides electronic transfer of medical image data between medical devices. It may include a physical communications medium, modems, and interfaces. It may provide simple image review software functionality for medical image processing and manipulation, such as grayscale window and level, zoom and pan, user delineated geometric measurements, compression, or user added image annotations."
+    },
+    {
+      "id": "ev-inf-892-mimps",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2050(a)–(b)",
+      "claim": "A medical image management and processing system provides review and digital processing of medical images for interpretation by a trained practitioner; it is Class II, with DICOM, JPEG, and the SMPTE test pattern named as voluntary standards.",
+      "scope": "FDA device classification; PACS viewing/processing software and diagnostic displays are generally regulated under this type.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "A medical image management and processing system is a device that provides one or more capabilities relating to the review and digital processing of medical images for the purposes of interpretation by a trained practitioner of disease detection, diagnosis, or patient management."
+    },
+    {
+      "id": "ev-inf-892-mimps-standards",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2050(b)",
+      "claim": "The classification for medical image management and processing systems lists DICOM, JPEG, and the SMPTE test pattern as voluntary standards.",
+      "scope": "FDA device classification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Class II (special controls; voluntary standards—Digital Imaging and Communications in Medicine (DICOM) Std., Joint Photographic Experts Group (JPEG) Std., Society of Motion Picture and Television Engineers (SMPTE) Test Pattern)."
+    },
+    {
+      "id": "ev-inf-892-cade",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2070(a)",
+      "claim": "CADe (medical image analyzer) for mammography is a prescription device that directs the clinician's attention to image regions that may be abnormal, operates on previously acquired images, and is not intended to replace a qualified radiologist's review, to triage, or to recommend a diagnosis.",
+      "scope": "FDA device classification for CADe; individual products have their own cleared indications.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "This device is not intended to replace the review by a qualified radiologist, and is not intended to be used for triage, or to recommend diagnosis."
+    },
+    {
+      "id": "ev-inf-892-cade-function",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2070(a)",
+      "claim": "CADe identifies, marks, highlights, or otherwise directs attention to portions of an image during interpretation, using pattern recognition on previously acquired images.",
+      "scope": "FDA device classification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "is a prescription device that is intended to identify, mark, highlight, or in any other manner direct the clinicians' attention to portions of a radiology image that may reveal abnormalities during interpretation of patient radiology images by the clinicians. This device incorporates pattern recognition and data analysis capabilities and operates on previously acquired medical images."
+    },
+    {
+      "id": "ev-inf-892-cadx",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2060(a)",
+      "claim": "CADx software helps characterize already-identified lesions as suspicious for cancer (including on mammography); diagnostic and management decisions remain with the clinical user.",
+      "scope": "FDA device classification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The device characterizes lesions based on features or information extracted from the images and provides information about the lesion(s) to the user. Diagnostic and patient management decisions are made by the clinical user."
+    },
+    {
+      "id": "ev-inf-892-cadt",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2080(a)",
+      "claim": "Computer-aided triage and notification software flags time-sensitive studies to designated clinicians; it does not mark locations on the image, does not remove cases from the reading queue, and runs in parallel with the standard of care.",
+      "scope": "FDA device classification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The device does not mark, highlight, or direct users' attention to a specific location in the original image. The device does not remove cases from a reading queue. The device operates in parallel with the standard of care, which remains the default option for all cases."
+    },
+    {
+      "id": "ev-inf-892-cadex",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2090(a)",
+      "claim": "Combined detection-and-diagnosis software informs, but does not replace, the clinician's complete review and clinical judgment.",
+      "scope": "FDA device classification added June 2025.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal",
+        "effective": "90 FR 24970, June 13, 2025"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The device is not intended as a replacement for a complete clinician's review or their clinical judgment that takes into account other relevant information from the image or patient history."
+    },
+    {
+      "id": "ev-inf-892-cad-limits",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2070(b)(2)(vi)",
+      "claim": "CADe labeling must warn about situations where the device may fail or underperform, such as poor image quality or certain subpopulations.",
+      "scope": "Special controls for manufacturer labeling.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Discussion of warnings, precautions, and limitations must include situations in which the device may fail or may not operate at its expected performance level ( e.g., poor image quality or for certain subpopulations), as applicable."
+    },
+    {
+      "id": "ev-inf-892-cad-reader",
+      "sourceId": "src-ecfr-21-cfr-892-image-devices",
+      "locator": "21 CFR 892.2070(b)(1)(iii)",
+      "claim": "CADe performance testing must show the device improves reader performance in the intended use population when used per instructions—the benchmark is the aided human reader.",
+      "scope": "Special controls for manufacturers.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Results from performance testing that demonstrate that the device improves reader performance in the intended use population when used in accordance with the instructions for use."
+    },
+    {
+      "id": "ev-inf-cfr-image-id",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(5)(i)–(vii)",
+      "claim": "Each mammographic image must permanently, legibly, and unambiguously show patient name and an additional identifier, exam date, view and laterality near the axilla, facility name and location, technologist identification, cassette/screen identification, and unit identification if there is more than one unit, without obscuring anatomy.",
+      "scope": "MQSA-certified U.S. facilities.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Each mammographic image shall have the following information indicated on it in a permanent, legible, and unambiguous manner and placed so as not to obscure anatomic structures: (i) Name of patient and an additional patient identifier. (ii) Date of examination. (iii) View and laterality. This information shall be placed on the image in a position near the axilla."
+    },
+    {
+      "id": "ev-inf-cfr-image-id-more",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(5)(iv)–(vii)",
+      "claim": "The image label also includes facility name and location (city, State, ZIP), technologist identification, cassette/screen identification, and mammography unit identification when the facility has more than one unit.",
+      "scope": "MQSA-certified U.S. facilities.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "(iv) Facility name and location. At a minimum, the location shall include the city, State, and zip code of the facility. (v) Technologist identification. (vi) Cassette/screen identification. (vii) Mammography unit identification, if there is more than one unit in the facility."
+    },
+    {
+      "id": "ev-inf-cfr-report-id",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(1)(i)",
+      "claim": "The written mammography report must also carry the patient's name and an additional patient identifier.",
+      "scope": "MQSA-certified U.S. facilities.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The name of the patient and an additional patient identifier;"
+    },
+    {
+      "id": "ev-inf-cfr-original-modality",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(1)",
+      "claim": "An exam presented for interpretation must be in the original mammographic modality and must not be digital images made by copying or digitizing hardcopy originals.",
+      "scope": "MQSA interpretation requirement.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The mammographic examination presented for interpretation must be in the original mammographic modality in which it was performed, and must not consist of digital images produced through copying or digitizing hardcopy original images."
+    },
+    {
+      "id": "ev-inf-cfr-records-loss",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4)(i)",
+      "claim": "Facilities must keep original mammograms and reports for the required period, implement policies to minimize record loss, and retain originals retrievably in the modality in which they were produced.",
+      "scope": "MQSA recordkeeping.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Facilities shall implement policies and procedures to minimize the possibility of loss of these records. The original mammograms must be retained in retrievable form in the mammographic modality in which they were produced."
+    },
+    {
+      "id": "ev-inf-cfr-transfer-electronic",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4)(ii)",
+      "claim": "When digital mammograms or DBT are transferred for final interpretation, the facility must be able to provide original digital images electronically; transfer occurs within 15 calendar days of the request.",
+      "scope": "MQSA transfer rule.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "For digital mammograms or digital breast tomosynthesis, if the examination is being transferred for final interpretation purposes, the facility must be able to provide the recipient with original digital images electronically;"
+    },
+    {
+      "id": "ev-inf-cfr-copies-15",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4)(iii)",
+      "claim": "Copies of mammograms and reports requested by or for the patient must be released within 15 calendar days; for digital exams released for final interpretation, the facility must be able to provide digital images electronically.",
+      "scope": "MQSA copy-release rule.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Release of the copies must take place within 15 calendar days of the facility receiving such request."
+    },
+    {
+      "id": "ev-inf-cfr-devices-authorized",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(2)(i)",
+      "claim": "All devices used in mammography must have met the applicable FDA premarket authorization requirements for that device type and intended use.",
+      "scope": "MQSA equipment standard (2023 amendments, effective September 10, 2024).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal",
+        "effective": "2024-09-10"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "All devices used in mammography must have met the applicable FDA premarket authorization requirements for medical devices of that type with that intended use."
+    },
+    {
+      "id": "ev-inf-cfr-other-modality-qa",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(6)",
+      "claim": "For non-screen-film receptors (FFDM, DBT), the QA program must be substantially the same as the image receptor manufacturer's recommended program, with the screen-film dose ceiling still applying.",
+      "scope": "MQSA QC framework; device-specific procedures come from manufacturer manuals.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "For systems with image receptor modalities other than screen-film, the quality assurance program shall be substantially the same as the quality assurance program recommended by the image receptor manufacturer"
+    },
+    {
+      "id": "ev-inf-cfr-film-viewing",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(14)–(15)",
+      "claim": "For film interpretation, facilities must make hot-lights brighter than the view box available to interpreting physicians and provide film masking devices that can limit illumination to the exposed film area.",
+      "scope": "Screen-film/hardcopy viewing conditions; digital display QC is handled under manufacturer QA.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "screen_film_historical"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The facility shall make special lights for film illumination, i.e., hot-lights, capable of producing light levels greater than that provided by the view box, available to the interpreting physicians."
+    },
+    {
+      "id": "ev-inf-cfr-modality-def",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(z)",
+      "claim": "Mammographic modality means a breast radiography technology such as screen-film, full field digital mammography, or digital breast tomosynthesis.",
+      "scope": "MQSA definition.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Mammographic modality means a technology, within the scope of 42 U.S.C. 263b, for radiography of the breast. Examples are screen-film mammography, full field digital mammography, and digital breast tomosynthesis."
+    },
+    {
+      "id": "ev-inf-fr-pacs-retains",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 101",
+      "claim": "Transfer means the sending facility no longer keeps the mammogram; FFDM and DBT exams are rarely transferred because originals usually stay in the sending facility's PACS while copies are released.",
+      "scope": "FDA interpretation of § 900.12(c)(4).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "transfer of FFDM and DBT examinations is extremely rare because the original images are typically retained in the sending facility's PACS even when copies are released upon request."
+    },
+    {
+      "id": "ev-inf-fr-interp-vs-comparison",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 101",
+      "claim": "FDA distinguishes interpretation (initial, repeat, or additional review, which requires the original modality) from comparison (using a prior to help interpret another exam), which is not subject to that requirement.",
+      "scope": "FDA interpretation of § 900.12(c)(1).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "In the final rule, FDA distinguishes between ``interpretation'' (i.e., initial, repeat, or additional review of a mammogram), for which an examination must be presented in the original mammographic modality in which it was performed (see Sec. 900.12(c)(1) in this final rule), and ``comparison'' (i.e., using a mammogram to aid in the interpretation of another exam), which is not subject to that requirement."
+    },
+    {
+      "id": "ev-inf-fr-electronic-methods",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 101",
+      "claim": "FDA accepts several methods as providing original digital images electronically: HIPAA-compliant direct electronic transmission, HIPAA-compliant remote access to the originating PACS, viewing images on physical media such as a CD, or uploading images from media into the receiving PACS.",
+      "scope": "FDA interpretation; methods must otherwise comply with applicable law.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "providing the requesting facility with HIPAA-compliant remote electronic access to the images in the PACS of the originating facility; the viewing of digital mammogram images located on a physical storage medium such as a CD; or the uploading of such images from a digital storage medium to a receiving facility's PACS. FDA views all of these methods as meeting the requirement to provide original digital images electronically."
+    },
+    {
+      "id": "ev-inf-fr-lossless",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 100",
+      "claim": "Losslessly compressed digital mammograms are generally considered originals for retention and transfer; lossy-compressed images generally are not, because lossy compression discards image data.",
+      "scope": "FDA interpretation of § 900.12(c)(4).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Because lossless compression permits complete reconstruction of the image data, images undergoing such compression would be generally considered to be ``original'' mammograms for the purposes of Sec. 900.12(c)(4)"
+    },
+    {
+      "id": "ev-inf-fr-lossy",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 100",
+      "claim": "Lossy compression does not keep all mammogram data, so lossy images generally are not originals, and transferring them could affect processing and visualization of normal tissue and abnormalities.",
+      "scope": "FDA interpretation of § 900.12(c)(4).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "In contrast, images that have undergone lossy compression, which does not maintain all of the data related to the mammogram image files, would generally not be considered to be ``original'' mammograms for the purposes of Sec. 900.12(c)(4)."
+    },
+    {
+      "id": "ev-inf-fr-cad-marks",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 98",
+      "claim": "CAD marks added after acquisition must be removable and images must be displayable without them; a set with permanent CAD marks alone does not meet retention requirements.",
+      "scope": "FDA interpretation of § 900.12(c)(4)(i)–(ii).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "any CAD markings placed by computer software after the mammographic images are obtained, and which typically overlie and obscure portions of the image, must be removable and the images must be capable of being displayed without the CAD marks. A facility may choose to retain a set of the images with permanent CAD marks, but this set of images alone would not meet the retention requirement."
+    },
+    {
+      "id": "ev-inf-fr-digital-format",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 98",
+      "claim": "FFDM and DBT images must be retained in digital format with the file format and other characteristics of the original files preserved; a scan of a hardcopy print cannot be the sole retained record.",
+      "scope": "FDA interpretation of § 900.12(c)(4).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "digital (FFDM or DBT) images must be retained such that the file format and all other characteristics of the original digital image files are preserved."
+    },
+    {
+      "id": "ev-inf-fr-dicom-not-required",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 99",
+      "claim": "FDA declined to require DICOM in MQSA rules: DICOM is the predominant medical image format, but mandating a specific format would be overly restrictive.",
+      "scope": "FDA rulemaking response.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Although FDA acknowledges that DICOM is currently the predominant format used for image files in medical imaging, requiring the use of a specific file format in the MQSA regulations is overly restrictive and may limit the future development of alternative formats, including formats that offer improvements."
+    },
+    {
+      "id": "ev-inf-fr-display-clearance",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 19",
+      "claim": "§ 900.12(b)(2)(i) applies to devices used to acquire, process, or display digital mammograms; a display used for interpretation generally needs 510(k) clearance, while some devices such as image storage devices may be exempt.",
+      "scope": "FDA rulemaking response.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "This applies to devices used in the acquisition, processing, or display of digital mammographic images. For example, a display device used in the interpretation of digital mammographic images generally needs to have 510(k) clearance prior to being used in a mammographic facility. Not all equipment needs clearance or approval; for example, some devices, such as medical image storage devices, may be exempted from premarket notification requirements."
+    },
+    {
+      "id": "ev-inf-fr-display-qc-separate",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 22",
+      "claim": "Display QC tests are a separate MQSA standard; having QC tests for a display does not by itself satisfy FDA premarket requirements, and interpreting on a display without the applicable authorization would generally violate MQSA.",
+      "scope": "FDA rulemaking response.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The QC tests for a display are another MQSA quality standard required for use of that display for mammography interpretation (see Sec. 900.12(e)(6)), but the existence of QC tests for a display is generally not sufficient to satisfy all FDA premarket regulatory requirements that may apply to the device."
+    },
+    {
+      "id": "ev-inf-fr-copies-interp",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (Mar. 10, 2023) preamble, Response 102",
+      "claim": "Original images or exact copies of digital exams may be used for interpretation or comparison; copies of screen-film exams may be used for comparison but not interpretation.",
+      "scope": "FDA interpretation of § 900.12(c)(1).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Either original images or exact copies of digital exams may be used for interpretation (such as a second opinion) or comparison (see Sec. 900.12(c)(1)). Copies of screen-film examinations may be used for comparison but not for interpretation (see Sec. 900.12(c)(1))."
+    },
+    {
+      "id": "ev-inf-hipaa-integrity-def",
+      "sourceId": "src-ecfr-45-cfr-164-security",
+      "locator": "45 CFR 164.304, definition of integrity",
+      "claim": "Integrity means data have not been altered or destroyed in an unauthorized manner.",
+      "scope": "HIPAA covered entities and business associates.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal (HIPAA)"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Integrity means the property that data or information have not been altered or destroyed in an unauthorized manner."
+    },
+    {
+      "id": "ev-inf-hipaa-integrity-std",
+      "sourceId": "src-ecfr-45-cfr-164-security",
+      "locator": "45 CFR 164.312(c)(1)–(2)",
+      "claim": "Covered entities must protect electronic PHI from improper alteration or destruction and should have mechanisms to corroborate that it has not been altered or destroyed without authorization.",
+      "scope": "HIPAA technical safeguards; (c)(2) is addressable.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal (HIPAA)"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Implement policies and procedures to protect electronic protected health information from improper alteration or destruction."
+    },
+    {
+      "id": "ev-inf-hipaa-contingency",
+      "sourceId": "src-ecfr-45-cfr-164-security",
+      "locator": "45 CFR 164.308(a)(7)(i)–(ii)",
+      "claim": "A contingency plan for emergencies such as system failure must include a data backup plan (retrievable exact copies), a disaster recovery plan (restore any loss of data), and an emergency mode operation plan (continue critical processes while protecting security).",
+      "scope": "HIPAA administrative safeguards.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal (HIPAA)"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "(A) Data backup plan (Required). Establish and implement procedures to create and maintain retrievable exact copies of electronic protected health information. (B) Disaster recovery plan (Required). Establish (and implement as needed) procedures to restore any loss of data. (C) Emergency mode operation plan (Required)."
+    },
+    {
+      "id": "ev-inf-hipaa-access-audit",
+      "sourceId": "src-ecfr-45-cfr-164-security",
+      "locator": "45 CFR 164.312(a)(2)(i), (b)",
+      "claim": "Systems holding electronic PHI must assign each user a unique name or number for identifying and tracking user identity, and must have audit controls that record and examine activity.",
+      "scope": "HIPAA technical safeguards.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal (HIPAA)"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "(i) Unique user identification (Required). Assign a unique name and/or number for identifying and tracking user identity."
+    },
+    {
+      "id": "ev-inf-hipaa-audit",
+      "sourceId": "src-ecfr-45-cfr-164-security",
+      "locator": "45 CFR 164.312(b)",
+      "claim": "Audit controls record and examine activity in information systems that contain electronic PHI.",
+      "scope": "HIPAA technical safeguards.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal (HIPAA)"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information."
+    },
+    {
+      "id": "ev-inf-disp-ifu",
+      "sourceId": "src-fda-display-devices-guidance",
+      "locator": "FDA Display Devices for Diagnostic Radiology (2022), IV.A Indications for Use",
+      "claim": "A diagnostic display's indications for use should state whether it is or is not intended for mammography (including FFDM and DBT).",
+      "scope": "Nonbinding FDA recommendation to manufacturers.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The IFU should state whether your device is or is not intended for mammography."
+    },
+    {
+      "id": "ev-inf-disp-scope",
+      "sourceId": "src-fda-display-devices-guidance",
+      "locator": "FDA Display Devices for Diagnostic Radiology (2022), Scope",
+      "claim": "The guidance covers display devices for diagnostic radiology classified under 21 CFR 892.2050, sometimes called soft-copy displays or medical grade monitors.",
+      "scope": "Nonbinding FDA recommendation.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "This includes display devices for diagnostic radiology that may be referred to as soft-copy display or medical grade monitors."
+    },
+    {
+      "id": "ev-inf-disp-tests",
+      "sourceId": "src-fda-display-devices-guidance",
+      "locator": "FDA Display Devices for Diagnostic Radiology (2022), VII Table 1 and IV.B",
+      "claim": "Manufacturers characterize diagnostic displays for properties such as spatial resolution, pixel defects, artifacts, luminance range, conformance to a grayscale-to-luminance function such as the DICOM GSDF, off-angle luminance, and uniformity, and describe luminance calibration tools and user/physicist QC procedures with action limits.",
+      "scope": "Nonbinding manufacturer testing recommendations; facility QC follows the manufacturer's program.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Quality control procedures: A description of the frequency and nature of quality- control tests to be performed by the user and/or the physicist with associated action limits."
+    },
+    {
+      "id": "ev-inf-cadg-def",
+      "sourceId": "src-fda-cade-510k-guidance",
+      "locator": "FDA CADe 510(k) guidance (2022), I. Introduction",
+      "claim": "CADe devices use pattern recognition and data analysis to identify, mark, highlight, or otherwise direct attention to image regions that may reveal abnormalities during interpretation by the clinician.",
+      "scope": "Nonbinding FDA guidance.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "CADe devices are computerized systems that incorporate pattern recognition and data analysis capabilities"
+    },
+    {
+      "id": "ev-inf-cadg-cadx-triage",
+      "sourceId": "src-fda-cade-510k-guidance",
+      "locator": "FDA CADe 510(k) guidance (2022), III. Scope",
+      "claim": "CADx goes beyond marking to assess likelihood, type, severity, or stage of disease; computer-triage devices would reduce or eliminate part of the clinician's care, such as labeling some patients normal so they are not read.",
+      "scope": "Nonbinding FDA guidance; these device types are outside that guidance's scope.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "CADx devices include those that are intended to provide an assessment of disease or other conditions in terms of the likelihood of the presence or absence of disease, or are intended to specify disease type (i.e., specific diagnosis or differential diagnosis), severity, stage, or intervention recommended."
+    },
+    {
+      "id": "ev-inf-cadg-warning",
+      "sourceId": "src-fda-cade-510k-guidance",
+      "locator": "FDA CADe 510(k) guidance (2022), VIII.C Warnings",
+      "claim": "FDA's example CADe warning: users should not rely solely on the device output but should perform a full systematic review and interpretation of the entire dataset.",
+      "scope": "Example labeling language recommended to manufacturers.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "should not rely solely on the output identified by [device trade name], but should perform a full systematic review and interpretation of the entire patient dataset."
+    },
+    {
+      "id": "ev-inf-cadg-training",
+      "sourceId": "src-fda-cade-510k-guidance",
+      "locator": "FDA CADe 510(k) guidance (2022), VIII.B Directions for Use",
+      "claim": "CADe directions should encourage local training so clinicians know the device's features and use it safely and effectively.",
+      "scope": "Nonbinding FDA guidance.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Instructions should encourage local/institutional training programs designed to familiarize clinicians with the features of the device and how to use it in a safe and effective manner."
+    },
+    {
+      "id": "ev-inf-nci-cad-effect",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "NCI PDQ Breast Cancer Screening (Health Professional Version), updated April 10, 2025, Digital mammography section",
+      "claim": "CAD highlights suspicious regions such as clustered microcalcifications and masses, generally increasing sensitivity, decreasing specificity, and increasing DCIS detection.",
+      "scope": "Summary of published studies; effects vary by system and setting.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Computer-aided detection (CAD) systems highlight suspicious regions, such as clustered microcalcifications and masses,[ 15 ] generally increasing sensitivity, decreasing specificity,[ 16 ] and increasing detection of ductal carcinoma in situ (DCIS).[ 17 ]"
+    },
+    {
+      "id": "ev-inf-nci-cad-studies",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "NCI PDQ Breast Cancer Screening (Health Professional Version), updated April 10, 2025, Digital mammography section",
+      "claim": "Large studies have not shown CAD improving invasive cancer detection: one found no change in recall or detection rates; another found more recalls and DCIS but no better invasive detection; another found no gain in sensitivity, specificity, or interval cancers.",
+      "scope": "Summary of published studies (references 15–20 in PDQ).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Another study, using a large database and DM in women aged 40 to 89 years, found that CAD did not improve sensitivity, specificity, or detection of interval cancers, but it did detect more DCIS."
+    },
+    {
+      "id": "ev-inf-nci-ai",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "NCI PDQ Breast Cancer Screening (Health Professional Version), updated April 10, 2025, Variables Associated With Accuracy — Artificial intelligence algorithms",
+      "claim": "AI algorithms are being developed to interpret screening mammograms; they may improve speed and reproducibility, but it is unknown whether they will worsen overdiagnosis or how they will influence physicians' final assessments.",
+      "scope": "Evidence summary as of April 2025.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "While such tools may improve interpretive speed and reproducibility in the future, it is unknown if they will exacerbate overdiagnosis [ 82 ] and how they might influence physicians’ final assessments."
+    },
+    {
+      "id": "ev-inf-dicom-scope",
+      "sourceId": "src-dicom-ps3-1",
+      "locator": "DICOM PS3.1 2026d, section 1.1 Scope of DICOM",
+      "claim": "DICOM is the standard for communicating and managing medical imaging information. It specifies network protocols and command syntax for conforming devices, media storage services with a file format and directory structure, and the information a vendor must publish when claiming conformance.",
+      "scope": "International imaging interoperability standard (also ISO 12052).",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "international"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "exceptions": "Link-only: NEMA copyright; facts restated in original words. Detailed conformance and attribute definitions are in other DICOM parts not redistributed here."
+    },
+    {
+      "id": "ev-inf-dicom-limits",
+      "sourceId": "src-dicom-ps3-1",
+      "locator": "DICOM PS3.1 2026d, section 1.1 Scope of DICOM",
+      "claim": "DICOM does not define a vendor's implementation details, does not promise what an integrated system of individually conforming devices will do together, and does not supply a conformance test procedure—so two 'DICOM' devices can still fail to work together for a given feature.",
+      "scope": "Interoperability limits.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "international"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "exceptions": "Link-only: NEMA copyright; facts restated in original words. Detailed conformance and attribute definitions are in other DICOM parts not redistributed here."
+    },
+    {
+      "id": "ev-inf-dicom-uid",
+      "sourceId": "src-dicom-ps3-1",
+      "locator": "DICOM PS3.1 2026d, section 1.4.3 Information Objects and Unique Object Identification",
+      "claim": "Each DICOM object instance (for example, one image) carries a globally unique identifier that persists across exchanges. Minor local changes such as mapping the Patient ID to a local value do not change its meaning; changing the semantic content creates a new instance with a new identifier.",
+      "scope": "DICOM information model principle.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "international"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "exceptions": "Link-only: NEMA copyright; facts restated in original words. Detailed conformance and attribute definitions are in other DICOM parts not redistributed here."
+    },
+    {
+      "id": "ev-inf-dicom-gsdf",
+      "sourceId": "src-dicom-ps3-1",
+      "locator": "DICOM PS3.1 2026d, section 6.14 PS3.14 Grayscale Standard Display Function",
+      "claim": "DICOM PS3.14 defines a Grayscale Standard Display Function used to calibrate displays and printers so grayscale images look consistent across devices; it is based on a model of human visual perception because eye contrast sensitivity is nonlinear over display luminance.",
+      "scope": "Display calibration principle; specific calibration and acceptance procedures come from manufacturer and physicist programs.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "international"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "exceptions": "Link-only: NEMA copyright; facts restated in original words. Detailed conformance and attribute definitions are in other DICOM parts not redistributed here."
+    },
+    {
+      "id": "ev-inf-dicom-security",
+      "sourceId": "src-dicom-ps3-1",
+      "locator": "DICOM PS3.1 2026d, section 6.15 PS3.15 Security and System Management Profiles",
+      "claim": "DICOM supplies security mechanisms (for example, encryption and secure transport profiles) but not security policies; setting policy is the local organization's responsibility.",
+      "scope": "Security responsibility split.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "international"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "exceptions": "Link-only: NEMA copyright; facts restated in original words. Detailed conformance and attribute definitions are in other DICOM parts not redistributed here."
+    }
+  ]
+}

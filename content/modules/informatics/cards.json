@@ -1,0 +1,1193 @@
+{
+  "cards": [
+    {
+      "id": "card-inf-ris",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "What does a RIS mainly manage?",
+      "answer": "Radiology's administrative work: planning, organizing, and controlling radiology services such as scheduling and exam tracking.",
+      "evidenceIds": [
+        "ev-inf-mesh-ris"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-his",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "How is a HIS different from a RIS?",
+      "answer": "A HIS is hospital-wide and covers both administrative and clinical information. A RIS is limited to the radiology department.",
+      "evidenceIds": [
+        "ev-inf-mesh-his",
+        "ev-inf-mesh-ris"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-ehr",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "What is the defining feature of an EHR (EMR)?",
+      "answer": "It carries the patient's health information across different providers and locations.",
+      "evidenceIds": [
+        "ev-inf-mesh-ehr"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-pacs-originals",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Where are original FFDM/DBT images typically retained?",
+      "answer": "In the performing facility's PACS. Copies are what usually get released.",
+      "evidenceIds": [
+        "ev-inf-fr-pacs-retains"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-storage-class",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "FDA class of a medical image storage device?",
+      "answer": "Class I and exempt from premarket notification (subject to § 892.9).",
+      "evidenceIds": [
+        "ev-inf-892-storage"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-comm-tools",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Name simple review tools an image communications device may include.",
+      "answer": "Window/level, zoom and pan, measurements, compression, and annotations.",
+      "evidenceIds": [
+        "ev-inf-892-communications"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-mimps-standards",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Which voluntary standards are named in the classification for image management and processing systems?",
+      "answer": "DICOM, JPEG, and the SMPTE test pattern.",
+      "evidenceIds": [
+        "ev-inf-892-mimps-standards"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-dicom-what",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Three things DICOM standardizes?",
+      "answer": "Network protocols and commands, a media file format and directory, and what a vendor must publish when it claims conformance.",
+      "evidenceIds": [
+        "ev-inf-dicom-scope"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-dicom-not",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Does DICOM conformance guarantee two devices work together on every feature?",
+      "answer": "No. DICOM doesn't specify how an integrated group of conforming devices behaves, and it doesn't provide a conformance test.",
+      "evidenceIds": [
+        "ev-inf-dicom-limits"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-dicom-uid",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "What happens to a DICOM object's unique identifier if its semantic content changes?",
+      "answer": "A new instance with a new unique identifier is created.",
+      "evidenceIds": [
+        "ev-inf-dicom-uid"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-dicom-mqsa",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Does MQSA require DICOM format?",
+      "answer": "No. FDA called DICOM predominant but declined to mandate any file format.",
+      "evidenceIds": [
+        "ev-inf-fr-dicom-not-required"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-integrity",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "HIPAA definition of integrity?",
+      "answer": "Data have not been altered or destroyed in an unauthorized manner.",
+      "evidenceIds": [
+        "ev-inf-hipaa-integrity-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-backup-vs-dr",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Backup plan vs disaster recovery plan?",
+      "answer": "Backup creates retrievable exact copies. Disaster recovery restores lost data.",
+      "evidenceIds": [
+        "ev-inf-hipaa-contingency"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-emergency-mode",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "What does an emergency mode operation plan do?",
+      "answer": "Keeps critical business processes running while protecting the security of electronic health information during an emergency.",
+      "evidenceIds": [
+        "ev-inf-hipaa-contingency"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-unique-user",
+      "revision": 1,
+      "objectiveId": "obj-ip-informatics",
+      "estSeconds": 20,
+      "prompt": "Why shouldn't technologists share PACS/RIS logins?",
+      "answer": "HIPAA requires unique user identification and audit controls so activity can be traced to the person who did it.",
+      "evidenceIds": [
+        "ev-inf-hipaa-access-audit",
+        "ev-inf-hipaa-audit"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-display-ifu",
+      "revision": 1,
+      "objectiveId": "obj-ip-receptors-monitors",
+      "estSeconds": 20,
+      "prompt": "What should a diagnostic display's indications for use say about mammography?",
+      "answer": "Whether it is or is not intended for mammography (including FFDM and DBT).",
+      "evidenceIds": [
+        "ev-inf-disp-ifu"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-display-510k",
+      "revision": 1,
+      "objectiveId": "obj-ip-receptors-monitors",
+      "estSeconds": 20,
+      "prompt": "Does a display used to interpret digital mammograms generally need 510(k) clearance?",
+      "answer": "Yes. Under § 900.12(b)(2)(i), MQSA also requires it to meet the applicable premarket requirements for that use.",
+      "evidenceIds": [
+        "ev-inf-fr-display-clearance",
+        "ev-inf-cfr-devices-authorized"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-qc-not-clearance",
+      "revision": 1,
+      "objectiveId": "obj-qc-monitors-viewing",
+      "estSeconds": 20,
+      "prompt": "Does passing display QC satisfy FDA premarket requirements?",
+      "answer": "No. Display QC is a separate MQSA standard. QC tests alone don't satisfy premarket requirements.",
+      "evidenceIds": [
+        "ev-inf-fr-display-qc-separate"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-gsdf",
+      "revision": 1,
+      "objectiveId": "obj-qc-monitors-viewing",
+      "estSeconds": 20,
+      "prompt": "What is the purpose of the DICOM GSDF?",
+      "answer": "To calibrate displays and printers so grayscale images look consistent across devices, using a perception-based curve.",
+      "evidenceIds": [
+        "ev-inf-dicom-gsdf"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-digital-qa-source",
+      "revision": 1,
+      "objectiveId": "obj-qc-monitors-viewing",
+      "estSeconds": 20,
+      "prompt": "Whose QA program does MQSA point to for FFDM/DBT, including display QC?",
+      "answer": "One substantially the same as the image receptor manufacturer's recommended program (or an FDA-accepted alternative standard).",
+      "evidenceIds": [
+        "ev-inf-cfr-other-modality-qa"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-hotlight",
+      "revision": 1,
+      "objectiveId": "obj-qc-monitors-viewing",
+      "estSeconds": 20,
+      "prompt": "Two film-viewing aids MQSA requires to be available to interpreting physicians?",
+      "answer": "Hot-lights brighter than the view box, and film masking devices.",
+      "evidenceIds": [
+        "ev-inf-cfr-film-viewing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cade",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "What does CADe do?",
+      "answer": "It identifies, marks, or highlights image areas that may be abnormal so the clinician looks at them during interpretation.",
+      "evidenceIds": [
+        "ev-inf-892-cade-function"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cade-not",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "Three things CADe is NOT intended to do?",
+      "answer": "Replace the qualified radiologist's review, triage cases, or recommend a diagnosis.",
+      "evidenceIds": [
+        "ev-inf-892-cade"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cadx",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "What does CADx add beyond CADe?",
+      "answer": "It characterizes lesions, for example as suspicious for cancer. The clinician still makes the diagnostic decisions.",
+      "evidenceIds": [
+        "ev-inf-892-cadx",
+        "ev-inf-cadg-cadx-triage"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cadt",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "Does CADt mark the image or remove cases from the queue?",
+      "answer": "Neither. It notifies clinicians about time-sensitive studies, in parallel with standard care.",
+      "evidenceIds": [
+        "ev-inf-892-cadt"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cad-tradeoff",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "CAD's usual effect on sensitivity and specificity?",
+      "answer": "Sensitivity generally goes up and specificity goes down (more DCIS detected).",
+      "evidenceIds": [
+        "ev-inf-nci-cad-effect"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cad-invasive",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "Has CAD been shown to improve invasive cancer detection in large studies?",
+      "answer": "No. Large studies found no improvement in invasive detection.",
+      "evidenceIds": [
+        "ev-inf-nci-cad-studies"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cad-iq",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "Name an example situation that CADe labeling must warn may degrade performance.",
+      "answer": "Poor image quality (or certain subpopulations).",
+      "evidenceIds": [
+        "ev-inf-892-cad-limits"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-ai-unknowns",
+      "revision": 1,
+      "objectiveId": "obj-ip-cad",
+      "estSeconds": 20,
+      "prompt": "Two open questions about AI for screening mammograms, per NCI?",
+      "answer": "Whether it worsens overdiagnosis, and how it influences radiologists' final assessments.",
+      "evidenceIds": [
+        "ev-inf-nci-ai"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-label-elements",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-labeling",
+      "estSeconds": 40,
+      "prompt": "List the seven MQSA image label elements.",
+      "answer": "Name plus additional identifier; exam date; view and laterality near the axilla; facility name and location; technologist ID; cassette/screen ID; unit ID if more than one unit.",
+      "evidenceIds": [
+        "ev-inf-cfr-image-id",
+        "ev-inf-cfr-image-id-more"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-label-quality",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-labeling",
+      "estSeconds": 20,
+      "prompt": "Three qualities MQSA requires of image labeling?",
+      "answer": "Permanent, legible, and unambiguous, and placed so it doesn't obscure anatomy.",
+      "evidenceIds": [
+        "ev-inf-cfr-image-id"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-report-id",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-labeling",
+      "estSeconds": 20,
+      "prompt": "What patient identification must the written report carry?",
+      "answer": "The patient's name and an additional patient identifier.",
+      "evidenceIds": [
+        "ev-inf-cfr-report-id"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-lossless",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 20,
+      "prompt": "Are losslessly compressed digital mammograms considered originals?",
+      "answer": "Generally yes, because lossless compression allows complete reconstruction.",
+      "evidenceIds": [
+        "ev-inf-fr-lossless"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-lossy",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 20,
+      "prompt": "Are lossy-compressed mammograms considered originals?",
+      "answer": "Generally no, because lossy compression discards image data.",
+      "evidenceIds": [
+        "ev-inf-fr-lossy"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-cad-marks",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 20,
+      "prompt": "What MQSA retention condition applies to CAD marks?",
+      "answer": "They must be removable, and images must be displayable without them. A permanently marked set alone doesn't meet retention.",
+      "evidenceIds": [
+        "ev-inf-fr-cad-marks"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-electronic",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 35,
+      "prompt": "Name the ways FDA accepts as providing original digital images electronically.",
+      "answer": "HIPAA-compliant direct transmission, HIPAA-compliant remote PACS access, viewing on media such as a CD, or uploading media into the receiving PACS.",
+      "evidenceIds": [
+        "ev-inf-fr-electronic-methods"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-inf-interp-vs-comp",
+      "revision": 1,
+      "objectiveId": "obj-pc-prior-images",
+      "estSeconds": 20,
+      "prompt": "Interpretation vs comparison under MQSA?",
+      "answer": "Interpretation (initial, repeat, or additional review) needs the original modality. Comparison (helping read another exam) does not.",
+      "evidenceIds": [
+        "ev-inf-fr-interp-vs-comparison"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public eCFR/Federal Register/FDA/NCI/NLM sources and a link-only DICOM reference."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}
