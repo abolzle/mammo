@@ -16,7 +16,7 @@
         {
           "id": "a",
           "text": "Generator, control, tube housing, beam-limiting device, and supporting structures",
-          "rationale": "Correct. These are the minimum components in § 900.2(dd)."
+          "rationale": "Correct. These are the minimum components in \u00a7 900.2(dd)."
         },
         {
           "id": "b",
@@ -123,7 +123,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Order: tube housing → beam-limiting device → paddle → breast → support/receptor.",
+      "explanation": "Order: tube housing \u2192 beam-limiting device \u2192 paddle \u2192 breast \u2192 support/receptor.",
       "variants": {
         "simpler": "Shape the beam before it hits the patient.",
         "example": "Collimation problems point to the beam-limiting device."
@@ -273,7 +273,7 @@
       "correctChoiceId": "b",
       "explanation": "Characteristic x-rays are emitted when inner-shell vacancies are filled; energies are characteristic of the anode element.",
       "variants": {
-        "simpler": "Anode element → characteristic peaks.",
+        "simpler": "Anode element \u2192 characteristic peaks.",
         "example": "Changing anode material moves the peaks."
       },
       "evidenceIds": [
@@ -329,7 +329,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "OpenStax pattern: 100 kV → 100 keV maximum; likewise 30 kV → 30 keV max.",
+      "explanation": "OpenStax pattern: 100 kV \u2192 100 keV maximum; likewise 30 kV \u2192 30 keV max.",
       "variants": {
         "simpler": "kV number matches keV maximum.",
         "example": "Most photons are below E_max."
@@ -446,7 +446,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "§ 900.12(b)(8): not more than 1.0 cm from parallel when compression is applied.",
+      "explanation": "\u00a7 900.12(b)(8): not more than 1.0 cm from parallel when compression is applied.",
       "variants": {
         "simpler": "One centimeter max.",
         "example": "A clearly wedged paddle fails this expectation."
@@ -624,8 +624,8 @@
       "correctChoiceId": "b",
       "explanation": "At least one magnification value within 1.4 to 2.0 is required.",
       "variants": {
-        "simpler": "Remember 1.4–2.0.",
-        "example": "Having only 1.2× available would not meet the requirement."
+        "simpler": "Remember 1.4\u20132.0.",
+        "example": "Having only 1.2\u00d7 available would not meet the requirement."
       },
       "evidenceIds": [
         "ev-mqsa-magnification-equipment"
@@ -682,7 +682,7 @@
       "correctChoiceId": "b",
       "explanation": "Magnification increases OID, enlarging the projection and creating an air gap.",
       "variants": {
-        "simpler": "Raise the breast → larger OID.",
+        "simpler": "Raise the breast \u2192 larger OID.",
         "example": "Contact views keep the breast on the receptor."
       },
       "evidenceIds": [
@@ -798,7 +798,7 @@
       "correctChoiceId": "b",
       "explanation": "With the grid removed, the air gap helps keep scatter from reaching the receptor.",
       "variants": {
-        "simpler": "Air gap ≈ scatter control without a grid.",
+        "simpler": "Air gap \u2248 scatter control without a grid.",
         "example": "That is why mag mode and grid-out travel together."
       },
       "evidenceIds": [
@@ -835,7 +835,7 @@
         {
           "id": "a",
           "text": "Ultrasound, MRI, and PET",
-          "rationale": "Those are not mammographic modalities under § 900.2."
+          "rationale": "Those are not mammographic modalities under \u00a7 900.2."
         },
         {
           "id": "b",
@@ -861,7 +861,21 @@
       },
       "evidenceIds": [
         "ev-mqsa-modality-definition"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-018",
@@ -900,12 +914,26 @@
       "correctChoiceId": "b",
       "explanation": "NCI: multiple thin-slice pictures assembled into a 3D picture by software.",
       "variants": {
-        "simpler": "Many slices → 3D volume.",
+        "simpler": "Many slices \u2192 3D volume.",
         "example": "Tube motion during acquisition is the usual hardware picture."
       },
       "evidenceIds": [
         "ev-ip-nci-dbt"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-019",
@@ -949,7 +977,21 @@
       },
       "evidenceIds": [
         "ev-ip-nci-dbt"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-020",
@@ -988,12 +1030,26 @@
       "correctChoiceId": "b",
       "explanation": "Detection improvement is described; mortality superiority versus standard mammography alone remains under study (e.g., TMIST).",
       "variants": {
-        "simpler": "Finds more tumors ≠ proven life-saving superiority yet.",
+        "simpler": "Finds more tumors \u2260 proven life-saving superiority yet.",
         "example": "Be precise with patients and on exams."
       },
       "evidenceIds": [
         "ev-ip-nci-dbt"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-021",
@@ -1088,7 +1144,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "§ 900.12(e)(6): other modalities follow a program substantially the same as the manufacturer's, with the dose maximum still applying.",
+      "explanation": "\u00a7 900.12(e)(6): other modalities follow a program substantially the same as the manufacturer's, with the dose maximum still applying.",
       "variants": {
         "simpler": "Manufacturer/ACR digital QC program, plus dose ceiling.",
         "example": "Mammo links the ACR manual; it does not reprint device steps."
@@ -1154,7 +1210,21 @@
       },
       "evidenceIds": [
         "ev-mqsa-mammography-unit-definition"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-024",
@@ -1396,7 +1466,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Same machines; more angles for diagnostic work → higher dose.",
+      "explanation": "Same machines; more angles for diagnostic work \u2192 higher dose.",
       "variants": {
         "simpler": "More images, more dose.",
         "example": "Still describe mammography as low-dose overall in patient talk."
@@ -1501,7 +1571,7 @@
       "explanation": "The beam includes a spectrum; filtration preferentially removes least-penetrating photons that add dose.",
       "variants": {
         "simpler": "Filter out useless soft photons.",
-        "example": "Exact filter materials are unit-specific—read the console/docs."
+        "example": "Exact filter materials are unit-specific\u2014read the console/docs."
       },
       "evidenceIds": [
         "ev-ip-brems-characteristic",
@@ -1559,7 +1629,7 @@
       "correctChoiceId": "b",
       "explanation": "Post-exposure factors exist so operators can judge whether the exposure makes sense for thickness and mode.",
       "variants": {
-        "simpler": "Unexpected mAs → stop and think.",
+        "simpler": "Unexpected mAs \u2192 stop and think.",
         "example": "Re-check compression and AEC sensor region."
       },
       "evidenceIds": [
@@ -1675,7 +1745,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Magnification: raise breast (OID/air gap), remove grid, use small focal spot; factor 1.4–2.0 available.",
+      "explanation": "Magnification: raise breast (OID/air gap), remove grid, use small focal spot; factor 1.4\u20132.0 available.",
       "variants": {
         "simpler": "Small spot, grid out, air gap.",
         "example": "PACS zoom is not geometric magnification."
@@ -1735,7 +1805,7 @@
       "correctChoiceId": "b",
       "explanation": "Geometric magnification changes OID, grid status, and focal spot; monitor zoom does not.",
       "variants": {
-        "simpler": "Zoom ≠ mag view.",
+        "simpler": "Zoom \u2260 mag view.",
         "example": "If the radiologist asks for mag, change acquisition geometry."
       },
       "evidenceIds": [
@@ -1850,7 +1920,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "At least one value in 1.4–2.0 satisfies the listed design requirement.",
+      "explanation": "At least one value in 1.4\u20132.0 satisfies the listed design requirement.",
       "variants": {
         "simpler": "1.5 and 1.8 both sit in range.",
         "example": "Still confirm grid-out operation."
@@ -1982,7 +2052,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "§ 900.12(i): clinical images must continue to comply with the AB's clinical image quality standards.",
+      "explanation": "\u00a7 900.12(i): clinical images must continue to comply with the AB's clinical image quality standards.",
       "variants": {
         "simpler": "Quality is everyday, not only every 3 years.",
         "example": "EQUIP asks how you check yourselves between reviews."
@@ -2029,7 +2099,7 @@
       "correctChoiceId": "b",
       "explanation": "Artifacts include external material that obscures or mimics anatomy.",
       "variants": {
-        "simpler": "Deodorant → artifact problem.",
+        "simpler": "Deodorant \u2192 artifact problem.",
         "example": "Prevent with clear pre-exam instructions."
       },
       "evidenceIds": [
@@ -2078,7 +2148,21 @@
       },
       "evidenceIds": [
         "ev-ip-cdc-alara"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-042",
@@ -2123,7 +2207,21 @@
       "evidenceIds": [
         "ev-ip-cdc-alara",
         "ev-ip-cdc-tech-barrier"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-043",
@@ -2160,7 +2258,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "NRC accepts LNT as a conservative model: incremental dose → incremental risk estimate.",
+      "explanation": "NRC accepts LNT as a conservative model: incremental dose \u2192 incremental risk estimate.",
       "variants": {
         "simpler": "LNT = no safe threshold assumed for protection math.",
         "example": "Use it to support careful technique, not to terrify patients."
@@ -2225,7 +2323,21 @@
       },
       "evidenceIds": [
         "ev-ip-nci-mammogram-low-dose"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "q-ip-045",
@@ -2789,7 +2901,7 @@
         "ev-mqsa-modality-definition"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2806,6 +2918,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -2856,7 +2975,7 @@
         "ev-mqsa-other-modalities-qc"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2873,6 +2992,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4204,7 +4330,7 @@
         {
           "id": "a",
           "text": "Notify patients or their physicians, and the public, as FDA directs.",
-          "rationale": "Correct. This is the § 900.12(j) duty."
+          "rationale": "Correct. This is the \u00a7 900.12(j) duty."
         },
         {
           "id": "b",
@@ -4618,7 +4744,7 @@
       "correctChoiceId": "b",
       "explanation": "A provisional certificate is effective for up to 6 months and cannot be renewed, though one 90-day extension may be requested with the required showing.",
       "variants": {
-        "simpler": "Provisional certificate: ≤6 months, not renewable.",
+        "simpler": "Provisional certificate: \u22646 months, not renewable.",
         "example": "The separate 90-day extension is not the same as renewing the provisional certificate."
       },
       "evidenceIds": [
@@ -4945,7 +5071,7 @@
       "correctChoiceId": "a",
       "explanation": "Initial requirements include at least 8 hours of training in each mammography modality the technologist will use, in addition to the broader 40 contact hours and supervised exams.",
       "variants": {
-        "simpler": "New modality at start → at least 8 hours in that modality.",
+        "simpler": "New modality at start \u2192 at least 8 hours in that modality.",
         "example": "Starting DBT after screen-film training still needs modality-specific hours."
       },
       "evidenceIds": [
@@ -5076,7 +5202,7 @@
       "correctChoiceId": "a",
       "explanation": "After the applicable anniversary, a technologist must have taught or completed at least 15 mammography CEUs in 36 months, with at least 6 related to each modality used.",
       "variants": {
-        "simpler": "Continuing CE: ≥6 hours tied to each modality you use.",
+        "simpler": "Continuing CE: \u22656 hours tied to each modality you use.",
         "example": "Using both FFDM and DBT means at least 6 CEUs related to each."
       },
       "evidenceIds": [
@@ -5142,7 +5268,7 @@
       "correctChoiceId": "b",
       "explanation": "A technologist who falls short on CE must bring the total to at least 15 in the previous 3 years (at least 6 per modality) before resuming unsupervised mammography.",
       "variants": {
-        "simpler": "CE short → catch up to 15 (and per-modality 6s) before working unsupervised.",
+        "simpler": "CE short \u2192 catch up to 15 (and per-modality 6s) before working unsupervised.",
         "example": "New-modality 8-hour rules are a separate add-on before using that modality independently."
       },
       "evidenceIds": [
@@ -5273,7 +5399,7 @@
       "correctChoiceId": "d",
       "explanation": "A technologist who falls short on continuing experience must perform at least 25 examinations under direct supervision of a qualified technologist before resuming unsupervised work.",
       "variants": {
-        "simpler": "Experience short → 25 supervised exams, then unsupervised again.",
+        "simpler": "Experience short \u2192 25 supervised exams, then unsupervised again.",
         "example": "Direct supervision means the qualified technologist is present to observe and correct."
       },
       "evidenceIds": [
@@ -5993,7 +6119,7 @@
       "correctChoiceId": "c",
       "explanation": "For listed tests including dose, phantom image tests, compression device performance, and other-modality QC under (e)(6), corrective action must occur before any further examinations; other tests have a 30-day window.",
       "variants": {
-        "simpler": "Dose/phantom/compression fail → fix before scanning patients again.",
+        "simpler": "Dose/phantom/compression fail \u2192 fix before scanning patients again.",
         "example": "Some non-listed tests allow up to 30 days for corrective action."
       },
       "evidenceIds": [
@@ -6059,7 +6185,7 @@
       "correctChoiceId": "d",
       "explanation": "A mammography equipment evaluation is required when a unit is newly installed, reassembled, or has major component changes/repairs; problems are corrected before clinical use. A modality conversion is treated as a new unit.",
       "variants": {
-        "simpler": "Install, reassemble, or major repair → physicist equipment evaluation first.",
+        "simpler": "Install, reassemble, or major repair \u2192 physicist equipment evaluation first.",
         "example": "Converting a unit to another modality is treated like a new unit."
       },
       "evidenceIds": [
@@ -6125,7 +6251,7 @@
       "correctChoiceId": "a",
       "explanation": "Light field/x-ray field misalignment may not exceed 2% of SID; the x-ray field likewise may not extend beyond any receptor edge by more than 2% of SID.",
       "variants": {
-        "simpler": "Light field vs x-ray field: misalignment ≤2% of SID.",
+        "simpler": "Light field vs x-ray field: misalignment \u22642% of SID.",
         "example": "The same 2% SID figure appears in the x-ray field edge rule."
       },
       "evidenceIds": [
@@ -6191,7 +6317,7 @@
       "correctChoiceId": "b",
       "explanation": "Repeat/reject analysis QC does not count as the periodic clinical image quality review under EQUIP.",
       "variants": {
-        "simpler": "Reject analysis ≠ EQUIP clinical image sample review.",
+        "simpler": "Reject analysis \u2260 EQUIP clinical image sample review.",
         "example": "Daily interpretation of every case also does not replace the required periodic sample review."
       },
       "evidenceIds": [
@@ -6388,7 +6514,7 @@
       "correctChoiceId": "a",
       "explanation": "Before independently using a new modality not covered by initial training, the technologist needs at least 8 hours of CEUs in that modality.",
       "variants": {
-        "simpler": "New modality later → ≥8 hours in that modality first.",
+        "simpler": "New modality later \u2192 \u22658 hours in that modality first.",
         "example": "Adding DBT after qualifying only on another modality triggers this rule."
       },
       "evidenceIds": [
@@ -6431,13 +6557,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Sv = Gy ÷ 100 always, with no radiation-type factor",
+          "text": "Sv = Gy \u00f7 100 always, with no radiation-type factor",
           "rationale": "The RBE factor is part of the relationship; 100 relates Sv to rem."
         },
         {
           "id": "b",
-          "text": "Sv = Gy × RBE",
-          "rationale": "Correct. Equivalent dose uses Sv = Gy × RBE (with 1 Sv = 100 rem)."
+          "text": "Sv = Gy \u00d7 RBE",
+          "rationale": "Correct. Equivalent dose uses Sv = Gy \u00d7 RBE (with 1 Sv = 100 rem)."
         },
         {
           "id": "c",
@@ -6451,7 +6577,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Absorbed dose is in gray; equivalent dose uses sievert where Sv = Gy × RBE, and 1 Sv = 100 rem.",
+      "explanation": "Absorbed dose is in gray; equivalent dose uses sievert where Sv = Gy \u00d7 RBE, and 1 Sv = 100 rem.",
       "variants": {
         "simpler": "Sievert = gray times RBE.",
         "example": "1 Gy = 100 rad remains the absorbed-dose conversion."
@@ -6585,7 +6711,7 @@
       "correctChoiceId": "d",
       "explanation": "Under EQUIP, the lead interpreting physician is viewed as most responsible for ensuring continuous image quality, but the LIP designation does not confer supervisory responsibility over other interpreting physicians.",
       "variants": {
-        "simpler": "LIP ≠ boss of the other interpreting physicians.",
+        "simpler": "LIP \u2260 boss of the other interpreting physicians.",
         "example": "LIP attestation paths still document QA/QC oversight on inspection day."
       },
       "evidenceIds": [
@@ -6652,7 +6778,7 @@
       "correctChoiceId": "a",
       "explanation": "If a facility ceases mammography, it must arrange continued access to records for the remaining retention period and notify its accreditation body and certification agency in writing of the arrangements.",
       "variants": {
-        "simpler": "Closing mammo services → written notice to AB and cert agency about records.",
+        "simpler": "Closing mammo services \u2192 written notice to AB and cert agency about records.",
         "example": "A facility that continues as a medical entity may retain records if it can meet recordkeeping rules unless transfer is requested."
       },
       "evidenceIds": [
@@ -6785,7 +6911,7 @@
       "correctChoiceId": "c",
       "explanation": "Facilities keep a record of each serious complaint for at least 3 years.",
       "variants": {
-        "simpler": "Serious complaint records: keep ≥3 years.",
+        "simpler": "Serious complaint records: keep \u22653 years.",
         "example": "Unresolved serious complaints are also reported to the accreditation body."
       },
       "evidenceIds": [
@@ -6853,7 +6979,7 @@
       "correctChoiceId": "a",
       "explanation": "The compression paddle's chest-wall edge may not extend beyond the receptor's chest-wall edge by more than 1% of SID, and the paddle's vertical edge must not be visible on the image.",
       "variants": {
-        "simpler": "Paddle chest-wall overhang: ≤1% of SID.",
+        "simpler": "Paddle chest-wall overhang: \u22641% of SID.",
         "example": "X-ray field edge limits use a separate 2% SID tolerance."
       },
       "evidenceIds": [

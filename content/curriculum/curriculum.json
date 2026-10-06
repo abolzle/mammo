@@ -1,122 +1,1278 @@
 {
   "version": "2026-10-06.1",
   "topics": [
-    { "id": "top-pc-preparation", "domainId": "dom-patient-care", "subdomainId": "sub-patient-interactions", "order": 10, "title": "Preparing and supporting the patient", "summary": "Pre-exam instructions, rapport, emotional and physical needs, and explaining why a repeat image may be needed." },
-    { "id": "top-pc-education", "domainId": "dom-patient-care", "subdomainId": "sub-patient-interactions", "order": 20, "title": "Patient education", "summary": "Screening recommendations, self- and clinical breast exams, typical dose, and how imaging modalities differ." },
-    { "id": "top-pc-results", "domainId": "dom-patient-care", "subdomainId": "sub-patient-interactions", "order": 30, "title": "How patients receive results", "summary": "Result pathways, reasons for additional imaging, and what the clinician explains versus the technologist.", "moduleId": "mod-mqsa" },
-    { "id": "top-pc-risk", "domainId": "dom-patient-care", "subdomainId": "sub-patient-interactions", "order": 40, "title": "Breast cancer risk and epidemiology", "summary": "Incidence, inherent and social risk factors, hormone use, and what they imply for imaging." },
-    { "id": "top-pc-history", "domainId": "dom-patient-care", "subdomainId": "sub-patient-interactions", "order": 50, "title": "Signs, symptoms, and history", "summary": "Recognizing signs and symptoms, documenting history and physical findings, and using prior images." },
-    { "id": "top-pc-treatment", "domainId": "dom-patient-care", "subdomainId": "sub-patient-interactions", "order": 60, "title": "Treatment options (terminology level)", "summary": "Surgical and nonsurgical options, receptor status, and reconstruction at a definitions level." },
-
-    { "id": "top-ip-unit-design", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 10, "title": "How a mammography unit is built", "summary": "Tube, target and filtration, focal spot, paddles, grids, and system geometry.", "moduleId": "mod-mqsa" },
-    { "id": "top-ip-digital", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 20, "title": "Digital acquisition, display, and informatics", "summary": "FFDM, DBT and synthesized images, receptors, monitors, HIS/RIS/EMR/PACS, and CAD." },
-    { "id": "top-ip-accreditation", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 30, "title": "MQSA certification, accreditation, and inspection", "summary": "Who certifies, who accredits, how often images are reviewed, and how EQUIP shapes inspections.", "moduleId": "mod-mqsa" },
-    { "id": "top-ip-mqsa-personnel", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 40, "title": "MQSA personnel requirements", "summary": "Initial and continuing qualifications for technologists, and QA roles across the team.", "moduleId": "mod-mqsa" },
-    { "id": "top-ip-mqsa-records", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 50, "title": "Reports, labeling, and records under MQSA", "summary": "Report contents, assessment and density categories, results timelines, image identification, and retention.", "moduleId": "mod-mqsa" },
-    { "id": "top-ip-mqsa-audit-policies", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 60, "title": "Outcomes audit and required policies", "summary": "Audit metrics, consumer complaints, infection control, and implant inquiry.", "moduleId": "mod-mqsa" },
-    { "id": "top-ip-qc-technologist", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 70, "title": "Technologist quality control", "summary": "Purpose, frequency, procedure, criteria, documentation, and corrective action for mammographer QC tests.", "moduleId": "mod-mqsa" },
-    { "id": "top-ip-qc-physicist", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 80, "title": "Medical physicist testing (overview)", "summary": "Purpose and frequency of physicist surveys, equipment evaluations, and their major tests.", "moduleId": "mod-mqsa" },
-    { "id": "top-ip-technique", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 90, "title": "Technical factors", "summary": "kVp, mAs, AEC and manual exposure, thickness, target/filter, focal spot, grids, magnification, labeling." },
-    { "id": "top-ip-image-evaluation", "domainId": "dom-image-production", "subdomainId": "sub-acquisition-qa", "order": 100, "title": "Evaluating image quality", "summary": "Clinical image quality attributes and patient-related artifacts.", "moduleId": "mod-mqsa" },
-
-    { "id": "top-ap-localization", "domainId": "dom-procedures", "subdomainId": "sub-anatomy-pathology", "order": 10, "title": "Localization language", "summary": "Clock positions, quadrants, and triangulation." },
-    { "id": "top-ap-external", "domainId": "dom-procedures", "subdomainId": "sub-anatomy-pathology", "order": 20, "title": "External breast anatomy", "summary": "Margins, nipple and areola structures, skin glands, axillary tail, and inframammary fold." },
-    { "id": "top-ap-internal", "domainId": "dom-procedures", "subdomainId": "sub-anatomy-pathology", "order": 30, "title": "Internal anatomy and cytology", "summary": "Fascia, retroglandular space, glandular units (TDLU), supporting ligaments, vessels, lymphatics, and cell layers." },
-    { "id": "top-ap-reporting", "domainId": "dom-procedures", "subdomainId": "sub-anatomy-pathology", "order": 40, "title": "Reporting terminology", "summary": "Lexicon for masses, calcifications, asymmetries and distortion; assessment and density categories.", "moduleId": "mod-mqsa" },
-    { "id": "top-ap-benign", "domainId": "dom-procedures", "subdomainId": "sub-anatomy-pathology", "order": 50, "title": "Benign conditions", "summary": "Cysts, fibroadenoma, lipoma, hamartoma, papilloma, and other benign findings." },
-    { "id": "top-ap-high-risk", "domainId": "dom-procedures", "subdomainId": "sub-anatomy-pathology", "order": 60, "title": "High-risk lesions", "summary": "Lesions with upgrade potential such as ADH, ALH, LCIS, radial scar, and phyllodes tumor." },
-    { "id": "top-ap-malignant", "domainId": "dom-procedures", "subdomainId": "sub-anatomy-pathology", "order": 70, "title": "Malignant conditions", "summary": "DCIS, invasive ductal and lobular carcinoma, inflammatory carcinoma, Paget disease, and less common malignancies." },
-
-    { "id": "top-pp-standard-views", "domainId": "dom-procedures", "subdomainId": "sub-positioning-procedures", "order": 10, "title": "Standard views: CC and MLO", "summary": "Positioning goals and evaluation criteria for the two standard projections." },
-    { "id": "top-pp-additional-views", "domainId": "dom-procedures", "subdomainId": "sub-positioning-procedures", "order": 20, "title": "Additional and problem-solving views", "summary": "ML, LM, exaggerated CC, cleavage, axillary tail, tangential, rolled, implant-displaced, spot, and magnification views." },
-    { "id": "top-pp-variance", "domainId": "dom-procedures", "subdomainId": "sub-positioning-procedures", "order": 30, "title": "Adapting to the patient", "summary": "Chest wall variation, surgery and radiation, implants and devices, mobility, lactation, and breast size.", "moduleId": "mod-mqsa" },
-    { "id": "top-pp-exams", "domainId": "dom-procedures", "subdomainId": "sub-positioning-procedures", "order": 40, "title": "Screening, diagnostic, and related exams", "summary": "Screening versus diagnostic mammography, and basic knowledge of breast ultrasound and MRI.", "moduleId": "mod-mqsa" },
-    { "id": "top-pp-interventional", "domainId": "dom-procedures", "subdomainId": "sub-positioning-procedures", "order": 50, "title": "Interventional procedures", "summary": "Preparation and consent, biopsy and localization, specimen imaging, and biohazard handling." }
+    {
+      "id": "top-pc-preparation",
+      "domainId": "dom-patient-care",
+      "subdomainId": "sub-patient-interactions",
+      "order": 10,
+      "title": "Preparing and supporting the patient",
+      "summary": "Pre-exam instructions, rapport, emotional and physical needs, and explaining why a repeat image may be needed."
+    },
+    {
+      "id": "top-pc-education",
+      "domainId": "dom-patient-care",
+      "subdomainId": "sub-patient-interactions",
+      "order": 20,
+      "title": "Patient education",
+      "summary": "Screening recommendations, self- and clinical breast exams, typical dose, and how imaging modalities differ."
+    },
+    {
+      "id": "top-pc-results",
+      "domainId": "dom-patient-care",
+      "subdomainId": "sub-patient-interactions",
+      "order": 30,
+      "title": "How patients receive results",
+      "summary": "Result pathways, reasons for additional imaging, and what the clinician explains versus the technologist.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-pc-risk",
+      "domainId": "dom-patient-care",
+      "subdomainId": "sub-patient-interactions",
+      "order": 40,
+      "title": "Breast cancer risk and epidemiology",
+      "summary": "Incidence, inherent and social risk factors, hormone use, and what they imply for imaging."
+    },
+    {
+      "id": "top-pc-history",
+      "domainId": "dom-patient-care",
+      "subdomainId": "sub-patient-interactions",
+      "order": 50,
+      "title": "Signs, symptoms, and history",
+      "summary": "Recognizing signs and symptoms, documenting history and physical findings, and using prior images."
+    },
+    {
+      "id": "top-pc-treatment",
+      "domainId": "dom-patient-care",
+      "subdomainId": "sub-patient-interactions",
+      "order": 60,
+      "title": "Treatment options (terminology level)",
+      "summary": "Surgical and nonsurgical options, receptor status, and reconstruction at a definitions level."
+    },
+    {
+      "id": "top-ip-unit-design",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 10,
+      "title": "How a mammography unit is built",
+      "summary": "Tube, target and filtration, focal spot, paddles, grids, and system geometry.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ip-digital",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 20,
+      "title": "Digital acquisition, display, and informatics",
+      "summary": "FFDM, DBT and synthesized images, receptors, monitors, HIS/RIS/EMR/PACS, and CAD."
+    },
+    {
+      "id": "top-ip-accreditation",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 30,
+      "title": "MQSA certification, accreditation, and inspection",
+      "summary": "Who certifies, who accredits, how often images are reviewed, and how EQUIP shapes inspections.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ip-mqsa-personnel",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 40,
+      "title": "MQSA personnel requirements",
+      "summary": "Initial and continuing qualifications for technologists, and QA roles across the team.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ip-mqsa-records",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 50,
+      "title": "Reports, labeling, and records under MQSA",
+      "summary": "Report contents, assessment and density categories, results timelines, image identification, and retention.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ip-mqsa-audit-policies",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 60,
+      "title": "Outcomes audit and required policies",
+      "summary": "Audit metrics, consumer complaints, infection control, and implant inquiry.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ip-qc-technologist",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 70,
+      "title": "Technologist quality control",
+      "summary": "Purpose, frequency, procedure, criteria, documentation, and corrective action for mammographer QC tests.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ip-qc-physicist",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 80,
+      "title": "Medical physicist testing (overview)",
+      "summary": "Purpose and frequency of physicist surveys, equipment evaluations, and their major tests.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ip-technique",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 90,
+      "title": "Technical factors",
+      "summary": "kVp, mAs, AEC and manual exposure, thickness, target/filter, focal spot, grids, magnification, labeling."
+    },
+    {
+      "id": "top-ip-image-evaluation",
+      "domainId": "dom-image-production",
+      "subdomainId": "sub-acquisition-qa",
+      "order": 100,
+      "title": "Evaluating image quality",
+      "summary": "Clinical image quality attributes and patient-related artifacts.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ap-localization",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-anatomy-pathology",
+      "order": 10,
+      "title": "Localization language",
+      "summary": "Clock positions, quadrants, and triangulation."
+    },
+    {
+      "id": "top-ap-external",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-anatomy-pathology",
+      "order": 20,
+      "title": "External breast anatomy",
+      "summary": "Margins, nipple and areola structures, skin glands, axillary tail, and inframammary fold."
+    },
+    {
+      "id": "top-ap-internal",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-anatomy-pathology",
+      "order": 30,
+      "title": "Internal anatomy and cytology",
+      "summary": "Fascia, retroglandular space, glandular units (TDLU), supporting ligaments, vessels, lymphatics, and cell layers."
+    },
+    {
+      "id": "top-ap-reporting",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-anatomy-pathology",
+      "order": 40,
+      "title": "Reporting terminology",
+      "summary": "Lexicon for masses, calcifications, asymmetries and distortion; assessment and density categories.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-ap-benign",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-anatomy-pathology",
+      "order": 50,
+      "title": "Benign conditions",
+      "summary": "Cysts, fibroadenoma, lipoma, hamartoma, papilloma, and other benign findings."
+    },
+    {
+      "id": "top-ap-high-risk",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-anatomy-pathology",
+      "order": 60,
+      "title": "High-risk lesions",
+      "summary": "Lesions with upgrade potential such as ADH, ALH, LCIS, radial scar, and phyllodes tumor."
+    },
+    {
+      "id": "top-ap-malignant",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-anatomy-pathology",
+      "order": 70,
+      "title": "Malignant conditions",
+      "summary": "DCIS, invasive ductal and lobular carcinoma, inflammatory carcinoma, Paget disease, and less common malignancies."
+    },
+    {
+      "id": "top-pp-standard-views",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-positioning-procedures",
+      "order": 10,
+      "title": "Standard views: CC and MLO",
+      "summary": "Positioning goals and evaluation criteria for the two standard projections."
+    },
+    {
+      "id": "top-pp-additional-views",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-positioning-procedures",
+      "order": 20,
+      "title": "Additional and problem-solving views",
+      "summary": "ML, LM, exaggerated CC, cleavage, axillary tail, tangential, rolled, implant-displaced, spot, and magnification views."
+    },
+    {
+      "id": "top-pp-variance",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-positioning-procedures",
+      "order": 30,
+      "title": "Adapting to the patient",
+      "summary": "Chest wall variation, surgery and radiation, implants and devices, mobility, lactation, and breast size.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-pp-exams",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-positioning-procedures",
+      "order": 40,
+      "title": "Screening, diagnostic, and related exams",
+      "summary": "Screening versus diagnostic mammography, and basic knowledge of breast ultrasound and MRI.",
+      "moduleId": "mod-mqsa"
+    },
+    {
+      "id": "top-pp-interventional",
+      "domainId": "dom-procedures",
+      "subdomainId": "sub-positioning-procedures",
+      "order": 50,
+      "title": "Interventional procedures",
+      "summary": "Preparation and consent, biopsy and localization, specimen imaging, and biohazard handling."
+    }
   ],
   "objectives": [
-    { "id": "obj-pc-pre-exam-instructions", "topicId": "top-pc-preparation", "blueprintRef": "PC 1.A.1", "depth": "explain", "statement": "Explain common pre-exam instructions (such as removing deodorant or powder and clothing above the waist) and why they matter for image quality.", "sourceIds": ["src-nci-mammograms"], "sourceState": "needs_source" },
-    { "id": "obj-pc-rapport-support", "topicId": "top-pc-preparation", "blueprintRef": "PC 1.A.2.a–c", "depth": "apply", "statement": "Build rapport and respond to anxiety, modesty, and physical or cognitive needs while keeping the exam on track.", "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pc-explain-compression", "topicId": "top-pc-preparation", "blueprintRef": "PC 1.A.2", "depth": "explain", "statement": "Explain to a patient in plain language why firm compression improves the image.", "prerequisites": ["obj-ip-image-quality-attributes"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-pc-explain-repeat", "topicId": "top-pc-preparation", "blueprintRef": "PC 1.A.2.d", "depth": "apply", "statement": "Explain the need for a repeat image (for example motion or artifact) honestly and without alarming the patient.", "prerequisites": ["obj-ip-image-quality-attributes"], "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pc-screening-guidelines", "topicId": "top-pc-education", "blueprintRef": "PC 1.A.3.a", "depth": "define", "statement": "Summarize current ACS and ACR screening recommendations and how they differ from USPSTF guidance.", "requiresQualifiedReview": true, "sourceIds": ["src-acs-early-detection", "src-uspstf-breast-2024", "src-nci-pdq-breast-screening-hp"], "sourceState": "needs_source" },
-    { "id": "obj-pc-bse-cbe", "topicId": "top-pc-education", "blueprintRef": "PC 1.A.3.b–c", "depth": "define", "statement": "State the ACS position on breast self-examination and clinical breast examination.", "sourceIds": ["src-acs-early-detection"], "sourceState": "needs_source" },
-    { "id": "obj-pc-typical-dose", "topicId": "top-pc-education", "blueprintRef": "PC 1.A.3.d", "depth": "explain", "statement": "Describe typical mammography dose in patient-friendly terms without overstating or minimizing risk.", "requiresQualifiedReview": true, "prerequisites": ["obj-mqsa-equipment-qc"], "sourceIds": ["src-nci-mammograms", "src-nrc-radiation-cancer"], "sourceState": "needs_source" },
-    { "id": "obj-pc-modalities", "topicId": "top-pc-education", "blueprintRef": "PC 1.A.3.e", "depth": "explain", "statement": "Explain the difference between 2D mammography, DBT, and breast ultrasound to a patient.", "sourceIds": ["src-nci-mammograms"], "sourceState": "needs_source" },
-    { "id": "obj-pc-results-pathway", "topicId": "top-pc-results", "blueprintRef": "PC 1.A.4.a", "depth": "explain", "statement": "Tell a patient how and when results reach them and their provider under MQSA.", "prerequisites": ["obj-mqsa-results-communication"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-pc-additional-imaging", "topicId": "top-pc-results", "blueprintRef": "PC 1.A.4.b", "depth": "explain", "statement": "Explain common reasons for additional imaging after screening without implying a diagnosis.", "prerequisites": ["obj-mqsa-report-assessment"], "sourceIds": ["src-ecfr-21-cfr-900", "src-nci-mammograms"], "sourceState": "source_backed_open" },
-    { "id": "obj-pc-clinician-role", "topicId": "top-pc-results", "blueprintRef": "PC 1.A.4.c", "depth": "apply", "statement": "Distinguish what the technologist may say from what the interpreting physician or provider explains, including density notification.", "prerequisites": ["obj-mqsa-results-communication"], "sourceIds": ["src-ecfr-21-cfr-900", "src-asrt-mammo-curriculum"], "sourceState": "needs_source", "blockedNote": "MQSA covers who receives which report; the technologist's communication scope needs ASRT practice standards (link-only) or equivalent." },
-    { "id": "obj-pc-epidemiology", "topicId": "top-pc-risk", "blueprintRef": "PC 1.B.1.a", "depth": "define", "statement": "Describe breast cancer incidence patterns at the level needed for patient education.", "sourceIds": ["src-nci-pdq-breast-screening-hp", "src-nci-seer-breast"], "sourceState": "needs_source" },
-    { "id": "obj-pc-inherent-risk", "topicId": "top-pc-risk", "blueprintRef": "PC 1.B.1.b", "depth": "explain", "statement": "Identify inherent risk factors including reproductive history, age, personal and family history, genetic mutations, prior chest radiation, and breast density.", "sourceIds": ["src-nci-pdq-breast-screening-hp", "src-nci-mammograms", "src-nci-dense-breasts"], "sourceState": "needs_source" },
-    { "id": "obj-pc-social-risk", "topicId": "top-pc-risk", "blueprintRef": "PC 1.B.1.c", "depth": "explain", "statement": "Identify lifestyle, access-to-care, and hormone-related risk factors, and their implications for imaging history.", "sourceIds": ["src-nci-pdq-breast-screening-hp"], "sourceState": "needs_source" },
-    { "id": "obj-pc-signs-symptoms", "topicId": "top-pc-history", "blueprintRef": "PC 1.B.2", "depth": "define", "statement": "Recognize and document signs and symptoms such as pain, lump, nipple discharge, skin thickening, erythema, dimpling, nipple changes, and edema.", "sourceIds": ["src-nci-seer-breast"], "sourceState": "needs_source" },
-    { "id": "obj-pc-history-documentation", "topicId": "top-pc-history", "blueprintRef": "PC 1.B.3", "depth": "apply", "statement": "Review the imaging request and document surgical history, clinical findings (lumps, scars, moles, tattoos), and gender-affirming care relevant to the exam.", "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pc-prior-images", "topicId": "top-pc-history", "blueprintRef": "PC 1.B.4", "depth": "explain", "statement": "Explain why prior mammograms matter and how to obtain them, including the MQSA transfer timeline.", "prerequisites": ["obj-mqsa-records-transfer"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-pc-surgical-options", "topicId": "top-pc-treatment", "blueprintRef": "PC 1.C.1", "depth": "define", "statement": "Define lumpectomy, sentinel node biopsy, simple and modified radical mastectomy, and prophylactic mastectomy.", "sourceIds": ["src-nci-pdq-breast-treatment-hp"], "sourceState": "needs_source" },
-    { "id": "obj-pc-nonsurgical-options", "topicId": "top-pc-treatment", "blueprintRef": "PC 1.C.2", "depth": "define", "statement": "Define radiation, chemotherapy, hormone therapy, receptor status (ER, PR, HER2), and implant reconstruction.", "sourceIds": ["src-nci-pdq-breast-treatment-hp"], "sourceState": "needs_source" },
-
-    { "id": "obj-ip-kvp-tube", "topicId": "top-ip-unit-design", "blueprintRef": "IP 1.A.1–2", "depth": "explain", "statement": "Explain why mammography uses a low kVp range and how anode material, filtration, window, and focal spot shape the beam.", "requiresQualifiedReview": true, "sourceIds": ["src-openstax-college-physics-2e", "src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-ip-paddles-grids", "topicId": "top-ip-unit-design", "blueprintRef": "IP 1.A.3–4", "depth": "explain", "statement": "Describe compression paddle types and MQSA design requirements for paddles, and the role of grids.", "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-ip-geometry", "topicId": "top-ip-unit-design", "blueprintRef": "IP 1.A.5", "depth": "apply", "statement": "Relate SID, OID, and magnification, including the MQSA magnification range requirement.", "requiresQualifiedReview": true, "sourceIds": ["src-ecfr-21-cfr-900", "src-openstax-college-physics-2e"], "sourceState": "needs_source" },
-    { "id": "obj-ip-unit-components", "topicId": "top-ip-unit-design", "blueprintRef": "IP 1.A", "depth": "define", "statement": "Identify the components that make up a mammography unit and how they relate along the beam path.", "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-ip-acquisition-types", "topicId": "top-ip-digital", "blueprintRef": "IP 1.B.1", "depth": "explain", "statement": "Compare FFDM, DBT, and synthesized 2D imaging.", "sourceIds": ["src-nci-mammograms", "src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-ip-receptors-monitors", "topicId": "top-ip-digital", "blueprintRef": "IP 1.B.2–3", "depth": "define", "statement": "Describe digital image receptors and the difference between acquisition and interpretation workstations.", "sourceIds": ["src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-ip-informatics", "topicId": "top-ip-digital", "blueprintRef": "IP 1.B.4", "depth": "explain", "statement": "Explain HIS/RIS, EMR, and PACS roles, including storage, backup, archive, and basic troubleshooting.", "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-ip-cad", "topicId": "top-ip-digital", "blueprintRef": "IP 1.B.5", "depth": "define", "statement": "Describe what computer-aided detection does and does not do.", "sourceIds": [], "sourceState": "needs_source" },
-
-    { "id": "obj-mqsa-certification", "topicId": "top-ip-accreditation", "blueprintRef": "IP 1.C.1", "depth": "explain", "statement": "Explain how MQSA certification, accreditation, provisional certificates, and annual inspection fit together.", "sourceIds": ["src-ecfr-21-cfr-900", "src-fda-mqsa-program"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-image-review-equip", "topicId": "top-ip-accreditation", "blueprintRef": "IP 1.C.2.e", "depth": "explain", "statement": "Describe accreditation clinical image review and the three EQUIP inspection focus areas.", "prerequisites": ["obj-mqsa-certification"], "sourceIds": ["src-ecfr-21-cfr-900", "src-fda-equip"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-rt-initial", "topicId": "top-ip-mqsa-personnel", "blueprintRef": "IP 1.C.2.a", "depth": "apply", "statement": "Apply MQSA initial qualification requirements for radiologic technologists, including modality-specific training.", "prerequisites": ["obj-mqsa-certification"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-rt-continuing", "topicId": "top-ip-mqsa-personnel", "blueprintRef": "IP 1.C.2.a", "depth": "apply", "statement": "Apply MQSA continuing education, continuing experience, and requalification rules for technologists.", "prerequisites": ["obj-mqsa-rt-initial"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-qa-roles", "topicId": "top-ip-mqsa-personnel", "blueprintRef": "IP 1.C.2.a–b", "depth": "explain", "statement": "Describe QA program roles (lead interpreting physician, interpreting physicians, medical physicist, QC technologist) and QC record retention.", "prerequisites": ["obj-mqsa-certification"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-report-assessment", "topicId": "top-ip-mqsa-records", "blueprintRef": "IP 1.C.2.b", "depth": "apply", "statement": "Identify required report contents and MQSA final and incomplete assessment categories.", "prerequisites": ["obj-mqsa-certification"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-results-communication", "topicId": "top-ip-mqsa-records", "blueprintRef": "IP 1.C.2.b", "depth": "apply", "statement": "Apply MQSA timelines for lay summaries and provider reports, including the 7-day rule for suspicious results and self-referred patients.", "prerequisites": ["obj-mqsa-report-assessment"], "sourceIds": ["src-ecfr-21-cfr-900", "src-fr-88-15126"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-density-reporting", "topicId": "top-ip-mqsa-records", "blueprintRef": "IP 1.C.2.f", "depth": "apply", "statement": "Map the four report density categories to the two required patient density statements effective September 10, 2024.", "prerequisites": ["obj-mqsa-report-assessment"], "sourceIds": ["src-ecfr-21-cfr-900", "src-fr-88-15126"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-image-labeling", "topicId": "top-ip-mqsa-records", "blueprintRef": "IP 1.C.2.b", "depth": "apply", "statement": "Verify that each image carries the MQSA-required identification, with view and laterality near the axilla.", "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-records-transfer", "topicId": "top-ip-mqsa-records", "blueprintRef": "IP 1.C.2.b", "depth": "apply", "statement": "Apply MQSA retention periods and the 15-day transfer and copy rules for mammograms and reports.", "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-outcomes-audit", "topicId": "top-ip-mqsa-audit-policies", "blueprintRef": "IP 1.C.2.c", "depth": "apply", "statement": "Define and calculate the MQSA medical outcomes audit measures (PPV, cancer detection rate, recall rate).", "prerequisites": ["obj-mqsa-report-assessment"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-mqsa-required-policies", "topicId": "top-ip-mqsa-audit-policies", "blueprintRef": "IP 1.C.2.d", "depth": "apply", "statement": "Apply MQSA requirements for consumer complaints, infection control, and implant inquiry.", "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-
-    { "id": "obj-mqsa-equipment-qc", "topicId": "top-ip-qc-technologist", "blueprintRef": "IP 1.D", "depth": "explain", "statement": "Explain the MQSA QC framework: action limits, corrective-action timing, manufacturer QC for digital systems, the phantom dose limit, and compression force limits.", "requiresQualifiedReview": true, "prerequisites": ["obj-mqsa-qa-roles"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-qc-phantom", "topicId": "top-ip-qc-technologist", "blueprintRef": "IP 1.D.1.a", "depth": "apply", "statement": "Perform and evaluate the technologist phantom image test (quality and artifacts), including documentation and corrective action.", "requiresQualifiedReview": true, "prerequisites": ["obj-mqsa-equipment-qc"], "sourceIds": ["src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-qc-compression-tests", "topicId": "top-ip-qc-technologist", "blueprintRef": "IP 1.D.1.b, g", "depth": "apply", "statement": "Describe the compression thickness indicator and compression force tests: purpose, frequency, and criteria.", "requiresQualifiedReview": true, "prerequisites": ["obj-mqsa-equipment-qc"], "sourceIds": ["src-acr-dmqc-manual", "src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-qc-visual-checklist", "topicId": "top-ip-qc-technologist", "blueprintRef": "IP 1.D.1.c", "depth": "apply", "statement": "Use the visual checklist and know what findings require action.", "requiresQualifiedReview": true, "sourceIds": ["src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-qc-monitors-viewing", "topicId": "top-ip-qc-technologist", "blueprintRef": "IP 1.D.1.d, f", "depth": "apply", "statement": "Describe acquisition and interpretation monitor QC (cleanliness, calibration, test patterns such as SMPTE/TG18) and viewing conditions.", "requiresQualifiedReview": true, "sourceIds": ["src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-qc-repeat-analysis", "topicId": "top-ip-qc-technologist", "blueprintRef": "IP 1.D.1.e", "depth": "apply", "statement": "Calculate and interpret repeat/reject analysis and identify corrective actions.", "requiresQualifiedReview": true, "sourceIds": ["src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-qc-detector-calibration", "topicId": "top-ip-qc-technologist", "blueprintRef": "IP 1.D.1.h", "depth": "define", "statement": "Explain the purpose of manufacturer detector calibration.", "requiresQualifiedReview": true, "sourceIds": ["src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-qc-physicist-survey", "topicId": "top-ip-qc-physicist", "blueprintRef": "IP 1.D.2.a", "depth": "explain", "statement": "Explain when the annual physicist survey and a mammography equipment evaluation are required, and what the facility receives.", "prerequisites": ["obj-mqsa-qa-roles"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-qc-physicist-tests", "topicId": "top-ip-qc-physicist", "blueprintRef": "IP 1.D.2.b–o", "depth": "define", "statement": "State the purpose of major physicist tests: collimation, resolution/MTF, SNR/CNR, AEC, artifacts, kVp, HVL, average glandular dose, illuminance, paddle alignment, and workstation QC.", "requiresQualifiedReview": true, "prerequisites": ["obj-qc-physicist-survey"], "sourceIds": ["src-acr-dmqc-manual", "src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-ip-exposure-factors", "topicId": "top-ip-technique", "blueprintRef": "IP 1.E.1.a–d", "depth": "apply", "statement": "Predict how kVp, mAs, AEC, and manual technique affect contrast, noise, and dose.", "requiresQualifiedReview": true, "sourceIds": ["src-openstax-college-physics-2e"], "sourceState": "needs_source" },
-    { "id": "obj-ip-thickness-target-filter", "topicId": "top-ip-technique", "blueprintRef": "IP 1.E.1.e–h", "depth": "apply", "statement": "Relate compressed thickness, target/filter selection, focal spot, and grid use to image quality and dose.", "requiresQualifiedReview": true, "sourceIds": ["src-acr-dmqc-manual"], "sourceState": "needs_source" },
-    { "id": "obj-ip-magnification-technique", "topicId": "top-ip-technique", "blueprintRef": "IP 1.E.1.i", "depth": "apply", "statement": "Explain technique changes for magnification (small focal spot, no grid, air gap).", "requiresQualifiedReview": true, "prerequisites": ["obj-ip-geometry"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-ip-image-quality-attributes", "topicId": "top-ip-image-evaluation", "blueprintRef": "IP 1.E.2.a", "depth": "apply", "statement": "Evaluate an image against the eight clinical image quality attributes used in accreditation review.", "sourceIds": ["src-ecfr-21-cfr-900", "src-fda-equip"], "sourceState": "source_backed_open" },
-    { "id": "obj-ip-patient-artifacts", "topicId": "top-ip-image-evaluation", "blueprintRef": "IP 1.E.2.b", "depth": "apply", "statement": "Recognize patient-related artifacts (motion, clothing, overlapping anatomy, implanted devices) and how to prevent them.", "requiresQualifiedReview": true, "sourceIds": [], "sourceState": "needs_source" },
-
-    { "id": "obj-ap-clock-quadrants", "topicId": "top-ap-localization", "blueprintRef": "PR 1.A.1–2", "depth": "apply", "statement": "Localize findings using clock positions and quadrants for right and left breasts.", "sourceIds": ["src-nci-seer-breast"], "sourceState": "needs_source" },
-    { "id": "obj-ap-triangulation", "topicId": "top-ap-localization", "blueprintRef": "PR 1.A.3", "depth": "apply", "statement": "Use triangulation between views to estimate lesion location.", "prerequisites": ["obj-ap-clock-quadrants", "obj-pp-cc", "obj-pp-mlo"], "requiresQualifiedReview": true, "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-ap-external-landmarks", "topicId": "top-ap-external", "blueprintRef": "PR 1.B", "depth": "define", "statement": "Identify external landmarks including breast margins, nipple, areola (Morgagni tubercles, Montgomery glands), skin structures, axillary tail, inframammary fold, and pectoral muscle angle.", "sourceIds": ["src-nci-seer-breast"], "sourceState": "needs_source" },
-    { "id": "obj-ap-internal-structures", "topicId": "top-ap-internal", "blueprintRef": "PR 1.C", "depth": "define", "statement": "Describe fascial layers, retroglandular space, fibroglandular and adipose tissue, Cooper ligaments, pectoral muscle, vessels, and lymphatics.", "sourceIds": ["src-nci-seer-breast"], "sourceState": "needs_source" },
-    { "id": "obj-ap-tdlu", "topicId": "top-ap-internal", "blueprintRef": "PR 1.C.4", "depth": "explain", "statement": "Describe the terminal ductal lobular unit and its parts, and why it matters in pathology.", "prerequisites": ["obj-ap-internal-structures"], "sourceIds": ["src-nci-seer-breast", "src-nci-pdq-breast-treatment-hp"], "sourceState": "needs_source" },
-    { "id": "obj-ap-cytology", "topicId": "top-ap-internal", "blueprintRef": "PR 1.D", "depth": "define", "statement": "Define epithelial cells, myoepithelial cells, and basement membrane, and relate them to in situ versus invasive disease.", "prerequisites": ["obj-ap-tdlu"], "sourceIds": ["src-nci-pdq-breast-treatment-hp"], "sourceState": "needs_source" },
-    { "id": "obj-ap-lexicon-masses-calcs", "topicId": "top-ap-reporting", "blueprintRef": "PR 1.E.1.a–d", "depth": "define", "statement": "Use lexicon descriptors for masses (shape, margin, density), calcifications (typically benign vs suspicious morphology, distribution), asymmetries, and architectural distortion.", "requiresQualifiedReview": true, "sourceIds": ["src-acr-birads-atlas"], "sourceState": "blocked", "blockedNote": "Descriptor definitions require the ACR BI-RADS Atlas (commercial; not accessible to this pipeline) or an accessible secondary source. Radiopaedia returned HTTP 406 to automated retrieval. Once a maintainer reads an accessible source, facts can be taught in original wording with a link-only citation.", "blockedUrls": ["https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS", "https://radiopaedia.org/articles/breast-imaging-reporting-and-data-system-bi-rads"] },
-    { "id": "obj-ap-assessment-density-categories", "topicId": "top-ap-reporting", "blueprintRef": "PR 1.E.1.e–f", "depth": "apply", "statement": "Match assessment and density categories to their meaning and typical recommendations.", "prerequisites": ["obj-mqsa-report-assessment"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-ap-benign-conditions", "topicId": "top-ap-benign", "blueprintRef": "PR 1.E.2", "depth": "define", "statement": "Describe the typical presentation and mammographic appearance of common benign conditions (cyst, galactocele, fibroadenoma, lipoma, hamartoma, papilloma, duct ectasia, hematoma, abscess, fat necrosis, lymph nodes, gynecomastia, edema, seroma).", "requiresQualifiedReview": true, "prerequisites": ["obj-ap-lexicon-masses-calcs"], "sourceIds": ["src-nci-pdq-breast-treatment-hp"], "sourceState": "needs_source" },
-    { "id": "obj-ap-high-risk-lesions", "topicId": "top-ap-high-risk", "blueprintRef": "PR 1.E.3", "depth": "define", "statement": "Define LCIS, ADH, ALH, papilloma with atypia, flat epithelial atypia, radial scar, and phyllodes tumor, and why upgrade potential matters.", "requiresQualifiedReview": true, "prerequisites": ["obj-ap-cytology"], "sourceIds": ["src-nci-pdq-breast-treatment-hp"], "sourceState": "needs_source" },
-    { "id": "obj-ap-malignant", "topicId": "top-ap-malignant", "blueprintRef": "PR 1.E.4", "depth": "define", "statement": "Describe DCIS, invasive ductal and lobular carcinoma, inflammatory carcinoma, Paget disease, sarcoma, lymphoma, and metastases at a technologist level.", "requiresQualifiedReview": true, "prerequisites": ["obj-ap-cytology"], "sourceIds": ["src-nci-pdq-breast-treatment-hp"], "sourceState": "needs_source" },
-
-    { "id": "obj-pp-cc", "topicId": "top-pp-standard-views", "blueprintRef": "PR 2.A.1", "depth": "apply", "statement": "Position and evaluate the craniocaudal view against standard criteria.", "requiresQualifiedReview": true, "prerequisites": ["obj-ap-external-landmarks"], "sourceIds": ["src-acr-ciq-1999"], "sourceState": "blocked", "blockedNote": "ARRT names the ACR Clinical Image Quality manual (1999) as the positioning reference. No accessible copy or equivalent open source has been located; a maintainer must obtain it (link-only citation is fine) or identify an accessible equivalent such as ACR accreditation positioning guidance.", "blockedUrls": ["https://www.acr.org/Accreditation/Mammography", "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards"] },
-    { "id": "obj-pp-mlo", "topicId": "top-pp-standard-views", "blueprintRef": "PR 2.A.2", "depth": "apply", "statement": "Position and evaluate the mediolateral oblique view against standard criteria, including pectoral muscle and inframammary fold.", "requiresQualifiedReview": true, "prerequisites": ["obj-ap-external-landmarks"], "sourceIds": ["src-acr-ciq-1999"], "sourceState": "blocked", "blockedNote": "Same reference gap as the CC objective.", "blockedUrls": ["https://www.acr.org/Accreditation/Mammography"] },
-    { "id": "obj-pp-lateral-views", "topicId": "top-pp-additional-views", "blueprintRef": "PR 2.A.3–4", "depth": "apply", "statement": "Choose between ML and LM views and explain why the side of interest goes closer to the receptor.", "requiresQualifiedReview": true, "prerequisites": ["obj-pp-mlo"], "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pp-exaggerated-cleavage-at", "topicId": "top-pp-additional-views", "blueprintRef": "PR 2.A.5–7", "depth": "apply", "statement": "Select XCCL/XCCM, cleavage, and axillary tail views for tissue not shown on standard views.", "requiresQualifiedReview": true, "prerequisites": ["obj-pp-cc"], "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pp-tangential-rolled", "topicId": "top-pp-additional-views", "blueprintRef": "PR 2.A.8–9", "depth": "apply", "statement": "Use tangential and rolled views to evaluate skin findings and separate superimposed tissue.", "requiresQualifiedReview": true, "prerequisites": ["obj-pp-cc"], "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pp-implant-displaced", "topicId": "top-pp-additional-views", "blueprintRef": "PR 2.A.10", "depth": "apply", "statement": "Describe implant-displaced views and when they are contraindicated or modified.", "requiresQualifiedReview": true, "prerequisites": ["obj-mqsa-required-policies"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-pp-spot-mag-nipple", "topicId": "top-pp-additional-views", "blueprintRef": "PR 2.A.11–14", "depth": "apply", "statement": "Describe nipple-in-profile, anterior compression, spot compression, and magnification views and their purposes.", "requiresQualifiedReview": true, "prerequisites": ["obj-ip-magnification-technique"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-pp-implant-inquiry", "topicId": "top-pp-variance", "blueprintRef": "PR 2.B.9", "depth": "apply", "statement": "Ask about implants before the exam and explain the MQSA expectation for views that maximize visible tissue.", "prerequisites": ["obj-mqsa-required-policies"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "source_backed_open" },
-    { "id": "obj-pp-body-habitus", "topicId": "top-pp-variance", "blueprintRef": "PR 2.B.1, 6–7, 11", "depth": "apply", "statement": "Adapt positioning for chest wall variation, kyphosis/lordosis, protruding abdomen, and very large or small breasts (mosaic/tiling, paddle selection).", "requiresQualifiedReview": true, "prerequisites": ["obj-pp-cc", "obj-pp-mlo"], "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pp-postsurgical", "topicId": "top-pp-variance", "blueprintRef": "PR 2.B.2–4, 5, 8, 10", "depth": "apply", "statement": "Adapt imaging for irradiated, reduced, or post-surgical breasts, patients assigned male at birth, implanted devices, and lactation.", "requiresQualifiedReview": true, "prerequisites": ["obj-pp-cc", "obj-pp-mlo"], "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pp-screening-vs-diagnostic", "topicId": "top-pp-exams", "blueprintRef": "PR 2.C.1", "depth": "explain", "statement": "Distinguish screening from diagnostic mammography by patient presentation and views.", "sourceIds": ["src-ecfr-21-cfr-900", "src-nci-mammograms"], "sourceState": "source_backed_open" },
-    { "id": "obj-pp-us-mri", "topicId": "top-pp-exams", "blueprintRef": "PR 2.C.2–3", "depth": "define", "statement": "Describe basic indications and patient preparation for breast ultrasound and MRI.", "sourceIds": ["src-nci-pdq-breast-screening-hp"], "sourceState": "needs_source" },
-    { "id": "obj-pp-interventional-prep", "topicId": "top-pp-interventional", "blueprintRef": "PR 2.D.1", "depth": "apply", "statement": "Prepare a patient for an interventional procedure: pertinent history, informed consent, time-out, setup, and post-procedure instructions.", "requiresQualifiedReview": true, "sourceIds": [], "sourceState": "needs_source" },
-    { "id": "obj-pp-biopsy-localization", "topicId": "top-pp-interventional", "blueprintRef": "PR 2.D.2–3", "depth": "explain", "statement": "Describe stereotactic and ultrasound biopsy, wire localization, specimen imaging, and clip placement imaging.", "requiresQualifiedReview": true, "prerequisites": ["obj-ap-triangulation"], "sourceIds": ["src-ecfr-21-cfr-900"], "sourceState": "needs_source" },
-    { "id": "obj-pp-biohazard", "topicId": "top-pp-interventional", "blueprintRef": "PR 2.D.4", "depth": "apply", "statement": "Handle and dispose of specimens, body fluids, sharps, and biopsy supplies safely.", "prerequisites": ["obj-mqsa-required-policies"], "sourceIds": ["src-osha-bloodborne", "src-cdc-hand-hygiene"], "sourceState": "needs_source" }
+    {
+      "id": "obj-pc-pre-exam-instructions",
+      "topicId": "top-pc-preparation",
+      "blueprintRef": "PC 1.A.1",
+      "depth": "explain",
+      "statement": "Explain common pre-exam instructions (such as removing deodorant or powder and clothing above the waist) and why they matter for image quality.",
+      "sourceIds": [
+        "src-nci-mammograms"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-rapport-support",
+      "topicId": "top-pc-preparation",
+      "blueprintRef": "PC 1.A.2.a\u2013c",
+      "depth": "apply",
+      "statement": "Build rapport and respond to anxiety, modesty, and physical or cognitive needs while keeping the exam on track.",
+      "sourceIds": [],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-explain-compression",
+      "topicId": "top-pc-preparation",
+      "blueprintRef": "PC 1.A.2",
+      "depth": "explain",
+      "statement": "Explain to a patient in plain language why firm compression improves the image.",
+      "prerequisites": [
+        "obj-ip-image-quality-attributes"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_link_only"
+    },
+    {
+      "id": "obj-pc-explain-repeat",
+      "topicId": "top-pc-preparation",
+      "blueprintRef": "PC 1.A.2.d",
+      "depth": "apply",
+      "statement": "Explain the need for a repeat image (for example motion or artifact) honestly and without alarming the patient.",
+      "prerequisites": [
+        "obj-ip-image-quality-attributes"
+      ],
+      "sourceIds": [],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-screening-guidelines",
+      "topicId": "top-pc-education",
+      "blueprintRef": "PC 1.A.3.a",
+      "depth": "define",
+      "statement": "Summarize current ACS and ACR screening recommendations and how they differ from USPSTF guidance.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-acs-early-detection",
+        "src-uspstf-breast-2024",
+        "src-nci-pdq-breast-screening-hp"
+      ],
+      "sourceState": "source_backed_link_only"
+    },
+    {
+      "id": "obj-pc-bse-cbe",
+      "topicId": "top-pc-education",
+      "blueprintRef": "PC 1.A.3.b\u2013c",
+      "depth": "define",
+      "statement": "State the ACS position on breast self-examination and clinical breast examination.",
+      "sourceIds": [
+        "src-acs-early-detection"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pc-typical-dose",
+      "topicId": "top-pc-education",
+      "blueprintRef": "PC 1.A.3.d",
+      "depth": "explain",
+      "statement": "Describe typical mammography dose in patient-friendly terms without overstating or minimizing risk.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "sourceIds": [
+        "src-nci-mammograms",
+        "src-nrc-radiation-cancer"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-modalities",
+      "topicId": "top-pc-education",
+      "blueprintRef": "PC 1.A.3.e",
+      "depth": "explain",
+      "statement": "Explain the difference between 2D mammography, DBT, and breast ultrasound to a patient.",
+      "sourceIds": [
+        "src-nci-mammograms"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-results-pathway",
+      "topicId": "top-pc-results",
+      "blueprintRef": "PC 1.A.4.a",
+      "depth": "explain",
+      "statement": "Tell a patient how and when results reach them and their provider under MQSA.",
+      "prerequisites": [
+        "obj-mqsa-results-communication"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-additional-imaging",
+      "topicId": "top-pc-results",
+      "blueprintRef": "PC 1.A.4.b",
+      "depth": "explain",
+      "statement": "Explain common reasons for additional imaging after screening without implying a diagnosis.",
+      "prerequisites": [
+        "obj-mqsa-report-assessment"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-nci-mammograms"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-clinician-role",
+      "topicId": "top-pc-results",
+      "blueprintRef": "PC 1.A.4.c",
+      "depth": "apply",
+      "statement": "Distinguish what the technologist may say from what the interpreting physician or provider explains, including density notification.",
+      "prerequisites": [
+        "obj-mqsa-results-communication"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-asrt-mammo-curriculum"
+      ],
+      "sourceState": "needs_source",
+      "blockedNote": "MQSA covers who receives which report; the technologist's communication scope needs ASRT practice standards (link-only) or equivalent."
+    },
+    {
+      "id": "obj-pc-epidemiology",
+      "topicId": "top-pc-risk",
+      "blueprintRef": "PC 1.B.1.a",
+      "depth": "define",
+      "statement": "Describe breast cancer incidence patterns at the level needed for patient education.",
+      "sourceIds": [
+        "src-nci-pdq-breast-screening-hp",
+        "src-nci-seer-breast"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pc-inherent-risk",
+      "topicId": "top-pc-risk",
+      "blueprintRef": "PC 1.B.1.b",
+      "depth": "explain",
+      "statement": "Identify inherent risk factors including reproductive history, age, personal and family history, genetic mutations, prior chest radiation, and breast density.",
+      "sourceIds": [
+        "src-nci-pdq-breast-screening-hp",
+        "src-nci-mammograms",
+        "src-nci-dense-breasts"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pc-social-risk",
+      "topicId": "top-pc-risk",
+      "blueprintRef": "PC 1.B.1.c",
+      "depth": "explain",
+      "statement": "Identify lifestyle, access-to-care, and hormone-related risk factors, and their implications for imaging history.",
+      "sourceIds": [
+        "src-nci-pdq-breast-screening-hp"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pc-signs-symptoms",
+      "topicId": "top-pc-history",
+      "blueprintRef": "PC 1.B.2",
+      "depth": "define",
+      "statement": "Recognize and document signs and symptoms such as pain, lump, nipple discharge, skin thickening, erythema, dimpling, nipple changes, and edema.",
+      "sourceIds": [
+        "src-nci-seer-breast"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pc-history-documentation",
+      "topicId": "top-pc-history",
+      "blueprintRef": "PC 1.B.3",
+      "depth": "apply",
+      "statement": "Review the imaging request and document surgical history, clinical findings (lumps, scars, moles, tattoos), and gender-affirming care relevant to the exam.",
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pc-prior-images",
+      "topicId": "top-pc-history",
+      "blueprintRef": "PC 1.B.4",
+      "depth": "explain",
+      "statement": "Explain why prior mammograms matter and how to obtain them, including the MQSA transfer timeline.",
+      "prerequisites": [
+        "obj-mqsa-records-transfer"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pc-surgical-options",
+      "topicId": "top-pc-treatment",
+      "blueprintRef": "PC 1.C.1",
+      "depth": "define",
+      "statement": "Define lumpectomy, sentinel node biopsy, simple and modified radical mastectomy, and prophylactic mastectomy.",
+      "sourceIds": [
+        "src-nci-pdq-breast-treatment-hp"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pc-nonsurgical-options",
+      "topicId": "top-pc-treatment",
+      "blueprintRef": "PC 1.C.2",
+      "depth": "define",
+      "statement": "Define radiation, chemotherapy, hormone therapy, receptor status (ER, PR, HER2), and implant reconstruction.",
+      "sourceIds": [
+        "src-nci-pdq-breast-treatment-hp"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-kvp-tube",
+      "topicId": "top-ip-unit-design",
+      "blueprintRef": "IP 1.A.1\u20132",
+      "depth": "explain",
+      "statement": "Explain why mammography uses a low kVp range and how anode material, filtration, window, and focal spot shape the beam.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-openstax-college-physics-2e",
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-paddles-grids",
+      "topicId": "top-ip-unit-design",
+      "blueprintRef": "IP 1.A.3\u20134",
+      "depth": "explain",
+      "statement": "Describe compression paddle types and MQSA design requirements for paddles, and the role of grids.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ip-geometry",
+      "topicId": "top-ip-unit-design",
+      "blueprintRef": "IP 1.A.5",
+      "depth": "apply",
+      "statement": "Relate SID, OID, and magnification, including the MQSA magnification range requirement.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-openstax-college-physics-2e"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-unit-components",
+      "topicId": "top-ip-unit-design",
+      "blueprintRef": "IP 1.A",
+      "depth": "define",
+      "statement": "Identify the components that make up a mammography unit and how they relate along the beam path.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ip-acquisition-types",
+      "topicId": "top-ip-digital",
+      "blueprintRef": "IP 1.B.1",
+      "depth": "explain",
+      "statement": "Compare FFDM, DBT, and synthesized 2D imaging.",
+      "sourceIds": [
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_link_only"
+    },
+    {
+      "id": "obj-ip-receptors-monitors",
+      "topicId": "top-ip-digital",
+      "blueprintRef": "IP 1.B.2\u20133",
+      "depth": "define",
+      "statement": "Describe digital image receptors and the difference between acquisition and interpretation workstations.",
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "source_backed_link_only"
+    },
+    {
+      "id": "obj-ip-informatics",
+      "topicId": "top-ip-digital",
+      "blueprintRef": "IP 1.B.4",
+      "depth": "explain",
+      "statement": "Explain HIS/RIS, EMR, and PACS roles, including storage, backup, archive, and basic troubleshooting.",
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-cad",
+      "topicId": "top-ip-digital",
+      "blueprintRef": "IP 1.B.5",
+      "depth": "define",
+      "statement": "Describe what computer-aided detection does and does not do.",
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-mqsa-certification",
+      "topicId": "top-ip-accreditation",
+      "blueprintRef": "IP 1.C.1",
+      "depth": "explain",
+      "statement": "Explain how MQSA certification, accreditation, provisional certificates, and annual inspection fit together.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-fda-mqsa-program"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-image-review-equip",
+      "topicId": "top-ip-accreditation",
+      "blueprintRef": "IP 1.C.2.e",
+      "depth": "explain",
+      "statement": "Describe accreditation clinical image review and the three EQUIP inspection focus areas.",
+      "prerequisites": [
+        "obj-mqsa-certification"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-fda-equip"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-rt-initial",
+      "topicId": "top-ip-mqsa-personnel",
+      "blueprintRef": "IP 1.C.2.a",
+      "depth": "apply",
+      "statement": "Apply MQSA initial qualification requirements for radiologic technologists, including modality-specific training.",
+      "prerequisites": [
+        "obj-mqsa-certification"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-rt-continuing",
+      "topicId": "top-ip-mqsa-personnel",
+      "blueprintRef": "IP 1.C.2.a",
+      "depth": "apply",
+      "statement": "Apply MQSA continuing education, continuing experience, and requalification rules for technologists.",
+      "prerequisites": [
+        "obj-mqsa-rt-initial"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-qa-roles",
+      "topicId": "top-ip-mqsa-personnel",
+      "blueprintRef": "IP 1.C.2.a\u2013b",
+      "depth": "explain",
+      "statement": "Describe QA program roles (lead interpreting physician, interpreting physicians, medical physicist, QC technologist) and QC record retention.",
+      "prerequisites": [
+        "obj-mqsa-certification"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-report-assessment",
+      "topicId": "top-ip-mqsa-records",
+      "blueprintRef": "IP 1.C.2.b",
+      "depth": "apply",
+      "statement": "Identify required report contents and MQSA final and incomplete assessment categories.",
+      "prerequisites": [
+        "obj-mqsa-certification"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-results-communication",
+      "topicId": "top-ip-mqsa-records",
+      "blueprintRef": "IP 1.C.2.b",
+      "depth": "apply",
+      "statement": "Apply MQSA timelines for lay summaries and provider reports, including the 7-day rule for suspicious results and self-referred patients.",
+      "prerequisites": [
+        "obj-mqsa-report-assessment"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-fr-88-15126"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-density-reporting",
+      "topicId": "top-ip-mqsa-records",
+      "blueprintRef": "IP 1.C.2.f",
+      "depth": "apply",
+      "statement": "Map the four report density categories to the two required patient density statements effective September 10, 2024.",
+      "prerequisites": [
+        "obj-mqsa-report-assessment"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-fr-88-15126"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-image-labeling",
+      "topicId": "top-ip-mqsa-records",
+      "blueprintRef": "IP 1.C.2.b",
+      "depth": "apply",
+      "statement": "Verify that each image carries the MQSA-required identification, with view and laterality near the axilla.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-records-transfer",
+      "topicId": "top-ip-mqsa-records",
+      "blueprintRef": "IP 1.C.2.b",
+      "depth": "apply",
+      "statement": "Apply MQSA retention periods and the 15-day transfer and copy rules for mammograms and reports.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-outcomes-audit",
+      "topicId": "top-ip-mqsa-audit-policies",
+      "blueprintRef": "IP 1.C.2.c",
+      "depth": "apply",
+      "statement": "Define and calculate the MQSA medical outcomes audit measures (PPV, cancer detection rate, recall rate).",
+      "prerequisites": [
+        "obj-mqsa-report-assessment"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-required-policies",
+      "topicId": "top-ip-mqsa-audit-policies",
+      "blueprintRef": "IP 1.C.2.d",
+      "depth": "apply",
+      "statement": "Apply MQSA requirements for consumer complaints, infection control, and implant inquiry.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-mqsa-equipment-qc",
+      "topicId": "top-ip-qc-technologist",
+      "blueprintRef": "IP 1.D",
+      "depth": "explain",
+      "statement": "Explain the MQSA QC framework: action limits, corrective-action timing, manufacturer QC for digital systems, the phantom dose limit, and compression force limits.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-mqsa-qa-roles"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-qc-phantom",
+      "topicId": "top-ip-qc-technologist",
+      "blueprintRef": "IP 1.D.1.a",
+      "depth": "apply",
+      "statement": "Perform and evaluate the technologist phantom image test (quality and artifacts), including documentation and corrective action.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-qc-compression-tests",
+      "topicId": "top-ip-qc-technologist",
+      "blueprintRef": "IP 1.D.1.b, g",
+      "depth": "apply",
+      "statement": "Describe the compression thickness indicator and compression force tests: purpose, frequency, and criteria.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "sourceIds": [
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-qc-visual-checklist",
+      "topicId": "top-ip-qc-technologist",
+      "blueprintRef": "IP 1.D.1.c",
+      "depth": "apply",
+      "statement": "Use the visual checklist and know what findings require action.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-qc-monitors-viewing",
+      "topicId": "top-ip-qc-technologist",
+      "blueprintRef": "IP 1.D.1.d, f",
+      "depth": "apply",
+      "statement": "Describe acquisition and interpretation monitor QC (cleanliness, calibration, test patterns such as SMPTE/TG18) and viewing conditions.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-qc-repeat-analysis",
+      "topicId": "top-ip-qc-technologist",
+      "blueprintRef": "IP 1.D.1.e",
+      "depth": "apply",
+      "statement": "Calculate and interpret repeat/reject analysis and identify corrective actions.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-qc-detector-calibration",
+      "topicId": "top-ip-qc-technologist",
+      "blueprintRef": "IP 1.D.1.h",
+      "depth": "define",
+      "statement": "Explain the purpose of manufacturer detector calibration.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-qc-physicist-survey",
+      "topicId": "top-ip-qc-physicist",
+      "blueprintRef": "IP 1.D.2.a",
+      "depth": "explain",
+      "statement": "Explain when the annual physicist survey and a mammography equipment evaluation are required, and what the facility receives.",
+      "prerequisites": [
+        "obj-mqsa-qa-roles"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-qc-physicist-tests",
+      "topicId": "top-ip-qc-physicist",
+      "blueprintRef": "IP 1.D.2.b\u2013o",
+      "depth": "define",
+      "statement": "State the purpose of major physicist tests: collimation, resolution/MTF, SNR/CNR, AEC, artifacts, kVp, HVL, average glandular dose, illuminance, paddle alignment, and workstation QC.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-qc-physicist-survey"
+      ],
+      "sourceIds": [
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-exposure-factors",
+      "topicId": "top-ip-technique",
+      "blueprintRef": "IP 1.E.1.a\u2013d",
+      "depth": "apply",
+      "statement": "Predict how kVp, mAs, AEC, and manual technique affect contrast, noise, and dose.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-openstax-college-physics-2e"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-thickness-target-filter",
+      "topicId": "top-ip-technique",
+      "blueprintRef": "IP 1.E.1.e\u2013h",
+      "depth": "apply",
+      "statement": "Relate compressed thickness, target/filter selection, focal spot, and grid use to image quality and dose.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-acr-dmqc-manual"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-magnification-technique",
+      "topicId": "top-ip-technique",
+      "blueprintRef": "IP 1.E.1.i",
+      "depth": "apply",
+      "statement": "Explain technique changes for magnification (small focal spot, no grid, air gap).",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ip-geometry"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ip-image-quality-attributes",
+      "topicId": "top-ip-image-evaluation",
+      "blueprintRef": "IP 1.E.2.a",
+      "depth": "apply",
+      "statement": "Evaluate an image against the eight clinical image quality attributes used in accreditation review.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-fda-equip"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ip-patient-artifacts",
+      "topicId": "top-ip-image-evaluation",
+      "blueprintRef": "IP 1.E.2.b",
+      "depth": "apply",
+      "statement": "Recognize patient-related artifacts (motion, clothing, overlapping anatomy, implanted devices) and how to prevent them.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ap-clock-quadrants",
+      "topicId": "top-ap-localization",
+      "blueprintRef": "PR 1.A.1\u20132",
+      "depth": "apply",
+      "statement": "Localize findings using clock positions and quadrants for right and left breasts.",
+      "sourceIds": [
+        "src-nci-seer-breast"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-triangulation",
+      "topicId": "top-ap-localization",
+      "blueprintRef": "PR 1.A.3",
+      "depth": "apply",
+      "statement": "Use triangulation between views to estimate lesion location.",
+      "prerequisites": [
+        "obj-ap-clock-quadrants",
+        "obj-pp-cc",
+        "obj-pp-mlo"
+      ],
+      "requiresQualifiedReview": true,
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-ap-external-landmarks",
+      "topicId": "top-ap-external",
+      "blueprintRef": "PR 1.B",
+      "depth": "define",
+      "statement": "Identify external landmarks including breast margins, nipple, areola (Morgagni tubercles, Montgomery glands), skin structures, axillary tail, inframammary fold, and pectoral muscle angle.",
+      "sourceIds": [
+        "src-nci-seer-breast"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-internal-structures",
+      "topicId": "top-ap-internal",
+      "blueprintRef": "PR 1.C",
+      "depth": "define",
+      "statement": "Describe fascial layers, retroglandular space, fibroglandular and adipose tissue, Cooper ligaments, pectoral muscle, vessels, and lymphatics.",
+      "sourceIds": [
+        "src-nci-seer-breast"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-tdlu",
+      "topicId": "top-ap-internal",
+      "blueprintRef": "PR 1.C.4",
+      "depth": "explain",
+      "statement": "Describe the terminal ductal lobular unit and its parts, and why it matters in pathology.",
+      "prerequisites": [
+        "obj-ap-internal-structures"
+      ],
+      "sourceIds": [
+        "src-nci-seer-breast",
+        "src-nci-pdq-breast-treatment-hp"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-cytology",
+      "topicId": "top-ap-internal",
+      "blueprintRef": "PR 1.D",
+      "depth": "define",
+      "statement": "Define epithelial cells, myoepithelial cells, and basement membrane, and relate them to in situ versus invasive disease.",
+      "prerequisites": [
+        "obj-ap-tdlu"
+      ],
+      "sourceIds": [
+        "src-nci-pdq-breast-treatment-hp"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-lexicon-masses-calcs",
+      "topicId": "top-ap-reporting",
+      "blueprintRef": "PR 1.E.1.a\u2013d",
+      "depth": "define",
+      "statement": "Use lexicon descriptors for masses (shape, margin, density), calcifications (typically benign vs suspicious morphology, distribution), asymmetries, and architectural distortion.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [
+        "src-acr-birads-atlas"
+      ],
+      "sourceState": "blocked",
+      "blockedNote": "Descriptor definitions require the ACR BI-RADS Atlas (commercial; not accessible to this pipeline) or an accessible secondary source. Radiopaedia returned HTTP 406 to automated retrieval. Once a maintainer reads an accessible source, facts can be taught in original wording with a link-only citation.",
+      "blockedUrls": [
+        "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS",
+        "https://radiopaedia.org/articles/breast-imaging-reporting-and-data-system-bi-rads"
+      ]
+    },
+    {
+      "id": "obj-ap-assessment-density-categories",
+      "topicId": "top-ap-reporting",
+      "blueprintRef": "PR 1.E.1.e\u2013f",
+      "depth": "apply",
+      "statement": "Match assessment and density categories to their meaning and typical recommendations.",
+      "prerequisites": [
+        "obj-mqsa-report-assessment"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-benign-conditions",
+      "topicId": "top-ap-benign",
+      "blueprintRef": "PR 1.E.2",
+      "depth": "define",
+      "statement": "Describe the typical presentation and mammographic appearance of common benign conditions (cyst, galactocele, fibroadenoma, lipoma, hamartoma, papilloma, duct ectasia, hematoma, abscess, fat necrosis, lymph nodes, gynecomastia, edema, seroma).",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "sourceIds": [
+        "src-nci-pdq-breast-treatment-hp"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-high-risk-lesions",
+      "topicId": "top-ap-high-risk",
+      "blueprintRef": "PR 1.E.3",
+      "depth": "define",
+      "statement": "Define LCIS, ADH, ALH, papilloma with atypia, flat epithelial atypia, radial scar, and phyllodes tumor, and why upgrade potential matters.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ap-cytology"
+      ],
+      "sourceIds": [
+        "src-nci-pdq-breast-treatment-hp"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-ap-malignant",
+      "topicId": "top-ap-malignant",
+      "blueprintRef": "PR 1.E.4",
+      "depth": "define",
+      "statement": "Describe DCIS, invasive ductal and lobular carcinoma, inflammatory carcinoma, Paget disease, sarcoma, lymphoma, and metastases at a technologist level.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ap-cytology"
+      ],
+      "sourceIds": [
+        "src-nci-pdq-breast-treatment-hp"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pp-cc",
+      "topicId": "top-pp-standard-views",
+      "blueprintRef": "PR 2.A.1",
+      "depth": "apply",
+      "statement": "Position and evaluate the craniocaudal view against standard criteria.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ap-external-landmarks"
+      ],
+      "sourceIds": [
+        "src-acr-ciq-1999"
+      ],
+      "sourceState": "blocked",
+      "blockedNote": "ARRT names the ACR Clinical Image Quality manual (1999) as the positioning reference. No accessible copy or equivalent open source has been located; a maintainer must obtain it (link-only citation is fine) or identify an accessible equivalent such as ACR accreditation positioning guidance.",
+      "blockedUrls": [
+        "https://www.acr.org/Accreditation/Mammography",
+        "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards"
+      ]
+    },
+    {
+      "id": "obj-pp-mlo",
+      "topicId": "top-pp-standard-views",
+      "blueprintRef": "PR 2.A.2",
+      "depth": "apply",
+      "statement": "Position and evaluate the mediolateral oblique view against standard criteria, including pectoral muscle and inframammary fold.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ap-external-landmarks"
+      ],
+      "sourceIds": [
+        "src-acr-ciq-1999"
+      ],
+      "sourceState": "blocked",
+      "blockedNote": "Same reference gap as the CC objective.",
+      "blockedUrls": [
+        "https://www.acr.org/Accreditation/Mammography"
+      ]
+    },
+    {
+      "id": "obj-pp-lateral-views",
+      "topicId": "top-pp-additional-views",
+      "blueprintRef": "PR 2.A.3\u20134",
+      "depth": "apply",
+      "statement": "Choose between ML and LM views and explain why the side of interest goes closer to the receptor.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-pp-mlo"
+      ],
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-exaggerated-cleavage-at",
+      "topicId": "top-pp-additional-views",
+      "blueprintRef": "PR 2.A.5\u20137",
+      "depth": "apply",
+      "statement": "Select XCCL/XCCM, cleavage, and axillary tail views for tissue not shown on standard views.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-pp-cc"
+      ],
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-tangential-rolled",
+      "topicId": "top-pp-additional-views",
+      "blueprintRef": "PR 2.A.8\u20139",
+      "depth": "apply",
+      "statement": "Use tangential and rolled views to evaluate skin findings and separate superimposed tissue.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-pp-cc"
+      ],
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-implant-displaced",
+      "topicId": "top-pp-additional-views",
+      "blueprintRef": "PR 2.A.10",
+      "depth": "apply",
+      "statement": "Describe implant-displaced views and when they are contraindicated or modified.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-mqsa-required-policies"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-spot-mag-nipple",
+      "topicId": "top-pp-additional-views",
+      "blueprintRef": "PR 2.A.11\u201314",
+      "depth": "apply",
+      "statement": "Describe nipple-in-profile, anterior compression, spot compression, and magnification views and their purposes.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ip-magnification-technique"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pp-implant-inquiry",
+      "topicId": "top-pp-variance",
+      "blueprintRef": "PR 2.B.9",
+      "depth": "apply",
+      "statement": "Ask about implants before the exam and explain the MQSA expectation for views that maximize visible tissue.",
+      "prerequisites": [
+        "obj-mqsa-required-policies"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pp-body-habitus",
+      "topicId": "top-pp-variance",
+      "blueprintRef": "PR 2.B.1, 6\u20137, 11",
+      "depth": "apply",
+      "statement": "Adapt positioning for chest wall variation, kyphosis/lordosis, protruding abdomen, and very large or small breasts (mosaic/tiling, paddle selection).",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-pp-cc",
+        "obj-pp-mlo"
+      ],
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-postsurgical",
+      "topicId": "top-pp-variance",
+      "blueprintRef": "PR 2.B.2\u20134, 5, 8, 10",
+      "depth": "apply",
+      "statement": "Adapt imaging for irradiated, reduced, or post-surgical breasts, patients assigned male at birth, implanted devices, and lactation.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-pp-cc",
+        "obj-pp-mlo"
+      ],
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-screening-vs-diagnostic",
+      "topicId": "top-pp-exams",
+      "blueprintRef": "PR 2.C.1",
+      "depth": "explain",
+      "statement": "Distinguish screening from diagnostic mammography by patient presentation and views.",
+      "sourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-nci-mammograms"
+      ],
+      "sourceState": "source_backed_open"
+    },
+    {
+      "id": "obj-pp-us-mri",
+      "topicId": "top-pp-exams",
+      "blueprintRef": "PR 2.C.2\u20133",
+      "depth": "define",
+      "statement": "Describe basic indications and patient preparation for breast ultrasound and MRI.",
+      "sourceIds": [
+        "src-nci-pdq-breast-screening-hp"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-interventional-prep",
+      "topicId": "top-pp-interventional",
+      "blueprintRef": "PR 2.D.1",
+      "depth": "apply",
+      "statement": "Prepare a patient for an interventional procedure: pertinent history, informed consent, time-out, setup, and post-procedure instructions.",
+      "requiresQualifiedReview": true,
+      "sourceIds": [],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-biopsy-localization",
+      "topicId": "top-pp-interventional",
+      "blueprintRef": "PR 2.D.2\u20133",
+      "depth": "explain",
+      "statement": "Describe stereotactic and ultrasound biopsy, wire localization, specimen imaging, and clip placement imaging.",
+      "requiresQualifiedReview": true,
+      "prerequisites": [
+        "obj-ap-triangulation"
+      ],
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "needs_source"
+    },
+    {
+      "id": "obj-pp-biohazard",
+      "topicId": "top-pp-interventional",
+      "blueprintRef": "PR 2.D.4",
+      "depth": "apply",
+      "statement": "Handle and dispose of specimens, body fluids, sharps, and biopsy supplies safely.",
+      "prerequisites": [
+        "obj-mqsa-required-policies"
+      ],
+      "sourceIds": [
+        "src-osha-bloodborne",
+        "src-cdc-hand-hygiene"
+      ],
+      "sourceState": "needs_source"
+    }
   ]
 }

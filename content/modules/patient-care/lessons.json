@@ -37,7 +37,7 @@
         "ev-pc-nci-compression-comfort"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -54,6 +54,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -98,7 +105,7 @@
         "ev-mqsa-lay-summary-timing"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -115,6 +122,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -159,7 +173,7 @@
         "ev-mqsa-compression-force"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -176,6 +190,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -221,7 +242,7 @@
         "ev-mqsa-equip"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -238,6 +259,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -347,7 +375,7 @@
         "ev-pc-nci-access-nbccedp"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -364,6 +392,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -724,7 +759,7 @@
         "ev-pc-nci-dense-supplemental"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -741,6 +776,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },

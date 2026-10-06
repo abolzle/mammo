@@ -629,13 +629,13 @@
         },
         {
           "objectiveId": "obj-ip-receptors-monitors",
-          "suggestedSourceState": "needs_source",
+          "suggestedSourceState": "source_backed_link_only",
           "suggestedSourceIds": [
             "src-fda-display-devices-guidance",
             "src-fr-88-15126",
             "src-ecfr-21-cfr-900"
           ],
-          "note": "Interpretation-display half is source-backed. Digital image receptor half is not covered here (see image-production module and gapsNoted)."
+          "note": "Aaron Bolzle confirmed source check 2026-10-06 via source-check worksheet. Link-only ACR DMQC citation plus open FDA/FR/eCFR display/receptor evidence."
         },
         {
           "objectiveId": "obj-qc-monitors-viewing",

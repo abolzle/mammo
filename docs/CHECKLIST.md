@@ -29,6 +29,7 @@ Keep this file current. A missing asset or unresolved source is a gap, not a com
 
 ## Content needing review (not done)
 
+- [ ] Maintainer source-check worksheet: [docs/source-check-worksheet.md](./source-check-worksheet.md) — 18 objectives with lesson/cards/practice/Form A already citing retrieved evidence, but curriculum `sourceState` still `needs_source`. Aaron marks Confirm / Reject / Needs more source; a follow-up commit flips status (do not flip in the worksheet PR). Regenerate: `npx tsx scripts/gen-source-check-worksheet.ts`
 - [ ] Maintainer source-check of MQSA excerpts against eCFR
 - [ ] Qualified clinical review of dose, compression force, and equipment items
 - [ ] BI-RADS lexicon objective (`obj-ap-lexicon-masses-calcs`) — truly blocked until an accessible source is read

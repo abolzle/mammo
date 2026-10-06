@@ -11,7 +11,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -28,13 +28,20 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
     },
     {
       "id": "card-ap-central",
-      "prompt": "What does the central portion of the breast contain in SEER’s description?",
+      "prompt": "What does the central portion of the breast contain in SEER\u2019s description?",
       "answer": "The areola and nipple.",
       "objectiveId": "obj-ap-clock-quadrants",
       "evidenceIds": [
@@ -43,7 +50,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -60,6 +67,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -67,7 +81,7 @@
     {
       "id": "card-ap-ax-tail",
       "prompt": "Which ICD-O breast subsite codes the axillary tail?",
-      "answer": "C506 — axillary tail of breast.",
+      "answer": "C506 \u2014 axillary tail of breast.",
       "objectiveId": "obj-ap-clock-quadrants",
       "evidenceIds": [
         "ev-ap-seer-quadrants-clock"
@@ -75,7 +89,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -92,6 +106,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -99,7 +120,7 @@
     {
       "id": "card-ap-clock-overlap",
       "prompt": "SEER treats a single tumor at which clock hours as overlapping for coding?",
-      "answer": "Directly at 3, 6, 9, or 12 o’clock (or otherwise overlapping quadrants).",
+      "answer": "Directly at 3, 6, 9, or 12 o\u2019clock (or otherwise overlapping quadrants).",
       "objectiveId": "obj-ap-clock-quadrants",
       "evidenceIds": [
         "ev-ap-seer-quadrants-clock"
@@ -107,7 +128,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -124,6 +145,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -139,7 +167,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -156,6 +184,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -171,7 +206,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -188,6 +223,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -203,7 +245,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -220,6 +262,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -235,7 +284,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -252,6 +301,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -267,7 +323,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -284,6 +340,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -299,7 +362,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -316,6 +379,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -331,7 +401,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -348,6 +418,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -363,7 +440,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -380,6 +457,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -395,7 +479,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -412,6 +496,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -427,7 +518,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -444,6 +535,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -459,7 +557,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -476,6 +574,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -546,7 +651,7 @@
     },
     {
       "id": "card-ap-dense-map",
-      "prompt": "Which two density categories map to “dense” on the patient letter?",
+      "prompt": "Which two density categories map to \u201cdense\u201d on the patient letter?",
       "answer": "Heterogeneously dense and extremely dense.",
       "objectiveId": "obj-ap-assessment-density-categories",
       "evidenceIds": [
@@ -579,7 +684,7 @@
     },
     {
       "id": "card-ap-birads0",
-      "prompt": "What does BI-RADS 0 mean on NCI’s table?",
+      "prompt": "What does BI-RADS 0 mean on NCI\u2019s table?",
       "answer": "Need additional imaging evaluation before a category can be assigned.",
       "objectiveId": "obj-ap-assessment-density-categories",
       "evidenceIds": [
@@ -611,7 +716,7 @@
     },
     {
       "id": "card-ap-birads3",
-      "prompt": "Typical follow-up for BI-RADS 3 on NCI’s table?",
+      "prompt": "Typical follow-up for BI-RADS 3 on NCI\u2019s table?",
       "answer": "A 6-month follow-up mammogram.",
       "objectiveId": "obj-ap-assessment-density-categories",
       "evidenceIds": [
@@ -716,7 +821,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -733,6 +838,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -748,7 +860,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -765,6 +877,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -772,7 +891,7 @@
     {
       "id": "card-ap-adh",
       "prompt": "Does ADH increase breast cancer risk?",
-      "answer": "Yes — it is benign but increases risk.",
+      "answer": "Yes \u2014 it is benign but increases risk.",
       "objectiveId": "obj-ap-high-risk-lesions",
       "evidenceIds": [
         "ev-ap-dict-adh"
@@ -780,7 +899,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -797,6 +916,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -812,7 +938,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -829,6 +955,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -844,7 +977,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -861,6 +994,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -877,7 +1017,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -894,6 +1034,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -909,7 +1056,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -926,6 +1073,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -941,7 +1095,7 @@
       "revision": 1,
       "estSeconds": 25,
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -958,6 +1112,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }

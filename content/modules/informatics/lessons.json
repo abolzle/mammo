@@ -73,19 +73,19 @@
       "explanation": [
         {
           "heading": "Storage",
-          "body": "A medical image storage device (21 CFR 892.2010) provides electronic storage and retrieval of images. It is Class I and exempt from premarket notification, subject to the limits in § 892.9."
+          "body": "A medical image storage device (21 CFR 892.2010) provides electronic storage and retrieval of images. It is Class I and exempt from premarket notification, subject to the limits in \u00a7 892.9."
         },
         {
           "heading": "Communication",
-          "body": "A medical image communications device (§ 892.2020) transfers image data between devices. It may offer simple review tools such as window/level, zoom and pan, measurements, compression, and annotations, but not advanced processing."
+          "body": "A medical image communications device (\u00a7 892.2020) transfers image data between devices. It may offer simple review tools such as window/level, zoom and pan, measurements, compression, and annotations, but not advanced processing."
         },
         {
           "heading": "Management and processing",
-          "body": "A medical image management and processing system (§ 892.2050) supports review and digital processing for interpretation by a trained practitioner. It is Class II, and its classification names DICOM, JPEG, and the SMPTE test pattern as voluntary standards."
+          "body": "A medical image management and processing system (\u00a7 892.2050) supports review and digital processing for interpretation by a trained practitioner. It is Class II, and its classification names DICOM, JPEG, and the SMPTE test pattern as voluntary standards."
         },
         {
           "heading": "The MQSA link",
-          "body": "Since the 2023 amendments, § 900.12(b)(2)(i) requires every device used in mammography to meet the FDA premarket requirements for its type and intended use. FDA explained that this reaches devices used to acquire, process, or display digital mammograms. A display used for interpretation generally needs 510(k) clearance, but storage devices may be exempt."
+          "body": "Since the 2023 amendments, \u00a7 900.12(b)(2)(i) requires every device used in mammography to meet the FDA premarket requirements for its type and intended use. FDA explained that this reaches devices used to acquire, process, or display digital mammograms. A display used for interpretation generally needs 510(k) clearance, but storage devices may be exempt."
         }
       ],
       "example": "A facility replaces its archive hardware and its reading-room monitors in the same month. The storage array may be a premarket-exempt device. The new interpretation displays generally need 510(k) clearance for mammography interpretation before radiologists use them.",
@@ -214,7 +214,7 @@
         },
         {
           "heading": "MQSA enforces the clearance",
-          "body": "Under § 900.12(b)(2)(i), devices must meet premarket requirements for their intended use. FDA stated that interpreting mammograms on a display that lacks the applicable authorization would generally violate the MQSA quality standards."
+          "body": "Under \u00a7 900.12(b)(2)(i), devices must meet premarket requirements for their intended use. FDA stated that interpreting mammograms on a display that lacks the applicable authorization would generally violate the MQSA quality standards."
         },
         {
           "heading": "Separate from QC",
@@ -240,7 +240,7 @@
         "ev-inf-fr-display-qc-separate"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -257,6 +257,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -280,7 +287,7 @@
         },
         {
           "heading": "Whose QC program applies",
-          "body": "For FFDM and DBT, § 900.12(e)(6) requires a QA program substantially the same as the image receptor manufacturer's recommendations. Facilities using the ACR Digital Mammography QC Manual follow it as an FDA-accepted alternative standard. Mammo links to both and does not reproduce their procedures."
+          "body": "For FFDM and DBT, \u00a7 900.12(e)(6) requires a QA program substantially the same as the image receptor manufacturer's recommendations. Facilities using the ACR Digital Mammography QC Manual follow it as an FDA-accepted alternative standard. Mammo links to both and does not reproduce their procedures."
         },
         {
           "heading": "Film viewing conditions",
@@ -343,15 +350,15 @@
         },
         {
           "heading": "CADx: characterizes",
-          "body": "CADx software (§ 892.2060) helps characterize lesions as suspicious for cancer, including on mammography. Diagnostic and patient-management decisions are made by the clinical user."
+          "body": "CADx software (\u00a7 892.2060) helps characterize lesions as suspicious for cancer, including on mammography. Diagnostic and patient-management decisions are made by the clinical user."
         },
         {
           "heading": "CADt: notifies, doesn't mark",
-          "body": "Triage and notification software (§ 892.2080) alerts designated clinicians to time-sensitive studies. It does not mark the image, does not remove cases from the reading queue, and runs alongside the standard of care."
+          "body": "Triage and notification software (\u00a7 892.2080) alerts designated clinicians to time-sensitive studies. It does not mark the image, does not remove cases from the reading queue, and runs alongside the standard of care."
         },
         {
           "heading": "Combined tools",
-          "body": "A 2025 classification (§ 892.2090) covers software that both detects and characterizes findings. It also is not a replacement for the clinician's complete review and judgment."
+          "body": "A 2025 classification (\u00a7 892.2090) covers software that both detects and characterizes findings. It also is not a replacement for the clinician's complete review and judgment."
         }
       ],
       "example": "A CADe overlay circles a cluster of calcifications on the CC view. The radiologist still reviews every image and decides whether the finding needs a recall. The circle is a prompt, not an assessment.",
@@ -431,7 +438,7 @@
       "variants": {
         "simpler": "CAD finds more spots to check but hasn't been shown to catch more invasive cancers. It works best on good images.",
         "example": "More CAD marks can mean more callbacks without finding more invasive cancers. That's the specificity trade-off.",
-        "deeper": "PDQ (updated April 10, 2025) cites Fenton 2007, Fenton 2013, and Lehman 2015 for CAD outcomes. § 892.2070(b)(1)(iii) uses improvement in aided reader performance as the benchmark, not standalone accuracy."
+        "deeper": "PDQ (updated April 10, 2025) cites Fenton 2007, Fenton 2013, and Lehman 2015 for CAD outcomes. \u00a7 892.2070(b)(1)(iii) uses improvement in aided reader performance as the benchmark, not standalone accuracy."
       },
       "checkQuestionId": "q-inf-027",
       "evidenceIds": [
@@ -499,7 +506,7 @@
       "variants": {
         "simpler": "Every image needs: who, when, which view and side, where, which tech, and which unit (if there's more than one).",
         "example": "A RCC label placed near the axilla and away from breast tissue meets the placement rule. One placed over the lateral breast does not.",
-        "deeper": "§ 900.12(c)(5) lists seven label elements, and accreditation bodies set the standardized view/laterality codes. NLM MeSH defines patient identification systems as organized procedures for establishing identity."
+        "deeper": "\u00a7 900.12(c)(5) lists seven label elements, and accreditation bodies set the standardized view/laterality codes. NLM MeSH defines patient identification systems as organized procedures for establishing identity."
       },
       "checkQuestionId": "q-inf-031",
       "evidenceIds": [
@@ -567,7 +574,7 @@
       "variants": {
         "simpler": "Keep the full-quality file. Squeezing it without losing anything is OK. Throwing data away is not.",
         "example": "A second-opinion request for a DBT exam must receive the DBT images (original or exact digital copy), not a printout or a scan of one.",
-        "deeper": "FDA Responses 98–102 (88 FR 15126) cover original modality, lossless vs lossy compression, CAD marks, why DICOM isn't mandated, and the interpretation vs comparison distinction."
+        "deeper": "FDA Responses 98\u2013102 (88 FR 15126) cover original modality, lossless vs lossy compression, CAD marks, why DICOM isn't mandated, and the interpretation vs comparison distinction."
       },
       "checkQuestionId": "q-inf-036",
       "evidenceIds": [
@@ -637,7 +644,7 @@
       "variants": {
         "simpler": "Backup makes copies, recovery puts data back, and emergency mode keeps work going safely during the outage.",
         "example": "A colleague offers to let you use their login while yours is reset. Unique user identification and audit controls are why you say no.",
-        "deeper": "45 CFR 164.308(a)(7) also lists testing and revision procedures as addressable. § 164.312(c)(2) suggests electronic mechanisms to corroborate that data haven't been improperly altered."
+        "deeper": "45 CFR 164.308(a)(7) also lists testing and revision procedures as addressable. \u00a7 164.312(c)(2) suggests electronic mechanisms to corroborate that data haven't been improperly altered."
       },
       "checkQuestionId": "q-inf-041",
       "evidenceIds": [

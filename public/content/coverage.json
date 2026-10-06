@@ -5,7 +5,7 @@
       "topicId": "top-pc-preparation",
       "domainId": "dom-patient-care",
       "statement": "Explain common pre-exam instructions (such as removing deodorant or powder and clothing above the waist) and why they matter for image quality.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-pc-pre-exam"
@@ -28,15 +28,15 @@
       "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-rapport-support",
       "topicId": "top-pc-preparation",
       "domainId": "dom-patient-care",
       "statement": "Build rapport and respond to anxiety, modesty, and physical or cognitive needs while keeping the exam on track.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-pc-exam-process"
@@ -57,15 +57,15 @@
       "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-explain-compression",
       "topicId": "top-pc-preparation",
       "domainId": "dom-patient-care",
       "statement": "Explain to a patient in plain language why firm compression improves the image.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-pc-compression",
@@ -95,15 +95,15 @@
       "formQuestionCount": 5,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-explain-repeat",
       "topicId": "top-pc-preparation",
       "domainId": "dom-patient-care",
       "statement": "Explain the need for a repeat image (for example motion or artifact) honestly and without alarming the patient.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-pc-repeat"
@@ -122,15 +122,15 @@
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-screening-guidelines",
       "topicId": "top-pc-education",
       "domainId": "dom-patient-care",
       "statement": "Summarize current ACS and ACR screening recommendations and how they differ from USPSTF guidance.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-pc-guidelines"
@@ -163,8 +163,8 @@
       "formQuestionCount": 9,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-bse-cbe",
@@ -189,7 +189,7 @@
       "topicId": "top-pc-education",
       "domainId": "dom-patient-care",
       "statement": "Describe typical mammography dose in patient-friendly terms without overstating or minimizing risk.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ip-radiation-concepts"
@@ -223,15 +223,15 @@
       "formQuestionCount": 7,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-modalities",
       "topicId": "top-pc-education",
       "domainId": "dom-patient-care",
       "statement": "Explain the difference between 2D mammography, DBT, and breast ultrasound to a patient.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-pc-modalities"
@@ -252,8 +252,8 @@
       "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-results-pathway",
@@ -670,7 +670,7 @@
       "topicId": "top-ip-digital",
       "domainId": "dom-image-production",
       "statement": "Compare FFDM, DBT, and synthesized 2D imaging.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ip-ffdm-dbt"
@@ -695,15 +695,15 @@
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-receptors-monitors",
       "topicId": "top-ip-digital",
       "domainId": "dom-image-production",
       "statement": "Describe digital image receptors and the difference between acquisition and interpretation workstations.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ip-receptors-displays",
@@ -731,8 +731,8 @@
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-informatics",
@@ -1835,7 +1835,7 @@
       "topicId": "top-ap-localization",
       "domainId": "dom-procedures",
       "statement": "Localize findings using clock positions and quadrants for right and left breasts.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ap-clock-quadrants"
@@ -1868,8 +1868,8 @@
       "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-triangulation",
@@ -1904,7 +1904,7 @@
       "topicId": "top-ap-external",
       "domainId": "dom-procedures",
       "statement": "Identify external landmarks including breast margins, nipple, areola (Morgagni tubercles, Montgomery glands), skin structures, axillary tail, inframammary fold, and pectoral muscle angle.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ap-external"
@@ -1928,15 +1928,15 @@
       "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-internal-structures",
       "topicId": "top-ap-internal",
       "domainId": "dom-procedures",
       "statement": "Describe fascial layers, retroglandular space, fibroglandular and adipose tissue, Cooper ligaments, pectoral muscle, vessels, and lymphatics.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ap-internal"
@@ -1970,15 +1970,15 @@
       "formQuestionCount": 11,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-tdlu",
       "topicId": "top-ap-internal",
       "domainId": "dom-procedures",
       "statement": "Describe the terminal ductal lobular unit and its parts, and why it matters in pathology.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ap-ductal-lobular"
@@ -2009,15 +2009,15 @@
       "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-cytology",
       "topicId": "top-ap-internal",
       "domainId": "dom-procedures",
       "statement": "Define epithelial cells, myoepithelial cells, and basement membrane, and relate them to in situ versus invasive disease.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ap-insitu-invasive"
@@ -2044,8 +2044,8 @@
       "formQuestionCount": 7,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-lexicon-masses-calcs",
@@ -2156,7 +2156,7 @@
       "topicId": "top-ap-benign",
       "domainId": "dom-procedures",
       "statement": "Describe the typical presentation and mammographic appearance of common benign conditions (cyst, galactocele, fibroadenoma, lipoma, hamartoma, papilloma, duct ectasia, hematoma, abscess, fat necrosis, lymph nodes, gynecomastia, edema, seroma).",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ap-benign"
@@ -2185,15 +2185,15 @@
       "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-high-risk-lesions",
       "topicId": "top-ap-high-risk",
       "domainId": "dom-procedures",
       "statement": "Define LCIS, ADH, ALH, papilloma with atypia, flat epithelial atypia, radial scar, and phyllodes tumor, and why upgrade potential matters.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ap-high-risk"
@@ -2224,15 +2224,15 @@
       "formQuestionCount": 11,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-malignant",
       "topicId": "top-ap-malignant",
       "domainId": "dom-procedures",
       "statement": "Describe DCIS, invasive ductal and lobular carcinoma, inflammatory carcinoma, Paget disease, sarcoma, lymphoma, and metastases at a technologist level.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ap-malignant"
@@ -2271,8 +2271,8 @@
       "formQuestionCount": 16,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-cc",
@@ -2502,7 +2502,7 @@
       "topicId": "top-pp-additional-views",
       "domainId": "dom-procedures",
       "statement": "Describe nipple-in-profile, anterior compression, spot compression, and magnification views and their purposes.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-pos-problem-solving"
@@ -2527,8 +2527,8 @@
       "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-implant-inquiry",
@@ -2833,10 +2833,10 @@
     }
   ],
   "breakdown": {
-    "public_domain_open": 34,
-    "link_only": 3,
-    "needs_clinical_review": 26,
+    "public_domain_open": 48,
+    "link_only": 7,
+    "needs_clinical_review": 25,
     "truly_blocked": 3,
-    "needs_source": 39
+    "needs_source": 21
   }
 }

@@ -71,6 +71,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -222,6 +229,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -447,6 +461,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }

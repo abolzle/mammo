@@ -230,7 +230,7 @@
         {
           "id": "d",
           "text": "They are converted to lossy JPEG to speed transfer, and the JPEGs become the originals.",
-          "rationale": "Lossy images generally are not originals under FDA's reading of § 900.12(c)(4)."
+          "rationale": "Lossy images generally are not originals under FDA's reading of \u00a7 900.12(c)(4)."
         }
       ],
       "correctChoiceId": "c",
@@ -296,7 +296,7 @@
         {
           "id": "d",
           "text": "Class I, exempt from premarket notification (with limits)",
-          "rationale": "Correct. § 892.2010 makes storage devices Class I and 510(k)-exempt, subject to § 892.9."
+          "rationale": "Correct. \u00a7 892.2010 makes storage devices Class I and 510(k)-exempt, subject to \u00a7 892.9."
         }
       ],
       "correctChoiceId": "d",
@@ -347,22 +347,22 @@
         {
           "id": "a",
           "text": "Image segmentation and 3D visualization",
-          "rationale": "Those are advanced functions associated with image management and processing systems (§ 892.2050)."
+          "rationale": "Those are advanced functions associated with image management and processing systems (\u00a7 892.2050)."
         },
         {
           "id": "b",
           "text": "Grayscale window/level, zoom, and pan",
-          "rationale": "Correct. § 892.2020 allows simple review tools such as window/level, zoom, and pan."
+          "rationale": "Correct. \u00a7 892.2020 allows simple review tools such as window/level, zoom, and pan."
         },
         {
           "id": "c",
           "text": "Marking suspicious calcifications",
-          "rationale": "Marking possible abnormalities is CADe (§ 892.2070)."
+          "rationale": "Marking possible abnormalities is CADe (\u00a7 892.2070)."
         },
         {
           "id": "d",
           "text": "Characterizing a lesion as suspicious for cancer",
-          "rationale": "That is CADx (§ 892.2060)."
+          "rationale": "That is CADx (\u00a7 892.2060)."
         }
       ],
       "correctChoiceId": "b",
@@ -408,12 +408,12 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "Which voluntary standards are named in FDA's classification for medical image management and processing systems (§ 892.2050)?",
+      "stem": "Which voluntary standards are named in FDA's classification for medical image management and processing systems (\u00a7 892.2050)?",
       "choices": [
         {
           "id": "a",
           "text": "HL7, ICD-10, and CPT",
-          "rationale": "Those are health data and coding standards, not the ones named in § 892.2050."
+          "rationale": "Those are health data and coding standards, not the ones named in \u00a7 892.2050."
         },
         {
           "id": "b",
@@ -423,7 +423,7 @@
         {
           "id": "c",
           "text": "DICOM, JPEG, and the SMPTE test pattern",
-          "rationale": "Correct. § 892.2050(b) lists these three voluntary standards."
+          "rationale": "Correct. \u00a7 892.2050(b) lists these three voluntary standards."
         },
         {
           "id": "d",
@@ -432,7 +432,7 @@
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "§ 892.2050 names DICOM, JPEG, and the SMPTE test pattern as voluntary standards.",
+      "explanation": "\u00a7 892.2050 names DICOM, JPEG, and the SMPTE test pattern as voluntary standards.",
       "variants": {
         "simpler": "Image format (DICOM), compression (JPEG), and a display test pattern (SMPTE).",
         "example": "You may hear 'SMPTE pattern' during display QC. It appears in FDA's classification too."
@@ -478,7 +478,7 @@
         {
           "id": "a",
           "text": "It must meet the applicable FDA premarket authorization requirements for its device type and intended use.",
-          "rationale": "Correct. § 900.12(b)(2)(i) applies to all devices used in mammography."
+          "rationale": "Correct. \u00a7 900.12(b)(2)(i) applies to all devices used in mammography."
         },
         {
           "id": "b",
@@ -554,7 +554,7 @@
         {
           "id": "c",
           "text": "Retention periods for mammograms",
-          "rationale": "Retention periods come from MQSA (§ 900.12(c)(4)), not DICOM."
+          "rationale": "Retention periods come from MQSA (\u00a7 900.12(c)(4)), not DICOM."
         },
         {
           "id": "d",
@@ -902,7 +902,7 @@
         "ev-inf-cfr-devices-authorized"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -919,6 +919,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -967,7 +974,7 @@
         "ev-inf-disp-ifu"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -984,6 +991,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -999,7 +1013,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "Per FDA's explanation of § 900.12(b)(2)(i), what does a display used to interpret digital mammograms generally need before use in a facility?",
+      "stem": "Per FDA's explanation of \u00a7 900.12(b)(2)(i), what does a display used to interpret digital mammograms generally need before use in a facility?",
       "choices": [
         {
           "id": "a",
@@ -1032,7 +1046,7 @@
         "ev-inf-fr-display-clearance"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1049,6 +1063,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -1079,7 +1100,7 @@
         {
           "id": "c",
           "text": "21 CFR 892.2050 (medical image management and processing system)",
-          "rationale": "Correct. The display guidance applies to displays classified under § 892.2050."
+          "rationale": "Correct. The display guidance applies to displays classified under \u00a7 892.2050."
         },
         {
           "id": "d",
@@ -1088,17 +1109,17 @@
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "FDA's display guidance applies to diagnostic radiology displays classified under § 892.2050.",
+      "explanation": "FDA's display guidance applies to diagnostic radiology displays classified under \u00a7 892.2050.",
       "variants": {
         "simpler": "Diagnostic displays share a classification with PACS processing systems.",
-        "example": "The display's 510(k) summary will cite § 892.2050."
+        "example": "The display's 510(k) summary will cite \u00a7 892.2050."
       },
       "evidenceIds": [
         "ev-inf-disp-scope",
         "ev-inf-892-mimps"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1115,6 +1136,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -1270,7 +1298,7 @@
         {
           "id": "b",
           "text": "A QA program substantially the same as the manufacturer's recommendations (or an FDA-accepted alternative standard)",
-          "rationale": "Correct. § 900.12(e)(6) points to the manufacturer's QA program."
+          "rationale": "Correct. \u00a7 900.12(e)(6) points to the manufacturer's QA program."
         },
         {
           "id": "c",
@@ -1284,7 +1312,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "§ 900.12(e)(6) requires a QA program substantially the same as the image receptor manufacturer's. Many facilities use ACR's DMQC Manual as an accepted alternative (link-only).",
+      "explanation": "\u00a7 900.12(e)(6) requires a QA program substantially the same as the image receptor manufacturer's. Many facilities use ACR's DMQC Manual as an accepted alternative (link-only).",
       "variants": {
         "simpler": "Follow the manufacturer's QC program.",
         "example": "Your site's display QC frequencies and limits are in its QC manual, not in this app."
@@ -1331,7 +1359,7 @@
         {
           "id": "a",
           "text": "Hot-lights brighter than the view box, and film masking devices",
-          "rationale": "Correct. § 900.12(b)(14)–(15) require both."
+          "rationale": "Correct. \u00a7 900.12(b)(14)\u2013(15) require both."
         },
         {
           "id": "b",
@@ -1391,7 +1419,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "According to FDA's CADe classification (§ 892.2070), what is CADe for mammography intended to do?",
+      "stem": "According to FDA's CADe classification (\u00a7 892.2070), what is CADe for mammography intended to do?",
       "choices": [
         {
           "id": "a",
@@ -1457,7 +1485,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "Which description fits CADx (§ 892.2060) rather than CADe?",
+      "stem": "Which description fits CADx (\u00a7 892.2060) rather than CADe?",
       "choices": [
         {
           "id": "a",
@@ -1523,7 +1551,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "What does radiological computer-aided triage and notification software (CADt, § 892.2080) NOT do?",
+      "stem": "What does radiological computer-aided triage and notification software (CADt, \u00a7 892.2080) NOT do?",
       "choices": [
         {
           "id": "a",
@@ -1588,7 +1616,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "FDA's 2025 classification for software that both detects and characterizes findings (§ 892.2090) states the device is:",
+      "stem": "FDA's 2025 classification for software that both detects and characterizes findings (\u00a7 892.2090) states the device is:",
       "choices": [
         {
           "id": "a",
@@ -1603,7 +1631,7 @@
         {
           "id": "c",
           "text": "Exempt from performance testing",
-          "rationale": "§ 892.2090 requires standalone and reader performance testing."
+          "rationale": "\u00a7 892.2090 requires standalone and reader performance testing."
         },
         {
           "id": "d",
@@ -1804,7 +1832,7 @@
         {
           "id": "d",
           "text": "CAD labeling must warn that performance can drop with poor image quality, and the radiologist must review the entire exam, so image quality still matters",
-          "rationale": "Correct. This follows from § 892.2070 labeling and FDA's example warning."
+          "rationale": "Correct. This follows from \u00a7 892.2070 labeling and FDA's example warning."
         }
       ],
       "correctChoiceId": "d",
@@ -2052,12 +2080,12 @@
         {
           "id": "a",
           "text": "Patient name and an additional patient identifier",
-          "rationale": "Required by § 900.12(c)(5)(i)."
+          "rationale": "Required by \u00a7 900.12(c)(5)(i)."
         },
         {
           "id": "b",
           "text": "Technologist identification",
-          "rationale": "Required by § 900.12(c)(5)(v)."
+          "rationale": "Required by \u00a7 900.12(c)(5)(v)."
         },
         {
           "id": "c",
@@ -2067,7 +2095,7 @@
         {
           "id": "d",
           "text": "Mammography unit identification if there is more than one unit",
-          "rationale": "Required by § 900.12(c)(5)(vii)."
+          "rationale": "Required by \u00a7 900.12(c)(5)(vii)."
         }
       ],
       "correctChoiceId": "c",
@@ -2133,7 +2161,7 @@
         {
           "id": "d",
           "text": "Near the axilla, without obscuring anatomy",
-          "rationale": "Correct. § 900.12(c)(5)(iii) requires placement near the axilla."
+          "rationale": "Correct. \u00a7 900.12(c)(5)(iii) requires placement near the axilla."
         }
       ],
       "correctChoiceId": "d",
@@ -2183,7 +2211,7 @@
         {
           "id": "a",
           "text": "Permanent, legible, and unambiguous, and placed so it does not obscure anatomy",
-          "rationale": "Correct. These are the stated qualities in § 900.12(c)(5)."
+          "rationale": "Correct. These are the stated qualities in \u00a7 900.12(c)(5)."
         },
         {
           "id": "b",
@@ -2321,7 +2349,7 @@
         {
           "id": "b",
           "text": "As acceptable only for comparison, not retention",
-          "rationale": "FDA treats them as originals for § 900.12(c)(4)."
+          "rationale": "FDA treats them as originals for \u00a7 900.12(c)(4)."
         },
         {
           "id": "c",
@@ -2661,7 +2689,7 @@
         {
           "id": "d",
           "text": "Data have not been altered or destroyed in an unauthorized manner.",
-          "rationale": "Correct. That is the § 164.304 definition."
+          "rationale": "Correct. That is the \u00a7 164.304 definition."
         }
       ],
       "correctChoiceId": "d",
@@ -2844,7 +2872,7 @@
         {
           "id": "a",
           "text": "Facilities must implement policies and procedures to minimize the possibility of losing mammograms and reports.",
-          "rationale": "Correct. § 900.12(c)(4)(i) requires this."
+          "rationale": "Correct. \u00a7 900.12(c)(4)(i) requires this."
         },
         {
           "id": "b",
@@ -2863,7 +2891,7 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "§ 900.12(c)(4)(i) pairs retention periods with a duty to implement policies that minimize record loss.",
+      "explanation": "\u00a7 900.12(c)(4)(i) pairs retention periods with a duty to implement policies that minimize record loss.",
       "variants": {
         "simpler": "Keep records, and have a plan so they don't get lost.",
         "example": "Backup and recovery procedures are one way to meet this."
