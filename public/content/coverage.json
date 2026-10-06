@@ -1348,78 +1348,88 @@
       "topicId": "top-ip-qc-technologist",
       "domainId": "dom-image-production",
       "statement": "Perform and evaluate the technologist phantom image test (quality and artifacts), including documentation and corrective action.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pqd-phantom-federal"
+      ],
+      "cardIds": [
+        "card-pqd-phantom-weekly",
+        "card-pqd-phantom-stop",
+        "card-pqd-digital-qa",
+        "card-pqd-alt24",
+        "card-pqd-acr-link",
+        "card-pqd-dose-digital"
+      ],
       "questionIds": [
-        "q-ip-077"
+        "q-ip-077",
+        "q-pqd-001",
+        "q-pqd-002",
+        "q-pqd-003",
+        "q-pqd-004",
+        "q-pqd-005",
+        "q-pqd-008",
+        "q-pqd-009"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 7,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-qc-compression-tests",
       "topicId": "top-ip-qc-technologist",
       "domainId": "dom-image-production",
       "statement": "Describe the compression thickness indicator and compression force tests: purpose, frequency, and criteria.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-pqd-compression-tests"
+      ],
+      "cardIds": [
+        "card-pqd-comp-min",
+        "card-pqd-comp-max",
+        "card-pqd-comp-stop",
+        "card-pqd-thickness-gap"
+      ],
+      "questionIds": [
+        "q-pqd-010",
+        "q-pqd-011",
+        "q-pqd-012",
+        "q-pqd-013"
+      ],
+      "visualIds": [
+        "vis-pqd-force-band"
+      ],
+      "learnerQuestionCount": 4,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-qc-visual-checklist",
       "topicId": "top-ip-qc-technologist",
       "domainId": "dom-image-production",
       "statement": "Use the visual checklist and know what findings require action.",
-      "sourceState": "needs_source",
-      "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
-      "formQuestionCount": 0,
-      "validatedQuestionCount": 0,
-      "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
-    },
-    {
-      "objectiveId": "obj-qc-monitors-viewing",
-      "topicId": "top-ip-qc-technologist",
-      "domainId": "dom-image-production",
-      "statement": "Describe acquisition and interpretation monitor QC (cleanliness, calibration, test patterns such as SMPTE/TG18) and viewing conditions.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
-        "les-inf-display-qc"
+        "les-pqd-visual-cleanliness"
       ],
       "cardIds": [
-        "card-inf-qc-not-clearance",
-        "card-inf-gsdf",
-        "card-inf-digital-qa-source",
-        "card-inf-hotlight"
+        "card-pqd-clean-protocols",
+        "card-pqd-visual-gap"
       ],
       "questionIds": [
-        "q-inf-018",
-        "q-inf-019",
-        "q-inf-020",
-        "q-inf-021"
+        "q-pqd-014",
+        "q-pqd-015",
+        "q-pqd-016",
+        "q-pqd-017"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
@@ -1427,45 +1437,105 @@
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
+    },
+    {
+      "objectiveId": "obj-qc-monitors-viewing",
+      "topicId": "top-ip-qc-technologist",
+      "domainId": "dom-image-production",
+      "statement": "Describe acquisition and interpretation monitor QC (cleanliness, calibration, test patterns such as SMPTE/TG18) and viewing conditions.",
+      "sourceState": "source_backed_open",
+      "requiresQualifiedReview": true,
+      "lessonIds": [
+        "les-inf-display-qc",
+        "les-pqd-monitors-viewing"
+      ],
+      "cardIds": [
+        "card-inf-qc-not-clearance",
+        "card-inf-gsdf",
+        "card-inf-digital-qa-source",
+        "card-inf-hotlight",
+        "card-pqd-hotlights",
+        "card-pqd-masking",
+        "card-pqd-monitor-link"
+      ],
+      "questionIds": [
+        "q-inf-018",
+        "q-inf-019",
+        "q-inf-020",
+        "q-inf-021",
+        "q-pqd-015",
+        "q-pqd-022",
+        "q-pqd-023",
+        "q-pqd-024",
+        "q-pqd-025"
+      ],
+      "visualIds": [],
+      "learnerQuestionCount": 9,
+      "formQuestionCount": 0,
+      "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-qc-repeat-analysis",
       "topicId": "top-ip-qc-technologist",
       "domainId": "dom-image-production",
       "statement": "Calculate and interpret repeat/reject analysis and identify corrective actions.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pqd-repeat-analysis"
+      ],
+      "cardIds": [
+        "card-pqd-repeat-2",
+        "card-pqd-repeat-loop"
+      ],
       "questionIds": [
-        "q-ip-076"
+        "q-ip-076",
+        "q-pqd-018",
+        "q-pqd-019",
+        "q-pqd-020",
+        "q-pqd-021"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-qc-detector-calibration",
       "topicId": "top-ip-qc-technologist",
       "domainId": "dom-image-production",
       "statement": "Explain the purpose of manufacturer detector calibration.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-pqd-digital-qc-path"
+      ],
+      "cardIds": [
+        "card-pqd-detector-purpose",
+        "card-pqd-detector-where"
+      ],
+      "questionIds": [
+        "q-pqd-003",
+        "q-pqd-006",
+        "q-pqd-007",
+        "q-pqd-009"
+      ],
+      "visualIds": [
+        "vis-pqd-digital-path"
+      ],
+      "learnerQuestionCount": 4,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-qc-physicist-survey",
@@ -1502,18 +1572,31 @@
       "topicId": "top-ip-qc-physicist",
       "domainId": "dom-image-production",
       "statement": "State the purpose of major physicist tests: collimation, resolution/MTF, SNR/CNR, AEC, artifacts, kVp, HVL, average glandular dose, illuminance, paddle alignment, and workstation QC.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pqd-physicist-tests"
+      ],
+      "cardIds": [
+        "card-pqd-phys-scope",
+        "card-pqd-phys-collimation",
+        "card-pqd-phys-dose",
+        "card-pqd-phys-artifacts",
+        "card-pqd-snr-link"
+      ],
+      "questionIds": [
+        "q-pqd-026",
+        "q-pqd-027",
+        "q-pqd-028",
+        "q-pqd-029"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-ip-exposure-factors",
@@ -1700,18 +1783,28 @@
       "topicId": "top-ap-localization",
       "domainId": "dom-procedures",
       "statement": "Use triangulation between views to estimate lesion location.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pqd-triangulation"
+      ],
+      "cardIds": [
+        "card-pqd-triang-purpose",
+        "card-pqd-triang-gap"
+      ],
+      "questionIds": [
+        "q-pqd-032",
+        "q-pqd-046",
+        "q-pqd-047",
+        "q-pqd-048"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-ap-external-landmarks",
@@ -2131,67 +2224,97 @@
       "topicId": "top-pp-additional-views",
       "domainId": "dom-procedures",
       "statement": "Choose between ML and LM views and explain why the side of interest goes closer to the receptor.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pqd-lateral-ml-lm"
+      ],
       "cardIds": [
-        "card-pos-lateral-roi"
+        "card-pos-lateral-roi",
+        "card-pqd-lateral-ml",
+        "card-pqd-diagnostic-angles"
       ],
       "questionIds": [
-        "q-pos-041"
+        "q-pos-041",
+        "q-pqd-030",
+        "q-pqd-031",
+        "q-pqd-032",
+        "q-pqd-033",
+        "q-pqd-048"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 5,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-additional-views"
       ],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-pp-exaggerated-cleavage-at",
       "topicId": "top-pp-additional-views",
       "domainId": "dom-procedures",
       "statement": "Select XCCL/XCCM, cleavage, and axillary tail views for tissue not shown on standard views.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pqd-xccl-cleavage"
+      ],
       "cardIds": [
-        "card-pos-xccl"
+        "card-pos-xccl",
+        "card-pqd-xccl",
+        "card-pqd-cleavage",
+        "card-pqd-at"
       ],
       "questionIds": [
         "q-pos-042",
-        "q-pos-044"
+        "q-pos-044",
+        "q-pqd-034",
+        "q-pqd-035",
+        "q-pqd-036",
+        "q-pqd-037",
+        "q-pqd-041"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "visualIds": [
+        "vis-pqd-xccl-box"
+      ],
+      "learnerQuestionCount": 5,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-pp-tangential-rolled",
       "topicId": "top-pp-additional-views",
       "domainId": "dom-procedures",
       "statement": "Use tangential and rolled views to evaluate skin findings and separate superimposed tissue.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pqd-rolled-tangential"
+      ],
+      "cardIds": [
+        "card-pqd-rolled",
+        "card-pqd-tangential"
+      ],
       "questionIds": [
-        "q-pos-043"
+        "q-pos-043",
+        "q-pqd-038",
+        "q-pqd-039",
+        "q-pqd-040",
+        "q-pqd-041"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-pp-implant-displaced",
@@ -2424,22 +2547,34 @@
       "topicId": "top-pp-interventional",
       "domainId": "dom-procedures",
       "statement": "Prepare a patient for an interventional procedure: pertinent history, informed consent, time-out, setup, and post-procedure instructions.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pqd-consent-timeout"
+      ],
+      "cardIds": [
+        "card-pqd-up-three",
+        "card-pqd-timeout",
+        "card-pqd-consent"
+      ],
       "questionIds": [
         "q-pos-068",
         "q-pos-074",
-        "q-pos-075"
+        "q-pos-075",
+        "q-pqd-042",
+        "q-pqd-043",
+        "q-pqd-044",
+        "q-pqd-045"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "visualIds": [
+        "vis-pqd-timeout-step"
+      ],
+      "learnerQuestionCount": 4,
       "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-biopsy-localization",
@@ -2507,10 +2642,10 @@
     }
   ],
   "breakdown": {
-    "public_domain_open": 25,
-    "link_only": 0,
-    "needs_clinical_review": 29,
+    "public_domain_open": 34,
+    "link_only": 3,
+    "needs_clinical_review": 26,
     "truly_blocked": 3,
-    "needs_source": 51
+    "needs_source": 39
   }
 }

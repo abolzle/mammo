@@ -124,6 +124,25 @@
       "visualCount": 4
     },
     {
+      "id": "mod-procedures-qc-depth",
+      "version": "1.0.0-beta.1",
+      "title": "Procedures and QC depth",
+      "summary": "Fills Stage 3 gaps: federal-sourced technologist/physicist QC purposes (without redistributing ACR DMQC procedures), additional-view terminology and purpose-level localization, and interventional consent/time-out from AHRQ Universal Protocol summaries.",
+      "topicIds": [
+        "top-ip-qc-technologist",
+        "top-ip-qc-physicist",
+        "top-pp-additional-views",
+        "top-pp-interventional",
+        "top-ap-localization",
+        "top-ip-image-evaluation"
+      ],
+      "path": "/content/modules/procedures-qc-depth.json",
+      "lessonCount": 12,
+      "questionCount": 48,
+      "cardCount": 36,
+      "visualCount": 4
+    },
+    {
       "id": "mod-qc-regulations",
       "version": "1.0.0-beta.1",
       "title": "QC principles and regulations depth",
@@ -146,15 +165,15 @@
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 50,
-    "complete": 19,
-    "withGap": 60,
+    "withLesson": 61,
+    "complete": 22,
+    "withGap": 57,
     "breakdown": {
-      "public_domain_open": 25,
-      "link_only": 0,
-      "needs_clinical_review": 29,
+      "public_domain_open": 34,
+      "link_only": 3,
+      "needs_clinical_review": 26,
       "truly_blocked": 3,
-      "needs_source": 51
+      "needs_source": 39
     }
   }
 }

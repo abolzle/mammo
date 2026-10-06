@@ -32,7 +32,7 @@ describe("module-local coverage", () => {
     expect(cov.links).toEqual([{ objectiveId: "obj-a", lessonIds: [], cardIds: [], questionIds: ["q-1"], visualIds: [] }]);
   });
 
-  it("applies informatics curriculumFollowUps without promoting needs-source suggestions", () => {
+  it("applies informatics curriculumFollowUps; procedures-qc-depth may later open monitors QC", () => {
     const raw = JSON.parse(readFileSync(join(__dirname, "../content/curriculum/curriculum.json"), "utf8")) as {
       objectives: { id: string; sourceState: string }[];
     };
@@ -40,9 +40,12 @@ describe("module-local coverage", () => {
     const applied = new Map(curriculum.objectives.map((o) => [o.id, o.sourceState]));
     expect(applied.get("obj-ip-cad")).toBe("source_backed_open");
     expect(applied.get("obj-ip-informatics")).toBe("source_backed_open");
-    expect(applied.get("obj-qc-monitors-viewing")).toBe("needs_source");
+    // procedures-qc-depth adds federal viewing/digital-QC evidence and follow-up for monitors
+    expect(applied.get("obj-qc-monitors-viewing")).toBe("source_backed_open");
     const rows = coverageMatrix(curriculum, loaded.modules, { ...opts, moduleCoverage: loaded.moduleCoverage });
+    // Still incomplete without an assessment-form item (practice depth only in this pass)
     expect(row(rows, "obj-qc-monitors-viewing").complete).toBe(false);
+    expect(row(rows, "obj-qc-monitors-viewing").gap).toMatch(/assessment-form|form/i);
   });
 
   it("does not apply a follow-up whose sources are unregistered", () => {

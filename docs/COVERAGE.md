@@ -8,22 +8,22 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 19 / 79 | all |
-| Micro-lessons | 79 | 60–80 |
-| Recall cards | 239 | 200+ |
-| Practice questions | 327 | ~800 incl. two full forms |
+| Objectives complete | 22 / 79 | all |
+| Micro-lessons | 91 | 60–80 |
+| Recall cards | 275 | 200+ |
+| Practice questions | 375 | ~800 incl. two full forms |
 | Reserved-form questions | 146 | two full forms |
-| Visual exercises | 28 | — |
+| Visual exercises | 32 | — |
 
-Source state: 25 open/public-domain, 0 link-only, 51 need a source, 3 blocked.
+Source state: 34 open/public-domain, 3 link-only, 39 need a source, 3 blocked.
 
 ## Complete objectives by domain
 
 | Domain | Complete | Objectives |
 |---|---|---|
 | dom-patient-care | 2 | 19 |
-| dom-image-production | 14 | 34 |
-| dom-procedures | 3 | 26 |
+| dom-image-production | 16 | 34 |
+| dom-procedures | 4 | 26 |
 
 ## Blocked objectives and the URLs needed
 
@@ -75,21 +75,21 @@ Source state: 25 open/public-domain, 0 link-only, 51 need a source, 3 blocked.
 | `obj-mqsa-outcomes-audit` | source_backed_open | 1 | 2 | 3 | 3 | 0 |  |
 | `obj-mqsa-required-policies` | source_backed_open | 3 | 7 | 11 | 2 | 2 |  |
 | `obj-mqsa-equipment-qc` | source_backed_open | 2 | 11 | 11 | 4 | 1 |  |
-| `obj-qc-phantom` | needs_source | 0 | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-qc-compression-tests` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-qc-visual-checklist` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-qc-monitors-viewing` | needs_source | 1 | 4 | 4 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-qc-repeat-analysis` | needs_source | 0 | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-qc-detector-calibration` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-qc-phantom` | source_backed_open | 1 | 6 | 7 | 1 | 0 |  |
+| `obj-qc-compression-tests` | source_backed_open | 1 | 4 | 4 | 0 | 1 | no assessment-form item |
+| `obj-qc-visual-checklist` | source_backed_open | 1 | 2 | 4 | 0 | 0 | no assessment-form item |
+| `obj-qc-monitors-viewing` | source_backed_open | 2 | 7 | 9 | 0 | 0 | no assessment-form item |
+| `obj-qc-repeat-analysis` | source_backed_open | 1 | 2 | 4 | 1 | 0 |  |
+| `obj-qc-detector-calibration` | source_backed_open | 1 | 2 | 4 | 0 | 1 | no assessment-form item |
 | `obj-qc-physicist-survey` | source_backed_open | 1 | 4 | 3 | 1 | 0 |  |
-| `obj-qc-physicist-tests` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-qc-physicist-tests` | source_backed_open | 1 | 5 | 4 | 0 | 0 | no assessment-form item |
 | `obj-ip-exposure-factors` | needs_source | 1 | 3 | 2 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-thickness-target-filter` | needs_source | 1 | 1 | 1 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-magnification-technique` | needs_source | 1 | 2 | 1 | 1 | 1 | needs source retrieval before a lesson can be written |
 | `obj-ip-image-quality-attributes` | source_backed_open | 1 | 7 | 9 | 1 | 0 |  |
 | `obj-ip-patient-artifacts` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-clock-quadrants` | needs_source | 1 | 4 | 5 | 3 | 1 | needs source retrieval before a lesson can be written |
-| `obj-ap-triangulation` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-triangulation` | source_backed_link_only | 1 | 2 | 4 | 0 | 0 | no assessment-form item |
 | `obj-ap-external-landmarks` | needs_source | 1 | 3 | 4 | 1 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-internal-structures` | needs_source | 1 | 3 | 4 | 7 | 1 | needs source retrieval before a lesson can be written |
 | `obj-ap-tdlu` | needs_source | 1 | 3 | 4 | 5 | 1 | needs source retrieval before a lesson can be written |
@@ -101,9 +101,9 @@ Source state: 25 open/public-domain, 0 link-only, 51 need a source, 3 blocked.
 | `obj-ap-malignant` | needs_source | 1 | 4 | 5 | 8 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-cc` | blocked | 0 | 3 | 7 | 0 | 1 | blocked: no accessible source verifies the fact |
 | `obj-pp-mlo` | blocked | 1 | 2 | 6 | 0 | 1 | blocked: no accessible source verifies the fact |
-| `obj-pp-lateral-views` | needs_source | 0 | 1 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-exaggerated-cleavage-at` | needs_source | 0 | 1 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-tangential-rolled` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-lateral-views` | source_backed_link_only | 1 | 3 | 5 | 0 | 0 | no assessment-form item |
+| `obj-pp-exaggerated-cleavage-at` | source_backed_open | 1 | 4 | 5 | 0 | 1 | no assessment-form item |
+| `obj-pp-tangential-rolled` | source_backed_link_only | 1 | 2 | 4 | 0 | 0 | no assessment-form item |
 | `obj-pp-implant-displaced` | needs_source | 1 | 1 | 3 | 0 | 1 | needs source retrieval before a lesson can be written |
 | `obj-pp-spot-mag-nipple` | needs_source | 1 | 1 | 3 | 4 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-implant-inquiry` | source_backed_open | 2 | 4 | 8 | 4 | 0 |  |
@@ -111,6 +111,6 @@ Source state: 25 open/public-domain, 0 link-only, 51 need a source, 3 blocked.
 | `obj-pp-postsurgical` | needs_source | 0 | 1 | 1 | 2 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-screening-vs-diagnostic` | source_backed_open | 2 | 8 | 11 | 8 | 1 |  |
 | `obj-pp-us-mri` | needs_source | 0 | 0 | 0 | 6 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-interventional-prep` | needs_source | 0 | 0 | 0 | 3 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-interventional-prep` | source_backed_open | 1 | 3 | 4 | 3 | 1 |  |
 | `obj-pp-biopsy-localization` | needs_source | 0 | 0 | 0 | 4 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-biohazard` | needs_source | 0 | 3 | 3 | 15 | 0 | needs source retrieval before a lesson can be written |
