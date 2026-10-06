@@ -10,13 +10,19 @@ const LABELS: Record<ReviewStatus, string> = {
   retired: "Retired",
 };
 
+export function needsConfirmation(review: { status: ReviewStatus; requiresQualifiedReview?: boolean }) {
+  return Boolean(review.requiresQualifiedReview) && review.status !== "clinically_reviewed";
+}
+
+export function NeedsConfirmationBadge() {
+  return <Badge variant="secondary">Needs confirmation by a qualified reviewer</Badge>;
+}
+
 export function ReviewBadge({ status, requiresQualifiedReview }: { status: ReviewStatus; requiresQualifiedReview?: boolean }) {
   return (
     <span className="inline-flex flex-wrap items-center gap-1">
       <Badge variant={status === "clinically_reviewed" ? "default" : "outline"}>{LABELS[status]}</Badge>
-      {requiresQualifiedReview && status !== "clinically_reviewed" ? (
-        <Badge variant="secondary">Needs qualified review</Badge>
-      ) : null}
+      {needsConfirmation({ status, requiresQualifiedReview }) ? <NeedsConfirmationBadge /> : null}
     </span>
   );
 }

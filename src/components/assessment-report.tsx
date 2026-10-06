@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { NeedsConfirmationBadge, needsConfirmation } from "@/components/review-badge";
 import { SafeMarkdown } from "@/lib/markdown";
 import { assessmentReport, type Tally } from "@/lib/engine/test-mode";
 import type { LoadedContent } from "@/lib/content/load";
@@ -182,6 +183,7 @@ export function AssessmentReportView({ session, content, onHome }: { session: St
                       {it.role === "pilot" ? <Badge variant="outline">Pilot · unscored</Badge> : null}
                       {it.flagged ? <Badge variant="secondary">Flagged</Badge> : null}
                       {it.priorExposure ? <Badge variant="outline">Seen before</Badge> : null}
+                      {q && needsConfirmation(q.review) ? <NeedsConfirmationBadge /> : null}
                     </summary>
                     {q ? (
                       <div className="space-y-2 border-t p-3 text-sm">
