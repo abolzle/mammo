@@ -18,7 +18,7 @@
       ],
       "path": "/content/modules/anatomy-pathology.json",
       "lessonCount": 12,
-      "questionCount": 93,
+      "questionCount": 137,
       "cardCount": 30,
       "visualCount": 4
     },
@@ -119,7 +119,7 @@
       ],
       "path": "/content/modules/positioning.json",
       "lessonCount": 12,
-      "questionCount": 88,
+      "questionCount": 127,
       "cardCount": 22,
       "visualCount": 4
     },
@@ -166,8 +166,8 @@
   "coverageSummary": {
     "objectives": 79,
     "withLesson": 61,
-    "complete": 24,
-    "withGap": 55,
+    "complete": 27,
+    "withGap": 52,
     "breakdown": {
       "public_domain_open": 34,
       "link_only": 3,

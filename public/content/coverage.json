@@ -83,11 +83,15 @@
         "q-pos-017",
         "q-pos-018",
         "q-pos-019",
-        "q-pos-020"
+        "q-pos-020",
+        "q-pos-096",
+        "q-pos-105",
+        "q-pos-106",
+        "q-pos-118"
       ],
       "visualIds": [],
       "learnerQuestionCount": 7,
-      "formQuestionCount": 1,
+      "formQuestionCount": 5,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -1197,14 +1201,18 @@
         "q-pos-021",
         "q-pos-022",
         "q-pos-023",
-        "q-pos-024"
+        "q-pos-024",
+        "q-pos-108",
+        "q-pos-110",
+        "q-pos-111",
+        "q-pos-112"
       ],
       "visualIds": [
         "vis-mqsa-label-placement",
         "vis-pos-label-axilla"
       ],
       "learnerQuestionCount": 12,
-      "formQuestionCount": 1,
+      "formQuestionCount": 5,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -1781,11 +1789,17 @@
         "q-pc-010",
         "q-pos-002",
         "q-pos-004",
+        "q-pos-094",
+        "q-pos-096",
+        "q-pos-102",
+        "q-pos-107",
+        "q-pos-108",
+        "q-pos-124",
         "q-qcr-014"
       ],
       "visualIds": [],
       "learnerQuestionCount": 9,
-      "formQuestionCount": 1,
+      "formQuestionCount": 7,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -1833,13 +1847,18 @@
         "q-ap-005",
         "q-ap-048",
         "q-ap-051",
-        "q-ap-052"
+        "q-ap-052",
+        "q-ap-094",
+        "q-ap-095",
+        "q-ap-096",
+        "q-ap-120",
+        "q-ap-121"
       ],
       "visualIds": [
         "vis-ap-uoq-right"
       ],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 3,
+      "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -1893,11 +1912,13 @@
         "q-ap-007",
         "q-ap-008",
         "q-ap-009",
-        "q-ap-053"
+        "q-ap-053",
+        "q-ap-098",
+        "q-ap-122"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 1,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -1929,13 +1950,17 @@
         "q-ap-057",
         "q-ap-089",
         "q-ap-090",
-        "q-ap-092"
+        "q-ap-092",
+        "q-ap-097",
+        "q-ap-098",
+        "q-ap-101",
+        "q-ap-119"
       ],
       "visualIds": [
         "vis-ap-axilla-node"
       ],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 7,
+      "formQuestionCount": 11,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -1965,13 +1990,16 @@
         "q-ap-058",
         "q-ap-059",
         "q-ap-060",
-        "q-ap-089"
+        "q-ap-089",
+        "q-ap-099",
+        "q-ap-100",
+        "q-ap-122"
       ],
       "visualIds": [
         "vis-ap-lobule"
       ],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 5,
+      "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -1999,11 +2027,14 @@
         "q-ap-059",
         "q-ap-061",
         "q-ap-062",
-        "q-ap-088"
+        "q-ap-088",
+        "q-ap-102",
+        "q-ap-123",
+        "q-ap-124"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 4,
+      "formQuestionCount": 7,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2031,15 +2062,20 @@
         "q-ap-032",
         "q-ap-033",
         "q-ap-063",
-        "q-ap-064"
+        "q-ap-064",
+        "q-ap-109",
+        "q-ap-110",
+        "q-ap-136",
+        "q-ap-137"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
-      "formQuestionCount": 2,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-ap-findings-vocab",
-        "q-ap-034"
+        "q-ap-034",
+        "q-ap-135"
       ],
       "complete": false,
       "gap": "blocked: no accessible source verifies the fact"
@@ -2085,13 +2121,22 @@
         "q-ap-072",
         "q-ap-073",
         "q-ap-074",
+        "q-ap-103",
+        "q-ap-104",
+        "q-ap-105",
+        "q-ap-106",
+        "q-ap-107",
+        "q-ap-108",
+        "q-ap-125",
+        "q-ap-126",
+        "q-ap-127",
         "q-mqsa-018"
       ],
       "visualIds": [
         "vis-ap-dense-map"
       ],
       "learnerQuestionCount": 11,
-      "formQuestionCount": 11,
+      "formQuestionCount": 20,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-ap-assessment"
@@ -2122,11 +2167,15 @@
         "q-ap-075",
         "q-ap-076",
         "q-ap-077",
-        "q-ap-078"
+        "q-ap-078",
+        "q-ap-111",
+        "q-ap-112",
+        "q-ap-113",
+        "q-ap-114"
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 4,
+      "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2156,11 +2205,16 @@
         "q-ap-080",
         "q-ap-081",
         "q-ap-082",
-        "q-ap-083"
+        "q-ap-083",
+        "q-ap-115",
+        "q-ap-128",
+        "q-ap-129",
+        "q-ap-130",
+        "q-ap-131"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 6,
+      "formQuestionCount": 11,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2195,11 +2249,19 @@
         "q-ap-087",
         "q-ap-088",
         "q-ap-091",
-        "q-ap-093"
+        "q-ap-093",
+        "q-ap-102",
+        "q-ap-116",
+        "q-ap-117",
+        "q-ap-118",
+        "q-ap-124",
+        "q-ap-132",
+        "q-ap-133",
+        "q-ap-134"
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 8,
+      "formQuestionCount": 16,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2231,18 +2293,25 @@
         "q-pos-007",
         "q-pos-014",
         "q-pos-015",
-        "q-pos-048"
+        "q-pos-048",
+        "q-pos-095",
+        "q-pos-097",
+        "q-pos-099",
+        "q-pos-100",
+        "q-pos-101",
+        "q-pos-107"
       ],
       "visualIds": [
         "vis-pos-pnl-which-line"
       ],
       "learnerQuestionCount": 7,
-      "formQuestionCount": 0,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-standard-pair",
         "les-pos-cc-criteria",
-        "q-pos-008"
+        "q-pos-008",
+        "q-pos-098"
       ],
       "complete": false,
       "gap": "blocked: no accessible source verifies the fact"
@@ -2272,16 +2341,19 @@
         "q-pos-012",
         "q-pos-013",
         "q-pos-016",
-        "q-pos-048"
+        "q-pos-048",
+        "q-pos-099",
+        "q-pos-101"
       ],
       "visualIds": [
         "vis-pos-mlo-muscle"
       ],
       "learnerQuestionCount": 6,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
-        "les-pos-mlo-criteria"
+        "les-pos-mlo-criteria",
+        "q-pos-098"
       ],
       "complete": false,
       "gap": "blocked: no accessible source verifies the fact"
@@ -2303,6 +2375,7 @@
       ],
       "questionIds": [
         "q-pos-041",
+        "q-pos-103",
         "q-pqd-030",
         "q-pqd-031",
         "q-pqd-032",
@@ -2311,13 +2384,13 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-additional-views"
       ],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-exaggerated-cleavage-at",
@@ -2338,6 +2411,7 @@
       "questionIds": [
         "q-pos-042",
         "q-pos-044",
+        "q-pos-103",
         "q-pqd-034",
         "q-pqd-035",
         "q-pqd-036",
@@ -2348,11 +2422,11 @@
         "vis-pqd-xccl-box"
       ],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-tangential-rolled",
@@ -2370,6 +2444,7 @@
       ],
       "questionIds": [
         "q-pos-043",
+        "q-pos-104",
         "q-pqd-038",
         "q-pqd-039",
         "q-pqd-040",
@@ -2377,11 +2452,11 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-implant-displaced",
@@ -2434,11 +2509,13 @@
         "q-pos-056",
         "q-pos-057",
         "q-pos-058",
-        "q-pos-083"
+        "q-pos-083",
+        "q-pos-116",
+        "q-pos-117"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
-      "formQuestionCount": 4,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2474,11 +2551,14 @@
         "q-pos-054",
         "q-pos-055",
         "q-pos-081",
-        "q-pos-088"
+        "q-pos-088",
+        "q-pos-113",
+        "q-pos-114",
+        "q-pos-115"
       ],
       "visualIds": [],
       "learnerQuestionCount": 8,
-      "formQuestionCount": 5,
+      "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2495,11 +2575,13 @@
       "cardIds": [],
       "questionIds": [
         "q-pos-045",
-        "q-pos-080"
+        "q-pos-080",
+        "q-pos-102",
+        "q-pos-109"
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
-      "formQuestionCount": 1,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-special-circumstances",
@@ -2523,11 +2605,13 @@
       "questionIds": [
         "q-pos-046",
         "q-pos-079",
-        "q-pos-088"
+        "q-pos-088",
+        "q-pos-114",
+        "q-pos-115"
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
-      "formQuestionCount": 2,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2574,13 +2658,23 @@
         "q-pos-053",
         "q-pos-081",
         "q-pos-083",
-        "q-pos-084"
+        "q-pos-084",
+        "q-pos-089",
+        "q-pos-090",
+        "q-pos-091",
+        "q-pos-092",
+        "q-pos-093",
+        "q-pos-095",
+        "q-pos-097",
+        "q-pos-104",
+        "q-pos-119",
+        "q-pos-122"
       ],
       "visualIds": [
         "vis-pc-screen-vs-dx"
       ],
       "learnerQuestionCount": 11,
-      "formQuestionCount": 9,
+      "formQuestionCount": 19,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2601,11 +2695,17 @@
         "q-pos-061",
         "q-pos-062",
         "q-pos-063",
-        "q-pos-087"
+        "q-pos-087",
+        "q-pos-119",
+        "q-pos-120",
+        "q-pos-121",
+        "q-pos-122",
+        "q-pos-123",
+        "q-pos-124"
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
-      "formQuestionCount": 6,
+      "formQuestionCount": 12,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2630,6 +2730,8 @@
         "q-pos-068",
         "q-pos-074",
         "q-pos-075",
+        "q-pos-109",
+        "q-pos-126",
         "q-pqd-042",
         "q-pqd-043",
         "q-pqd-044",
@@ -2639,7 +2741,7 @@
         "vis-pqd-timeout-step"
       ],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 3,
+      "formQuestionCount": 5,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2658,11 +2760,13 @@
         "q-pos-064",
         "q-pos-065",
         "q-pos-066",
-        "q-pos-082"
+        "q-pos-082",
+        "q-pos-091",
+        "q-pos-125"
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
-      "formQuestionCount": 4,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2702,11 +2806,13 @@
         "q-pos-078",
         "q-pos-082",
         "q-pos-085",
-        "q-pos-086"
+        "q-pos-086",
+        "q-pos-126",
+        "q-pos-127"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
-      "formQuestionCount": 18,
+      "formQuestionCount": 20,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
