@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-labelledby="t d">
+  <title id="t">Schematic side view of a mammography unit</title>
+  <desc id="d">Simplified side view: a vertical column at left supports a C-arm. From top to bottom along the beam path: a tube housing, a beam-limiting device, a compression paddle, a compressed breast outline, and a breast support containing the image receptor. Not to scale.</desc>
+  <rect width="300" height="400" fill="#fbfaf7"/>
+  <rect x="20" y="10" width="30" height="380" rx="6" fill="#cbd5e1"/>
+  <rect x="50" y="40" width="40" height="300" fill="#e2e8f0"/>
+  <rect x="100" y="20" width="110" height="60" rx="10" fill="#1e3a5f"/>
+  <rect x="130" y="88" width="50" height="26" rx="3" fill="#2f6f73"/>
+  <path d="M155 114 L105 300 L225 300 Z" fill="#14b8a6" opacity="0.10"/>
+  <rect x="85" y="232" width="150" height="9" rx="2" fill="#5eead4" stroke="#0f766e" stroke-width="2"/>
+  <path d="M90 242 L90 292 L200 292 C 225 282, 228 252, 205 242 Z" fill="#f1d9c7" stroke="#9a6b4f" stroke-width="1.5"/>
+  <rect x="75" y="294" width="170" height="26" rx="3" fill="#475569"/>
+  <line x1="155" y1="80" x2="155" y2="300" stroke="#0f766e" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="290" y="392" fill="#334155" font-size="11" font-family="sans-serif" text-anchor="end">SCHEMATIC — NOT TO SCALE</text>
+</svg>

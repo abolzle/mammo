@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" role="img" aria-labelledby="t d">
+  <title id="t">Timeline of days after a mammography exam</title>
+  <desc id="d">A horizontal timeline starting at day 0 (exam day) with markers at day 7, day 15, day 30, and day 60.</desc>
+  <rect width="600" height="160" fill="#fbfaf7"/>
+  <line x1="40" y1="80" x2="560" y2="80" stroke="#1e293b" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="14" fill="#1e293b" text-anchor="middle">
+    <circle cx="40" cy="80" r="7" fill="#1e293b"/><text x="40" y="115">Day 0</text><text x="40" y="55">Exam</text>
+    <circle cx="101" cy="80" r="7" fill="#0f766e"/><text x="101" y="115">Day 7</text>
+    <circle cx="170" cy="80" r="7" fill="#0f766e"/><text x="170" y="115">Day 15</text>
+    <circle cx="300" cy="80" r="7" fill="#0f766e"/><text x="300" y="115">Day 30</text>
+    <circle cx="560" cy="80" r="7" fill="#0f766e"/><text x="555" y="115">Day 60</text>
+  </g>
+</svg>

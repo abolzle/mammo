@@ -1,0 +1,356 @@
+{
+  "lessons": [
+    {
+      "id": "les-mqsa-certification",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-certification",
+      "title": "Certification vs. accreditation: what lets a facility operate",
+      "estMinutes": 3,
+      "summary": "Accreditation is the review; the FDA certificate is the permission to operate. You can't get the second without the first.",
+      "explanation": [
+        { "heading": "Two different approvals", "body": "Under MQSA, a facility needs an **FDA-issued certificate** to perform mammography lawfully. To get that certificate it must meet the federal quality standards and be **accredited** by an FDA-approved accreditation body (or another entity FDA designates).\n\nThe accreditation body reviews the facility's equipment, personnel, clinical images, and practices. Certification is the separate approval by FDA, or by a State that FDA has approved as a certification agency." },
+        { "heading": "Getting started: the provisional certificate", "body": "A new facility can't submit clinical images for accreditation until it has performed some mammograms. A **provisional certificate** solves this: it lets the facility perform mammography and collect the images it needs to finish accreditation.\n\n- It lasts **up to 6 months**.\n- It **cannot be renewed**.\n- The facility may request **one 90-day extension**, with evidence that losing the service would significantly hurt access to mammography in its area." },
+        { "heading": "Staying certified", "body": "Certified facilities keep meeting the standards: an **annual inspection** by a certified MQSA inspector, an **annual medical physicist survey**, and clinical image review by the accreditation body at least **every 3 years**. Facilities of the Department of Veterans Affairs are outside these MQSA facility rules." }
+      ],
+      "example": "A new outpatient imaging center installs its first unit in March. It applies through an approved accreditation body and receives a provisional certificate, so it can begin scanning patients and gather the clinical images needed for accreditation. If accreditation is not complete within 6 months, it may ask for a single 90-day extension, but only by showing a real impact on local access.",
+      "misconception": {
+        "belief": "Accreditation and certification are two names for the same approval.",
+        "correction": "Accreditation is the accreditation body's review against the standards. Certification is FDA's (or a State certification agency's) approval to operate, which depends on accreditation."
+      },
+      "variants": {
+        "simpler": "Think of accreditation as the inspection report card and certification as the license. The approved accreditation body grades the facility; FDA issues the license only after a passing grade.",
+        "example": "If a facility's accreditation lapses, its basis for the FDA certificate disappears too. That is why accreditation renewal deadlines matter to the whole department, not just the QC technologist.",
+        "deeper": "Subpart C of 21 CFR 900 lets FDA approve States as certification agencies. In those States, the State certifies facilities under standards at least as stringent as MQSA. Inspections are a separate check from the accreditation body's review."
+      },
+      "observationPrompt": "With your preceptor, find out which accreditation body your facility uses and when its last MQSA inspection took place. Ask what the inspector reviewed.",
+      "checkQuestionId": "q-mqsa-001",
+      "evidenceIds": ["ev-mqsa-certificate-required", "ev-mqsa-provisional-certificate", "ev-mqsa-accreditation-body-definition", "ev-mqsa-key-features-fda", "ev-mqsa-va-exception", "ev-mqsa-clinical-image-review-frequency"]
+    },
+    {
+      "id": "les-mqsa-image-quality-equip",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "title": "Clinical image review and EQUIP",
+      "estMinutes": 3,
+      "summary": "Accreditation bodies judge clinical images on eight attributes. EQUIP made sure inspectors also ask how the facility checks its own images.",
+      "explanation": [
+        { "heading": "The eight attributes", "body": "When an accreditation body reviews clinical images, it evaluates eight attributes:\n\n- **Positioning**: enough breast tissue imaged that cancers are not likely to be missed\n- **Compression**: applied to minimize overlapping tissue and motion\n- **Exposure level**: neither underexposed nor overexposed\n- **Contrast**: subtle density differences can be distinguished\n- **Sharpness**: margins of normal structures are distinct\n- **Noise**: does not obscure structures or mimic them\n- **Artifacts**: nothing external to the breast obscures or mimics structures\n- **Examination identification**: required labeling is present and readable" },
+        { "heading": "How the review works", "body": "Review happens at least **once every 3 years**. For each unit, the facility submits **CC and MLO views from two examinations**, and **two or more review physicians** score them independently." },
+        { "heading": "What EQUIP added", "body": "EQUIP (Enhancing Quality Using the Inspection Program) began in late 2016. It added three inspection questions, focused on rules that already existed:\n\n1. Does the facility have procedures to keep clinical images meeting accreditation standards, including **regular review of sample images from each technologist and each interpreting physician**?\n2. Are there **corrective procedures for poor-quality images**, including feedback to technologists?\n3. Does the **lead interpreting physician oversee QA/QC records**, including test frequency and corrective action?" }
+      ],
+      "example": "An interpreting physician notices that one technologist's images are repeatedly flagged for positioning. Under the facility's EQUIP procedures, that finding is documented and fed back to the technologist, and later sample images are checked to confirm improvement.",
+      "misconception": {
+        "belief": "EQUIP is a separate new set of regulations.",
+        "correction": "EQUIP changed inspection questions. It emphasizes existing requirements: ongoing clinical image quality, corrective action for poor images, and lead interpreting physician oversight of QA records."
+      },
+      "variants": {
+        "simpler": "Every few years outside experts grade your images on eight things. EQUIP asks: between those reviews, are you grading yourselves and fixing problems?",
+        "example": "A sample-image review log showing each technologist's images were reviewed, with notes and follow-up, is the kind of evidence an inspector asks about under EQUIP.",
+        "deeper": "FDA's EQUIP article notes that poor positioning is a factor in most clinical image deficiencies. Inspection findings from the new questions were noted without citation during the first year (2017), with Level 2 citations afterward if procedures were still missing."
+      },
+      "observationPrompt": "Ask your preceptor how your facility documents clinical image review for each technologist, and what happens after an image is flagged.",
+      "checkQuestionId": "q-mqsa-004",
+      "evidenceIds": ["ev-mqsa-clinical-image-attributes", "ev-mqsa-clinical-image-review-frequency", "ev-mqsa-equip", "ev-mqsa-clinical-image-quality-standard"]
+    },
+    {
+      "id": "les-mqsa-rt-initial",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-rt-initial",
+      "title": "Initial MQSA qualifications for technologists",
+      "estMinutes": 3,
+      "summary": "A general radiography license or certification, plus 40 contact hours, 25 supervised exams, and 8 hours per modality.",
+      "explanation": [
+        { "heading": "The general requirement", "body": "A technologist who performs mammography must either be **licensed by a State** to perform general radiographic procedures or hold **general certification** from a body FDA recognizes." },
+        { "heading": "The mammography requirement", "body": "On top of that, the technologist completes:\n\n- **At least 40 contact hours** of documented mammography training under a qualified instructor, including breast anatomy and physiology, positioning and compression, QA/QC, and imaging patients with implants\n- **At least 25 examinations** performed under direct supervision\n- **At least 8 hours of training in each mammography modality** they will use (for example FFDM or DBT)" },
+        { "heading": "Two words that matter", "body": "A **contact hour** is an hour of training through direct instruction. **Direct supervision** means the supervisor is present to observe and correct the person performing the exam, not available by phone." }
+      ],
+      "example": "A radiographer with a State license completes a mammography course totaling 40 documented contact hours, performs 25 exams with a qualified mammographer in the room, and completes 8 hours of DBT training before performing DBT exams independently.",
+      "misconception": {
+        "belief": "Once trained in 2D digital mammography, a technologist can begin performing DBT and get modality training later.",
+        "correction": "MQSA requires at least 8 hours of training in each modality before the technologist uses it independently."
+      },
+      "variants": {
+        "simpler": "Start with a radiography license or certification. Then: 40 hours of mammography training, 25 supervised exams, and 8 hours for every type of mammography you'll do.",
+        "example": "If a supervising technologist steps out to answer a phone call while a trainee performs an exam, that exam doesn't meet the definition of direct supervision.",
+        "deeper": "Technologists qualified under FDA's interim regulations before April 28, 1999 meet the mammography requirement. MQSA qualification is a federal facility requirement; it is separate from ARRT certification and registration, and from any State licensure rules."
+      },
+      "checkQuestionId": "q-mqsa-007",
+      "evidenceIds": ["ev-mqsa-rt-general", "ev-mqsa-rt-initial-training", "ev-mqsa-ceu-definition", "ev-mqsa-direct-supervision"]
+    },
+    {
+      "id": "les-mqsa-rt-continuing",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-rt-continuing",
+      "title": "Staying qualified: CE, experience, and requalification",
+      "estMinutes": 4,
+      "summary": "15 CEUs in 36 months (6 per modality) and 200 exams in 24 months, with specific steps to requalify.",
+      "explanation": [
+        { "heading": "Continuing education", "body": "Technologists must teach or complete **at least 15 CEUs in mammography in 36 months**, with **at least 6 related to each modality** they use. A course taught several times counts once. One CEU equals one contact hour." },
+        { "heading": "Continuing experience", "body": "Technologists must perform **at least 200 mammography examinations in 24 months**." },
+        { "heading": "Which 24 or 36 months?", "body": "The window ends on a date the facility chooses: the date of the annual MQSA inspection, the **last day of the calendar quarter before the inspection**, or any date in between. The requirements begin after the 2nd (experience) or 3rd (CE) anniversary of the end of the calendar quarter in which the technologist first qualified." },
+        { "heading": "Falling short", "body": "- **CE shortfall:** earn enough CEUs to reach 15 in the previous 3 years (at least 6 per modality) **before resuming unsupervised exams**.\n- **Experience shortfall:** perform **25 exams under direct supervision** of a qualified technologist before resuming unsupervised exams.\n- **New modality later:** at least **8 hours of CEUs in that modality** before performing it independently." }
+      ],
+      "example": "A facility's inspection is on June 10. The prior calendar quarter ended March 31, so the facility may count each technologist's CE and exams in windows ending on any date from March 31 through June 10.",
+      "misconception": {
+        "belief": "A technologist who misses the 200-exam requirement must repeat the full 40 hours of initial training.",
+        "correction": "The requalification path for experience is 25 mammography exams under direct supervision of a qualified technologist."
+      },
+      "variants": {
+        "simpler": "Every 3 years: 15 hours of mammography CE, including 6 for each type you do. Every 2 years: 200 exams. Short on exams? Do 25 supervised. Short on CE? Make it up before working alone.",
+        "example": "A technologist who performs both FFDM and DBT and has 16 CEUs, but only 3 related to DBT, still does not meet the requirement. She needs at least 3 more DBT-related CEUs.",
+        "deeper": "Interpreting physicians have parallel but different numbers: 960 exams in 24 months and 15 category I CME credits in 36 months. Don't mix the two sets on the exam."
+      },
+      "worked": {
+        "title": "Is she current on CE?",
+        "given": "A technologist performs FFDM and DBT. In the facility's chosen 36-month window she has 13 mammography CEUs: 9 related to FFDM and 4 related to DBT. Assume each CEU relates to one modality.",
+        "steps": [
+          { "step": "Check the total against 15.", "result": "13 < 15, so she is 2 short overall." },
+          { "step": "Check each modality against 6.", "result": "FFDM 9 ≥ 6 (met). DBT 4 < 6 (2 short)." },
+          { "step": "Find the smallest set that fixes both.", "result": "2 DBT-related CEUs bring the total to 15 and DBT to 6." }
+        ],
+        "answer": "She needs at least 2 more CEUs, and they must be DBT-related. Until then she may not perform unsupervised mammography.",
+        "checkedBy": "Arithmetic re-derived independently from the § 900.12(a)(2)(iii) rules during drafting; awaiting maintainer source check."
+      },
+      "checkQuestionId": "q-mqsa-011",
+      "evidenceIds": ["ev-mqsa-rt-continuing-education", "ev-mqsa-rt-continuing-experience", "ev-mqsa-rt-ce-requalification", "ev-mqsa-inspection-window", "ev-mqsa-ceu-definition", "ev-mqsa-ip-continuing"]
+    },
+    {
+      "id": "les-mqsa-qa-roles",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-qa-roles",
+      "title": "The QA team: roles, surveys, and records",
+      "estMinutes": 3,
+      "summary": "The lead interpreting physician is responsible for the whole QA program; the physicist surveys; the QC technologist handles everything else.",
+      "explanation": [
+        { "heading": "Four roles", "body": "- **Lead interpreting physician**: general responsibility for making sure the QA program meets all requirements. No one else is assigned QA tasks unless the lead interpreting physician judges their qualifications and performance adequate.\n- **Interpreting physicians**: follow corrective-action procedures when images are poor and take part in the medical outcomes audit.\n- **Medical physicist**: performs the surveys and mammography equipment evaluations and gives the facility reports.\n- **Quality control technologist**: responsible for all QA tasks not assigned to the other two. Others may perform them, but the QC technologist ensures they meet requirements." },
+        { "heading": "Surveys and equipment evaluations", "body": "A medical physicist surveys the facility **at least once a year** and reviews the facility's own QC results and corrective actions. The signed, dated survey report is due **within 30 days** of the survey.\n\nA **mammography equipment evaluation** is required when a unit is newly installed, disassembled and reassembled, or has major components changed or repaired. Problems are fixed **before** the equipment is used on patients." },
+        { "heading": "Keeping QC records", "body": "QC records for each required test are kept until the next annual inspection is completed and FDA finds the facility compliant, **or** until the test has been done two more times at its required frequency, **whichever is longer**." }
+      ],
+      "example": "After a detector replacement, the QC technologist cannot simply run the daily tests and resume scanning. A medical physicist (or someone under a physicist's direct supervision) must complete a mammography equipment evaluation first.",
+      "misconception": {
+        "belief": "The QC technologist is ultimately responsible for the whole QA program.",
+        "correction": "The lead interpreting physician has general responsibility. The QC technologist is responsible for the tasks not assigned to the lead interpreting physician or the medical physicist."
+      },
+      "variants": {
+        "simpler": "The lead physician owns the program. The physicist checks the equipment every year and after big changes. The QC technologist runs everything else.",
+        "example": "A weekly test record can't be thrown away just because the inspection happened. If the test hasn't been repeated twice since, the record must be kept longer.",
+        "deeper": "Under EQUIP, inspectors ask specifically how the lead interpreting physician oversees QA/QC records, including test frequency and corrective actions."
+      },
+      "observationPrompt": "Ask your preceptor who your facility's lead interpreting physician and QC technologist are, and look together at how QC corrective actions are recorded (no patient information needed).",
+      "checkQuestionId": "q-mqsa-015",
+      "evidenceIds": ["ev-mqsa-qa-roles", "ev-mqsa-physicist-survey", "ev-mqsa-equipment-evaluation", "ev-mqsa-qc-records-retention"]
+    },
+    {
+      "id": "les-mqsa-report",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-report-assessment",
+      "title": "What every mammography report must contain",
+      "estMinutes": 3,
+      "summary": "Patient and facility identification, the interpreting physician, one assessment category, one density category, and recommendations.",
+      "explanation": [
+        { "heading": "Required contents", "body": "Each report includes:\n\n- Patient name and an **additional identifier**\n- Exam date, facility name, and location (at least city, State, ZIP code, and **telephone number**)\n- Name of the interpreting physician\n- One **overall final assessment**\n- One **overall breast density** category\n- **Recommendations** to the healthcare provider, addressing the provider's clinical questions" },
+        { "heading": "Final assessment categories", "body": "Negative · Benign · Probably Benign · Suspicious · Highly Suggestive of Malignancy · Known Biopsy-Proven Malignancy · Post-Procedure Mammogram for Marker Placement.\n\nA **positive mammogram** under MQSA is one assessed as **Suspicious** or **Highly Suggestive of Malignancy**." },
+        { "heading": "When work-up is incomplete", "body": "Two incomplete categories exist: **Incomplete: Need additional imaging evaluation** and **Incomplete: Need prior mammograms for comparison**. If the second is used, a follow-up report with a final assessment must be issued **within 30 calendar days**, whether or not the priors arrive." }
+      ],
+      "example": "A screening report reads 'Incomplete: Need prior mammograms for comparison' on October 1. The facility requests the priors from another facility. By October 31 a follow-up report with a final assessment must be issued, even if the priors never come.",
+      "misconception": {
+        "belief": "'Probably Benign' counts as a positive mammogram.",
+        "correction": "Only Suspicious and Highly Suggestive of Malignancy are positive under the MQSA definition."
+      },
+      "variants": {
+        "simpler": "Every report says who, where, which doctor, one overall verdict, how dense the breasts are, and what should happen next.",
+        "example": "A report missing the facility's telephone number does not meet the current content rule, even if everything else is present.",
+        "deeper": "MQSA defines assessment statements as words, not numbers. FDA has also issued approved alternative standards affecting incomplete-assessment follow-up (for example #25, November 2024); check the current list before relying on edge cases."
+      },
+      "checkQuestionId": "q-mqsa-018",
+      "evidenceIds": ["ev-mqsa-report-contents", "ev-mqsa-assessment-categories", "ev-mqsa-incomplete-categories", "ev-mqsa-positive-mammogram", "ev-mqsa-density-categories"]
+    },
+    {
+      "id": "les-mqsa-results",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-results-communication",
+      "title": "Getting results to patients and providers",
+      "estMinutes": 4,
+      "summary": "30 days for routine results; 7 days from final interpretation when the assessment is Suspicious or Highly Suggestive. Every lay summary includes a density statement.",
+      "explanation": [
+        { "heading": "To the patient", "body": "Every patient receives a **lay-language summary within 30 calendar days of the exam**. It includes the patient's name, the facility's name, address, and telephone number, and a **breast density statement**.\n\nIf the assessment is **Suspicious** or **Highly Suggestive of Malignancy**, the lay summary is due **within 7 calendar days of the final interpretation**." },
+        { "heading": "To the provider", "body": "When the patient has a referring or named provider, the full written report goes to that provider **as soon as possible, but no later than 30 days** after the exam, or **within 7 calendar days of final interpretation** for Suspicious or Highly Suggestive results." },
+        { "heading": "Self-referred patients", "body": "If a patient names no provider, the facility sends **the full report** to the patient as well as the lay summary (same 30-day and 7-day timelines). Facilities that accept such patients keep a **system for referring them to a provider** when clinically indicated, including Probably Benign, Suspicious, or Highly Suggestive results." },
+        { "heading": "The density statement", "body": "Since **September 10, 2024**, the lay summary uses one of two required paragraphs. Almost entirely fatty or scattered fibroglandular density → **'Your breast tissue is not dense.'** Heterogeneously or extremely dense → **'Your breast tissue is dense,'** plus a sentence that other imaging tests may help some people with dense tissue." }
+      ],
+      "example": "A diagnostic exam is performed Monday and finally interpreted Wednesday as Suspicious. The lay summary and the provider report are both due within 7 calendar days of Wednesday, not of Monday.",
+      "misconception": {
+        "belief": "Every result deadline is counted from the exam date.",
+        "correction": "The 30-day deadlines count from the exam date. The 7-day deadlines for Suspicious and Highly Suggestive results count from the final interpretation."
+      },
+      "variants": {
+        "simpler": "Normal timeline: within 30 days. Worrying result: within 7 days of the doctor's final read. Every patient letter says whether the breast tissue is dense or not dense.",
+        "example": "A self-referred patient with a Probably Benign result gets both the lay summary and the full report, and the facility's referral system should connect her with a provider.",
+        "deeper": "The 2023 final rule (effective September 10, 2024) replaced the earlier 'high density/low density' patient wording with 'dense/not dense' and added the specific 7-day timeframes."
+      },
+      "checkQuestionId": "q-mqsa-022",
+      "evidenceIds": ["ev-mqsa-lay-summary-timing", "ev-mqsa-provider-report", "ev-mqsa-self-referred", "ev-mqsa-density-statements", "ev-mqsa-density-rule-effective"]
+    },
+    {
+      "id": "les-mqsa-labeling",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-image-labeling",
+      "title": "Labeling every image",
+      "estMinutes": 2,
+      "summary": "Seven identification items, permanent and legible, with view and laterality near the axilla.",
+      "explanation": [
+        { "heading": "The seven items", "body": "Each image shows:\n\n1. Patient name and an **additional identifier**\n2. **Date** of examination\n3. **View and laterality**, placed **near the axilla**, using standardized codes\n4. **Facility name and location** (at least city, State, ZIP code)\n5. **Technologist identification**\n6. **Cassette/screen identification**\n7. **Mammography unit identification**, if the facility has more than one unit" },
+        { "heading": "How it must appear", "body": "Labels are **permanent, legible, and unambiguous**, and placed so they **do not obscure anatomy**. Examination identification is also one of the eight attributes accreditation reviewers score." }
+      ],
+      "example": "A facility with two units reviews a CC image that shows patient name, medical record number, date, RCC near the axilla, facility name, city, State and ZIP, and technologist initials. The unit identifier is missing, so the image is not fully labeled.",
+      "misconception": {
+        "belief": "The view and laterality marker can go wherever it fits best on the image.",
+        "correction": "View and laterality go near the axilla, using the standardized codes approved for the accreditation body."
+      },
+      "variants": {
+        "simpler": "Who, when, which view and side (near the armpit), where, which technologist, which cassette, and which machine if there's more than one.",
+        "example": "A single-unit facility doesn't need a unit identifier on images, but a two-unit facility does.",
+        "deeper": "Cassette/screen identification is a holdover from screen-film imaging but remains in the regulation text. The report's facility location also requires a telephone number; the image label does not."
+      },
+      "checkQuestionId": "q-mqsa-027",
+      "evidenceIds": ["ev-mqsa-image-identification", "ev-mqsa-clinical-image-attributes"]
+    },
+    {
+      "id": "les-mqsa-records",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-records-transfer",
+      "title": "Keeping and transferring mammograms",
+      "estMinutes": 3,
+      "summary": "Keep originals for the longest of 5 years, 10 years if no later mammograms, or State law. Transfer within 15 days.",
+      "explanation": [
+        { "heading": "How long to keep them", "body": "Original mammograms and reports stay in the patient's permanent record for the **longest** of:\n\n- at least **5 years**\n- at least **10 years if no additional mammograms** of the patient are performed at the facility\n- any longer period required by **State or local law**\n\nOriginals are kept in **retrievable form in the modality in which they were produced**, not as digitized copies of hard-copy films." },
+        { "heading": "Transfers and copies", "body": "When the patient (or someone on her behalf) asks, the facility transfers originals or releases copies **within 15 calendar days**. Digital mammograms or DBT sent for final interpretation must be provided **electronically as original digital images**. Any fee may not exceed **documented costs**." },
+        { "heading": "If the facility closes", "body": "Before closing or stopping mammography, the facility arranges continued access to records for the rest of the retention period and notifies its accreditation body and certification agency in writing." }
+      ],
+      "example": "A patient's only mammogram at a facility was in 2019, and she never returns. Unless State law requires longer, the facility keeps her images and report until at least 2029.",
+      "misconception": {
+        "belief": "Five years is always enough.",
+        "correction": "Five years is the minimum when the patient keeps coming back. If there are no later mammograms at that facility it is 10 years, and State law can extend either."
+      },
+      "variants": {
+        "simpler": "Keep mammograms at least 5 years, or 10 if she never returns, or longer if your State says so. When she asks, send them within 15 days.",
+        "example": "A radiologist at another hospital wants DBT images for a second read. Printing representative slices isn't enough; the original digital images must be available electronically.",
+        "deeper": "The 'original modality' rule exists because a scanned film or a screenshot loses information. Making copies available doesn't relieve the facility of keeping originals."
+      },
+      "worked": {
+        "title": "When can this record be discarded?",
+        "given": "Patient A was last imaged at the facility in 2018 and has had annual mammograms there since 2010. Patient B had a single mammogram there in 2018 and never returned. The State has no longer requirement.",
+        "steps": [
+          { "step": "Patient A: additional mammograms were performed at the facility, so the 5-year minimum applies to each exam.", "result": "Her 2018 exam must be kept until at least 2023." },
+          { "step": "Patient B: no additional mammograms at the facility.", "result": "The 10-year minimum applies: until at least 2028." },
+          { "step": "Apply 'longest of' and the State rule.", "result": "No State rule is longer, so the federal minimums stand." }
+        ],
+        "answer": "Patient A's 2018 exam: at least 2023. Patient B's 2018 exam: at least 2028.",
+        "checkedBy": "Re-derived from § 900.12(c)(4)(i) during drafting; awaiting maintainer source check."
+      },
+      "checkQuestionId": "q-mqsa-029",
+      "evidenceIds": ["ev-mqsa-record-retention", "ev-mqsa-record-transfer"]
+    },
+    {
+      "id": "les-mqsa-audit",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-outcomes-audit",
+      "title": "The medical outcomes audit, with a worked calculation",
+      "estMinutes": 4,
+      "summary": "PPV, cancer detection rate per 1,000, and recall rate, reviewed at least every 12 months.",
+      "explanation": [
+        { "heading": "Screening vs. diagnostic", "body": "For the audit, a **screening** mammogram is routine views of an **asymptomatic** patient. A **diagnostic** mammogram is individualized views for a patient with symptoms, physical signs, or an abnormal screening result." },
+        { "heading": "The three required measures", "body": "- **Positive predictive value (PPV):** percent of patients with positive mammograms (Suspicious or Highly Suggestive) who are diagnosed with breast cancer within 1 year of the exam.\n- **Cancer detection rate:** of patients first examined by screening who are assessed Incomplete: Need additional imaging, Suspicious, or Highly Suggestive (on the screen or a follow-up diagnostic), the number diagnosed with breast cancer within 1 year, **per 1,000 patients**.\n- **Recall rate:** percentage of screening mammograms assessed **Incomplete: Need additional imaging evaluation**." },
+        { "heading": "Who and how often", "body": "At least one designated **audit interpreting physician** reviews the data **at least every 12 months**, documents results, and tells each interpreting physician their own and the facility's results." }
+      ],
+      "example": "A recall is counted from the screening assessment 'Incomplete: Need additional imaging evaluation.' A Suspicious result after a diagnostic work-up isn't a recall; it feeds PPV.",
+      "misconception": {
+        "belief": "Recall rate is the percentage of all mammograms, screening and diagnostic, that need more imaging.",
+        "correction": "Recall rate uses screening mammograms only, and counts those assessed 'Incomplete: Need additional imaging evaluation.'"
+      },
+      "variants": {
+        "simpler": "Recall rate: how often screening exams get called back. Cancer detection rate: cancers found per 1,000 screened. PPV: of the exams called suspicious, how many turned out to be cancer.",
+        "example": "If 2 of 10 positive mammograms lead to a cancer diagnosis within a year, PPV is 20%.",
+        "deeper": "These are local quality measures. This lesson uses hypothetical numbers and gives no benchmark targets; any target values would need a separately cited source."
+      },
+      "worked": {
+        "title": "Compute the three audit measures",
+        "given": "Hypothetical year: 4,000 screening mammograms on 4,000 patients. 360 were assessed 'Incomplete: Need additional imaging evaluation.' Among screened patients with an Incomplete-additional-imaging, Suspicious, or Highly Suggestive assessment, 20 were diagnosed with breast cancer within 1 year. Separately, the facility issued 50 positive mammograms, and 15 of those patients were diagnosed with breast cancer within 1 year.",
+        "steps": [
+          { "step": "Recall rate = recalled screening exams ÷ screening exams × 100%", "result": "360 ÷ 4,000 = 0.09 → 9.0%" },
+          { "step": "Cancer detection rate = cancers ÷ screened patients × 1,000", "result": "20 ÷ 4,000 = 0.005 → 5 per 1,000 patients" },
+          { "step": "PPV = cancers among positive mammograms ÷ positive mammograms × 100%", "result": "15 ÷ 50 = 0.30 → 30%" }
+        ],
+        "answer": "Recall rate 9.0%; cancer detection rate 5 per 1,000; PPV 30%.",
+        "checkedBy": "Arithmetic computed twice independently during drafting (division and unit conversion); awaiting maintainer source check."
+      },
+      "checkQuestionId": "q-mqsa-031",
+      "evidenceIds": ["ev-mqsa-outcomes-audit", "ev-mqsa-screening-diagnostic-definition", "ev-mqsa-positive-mammogram", "ev-mqsa-audit-frequency"]
+    },
+    {
+      "id": "les-mqsa-policies",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-required-policies",
+      "title": "Required policies: complaints, infection control, implants",
+      "estMinutes": 3,
+      "summary": "A written complaint system with 3-year records of serious complaints, documented equipment disinfection, and asking about implants before every exam.",
+      "explanation": [
+        { "heading": "Consumer complaints", "body": "A **consumer** is anyone commenting on or complaining about an exam: the patient or a representative such as a family member or referring provider. Facilities must:\n\n- keep a **written, documented system** for collecting and resolving complaints\n- keep a record of each **serious complaint for at least 3 years**\n- tell the consumer how to file with the **accreditation body** if a serious complaint isn't resolved\n- **report unresolved serious complaints** to the accreditation body\n\nA serious complaint is a report of a **serious adverse event**. Adverse events include poor image quality, failure to send reports on time, and use of unqualified personnel." },
+        { "heading": "Infection control", "body": "Facilities establish and follow procedures for **cleaning and disinfecting mammography equipment after contact with blood or other potentially infectious materials**, document compliance, and follow applicable regulations and the **manufacturer's recommended procedures** (or generally accepted guidance if those are inadequate)." },
+        { "heading": "Breast implants", "body": "Facilities have a procedure to **ask whether the patient has implants before the exam**. Unless contraindicated or modified by a physician, patients with implants get views that **maximize visualization of breast tissue**." }
+      ],
+      "example": "A patient's daughter calls to say her mother's report was never sent to her physician. This is a complaint from a consumer about a possible adverse event (late report). The facility follows its written process and, if the serious complaint can't be resolved, explains how to contact the accreditation body.",
+      "misconception": {
+        "belief": "Only the patient can file a complaint under MQSA.",
+        "correction": "A consumer includes the patient's representative, such as a family member or the referring provider."
+      },
+      "variants": {
+        "simpler": "Have a written way to handle complaints and keep serious ones on file for 3 years. Clean equipment the way the manufacturer says after blood exposure. Always ask about implants first.",
+        "example": "A paddle that contacted blood after a skin lesion bled is cleaned and disinfected per the manufacturer's instructions, and the cleaning is documented as the facility's procedure requires.",
+        "deeper": "Infection control here refers to equipment after blood or other potentially infectious materials. Specimen and sharps handling for interventional procedures is covered by occupational safety rules (OSHA bloodborne pathogens) in another topic."
+      },
+      "observationPrompt": "Ask your preceptor to show you where the complaint procedure and the equipment-disinfection procedure are documented. Don't review any patient records.",
+      "checkQuestionId": "q-mqsa-034",
+      "evidenceIds": ["ev-mqsa-consumer-complaints", "ev-mqsa-adverse-event", "ev-mqsa-infection-control", "ev-mqsa-implant-inquiry"]
+    },
+    {
+      "id": "les-mqsa-equipment-qc",
+      "revision": 1,
+      "moduleId": "mod-mqsa",
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "title": "Equipment rules and QC action limits",
+      "estMinutes": 4,
+      "summary": "Purpose-built units, controlled compression, a 3.0 mGy phantom dose ceiling, manufacturer QC for digital, and when a failed test stops patient exams.",
+      "explanation": [
+        { "heading": "Built for mammography", "body": "A mammography unit includes at least an x-ray generator, x-ray control, tube housing assembly, beam-limiting device, and supporting structures. General-purpose radiographic equipment, even modified with attachments, **may not be used** for mammography." },
+        { "heading": "Compression", "body": "Every system has a compression device with **power-driven initial compression using hands-free controls** and **fine-adjustment controls**, both operable **from both sides** of the patient. A flat paddle may not deflect from parallel by more than **1.0 cm** under compression; its chest-wall edge must be straight and parallel to the receptor edge and must not appear on the image.\n\nThe regulation's compression performance test requires **at least 111 N (25 lb)** of available force, with the initial power drive's maximum **between 111 N and 200 N (25–45 lb)**." },
+        { "heading": "Dose and digital QC", "body": "For digital systems (FFDM, DBT), the QA program is **substantially the same as the image receptor manufacturer's**. One federal ceiling still applies: the average glandular dose for **one CC view of an FDA-accepted phantom** simulating a **standard breast (4.2 cm, 50% glandular/50% adipose)** may not exceed **3.0 mGy (0.3 rad)** per exposure. This is a phantom test limit, not a measurement of any particular patient's dose." },
+        { "heading": "When a test fails", "body": "Results outside **action limits** require finding the cause and correcting it. For a listed group of tests (including the dose test, phantom image test, compression device performance, and digital manufacturer QC), correction comes **before any further exams** on the failing component. For other tests, within **30 days**." }
+      ],
+      "example": "The phantom image on a digital unit fails the manufacturer's criteria at the start of the day. Because QC for other modalities is in the 'before further exams' group, patients are not scanned on that unit until the problem is corrected.",
+      "misconception": {
+        "belief": "Any failed QC test allows 30 days to fix the problem before patient exams must stop.",
+        "correction": "The 30-day window applies only to tests outside the listed group. Failures in the listed group, including dose, phantom image, compression performance, and digital manufacturer QC, must be corrected before further exams."
+      },
+      "variants": {
+        "simpler": "Use only machines made for mammography. Compression must be controllable from both sides. The test-phantom dose can't exceed 3.0 mGy. If an important test fails, stop scanning on that unit until it's fixed.",
+        "example": "In the regulation's compression device performance test (written for screen-film systems), a unit delivers only 20 lb of force. That's below the 25 lb (111 N) minimum, and compression performance is in the 'before further exams' group, so the unit isn't used until it's corrected.",
+        "deeper": "The 111–200 N language appears in the regulation's screen-film test list; digital units follow manufacturer QC, and the ACR Digital Mammography QC Manual (which FDA allows for 2D and DBT) specifies technologist compression testing. Those manual details are not yet in this module."
+      },
+      "checkQuestionId": "q-mqsa-036",
+      "evidenceIds": ["ev-mqsa-mammography-unit-definition", "ev-mqsa-compression-device", "ev-mqsa-compression-force", "ev-mqsa-dose-limit", "ev-mqsa-other-modalities-qc", "ev-mqsa-corrective-action-timing", "ev-mqsa-action-limits-definition", "ev-mqsa-magnification-equipment", "ev-mqsa-technique-display"],
+      "review": { "requiresQualifiedReview": true }
+    }
+  ]
+}

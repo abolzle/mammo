@@ -1,0 +1,572 @@
+{
+  "version": "2026-10-06.1",
+  "defaults": {
+    "retrievedOn": "2026-10-06",
+    "review": {
+      "status": "draft",
+      "requiresQualifiedReview": false,
+      "aiAssisted": true,
+      "history": [
+        { "at": "2026-10-06", "status": "draft", "actor": "ai-assisted", "kind": "revision", "note": "Excerpt copied from the retrieved public-domain text; claim paraphrased by an AI agent. Not yet maintainer source-checked." }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev-mqsa-certificate-required",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.11(a)",
+      "claim": "An FDA-issued certificate is required for lawful operation of a mammography facility subject to MQSA; to obtain it, a facility must meet the § 900.12 quality standards and be accredited by an approved accreditation body or other FDA-designated entity.",
+      "scope": "Facilities under U.S. regulatory jurisdiction providing mammography.",
+      "exceptions": "Department of Veterans Affairs facilities are excluded (§ 900.10). States approved as certification agencies may certify facilities (Subpart C).",
+      "excerpt": "After October 1, 1994, a certificate issued by FDA is required for lawful operation of all mammography facilities subject to the provisions of this subpart. To obtain a certificate from FDA, facilities are required to meet the quality standards in § 900.12 and to be accredited by an approved accreditation body or other entity as designated by FDA.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-va-exception",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.10",
+      "claim": "Subpart B applies to all facilities under U.S. regulatory jurisdiction that provide mammography, except the Department of Veterans Affairs.",
+      "scope": "Applicability of MQSA quality standards and certification.",
+      "excerpt": "The provisions of subpart B are applicable to all facilities under the regulatory jurisdiction of the United States that provide mammography services, with the exception of the Department of Veterans Affairs.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-provisional-certificate",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.11(b)(2)–(3)",
+      "claim": "A new facility may receive a provisional certificate, effective for up to 6 months, which allows it to perform mammography and obtain the clinical images needed to complete accreditation. It cannot be renewed, but one 90-day extension may be requested.",
+      "scope": "New facilities and reinstatement applicants.",
+      "exceptions": "The extension requires evidence of significant adverse impact on access to mammography in the area served.",
+      "excerpt": "A provisional certificate shall be effective for up to 6 months from the date of issuance. A provisional certificate cannot be renewed, but a facility may apply for a 90-day extension of the provisional certificate.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-accreditation-body-definition",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(a), (i), (zz)",
+      "claim": "An accreditation body is an FDA-approved entity that accredits mammography facilities. Certification is approval of a facility by FDA or a certification agency (an FDA-approved State) to provide mammography services.",
+      "scope": "Definitions.",
+      "excerpt": "Accreditation body or body means an entity that has been approved by FDA under § 900.3(d) to accredit mammography facilities. … Certification means the process of approval of a facility by FDA or a certification agency to provide mammography services.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-key-features-fda",
+      "sourceId": "src-fda-mqsa-program",
+      "locator": "FDA MQSA program page, 'What are the Key Features of MQSA?' (archived 2026-09-20)",
+      "claim": "MQSA facilities must be certified, be accredited by a federally approved accreditation body, undergo periodic clinical image review, have an annual medical physicist survey, meet federal quality standards, and be inspected at least annually by a certified MQSA inspector.",
+      "scope": "Program overview.",
+      "excerpt": "Be inspected at least annually by a certified MQSA inspector (42 U.S.C. 263b(g)(1)(E)).",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-clinical-image-review-frequency",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(1), (c)(4)(i)",
+      "claim": "The accreditation body reviews clinical images from each accredited facility at least once every 3 years; for each unit the facility submits CC and MLO views from two examinations.",
+      "scope": "Accreditation-body clinical image review.",
+      "excerpt": "The accreditation body shall review clinical images from each facility accredited by the body at least once every 3 years.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-clinical-image-attributes",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(2)(i)–(viii)",
+      "claim": "Clinical image review uses eight attributes: positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "scope": "Accreditation-body clinical image review, unless FDA approves other attributes.",
+      "excerpt": "(i) Positioning. Sufficient breast tissue shall be imaged to ensure that cancers are not likely to be missed because of inadequate positioning. (ii) Compression. Compression shall be applied in a manner that minimizes the potential obscuring effect of overlying breast tissue and motion artifact.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-equip",
+      "sourceId": "src-fda-equip",
+      "locator": "FDA MQSA Insights: EQUIP (archived 2022-09-30), paragraphs 1 and 5",
+      "claim": "EQUIP added three inspection questions on: facility procedures to keep clinical images compliant with accreditation-body standards (including regular review of sample images from each technologist and interpreting physician); corrective procedures for poor-quality images, including feedback to technologists; and lead interpreting physician oversight of QA/QC records.",
+      "scope": "MQSA inspection program, introduced October 27, 2016; inspection questions began January 1, 2017.",
+      "exceptions": "Archived snapshot dated 2022; verify current FDA wording.",
+      "excerpt": "The first new inspection question assesses for facility procedures to ensure that clinical images continue to comply with AB standards (including image quality attributes such as positioning), and include regular reviews of sample images from each technologist and each interpreting physician (IP).",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-clinical-image-quality-standard",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(i)",
+      "claim": "Clinical images from a certified facility must continue to meet the clinical image quality standards of that facility's accreditation body.",
+      "scope": "Ongoing facility requirement.",
+      "excerpt": "Clinical images produced by any certified facility must continue to comply with the standards for clinical image quality established by that facility's accreditation body.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-rt-general",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(i)",
+      "claim": "A radiologic technologist performing mammography must be State-licensed for general radiography or hold general certification from an FDA-recognized certifying body.",
+      "scope": "Initial technologist qualifications.",
+      "excerpt": "(A) Be licensed to perform general radiographic procedures in a State; or (B) Have general certification from one of the bodies determined by FDA to have procedures and requirements adequate to ensure that radiologic technologists certified by the body are competent to perform radiologic examinations",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-rt-initial-training",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(ii)",
+      "claim": "Initial mammography requirements: at least 40 contact hours of documented mammography training under a qualified instructor, including anatomy/physiology, positioning and compression, QA/QC, and imaging patients with implants; performance of at least 25 examinations under direct supervision; and at least 8 hours of training in each mammography modality the technologist will use.",
+      "scope": "Technologists qualifying after April 28, 1999.",
+      "exceptions": "Technologists qualified under the interim regulations before April 28, 1999 meet this requirement.",
+      "excerpt": "completed at least 40 contact hours of documented training specific to mammography under the supervision of a qualified instructor … (B) The performance of a minimum of 25 examinations under the direct supervision of an individual qualified under paragraph (a)(2) of this section; and (C) At least 8 hours of training in each mammography modality to be used by the technologist in performing mammography exams",
+      "citation": "quoted_public",
+      "context": { "modality": ["screen-film", "FFDM", "DBT"], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-ceu-definition",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(l), (m), (n)",
+      "claim": "A continuing education unit equals one contact hour of training; a contact hour is an hour of training received through direct instruction (face-to-face instruction, or instructor-administered and corrected examinations with feedback).",
+      "scope": "Definitions used in personnel requirements.",
+      "excerpt": "Continuing education unit or continuing education credit means one contact hour of training. … Contact hour means an hour of training received through direct instruction.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-direct-supervision",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(o)(2)",
+      "claim": "For an examination, direct supervision means the supervisor is present to observe and correct, as needed, the person performing the examination.",
+      "scope": "Definition.",
+      "excerpt": "During the performance of a mammography examination or survey of the facility's equipment and quality assurance program, the supervisor is present to observe and correct, as needed, the performance of the individual being supervised who is performing the examination or conducting the survey.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-rt-continuing-education",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(iii)(A)–(C)",
+      "claim": "After the third anniversary of the end of the calendar quarter in which initial requirements were met, a technologist must have taught or completed at least 15 mammography CEUs in the 36 months before the inspection reference date, with at least 6 related to each modality used. A course taught multiple times counts once.",
+      "scope": "Continuing education for technologists.",
+      "excerpt": "the radiologic technologist shall have taught or completed at least 15 continuing education units in mammography during the 36 months immediately preceding the date of the facility's annual MQSA inspection … (C) At least six of the continuing education units required in paragraph (a)(2)(iii)(A) of this section shall be related to each mammographic modality used by the technologist.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-rt-ce-requalification",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(iii)(D)–(E)",
+      "claim": "A technologist who falls short on CE must bring the total to at least 15 in the previous 3 years (at least 6 per modality) before resuming unsupervised mammography. Before independently using a new modality not covered by initial training, the technologist needs at least 8 hours of CEUs in that modality.",
+      "scope": "Requalification and new modality training for technologists.",
+      "excerpt": "The technologist may not resume performing unsupervised mammography examinations until the continuing education requirements are completed. (E) Before a radiologic technologist may begin independently performing mammographic examinations using a mammographic modality other than one of those for which the technologist received training … the technologist shall have at least 8 hours of continuing education units in the new modality.",
+      "citation": "quoted_public",
+      "context": { "modality": ["FFDM", "DBT"], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-rt-continuing-experience",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(iv)",
+      "claim": "After the second anniversary of the end of the calendar quarter in which initial requirements were met, a technologist must have performed at least 200 mammography examinations in the 24 months before the inspection reference date. A technologist who falls short must perform at least 25 examinations under direct supervision of a qualified technologist before resuming unsupervised work.",
+      "scope": "Continuing experience for technologists.",
+      "excerpt": "the radiologic technologist shall have performed a minimum of 200 mammography examinations during the 24 months immediately preceding the date of the facility's annual inspection … (B) Requalification. Radiologic technologists who fail to meet the continuing experience requirements of paragraph (a)(2)(iv)(A) of this section shall perform a minimum of 25 mammography examinations under the direct supervision of a qualified radiologic technologist",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-inspection-window",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(iii)(A), (a)(2)(iv)(A)",
+      "claim": "For technologist CE and experience counts, the facility chooses a reference date: the date of its annual MQSA inspection, the last day of the calendar quarter preceding the inspection, or any date in between.",
+      "scope": "How the 36- and 24-month windows are anchored.",
+      "excerpt": "the date of the facility's annual MQSA inspection or the last day of the calendar quarter preceding the inspection or any date in between the two. The facility will choose one of these dates to determine the 36-month period.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-personnel-records",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(4)",
+      "claim": "Facilities keep MQSA qualification records for current and former interpreting physicians, technologists, and medical physicists; records of departed personnel are kept at least 24 months after departure, and copies are provided to personnel on request.",
+      "scope": "Personnel records.",
+      "excerpt": "Records of personnel no longer employed by the facility must be maintained for no less than 24 months from the date of the departure of an employee",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-ip-continuing",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(1)(ii)(A)–(B)",
+      "claim": "Interpreting physicians maintain qualification by interpreting or multi-reading at least 960 mammographic examinations in 24 months and completing at least 15 category I CME units in mammography in 36 months.",
+      "scope": "Interpreting physicians (contrast with technologist requirements).",
+      "excerpt": "the interpreting physician shall have interpreted or multi-read at least 960 mammographic examinations during the 24 months immediately preceding the date of the facility's annual MQSA inspection",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-qa-roles",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(d)(1)(i)–(iv)",
+      "claim": "The lead interpreting physician has general responsibility for the QA program; interpreting physicians follow corrective-action procedures for poor-quality images and participate in the outcomes audit; a medical physicist performs surveys and equipment evaluations; QA tasks not assigned to the lead interpreting physician or medical physicist are assigned to a quality control technologist.",
+      "scope": "Quality assurance program responsibilities.",
+      "excerpt": "Responsibility for all individual tasks within the quality assurance program not assigned to the lead interpreting physician or the medical physicist shall be assigned to a quality control technologist(s).",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-qc-records-retention",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(d)(2)",
+      "claim": "QC records for each required test are kept until the next annual inspection is completed and FDA finds the facility compliant, or until the test has been performed two additional times at the required frequency, whichever is longer.",
+      "scope": "Quality assurance records.",
+      "excerpt": "These quality control records shall be kept for each test specified in paragraphs (e) and (f) of this section until the next annual inspection has been completed and FDA has determined that the facility is in compliance with the quality assurance requirements or until the test has been performed two additional times at the required frequency, whichever is longer.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-report-contents",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(1)(i)–(vii)",
+      "claim": "Each mammography report includes: patient name and an additional identifier; exam date, facility name and location (city, State, ZIP, telephone); interpreting physician name; overall final assessment category; overall breast density category; and recommendations to the healthcare provider.",
+      "scope": "Written report for each mammographic examination.",
+      "excerpt": "(ii) Date of examination, facility name, and location. At a minimum, the location shall include the city, State, ZIP code, and telephone number of the facility",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal", "effective": "Facility identification and density content effective 2024-09-10" }
+    },
+    {
+      "id": "ev-mqsa-assessment-categories",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(1)(iv)",
+      "claim": "Final assessment categories are: Negative; Benign; Probably Benign; Suspicious; Highly Suggestive of Malignancy; Known Biopsy-Proven Malignancy; Post-Procedure Mammogram for Marker Placement.",
+      "scope": "Overall final assessment in the report.",
+      "excerpt": "(F) “Known Biopsy-Proven Malignancy.” Reserved for known malignancies being mammographically evaluated for definitive therapy; and (G) “Post-Procedure Mammogram for Marker Placement.” Reserved for a post-procedure mammogram used to confirm the deployment and position of a breast tissue marker.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-incomplete-categories",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(1)(v)",
+      "claim": "When work-up is incomplete, the report uses 'Incomplete: Need additional imaging evaluation' or 'Incomplete: Need prior mammograms for comparison.' If the prior-mammogram category is used, a follow-up report with a final assessment (Negative through Highly Suggestive of Malignancy) must be issued within 30 calendar days, whether or not comparison images can be obtained.",
+      "scope": "Incomplete assessments.",
+      "exceptions": "FDA Approved Alternative Standard #25 (2024-11-07) addresses issuing 'Incomplete: Need additional imaging evaluation' as the follow-up; not yet read in full.",
+      "excerpt": "If this assessment category is used, a followup report with an assessment category identified in paragraphs (c)(1)(iv)(A) through (E) of this section must be issued within 30 calendar days of the initial report whether or not comparison views can be obtained.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-density-categories",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(1)(vi)",
+      "claim": "The report states one of four density categories: almost entirely fatty; scattered areas of fibroglandular density; heterogeneously dense, which may obscure small masses; extremely dense, which lowers the sensitivity of mammography.",
+      "scope": "Overall breast density in the report (effective 2024-09-10).",
+      "excerpt": "(C) “The breasts are heterogeneously dense, which may obscure small masses.” (D) “The breasts are extremely dense, which lowers the sensitivity of mammography.”",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal", "effective": "2024-09-10" }
+    },
+    {
+      "id": "ev-mqsa-lay-summary-timing",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(2)",
+      "claim": "Each patient receives a lay-language summary within 30 calendar days of the exam, including patient name, facility name/address/telephone, and a breast density statement. If the assessment is Suspicious or Highly Suggestive of Malignancy, the lay summary is due within 7 calendar days of the final interpretation.",
+      "scope": "Communication of results to patients.",
+      "excerpt": "If the assessment of the mammography report is “Suspicious” or “Highly Suggestive of Malignancy,” the facility shall provide the patient a summary of the mammography report written in lay language within 7 calendar days of the final interpretation of the mammograms.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal", "effective": "2024-09-10" }
+    },
+    {
+      "id": "ev-mqsa-self-referred",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(2)(i)–(ii)",
+      "claim": "Patients who do not name a healthcare provider are also sent the full report within 30 days (7 days for Suspicious/Highly Suggestive). Facilities accepting patients without a provider maintain a referral system, used when clinically indicated, including for Probably Benign, Suspicious, or Highly Suggestive assessments.",
+      "scope": "Self-referred patients.",
+      "excerpt": "Each facility that accepts patients who do not have a healthcare provider shall maintain a system for referring such patients to a healthcare provider when clinically indicated, which shall include when such patients' mammogram assessment is either probably benign, suspicious, or highly suggestive of malignancy.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-density-statements",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(2)(iii)–(iv)",
+      "claim": "Lay summaries use one of two required density paragraphs. The first two report categories map to 'Your breast tissue is not dense'; heterogeneously or extremely dense map to 'Your breast tissue is dense,' with an added sentence that other imaging tests may help some people with dense tissue.",
+      "scope": "Patient breast density notification (effective 2024-09-10).",
+      "excerpt": "Your breast tissue is dense. In some people with dense tissue, other imaging tests in addition to a mammogram may help find cancers. Talk to your healthcare provider about breast density, risks for breast cancer, and your individual situation.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal", "effective": "2024-09-10" }
+    },
+    {
+      "id": "ev-mqsa-density-rule-effective",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126, DATES and SUMMARY; Executive Summary C",
+      "claim": "The 2023 MQSA final rule took effect September 10, 2024. It added breast density to the lay summary and report, changed the patient wording from 'high/low density' to 'dense/not dense,' and added specific timeframes for Suspicious and Highly Suggestive results.",
+      "scope": "Regulatory history.",
+      "excerpt": "This rule is effective on September 10, 2024.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal", "effective": "2024-09-10" }
+    },
+    {
+      "id": "ev-mqsa-provider-report",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(3)",
+      "claim": "When there is a referring or named provider, the written report goes to that provider as soon as possible but no later than 30 days after the exam; for Suspicious or Highly Suggestive of Malignancy, within 7 calendar days of final interpretation (or to a responsible designee).",
+      "scope": "Communication to healthcare providers.",
+      "excerpt": "Provide a written report of the mammography examination, including the items listed in paragraph (c)(1) of this section, to that health care provider as soon as possible, but no later than 30 days from the date of the mammography examination",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-adverse-event",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(c), (ss), (tt)",
+      "claim": "Adverse events include poor image quality, failure to send reports within 30 days to the referring provider or timely to a self-referred patient, and use of unqualified personnel. A serious complaint is a report of a serious adverse event.",
+      "scope": "Definitions.",
+      "excerpt": "Adverse events include but are not limited to: (1) Poor image quality; (2) Failure to send mammography reports within 30 days to the referring healthcare provider or in a timely manner to the self-referred patient; and (3) Use of personnel that do not meet the applicable requirements of § 900.12(a).",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-image-identification",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(5)(i)–(vii)",
+      "claim": "Each mammographic image permanently, legibly and unambiguously shows, without obscuring anatomy: patient name and an additional identifier; exam date; view and laterality (placed near the axilla, using standardized codes); facility name and location (city, State, ZIP); technologist identification; cassette/screen identification; and mammography unit identification if the facility has more than one unit.",
+      "scope": "Image labeling.",
+      "excerpt": "(iii) View and laterality. This information shall be placed on the image in a position near the axilla. Standardized codes specified by the accreditation body and approved by FDA in accordance with § 900.3(b) or § 900.4(a)(8) shall be used to identify view and laterality.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-record-retention",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4)(i)",
+      "claim": "Original mammograms and reports are kept in the patient's permanent record for the longest of: at least 5 years; at least 10 years if no additional mammograms are performed at the facility; or any longer period required by State or local law. Originals are kept in retrievable form in the modality in which they were produced.",
+      "scope": "Recordkeeping.",
+      "excerpt": "for the longest of the following: a period of not less than 5 years, a period of not less than 10 years if no additional mammograms of the patient are performed at the facility, or a period, if any, mandated by State or local law.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-record-transfer",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4)(ii)–(iv)",
+      "claim": "On request by or for the patient, the facility transfers originals (or releases copies) within 15 calendar days, in the original modality; digital mammograms or DBT sent for final interpretation must be available electronically as original digital images. Fees cannot exceed documented costs.",
+      "scope": "Transfer and copies of mammograms.",
+      "excerpt": "Transfer of the mammograms and mammography reports must take place within 15 calendar days of the facility receiving such request.",
+      "citation": "quoted_public",
+      "context": { "modality": ["FFDM", "DBT"], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-outcomes-audit",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(f)(1)",
+      "claim": "Each facility runs a medical outcomes audit that follows up positive mammograms and correlates pathology with the report. At minimum it determines positive predictive value, cancer detection rate (per 1,000 patients), and recall rate (percentage of screening exams assessed 'Incomplete: Need additional imaging evaluation').",
+      "scope": "Medical outcomes audit.",
+      "excerpt": "(iii) Recall rate—percentage of screening mammograms given an assessment of “Incomplete: Need additional imaging evaluation.”",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-screening-diagnostic-definition",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(f)(1)",
+      "claim": "For audit purposes, a screening mammogram is routine views of an asymptomatic patient; a diagnostic mammogram is individualized views for a patient with symptoms, physical signs, or abnormal screening findings.",
+      "scope": "Audit definitions.",
+      "excerpt": "a mammographic examination consisting of routine views of an asymptomatic patient shall be termed a screening mammogram, while a mammographic examination consisting of individualized views of a patient with breast symptoms, physical signs of breast disease, or abnormal findings on a screening mammogram shall be termed a diagnostic mammogram.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-positive-mammogram",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(mm); 900.12(f)(1)(i)",
+      "claim": "A positive mammogram has an overall assessment of Suspicious or Highly Suggestive of Malignancy. PPV is the percent of patients with positive mammograms diagnosed with breast cancer within 1 year of the exam.",
+      "scope": "Audit metrics.",
+      "excerpt": "Positive mammogram means a mammogram that has an overall assessment of findings that are either “suspicious” or “highly suggestive of malignancy.”",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-audit-frequency",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(f)(2)–(3)",
+      "claim": "Audit analyses are conducted at least once every 12 months, and at least one designated audit interpreting physician reviews the data, documents results, and notifies other interpreting physicians of their individual and facility results.",
+      "scope": "Audit frequency and responsibility.",
+      "excerpt": "Each facility shall designate at least one interpreting physician to review the medical outcomes audit data at least once every 12 months.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-consumer-complaints",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(h); 900.2(k)",
+      "claim": "Facilities keep a written system for collecting and resolving consumer complaints, keep a record of each serious complaint for at least 3 years, tell consumers how to file with the accreditation body if a serious complaint is unresolved, and report unresolved serious complaints to the accreditation body. A consumer can be the patient or a representative such as a family member or referring provider.",
+      "scope": "Consumer complaint mechanism.",
+      "excerpt": "(2) Maintain a record of each serious complaint received by the facility for at least 3 years from the date the complaint was received",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-infection-control",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(13)",
+      "claim": "Facilities establish and follow documented procedures for cleaning and disinfecting mammography equipment after contact with blood or other potentially infectious materials, complying with applicable regulations and the manufacturer's recommended procedures (or generally accepted guidance if adequate manufacturer recommendations are unavailable).",
+      "scope": "Infection control policy.",
+      "excerpt": "Facilities shall establish and comply with a system specifying procedures to be followed by the facility for cleaning and disinfecting mammography equipment after contact with blood or other potentially infectious materials.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-implant-inquiry",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(g)",
+      "claim": "Each facility has a procedure to ask whether the patient has breast implants before the exam; unless contraindicated or modified by a physician, patients with implants have views that maximize visualization of breast tissue.",
+      "scope": "Patients with breast implants.",
+      "excerpt": "Each facility shall have a procedure to inquire whether or not the patient has breast implants prior to the actual mammographic exam.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-compression-device",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(8)",
+      "claim": "Every mammography system has a compression device with initial power-driven compression activated by hands-free controls from both sides of the patient and fine-adjustment controls operable from both sides. Paddles match the full-field receptor sizes; special-purpose paddles (e.g., spot) may be provided. A flat paddle may not deflect from parallel by more than 1.0 cm when compression is applied, and its chest-wall edge is straight, parallel to the receptor edge, and must not appear on the image.",
+      "scope": "Equipment design requirements.",
+      "excerpt": "the compression paddle shall be flat and parallel to the breast support table and shall not deflect from parallel by more than 1.0 cm at any point on the surface of the compression paddle when compression is applied.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-compression-force",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(4)(iii)",
+      "claim": "Compression device performance: at least 111 newtons (25 pounds) of force must be available, and the maximum force for the initial power drive is between 111 N (25 lb) and 200 N (45 lb).",
+      "scope": "Listed among screen-film semiannual tests; for other modalities the QC program follows the manufacturer (§ 900.12(e)(6)).",
+      "exceptions": "Digital systems follow manufacturer QC programs; the ACR DMQC manual specifies technologist compression testing frequency (not yet extracted).",
+      "excerpt": "(A) A compression force of at least 111 newtons (25 pounds) shall be provided. (B) Effective October 28, 2002, the maximum compression force for the initial power drive shall be between 111 newtons (25 pounds) and 200 newtons (45 pounds).",
+      "citation": "quoted_public",
+      "context": { "modality": ["screen-film"], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-magnification-equipment",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(4)(iii), (b)(6)",
+      "claim": "Systems used for noninterventional problem solving have magnification capability; systems used for magnification provide at least one magnification value from 1.4 to 2.0 and can operate with the grid removed.",
+      "scope": "Equipment design requirements.",
+      "excerpt": "(ii) Systems used for magnification procedures shall provide, at a minimum, at least one magnification value within the range of 1.4 to 2.0.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-technique-display",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(7), (b)(9)",
+      "claim": "Systems indicate the selected focal spot and target material before exposure; after AEC exposures, they display the actual kVp and mAs used (and the target/focal spot actually used when selected by algorithm). Manual selection of mAs (or mA and/or time) must be available.",
+      "scope": "Equipment design requirements.",
+      "excerpt": "(iii) Following AEC mode use, the system shall indicate the actual kilovoltage peak (kVp) and mAs used during the exposure.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-dose-limit",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(vi), (e)(6); 900.2(uu)",
+      "claim": "The average glandular dose for a single craniocaudal view of an FDA-accepted phantom simulating a standard breast must not exceed 3.0 mGy (0.3 rad) per exposure, using clinical technique for a standard breast. This maximum also applies to non-screen-film modalities. A standard breast is a 4.2 cm compressed breast of 50% glandular and 50% adipose tissue.",
+      "scope": "Phantom dosimetry limit (not a patient dose measurement).",
+      "excerpt": "The average glandular dose delivered during a single cranio-caudal view of an FDA-accepted phantom simulating a standard breast shall not exceed 3.0 milligray (mGy) (0.3 rad) per exposure.",
+      "citation": "quoted_public",
+      "context": { "modality": ["screen-film", "FFDM", "DBT"], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-other-modalities-qc",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(6), (b)(16)",
+      "claim": "For image receptor modalities other than screen-film (e.g., FFDM, DBT), the QA program is substantially the same as the image receptor manufacturer's recommended program, except that the dose may not exceed the screen-film maximum.",
+      "scope": "Digital QC basis.",
+      "excerpt": "For systems with image receptor modalities other than screen-film, the quality assurance program shall be substantially the same as the quality assurance program recommended by the image receptor manufacturer, except that the maximum allowable dose shall not exceed the maximum allowable dose for screen-film systems",
+      "citation": "quoted_public",
+      "context": { "modality": ["FFDM", "DBT"], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-corrective-action-timing",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(8)",
+      "claim": "Test results outside action limits require identifying the source and corrective action: before any further examinations for failures of listed tests (including the dose test, phantom image tests, compression device performance, and other-modality QC under (e)(6)), and within 30 days for all other tests.",
+      "scope": "Use of QC test results.",
+      "excerpt": "(A) Before any further examinations are performed or any films are processed using a component of the mammography system that failed any of the tests described in paragraphs (e)(1), (e)(2), (e)(4)(i), (e)(4)(ii), (e)(4)(iii), (e)(5)(vi), (e)(6), or (e)(7) of this section; (B) Within 30 days of the test date for all other tests described in paragraph (e) of this section.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-action-limits-definition",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(b), (p)",
+      "claim": "Action limits are the minimum and maximum values of a QA measurement representing acceptable performance; values outside them require corrective action. An established operating level is the facility's accepted normal value for a parameter.",
+      "scope": "Definitions.",
+      "excerpt": "Values less than the minimum or greater than the maximum action limit or level indicate that corrective action must be taken by the facility.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-physicist-survey",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(9)",
+      "claim": "At least once a year a medical physicist (or someone under direct supervision of one) surveys the facility, evaluates the facility's QC results and corrective actions, and sends a dated, signed survey report within 30 days of the survey.",
+      "scope": "Annual physics survey.",
+      "excerpt": "At least once a year, each facility shall undergo a survey by a medical physicist or by an individual under the direct supervision of a medical physicist.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-equipment-evaluation",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(10); 900.12(b)(2)(ii)",
+      "claim": "A mammography equipment evaluation by a medical physicist is required when a unit is newly installed, disassembled and reassembled, or has major components changed or repaired; problems are corrected before clinical use. A unit converted to another modality is treated as a new unit.",
+      "scope": "Mammography equipment evaluations.",
+      "excerpt": "All problems shall be corrected before the new or changed equipment is put into service for examinations or film processing.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-field-alignment",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(vii)",
+      "claim": "The x-ray field may extend to the chest-wall edge of the image receptor but not beyond any edge by more than 2% of the SID; light field/x-ray field misalignment may not exceed 2% of SID; the compression paddle's chest-wall edge may not extend beyond the receptor's chest-wall edge by more than 1% of SID, and the paddle's vertical edge must not be visible on the image.",
+      "scope": "Alignment test (screen-film annual test list; physicist-level).",
+      "excerpt": "The chest wall edge of the compression paddle shall not extend beyond the chest wall edge of the image receptor by more than one percent of the SID when tested with the compression paddle placed above the breast support surface at a distance equivalent to standard breast thickness.",
+      "citation": "quoted_public",
+      "context": { "modality": ["screen-film"], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-mammography-unit-definition",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(dd)",
+      "claim": "A mammography unit includes, at a minimum, an x-ray generator, an x-ray control, a tube housing assembly, a beam limiting device, and supporting structures.",
+      "scope": "Definition.",
+      "excerpt": "Mammography unit or units means an assemblage of components for the production of X-rays for use during mammography, including, at a minimum: An X-ray generator, an X-ray control, a tube housing assembly, a beam limiting device, and the supporting structures for these components.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-prohibited-equipment",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(1)–(2)",
+      "claim": "Radiographic equipment designed for general purpose or special non-mammography procedures, including systems modified or equipped with special attachments for mammography, may not be used for mammography. Equipment used must be specifically designed for mammography.",
+      "scope": "Equipment.",
+      "excerpt": "Radiographic equipment designed for general purpose or special nonmammography procedures shall not be used for mammography. This prohibition includes systems that have been modified or equipped with special attachments for mammography.",
+      "citation": "quoted_public",
+      "context": { "modality": [], "jurisdiction": "US federal" }
+    },
+    {
+      "id": "ev-mqsa-modality-definition",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(z), (aa)",
+      "claim": "A mammographic modality is a breast radiography technology such as screen-film, full-field digital mammography, or digital breast tomosynthesis. For Part 900, 'mammography' excludes radiography during invasive localization/biopsy procedures, investigational-device studies, and breast CT.",
+      "scope": "Definitions.",
+      "excerpt": "Mammographic modality means a technology, within the scope of 42 U.S.C. 263b, for radiography of the breast. Examples are screen-film mammography, full field digital mammography, and digital breast tomosynthesis.",
+      "citation": "quoted_public",
+      "context": { "modality": ["screen-film", "FFDM", "DBT"], "jurisdiction": "US federal" }
+    }
+  ]
+}
