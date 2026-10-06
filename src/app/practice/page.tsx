@@ -12,7 +12,18 @@ import { useApp } from "@/components/app-provider";
 import { EXAM } from "@/config/exam";
 import { allSessions, putSession } from "@/lib/db";
 import { abandonSession } from "@/lib/engine/session";
-import { dailyPracticePool, formPool, offerAssessment, topicQuestions, type AssessmentOffer, type AssessmentRequest } from "@/lib/engine/assessment";
+import {
+  DEFAULT_FORM_POOL,
+  dailyPracticePool,
+  formDisplayName,
+  formPool,
+  FORM_POOLS,
+  offerAssessment,
+  topicQuestions,
+  type AssessmentOffer,
+  type AssessmentRequest,
+  type FormPool,
+} from "@/lib/engine/assessment";
 import { proportionalMinutes } from "@/lib/engine/forms";
 import { startAssessment, type TimingChoice } from "@/lib/engine/start";
 import { assessmentReport } from "@/lib/engine/test-mode";
@@ -65,6 +76,7 @@ export default function PracticePage() {
   const [topicId, setTopicId] = useState<string | null>(null);
   const [topicSize, setTopicSize] = useState<number>(10);
   const [mixedSize, setMixedSize] = useState<number>(20);
+  const [form, setForm] = useState<FormPool>(DEFAULT_FORM_POOL);
   const [sessions, setSessions] = useState<StudySession[]>([]);
   const [busy, setBusy] = useState(false);
   const [note, setNote] = useState<string | null>(null);
@@ -82,9 +94,17 @@ export default function PracticePage() {
       .filter((t) => t.count > 0);
   }, [catalog]);
   const standardOffers = useMemo(
-    () => (catalog ? (["baseline", "checkpoint", "simulation"] as const).map((k) => offerAssessment(k, catalog)) : []),
-    [catalog],
+    () => (catalog ? (["baseline", "checkpoint", "simulation"] as const).map((k) => offerAssessment({ kind: k, form }, catalog)) : []),
+    [catalog, form],
   );
+  const formCounts = useMemo(() => {
+    if (!content) return { "form-a": 0, "form-b": 0 };
+    return {
+      "form-a": formPool(content.modules, "form-a").length,
+      "form-b": formPool(content.modules, "form-b").length,
+    };
+  }, [content]);
+  const formName = formDisplayName(form);
 
   if (!ready) return <p>Loading…</p>;
   if (error) return <p role="alert">{error}</p>;
@@ -134,8 +154,9 @@ export default function PracticePage() {
       <header className="space-y-2">
         <h1 className="font-heading text-3xl text-navy">Practice</h1>
         <p className="text-muted-foreground">
-          {dailyPracticePool(content.modules).length} daily-practice questions and {formPool(content.modules).length} reserved Form A questions are usable. Form A
-          families never appear in daily study, so baseline, checkpoint, and simulation results come from questions you have not drilled.
+          {dailyPracticePool(content.modules).length} daily-practice questions are usable, plus {formCounts["form-a"]} reserved Form A and{" "}
+          {formCounts["form-b"]} reserved Form B questions. Families from both forms never appear in daily study, so baseline, checkpoint, and
+          simulation results come from questions you have not drilled.
         </p>
       </header>
 
@@ -249,11 +270,24 @@ export default function PracticePage() {
 
       <section className="space-y-4" aria-labelledby="forms-h">
         <h2 id="forms-h" className="font-heading text-xl">
-          Reserved Form A Assessments
+          Reserved form assessments
         </h2>
+        <div className="space-y-2">
+          <p className="text-sm font-medium">Which form</p>
+          <Toggle
+            label="Reserved form"
+            value={form}
+            options={FORM_POOLS}
+            onChange={setForm}
+            render={(v) => `${formDisplayName(v)} (${formCounts[v]} questions)`}
+          />
+          <p className="text-sm text-muted-foreground">
+            Form A and Form B are distinct reserved banks. Retaking the same form is labeled a retake; switching forms is a separate measurement.
+          </p>
+        </div>
         <div className="grid gap-4 md:grid-cols-3">
           {standardOffers.map((offer) => (
-            <Card key={offer.kind}>
+            <Card key={`${form}:${offer.kind}`}>
               <CardHeader>
                 <div className="flex flex-wrap items-center gap-2">
                   <CardTitle>{offer.label}</CardTitle>
@@ -270,8 +304,8 @@ export default function PracticePage() {
                         {allowSkip ? "Skipping allowed (non-standard)." : "You must answer each question before moving on; flag any to revisit."}
                       </p>
                     ) : null}
-                    <Button className="min-h-11" disabled={busy} onClick={() => void start({ kind: offer.kind }, "test")}>
-                      Start {offer.kind === "simulation" ? "simulation" : offer.kind}
+                    <Button className="min-h-11" disabled={busy} onClick={() => void start({ kind: offer.kind, form }, "test")}>
+                      Start {formName} {offer.kind === "simulation" ? "simulation" : offer.kind}
                     </Button>
                   </>
                 ) : (
@@ -282,7 +316,16 @@ export default function PracticePage() {
                         variant="outline"
                         className="h-auto min-h-11 whitespace-normal"
                         disabled={busy}
-                        onClick={() => void start({ kind: offer.fallback!.kind, size: offer.fallback!.size }, offer.fallback!.kind === "mixed_quiz" ? undefined : "test")}
+                        onClick={() =>
+                          void start(
+                            {
+                              kind: offer.fallback!.kind,
+                              size: offer.fallback!.size,
+                              ...(offer.fallback!.form ? { form: offer.fallback!.form } : {}),
+                            },
+                            offer.fallback!.kind === "mixed_quiz" ? undefined : "test",
+                          )
+                        }
                       >
                         Take the {offer.fallback.label.toLowerCase()} instead
                       </Button>
