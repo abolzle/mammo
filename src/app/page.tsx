@@ -31,8 +31,13 @@ export default function TodayPage() {
   async function start(mins: MinutesPref) {
     if (!content || !profile) return;
     setBusy(true);
-    const s = await startDailySession(content, profile, mins);
-    router.push(`/session/?id=${s.id}`);
+    try {
+      const s = await startDailySession(content, profile, mins);
+      router.push(`/session/?id=${s.id}`);
+    } catch (e) {
+      setBusy(false);
+      console.error(e);
+    }
   }
 
   return (
