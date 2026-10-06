@@ -1,0 +1,536 @@
+{
+  "id": "mod-patient-care",
+  "version": "1.0.0-beta.1",
+  "title": "Patient care and communication",
+  "summary": "Technologist-level patient communication: preparing patients, explaining the exam and compression, screening versus diagnostic purpose, results and density notification boundaries, and infection-control habits with workplace observation prompts.",
+  "topicIds": [
+    "top-pc-preparation",
+    "top-pc-education",
+    "top-pc-results",
+    "top-pc-risk",
+    "top-pc-history",
+    "top-pp-exams",
+    "top-pp-variance",
+    "top-ip-mqsa-audit-policies",
+    "top-ip-mqsa-records"
+  ],
+  "assets": [
+    {
+      "id": "asset-pc-screen-dx-paths",
+      "kind": "svg_schematic",
+      "title": "Screening versus diagnostic exam paths",
+      "src": "/assets/patient-care/screen-dx-paths.svg",
+      "width": 640,
+      "height": 280,
+      "alt": "Schematic two-path diagram: asymptomatic screening with routine views on the left; symptomatic or abnormal-screening diagnostic path with individualized views on the right. Not a clinical image.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pc-nci-screen-vs-dx",
+        "ev-pc-mqsa-screen-dx-audit",
+        "ev-mqsa-screening-diagnostic-definition"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pc-density-notify",
+      "kind": "svg_schematic",
+      "title": "Dense versus not-dense notification mapping",
+      "src": "/assets/patient-care/density-notify.svg",
+      "width": 640,
+      "height": 220,
+      "alt": "Four schematic density boxes. The first two map to not dense; the last two map to dense patient notification language. Shading is symbolic, not a mammogram.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-density-statements",
+        "ev-pc-nci-dense-four",
+        "ev-mqsa-density-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pc-comms-roles",
+      "kind": "svg_schematic",
+      "title": "Who communicates what after the exam",
+      "src": "/assets/patient-care/comms-roles.svg",
+      "width": 640,
+      "height": 240,
+      "alt": "Three columns labeled Technologist, Interpreting physician or written reports, and Referring clinician, listing appropriate communication roles.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-mqsa-density-statements",
+        "ev-pc-nci-mqsa-lay",
+        "ev-pc-nci-dense-not-palpable"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pc-infection-touchpoints",
+      "kind": "svg_schematic",
+      "title": "Mammography room cleaning touchpoints",
+      "src": "/assets/patient-care/infection-touchpoints.svg",
+      "width": 360,
+      "height": 420,
+      "alt": "Schematic side view of a mammography unit highlighting compression paddle, breast support, and face shield or handle areas as contact surfaces after blood or OPIM exposure. Not to scale.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-infection-control",
+        "ev-pc-osha-bbp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "visuals": [
+    {
+      "id": "vis-pc-screen-vs-dx",
+      "revision": 1,
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "assetId": "asset-pc-screen-dx-paths",
+      "estSeconds": 45,
+      "title": "Which path is a screening exam?",
+      "prompt": "A patient has no breast symptoms and is here for routine annual imaging. Select the path that matches a screening mammogram.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Left path: asymptomatic, routine views",
+          "x": 20,
+          "y": 40,
+          "w": 280,
+          "h": 200,
+          "revealLabel": "Screening: routine views, asymptomatic"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Right path: symptoms or abnormal screen, individualized views",
+          "x": 340,
+          "y": 40,
+          "w": 280,
+          "h": 200,
+          "revealLabel": "Diagnostic: individualized views"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. Screening uses routine views in an asymptomatic patient.",
+        "b": "That path is diagnostic\u2014used for symptoms, signs, or an abnormal screening finding."
+      },
+      "explanation": "NCI and MQSA audit language agree: screening is for asymptomatic routine imaging; diagnostic exams individualize views for symptoms, signs, or abnormal screening findings.",
+      "accessibilityNote": "Paths are announced by purpose and view type; selecting either path is fully keyboard accessible.",
+      "evidenceIds": [
+        "ev-pc-nci-screen-vs-dx",
+        "ev-mqsa-screening-diagnostic-definition"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pc-density-boundary",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-density-reporting",
+      "assetId": "asset-pc-density-notify",
+      "estSeconds": 40,
+      "title": "Which categories trigger dense notification?",
+      "prompt": "Select the least dense category that maps to the patient statement 'Your breast tissue is dense.'",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Almost entirely fatty",
+          "x": 16,
+          "y": 30,
+          "w": 140,
+          "h": 160,
+          "revealLabel": "Not dense"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Scattered fibroglandular density",
+          "x": 172,
+          "y": 30,
+          "w": 140,
+          "h": 160,
+          "revealLabel": "Not dense"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Heterogeneously dense",
+          "x": 328,
+          "y": 30,
+          "w": 140,
+          "h": 160,
+          "revealLabel": "Dense \u2014 first dense category"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Extremely dense",
+          "x": 484,
+          "y": 30,
+          "w": 140,
+          "h": 160,
+          "revealLabel": "Dense"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "Almost entirely fatty maps to not dense.",
+        "b": "Scattered fibroglandular density still maps to not dense.",
+        "c": "Correct. Heterogeneously dense is the lower of the two dense categories.",
+        "d": "Extremely dense is dense, but it is not the least dense category that triggers the dense statement."
+      },
+      "explanation": "MQSA maps the first two report categories to 'not dense' and heterogeneously/extremely dense to 'dense.' NCI uses the same dense threshold for patient letters.",
+      "accessibilityNote": "Category names are visible on the schematic; the dense/not-dense mapping is revealed after answering.",
+      "evidenceIds": [
+        "ev-mqsa-density-statements",
+        "ev-pc-nci-dense-four"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pc-who-explains-density",
+      "revision": 1,
+      "objectiveId": "obj-pc-clinician-role",
+      "assetId": "asset-pc-comms-roles",
+      "estSeconds": 45,
+      "title": "Who individualizes density follow-up advice?",
+      "prompt": "A patient asks whether she should add ultrasound because her letter said her tissue is dense. Select who should individualize that recommendation.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Column A: Technologist role",
+          "x": 16,
+          "y": 30,
+          "w": 196,
+          "h": 190,
+          "revealLabel": "Technologist: process, comfort, MQSA timelines\u2014not individualized supplemental screening orders"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Column B: Written reports / interpreting physician role",
+          "x": 222,
+          "y": 30,
+          "w": 196,
+          "h": 190,
+          "revealLabel": "Written MQSA reports and density statements"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Column C: Referring clinician role",
+          "x": 428,
+          "y": 30,
+          "w": 196,
+          "h": 190,
+          "revealLabel": "Referring clinician: individual risk and supplemental testing discussion"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "Technologists can explain that dense tissue is common and that the lay letter comes from the facility, but they should not invent a personal ultrasound/MRI plan.",
+        "b": "Reports carry required density language, but personalized next steps belong with the patient's clinician.",
+        "c": "Correct. NCI and USPSTF point patients to talk with their clinician about options when evidence for supplemental screening is insufficient."
+      },
+      "explanation": "MQSA requires density notification in the lay summary. Supplemental imaging decisions are individualized clinical counseling, not a technologist diagnosis.",
+      "accessibilityNote": "Columns are named by role; contents after reveal do not change the keyboard choices.",
+      "evidenceIds": [
+        "ev-mqsa-density-statements",
+        "ev-pc-nci-dense-supplemental",
+        "ev-pc-uspstf-dense-i"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pc-infection-surface",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-required-policies",
+      "assetId": "asset-pc-infection-touchpoints",
+      "estSeconds": 40,
+      "title": "What must the infection-control system address?",
+      "prompt": "After contact with blood or other potentially infectious materials, MQSA requires documented cleaning of mammography equipment. Select the schematic zone that includes the compression paddle contacting the breast.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Zone A, upper tube housing",
+          "x": 110,
+          "y": 20,
+          "w": 140,
+          "h": 70,
+          "revealLabel": "Tube housing (not the primary patient-contact paddle)"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Zone B, mid compression paddle",
+          "x": 80,
+          "y": 210,
+          "w": 200,
+          "h": 36,
+          "revealLabel": "Compression paddle \u2014 key patient-contact surface"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Zone C, lower breast support",
+          "x": 70,
+          "y": 270,
+          "w": 220,
+          "h": 40,
+          "revealLabel": "Breast support / receptor cover \u2014 also a contact surface"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Zone D, floor under the unit",
+          "x": 40,
+          "y": 360,
+          "w": 280,
+          "h": 40,
+          "revealLabel": "Floor \u2014 facility housekeeping, not the MQSA equipment-contact rule itself"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "The tube housing is not the patient-contact paddle surface highlighted by this question.",
+        "b": "Correct. The paddle contacts the breast; MQSA requires procedures for cleaning equipment after blood/OPIM contact, following regulations and manufacturer guidance.",
+        "c": "The support is also a contact surface, but this prompt asked specifically for the compression paddle zone.",
+        "d": "Floor cleaning matters in a clinic, but MQSA \u00a7 900.12(e)(13) is about mammography equipment after blood/OPIM contact."
+      },
+      "explanation": "MQSA infection control is a documented system for cleaning and disinfecting mammography equipment after blood or OPIM contact, aligned with applicable regulations and manufacturer recommendations.",
+      "accessibilityNote": "Zones are described by position; names appear after answering.",
+      "evidenceIds": [
+        "ev-mqsa-infection-control"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Screening mammogram",
+      "definition": "Routine mammographic views of an asymptomatic patient (MQSA audit definition); used to look for cancer before symptoms.",
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition",
+        "ev-pc-nci-screen-vs-dx"
+      ]
+    },
+    {
+      "term": "Diagnostic mammogram",
+      "definition": "Individualized mammographic views for symptoms, physical signs, or abnormal screening findings; often more angles than screening.",
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition",
+        "ev-pc-nci-screen-vs-dx"
+      ]
+    },
+    {
+      "term": "Lay summary",
+      "definition": "MQSA-required easy-to-read written results for the patient, including a density statement, within required timelines.",
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-pc-nci-mqsa-lay"
+      ]
+    },
+    {
+      "term": "Dense breasts",
+      "definition": "Heterogeneously dense or extremely dense tissue on mammography; common; increases masking and is a risk factor; not palpable on exam.",
+      "evidenceIds": [
+        "ev-pc-nci-dense-four",
+        "ev-pc-nci-dense-risk",
+        "ev-pc-nci-dense-not-palpable"
+      ]
+    },
+    {
+      "term": "Digital breast tomosynthesis (DBT)",
+      "definition": "3D mammography that acquires thin-slice images assembled into a volumetric picture and also produces 2D images.",
+      "evidenceIds": [
+        "ev-pc-nci-dbt"
+      ]
+    },
+    {
+      "term": "Other potentially infectious materials (OPIM)",
+      "definition": "Materials other than blood that may contain bloodborne pathogens; MQSA requires equipment cleaning procedures after contact with blood or OPIM.",
+      "evidenceIds": [
+        "ev-mqsa-infection-control",
+        "ev-pc-osha-bbp"
+      ]
+    },
+    {
+      "term": "Exposure control plan",
+      "definition": "Employer plan under OSHA's bloodborne pathogens standard describing how the workplace will reduce occupational exposure.",
+      "evidenceIds": [
+        "ev-pc-osha-ecp"
+      ]
+    },
+    {
+      "term": "Implant displacement views",
+      "definition": "Special mammographic technique used when implants are present to show more native breast tissue; patients should tell the facility about implants beforehand.",
+      "evidenceIds": [
+        "ev-pc-nci-implants",
+        "ev-mqsa-implant-inquiry"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" role="img" aria-labelledby="t d">
+  <title id="t">Communication roles after mammography</title>
+  <desc id="d">Three columns: Technologist; Written reports and interpreting physician; Referring clinician.</desc>
+  <rect width="640" height="240" fill="#fbfaf7"/>
+  <rect x="16" y="30" width="196" height="180" fill="#e7f3f1" stroke="#0f766e"/>
+  <rect x="222" y="30" width="196" height="180" fill="#eef2ff" stroke="#1e293b"/>
+  <rect x="428" y="30" width="196" height="180" fill="#f3efe7" stroke="#1e293b"/>
+  <g font-family="system-ui,sans-serif" font-size="13" fill="#1e293b" text-anchor="middle">
+    <text x="114" y="58" font-weight="700">Technologist</text>
+    <text x="320" y="58" font-weight="700">Reports / IP</text>
+    <text x="526" y="58" font-weight="700">Clinician</text>
+    <text x="114" y="95" font-size="12">Exam process</text>
+    <text x="114" y="115" font-size="12">Comfort coaching</text>
+    <text x="114" y="135" font-size="12">MQSA timelines</text>
+    <text x="114" y="155" font-size="12">No diagnosis</text>
+    <text x="320" y="95" font-size="12">Assessment</text>
+    <text x="320" y="115" font-size="12">Density statement</text>
+    <text x="320" y="135" font-size="12">Lay summary</text>
+    <text x="320" y="155" font-size="12">Provider report</text>
+    <text x="526" y="95" font-size="12">Personal risk</text>
+    <text x="526" y="115" font-size="12">Supplemental tests</text>
+    <text x="526" y="135" font-size="12">Follow-up plan</text>
+    <text x="526" y="155" font-size="12">Orders</text>
+  </g>
+</svg>

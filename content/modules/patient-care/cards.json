@@ -1,0 +1,1125 @@
+{
+  "cards": [
+    {
+      "id": "card-pc-deodorant",
+      "revision": 1,
+      "objectiveId": "obj-pc-pre-exam-instructions",
+      "estSeconds": 20,
+      "prompt": "Which skin products should patients avoid on the breasts/underarms on mammogram day?",
+      "answer": "Deodorants, antiperspirants, powders, lotions, creams, or perfumes.",
+      "evidenceIds": [
+        "ev-pc-nci-deodorant"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-deodorant-why",
+      "revision": 1,
+      "objectiveId": "obj-pc-pre-exam-instructions",
+      "estSeconds": 20,
+      "prompt": "Why avoid those products?",
+      "answer": "Residue can appear on the image and interfere with interpretation.",
+      "evidenceIds": [
+        "ev-pc-nci-deodorant"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-menses",
+      "revision": 1,
+      "objectiveId": "obj-pc-pre-exam-instructions",
+      "estSeconds": 20,
+      "prompt": "When may breasts be especially tender for scheduling?",
+      "answer": "Right before or during the menstrual period.",
+      "evidenceIds": [
+        "ev-pc-nci-compression-comfort"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-narrate",
+      "revision": 1,
+      "objectiveId": "obj-pc-rapport-support",
+      "estSeconds": 20,
+      "prompt": "What is an \"informed process\" in the room?",
+      "answer": "Briefly tell the patient the next positioning/compression steps and when you will expose; pause if they need it\u2014without diagnosing.",
+      "evidenceIds": [
+        "ev-pc-nci-compression-why"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-no-diagnose",
+      "revision": 1,
+      "objectiveId": "obj-pc-clinician-role",
+      "estSeconds": 20,
+      "prompt": "May a technologist declare the mammogram \"normal\" from the acquisition screen?",
+      "answer": "No. Written interpretation and lay summary come from the interpreting pathway.",
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-pc-nci-results-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-compression-why",
+      "revision": 1,
+      "objectiveId": "obj-pc-explain-compression",
+      "estSeconds": 20,
+      "prompt": "Plain-language purpose of compression?",
+      "answer": "Pressing the breast helps get a better x-ray picture of the inside of the breast.",
+      "evidenceIds": [
+        "ev-pc-nci-compression-why"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-compression-attr",
+      "revision": 1,
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "estSeconds": 20,
+      "prompt": "MQSA compression attribute goal?",
+      "answer": "Minimize overlying tissue obscuration and motion artifact.",
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-repeat",
+      "revision": 1,
+      "objectiveId": "obj-pc-explain-repeat",
+      "estSeconds": 20,
+      "prompt": "How do you explain a motion repeat?",
+      "answer": "The image blurred when the breast moved; you need to repeat that view for a clear read\u2014not a cancer diagnosis.",
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-repeat-vs-callback",
+      "revision": 1,
+      "objectiveId": "obj-pc-additional-imaging",
+      "estSeconds": 20,
+      "prompt": "Repeat vs callback?",
+      "answer": "Repeat: same-day technical fix. Callback: later request for more imaging after interpretation.",
+      "evidenceIds": [
+        "ev-pc-nci-callback"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-screen",
+      "revision": 1,
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "estSeconds": 20,
+      "prompt": "MQSA audit definition of screening mammogram?",
+      "answer": "Routine views of an asymptomatic patient.",
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-diagnostic",
+      "revision": 1,
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "estSeconds": 20,
+      "prompt": "MQSA audit definition of diagnostic mammogram?",
+      "answer": "Individualized views for symptoms, signs, or abnormal screening findings.",
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-dx-dose",
+      "revision": 1,
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "estSeconds": 20,
+      "prompt": "Why may diagnostic dose be higher?",
+      "answer": "More angles/images than screening.",
+      "evidenceIds": [
+        "ev-pc-nci-screen-vs-dx"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-uspstf",
+      "revision": 1,
+      "objectiveId": "obj-pc-screening-guidelines",
+      "estSeconds": 20,
+      "prompt": "USPSTF 2024 average-risk mammography recommendation?",
+      "answer": "Biennial screening ages 40\u201374 (Grade B).",
+      "evidenceIds": [
+        "ev-pc-uspstf-biennial"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-uspstf-75",
+      "revision": 1,
+      "objectiveId": "obj-pc-screening-guidelines",
+      "estSeconds": 20,
+      "prompt": "USPSTF 2024 statement for ages 75+?",
+      "answer": "Insufficient evidence (I) to assess benefits/harms of screening.",
+      "evidenceIds": [
+        "ev-pc-uspstf-75"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-acs",
+      "revision": 1,
+      "objectiveId": "obj-pc-screening-guidelines",
+      "estSeconds": 25,
+      "prompt": "ACS average-risk ages 45\u201354 (Facts & Figures 2024\u20132025)?",
+      "answer": "Annual mammograms.",
+      "evidenceIds": [
+        "ev-pc-acs-average-ages"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-uspstf-dense-i",
+      "revision": 1,
+      "objectiveId": "obj-pc-screening-guidelines",
+      "estSeconds": 20,
+      "prompt": "USPSTF on supplemental US/MRI for dense breasts after negative screen?",
+      "answer": "Insufficient evidence to recommend for or against (I).",
+      "evidenceIds": [
+        "ev-pc-uspstf-dense-i"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-lay-30",
+      "revision": 1,
+      "objectiveId": "obj-pc-results-pathway",
+      "estSeconds": 20,
+      "prompt": "Ordinary lay summary deadline?",
+      "answer": "Within 30 calendar days of the exam.",
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-lay-7",
+      "revision": 1,
+      "objectiveId": "obj-pc-results-pathway",
+      "estSeconds": 20,
+      "prompt": "Lay summary deadline if Suspicious/Highly Suggestive?",
+      "answer": "Within 7 calendar days of final interpretation.",
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-nci-2w",
+      "revision": 1,
+      "objectiveId": "obj-pc-results-pathway",
+      "estSeconds": 20,
+      "prompt": "NCI practical advice if no results in ~2 weeks?",
+      "answer": "Contact the provider.",
+      "evidenceIds": [
+        "ev-pc-nci-results-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-callback",
+      "revision": 1,
+      "objectiveId": "obj-pc-additional-imaging",
+      "estSeconds": 20,
+      "prompt": "Most people called back\u2026",
+      "answer": "\u2026are not found to have breast cancer.",
+      "evidenceIds": [
+        "ev-pc-nci-callback"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-transfer-15",
+      "revision": 1,
+      "objectiveId": "obj-pc-prior-images",
+      "estSeconds": 20,
+      "prompt": "MQSA deadline to transfer/release copies on request?",
+      "answer": "15 calendar days.",
+      "evidenceIds": [
+        "ev-mqsa-record-transfer"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-dense-map",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-density-reporting",
+      "estSeconds": 20,
+      "prompt": "Which categories \u2192 \"Your breast tissue is dense\"?",
+      "answer": "Heterogeneously dense and extremely dense.",
+      "evidenceIds": [
+        "ev-mqsa-density-statements"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-dense-common",
+      "revision": 1,
+      "objectiveId": "obj-pc-inherent-risk",
+      "estSeconds": 20,
+      "prompt": "How common is dense tissue (NCI)?",
+      "answer": "Nearly half of women 40+ who get mammograms.",
+      "evidenceIds": [
+        "ev-pc-nci-dense-common"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-dense-feel",
+      "revision": 1,
+      "objectiveId": "obj-pc-inherent-risk",
+      "estSeconds": 20,
+      "prompt": "Can density be felt on clinical or self-exam?",
+      "answer": "No\u2014only determined on the mammogram by a radiologist.",
+      "evidenceIds": [
+        "ev-pc-nci-dense-not-palpable"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-dense-risk",
+      "revision": 1,
+      "objectiveId": "obj-pc-inherent-risk",
+      "estSeconds": 20,
+      "prompt": "Are dense breasts a disease? A risk factor?",
+      "answer": "Not a disease; yes a risk factor, separate from masking.",
+      "evidenceIds": [
+        "ev-pc-nci-dense-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-dense-date",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-density-reporting",
+      "estSeconds": 20,
+      "prompt": "Federal density notification effective date?",
+      "answer": "September 10, 2024.",
+      "evidenceIds": [
+        "ev-mqsa-density-rule-effective"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-infection",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-required-policies",
+      "estSeconds": 25,
+      "prompt": "MQSA infection-control system must specify\u2026",
+      "answer": "Cleaning/disinfecting equipment after blood or OPIM contact, per regulations/manufacturer guidance, with documentation.",
+      "evidenceIds": [
+        "ev-mqsa-infection-control"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-bbp",
+      "revision": 1,
+      "objectiveId": "obj-pp-biohazard",
+      "estSeconds": 20,
+      "prompt": "Name three bloodborne pathogens from OSHA's overview.",
+      "answer": "HBV, HCV, HIV.",
+      "evidenceIds": [
+        "ev-pc-osha-bbp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-hh",
+      "revision": 1,
+      "objectiveId": "obj-pp-biohazard",
+      "estSeconds": 30,
+      "prompt": "List key CDC hand-hygiene moments relevant to care.",
+      "answer": "Before touching a patient; after patient/surroundings contact; after body fluids; after glove removal (plus aseptic/soiled-to-clean moments).",
+      "evidenceIds": [
+        "ev-pc-cdc-hh-moments"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-gloves",
+      "revision": 1,
+      "objectiveId": "obj-pp-biohazard",
+      "estSeconds": 20,
+      "prompt": "Do gloves replace hand hygiene?",
+      "answer": "No. Clean hands after removing gloves.",
+      "evidenceIds": [
+        "ev-pc-cdc-gloves"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-implant-ask",
+      "revision": 1,
+      "objectiveId": "obj-pp-implant-inquiry",
+      "estSeconds": 20,
+      "prompt": "MQSA implant rule before imaging?",
+      "answer": "Have a procedure to inquire about implants before the exam.",
+      "evidenceIds": [
+        "ev-mqsa-implant-inquiry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-implant-id",
+      "revision": 1,
+      "objectiveId": "obj-pp-implant-inquiry",
+      "estSeconds": 20,
+      "prompt": "Why mention implants / use ID views?",
+      "answer": "Implants can hide tissue; displacement views help show more native tissue.",
+      "evidenceIds": [
+        "ev-pc-nci-implants"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-dbt",
+      "revision": 1,
+      "objectiveId": "obj-pc-modalities",
+      "estSeconds": 25,
+      "prompt": "DBT detection vs mortality (NCI)?",
+      "answer": "Finds more tumors with standard mammography than standard alone; mortality benefit vs 2D still uncertain/under study.",
+      "evidenceIds": [
+        "ev-pc-nci-dbt"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-modalities-uspstf",
+      "revision": 1,
+      "objectiveId": "obj-pc-modalities",
+      "estSeconds": 20,
+      "prompt": "USPSTF effective screening modalities?",
+      "answer": "Digital mammography and DBT.",
+      "evidenceIds": [
+        "ev-pc-uspstf-modalities"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-nbccedp",
+      "revision": 1,
+      "objectiveId": "obj-pc-screening-guidelines",
+      "estSeconds": 25,
+      "prompt": "CDC program NCI cites for low-income uninsured screening access?",
+      "answer": "National Breast and Cervical Cancer Early Detection Program (NBCCEDP); 1-800-CDC-INFO.",
+      "evidenceIds": [
+        "ev-pc-nci-access-nbccedp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}

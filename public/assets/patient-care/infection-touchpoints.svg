@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 420" role="img" aria-labelledby="t d">
+  <title id="t">Schematic mammography unit cleaning touchpoints</title>
+  <desc id="d">Side-view schematic highlighting tube housing, compression paddle, breast support, and floor zone.</desc>
+  <rect width="360" height="420" fill="#fbfaf7"/>
+  <rect x="110" y="20" width="140" height="70" fill="#cbd5e1" stroke="#1e293b"/>
+  <text x="180" y="60" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#1e293b">Tube housing</text>
+  <rect x="140" y="90" width="80" height="28" fill="#94a3b8" stroke="#1e293b"/>
+  <text x="180" y="109" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#1e293b">Collimator</text>
+  <rect x="80" y="210" width="200" height="36" fill="#99f6e4" stroke="#0f766e" stroke-width="3"/>
+  <text x="180" y="233" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#134e4a">Compression paddle</text>
+  <ellipse cx="180" cy="255" rx="70" ry="18" fill="#fde68a" stroke="#1e293b"/>
+  <rect x="70" y="270" width="220" height="40" fill="#99f6e4" stroke="#0f766e" stroke-width="2"/>
+  <text x="180" y="295" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#134e4a">Breast support</text>
+  <rect x="40" y="360" width="280" height="40" fill="#e2e8f0" stroke="#64748b" stroke-dasharray="4 3"/>
+  <text x="180" y="385" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#475569">Floor zone</text>
+  <text x="180" y="415" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Schematic — not to scale</text>
+</svg>

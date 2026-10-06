@@ -1,0 +1,1081 @@
+{
+  "version": "2026-10-06.1",
+  "defaults": {
+    "retrievedOn": "2026-10-06",
+    "review": {
+      "status": "auto_checked",
+      "requiresQualifiedReview": false,
+      "aiAssisted": true,
+      "history": [
+        {
+          "at": "2026-10-06",
+          "status": "draft",
+          "actor": "ai-assisted",
+          "kind": "revision",
+          "note": "Default for patient-care evidence excerpts; still needs maintainer source check against cited locators."
+        },
+        {
+          "at": "2026-10-06",
+          "status": "auto_checked",
+          "actor": "automation",
+          "kind": "automated_validation",
+          "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev-pc-nci-screen-vs-dx",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, What is a mammogram? (updated 2025-12-02)",
+      "claim": "Screening mammograms look for breast cancer before symptoms. Diagnostic mammograms evaluate a lump or other change found by the patient or clinician. The same machines are used; diagnostic exams usually include images from more angles and therefore a higher radiation dose.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient education about exam purpose.",
+      "excerpt": "Mammograms are used for breast cancer screening because they can find tumors at an earlier stage, before they cause symptoms. Mammograms can also be used to check for breast cancer after a woman or her doctor finds a lump or other change. This type of mammogram is called a diagnostic mammogram. The same machines are used for both types of mammograms. However, diagnostic mammography requires images from more angles than screening mammography, so the dose of radiation is higher.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-mqsa-screen-dx-audit",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(f) note / audit definitions in \u00a7 900.2 context as used in outcomes audit",
+      "claim": "For MQSA audit purposes, a screening mammogram is routine views of an asymptomatic patient; a diagnostic mammogram is individualized views for symptoms, physical signs, or abnormal screening findings.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Facility outcomes audit terminology (also useful for technologist-level purpose distinction).",
+      "excerpt": "a mammographic examination consisting of routine views of an asymptomatic patient shall be termed a screening mammogram, while a mammographic examination consisting of individualized views of a patient with breast symptoms, physical signs of breast disease, or abnormal findings on a screening mammogram shall be termed a diagnostic mammogram.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-deodorant",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, What happens during a mammogram?",
+      "claim": "On the day of the mammogram, patients should avoid personal care products such as deodorants, antiperspirants, powders, lotions, creams, or perfumes around the breasts or under the arms, because these products can appear on the image and interfere with interpretation.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Pre-exam patient instructions.",
+      "excerpt": "You should avoid using personal care products, such as deodorants, antiperspirants, powders, lotions, creams, or perfumes, around the breasts or under the arms on the day of your mammogram.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-compression-why",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, What happens during a mammogram?",
+      "claim": "During a mammogram the breast is placed between two plates that are pressed together; pressing the breast helps get a better x-ray picture of the inside of the breast. Several images are taken from different angles with the breast repositioned each time.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Plain-language explanation of compression purpose.",
+      "excerpt": "During a mammogram, your breast is placed between two plates that are then pressed together. Pressing the breast helps get a better x-ray picture of the inside of your breast. Several images are taken from different angles, with the breast repositioned each time.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-compression-comfort",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, What happens during a mammogram?",
+      "claim": "Compression can be painful for some people. NCI notes that over-the-counter pain medication beforehand may lessen discomfort, and that scheduling around menses may help because breasts can be especially tender then.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient comfort coaching; not a medical order\u2014patients should follow their own clinician advice about medications.",
+      "excerpt": "For some people, the compression of the breast can be painful. Taking an over-the-counter pain medication before the procedure may lessen the discomfort. If possible, try not to schedule your mammogram right before or during your menstrual period, when your breasts may be especially tender.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-callback",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, How are mammogram results reported?",
+      "claim": "Being called back for further imaging or biopsy can be frightening, but most people who are called back are not found to have breast cancer.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Technologist-level reassurance without diagnosing.",
+      "excerpt": "Although it can be scary to be called back for further testing, it is important to keep in mind that most people who are called back are not found to have breast cancer.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-results-timing",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, How are mammogram results reported?",
+      "claim": "NCI states patients typically receive the radiologist screening report within about 2 weeks by mail or electronic record, with a copy to the ordering provider, and should contact the provider if results are not received within 2 weeks.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient education timeline; MQSA still sets the federal maximums of 30 days (and 7 days for Suspicious/Highly Suggestive).",
+      "excerpt": "You will receive the radiologist's report of your screening mammogram within about 2 weeks, either by mail or in your electronic medical record. The results will also be sent to the health care provider who ordered the mammogram. If you don't get your results within 2 weeks, you should contact your provider.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-mqsa-lay",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, Where can I get a mammogram?",
+      "claim": "MQSA requires facilities to meet uniform quality standards and to give patients an easy-to-read report of their mammogram results.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient-facing summary of MQSA communication duty.",
+      "excerpt": "The Mammography Quality Standards Act (MQSA) is a federal law that requires mammography facilities across the nation to meet uniform quality standards. MQSA regulations also require that mammography facilities give patients an easy-to-read report of their mammogram results.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-density-miss",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, What can a mammogram show? / Breast density",
+      "claim": "Breast density describes relative amounts of dense and fatty tissue on the mammogram. Mammography is more likely to miss cancer in women with dense breasts.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Technologist-level density education.",
+      "excerpt": "Breast density describes the relative amounts of dense and fatty tissue in the breasts, as seen on a mammogram. Mammography is more likely to miss cancer in women with dense breasts.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dbt",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, What are 3D mammograms?",
+      "claim": "DBT (3D mammography) takes multiple thin-slice images assembled into a 3D picture and also creates 2D images. DBT combined with standard mammography finds more tumors than standard mammography alone, but it is still unknown whether DBT reduces breast cancer deaths more than standard mammography; TMIST is studying that question.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient education about modalities.",
+      "excerpt": "Three-dimensional, or 3D, mammography, also called digital breast tomosynthesis (DBT), creates three-dimensional images of the breast. \u2026 DBT combined with standard mammography is better at finding tumors than standard mammography alone. However, it's still unknown whether DBT is more effective than standard mammography at reducing deaths from breast cancer.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-implants",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, Are mammograms done in people with breast implants?",
+      "claim": "People with breast implants should continue mammograms (except that most reconstructed breasts after mastectomy usually do not need mammography of the reconstructed breast). Implants can hide tissue; patients should tell the facility they have implants so implant-displacement views may be used.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient communication about implants.",
+      "excerpt": "Women with breast implants should continue getting mammograms. However, most women who have breast reconstruction with implants after mastectomy usually do not need a mammogram of the reconstructed breast. Implants can hide some breast tissue\u2026 If you have breast implants you should let the mammography facility know. A special technique called implant displacement views may be used.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dense-common",
+      "sourceId": "src-nci-dense-breasts",
+      "locator": "NCI Dense Breasts Q&A, Are dense breasts common? (updated 2025-12-02)",
+      "claim": "Dense breasts are common: nearly half of women age 40 and older who get mammograms are found to have dense breast tissue.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient education.",
+      "excerpt": "Yes, dense breasts are common. Nearly half of all women who are 40 and older who get mammograms are found to have dense breast tissue.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dense-not-palpable",
+      "sourceId": "src-nci-dense-breasts",
+      "locator": "NCI Dense Breasts Q&A, How do I know if I have dense breasts?",
+      "claim": "Dense breast tissue cannot be felt on self-exam or clinical breast exam; only a radiologist reading a mammogram can determine density.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Technologist communication boundaries.",
+      "excerpt": "Dense breast tissue cannot be felt by a woman, such as during a breast self-exam, or by her doctor during a clinical breast exam. Only a radiologist looking at a mammogram can tell if a woman has dense breasts.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dense-four",
+      "sourceId": "src-nci-dense-breasts",
+      "locator": "NCI Dense Breasts Q&A, How is breast density categorized?",
+      "claim": "BI-RADS density categories are: entirely fatty (~10%); scattered fibroglandular (~40%); heterogeneously dense (~40%); extremely dense (~10%). A lay letter saying the patient has dense breasts means heterogeneously dense or extremely dense.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Patient/technologist mapping of dense vs not dense.",
+      "excerpt": "If your mammogram report letter says you have dense breasts, it means that you have either heterogeneously dense breast tissue or extremely dense breast tissue.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dense-white-on-white",
+      "sourceId": "src-nci-dense-breasts",
+      "locator": "NCI Dense Breasts Q&A, Does having dense breast tissue affect a mammogram?",
+      "claim": "Dense tissue and some abnormal changes both appear white on a mammogram while fat appears dark, so mammography is less sensitive in dense breasts and callbacks may be more common.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Plain-language density effect.",
+      "excerpt": "Dense breast tissue and some abnormal breast changes, such as calcifications and tumors, both appear as white areas in the mammogram, whereas fatty tissue appears as dark areas. As a result, mammography is less sensitive in women with dense breasts\u2026 Women with dense breasts may be called back for follow-up testing more often than women with fatty breasts.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dense-risk",
+      "sourceId": "src-nci-dense-breasts",
+      "locator": "NCI Dense Breasts Q&A, Are dense breasts a risk factor for breast cancer?",
+      "claim": "Dense breasts are not a disease, but they are a risk factor for breast cancer separate from the masking effect on mammography.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Technologist-level risk education; clinicians counsel individual risk.",
+      "excerpt": "Dense breasts are not considered an abnormal breast condition or a disease. However, dense breasts are a risk factor for breast cancer. That is, women with dense breasts have a higher risk of breast cancer than women with fatty breasts. This risk is separate from the effect of dense breasts on the ability to read a mammogram.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dense-fda",
+      "sourceId": "src-nci-dense-breasts",
+      "locator": "NCI Dense Breasts Q&A, FDA notification sentence",
+      "claim": "Updated FDA regulations require mammography providers to inform women if they have dense breasts.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Federal density notification requirement (effective 2024-09-10 under MQSA amendments).",
+      "excerpt": "Updated FDA regulations require mammography providers to inform women if they have dense breasts.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-dense-supplemental",
+      "sourceId": "src-nci-dense-breasts",
+      "locator": "NCI Dense Breasts Q&A, Should women with dense breasts have additional screening?",
+      "claim": "According to USPSTF as cited by NCI, there is not yet enough evidence to recommend for or against additional imaging such as ultrasound or MRI for screening women with dense breasts; patients should talk with their clinician.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Technologist should not prescribe supplemental screening.",
+      "excerpt": "There is not yet enough evidence to recommend for or against additional imaging tests such as ultrasound or MRI to screen for breast cancer in women with dense breasts, according to the Recommendation Statement on Breast Cancer Screening by the United States Preventive Services Task Force (USPSTF). Talk with your doctor or nurse to learn more about your options.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-uspstf-biennial",
+      "sourceId": "src-uspstf-breast-2024",
+      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Recommendation Summary",
+      "claim": "USPSTF recommends biennial screening mammography for women aged 40 to 74 years (Grade B).",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Average-risk screening interval/age band per USPSTF 2024.",
+      "excerpt": "The USPSTF recommends biennial screening mammography for women aged 40 to 74 years.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-uspstf-75",
+      "sourceId": "src-uspstf-breast-2024",
+      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Recommendation Summary",
+      "claim": "USPSTF concludes evidence is insufficient to assess benefits and harms of screening mammography in women 75 years or older (I statement).",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Older-age screening uncertainty.",
+      "excerpt": "The USPSTF concludes that the current evidence is insufficient to assess the balance of benefits and harms of screening mammography in women 75 years or older.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-uspstf-dense-i",
+      "sourceId": "src-uspstf-breast-2024",
+      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Recommendation Summary",
+      "claim": "USPSTF concludes evidence is insufficient to assess benefits and harms of supplemental ultrasound or MRI screening in women with dense breasts and an otherwise negative screening mammogram (I statement).",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Supplemental screening uncertainty.",
+      "excerpt": "The USPSTF concludes that the current evidence is insufficient to assess the balance of benefits and harms of supplemental screening for breast cancer using breast ultrasonography or magnetic resonance imaging (MRI) in women identified to have dense breasts on an otherwise negative screening mammogram.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-uspstf-population",
+      "sourceId": "src-uspstf-breast-2024",
+      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Clinician Summary \u2014 To whom does this recommendation apply?",
+      "claim": "The 2024 USPSTF recommendation applies to cisgender women and other persons assigned female at birth age 40+ at average risk, and also to those with factors such as a first-degree family history or dense breasts. It does not apply to persons with high-risk genetic markers/syndromes, high-dose chest radiation at a young age, previous breast cancer, or a high-risk breast lesion on prior biopsy.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Who the USPSTF average-risk recommendation covers.",
+      "excerpt": "These recommendations apply to cisgender women and all other persons assigned female at birth (including transgender men and nonbinary persons) 40 years or older at average risk of breast cancer. They also apply to women who have factors associated with an increased risk of breast cancer, such as a family history of breast cancer (ie, a first-degree relative with breast cancer) or having dense breasts. These recommendations do not apply to persons who have a genetic marker or syndrome associated with a high risk of breast cancer (eg, BRCA1 or BRCA2 genetic variation), a history of high-dose radiation therapy to the chest at a young age, or previous breast cancer or a high-risk breast lesion on previous biopsies.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-uspstf-modalities",
+      "sourceId": "src-uspstf-breast-2024",
+      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Clinician Summary \u2014 How to implement",
+      "claim": "USPSTF states both digital mammography and digital breast tomosynthesis are effective mammographic screening modalities.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Modality options for screening.",
+      "excerpt": "Both digital mammography and digital breast tomosynthesis (or \u201c3D mammography\u201d) are effective mammographic screening modalities.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-acs-average-ages",
+      "sourceId": "src-acs-facts-2024-2025",
+      "locator": "ACS Breast Cancer Facts & Figures 2024-2025, ACS Recommendations for Breast Cancer Screening (average-risk)",
+      "claim": "ACS average-risk guidance (as stated in Facts & Figures 2024\u20132025): ages 40\u201344 may begin annual screening; ages 45\u201354 should have annual mammograms; ages 55+ may transition to every other year or continue annually; continue while in good health with life expectancy of about 10 years or more.",
+      "citation": "link_only",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Contrast with USPSTF biennial starting at 40. Copyrighted ACS text not quoted.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-acs-high-risk",
+      "sourceId": "src-acs-facts-2024-2025",
+      "locator": "ACS Breast Cancer Facts & Figures 2024-2025, ACS Recommendations for Breast Cancer Screening (high-risk)",
+      "claim": "ACS high-risk guidance (as stated in Facts & Figures 2024\u20132025): women at high risk (about 20\u201325% or greater lifetime risk by family-history tools, known high-risk genetic variation or first-degree relative with such a variation, strong family history, or prior chest radiation) generally begin annual MRI and mammography at age 30.",
+      "citation": "link_only",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "High-risk pathway differs from average-risk USPSTF statement. Copyrighted ACS text not quoted.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-osha-bbp",
+      "sourceId": "src-osha-bloodborne",
+      "locator": "OSHA Bloodborne Pathogens overview, What are bloodborne pathogens?",
+      "claim": "Bloodborne pathogens are infectious microorganisms in human blood that can cause disease in humans, including HBV, HCV, and HIV. Needlesticks and other sharps injuries may expose workers.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Workplace infection-control context for mammography staff.",
+      "excerpt": "Bloodborne pathogens are infectious microorganisms in human blood that can cause disease in humans. These pathogens include, but are not limited to, hepatitis B (HBV), hepatitis C (HCV) and human immunodeficiency virus (HIV). Needlesticks and other sharps-related injuries may expose workers to bloodborne pathogens.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-osha-ecp",
+      "sourceId": "src-osha-bloodborne",
+      "locator": "OSHA Bloodborne Pathogens overview, What can be done to control exposure?",
+      "claim": "Employers must implement an exposure control plan covering engineering and work-practice controls, PPE, training, medical surveillance, hepatitis B vaccination, and other 29 CFR 1910.1030 provisions.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Facility-level infection-control obligations alongside MQSA equipment cleaning rules.",
+      "excerpt": "In order to reduce or eliminate the hazards of occupational exposure to bloodborne pathogens, an employer must implement an exposure control plan for the worksite with details on employee protection measures. The plan must also describe how an employer will use engineering and work practice controls, personal protective clothing and equipment, employee training, medical surveillance, hepatitis B vaccinations, and other provisions as required by OSHA's Bloodborne Pathogens Standard (29 CFR 1910.1030).",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-cdc-hh-moments",
+      "sourceId": "src-cdc-hand-hygiene",
+      "locator": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers (page dated 2024-02-27; archived read 2026-10-06)",
+      "claim": "Healthcare personnel should clean hands immediately before touching a patient; before aseptic tasks; before moving from a soiled to a clean body site; after touching a patient or surroundings; after contact with blood, body fluids, or contaminated surfaces; and immediately after glove removal.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Hand hygiene moments applicable in mammography rooms.",
+      "excerpt": "Immediately before touching a patient. Before performing an aseptic task such as placing an indwelling device or handling invasive medical devices. Before moving from work on a soiled body site to a clean body site on the same patient. After touching a patient or patient's surroundings. After contact with blood, body fluids, or contaminated surfaces. Immediately after glove removal.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-cdc-abhs",
+      "sourceId": "src-cdc-hand-hygiene",
+      "locator": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers \u2014 When to use ABHS / soap and water",
+      "claim": "Unless hands are visibly soiled, alcohol-based hand sanitizer is preferred in most clinical situations. Wash with soap and water when hands are visibly soiled, before eating, after using the restroom, and during care of patients with suspected/confirmed C. difficile or norovirus in outbreaks.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Product choice for hand hygiene.",
+      "excerpt": "Unless hands are visibly soiled, ABHS is preferred over soap and water in most clinical situations\u2026 When hands are visibly soiled. Before eating. After using the restroom. During the care of patients with suspected or confirmed infection during outbreaks of C. difficile and norovirus.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-cdc-gloves",
+      "sourceId": "src-cdc-hand-hygiene",
+      "locator": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers \u2014 Know when to wear (and change) gloves",
+      "claim": "Gloves are not a substitute for hand hygiene. Perform hand hygiene before donning gloves and always clean hands after removing gloves.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "PPE plus hand hygiene.",
+      "excerpt": "Gloves are not a substitute for hand hygiene. If your task requires gloves, perform hand hygiene before donning gloves and touching the patient or the patient's surroundings. Always clean your hands after removing gloves.",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-nci-access-nbccedp",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet, How can uninsured or low-income women get a free or low-cost screening mammogram?",
+      "claim": "CDC's National Breast and Cervical Cancer Early Detection Program provides screening services, including clinical breast exams and mammograms, to low-income, uninsured women; contact CDC or 1-800-CDC-INFO for local programs.",
+      "citation": "quoted_public",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "scope": "Access resources technologists may mention; not a guarantee of eligibility.",
+      "excerpt": "CDC's National Breast and Cervical Cancer Early Detection Program provides screening services, including clinical breast exams and mammograms, to low-income, uninsured women throughout the United States and in several U.S. territories. Contact information for local programs is available from the CDC or by calling 1\u2013800\u2013CDC\u2013INFO (1\u2013800\u2013232\u20134636).",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      }
+    }
+  ]
+}

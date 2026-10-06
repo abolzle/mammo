@@ -62,13 +62,15 @@ describe("planner", () => {
   it("offers a shorter quiz instead of inventing a full simulation", () => {
     const sim = planFullSimulationUnavailable(EXAM.totalQuestions, practiceQuestions(loaded.modules).length);
     expect(sim.allowed).toBe(false);
+    const available = practiceQuestions(loaded.modules).length;
+    const requested = available + 40;
     const quiz = planQuiz({
       catalog: { curriculum: loaded.curriculum!, modules: loaded.modules },
-      size: 60,
+      size: requested,
       mode: "test",
     });
     expect(quiz.shorter).toBe(true);
-    expect(quiz.offered).toBeLessThan(60);
+    expect(quiz.offered).toBeLessThan(requested);
   });
 });
 

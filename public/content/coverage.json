@@ -7,11 +7,22 @@
       "statement": "Explain common pre-exam instructions (such as removing deodorant or powder and clothing above the waist) and why they matter for image quality.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-pre-exam"
+      ],
+      "cardIds": [
+        "card-pc-deodorant",
+        "card-pc-deodorant-why",
+        "card-pc-menses"
+      ],
+      "questionIds": [
+        "q-pc-001",
+        "q-pc-002",
+        "q-pc-003",
+        "q-pc-004"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -22,11 +33,19 @@
       "statement": "Build rapport and respond to anxiety, modesty, and physical or cognitive needs while keeping the exam on track.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-exam-process"
+      ],
+      "cardIds": [
+        "card-pc-narrate"
+      ],
+      "questionIds": [
+        "q-pc-005",
+        "q-pc-006",
+        "q-pc-007"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -37,11 +56,19 @@
       "statement": "Explain to a patient in plain language why firm compression improves the image.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-compression"
+      ],
+      "cardIds": [
+        "card-pc-compression-why"
+      ],
+      "questionIds": [
+        "q-pc-008",
+        "q-pc-009",
+        "q-pc-010"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -52,11 +79,19 @@
       "statement": "Explain the need for a repeat image (for example motion or artifact) honestly and without alarming the patient.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-repeat"
+      ],
+      "cardIds": [
+        "card-pc-repeat"
+      ],
+      "questionIds": [
+        "q-pc-011",
+        "q-pc-012",
+        "q-pc-013"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -67,11 +102,25 @@
       "statement": "Summarize current ACS and ACR screening recommendations and how they differ from USPSTF guidance.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-guidelines"
+      ],
+      "cardIds": [
+        "card-pc-uspstf",
+        "card-pc-uspstf-75",
+        "card-pc-acs",
+        "card-pc-uspstf-dense-i",
+        "card-pc-nbccedp"
+      ],
+      "questionIds": [
+        "q-pc-018",
+        "q-pc-019",
+        "q-pc-020",
+        "q-pc-021",
+        "q-pc-048"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -129,11 +178,20 @@
       "statement": "Explain the difference between 2D mammography, DBT, and breast ultrasound to a patient.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-modalities"
+      ],
+      "cardIds": [
+        "card-pc-dbt",
+        "card-pc-modalities-uspstf"
+      ],
+      "questionIds": [
+        "q-pc-041",
+        "q-pc-042",
+        "q-pc-043"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -144,17 +202,28 @@
       "statement": "Tell a patient how and when results reach them and their provider under MQSA.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-results"
+      ],
+      "cardIds": [
+        "card-pc-lay-30",
+        "card-pc-lay-7",
+        "card-pc-nci-2w"
+      ],
       "questionIds": [
         "q-mqsa-022",
         "q-mqsa-023",
-        "q-mqsa-026"
+        "q-mqsa-026",
+        "q-pc-022",
+        "q-pc-023",
+        "q-pc-024",
+        "q-pc-025",
+        "q-pc-044"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 7,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-additional-imaging",
@@ -163,13 +232,24 @@
       "statement": "Explain common reasons for additional imaging after screening without implying a diagnosis.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-callback"
+      ],
+      "cardIds": [
+        "card-pc-repeat-vs-callback",
+        "card-pc-callback"
+      ],
+      "questionIds": [
+        "q-pc-012",
+        "q-pc-026",
+        "q-pc-027",
+        "q-pc-028",
+        "q-pc-029"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "no learner assets yet"
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-clinician-role",
@@ -180,10 +260,20 @@
       "blockedNote": "MQSA covers who receives which report; the technologist's communication scope needs ASRT practice standards (link-only) or equivalent.",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "cardIds": [
+        "card-pc-no-diagnose"
+      ],
+      "questionIds": [
+        "q-pc-006",
+        "q-pc-024",
+        "q-pc-030",
+        "q-pc-033",
+        "q-pc-043"
+      ],
+      "visualIds": [
+        "vis-pc-who-explains-density"
+      ],
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -210,10 +300,16 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "cardIds": [
+        "card-pc-dense-common",
+        "card-pc-dense-feel",
+        "card-pc-dense-risk"
+      ],
+      "questionIds": [
+        "q-pc-031"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -270,12 +366,15 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
+      "cardIds": [
+        "card-pc-transfer-15"
+      ],
       "questionIds": [
-        "q-mqsa-030"
+        "q-mqsa-030",
+        "q-pc-028"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 2,
       "validatedQuestionCount": 0,
       "gap": "missing lesson"
     },
@@ -699,21 +798,31 @@
       "statement": "Map the four report density categories to the two required patient density statements effective September 10, 2024.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-density"
+      ],
       "cardIds": [
         "card-mqsa-density-map",
-        "card-mqsa-density-date"
+        "card-mqsa-density-date",
+        "card-pc-dense-map",
+        "card-pc-dense-date"
       ],
       "questionIds": [
         "q-mqsa-026",
-        "q-mqsa-043"
+        "q-mqsa-043",
+        "q-pc-030",
+        "q-pc-031",
+        "q-pc-032",
+        "q-pc-033",
+        "q-pc-046"
       ],
       "visualIds": [
-        "vis-mqsa-density-boundary"
+        "vis-mqsa-density-boundary",
+        "vis-pc-density-boundary"
       ],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-mqsa-image-labeling",
@@ -797,19 +906,26 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-policies"
+        "les-mqsa-policies",
+        "les-pc-infection"
       ],
       "cardIds": [
         "card-mqsa-complaint",
-        "card-mqsa-infection"
+        "card-mqsa-infection",
+        "card-pc-infection"
       ],
       "questionIds": [
         "q-mqsa-034",
         "q-mqsa-035",
-        "q-mqsa-047"
+        "q-mqsa-047",
+        "q-pc-034",
+        "q-pc-035",
+        "q-pc-047"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 2,
+      "visualIds": [
+        "vis-pc-infection-surface"
+      ],
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1057,17 +1173,19 @@
       "cardIds": [
         "card-ip-eight",
         "card-ip-ongoing-ciq",
-        "card-mqsa-8-attributes"
+        "card-mqsa-8-attributes",
+        "card-pc-compression-attr"
       ],
       "questionIds": [
         "q-ip-037",
         "q-ip-038",
         "q-ip-039",
         "q-ip-040",
-        "q-mqsa-004"
+        "q-mqsa-004",
+        "q-pc-010"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 5,
+      "learnerQuestionCount": 6,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1381,15 +1499,23 @@
       "statement": "Ask about implants before the exam and explain the MQSA expectation for views that maximize visible tissue.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-implants"
+      ],
+      "cardIds": [
+        "card-pc-implant-ask",
+        "card-pc-implant-id"
+      ],
       "questionIds": [
-        "q-mqsa-035"
+        "q-mqsa-035",
+        "q-pc-038",
+        "q-pc-039",
+        "q-pc-040"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-body-habitus",
@@ -1428,17 +1554,29 @@
       "statement": "Distinguish screening from diagnostic mammography by patient presentation and views.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-screen-vs-dx"
+      ],
       "cardIds": [
-        "card-mqsa-screen-def"
+        "card-mqsa-screen-def",
+        "card-pc-screen",
+        "card-pc-diagnostic",
+        "card-pc-dx-dose"
       ],
       "questionIds": [
-        "q-mqsa-033"
+        "q-mqsa-033",
+        "q-pc-014",
+        "q-pc-015",
+        "q-pc-016",
+        "q-pc-017",
+        "q-pc-045"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 1,
+      "visualIds": [
+        "vis-pc-screen-vs-dx"
+      ],
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-us-mri",
@@ -1493,10 +1631,18 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "cardIds": [
+        "card-pc-bbp",
+        "card-pc-hh",
+        "card-pc-gloves"
+      ],
+      "questionIds": [
+        "q-pc-035",
+        "q-pc-036",
+        "q-pc-037"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     }

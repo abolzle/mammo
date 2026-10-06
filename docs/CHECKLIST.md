@@ -36,6 +36,7 @@ Keep this file current. A missing asset or unresolved source is a gap, not a com
 
 ## Stage 2+ (do not start until Stage 1 is accepted)
 
+- [x] Patient-care module batch (`mod-patient-care`): 12 lessons, 35 cards, 48 questions (43 practice / 5 form-a), 4 schematic visuals — AI-assisted, auto_checked beta; not clinically reviewed
 - [ ] Content batches for remaining source-backed-open and needs-source objectives
 - [ ] Two distinct full-length forms when the bank supports 115+30 with family separation
 - [ ] 30-question baseline and 60-question checkpoint as honest sizes

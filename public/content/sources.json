@@ -416,13 +416,17 @@
       "publishedOrEffective": "Updated 2025-12-02",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Re-retrieved 2026-10-06 for image-production evidence on DBT, compression purpose, and low-dose framing.",
+      "retrievalNote": "Re-retrieved 2026-10-06 for image-production evidence on DBT, compression purpose, and low-dose framing; patient-care module also cites results pathway and implants sections.",
       "sections": [
         "What is a mammogram?",
         "What happens during a mammogram?",
         "Screening vs diagnostic",
+        "How are mammogram results reported?",
         "Breast density",
-        "What are 3D mammograms?"
+        "What are 3D mammograms?",
+        "3D mammography (DBT)",
+        "Implants",
+        "MQSA lay report"
       ],
       "rights": {
         "status": "public_domain",
@@ -443,7 +447,15 @@
       "publishedOrEffective": "Updated 2025-12-02",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "sections": [],
+      "sections": [
+        "What are dense breasts?",
+        "Are dense breasts common?",
+        "How is breast density categorized?",
+        "Does density affect mammogram?",
+        "Are dense breasts a risk factor?",
+        "Additional screening",
+        "FDA notification"
+      ],
       "rights": {
         "status": "public_domain",
         "canRead": true,
@@ -545,11 +557,15 @@
       "title": "USPSTF Recommendation: Breast Cancer Screening (2024)",
       "publisher": "U.S. Preventive Services Task Force (AHRQ)",
       "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening",
-      "publishedOrEffective": "2024",
+      "publishedOrEffective": "Final recommendation April 30, 2024",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Retrieved; not yet extracted. Useful contrast with ACS/ACR guidance named in the ARRT outline.",
-      "sections": [],
+      "retrievalNote": "Full recommendation page retrieved 2026-10-06, including recommendation summary table and clinician summary.",
+      "sections": [
+        "Recommendation Summary",
+        "Clinician Summary",
+        "FAQ"
+      ],
       "rights": {
         "status": "public_domain",
         "canRead": true,
@@ -568,7 +584,7 @@
       "publishedOrEffective": null,
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "link_only",
-      "retrievalNote": "HTTP 200 but compressed payload not parsed by tooling; read in a browser in Stage 2. Named in the ARRT outline for screening/BSE/CBE recommendations.",
+      "retrievalNote": "Direct ACS HTML page timed out to automated retrieval on 2026-10-06. Average-risk ages confirmed via ACS Breast Cancer Facts & Figures 2024-2025 PDF (src-acs-facts-2024-2025). Keep this page as the live guideline locator; do not quote ACS wording.",
       "sections": [],
       "rights": {
         "status": "copyrighted_link_only",
@@ -704,7 +720,11 @@
       "publishedOrEffective": null,
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "sections": [],
+      "sections": [
+        "What are bloodborne pathogens?",
+        "What can be done to control exposure?",
+        "Needlestick first steps"
+      ],
       "rights": {
         "status": "public_domain",
         "canRead": true,
@@ -720,10 +740,58 @@
       "title": "CDC — Clinical Safety: Hand Hygiene for Healthcare Workers",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+      "publishedOrEffective": "Page dated 2024-02-27",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Live cdc.gov returned HTTP 403 to automated clients on 2026-10-06. Full Clinical Safety: Hand Hygiene for Healthcare Workers page read via Internet Archive snapshot targeting 2025-09-01 (page dated February 27, 2024). Re-verify live page before publishing.",
+      "sections": [
+        "Key points",
+        "Know when to clean your hands",
+        "When to use ABHS",
+        "When to wash with soap and water",
+        "Know when to wear (and change) gloves"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. Government work (verify page notices)."
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-acs-facts-2024-2025",
+      "title": "Breast Cancer Facts & Figures 2024-2025 — screening guideline sidebar",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/breast-cancer-facts-and-figures/2024/breast-cancer-facts-and-figures-2024.pdf",
+      "publishedOrEffective": "2024–2025 edition",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "PDF retrieved 2026-10-06. Average-risk and high-risk screening ages read from the ACS recommendations sidebar. Copyrighted: facts taught in original wording with link-only citations; no quoted excerpts stored.",
+      "sections": [
+        "American Cancer Society Recommendations for Breast Cancer Screening"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACS copyrighted publication; free download does not authorize redistribution or quoting into the bank."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-cdc-nbccedp",
+      "title": "CDC — National Breast and Cervical Cancer Early Detection Program",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/cancer/nbccedp/index.htm",
       "publishedOrEffective": null,
-      "retrievedOn": null,
-      "retrievalStatus": "blocked",
-      "retrievalNote": "cdc.gov returned HTTP 403 to automated requests on 2026-10-06. Retry from a browser.",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "link_only",
+      "retrievalNote": "Live CDC page timed out to automated retrieval on 2026-10-06. NCI Mammograms fact sheet (public domain) describes the program and contact number; use that for teachable facts. Keep this entry as the program homepage locator.",
       "sections": [],
       "rights": {
         "status": "public_domain",
