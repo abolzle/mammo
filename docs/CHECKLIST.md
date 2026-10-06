@@ -39,6 +39,8 @@ Keep this file current. A missing asset or unresolved source is a gap, not a com
 - [x] Patient-care module batch (`mod-patient-care`): 12 lessons, 35 cards, 48 questions (43 practice / 5 form-a), 4 schematic visuals — AI-assisted, auto_checked beta; not clinically reviewed
 - [ ] Content batches for remaining source-backed-open and needs-source objectives
 - [ ] Two distinct full-length forms when the bank supports 115+30 with family separation
-- [ ] 30-question baseline and 60-question checkpoint as honest sizes
+- [x] Practice page: topic and mixed quizzes (study or test mode), 30-question baseline, 60-question checkpoint, and full 145-question / 150-minute simulation, each assembled from reserved Form A by blueprint allocation and family separation; options switch on automatically when the bank supports them, otherwise a per-area shortfall and the largest valid shorter option are shown
+- [x] Test mode: feedback hidden until submit, flags and review grid, autosave, wall-clock timer across refresh/backgrounding with submit on expiry, answer required before advancing in full simulation; untimed and extended-time accommodations labeled non-standard
+- [x] Results: headline on scored items only, pilots revealed after submit, domain counts, topic gaps, time, confidence calibration, first exposure vs repeat, "Limited evidence" under 20 items, retakes labeled
 - [ ] Optional replaceable sync adapter (local mode remains complete)
 - [ ] Hosting-term check immediately before any public deploy

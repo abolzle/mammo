@@ -23,16 +23,36 @@ test("learner can start, answer, see explanation, finish, and resume after refre
   await expect(page.getByText(/study session|beta quiz|recap/i).first()).toBeVisible();
 });
 
-test("practice does not invent a full-length simulation", async ({ page }) => {
+test("every reserved option is either startable or refused with a specific shortfall and a shorter option", async ({ page }) => {
   await page.goto("/practice/");
-  await page.getByRole("button", { name: /full 145-question simulation/i }).click();
-  await expect(page.getByRole("status")).toContainText(/not offered/i);
+  for (const title of ["30-question baseline", "60-question checkpoint", "Full 145-question simulation"]) {
+    const card = page.locator("[data-slot=card]").filter({ hasText: title });
+    await expect(card).toBeVisible();
+    const refused = await card.getByText("Not enough questions yet").count();
+    if (refused) {
+      await expect(card).toContainText(/Short by blueprint area|remain for simulated pilots/);
+      await expect(card.getByRole("button", { name: /instead/i })).toBeVisible();
+    } else {
+      await expect(card.getByRole("button", { name: /^Start/ })).toBeVisible();
+    }
+  }
 });
 
-test("checkpoint is refused honestly", async ({ page }) => {
+test("test mode hides feedback until submit and resumes after refresh", async ({ page }) => {
   await page.goto("/practice/");
-  await page.getByRole("button", { name: /60-question checkpoint/i }).click();
-  await expect(page.getByRole("status")).toContainText(/60/);
+  await page.getByRole("button", { name: /Test mode/ }).click();
+  await page.getByRole("button", { name: /Start \d+-question mixed quiz/ }).click();
+  await expect(page).toHaveURL(/session/);
+  await page.getByRole("radio").first().click();
+  await page.getByRole("button", { name: "Flag for review" }).click();
+  await expect(page.getByText(/best answer|not the best answer/i)).toHaveCount(0);
+  await page.reload();
+  await expect(page.getByText(/1 answered · 1 flagged/)).toBeVisible();
+  await expect(page.getByText(/left$/)).toBeVisible();
+  await page.getByRole("button", { name: "Submit test" }).click();
+  await page.getByRole("dialog").getByRole("button", { name: "Submit" }).click();
+  await expect(page.getByText(/not an ARRT scaled score/i)).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Confidence calibration" })).toBeVisible();
 });
 
 test("learn and settings routes load", async ({ page }) => {

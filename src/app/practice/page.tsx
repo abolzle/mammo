@@ -201,7 +201,7 @@ export default function PracticePage() {
                   <p className="text-sm text-muted-foreground">{topicOffer.ok ? `${topicOffer.why} ${timeText(topicOffer, timing, mode)}` : topicOffer.reason}</p>
                 ) : null}
                 <Button className="min-h-11" disabled={busy || !topicOffer?.ok} onClick={() => activeTopic && void start({ kind: "topic_quiz", topicId: activeTopic, size: topicSize })}>
-                  Start {topicOffer?.ok ? topicOffer.label.toLowerCase() : "topic quiz"}
+                  Start {topicOffer?.ok ? `${topicOffer.size}-question topic quiz` : "topic quiz"}
                 </Button>
               </>
             ) : (
