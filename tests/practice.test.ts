@@ -423,11 +423,8 @@ describe("current bank", () => {
           : `${k}: refused (${o.shortfall.map((s) => `${s.id} ${s.have}/${s.need}`).join(", ")}) → ${o.fallback?.label ?? "none"}`;
       });
       lines.push(`${form} usable: ${formPool(loaded.modules, form).length}`, ...status);
-      // Form A is fully live. Form B baseline/checkpoint are live; simulation may refuse until banks grow.
-      expect(offerAssessment({ kind: "baseline", form }, { curriculum, modules: loaded.modules }).ok).toBe(true);
-      expect(offerAssessment({ kind: "checkpoint", form }, { curriculum, modules: loaded.modules }).ok).toBe(true);
-      if (form === "form-a") {
-        expect(offerAssessment({ kind: "simulation", form }, { curriculum, modules: loaded.modules }).ok).toBe(true);
+      for (const k of ["baseline", "checkpoint", "simulation"] as const) {
+        expect(offerAssessment({ kind: k, form }, { curriculum, modules: loaded.modules }).ok).toBe(true);
       }
     }
     console.log(lines.join("\n"));
