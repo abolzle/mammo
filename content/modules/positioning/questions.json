@@ -8153,6 +8153,399 @@
           }
         ]
       }
+    },
+    {
+      "id": "q-pos-128",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-fb-cir-two-exam-cc-mlo",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "For accreditation clinical image review of each mammography unit, which view set does MQSA evidence in this module require the facility to submit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only MLO views from a single examination.",
+          "rationale": "Review uses CC and MLO from two examinations."
+        },
+        {
+          "id": "b",
+          "text": "Craniocaudal (CC) and mediolateral oblique (MLO) views from two examinations.",
+          "rationale": "Correct. CIR for each unit uses CC and MLO from two exams."
+        },
+        {
+          "id": "c",
+          "text": "Only implant-displaced views from three examinations.",
+          "rationale": "Implant-displaced views are not the stated CIR submission pair."
+        },
+        {
+          "id": "d",
+          "text": "Any two random projections, as long as laterality markers are present.",
+          "rationale": "The required pair is specifically CC and MLO from two examinations."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Accreditation clinical image review for each unit uses craniocaudal (CC) and mediolateral oblique (MLO) views from two examinations.",
+      "variants": {
+        "simpler": "CIR per unit: CC + MLO from two exams.",
+        "example": "When preparing accreditation images, pull two exams\u2019 standard CC/MLO pairs."
+      },
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-129",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-exaggerated-cleavage-at"
+      ],
+      "familyId": "fam-pos-fb-at-view-named",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In the public terminology sources cited for this module, how is the axillary tail mammography view treated relative to cleavage view?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As an unofficial nickname for a repeated identical standard CC.",
+          "rationale": "It is listed as a distinct view qualifier, not a nickname for a repeat CC."
+        },
+        {
+          "id": "b",
+          "text": "As a physicist-only phantom projection never used clinically.",
+          "rationale": "It is a clinical mammography-view qualifier."
+        },
+        {
+          "id": "c",
+          "text": "As a distinct mammography-view qualifier listed alongside cleavage view.",
+          "rationale": "Correct. Axillary tail view is a distinct qualifier alongside cleavage."
+        },
+        {
+          "id": "d",
+          "text": "As a synonym for mediolateral oblique only.",
+          "rationale": "AT is not defined as a synonym for MLO in the cited terminology."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Axillary tail mammography view is listed as a distinct mammography-view qualifier alongside cleavage view.",
+      "variants": {
+        "simpler": "Axillary tail view is a named view alongside cleavage.",
+        "example": "When documenting supplemental views, AT is its own labeled projection\u2014not a free-text alias."
+      },
+      "evidenceIds": [
+        "ev-pqd-axillary-tail-term",
+        "ev-pqd-cleavage-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-130",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-implant-displaced",
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-pos-fb-recon-skip-mammo",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "NCI\u2019s implant guidance notes an exception to routine mammography of which reconstructed situation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every patient with augmentation implants must stop all mammograms permanently.",
+          "rationale": "Patients with implants and native tissue should continue mammograms."
+        },
+        {
+          "id": "b",
+          "text": "Most reconstructed breasts after mastectomy usually do not need a mammogram of the reconstructed breast.",
+          "rationale": "Correct. NCI: most post-mastectomy reconstructed breasts usually do not need mammography of that side."
+        },
+        {
+          "id": "c",
+          "text": "Implant-displaced views are forbidden whenever any implant is present.",
+          "rationale": "Displacement views may be used because implants can hide tissue."
+        },
+        {
+          "id": "d",
+          "text": "Screening is replaced by ultrasound for all implant patients under age 40.",
+          "rationale": "NCI does not replace mammography with ultrasound for all implant patients."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "People with breast implants should continue mammograms; implants can hide tissue and displacement views may be used. Most people with implants after mastectomy reconstruction usually do not need a mammogram of the reconstructed breast.",
+      "variants": {
+        "simpler": "Post-mastectomy reconstruction: usually no mammogram of that reconstructed breast.",
+        "example": "Confirm surgical history before assuming both sides need mammographic imaging."
+      },
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement",
+        "ev-pc-nci-implants"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-131",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-interventional-prep"
+      ],
+      "familyId": "fam-pos-fb-up-wrong-three",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "According to AHRQ\u2019s Universal Protocol summary used in this module, the protocol was developed to prevent which trio of errors?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wrong contrast brand, wrong kVp, and wrong grid.",
+          "rationale": "Those are technique issues, not the Universal Protocol\u2019s stated purpose."
+        },
+        {
+          "id": "b",
+          "text": "Wrong-site, wrong-procedure, and wrong-person surgery (or procedure).",
+          "rationale": "Correct. UP targets wrong-site, wrong-procedure, and wrong-person events."
+        },
+        {
+          "id": "c",
+          "text": "Wrong BI-RADS category, wrong density letter, and wrong lay-summary language.",
+          "rationale": "Reporting categories are outside UP\u2019s stated purpose."
+        },
+        {
+          "id": "d",
+          "text": "Wrong MQSA certificate type, wrong accreditation body, and wrong EQUIP attestation path.",
+          "rationale": "Certification/EQUIP topics are not what UP was developed to prevent."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "The Universal Protocol (summarized by AHRQ) was developed to prevent wrong-site, wrong-procedure, and wrong-person surgery and includes preprocedure verification, site marking, and a time-out.",
+      "variants": {
+        "simpler": "Universal Protocol: prevent wrong site, procedure, and person.",
+        "example": "Before stereotactic biopsy, frame safety checks around that three-way prevention goal."
+      },
+      "evidenceIds": [
+        "ev-pqd-universal-protocol"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-132",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-tangential-rolled"
+      ],
+      "familyId": "fam-pos-fb-rolled-loinc",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In the LOINC change-reason language cited for rolled mammography views, what happens to the breast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The breast is rolled to one side.",
+          "rationale": "Correct. Rolled view: breast is rolled to one side."
+        },
+        {
+          "id": "b",
+          "text": "The receptor is rotated 90\u00b0 while the breast stays fixed in CC.",
+          "rationale": "The cited language is about rolling the breast, not only rotating the receptor."
+        },
+        {
+          "id": "c",
+          "text": "Only the implant is displaced while native tissue stays unmoved.",
+          "rationale": "That describes implant displacement, not the rolled-view definition."
+        },
+        {
+          "id": "d",
+          "text": "The tube angulation alone creates a true lateral without breast motion.",
+          "rationale": "True lateral geometry is a different topic than rolling the breast."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "In a rolled mammography view, the breast is rolled to one side (LOINC change-reason language).",
+      "variants": {
+        "simpler": "Rolled view = breast rolled to one side.",
+        "example": "When the order says \u201crolled CC,\u201d expect intentional breast roll\u2014not a unchanged repeat."
+      },
+      "evidenceIds": [
+        "ev-pqd-rolled-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-133",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-pos-fb-fat-necrosis-scar",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "After lumpectomy or radiation, a patient reports a new firm lump near the treatment site. Which benign entity in this module\u2019s evidence can replace fat with a cyst or scar that feels like a firm lump?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inflammatory breast cancer confined to one duct.",
+          "rationale": "IBC is malignant and framed differently; not the benign post-injury entity asked here."
+        },
+        {
+          "id": "b",
+          "text": "Intraductal papilloma that never follows trauma.",
+          "rationale": "Papilloma is a duct growth; not the post-injury/surgery/radiation fat-necrosis pattern."
+        },
+        {
+          "id": "c",
+          "text": "Fat necrosis after injury, surgery, or radiation.",
+          "rationale": "Correct. Fat necrosis may form a cyst or scar that feels like a firm lump after injury/surgery/radiation."
+        },
+        {
+          "id": "d",
+          "text": "Phyllodes tumor arising only from deodorant residue.",
+          "rationale": "Phyllodes are connective-tissue tumors; unrelated to deodorant."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Fat necrosis is a benign condition after injury/surgery/radiation in which fat may be replaced by a cyst or scar that can feel like a firm lump.",
+      "variants": {
+        "simpler": "Post-treatment firm lump may be fat necrosis (benign).",
+        "example": "Document surgical/radiation history when a new firm area appears near a scar."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fat-necrosis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }
