@@ -1,0 +1,628 @@
+{
+  "lessons": [
+    {
+      "id": "les-pos-standard-pair",
+      "objectiveId": "obj-pp-cc",
+      "title": "Why screening starts with CC and MLO",
+      "estMinutes": 3,
+      "summary": "The two standard projections are the accreditation pair and the everyday tissue-coverage baseline.",
+      "explanation": [
+        {
+          "heading": "Two views, complementary tissue",
+          "body": "A typical screening mammogram uses two projections of each breast: **craniocaudal (CC)** and **mediolateral oblique (MLO)**. The goal of positioning is not a pretty outline \u2014 it is to project **as much breast tissue as possible** onto the detector so disease is less likely to be missed because tissue was left off the image."
+        },
+        {
+          "heading": "Why accreditation cares about this pair",
+          "body": "Under MQSA, when an accreditation body reviews clinical images for each unit, the facility submits **CC and MLO views from two examinations**. FDA\u2019s EQUIP FAQ also notes that those same standard CC/MLO views \u2014 even when acquired during a diagnostic exam \u2014 can be scored on the eight clinical image attributes."
+        },
+        {
+          "heading": "What \u201cgood positioning\u201d means in the regulation",
+          "body": "Among those eight attributes, **positioning** means imaging enough breast tissue that cancers are not likely to be missed because of inadequate positioning. Detailed score-sheet criteria live in accreditation materials (link-only); this module teaches the public and openly restatable evaluation ideas without inventing correction recipes."
+        }
+      ],
+      "example": "A facility preparing accreditation clinical images pulls a fatty-breast exam and a dense-breast exam and submits the CC and MLO pairs for each unit \u2014 the same views technologists produce every day.",
+      "misconception": {
+        "belief": "If the nipple looks centered, positioning is automatically acceptable.",
+        "correction": "Centering alone is not the regulatory goal. The positioning attribute asks whether enough tissue was imaged; accreditation materials add specific landmarks such as posterior tissue depth."
+      },
+      "variants": {
+        "simpler": "CC + MLO are the everyday pair and the accreditation pair. Positioning succeeds when enough tissue is on the image.",
+        "example": "If only a pretty nipple profile is achieved but posterior tissue is missing, the positioning attribute can still fail.",
+        "deeper": "ARRT names the ACR 1999 Clinical Image Quality manual as a positioning reference; Mammo does not reproduce that copyrighted book. Use ACR accreditation links alongside the open sources cited here."
+      },
+      "observationPrompt": "Ask your preceptor which landmarks your facility checklist uses for CC and MLO acceptance \u2014 then compare that list to the MQSA positioning attribute wording.",
+      "checkQuestionId": "q-pos-001",
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission",
+        "ev-pos-mqsa-positioning-attribute",
+        "ev-pos-fda-equip-cc-mlo-diagnostic",
+        "ev-pos-acr-ciq-link-only"
+      ],
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pos-cc-criteria",
+      "objectiveId": "obj-pp-cc",
+      "title": "CC view: purpose and evaluation ideas",
+      "estMinutes": 3.5,
+      "summary": "CC images the breast from superior to inferior and is judged by posterior tissue coverage relative to the MLO.",
+      "explanation": [
+        {
+          "heading": "Purpose",
+          "body": "The **craniocaudal (CC)** projection images the breast along a superior-to-inferior beam path. Together with the MLO, it helps show tissue that one oblique view alone may under-represent \u2014 especially more medial tissue that is harder to include on MLO."
+        },
+        {
+          "heading": "Evaluation ideas you can source",
+          "body": "An open ACR\u2013AAPM\u2013SIIM digital mammography image-quality guideline (link-only) describes clinical positioning assessment using the **posterior nipple line (PNL)**: on the CC, the distance from nipple to the posterior edge of the image should be **no more than about 1 cm less** than the MLO PNL (nipple to the anterior edge of pectoralis). That comparison is about **retromammary / posterior tissue**, not a cosmetic nipple placement contest."
+        },
+        {
+          "heading": "What this lesson does not invent",
+          "body": "Facility score sheets may add more CC checks (skin folds, exaggeration, nipple profile rules). Those details belong in ACR accreditation materials and clinical preceptorship. This lesson stays with sourced purpose and the PNL comparison idea."
+        }
+      ],
+      "example": "You compare the CC and MLO of the same breast: if the CC PNL is more than about a centimeter shorter than the MLO PNL, posterior tissue may be under-represented on the CC.",
+      "misconception": {
+        "belief": "Seeing pectoralis on every CC is required.",
+        "correction": "The open guideline discussion focuses on posterior tissue depth via PNL comparison; pectoralis visibility on CC is not framed there as a universal requirement."
+      },
+      "variants": {
+        "simpler": "CC is top-to-bottom. Check that posterior tissue depth is close to the MLO using the PNL idea.",
+        "example": "A CC that looks neat but is much shorter front-to-back than the MLO may have left posterior tissue off the detector."
+      },
+      "checkQuestionId": "q-pos-005",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo",
+        "ev-pos-mqsa-positioning-attribute",
+        "ev-pos-acr-ciq-link-only"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-positioning"
+    },
+    {
+      "id": "les-pos-mlo-criteria",
+      "objectiveId": "obj-pp-mlo",
+      "title": "MLO view: purpose and evaluation ideas",
+      "estMinutes": 3.5,
+      "summary": "MLO follows the pectoralis orientation to include posterior and axillary-tail tissue and is checked for muscle shape and depth.",
+      "explanation": [
+        {
+          "heading": "Purpose",
+          "body": "The **mediolateral oblique (MLO)** is angled to travel roughly along the pectoralis major. That geometry is how technologists bring **posterior breast tissue** and the **axillary tail** onto the image \u2014 tissue that a true lateral or a CC alone may not show as well."
+        },
+        {
+          "heading": "Sourced evaluation ideas",
+          "body": "The same open ACR\u2013AAPM\u2013SIIM guideline (link-only) states that on MLO the **anterior edge of pectoralis should be convex**, and it is **desirable for the muscle to extend to the level of the nipple**. The MLO PNL is drawn **perpendicular to the muscle**, often near **45\u00b0**."
+        },
+        {
+          "heading": "Inframammary fold and other checklist items",
+          "body": "Many facility and accreditation checklists also look for an open inframammary fold and freedom from large obscuring folds. Treat those as clinical/accreditation criteria to learn with your preceptor and ACR materials \u2014 this module does not invent numeric pass/fail rules beyond what the cited open sources support."
+        }
+      ],
+      "example": "On a schematic MLO, a wide superior pectoralis band that narrows and reaches near nipple level with a convex anterior edge matches the sourced \u201cdesirable\u201d muscle description.",
+      "misconception": {
+        "belief": "A steeper angle is always better.",
+        "correction": "Angle serves tissue coverage along the pectoralis. The sourced evaluation language focuses on muscle contour and depth relative to the nipple/PNL, not on maximizing degrees for their own sake."
+      },
+      "variants": {
+        "simpler": "MLO follows the muscle to catch posterior and axillary-tail tissue. Look for a convex pectoralis that ideally reaches nipple level.",
+        "example": "If the muscle stops high above the nipple and posterior tissue looks truncated, discuss the image with your preceptor before assuming it is acceptable."
+      },
+      "checkQuestionId": "q-pos-009",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo",
+        "ev-pos-mqsa-positioning-attribute",
+        "ev-pos-acr-ciq-link-only"
+      ],
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pos-pnl",
+      "objectiveId": "obj-pp-mlo",
+      "title": "Posterior nipple line: comparing CC and MLO depth",
+      "estMinutes": 3,
+      "summary": "PNL is a simple length comparison that asks whether the CC captured nearly as much posterior depth as the MLO.",
+      "explanation": [
+        {
+          "heading": "What PNL measures",
+          "body": "Think of PNL as a **depth ruler**. On MLO it runs from the nipple perpendicular to the anterior pectoralis edge. On CC it runs from the nipple back to the posterior image edge (chest-wall side of the image)."
+        },
+        {
+          "heading": "The approximate comparison",
+          "body": "Sourced teaching (link-only guideline): the CC PNL should be **no more than about 1 cm less** than the MLO PNL. A large gap suggests the CC may not include as much posterior tissue as the MLO demonstrated was available."
+        },
+        {
+          "heading": "Beta caution",
+          "body": "Exact facility tolerances, measurement technique on DBT slices, and how to correct a short CC are clinical skills. This app stays at the comparison concept and keeps related quiz items out of any clinically reviewed pool."
+        }
+      ],
+      "example": "MLO PNL measures about 11 cm; CC PNL measures about 9.5 cm \u2014 within about 1 cm \u2014 so posterior depth roughly matches. If CC were 8 cm, you would flag posterior tissue for review.",
+      "misconception": {
+        "belief": "PNL is a pathology measurement of a lesion.",
+        "correction": "Here PNL is a positioning geometry check comparing how far back tissue is included on CC versus MLO."
+      },
+      "variants": {
+        "simpler": "PNL asks: did the CC go nearly as far back as the MLO?",
+        "example": "Draw both lengths on a schematic (not a real mammogram) and compare; a big CC shortfall means missing posterior tissue."
+      },
+      "checkQuestionId": "q-pos-013",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pos-compression-purpose",
+      "objectiveId": "obj-pc-explain-compression",
+      "title": "Why we compress (purpose, not paddle QC)",
+      "estMinutes": 3,
+      "summary": "Compression exists to separate tissue, reduce motion, and improve the radiograph \u2014 explain that in plain language.",
+      "explanation": [
+        {
+          "heading": "Patient-friendly purpose",
+          "body": "NCI tells patients the breast is pressed between two plates because **pressing helps get a better x-ray picture**. Several images are taken from different angles with repositioning between exposures."
+        },
+        {
+          "heading": "What reviewers mean by the compression attribute",
+          "body": "In MQSA clinical image review, **compression** means it was applied so overlying tissue is less likely to obscure findings and so **motion artifact** is minimized."
+        },
+        {
+          "heading": "Image-quality reasons (link-only detail)",
+          "body": "An open professional guideline restates additional mechanisms: immobilization and shorter exposure (less blur), thinner more uniform tissue (less scatter and superposition), and lower breast dose. This lesson is about **why** we compress \u2014 not about performing manufacturer compression-force QC tests."
+        }
+      ],
+      "example": "A patient asks why it has to hurt. You explain that firm, even compression spreads tissue so small findings are less hidden and so the exposure can be shorter, which also reduces blur from motion.",
+      "misconception": {
+        "belief": "Compression is mainly to reduce dose, so lighter compression is fine if dose looks acceptable.",
+        "correction": "Dose reduction is one benefit discussed in professional guidance, but the clinical-image attribute emphasizes reducing obscuration and motion. Inadequate compression can fail image quality even when dose is not the complaint."
+      },
+      "variants": {
+        "simpler": "Compression separates overlapping tissue and reduces motion so the picture is clearer.",
+        "example": "If a patient moves because compression was released too early, motion blur can hide calcifications even when positioning landmarks look present."
+      },
+      "observationPrompt": "Listen to how your preceptor explains compression in one sentence. Practice a version that is honest about discomfort without over-promising painlessness.",
+      "checkQuestionId": "q-pos-017",
+      "evidenceIds": [
+        "ev-pos-nci-compression-purpose",
+        "ev-pos-mqsa-compression-attribute",
+        "ev-pos-pmc-compression-benefits"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-positioning"
+    },
+    {
+      "id": "les-pos-labels",
+      "objectiveId": "obj-mqsa-image-labeling",
+      "title": "View and laterality labels near the axilla",
+      "estMinutes": 2.5,
+      "summary": "Every image carries permanent identifiers; view/laterality belong near the axilla and must not hide anatomy.",
+      "explanation": [
+        {
+          "heading": "Required identification",
+          "body": "MQSA requires each mammographic image to show, permanently and legibly, identifiers including patient name plus an additional identifier, date of examination, **view and laterality**, facility name/location, technologist identification, cassette/screen identification (as applicable), and unit identification when a facility has more than one unit."
+        },
+        {
+          "heading": "Where view/laterality go",
+          "body": "View and laterality must be placed **near the axilla**. No label may obscure anatomic structures."
+        },
+        {
+          "heading": "Why technologists care during positioning",
+          "body": "Label location is part of examination identification \u2014 one of the eight clinical image attributes. A perfectly positioned breast with missing or misplaced markers still fails identification."
+        }
+      ],
+      "example": "On a right MLO schematic, the RMLO marker sits in the axillary region, not over the nipple or mid-breast parenchyma.",
+      "misconception": {
+        "belief": "Digital systems auto-tag views, so on-image markers no longer matter.",
+        "correction": "MQSA still requires the view and laterality information on the image near the axilla in a permanent, unambiguous form. Know your facility\u2019s compliant labeling workflow."
+      },
+      "variants": {
+        "simpler": "Put view + side near the axilla. Never cover anatomy.",
+        "example": "If a marker lands over dense tissue, correct labeling before the image is accepted for interpretation."
+      },
+      "checkQuestionId": "q-pos-021",
+      "evidenceIds": [
+        "ev-pos-mqsa-image-identification",
+        "ev-pos-fda-equip-eight-attributes"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-positioning"
+    },
+    {
+      "id": "les-pos-screening-diagnostic",
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "title": "Screening versus diagnostic: views and purpose",
+      "estMinutes": 3,
+      "summary": "Screening uses routine views in asymptomatic patients; diagnostic exams are individualized and often add angles.",
+      "explanation": [
+        {
+          "heading": "NCI\u2019s plain distinction",
+          "body": "Screening mammograms look for cancer **before symptoms**. Diagnostic mammograms evaluate a **lump or other change**. Same machines; diagnostic work usually needs **images from more angles**, which means a higher radiation dose than a routine screen."
+        },
+        {
+          "heading": "MQSA audit wording",
+          "body": "For medical outcomes audit definitions, a **screening** mammogram is routine views of an asymptomatic patient; a **diagnostic** mammogram is an individualized examination for clinical findings or an abnormal screening result."
+        },
+        {
+          "heading": "Positioning implication",
+          "body": "Diagnostic work may still include standard CC/MLO plus problem-solving views. EQUIP guidance notes that standard CC/MLO acquired in a diagnostic exam can still be reviewed on the eight attributes."
+        }
+      ],
+      "example": "An asymptomatic patient gets routine bilateral CC and MLO. A patient recalled for a new asymmetry may return for additional angled or spot views tailored to that finding.",
+      "misconception": {
+        "belief": "Diagnostic always means a completely different machine.",
+        "correction": "NCI states the same machines are used; the difference is the individualized imaging approach and typically more angles."
+      },
+      "variants": {
+        "simpler": "Screening = routine views, no symptoms. Diagnostic = tailored views for a problem.",
+        "example": "A callback for calcifications may add magnification views even though the screening CC/MLO already exist."
+      },
+      "checkQuestionId": "q-pos-025",
+      "evidenceIds": [
+        "ev-pos-nci-screening-vs-diagnostic",
+        "ev-pos-mqsa-screening-diagnostic-audit",
+        "ev-pos-fda-equip-cc-mlo-diagnostic"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-positioning"
+    },
+    {
+      "id": "les-pos-implant-inquiry",
+      "objectiveId": "obj-pp-implant-inquiry",
+      "title": "Ask about implants before you image",
+      "estMinutes": 2.5,
+      "summary": "MQSA requires an implant inquiry and views that maximize visible tissue unless a physician modifies the plan.",
+      "explanation": [
+        {
+          "heading": "The required question",
+          "body": "Each facility must have a procedure to **ask whether the patient has breast implants before** the mammographic exam."
+        },
+        {
+          "heading": "The imaging expectation",
+          "body": "Unless **contraindicated** or **modified by a physician\u2019s directions**, patients with implants must have mammographic views that **maximize visualization of breast tissue**."
+        },
+        {
+          "heading": "Why the question comes first",
+          "body": "NCI notes implants can hide tissue and that patients should tell the facility. Knowing implant status before positioning prevents a standard four-view habit from being applied blindly when a modified approach is needed."
+        }
+      ],
+      "example": "During history intake you ask about implants and reconstruction. The patient reports bilateral augmentation; you follow the facility implant procedure rather than assuming a non-implant screening set.",
+      "misconception": {
+        "belief": "If the order does not mention implants, you do not need to ask.",
+        "correction": "MQSA puts the inquiry procedure on the facility \u2014 ask before the exam, not only when the requisition happens to mention implants."
+      },
+      "variants": {
+        "simpler": "Ask first. Then maximize visible tissue unless a physician changes the plan.",
+        "example": "A patient with a history of implant exchange still needs the inquiry \u2014 status can change between exams."
+      },
+      "checkQuestionId": "q-pos-029",
+      "evidenceIds": [
+        "ev-pos-mqsa-implant-inquiry",
+        "ev-pos-nci-implants-displacement"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-positioning"
+    },
+    {
+      "id": "les-pos-implant-displaced",
+      "objectiveId": "obj-pp-implant-displaced",
+      "title": "Implant-displaced views: what they are for",
+      "estMinutes": 3,
+      "summary": "Displacement views pull native tissue forward so it can be imaged with less implant overlap \u2014 still under MQSA\u2019s maximize-tissue rule.",
+      "explanation": [
+        {
+          "heading": "The problem implants create",
+          "body": "NCI states implants can **hide some breast tissue**, making unusual changes harder to see. Patients with implants should continue mammography (with the usual reconstruction exception after mastectomy) and tell the facility."
+        },
+        {
+          "heading": "Displacement views",
+          "body": "NCI names **implant displacement views** as a special technique that may be used. In plain terms, native breast tissue is drawn anteriorly while the implant is displaced back, so compressed tissue can be imaged with less implant in the field."
+        },
+        {
+          "heading": "Regulatory frame \u2014 not a step-by-step recipe",
+          "body": "MQSA requires views that maximize tissue visualization unless contraindicated or physician-modified. Exact hand positions, when displacement is impossible (for example encapsulation), and how many views your facility acquires are clinical protocol details for preceptorship and link-only professional materials \u2014 not invented here."
+        }
+      ],
+      "example": "After implant-status confirmation, the technologist acquires the facility\u2019s implant protocol, which includes displacement views intended to show more native tissue than implant-in-field images alone.",
+      "misconception": {
+        "belief": "Implant displacement replaces the need to maximize tissue overall.",
+        "correction": "Displacement is a technique in service of MQSA\u2019s maximize-visualization expectation (unless modified). It is not a loophole to skip tissue that still needs imaging."
+      },
+      "variants": {
+        "simpler": "Displacement moves tissue forward so the implant hides less of it.",
+        "example": "If displacement is not possible, follow physician direction / facility procedure \u2014 do not invent a workaround from memory of a textbook diagram."
+      },
+      "checkQuestionId": "q-pos-033",
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement",
+        "ev-pos-mqsa-implant-inquiry"
+      ],
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pos-problem-solving",
+      "objectiveId": "obj-pp-spot-mag-nipple",
+      "title": "Problem-solving views: spot and magnification purposes",
+      "estMinutes": 3,
+      "summary": "Diagnostic work adds tailored views; magnification is an equipment-capable tool for detail, not a screening default.",
+      "explanation": [
+        {
+          "heading": "Why extra views exist",
+          "body": "When screening is abnormal or the patient has symptoms, imaging becomes individualized. Additional projections and compression techniques are chosen to answer a specific question \u2014 not to repeat the screening set for its own sake."
+        },
+        {
+          "heading": "Magnification capability (equipment fact)",
+          "body": "MQSA requires that systems used for noninterventional problem solving have **magnification** capability, provide at least one magnification value in the **1.4\u20132.0** range, and be able to operate with the **grid removed**. Those are equipment design facts that support magnified detail imaging."
+        },
+        {
+          "heading": "Spot compression \u2014 purpose level",
+          "body": "Spot compression uses a smaller paddle to compress a limited area more effectively, helping separate superimposed tissue. Specific correction sequences for every finding type need clinical teaching materials; this lesson stays at purpose."
+        }
+      ],
+      "example": "A cluster of calcifications on screening CC/MLO is recalled for magnification views on a system that can magnify in the required range with the grid out.",
+      "misconception": {
+        "belief": "Any zoom on a workstation replaces a true magnification acquisition.",
+        "correction": "Workstation zoom enlarges pixels already acquired. Geometric magnification (with the equipment capability MQSA describes) changes acquisition geometry for finer detail."
+      },
+      "variants": {
+        "simpler": "Problem-solving views answer a question. Magnification is an acquisition technique with MQSA equipment requirements.",
+        "example": "Spot compression presses a small area to untangle overlapping densities."
+      },
+      "checkQuestionId": "q-pos-037",
+      "evidenceIds": [
+        "ev-pos-mqsa-magnification-capability",
+        "ev-pos-nci-screening-vs-diagnostic"
+      ],
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pos-additional-views",
+      "objectiveId": "obj-pp-lateral-views",
+      "title": "Additional views: laterals and tissue not on the standard pair",
+      "estMinutes": 3,
+      "summary": "ML/LM and other extras exist to problem-solve; keep the side of interest close to the receptor \u2014 details stay in clinical teaching.",
+      "explanation": [
+        {
+          "heading": "When the standard pair is not enough",
+          "body": "Diagnostic problem-solving may add **true lateral** views (mediolateral ML or lateromedial LM), exaggerated CC views for axillary/lateral tissue, cleavage views for far-medial tissue, rolled views to separate superimposed densities, or tangential views for skin findings. Names in the ARRT procedures domain are vocabulary you must recognize."
+        },
+        {
+          "heading": "A durable geometry idea",
+          "body": "For lateral imaging, put the **side of interest closer to the image receptor** to reduce geometric blur and magnification of the region being evaluated. That principle is general radiographic geometry applied to breast laterals."
+        },
+        {
+          "heading": "Source honesty",
+          "body": "Step-by-step positioning corrections for each extra view are not invented here. Use preceptorship plus link-only ACR/ARRT references. Quiz items in this lesson stay at purpose and selection, with qualified-review flags."
+        }
+      ],
+      "example": "A lateral lesion seen on MLO is clearer on an ML with the lateral breast against the receptor than on an LM that puts that tissue farther from the detector.",
+      "misconception": {
+        "belief": "XCCL is just a badly positioned CC.",
+        "correction": "Exaggerated CC is an intentional additional view to include tissue that the standard CC did not demonstrate \u2014 not an accidental failure of a screening CC."
+      },
+      "variants": {
+        "simpler": "Extra views are tools for specific tissue or findings. Laterals: region of interest toward the receptor.",
+        "example": "If medial tissue is missing on both CCs, a cleavage view is a purposeful add-on, not a repeat of the same CC."
+      },
+      "checkQuestionId": "q-pos-041",
+      "evidenceIds": [
+        "ev-pos-nci-screening-vs-diagnostic",
+        "ev-pos-mqsa-positioning-attribute",
+        "ev-pos-acr-ciq-link-only"
+      ],
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pos-special-circumstances",
+      "objectiveId": "obj-pp-body-habitus",
+      "title": "Special circumstances: adapt, document, do not invent rules",
+      "estMinutes": 3,
+      "summary": "Body habitus, surgery, mobility limits, and lactation change what is achievable \u2014 maximize tissue and document limits.",
+      "explanation": [
+        {
+          "heading": "Same goal, different path",
+          "body": "MQSA\u2019s positioning attribute still asks whether **enough tissue** was imaged. Patients with kyphosis, limited arm mobility, very large or very small breasts, post-surgical contour change, or lactation may need adapted setups. Adaptation is not optional courtesy \u2014 it is how you pursue the same tissue-coverage goal."
+        },
+        {
+          "heading": "What we will not fabricate",
+          "body": "There is no open federal table that lists a single correct mosaic tiling pattern or a universal wheelchair sequence. Those procedures come from clinical training and facility protocol. This lesson teaches the decision frame: maximize tissue, communicate, document limitations, and escalate when a physician-modified approach is needed."
+        },
+        {
+          "heading": "Implants and reconstruction reminder",
+          "body": "Implant inquiry remains mandatory. NCI notes that most patients with post-mastectomy implant reconstruction usually do not need mammography of the reconstructed breast \u2014 a different pathway than augmentation with native tissue present."
+        }
+      ],
+      "example": "A patient cannot elevate the arm for a classic MLO. You adapt with your preceptor\u2019s method, obtain the best achievable tissue, and document the limitation rather than forcing a textbook pose that leaves tissue off the image.",
+      "misconception": {
+        "belief": "If the patient cannot do the textbook pose, the exam cannot meet MQSA.",
+        "correction": "The standard is adequate tissue imaging and compliant practice \u2014 not identical body posture for every patient. Document limits and follow physician/facility direction when the approach must change."
+      },
+      "variants": {
+        "simpler": "Adapt to the patient; keep the tissue-coverage goal; document what you could not show.",
+        "example": "Post-mastectomy reconstruction with implant often means no mammogram of that side \u2014 confirm history rather than assuming augmentation technique."
+      },
+      "observationPrompt": "With supervision, watch one adapted exam (mobility limit, large breast, or postsurgical). Note what was documented when a landmark could not be shown.",
+      "checkQuestionId": "q-pos-045",
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute",
+        "ev-pos-mqsa-implant-inquiry",
+        "ev-pos-nci-implants-displacement",
+        "ev-pos-acr-ciq-link-only"
+      ],
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    }
+  ]
+}

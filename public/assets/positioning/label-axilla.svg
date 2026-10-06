@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="t d">
+  <title id="t">Schematic MLO label regions</title>
+  <desc id="d">Schematic MLO outline with four rectangular regions for choosing label placement. Not a mammogram.</desc>
+  <rect width="420" height="300" fill="#0f1b2d"/>
+  <path d="M30 0 L130 0 L30 190 Z" fill="#3b4b63"/>
+  <path d="M30 0 C 160 10, 330 120, 330 190 C 330 240, 200 290, 30 296 Z" fill="#6b7a90" opacity="0.85"/>
+  <circle cx="331" cy="192" r="5" fill="#cbd5e1"/>
+  <rect x="34" y="8" width="80" height="56" fill="none" stroke="#5eead4" stroke-width="2"/>
+  <text x="40" y="40" fill="#5eead4" font-size="14" font-family="ui-sans-serif,system-ui,sans-serif">A</text>
+  <rect x="300" y="150" width="90" height="70" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <text x="336" y="190" fill="#94a3b8" font-size="14" font-family="ui-sans-serif,system-ui,sans-serif">B</text>
+  <rect x="34" y="235" width="80" height="50" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <text x="40" y="265" fill="#94a3b8" font-size="14" font-family="ui-sans-serif,system-ui,sans-serif">C</text>
+  <rect x="160" y="110" width="90" height="70" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <text x="196" y="150" fill="#94a3b8" font-size="14" font-family="ui-sans-serif,system-ui,sans-serif">D</text>
+  <text x="404" y="292" fill="#e2e8f0" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">SCHEMATIC — NOT A MAMMOGRAM</text>
+</svg>
