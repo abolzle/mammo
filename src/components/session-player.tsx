@@ -39,6 +39,7 @@ import {
 import type { StudySession } from "@/lib/schemas/learner";
 import type { Lesson, Question, RecallCard, VisualExercise } from "@/lib/schemas/content";
 import { newId } from "@/lib/engine/ids";
+import { TestPlayer } from "@/components/test-player";
 
 function lookup<T extends { id: string }>(list: T[], id: string) {
   return list.find((x) => x.id === id);
@@ -88,7 +89,7 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
     const id = window.setInterval(() => {
       setTick((t) => t + 1);
       setSession((s) => {
-        if (!s || s.status !== "in_progress" || !s.timed || s.submitted) return s;
+        if (!s || s.kind === "assessment" || s.status !== "in_progress" || !s.timed || s.submitted) return s;
         if (remainingMs(s) !== 0) return s;
         const next = submitTest(s);
         void putSession(next);
@@ -118,6 +119,7 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
   // Date.now() in the timer, and library data loaded in an effect, both differ otherwise.
   if (!mounted || !content || pending) return <p>Loading the library…</p>;
   if (!session) return <p>That session was not found on this device.</p>;
+  if (session.kind === "assessment") return <TestPlayer initial={session} />;
 
   const done = session.status === "completed";
   const score = scoreSession(session);
@@ -174,7 +176,7 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted-foreground">
         <p>
-          {session.kind === "quiz" ? "Beta quiz" : "Study session"} · {session.currentIndex + 1} of {session.items.length}
+          {session.assessment?.label ?? (session.kind === "quiz" ? "Beta quiz" : "Study session")} · {session.currentIndex + 1} of {session.items.length}
         </p>
         <p aria-live="polite">
           {elapsedLabel}
