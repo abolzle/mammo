@@ -68,7 +68,7 @@ export async function importBackup(
   let contentVersionNote: string | null = null;
   for (const [k, v] of Object.entries(data.contentVersions)) {
     if (currentVersions[k] && currentVersions[k] !== v) {
-      contentVersionNote = `Backup was made against content ${k} ${v}; this app has ${currentVersions[k]}. Historical attempts keep the revision they used and are not silently rescored.`;
+      contentVersionNote = `This backup used a different version of the ${k} content. Past attempts still show the questions and results recorded at the time; Mammo does not recalculate them.`;
     }
   }
   if (mode === "replace") {
@@ -98,7 +98,10 @@ export async function importBackup(
   for (const o of data.outcomes) await db.put("outcomes", o);
   return {
     ok: true,
-    message: mode === "replace" ? "Progress replaced from backup." : "Backup merged. Duplicate answer events were skipped.",
+    message:
+      mode === "replace"
+        ? "Progress in this browser was replaced with the backup."
+        : "The backup was added to this browser. Answers that were already here were not duplicated.",
     mergedSessions,
     skippedEvents,
     contentVersionNote,
@@ -120,7 +123,7 @@ export function researchExport(args: {
   selfReported: true;
   limitations: string;
 } {
-  if (!args.optIn) return { error: "Research export is opt-in." };
+  if (!args.optIn) return { error: "Select the research-summary checkbox first." };
   return {
     kind: "mammo-research-export",
     generatedAt: new Date().toISOString(),
@@ -130,6 +133,6 @@ export function researchExport(args: {
     completedSessions: args.sessions.filter((s) => s.status === "completed").length,
     selfReported: true,
     limitations:
-      "Self-selected local exports cannot establish that the app caused success or was sufficient by itself. Tiny cohorts should not be published.",
+      "A summary shared by an individual learner cannot show that Mammo caused an exam result or was sufficient preparation by itself. Results from very small groups should not be published.",
   };
 }

@@ -9,7 +9,7 @@ export function SourceDrawer({ evidenceIds, content }: { evidenceIds: string[]; 
   return (
     <Accordion>
       <AccordionItem value="sources">
-        <AccordionTrigger className="min-h-11 text-sm">Sources for this item</AccordionTrigger>
+        <AccordionTrigger className="min-h-11 text-sm">Check the sources for this item</AccordionTrigger>
         <AccordionContent className="space-y-3 text-sm">
           {rows.map((ev) => {
             const src = lookupSource(content, ev.sourceId);
@@ -22,7 +22,7 @@ export function SourceDrawer({ evidenceIds, content }: { evidenceIds: string[]; 
                   <blockquote className="mt-2 border-l-2 border-teal pl-3 text-muted-foreground">{ev.excerpt}</blockquote>
                 ) : (
                   <p className="mt-2 text-muted-foreground">
-                    Link-only citation. The fact is taught in original wording; open the source for the official text.
+                    Mammo explains this point in original wording. Open the source to read the official text.
                   </p>
                 )}
                 {src ? (

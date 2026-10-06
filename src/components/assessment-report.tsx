@@ -40,7 +40,8 @@ export function AssessmentReportView({ session, content, onHome }: { session: St
       </div>
       {report.retake ? (
         <p className="text-sm">
-          You have taken this form before. Retakes are useful practice, but familiarity raises scores, so this is not a fresh measurement.
+          You have seen this form before. Retaking it can be useful for review, but remembering the questions may raise your score, so compare it carefully with a first
+          attempt.
         </p>
       ) : null}
 
@@ -53,23 +54,21 @@ export function AssessmentReportView({ session, content, onHome }: { session: St
             {report.headline.correct} of {report.headline.total} correct
             {report.headline.pct != null ? ` · ${report.headline.pct}%` : ""}
           </p>
-          {report.headline.limited ? <p className="text-sm text-muted-foreground">Limited evidence — fewer than 20 scored questions.</p> : null}
+          {report.headline.limited ? <p className="text-sm text-muted-foreground">This result comes from fewer than 20 scored questions, so it is a small sample.</p> : null}
           {report.headline.unanswered ? <p className="text-sm">{report.headline.unanswered} unanswered questions counted as incorrect.</p> : null}
           <p className="text-sm text-muted-foreground">
-            Raw percent correct on an independently written practice form. It is not an ARRT scaled score, it is not a pass probability, and different forms are not
-            equated for difficulty.
+            This is the percent you answered correctly on an independently written practice form. It is not an ARRT scaled score or a prediction of passing, and Form A
+            and Form B may not be equally difficult.
           </p>
         </CardContent>
       </Card>
 
       {report.pilots ? (
         <section className="space-y-1">
-          <h2 className="font-heading text-xl">Simulated pilot questions</h2>
+          <h2 className="font-heading text-xl">Practice pilot questions</h2>
           <p className="text-sm">
-            {report.pilots.total} questions were simulated pilots and did not count toward the headline score. You answered {report.pilots.correct} of{" "}
-            {report.pilots.total} correctly. {report.pilots.marked} were pre-designated in the bank
-            {report.pilots.designated ? ` and ${report.pilots.designated} were designated by a fixed rule before you started` : ""}. They are marked
-            &ldquo;Pilot&rdquo; in the question review below.
+            To mirror the exam format, {report.pilots.total} questions were treated as unscored pilots and did not count toward the result above. You answered{" "}
+            {report.pilots.correct} of {report.pilots.total} correctly. They are marked &ldquo;Pilot&rdquo; in the question review below.
           </p>
         </section>
       ) : null}
@@ -133,18 +132,18 @@ export function AssessmentReportView({ session, content, onHome }: { session: St
           {report.timing.mode === "extended" ? <p className="text-sm text-muted-foreground">Practice accommodation: {meta?.timeMultiplier}× time.</p> : null}
         </div>
         <div className="space-y-1">
-          <h2 className="font-heading text-xl">First exposure vs repeat</h2>
+          <h2 className="font-heading text-xl">New questions and repeat practice</h2>
           <p className="text-sm">
-            Questions from families new to you: <TallyText t={report.exposure.first} />
+            Question concepts you had not practiced before: <TallyText t={report.exposure.first} />
           </p>
           <p className="text-sm">
-            Families seen before (including reworded versions): <TallyText t={report.exposure.repeat} />
+            Concepts you had practiced before, including reworded versions: <TallyText t={report.exposure.repeat} />
           </p>
         </div>
       </section>
 
       <section className="space-y-2">
-        <h2 className="font-heading text-xl">Confidence calibration</h2>
+        <h2 className="font-heading text-xl">How confidence matched your answers</h2>
         {report.calibration.length ? (
           <ul className="space-y-1 text-sm">
             {report.calibration.map((c) => (
@@ -159,7 +158,10 @@ export function AssessmentReportView({ session, content, onHome }: { session: St
         {report.noConfidence && report.calibration.length ? (
           <p className="text-sm text-muted-foreground">{report.noConfidence} answered questions had no confidence rating.</p>
         ) : null}
-        <p className="text-sm text-muted-foreground">Well-calibrated means &ldquo;Confident&rdquo; answers are right far more often than &ldquo;Guessing&rdquo; ones.</p>
+        <p className="text-sm text-muted-foreground">
+          This can help you spot areas that feel familiar but still need review. Ideally, answers marked &ldquo;Confident&rdquo; are correct more often than answers marked
+          &ldquo;Guessing.&rdquo;
+        </p>
       </section>
 
       <section className="space-y-2">
@@ -203,7 +205,7 @@ export function AssessmentReportView({ session, content, onHome }: { session: St
       </section>
 
       <p className="text-xs text-muted-foreground">
-        Form {meta?.formId} · version {meta?.formVersion} · content {session.contentVersion}. Results stay on this device.
+        Attempt details: form {meta?.formId} · version {meta?.formVersion} · content {session.contentVersion}. Results stay in this browser.
       </p>
       <Button className="min-h-11" onClick={onHome}>
         Back to Practice

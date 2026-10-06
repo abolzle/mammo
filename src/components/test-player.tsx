@@ -170,7 +170,8 @@ export function TestPlayer({ initial }: { initial: StudySession }) {
 
       {blocked ? (
         <p role="alert" className="text-sm">
-          Choose an answer to continue. Like the real exam, the full simulation requires an answer before moving on; flag it if you want to come back.
+          Choose an answer before moving on. The full simulation follows this rule to keep the pacing exam-like. You can flag the question and return to it before you
+          submit.
         </p>
       ) : null}
 
@@ -194,7 +195,7 @@ export function TestPlayer({ initial }: { initial: StudySession }) {
       {reviewOpen ? (
         <section aria-label="Review grid" className="space-y-2 rounded-lg border p-3">
           <p className="text-sm text-muted-foreground">
-            Jump to any question you have reached. Flagged questions are marked with a flag.
+            Select a number to return to any question you have reached. A flag marks questions you wanted to revisit.
             {meta?.requireAnswer ? " Unanswered questions ahead stay locked until you answer the current one." : ""}
           </p>
           <ol className="grid grid-cols-6 gap-1.5 sm:grid-cols-10 md:grid-cols-12">
@@ -260,7 +261,9 @@ export function TestPlayer({ initial }: { initial: StudySession }) {
         </Button>
       </div>
       <p className="text-sm text-muted-foreground">
-        Answers save on this device as you go. {session.timed ? "The clock keeps running if you leave, refresh, or switch apps, and the test submits itself at zero." : ""} Provisional practice: not an ARRT scaled score or a pass prediction.
+        Your answers save in this browser as you go.{" "}
+        {session.timed ? "The clock keeps running if you leave, refresh, or switch apps, and the test submits automatically when time runs out. " : ""}
+        This is beta practice, not an ARRT scaled score or a prediction of passing.
       </p>
     </div>
   );
@@ -301,7 +304,9 @@ function TestQuestion({
         ))}
       </RadioGroup>
       <fieldset className="space-y-2">
-        <legend className="text-sm text-muted-foreground">How sure are you? (optional, used for calibration after you submit)</legend>
+        <legend className="text-sm text-muted-foreground">
+          How sure are you? This is optional. After you submit, Mammo will show whether your confidence matched your results.
+        </legend>
         <div className="flex flex-wrap gap-2">
           {CONFIDENCE_LEVELS.map((c) => (
             <Button

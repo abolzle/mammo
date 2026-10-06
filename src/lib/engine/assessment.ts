@@ -171,8 +171,8 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
       topicId: r.topicId,
       why:
         size < want
-          ? `${title} has ${size} distinct practice question families, not ${want}. This is a shorter quiz, not a padded one.`
-          : `${size} practice questions on ${title}, one per question family.`,
+          ? `${title} currently has ${size} different question concepts available, so Mammo will make a shorter quiz instead of repeating similar questions.`
+          : `${size} practice questions on ${title}, each testing a different concept.`,
       plan: final,
     };
   }
@@ -199,8 +199,8 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
       pool: "practice",
       why:
         size < want
-          ? `The practice bank supports a blueprint-balanced ${size}-question mix, not ${want}. This is a shorter quiz, not a padded one.`
-          : `${size} practice questions spread across the four blueprint areas in exam proportions.`,
+          ? `Mammo can build a balanced ${size}-question mix right now, so it will offer a shorter quiz instead of repeating questions.`
+          : `${size} practice questions spread across the four exam content areas in similar proportions to the exam.`,
       plan,
     };
   }
@@ -215,9 +215,9 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
 
   if (!plan.ok) {
     const parts: string[] = [];
-    if (plan.shortfall.length) parts.push(`Short by blueprint area: ${shortfallText(plan)}.`);
+    if (plan.shortfall.length) parts.push(`Still needed by content area: ${shortfallText(plan)}.`);
     if (plan.pilotPicked < pilots) {
-      parts.push(`After the scored slots, ${plan.pilotPicked} of ${pilots} distinct families remain for simulated pilots.`);
+      parts.push(`After filling the scored portion, only ${plan.pilotPicked} of ${pilots} different questions remain for the simulated pilot portion.`);
     }
     const fallback = reservedFallback(catalog, total, form);
     return {
@@ -229,9 +229,9 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
       shortfall: plan.shortfall,
       pool: form,
       reason:
-        `${label} needs ${scored} scored questions allocated ${needText(plan)}` +
+        `${label} is not available yet. It needs ${scored} scored questions allocated ${needText(plan)}` +
         (pilots ? `, plus ${pilots} simulated pilots` : "") +
-        `, each from a distinct reserved ${formName} family. ${parts.join(" ")} Repeating items or padding from daily practice would manufacture a score, so this is not offered yet.`,
+        `, each testing a different concept from the reserved ${formName} set. ${parts.join(" ")} Mammo will not repeat questions or pull from daily practice just to fill the form.`,
       fallback,
     };
   }
@@ -239,8 +239,8 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
   const pilotNote =
     pilots > 0
       ? plan.designatedPilots > 0
-        ? ` ${pilots - plan.designatedPilots} pilots are marked in the bank and ${plan.designatedPilots} were designated by a fixed rule before you start.`
-        : ` All ${pilots} pilots are pre-designated in the bank.`
+        ? ` All pilot questions are selected before you begin and do not count toward your result.`
+        : ` All ${pilots} pilot questions are selected before you begin and do not count toward your result.`
       : "";
   return {
     ok: true,
@@ -252,8 +252,8 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
     pool: form,
     why:
       kind === "simulation"
-        ? `${EXAM.totalQuestions} reserved ${formName} questions in ${EXAM.testMinutes} minutes: ${EXAM.scoredQuestions} scored (${needText(plan)}) and ${pilots} simulated pilots, which are revealed after you submit.${pilotNote}`
-        : `${total} reserved ${formName} questions allocated ${needText(plan)}. These families never appear in daily study.`,
+        ? `${EXAM.totalQuestions} reserved ${formName} questions in ${EXAM.testMinutes} minutes: ${EXAM.scoredQuestions} count toward the result (${needText(plan)}), and ${pilots} are simulated pilot questions revealed after you submit.${pilotNote}`
+        : `${total} reserved ${formName} questions distributed across the exam content areas (${needText(plan)}). You will not see these questions in daily study first.`,
     plan,
   };
 }

@@ -177,7 +177,7 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted-foreground">
         <p>
-          {session.assessment?.label ?? (session.kind === "quiz" ? "Beta quiz" : "Study session")} · {session.currentIndex + 1} of {session.items.length}
+          {session.assessment?.label ?? (session.kind === "quiz" ? "Practice quiz" : "Study session")} · {session.currentIndex + 1} of {session.items.length}
         </p>
         <p aria-live="polite">
           {elapsedLabel}
@@ -185,7 +185,9 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
         </p>
       </div>
       <Progress value={(100 * (session.currentIndex + (item?.status === "answered" ? 1 : 0))) / session.items.length} />
-      {session.beta ? <p className="text-sm text-muted-foreground">Provisional practice. Not a scaled score or pass prediction.</p> : null}
+      {session.beta ? (
+        <p className="text-sm text-muted-foreground">This beta activity is for practice. The result is not an ARRT scaled score or a prediction of passing.</p>
+      ) : null}
 
       {done ? (
         <RecapView session={session} score={score} onHome={() => router.push("/")} />
@@ -232,7 +234,8 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
       ) : item?.type === "recap" ? (
         <div className="space-y-3">
           <h1 className="font-heading text-2xl">Recap</h1>
-          <p>{session.why}</p>
+          <p>You reached the end of this session. Finish to save it to your progress.</p>
+          <p className="text-sm text-muted-foreground">{session.why}</p>
           <Button className="min-h-11" onClick={finish}>
             Finish
           </Button>
@@ -253,7 +256,7 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
           Save and exit
         </Button>
         <Button variant="ghost" className="min-h-11" onClick={() => setIssueOpen((v) => !v)}>
-          Report a problem
+          Note a content problem
         </Button>
       </div>
       {issueOpen && item ? (
@@ -274,6 +277,7 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
           }}
         >
           <Label htmlFor="issue">What looks wrong? Do not include patient information.</Label>
+          <p className="text-sm text-muted-foreground">This note is saved in your browser for a future content review; it is not sent automatically.</p>
           <textarea
             id="issue"
             className="min-h-24 w-full rounded-md border p-2"
@@ -282,7 +286,7 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
             required
           />
           <Button type="submit" className="min-h-11">
-            Save locally
+            Save report in this browser
           </Button>
         </form>
       ) : null}
@@ -315,7 +319,7 @@ function LessonBlock({ lesson, onContinue }: { lesson: Lesson; onContinue: () =>
       </div>
       {lesson.observationPrompt ? (
         <p className="text-sm text-muted-foreground">
-          Workplace observation (optional): {lesson.observationPrompt} This is not competency verification.
+          Optional connection to your work: {lesson.observationPrompt} This reflection does not verify clinical competency.
         </p>
       ) : null}
       <div className="flex flex-wrap gap-2">
@@ -361,7 +365,10 @@ function CardBlock({
       ) : (
         <div className="space-y-3">
           <p className="rounded-lg bg-muted p-3">{card.answer}</p>
-          <p className="text-sm">How well did you know it? This rating schedules review; it is not a test score.</p>
+          <p className="text-sm">
+            How easily did you remember it? Choose Again if you missed it, Hard if it took effort, Good if you knew it, or Easy if it felt automatic. Your choice only
+            schedules the next review; it is not a test score.
+          </p>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
             {([
               [1, "Again"],
@@ -542,13 +549,13 @@ function RecapView({
       <CardContent className="space-y-3">
         <p>
           {score.total
-            ? `${score.correct} of ${score.total} application items correct${score.pct != null ? ` (${score.pct}%).` : "."}`
-            : "Recall and lesson work recorded. No scored items in this session."}
+            ? `${score.correct} of ${score.total} practice questions correct${score.pct != null ? ` (${score.pct}%).` : "."}`
+            : "Your lesson and recall work is saved. This session did not include scored questions."}
         </p>
-        {score.limited && score.total > 0 ? <p className="text-sm text-muted-foreground">Limited evidence — small sample.</p> : null}
+        {score.limited && score.total > 0 ? <p className="text-sm text-muted-foreground">This was a small set, so use the result as a study guide rather than a trend.</p> : null}
         <p className="text-sm">{session.why}</p>
-        <p className="text-sm text-muted-foreground">This is not an ARRT scaled score and is not a pass probability.</p>
-        <p className="text-sm text-muted-foreground">Progress is only on this device. Download a JSON backup from Settings after a real study streak.</p>
+        <p className="text-sm text-muted-foreground">This result is not an ARRT scaled score or a prediction of passing.</p>
+        <p className="text-sm text-muted-foreground">Your progress is saved in this browser. Download a backup from Settings when you have history you want to keep.</p>
         <Button className="min-h-11" onClick={onHome}>
           Back to Today
         </Button>

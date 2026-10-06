@@ -59,11 +59,18 @@ function Toggle<T extends string | number>({
 
 function timeText(offer: Extract<AssessmentOffer, { ok: true }>, timing: TimingChoice, mode: "study" | "test") {
   const reserved = offer.pool !== "practice";
-  if (!reserved && mode === "study") return "Untimed, with an explanation after each answer.";
-  if (timing.timing === "untimed") return "Untimed practice, feedback after you submit.";
+  if (!reserved && mode === "study") return "There is no timer, and you will see an explanation after each answer.";
+  if (timing.timing === "untimed") return "There is no timer. You will see your results and explanations after you submit.";
   const base = proportionalMinutes(offer.size);
   const mins = timing.timing === "extended" ? Math.ceil(base * timing.multiplier) : base;
-  return `${mins} minutes${timing.timing === "extended" ? ` (${timing.multiplier}× practice accommodation)` : ""}, feedback after you submit.`;
+  return `You will have ${mins} minutes${timing.timing === "extended" ? ` (${timing.multiplier}× extended time)` : ""}. Results and explanations appear after you submit.`;
+}
+
+function assessmentUse(kind: AssessmentOffer["kind"]) {
+  if (kind === "baseline") return "A shorter starting point when you want to see which content areas deserve attention.";
+  if (kind === "checkpoint") return "A mid-length check you can use after more study to choose your next areas for review.";
+  if (kind === "simulation") return "A full-length practice experience for working on pacing, focus, and the complete exam format.";
+  return "A reserved set of questions for a broader check of your current practice.";
 }
 
 export default function PracticePage() {
@@ -154,9 +161,12 @@ export default function PracticePage() {
       <header className="space-y-2">
         <h1 className="font-heading text-3xl text-navy">Practice</h1>
         <p className="text-muted-foreground">
-          {dailyPracticePool(content.modules).length} daily-practice questions are usable, plus {formCounts["form-a"]} reserved Form A and{" "}
-          {formCounts["form-b"]} reserved Form B questions. Families from both forms never appear in daily study, so baseline, checkpoint, and
-          simulation results come from questions you have not drilled.
+          Choose a quick quiz for focused practice, or use a reserved form when you want to work under test-like conditions. Study mode explains each answer as you go;
+          test mode waits until you submit.
+        </p>
+        <p className="text-sm text-muted-foreground">
+          The current beta includes {dailyPracticePool(content.modules).length} practice questions, plus {formCounts["form-a"]} questions in Form A and{" "}
+          {formCounts["form-b"]} in Form B. Questions in the reserved forms do not appear in Today or regular quizzes before you take them.
         </p>
       </header>
 
@@ -165,7 +175,8 @@ export default function PracticePage() {
           <CardHeader>
             <CardTitle>Resume</CardTitle>
             <CardDescription>
-              Timed tests keep running while you are away. Answers already saved stay on this device. Start over clears unfinished quizzes and assessments from Practice.
+              Continue an unfinished quiz or assessment. Your answers are saved as you go. If the attempt is timed, the clock keeps running while you are away. Start over
+              clears unfinished attempts from this screen.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-wrap gap-2">
@@ -183,21 +194,23 @@ export default function PracticePage() {
 
       <section className="space-y-4" aria-labelledby="settings-h">
         <h2 id="settings-h" className="font-heading text-xl">
-          How you want to practice
+          Choose how you want to practice
         </h2>
         <div className="space-y-2">
-          <p className="text-sm font-medium">Feedback for topic and mixed quizzes</p>
+          <p className="text-sm font-medium">When would you like to see explanations?</p>
           <Toggle
             label="Feedback mode"
             value={mode}
             options={["study", "test"] as const}
             onChange={setMode}
-            render={(v) => (v === "study" ? "Study mode: explain after each answer" : "Test mode: feedback after submit")}
+            render={(v) => (v === "study" ? "After each answer" : "After I submit")}
           />
-          <p className="text-sm text-muted-foreground">Baseline, checkpoint, and simulation always run in test mode.</p>
+          <p className="text-sm text-muted-foreground">
+            This choice applies to topic and mixed quizzes. Baselines, checkpoints, and simulations show explanations after you submit.
+          </p>
         </div>
         <div className="space-y-2">
-          <p className="text-sm font-medium">Timing for test mode</p>
+          <p className="text-sm font-medium">How much time would you like for test mode?</p>
           <Toggle
             label="Timing"
             value={timingKind}
@@ -213,8 +226,8 @@ export default function PracticePage() {
             <Label htmlFor="allow-skip">Let me move on without answering in the full simulation</Label>
           </div>
           <p className="text-sm text-muted-foreground">
-            Standard time is {EXAM.testMinutes} minutes for {EXAM.totalQuestions} questions, scaled down for shorter forms. Extended, untimed, or skip-allowed attempts
-            are practice accommodations and are labeled as non-standard in results.
+            Standard timing follows the exam pace: {EXAM.testMinutes} minutes for {EXAM.totalQuestions} questions, adjusted for shorter forms. Extended time, untimed
+            practice, and simulations that allow skipped answers are labeled as non-standard in your results.
           </p>
         </div>
       </section>
@@ -223,7 +236,7 @@ export default function PracticePage() {
         <Card>
           <CardHeader>
             <CardTitle>Topic quiz</CardTitle>
-            <CardDescription>One topic, one question per family. Number in brackets is distinct families written.</CardDescription>
+            <CardDescription>Choose one content area to review. Each quiz uses different question concepts instead of repeating close variations.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
             {topics.length ? (
@@ -256,7 +269,7 @@ export default function PracticePage() {
         <Card>
           <CardHeader>
             <CardTitle>Mixed quiz</CardTitle>
-            <CardDescription>All four content areas in exam proportions, from daily practice.</CardDescription>
+            <CardDescription>Practice across the exam content areas in roughly the same proportions as the exam.</CardDescription>
           </CardHeader>
           <CardContent className="space-y-3">
             <Toggle label="Mixed quiz length" value={mixedSize} options={MIXED_SIZES} onChange={setMixedSize} render={(v) => `${v} questions`} />
@@ -270,10 +283,14 @@ export default function PracticePage() {
 
       <section className="space-y-4" aria-labelledby="forms-h">
         <h2 id="forms-h" className="font-heading text-xl">
-          Reserved form assessments
+          Reserved practice forms
         </h2>
+        <p className="text-sm text-muted-foreground">
+          Use these when you want a more exam-like check. Their questions are kept out of regular study beforehand. Results can help you choose what to review next, but
+          they do not predict whether you are ready to pass.
+        </p>
         <div className="space-y-2">
-          <p className="text-sm font-medium">Which form</p>
+          <p className="text-sm font-medium">Choose a question set</p>
           <Toggle
             label="Reserved form"
             value={form}
@@ -282,7 +299,7 @@ export default function PracticePage() {
             render={(v) => `${formDisplayName(v)} (${formCounts[v]} questions)`}
           />
           <p className="text-sm text-muted-foreground">
-            Form A and Form B are distinct reserved banks. Retaking the same form is labeled a retake; switching forms is a separate measurement.
+            Form A and Form B use separate questions. If you take the same form again, Mammo labels it as a retake because remembering the questions can raise your score.
           </p>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
@@ -295,6 +312,7 @@ export default function PracticePage() {
                 </div>
               </CardHeader>
               <CardContent className="space-y-3 text-sm">
+                <p>{assessmentUse(offer.kind)}</p>
                 {offer.ok ? (
                   <>
                     <p>{offer.why}</p>
@@ -346,7 +364,7 @@ export default function PracticePage() {
 
       <section className="space-y-2" aria-labelledby="history-h">
         <h2 id="history-h" className="font-heading text-xl">
-          Your attempts on this device
+          Your completed practice
         </h2>
         {history.length ? (
           <ul className="divide-y rounded-lg border">
@@ -383,8 +401,8 @@ export default function PracticePage() {
       </section>
 
       <p className="text-sm text-muted-foreground">
-        No question here has been clinically reviewed yet, so every score is a provisional practice result. Mammo never converts results into an ARRT scaled score or a
-        pass probability. Local timers can be changed by the device clock; this is self-study, not a proctored exam.
+        These questions have not yet been independently clinically reviewed, so treat every score as a practice result. Mammo does not convert results to an ARRT scaled
+        score or a chance of passing. This is self-study on your device, not a proctored exam.
       </p>
     </div>
   );

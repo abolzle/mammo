@@ -23,8 +23,9 @@ export function ReviewBadge({ status, requiresQualifiedReview }: { status: Revie
 
 export function BetaBanner() {
   return (
-    <div className="mb-4 rounded-lg border border-teal/30 bg-teal/10 px-3 py-2 text-sm text-navy" role="status">
-      Public beta: MQSA material is AI-assisted and source-backed from federal rules, but it has not been independently clinically validated. Quiz scores are practice results, not readiness estimates.
+    <div className="rounded-lg border border-teal/30 bg-teal/10 px-3 py-2 text-sm text-navy" role="status">
+      You&apos;re using a public beta. Mammo&apos;s MQSA lessons and questions were created with AI assistance and checked against federal sources, but they have not yet
+      been independently clinically validated. Use your results to guide what you practice next, not to predict exam readiness.
     </div>
   );
 }

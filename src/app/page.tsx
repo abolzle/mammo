@@ -73,45 +73,22 @@ export default function TodayPage() {
 
   return (
     <div className="space-y-6">
-      <BetaBanner />
       <header className="space-y-2">
-        <p className="text-sm font-medium text-teal">Free MQSA study, on your time</p>
-        <h1 className="font-heading text-3xl text-navy">You have {sessionMinutes} minutes. Let&apos;s make them useful.</h1>
+        <p className="text-sm font-medium text-teal">Study support for the mammography registry</p>
+        <h1 className="font-heading text-3xl text-navy">Ready for a {sessionMinutes}-minute study session?</h1>
         <p className="text-muted-foreground">
-          No account. No API key. Today&apos;s mix stays on this device. App study is not approved CE and does not establish clinical qualification.
+          Mammo builds a focused mix of review cards, short lessons, and practice questions for the time you have. No account is required, and your work is saved in
+          this browser. This study does not award CE or establish clinical qualification.
         </p>
       </header>
-
-      {!profile.onboardingComplete ? (
-        <Onboarding
-          profile={profile}
-          onSave={updateProfile}
-          onDiagnostic={async () => {
-            const s = await startDiagnosticSession(content);
-            await updateProfile({ ...profile, onboardingComplete: true, diagnosticStatus: "done" });
-            router.push(`/session/?id=${s.id}`);
-          }}
-        />
-      ) : null}
-
-      {fit ? (
-        <p className="rounded-lg border p-3 text-sm" role="status">
-          {fit}
-        </p>
-      ) : null}
-      {longAbsence ? (
-        <p className="rounded-lg border p-3 text-sm" role="status">
-          It has been a while. A short diagnostic is available from Practice if you want a recheck. Missed days do not become a backlog.
-        </p>
-      ) : null}
 
       <Card>
         <CardHeader>
           <CardTitle>{primary}</CardTitle>
           <CardDescription>
             {open
-              ? `You left a ${open.budgetMinutes}-minute session partway through. Answers already saved stay on this device. Start over clears that session from Today.`
-              : `A ${minutes}-minute plan: due recall first, then a small MQSA lesson or questions, then a recap. We will not promise ${minutes} minutes and deliver twenty-five.`}
+              ? `Pick up where you left off. Your answers are already saved in this browser, or you can start over with a fresh plan.`
+              : `We will begin with any review cards that are due, then add a short lesson or a few questions, and finish with a recap. The plan is designed to fit the ${minutes} minutes you chose.`}
           </CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-3 sm:flex-row">
@@ -137,8 +114,62 @@ export default function TodayPage() {
         </CardContent>
       </Card>
 
+      <BetaBanner />
+
+      {fit ? (
+        <p className="rounded-lg border p-3 text-sm" role="status">
+          {fit}
+        </p>
+      ) : null}
+      {longAbsence ? (
+        <p className="rounded-lg border p-3 text-sm" role="status">
+          Welcome back. You do not need to make up missed days. Start with today&apos;s plan, or use a short knowledge check in Practice to see what you want to review.
+        </p>
+      ) : null}
+
+      {!profile.onboardingComplete ? (
+        <>
+          <section className="space-y-3" aria-labelledby="how-mammo-works">
+            <div className="space-y-1">
+              <h2 id="how-mammo-works" className="font-heading text-2xl text-navy">
+                How Mammo works
+              </h2>
+              <p className="text-muted-foreground">Use the part that matches what you need today. Your work carries across all four screens.</p>
+            </div>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              <li className="rounded-xl border p-4">
+                <p className="font-medium">Today</p>
+                <p className="mt-1 text-sm text-muted-foreground">Start a short, guided mix of review cards, lessons, and questions.</p>
+              </li>
+              <li className="rounded-xl border p-4">
+                <p className="font-medium">Learn</p>
+                <p className="mt-1 text-sm text-muted-foreground">Browse available lessons by exam content area and choose your own topic.</p>
+              </li>
+              <li className="rounded-xl border p-4">
+                <p className="font-medium">Practice</p>
+                <p className="mt-1 text-sm text-muted-foreground">Take focused quizzes or work through a reserved, exam-style form.</p>
+              </li>
+              <li className="rounded-xl border p-4">
+                <p className="font-medium">Progress</p>
+                <p className="mt-1 text-sm text-muted-foreground">See your study time, completed sessions, results, and content coverage.</p>
+              </li>
+            </ul>
+          </section>
+
+          <Onboarding
+            profile={profile}
+            onSave={updateProfile}
+            onDiagnostic={async () => {
+              const s = await startDiagnosticSession(content);
+              await updateProfile({ ...profile, onboardingComplete: true, diagnosticStatus: "done" });
+              router.push(`/session/?id=${s.id}`);
+            }}
+          />
+        </>
+      ) : null}
+
       <p className="text-sm text-muted-foreground">
-        Progress lives in this browser. It does not sync across devices and can disappear if storage is cleared. Export a backup from Settings after a real study streak.
+        Your progress is saved in this browser and does not sync to another device. Once you have study history you want to keep, download a backup from Settings.
       </p>
     </div>
   );

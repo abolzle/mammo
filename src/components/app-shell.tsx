@@ -21,11 +21,11 @@ const PRIMARY = [
 
 const MORE = [
   { href: "/about/", label: "About" },
-  { href: "/requirements/", label: "Requirements" },
-  { href: "/sources/", label: "Sources" },
+  { href: "/requirements/", label: "Credential requirements" },
+  { href: "/sources/", label: "Sources & review" },
   { href: "/reference/", label: "Reference" },
   { href: "/settings/", label: "Settings" },
-  { href: "/maintainer/", label: "Content workshop" },
+  { href: "/maintainer/", label: "Content review tools" },
 ];
 
 function isActive(pathname: string, href: string) {
@@ -83,7 +83,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <DropdownMenu>
               <DropdownMenuTrigger
                 render={
-                  <Button variant="ghost" size="icon" className="min-h-11 min-w-11" aria-label="More pages" />
+                  <Button variant="ghost" size="icon" className="min-h-11 min-w-11" aria-label="Menu" />
                 }
               >
                 <Menu />

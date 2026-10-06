@@ -45,7 +45,7 @@ export async function startDiagnosticSession(content: LoadedContent): Promise<St
     mode: "study",
     minutes: 10,
     items: plan.items,
-    why: "A short diagnostic from the practice pool. Skip anytime. Results are provisional.",
+    why: "A short knowledge check to help you choose what to review. You can leave at any time, and the result is only a practice guide.",
     contentVersion: contentVersions(content).curriculum,
     beta: true,
   });
@@ -62,7 +62,7 @@ export async function startLessonSession(content: LoadedContent, lessonId: strin
     mode: "study",
     minutes: 10,
     items: planLessonSession(lesson, check),
-    why: `A single lesson: ${lesson.title}.`,
+    why: `You chose a focused lesson on ${lesson.title}.`,
     contentVersion: contentVersions(content).curriculum,
     beta: true,
   });
@@ -112,7 +112,7 @@ export async function startAssessment(
           salt,
           seenFamilies,
         });
-  if (!plan.ok) throw new Error(offer.kind === "topic_quiz" ? offer.why : "The form could not be assembled from the current bank.");
+  if (!plan.ok) throw new Error(offer.kind === "topic_quiz" ? offer.why : "Mammo could not build that form from the questions currently available.");
   const formId = formIdFor(offer);
   const prior = priorAttempts(await allSessions(), formId);
   const isSim = offer.kind === "simulation";

@@ -42,7 +42,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       })
       .catch((e: unknown) => {
         if (cancelled) return;
-        setError(e instanceof Error ? e.message : "Could not load the study library.");
+        console.error(e);
+        setError("Mammo could not load the study library. Check your connection, then refresh the page and try again.");
         setReady(true);
       });
     return () => {

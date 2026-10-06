@@ -44,7 +44,10 @@ export default function ProgressPage() {
   return (
     <div className="space-y-6">
       <h1 className="font-heading text-3xl text-navy">Progress</h1>
-      <p className="text-muted-foreground">Local evidence only. Small samples are labeled. This is not an ARRT scaled score.</p>
+      <p className="text-muted-foreground">
+        See what you have covered, how much time you have spent, and how your first answers compare with repeat practice. This page reflects work saved in this browser
+        only; it is not an ARRT score or a prediction of exam readiness.
+      </p>
       <ul className="grid gap-3 sm:grid-cols-2">
         <li className="rounded-xl border p-4">
           <p className="text-sm text-muted-foreground">Completed sessions</p>
@@ -55,19 +58,19 @@ export default function ProgressPage() {
           <p className="text-2xl font-heading">{minutes} min</p>
         </li>
         <li className="rounded-xl border p-4">
-          <p className="text-sm text-muted-foreground">First-exposure items</p>
+          <p className="text-sm text-muted-foreground">Correct on the first try</p>
           <p className="text-2xl font-heading">
             {first.length ? `${firstCorrect}/${first.length}` : "—"}
           </p>
-          {first.length < 20 ? <p className="text-xs text-muted-foreground">Limited evidence</p> : null}
+          {first.length < 20 ? <p className="text-xs text-muted-foreground">Small sample so far</p> : null}
         </li>
         <li className="rounded-xl border p-4">
-          <p className="text-sm text-muted-foreground">Repeated exposures</p>
+          <p className="text-sm text-muted-foreground">Questions repeated for review</p>
           <p className="text-2xl font-heading">{scored.length - first.length}</p>
         </li>
       </ul>
       <section>
-        <h2 className="font-heading text-xl">Domain coverage</h2>
+        <h2 className="font-heading text-xl">Content you have covered</h2>
         <ul className="mt-2 space-y-2">
           {byDomain.map((d) => (
             <li key={d.name} className="text-sm">
@@ -77,11 +80,12 @@ export default function ProgressPage() {
         </ul>
       </section>
       <p className="text-sm text-muted-foreground">
-        Denominator for first-exposure accuracy is {first.length || 0} answered items. Self-selected study on one device cannot show that Mammo caused a pass.
+        Your first-try result is based on {first.length || 0} answered items. It becomes more useful as you answer more questions, but it still cannot show that Mammo
+        caused an exam result.
       </p>
       {corrections.length ? (
         <section>
-          <h2 className="font-heading text-xl">Key corrections</h2>
+          <h2 className="font-heading text-xl">Questions updated since you answered</h2>
           <ul className="mt-2 space-y-2 text-sm">
             {corrections.map((c) => (
               <li key={c.event.id}>{c.note}</li>

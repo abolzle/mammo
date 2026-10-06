@@ -3,18 +3,20 @@
 export default function RequirementsPage() {
   return (
     <article className="space-y-4">
-      <h1 className="font-heading text-3xl text-navy">Requirements</h1>
+      <h1 className="font-heading text-3xl text-navy">Credential requirements</h1>
       <p>
-        Studying here does not award approved continuing education, complete structured education, document clinical experience, or establish ARRT eligibility. Those are separate processes defined by ARRT and by your employers and states.
+        Mammo can help you study, but it cannot complete or document the formal steps required for a mammography credential. Keep using the records and processes required
+        by your education program, employer, state, and ARRT.
       </p>
       <ul className="list-disc space-y-2 pl-5">
-        <li>Study progress in this app is local practice history.</li>
-        <li>Formal education (didactic hours) is documented by an educational program.</li>
-        <li>Clinical experience is documented in the clinical setting under qualified supervision.</li>
-        <li>Official eligibility is determined by ARRT using its current handbooks.</li>
+        <li>Work completed in Mammo is personal study history, not approved continuing education.</li>
+        <li>Structured education and didactic hours must be documented by an appropriate educational program.</li>
+        <li>Clinical procedures and experience must be completed and documented in the clinical setting under qualified supervision.</li>
+        <li>ARRT determines exam eligibility under its current requirements and handbooks.</li>
       </ul>
       <p>
-        Open ARRT&apos;s Mammography credential page and current handbooks for the rules that apply to you. This app summarizes that distinction so you can start studying without confusing a lesson completion with a qualification.
+        Check ARRT&apos;s current Mammography credential page and handbooks for the requirements that apply to you. A completed Mammo lesson means you finished a study
+        activity; it does not verify competency, award CE, or establish eligibility.
       </p>
     </article>
   );

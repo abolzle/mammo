@@ -170,13 +170,13 @@ export function planStudySession(args: {
 
   const dueTake = dueCards.slice(0, args.minutes <= 5 ? 2 : 4);
   if (dueTake.length) {
-    reasons.push(`You're reviewing ${dueTake.length === 1 ? "a due recall card" : `${dueTake.length} due recall cards`}.`);
+    reasons.push(`You reviewed ${dueTake.length === 1 ? "one card that was ready for another look" : `${dueTake.length} cards that were ready for another look`}.`);
     ordered.push(...dueTake.map(itemFromCard));
   }
 
   const lesson = unseenLessons[0] ?? lessons.find((l) => weak.has(l.objectiveId));
   if (lesson && args.minutes >= 10) {
-    reasons.push(`Then a short lesson on ${lesson.title.replace(/:.*/, "").toLowerCase()}.`);
+    reasons.push(`Your plan also included a short lesson on ${lesson.title.replace(/:.*/, "").toLowerCase()}.`);
     ordered.push(itemFromLesson(lesson));
     const check = questions.find((q) => q.id === lesson.checkQuestionId);
     if (check) ordered.push(itemFromQuestion(check));
@@ -199,7 +199,7 @@ export function planStudySession(args: {
   packed.push(recap);
 
   if (!reasons.length) {
-    reasons.push("A short mix of MQSA practice so a small window still moves you forward.");
+    reasons.push("You completed a short mix of MQSA practice designed for the time you had.");
   }
 
   const domainHint = coverageHint(args.catalog, args.histories);
@@ -228,7 +228,7 @@ function coverageHint(catalog: Catalog, histories: ObjectiveHistory[]): string |
   const thin = [...byDomain.entries()].find(([, v]) => v.total > 0 && v.seen / v.total < 0.1);
   if (thin) {
     const name = EXAM.domains.find((d) => d.id === thin[0])?.name;
-    return `We'll keep some ${name} material in the mix so one domain doesn't drop out.`;
+    return `Future plans will continue to include ${name} so you build coverage across the exam.`;
   }
   return null;
 }
@@ -249,8 +249,8 @@ export function planQuiz(args: {
   const slice = qs.slice(0, requested);
   const shorter = slice.length < requested;
   const why = shorter
-    ? `The available beta bank has ${slice.length} questions for this request, not ${requested}. This is a shorter quiz, not a padded score.`
-    : `A ${slice.length}-question beta quiz from the practice pool. Results are provisional practice, not a readiness estimate.`;
+    ? `There are ${slice.length} different questions available for this request right now, so Mammo made a shorter quiz instead of repeating questions.`
+    : `A ${slice.length}-question practice quiz. Use the result to choose what to review next, not as a measure of exam readiness.`;
   return { items: [...slice.map(itemFromQuestion), recapItem()], why, offered: slice.length, requested, shorter };
 }
 
@@ -264,7 +264,7 @@ export function planInsufficientTime(args: { examDate: string | null; minutesPre
   const minutesLeft = sessionsLeft * args.minutesPref;
   const roughNeed = args.remainingObjectives * 8;
   if (minutesLeft < roughNeed) {
-    return `At ${args.minutesPref} minutes a day, the remaining mapped material does not fit before ${args.examDate}. You can lengthen sessions, move the date, or keep studying the highest-yield MQSA items you have. This is not a readiness claim.`;
+    return `At ${args.minutesPref} minutes per study day, there may not be enough time to cover every available objective before ${args.examDate}. You can choose longer sessions in Settings, update your date, or continue with shorter focused sessions. This is a planning estimate, not a measure of readiness.`;
   }
   return null;
 }

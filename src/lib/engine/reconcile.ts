@@ -18,7 +18,7 @@ export function reconcileEvent(event: ResponseEvent, question: Question | undefi
       event,
       status: "removed",
       correctedCorrect: null,
-      note: "This question is no longer in the content bank. Your original result is kept.",
+      note: "This question is no longer in the library. Your original result is still saved.",
     };
   }
   if (question.revision === event.contentRevision) {

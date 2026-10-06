@@ -18,9 +18,9 @@ const serif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: "Mammo — free mammography registry study",
+  title: "Mammo — mammography registry study",
   description:
-    "Free, account-free study for the ARRT Mammography exam. MQSA beta lessons, recall, and practice on this device.",
+    "A free, self-paced study tool for the ARRT Mammography exam, with short lessons, recall cards, and practice questions.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

@@ -43,10 +43,12 @@ export function Onboarding({
         await save({ diagnosticStatus: "pending" });
       }}
     >
-      <h2 className="font-heading text-lg">Optional setup</h2>
-      <p className="text-sm text-muted-foreground">Skip if you just want to look around. You can change this later in Settings.</p>
+      <h2 className="font-heading text-lg">Make the plan fit your week</h2>
+      <p className="text-sm text-muted-foreground">
+        These details help Mammo size your study sessions. Everything is optional, and you can change it later in Settings.
+      </p>
       <div>
-        <Label htmlFor="exam">Exam date (or leave blank if not scheduled)</Label>
+        <Label htmlFor="exam">Exam date, if you have one scheduled</Label>
         <input
           id="exam"
           type="date"
@@ -56,7 +58,7 @@ export function Onboarding({
         />
       </div>
       <fieldset>
-        <legend className="text-sm font-medium">Study days</legend>
+        <legend className="text-sm font-medium">Days you usually want to study</legend>
         <div className="mt-2 flex flex-wrap gap-2">
           {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((label, i) => (
             <Button key={label} type="button" variant={days.includes(i) ? "default" : "outline"} className="min-h-11" onClick={() => toggleDay(i)}>
@@ -66,7 +68,7 @@ export function Onboarding({
         </div>
       </fieldset>
       <fieldset>
-        <legend className="text-sm font-medium">Usual session length</legend>
+        <legend className="text-sm font-medium">How much time do you usually have?</legend>
         <div className="mt-2 flex flex-wrap gap-2">
           {([5, 10, 15, 20] as const).map((m) => (
             <Button key={m} type="button" variant={minutes === m ? "default" : "outline"} className="min-h-11" onClick={() => setMinutes(m)}>
@@ -76,10 +78,10 @@ export function Onboarding({
         </div>
       </fieldset>
       <fieldset>
-        <legend className="text-sm font-medium">Experience</legend>
-        <div className="mt-2 flex gap-2">
+        <legend className="text-sm font-medium">Where are you starting?</legend>
+        <div className="mt-2 flex flex-wrap gap-2">
           <Button type="button" variant={experience === "new" ? "default" : "outline"} className="min-h-11" onClick={() => setExperience("new")}>
-            New candidate
+            Preparing for my first credential
           </Button>
           <Button
             type="button"
@@ -87,13 +89,13 @@ export function Onboarding({
             className="min-h-11"
             onClick={() => setExperience("experienced")}
           >
-            Experienced technologist
+            Working technologist
           </Button>
         </div>
       </fieldset>
-      <div className="flex gap-2">
+      <div className="flex flex-wrap gap-2">
         <Button type="submit" className="min-h-11">
-          Save
+          Save my plan
         </Button>
         <Button
           type="button"
@@ -101,11 +103,11 @@ export function Onboarding({
           className="min-h-11"
           onClick={() => save({ diagnosticStatus: "skipped" })}
         >
-          Skip
+          Skip for now
         </Button>
         {onDiagnostic ? (
           <Button type="button" variant="outline" className="min-h-11" onClick={() => onDiagnostic()}>
-            Short diagnostic
+            Start a 5-question knowledge check
           </Button>
         ) : null}
       </div>

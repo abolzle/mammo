@@ -28,7 +28,8 @@ export default function LearnPage() {
     <div className="space-y-6">
       <h1 className="font-heading text-3xl text-navy">Learn</h1>
       <p className="text-muted-foreground">
-        The full curriculum map is here. Only the MQSA module has lessons in this beta. Gaps are listed honestly — a missing source is not a finished lesson.
+        Browse lessons by exam content area and start wherever you need a refresher. This beta currently includes lessons for the MQSA material; the remaining areas
+        show what is planned and will open as source-backed lessons are completed.
       </p>
       {EXAM.domains.map((domain) => (
         <section key={domain.id} className="space-y-3">
@@ -62,10 +63,10 @@ export default function LearnPage() {
                   ) : (
                     <p className="mt-2 text-sm text-muted-foreground">
                       {objs.some((o) => o.sourceState === "blocked")
-                        ? "Blocked: no accessible source verifies this topic yet."
+                        ? "This topic is not ready yet because Mammo still needs a reliable, accessible source. Choose another lesson for now."
                         : objs.some((o) => o.sourceState === "needs_source")
-                          ? "No lesson yet — source still needs retrieval."
-                          : "Mapped, not yet written."}
+                          ? "This lesson is planned, but its source material still needs to be reviewed. Choose another lesson for now."
+                          : "This lesson is on the roadmap and has not been written yet. Choose another lesson for now."}
                     </p>
                   )}
                 </div>

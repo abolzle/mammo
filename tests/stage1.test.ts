@@ -176,7 +176,7 @@ describe("backup", () => {
     expect(result.ok).toBe(true);
     const again = await importBackup(first, { curriculum: "newer" }, "merge");
     expect(again.skippedEvents).toBeGreaterThan(0);
-    expect(again.contentVersionNote).toMatch(/not silently rescored/i);
+    expect(again.contentVersionNote).toMatch(/does not recalculate/i);
   });
 });
 
@@ -276,7 +276,7 @@ describe("plan fit", () => {
       remainingObjectives: 70,
       now: new Date("2026-10-06T00:00:00"),
     });
-    expect(note).toMatch(/does not fit/i);
+    expect(note).toMatch(/not be enough time/i);
   });
 });
 

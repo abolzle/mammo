@@ -29,10 +29,11 @@ export default function SettingsPage() {
     <div className="space-y-6">
       <h1 className="font-heading text-3xl text-navy">Settings</h1>
       <p className="text-muted-foreground">
-        Progress is stored only in this browser. It does not sync across devices and may be lost if storage is cleared.
+        Adjust your usual study time and manage the progress saved in this browser. Mammo does not use an account or sync your work to another device.
       </p>
       <section className="space-y-2">
-        <h2 className="font-heading text-lg">Session length</h2>
+        <h2 className="font-heading text-lg">Usual study session</h2>
+        <p className="text-sm text-muted-foreground">Today will use this as your default. You can still choose a shorter session whenever you need one.</p>
         <div className="flex flex-wrap gap-2">
           {([5, 10, 15, 20] as const).map((m) => (
             <Button
@@ -47,7 +48,11 @@ export default function SettingsPage() {
         </div>
       </section>
       <section className="space-y-2">
-        <h2 className="font-heading text-lg">Backup</h2>
+        <h2 className="font-heading text-lg">Back up your progress</h2>
+        <p className="text-sm text-muted-foreground">
+          Download a backup file if you want to protect your study history or move it to another browser. Import adds a backup to the progress already here; replace erases
+          the progress here first.
+        </p>
         <div className="flex flex-wrap gap-2">
           <Button
             className="min-h-11"
@@ -61,10 +66,10 @@ export default function SettingsPage() {
               a.click();
             }}
           >
-            Download JSON backup
+            Download backup
           </Button>
           <Label className="min-h-11 cursor-pointer rounded-lg border px-3 py-2">
-            Import backup
+            Add from backup
             <input
               type="file"
               accept="application/json"
@@ -85,7 +90,7 @@ export default function SettingsPage() {
             />
           </Label>
           <Label className="min-h-11 cursor-pointer rounded-lg border px-3 py-2">
-            Replace from backup
+            Replace with backup
             <input
               type="file"
               accept="application/json"
@@ -99,7 +104,7 @@ export default function SettingsPage() {
                   setMessage(parsed.message);
                   return;
                 }
-                if (!confirm("Replace all progress on this device with this backup?")) return;
+                if (!confirm("Replace all progress in this browser with this backup? This cannot be undone.")) return;
                 const result = await importBackup(parsed.data, versions, "replace");
                 setMessage([result.message, result.contentVersionNote].filter(Boolean).join(" "));
                 await refreshProfile();
@@ -109,8 +114,11 @@ export default function SettingsPage() {
         </div>
       </section>
       <section className="space-y-2">
-        <h2 className="font-heading text-lg">Offline cache</h2>
-        <p className="text-sm text-muted-foreground">{cached.length} files in cache. Content updates use network-first so a new lesson does not rewrite old attempts.</p>
+        <h2 className="font-heading text-lg">Offline content</h2>
+        <p className="text-sm text-muted-foreground">
+          Mammo has saved {cached.length} app and content files in this browser so previously loaded material can remain available with a limited connection. Checking for
+          an update does not change your past answers.
+        </p>
         <ul className="max-h-40 overflow-auto text-xs text-muted-foreground">
           {cached.slice(0, 40).map((u) => (
             <li key={u}>{u.replace(window.location.origin, "") || "/"}</li>
@@ -122,16 +130,17 @@ export default function SettingsPage() {
           onClick={async () => {
             await updateServiceWorker();
             setCached(await cachedUrls());
-            setMessage("Asked the service worker to check for an update.");
+            setMessage("Checked for updated app and study content.");
           }}
         >
-          Check for cache update
+          Check for content updates
         </Button>
       </section>
       <section className="space-y-2">
-        <h2 className="font-heading text-lg">Exam outcome (optional)</h2>
+        <h2 className="font-heading text-lg">Exam outcome preference (optional)</h2>
         <p className="text-sm text-muted-foreground">
-          Stays on this device. Do not paste exam questions, registry IDs, or score-report files.
+          This beta can store a private “prefer not to say” outcome with your local data. It stays in this browser. Never enter exam questions, registry IDs, patient
+          information, or score-report files.
         </p>
         <Button
           variant="outline"
@@ -145,14 +154,17 @@ export default function SettingsPage() {
               otherResources: "",
               createdAt: new Date().toISOString(),
             });
-            setMessage("Recorded a placeholder outcome you can edit by exporting JSON. Prefer-not-to-say is stored.");
+            setMessage("Saved “prefer not to say” with the data in this browser.");
           }}
         >
-          Record prefer-not-to-say
+          Save “prefer not to say”
         </Button>
       </section>
       <section className="space-y-2">
-        <h2 className="font-heading text-lg">Research export</h2>
+        <h2 className="font-heading text-lg">Optional research summary</h2>
+        <p className="text-sm text-muted-foreground">
+          Build a summary of your local study activity for research review. Nothing is uploaded or shared automatically.
+        </p>
         <label className="flex items-center gap-2 text-sm">
           <input
             type="checkbox"
@@ -163,7 +175,7 @@ export default function SettingsPage() {
               setSettings(next);
             }}
           />
-          Opt in to an anonymized local export (no identifiers)
+          Allow a local summary without direct identifiers
         </label>
         <Button
           variant="outline"
@@ -179,19 +191,19 @@ export default function SettingsPage() {
             else setMessage(`Export ready: ${data.sessionCount} sessions, ${data.eventCount} events. ${data.limitations}`);
           }}
         >
-          Build research summary
+          Preview research summary
         </Button>
       </section>
       <Button
         variant="destructive"
         className="min-h-11"
         onClick={async () => {
-          if (!confirm("Erase all local progress on this device?")) return;
+          if (!confirm("Erase all Mammo progress in this browser? This cannot be undone.")) return;
           await resetDb();
           location.reload();
         }}
       >
-        Reset this device
+        Erase all progress in this browser
       </Button>
       {message ? <p className="text-sm" role="status">{message}</p> : null}
     </div>
