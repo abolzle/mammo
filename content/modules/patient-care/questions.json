@@ -3190,44 +3190,44 @@
       "id": "q-pc-049",
       "revision": 1,
       "objectiveIds": [
-        "obj-pc-pre-exam-instructions"
+        "obj-pc-inherent-risk"
       ],
-      "familyId": "fam-pc-fa-lotion-counts",
+      "familyId": "fam-pc-fa-extremely-dense-share",
       "pool": "form-a",
-      "difficultyIntent": "apply",
-      "kind": "case",
-      "estSeconds": 70,
-      "stem": "A patient remembered to skip deodorant, but she applied a scented body lotion across her chest and under her arms this morning. What is the best technologist response?",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A patient's results letter says her breast tissue is extremely dense. She asks whether that is unusual. According to NCI's breakdown of the four BI-RADS density categories, about what share of women fall in the extremely dense category?",
       "choices": [
         {
           "id": "a",
-          "text": "Proceed; only deodorant and antiperspirant can show on the image.",
-          "rationale": "Misconception. NCI lists lotions, creams, powders, and perfumes alongside deodorant as products that can appear on the image."
+          "text": "About 40%",
+          "rationale": "This is the approximate share for scattered fibroglandular or heterogeneously dense tissue, not extremely dense."
         },
         {
           "id": "b",
-          "text": "Explain that lotions can also show on the image, and remove the product per facility procedure before imaging.",
-          "rationale": "Correct. NCI groups lotions with deodorants, powders, creams, and perfumes because residue can appear on the image and interfere with interpretation."
+          "text": "About 90%",
+          "rationale": "Far too high. NCI puts each end category at about 10%."
         },
         {
           "id": "c",
-          "text": "Cancel the appointment and reschedule for another day.",
-          "rationale": "Unnecessary. The concern is residue on the skin, which facility procedures can address; nothing in the cited guidance requires rescheduling."
+          "text": "About 10%",
+          "rationale": "Correct. NCI lists extremely dense at about 10%, the same as almost entirely fatty."
         },
         {
           "id": "d",
-          "text": "Image now and ask the radiologist to ignore anything that looks like lotion.",
-          "rationale": "Residue can interfere with interpretation; asking the reader to ignore it does not fix the image-quality problem."
+          "text": "Under 1%",
+          "rationale": "Too low. NCI's figure is about 10%."
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "NCI advises avoiding deodorants, antiperspirants, powders, lotions, creams, and perfumes around the breasts and underarms on exam day because these products can appear on the mammogram and interfere with interpretation. Lotion is on the same list as deodorant.",
+      "correctChoiceId": "c",
+      "explanation": "NCI gives approximate shares for the four density categories: almost entirely fatty about 10%, scattered fibroglandular about 40%, heterogeneously dense about 40%, and extremely dense about 10%. Extremely dense is the less common of the two dense categories, but it is not rare.",
       "variants": {
-        "simpler": "Lotion counts too. It can show up on the picture, so it comes off before imaging.",
-        "example": "A patient who used body powder instead of deodorant gets the same explanation: powders are on the same NCI list."
+        "simpler": "About 1 in 10 women have extremely dense tissue.",
+        "example": "Heterogeneously dense, the other dense category, is about 40%."
       },
       "evidenceIds": [
-        "ev-pc-nci-deodorant"
+        "ev-pc-nci-dense-four"
       ],
       "review": {
         "status": "auto_checked",
@@ -3257,39 +3257,39 @@
       "objectiveIds": [
         "obj-pc-pre-exam-instructions"
       ],
-      "familyId": "fam-pc-fa-tender-prep",
+      "familyId": "fam-pc-fa-otc-pain-scope",
       "pool": "form-a",
       "difficultyIntent": "apply",
       "kind": "case",
-      "estSeconds": 75,
-      "stem": "While scheduling, a patient says her breasts are very tender and asks what might make the exam more comfortable. Which suggestion stays within NCI patient guidance and technologist scope?",
+      "estSeconds": 70,
+      "stem": "A patient asks, \"Should I take ibuprofen before my mammogram, and how much?\" Which response fits NCI guidance and technologist scope?",
       "choices": [
         {
           "id": "a",
-          "text": "Schedule for the week of her period, when tenderness is lowest.",
-          "rationale": "Reversed. NCI notes breasts can be especially tender right before or during the menstrual period."
+          "text": "\"Take 800 mg an hour before. That's what we recommend.\"",
+          "rationale": "Outside technologist scope. A technologist does not set a medication or dose."
         },
         {
           "id": "b",
-          "text": "Apply a numbing cream to the breasts an hour before the exam.",
-          "rationale": "Creams are among the products NCI says to avoid around the breasts on exam day because they can appear on the image."
+          "text": "\"Pain relievers never help with mammogram discomfort.\"",
+          "rationale": "Contradicts NCI, which notes that over-the-counter pain medication beforehand may lessen discomfort."
         },
         {
           "id": "c",
-          "text": "Take a specific prescription pain medication dose that the technologist recommends.",
-          "rationale": "Outside technologist scope. Medication choices belong with the patient's own clinician."
+          "text": "\"Use a numbing cream on your breasts instead.\"",
+          "rationale": "Creams are among the products NCI says to avoid around the breasts on exam day because they can appear on the image."
         },
         {
           "id": "d",
-          "text": "Consider scheduling outside the days just before or during her period, and ask her own clinician whether an over-the-counter pain reliever beforehand is right for her.",
-          "rationale": "Correct. NCI notes scheduling around menses may help and that over-the-counter pain medication beforehand may lessen discomfort; the patient's own clinician advises on medication."
+          "text": "\"NCI notes an over-the-counter pain reliever beforehand may lessen discomfort. Check with your own clinician about whether to take one and how much.\"",
+          "rationale": "Correct. This shares the NCI point and leaves the medication decision to her clinician."
         }
       ],
       "correctChoiceId": "d",
-      "explanation": "NCI says compression can be painful for some people, that breasts may be especially tender right before or during menses, and that over-the-counter pain medication beforehand may lessen discomfort. The technologist can share timing tips but should not prescribe; medication questions go to the patient's clinician. Creams on the breast are a pre-exam product to avoid.",
+      "explanation": "NCI notes that compression can be painful for some people and that over-the-counter pain medication taken beforehand may lessen discomfort. Medication choice and dose belong with the patient's own clinician. Creams on the breast are a pre-exam product to avoid.",
       "variants": {
-        "simpler": "Pick a less tender time of the month, and let her own clinician decide about a pain reliever.",
-        "example": "A patient who wants to rub a cream on beforehand hears that creams can show on the image."
+        "simpler": "A pain reliever may help, but her own clinician decides which one and how much.",
+        "example": "A patient on blood thinners asking the same question especially needs her clinician's advice."
       },
       "evidenceIds": [
         "ev-pc-nci-compression-comfort",
@@ -4117,43 +4117,42 @@
       "objectiveIds": [
         "obj-pc-results-pathway"
       ],
-      "familyId": "fam-pc-fa-designee-7day",
+      "familyId": "fam-pc-fa-provider-designee",
       "pool": "form-a",
       "difficultyIntent": "apply",
       "kind": "case",
-      "estSeconds": 80,
-      "stem": "A diagnostic exam is read as Suspicious. The patient says, \"My doctor is on vacation for two weeks. Will my results just sit there?\" Which answer matches MQSA?",
+      "estSeconds": 75,
+      "stem": "A diagnostic exam is read as Suspicious, so the provider report is due within 7 calendar days of the final interpretation. The referring provider is on vacation for two weeks. Which option meets MQSA?",
       "choices": [
         {
           "id": "a",
-          "text": "\"Yes. The report waits until your doctor returns.\"",
-          "rationale": "MQSA does not allow waiting for the provider's return. A responsible designee can receive the report."
+          "text": "Hold the report until the provider returns.",
+          "rationale": "This would miss the 7-day requirement."
         },
         {
           "id": "b",
-          "text": "\"The report must reach your provider, or the provider's responsible designee, within 7 calendar days of the final interpretation, and your own lay summary is also due within 7 days.\"",
-          "rationale": "Correct. Suspicious and Highly Suggestive results trigger 7-day timelines for both the provider report and the patient's lay summary."
+          "text": "Send the report to the provider's responsible designee within the 7 days.",
+          "rationale": "Correct. MQSA lets the report go to a responsible designee of the provider."
         },
         {
           "id": "c",
-          "text": "\"You'll get results within 30 days like any routine exam.\"",
-          "rationale": "The 30-day limit applies to ordinary results. Suspicious results have 7-day timelines."
+          "text": "Send the full report only to the accreditation body.",
+          "rationale": "The accreditation body is not a recipient of patient reports."
         },
         {
           "id": "d",
-          "text": "\"Only your doctor can receive anything; you'll get nothing directly.\"",
-          "rationale": "Patients always receive a lay summary."
+          "text": "Skip the provider report because the patient's lay summary covers it.",
+          "rationale": "Both are required. The lay summary does not replace the provider report."
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "MQSA requires the written report to reach the referring provider (or a responsible designee) within 7 calendar days of final interpretation when the assessment is Suspicious or Highly Suggestive of Malignancy, and the patient's lay summary is due within 7 calendar days of the final interpretation.",
+      "explanation": "For Suspicious or Highly Suggestive of Malignancy assessments, MQSA requires the written report to reach the referring provider, or a responsible designee, within 7 calendar days of the final interpretation. The patient's own lay summary is a separate requirement.",
       "variants": {
-        "simpler": "Suspicious means 7 days for both the doctor's side and the patient's letter, and a designee can receive it.",
-        "example": "For a Highly Suggestive result read on a Friday, both 7-day clocks start on that Friday."
+        "simpler": "If the provider is away, a responsible designee receives the report on time.",
+        "example": "A covering physician in the same practice is a typical designee."
       },
       "evidenceIds": [
-        "ev-mqsa-provider-report",
-        "ev-mqsa-lay-summary-timing"
+        "ev-mqsa-provider-report"
       ],
       "review": {
         "status": "auto_checked",
@@ -4448,46 +4447,44 @@
       "id": "q-pc-068",
       "revision": 1,
       "objectiveIds": [
-        "obj-pc-clinician-role"
+        "obj-pc-typical-dose"
       ],
-      "familyId": "fam-pc-fa-tech-density-call",
+      "familyId": "fam-pc-fa-gy-rad-convert",
       "pool": "form-a",
       "difficultyIntent": "apply",
-      "kind": "case",
-      "estSeconds": 65,
-      "stem": "While reviewing images for quality, you think the tissue looks dense. The patient asks, \"Am I dense?\" What should you say?",
+      "kind": "calculation",
+      "estSeconds": 80,
+      "stem": "A patient's printout lists an absorbed dose of 1.5 mGy and she asks what that is in the older unit she has read about, the rad. Using 1 Gy = 100 rad, what is 1.5 mGy?",
       "choices": [
         {
           "id": "a",
-          "text": "\"Yes, you're extremely dense.\"",
-          "rationale": "The technologist does not assign the density category."
+          "text": "150 rad",
+          "rationale": "This would be the value for 1.5 Gy. 1.5 mGy is 0.0015 Gy."
         },
         {
           "id": "b",
-          "text": "\"No, you're fine.\"",
-          "rationale": "Same problem in the other direction, and it implies a result."
+          "text": "15 mrad",
+          "rationale": "This is off by a factor of 10."
         },
         {
           "id": "c",
-          "text": "\"I can tell by feeling during positioning.\"",
-          "rationale": "NCI says density cannot be felt on exam."
+          "text": "1.5 rad",
+          "rationale": "This treats mGy and rad as equal. 0.0015 Gy x 100 = 0.15 rad."
         },
         {
           "id": "d",
-          "text": "\"The radiologist determines breast density from the mammogram, and it will be stated in your report and your results letter.\"",
-          "rationale": "Correct. Only a radiologist reading the mammogram determines density, and MQSA requires it in the report and lay summary."
+          "text": "0.15 rad (150 mrad)",
+          "rationale": "Correct. 0.0015 Gy x 100 rad/Gy = 0.15 rad = 150 mrad."
         }
       ],
       "correctChoiceId": "d",
-      "explanation": "NCI states that only a radiologist reading a mammogram can determine breast density; it cannot be felt. MQSA requires the density category in the report and a density statement in the lay summary. The technologist refers the patient to those results.",
+      "explanation": "Absorbed dose is measured in gray, where 1 Gy = 1 J/kg = 100 rad. 1.5 mGy = 0.0015 Gy, and 0.0015 x 100 = 0.15 rad, which is 150 mrad. Unit conversion is not a risk statement; individual risk questions go to the clinician.",
       "variants": {
-        "simpler": "The radiologist decides density, and it will be in her letter.",
-        "example": "The same applies if a coworker asks you to tell the patient her category."
+        "simpler": "Change mGy to Gy, then multiply by 100 to get rad.",
+        "example": "3.0 mGy converts the same way to 0.3 rad."
       },
       "evidenceIds": [
-        "ev-pc-nci-dense-not-palpable",
-        "ev-mqsa-report-contents",
-        "ev-mqsa-density-statements"
+        "ev-ip-dose-units"
       ],
       "review": {
         "status": "auto_checked",
@@ -4583,39 +4580,39 @@
       "objectiveIds": [
         "obj-pc-prior-images"
       ],
-      "familyId": "fam-pc-fa-transfer-fees",
+      "familyId": "fam-pc-fa-transfer-fee-limit",
       "pool": "form-a",
       "difficultyIntent": "apply",
       "kind": "case",
-      "estSeconds": 75,
-      "stem": "A patient wants her prior mammograms sent from her old facility for comparison. She worries the old facility will charge whatever it wants. Which statement matches MQSA?",
+      "estSeconds": 70,
+      "stem": "A patient asks her former facility to send her prior mammograms to her new facility for comparison. The former facility quotes a large flat fee that is well above what the transfer actually costs. What does MQSA say about the fee?",
       "choices": [
         {
           "id": "a",
-          "text": "The facility must transfer the originals or copies within 15 calendar days of the request, and any fee cannot exceed the facility's documented costs.",
-          "rationale": "Correct. MQSA sets both the 15-day timeline and the documented-cost fee limit."
+          "text": "Any fee charged cannot exceed the facility's documented costs.",
+          "rationale": "Correct. MQSA limits transfer fees to documented costs."
         },
         {
           "id": "b",
-          "text": "The facility may refuse unless the patient pays a standard market fee.",
-          "rationale": "MQSA limits fees to documented costs."
+          "text": "Facilities may charge any amount they choose.",
+          "rationale": "MQSA limits the fee."
         },
         {
           "id": "c",
-          "text": "Transfers are optional for digital images.",
-          "rationale": "MQSA requires transfer in the original modality, including electronic originals for digital images sent for final interpretation."
+          "text": "Transfers must always be free.",
+          "rationale": "MQSA permits a fee, as long as it does not exceed documented costs."
         },
         {
           "id": "d",
-          "text": "The facility has 90 days and may charge any amount.",
-          "rationale": "The transfer limit is 15 calendar days, and fees are limited."
+          "text": "The fee is set by the patient's insurer.",
+          "rationale": "Not what the regulation says. The limit is the facility's documented costs."
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "On request by or for the patient, MQSA requires the facility to transfer original mammograms (or release copies) within 15 calendar days, in the original modality. Fees cannot exceed documented costs. Prior images help comparison, so explaining how to request them is part of patient care.",
+      "explanation": "When original mammograms are transferred or copies are released at the patient's request, MQSA says any fee cannot exceed the facility's documented costs. The timing and original-modality rules are separate parts of the same section.",
       "variants": {
-        "simpler": "Fifteen days, and the fee can't exceed real documented costs.",
-        "example": "Requesting priors from a hospital across town follows the same rule."
+        "simpler": "A fee is allowed, but it can't be more than the real documented cost.",
+        "example": "A copy fee for sending DBT images electronically is limited the same way."
       },
       "evidenceIds": [
         "ev-mqsa-record-transfer"
@@ -4685,6 +4682,137 @@
       "evidenceIds": [
         "ev-ip-breast-soft-tissue-contrast",
         "ev-pc-nci-callback"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-072",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-nonsurgical-options"
+      ],
+      "familyId": "fam-pc-fa-radiation-treats-and-causes",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 75,
+      "stem": "A patient getting a mammogram before radiation therapy asks, \"How can radiation treat cancer if x-rays can also cause it?\" Which explanation matches OpenStax?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ionizing radiation affects DNA and interferes with cell reproduction. Rapidly dividing cells, including many cancer cells, are especially sensitive, so radiation can both treat and cause cancer.",
+          "rationale": "Correct. OpenStax makes this point directly."
+        },
+        {
+          "id": "b",
+          "text": "Therapy uses a different kind of radiation that cannot affect DNA.",
+          "rationale": "Unsupported. The cited mechanism is ionizing radiation's effect on DNA."
+        },
+        {
+          "id": "c",
+          "text": "Radiation only affects cancer cells and never healthy cells.",
+          "rationale": "False. Ionizing radiation affects cells generally; rapidly dividing cells are more sensitive."
+        },
+        {
+          "id": "d",
+          "text": "Mammography and therapy are the same dose.",
+          "rationale": "Unsupported and misleading. Nothing here equates diagnostic and therapeutic doses."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "OpenStax explains that ionizing radiation affects molecules in cells, particularly DNA, interfering with cell reproduction and function. Rapidly dividing cells, including many cancer cells, are especially sensitive, so radiation can both treat and cause cancer. Treatment planning questions go to the patient's oncology team.",
+      "variants": {
+        "simpler": "Radiation harms dividing cells, and cancer cells divide fast. That's why it can treat cancer and also why it carries risk.",
+        "example": "The same idea explains why ALARA still applies to low-dose imaging."
+      },
+      "evidenceIds": [
+        "ev-ip-ionizing-dna"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-073",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-explain-repeat"
+      ],
+      "familyId": "fam-pc-fa-retake-dose-honesty",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
+      "stem": "After a view is retaken, a patient asks, \"Did that just double my radiation?\" Which answer is honest without alarming her?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Retakes don't add any radiation.\"",
+          "rationale": "Dishonest. A retake is another exposure."
+        },
+        {
+          "id": "b",
+          "text": "\"Yes, and that doubles your cancer risk.\"",
+          "rationale": "Overstates. Nothing in the cited sources supports a doubled personal risk from one more low-dose image."
+        },
+        {
+          "id": "c",
+          "text": "\"The retake added one more low-dose exposure. I repeat a view only when the first image can't be used, because an unusable image gives no benefit.\"",
+          "rationale": "Correct. This is honest about the added exposure and explains the ALARA reason for retaking only when needed."
+        },
+        {
+          "id": "d",
+          "text": "\"The first image's radiation is cancelled when I delete it.\"",
+          "rationale": "False. Deleting an image does not undo the exposure."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Mammography uses low-dose x-rays, and ALARA means avoiding exposure with no direct benefit. A retake is one more exposure. It is justified when the first image cannot be used, and that is also why retakes are kept to those needed.",
+      "variants": {
+        "simpler": "Yes, a little more dose, and only because the first picture couldn't be used.",
+        "example": "If a patient asks why you don't take extra views \"just in case,\" the same principle applies."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-mammogram-low-dose",
+        "ev-ip-cdc-alara"
       ],
       "review": {
         "status": "auto_checked",

@@ -2289,45 +2289,45 @@
       "id": "q-ip-046",
       "revision": 1,
       "objectiveIds": [
-        "obj-ip-kvp-tube"
+        "obj-ip-image-quality-attributes"
       ],
-      "familyId": "fam-ip-fa-why-low-energy",
+      "familyId": "fam-ip-fa-fat-improves-contrast",
       "pool": "form-a",
       "difficultyIntent": "understand",
       "kind": "single",
-      "estSeconds": 70,
-      "stem": "Why does breast imaging favor lower-energy x-ray photons than many other radiographic exams?",
+      "estSeconds": 65,
+      "stem": "According to OpenStax, why can a lump be easier to see on a mammogram of a fattier breast than of a denser one?",
       "choices": [
         {
           "id": "a",
-          "text": "Lower-energy photons penetrate thick bone better.",
-          "rationale": "Reversed. Lower-energy photons are attenuated more by thick material."
+          "text": "Fat increases the radiation dose, which sharpens the image.",
+          "rationale": "Unsupported. The point is about tissue contrast, not dose."
         },
         {
           "id": "b",
-          "text": "Breast soft tissues absorb x-rays similarly, and lower-energy photons provide better contrast between materials.",
-          "rationale": "Correct. OpenStax pairs the soft-tissue contrast challenge with the higher contrast of lower-energy photons."
+          "text": "Fatty tissue moves less during exposure.",
+          "rationale": "Motion is not the cited reason."
         },
         {
           "id": "c",
-          "text": "Lower-energy photons eliminate the need for compression.",
-          "rationale": "Unsupported. Compression has its own purpose."
+          "text": "Fat blocks scatter completely.",
+          "rationale": "Unsupported claim."
         },
         {
           "id": "d",
-          "text": "Lower-energy photons produce no scatter at all.",
-          "rationale": "No source here supports zero scatter."
+          "text": "Soft tissues absorb x-rays similarly, so contrast is hard in denser breasts, and more fat can improve the contrast of a lump.",
+          "rationale": "Correct. OpenStax makes this point in its mammogram discussion."
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "OpenStax explains that lower-energy x-rays give better contrast but are attenuated more by thicker material, and that soft tissues with similar absorption are hard to separate. Breast imaging is a soft-tissue contrast problem. Device-specific kVp ranges are not given here.",
+      "correctChoiceId": "d",
+      "explanation": "OpenStax notes that soft-tissue absorption is similar across tissue types, so contrast is difficult, especially in denser breasts, and more fat can improve the contrast of a lump. NCI makes the related patient-level point that mammography is less sensitive in dense breasts.",
       "variants": {
-        "simpler": "Breast tissues look alike to x-rays. Lower energy shows the differences better.",
-        "example": "This is why a thicker breast creates a trade-off between penetration and contrast."
+        "simpler": "Fat looks different from a lump. Dense tissue looks like one.",
+        "example": "This is why the same lump can be harder to see in heterogeneously dense tissue."
       },
       "evidenceIds": [
-        "ev-ip-energy-penetration-contrast",
-        "ev-ip-breast-soft-tissue-contrast"
+        "ev-ip-breast-soft-tissue-contrast",
+        "ev-pc-nci-density-miss"
       ],
       "review": {
         "status": "auto_checked",
@@ -2355,45 +2355,44 @@
       "id": "q-ip-047",
       "revision": 1,
       "objectiveIds": [
-        "obj-ip-kvp-tube"
+        "obj-mqsa-certification"
       ],
-      "familyId": "fam-ip-fa-spectrum-ceiling",
+      "familyId": "fam-ip-fa-provisional-extension-basis",
       "pool": "form-a",
-      "difficultyIntent": "understand",
+      "difficultyIntent": "recall",
       "kind": "single",
-      "estSeconds": 70,
-      "stem": "A tube operates at 28 kV. Which statement about the emitted photons is correct?",
+      "estSeconds": 60,
+      "stem": "A new facility on a provisional MQSA certificate needs more time to complete accreditation. What must it show to get the one available 90-day extension?",
       "choices": [
         {
           "id": "a",
-          "text": "Every photon has exactly 28 keV.",
-          "rationale": "Bremsstrahlung produces a range of energies. The kV sets the maximum."
+          "text": "Evidence that losing the certificate would significantly harm access to mammography in the area it serves.",
+          "rationale": "Correct. MQSA conditions the extension on a significant adverse impact on access."
         },
         {
           "id": "b",
-          "text": "Some photons exceed 28 keV because characteristic x-rays add energy.",
-          "rationale": "No photon can exceed the electron kinetic energy set by the accelerating voltage."
+          "text": "Payment of a late fee.",
+          "rationale": "Not the regulatory basis."
         },
         {
           "id": "c",
-          "text": "No photon can exceed 28 keV, and photons span a range of energies below that maximum.",
-          "rationale": "Correct. E_max = qeV sets the ceiling, and bremsstrahlung is continuous below it."
+          "text": "A letter from the equipment manufacturer.",
+          "rationale": "Not the regulatory basis."
         },
         {
           "id": "d",
-          "text": "Photon energy depends only on mAs.",
-          "rationale": "mAs relates to quantity. The tube voltage sets the maximum energy."
+          "text": "Nothing; the extension is automatic.",
+          "rationale": "It must be requested, and evidence is required."
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "OpenStax: the maximum photon energy equals the electron kinetic energy set by the voltage (E_max = qeV, so 28 kV gives at most 28 keV). Bremsstrahlung from decelerating electrons yields a range of energies, and characteristic x-rays occur at specific energies set by the anode atoms.",
+      "correctChoiceId": "a",
+      "explanation": "A provisional certificate lasts up to 6 months and cannot be renewed. The facility may request one 90-day extension, which requires evidence that losing the certificate would significantly harm access to mammography in the area it serves.",
       "variants": {
-        "simpler": "The kV sets the top energy. Most photons are below it.",
-        "example": "At 30 kV the ceiling is 30 keV, with a spread of energies below it."
+        "simpler": "The extension depends on showing harm to local access.",
+        "example": "A rural clinic that is the only mammography site in its county is the kind of case the rule describes."
       },
       "evidenceIds": [
-        "ev-ip-emax-kvp",
-        "ev-ip-brems-characteristic"
+        "ev-mqsa-provisional-certificate"
       ],
       "review": {
         "status": "auto_checked",
@@ -2619,46 +2618,45 @@
       "id": "q-ip-051",
       "revision": 1,
       "objectiveIds": [
-        "obj-qc-physicist-survey",
-        "obj-ip-unit-components"
+        "obj-mqsa-qa-roles"
       ],
-      "familyId": "fam-ip-fa-modality-conversion",
+      "familyId": "fam-ip-fa-interpreting-physician-continuing",
       "pool": "form-a",
-      "difficultyIntent": "apply",
-      "kind": "case",
-      "estSeconds": 75,
-      "stem": "A facility converts an existing screen-film mammography unit to full-field digital mammography. What does MQSA require before clinical use?",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 65,
+      "stem": "Under MQSA, how does an interpreting physician maintain qualification?",
       "choices": [
         {
           "id": "a",
-          "text": "Nothing new, because it is the same gantry.",
-          "rationale": "MQSA treats a unit converted to another modality as a new unit."
+          "text": "Perform 200 mammograms in 24 months and complete 15 CEUs in 36 months.",
+          "rationale": "Those are the technologist continuing-experience and continuing-education numbers."
         },
         {
           "id": "b",
-          "text": "Only the next annual physicist survey.",
-          "rationale": "An annual survey does not replace the required equipment evaluation before clinical use."
+          "text": "Interpret or multi-read at least 960 mammographic exams in 24 months, and complete at least 15 category I CME units in mammography in 36 months.",
+          "rationale": "Correct. These are the interpreting physician requirements."
         },
         {
           "id": "c",
-          "text": "A technologist phantom image, then immediate patient exams.",
-          "rationale": "Technologist QC does not substitute for a medical physicist's equipment evaluation."
+          "text": "Complete 40 contact hours every year.",
+          "rationale": "40 contact hours is part of technologist initial training."
         },
         {
           "id": "d",
-          "text": "Treat it as a new unit: a mammography equipment evaluation by (or under direct supervision of) a medical physicist, with problems corrected before clinical use.",
-          "rationale": "Correct. MQSA requires this for conversions."
+          "text": "Pass the annual MQSA inspection personally.",
+          "rationale": "Inspections assess the facility; they do not qualify physicians."
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "MQSA requires a mammography equipment evaluation by a medical physicist (or someone under direct supervision) when a unit is newly installed, disassembled and reassembled, or has major components changed or repaired. A unit converted to another modality is treated as a new unit. Problems are corrected before clinical use.",
+      "correctChoiceId": "b",
+      "explanation": "MQSA requires interpreting physicians to interpret or multi-read at least 960 mammographic examinations in 24 months and complete at least 15 category I CME units in mammography in 36 months. Technologists have separate numbers: 200 exams in 24 months and 15 CEUs in 36 months.",
       "variants": {
-        "simpler": "A modality conversion counts as a new unit, so a physicist evaluates it before patients.",
-        "example": "A detector replacement is another trigger for a physicist evaluation."
+        "simpler": "Interpreting physicians: 960 reads in 2 years, plus 15 category I CME in 3 years.",
+        "example": "At inspection, interpreting physicians' and technologists' records are checked against different numbers."
       },
       "evidenceIds": [
-        "ev-mqsa-equipment-evaluation",
-        "ev-qcr-equipment-evaluation"
+        "ev-mqsa-ip-continuing",
+        "ev-mqsa-rt-continuing-experience"
       ],
       "review": {
         "status": "auto_checked",
@@ -3606,39 +3604,39 @@
       "objectiveIds": [
         "obj-mqsa-outcomes-audit"
       ],
-      "familyId": "fam-ip-fa-recall-rate-calc",
+      "familyId": "fam-ip-fa-audit-followup-pathology",
       "pool": "form-a",
-      "difficultyIntent": "apply",
-      "kind": "calculation",
-      "estSeconds": 90,
-      "stem": "In an audit period a facility performed 3,000 screening mammograms and 600 diagnostic mammograms. 270 screening exams were assessed \"Incomplete: Need additional imaging evaluation.\" What is the recall rate?",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 65,
+      "stem": "Besides calculating its required measures, what follow-up activity does the MQSA medical outcomes audit require?",
       "choices": [
         {
           "id": "a",
-          "text": "7.5%",
-          "rationale": "This divides by all 3,600 exams. The recall rate uses screening exams only."
+          "text": "Following up positive mammograms and correlating pathology results with the interpreting physician's findings.",
+          "rationale": "Correct. 21 CFR 900.12(f)(1) requires this."
         },
         {
           "id": "b",
-          "text": "9%",
-          "rationale": "Correct. 270 / 3,000 = 9%."
+          "text": "Re-imaging every negative patient after 6 months.",
+          "rationale": "Not an audit requirement."
         },
         {
           "id": "c",
-          "text": "45%",
-          "rationale": "This divides 270 by the diagnostic exams."
+          "text": "Surveying patients about comfort.",
+          "rationale": "Patient satisfaction is not an audit element."
         },
         {
           "id": "d",
-          "text": "2.7%",
-          "rationale": "A decimal-place error."
+          "text": "Repeating phantom images on each unit.",
+          "rationale": "Phantom imaging is equipment QC, not the outcomes audit."
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "MQSA defines the recall rate as the percentage of screening mammograms assessed \"Incomplete: Need additional imaging evaluation.\" 270 / 3,000 = 0.09 = 9%. Diagnostic exams are not in the denominator.",
+      "correctChoiceId": "a",
+      "explanation": "Each facility's medical outcomes audit follows up positive mammograms and correlates pathology results with the interpreting physician's findings. At minimum it determines positive predictive value, cancer detection rate, and recall rate.",
       "variants": {
-        "simpler": "Recalled screening exams divided by all screening exams.",
-        "example": "150 recalls among 2,000 screens is 7.5%."
+        "simpler": "Track positive exams and compare pathology with what the report said.",
+        "example": "A Suspicious exam with a later biopsy result goes into this correlation."
       },
       "evidenceIds": [
         "ev-mqsa-outcomes-audit"
@@ -3906,6 +3904,594 @@
       },
       "evidenceIds": [
         "ev-qcr-equip-citation-pathway"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-071",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-density-reporting"
+      ],
+      "familyId": "fam-ip-fa-extremely-dense-report-phrase",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In the MQSA report, which density category carries the required wording that it \"lowers the sensitivity of mammography\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Almost entirely fatty",
+          "rationale": "This category has no masking language."
+        },
+        {
+          "id": "b",
+          "text": "Scattered areas of fibroglandular density",
+          "rationale": "This category has no masking language."
+        },
+        {
+          "id": "c",
+          "text": "Heterogeneously dense",
+          "rationale": "Its required wording is that it may obscure small masses."
+        },
+        {
+          "id": "d",
+          "text": "Extremely dense",
+          "rationale": "Correct. MQSA pairs extremely dense with lowered sensitivity."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA's four report density categories: almost entirely fatty; scattered areas of fibroglandular density; heterogeneously dense, which may obscure small masses; and extremely dense, which lowers the sensitivity of mammography.",
+      "variants": {
+        "simpler": "Extremely dense: lowers sensitivity. Heterogeneously dense: may hide small masses.",
+        "example": "A report that uses the \"may obscure small masses\" wording is describing heterogeneously dense tissue."
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-072",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-density-reporting"
+      ],
+      "familyId": "fam-ip-fa-density-wording-change",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Besides adding breast density to the lay summary and report, how did the 2023 MQSA final rule change the patient-facing density wording?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It replaced \"dense / not dense\" with numeric percentages.",
+          "rationale": "No. The rule moved to \"dense / not dense.\""
+        },
+        {
+          "id": "b",
+          "text": "It changed \"high / low density\" to \"dense / not dense.\"",
+          "rationale": "Correct. The rule's executive summary describes this change."
+        },
+        {
+          "id": "c",
+          "text": "It removed density from patient letters.",
+          "rationale": "The opposite. The rule added density to the lay summary."
+        },
+        {
+          "id": "d",
+          "text": "It required the BI-RADS letter codes in patient letters.",
+          "rationale": "Not described in the cited summary."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "The 2023 MQSA final rule took effect September 10, 2024. It added breast density to the lay summary and report, changed the patient wording from \"high/low density\" to \"dense/not dense,\" and added specific timeframes for Suspicious and Highly Suggestive results.",
+      "variants": {
+        "simpler": "The wording became \"dense\" or \"not dense.\"",
+        "example": "A letter template that still says \"low density\" uses the older wording."
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-rule-effective"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-073",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-ip-fa-original-modality-retained",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "To save storage, a manager proposes printing digital mammograms to film and deleting the digital files, keeping the films as the \"originals.\" What does MQSA require?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Allowed, if the films are labeled.",
+          "rationale": "Labeling does not change the original-modality requirement."
+        },
+        {
+          "id": "b",
+          "text": "Allowed after 5 years.",
+          "rationale": "Retention periods do not change the original-modality requirement."
+        },
+        {
+          "id": "c",
+          "text": "Original mammograms are kept in retrievable form in the modality in which they were produced, so the digital originals must be kept.",
+          "rationale": "Correct. MQSA requires retention in the original modality."
+        },
+        {
+          "id": "d",
+          "text": "Allowed if the patient consents.",
+          "rationale": "Not a regulatory exception."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA requires original mammograms and reports to be kept in the patient's permanent record for the required period, in retrievable form and in the modality in which they were produced. Transfers likewise use the original modality.",
+      "variants": {
+        "simpler": "Keep originals in the form they were made. Digital stays digital.",
+        "example": "Converting DBT images to a printed summary does not satisfy retention either."
+      },
+      "evidenceIds": [
+        "ev-mqsa-record-retention",
+        "ev-mqsa-record-transfer"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-074",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-ip-fa-infection-fallback-guidance",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "A new specialty paddle arrives without adequate manufacturer cleaning instructions. Under MQSA, what should the facility's procedure for cleaning it after blood contact follow?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing until the manufacturer responds; use the paddle uncleaned.",
+          "rationale": "Unsafe and noncompliant."
+        },
+        {
+          "id": "b",
+          "text": "Generally accepted infection-control guidance, while still complying with applicable regulations.",
+          "rationale": "Correct. MQSA provides this fallback when adequate manufacturer recommendations are unavailable."
+        },
+        {
+          "id": "c",
+          "text": "Whatever the patient prefers.",
+          "rationale": "Not the regulatory basis."
+        },
+        {
+          "id": "d",
+          "text": "Wipe it only if blood is visible to the patient.",
+          "rationale": "Not the standard. The procedure applies after contact with blood or OPIM."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "MQSA requires documented procedures for cleaning and disinfecting mammography equipment after contact with blood or other potentially infectious materials. They must comply with applicable regulations and the manufacturer's recommended procedures, or generally accepted guidance when adequate manufacturer recommendations are not available.",
+      "variants": {
+        "simpler": "No adequate manufacturer instructions? Use generally accepted guidance.",
+        "example": "The same fallback applies to any accessory that lacks adequate cleaning guidance."
+      },
+      "evidenceIds": [
+        "ev-mqsa-infection-control"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-075",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-ip-fa-fda-directed-notification",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 65,
+      "stem": "After an additional mammography review, FDA determines that patients should be told about a facility's quality problems. What must the facility do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Notify patients or their physicians, and the public, as FDA directs.",
+          "rationale": "Correct. This is the § 900.12(j) duty."
+        },
+        {
+          "id": "b",
+          "text": "Nothing; notification is FDA's job alone.",
+          "rationale": "The facility must notify as directed."
+        },
+        {
+          "id": "c",
+          "text": "Notify only the equipment manufacturer.",
+          "rationale": "Not the required audience."
+        },
+        {
+          "id": "d",
+          "text": "Close permanently without notice.",
+          "rationale": "Not the described requirement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "If FDA believes mammography quality at a facility may present a serious risk to human health, the facility must provide clinical images and other information for additional review. If FDA determines patients need to be notified, the facility must notify patients or their physicians, and the public, as directed.",
+      "variants": {
+        "simpler": "If FDA says to notify, the facility tells patients or their doctors, and the public.",
+        "example": "The trigger for the review itself is FDA's belief that quality may pose a serious risk."
+      },
+      "evidenceIds": [
+        "ev-qcr-additional-review"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-076",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-repeat-analysis"
+      ],
+      "familyId": "fam-ip-fa-sf-repeat-frequency",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In Part 900's screen-film QC frequency structure, how often is repeat analysis listed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Daily",
+          "rationale": "Daily is processor performance."
+        },
+        {
+          "id": "b",
+          "text": "Weekly",
+          "rationale": "Weekly is the phantom image quality test."
+        },
+        {
+          "id": "c",
+          "text": "Quarterly",
+          "rationale": "Correct. Repeat analysis is listed with the quarterly tests, alongside fixer retention."
+        },
+        {
+          "id": "d",
+          "text": "Only at the annual physicist survey",
+          "rationale": "Not how Part 900 lists it."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Part 900 sets a screen-film QC structure: daily processor performance, weekly phantom image quality, quarterly fixer retention and repeat analysis, and semiannual darkroom fog and other listed tests. Digital systems instead follow manufacturer or FDA-accepted alternative QC. This is the federal screen-film structure, not a digital repeat-analysis frequency.",
+      "variants": {
+        "simpler": "Screen-film repeat analysis: quarterly.",
+        "example": "A digital facility looks up its repeat-analysis frequency in its own QC program, not in this screen-film list."
+      },
+      "evidenceIds": [
+        "ev-qcr-sf-frequency-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-077",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-phantom"
+      ],
+      "familyId": "fam-ip-fa-sf-phantom-frequency",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In Part 900's screen-film QC frequency structure, how often is the phantom image quality test listed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Weekly",
+          "rationale": "Correct. Part 900's screen-film structure lists phantom image quality weekly."
+        },
+        {
+          "id": "b",
+          "text": "Daily",
+          "rationale": "Daily is processor performance."
+        },
+        {
+          "id": "c",
+          "text": "Quarterly",
+          "rationale": "Quarterly is fixer retention and repeat analysis."
+        },
+        {
+          "id": "d",
+          "text": "Semiannually",
+          "rationale": "Semiannual tests include darkroom fog."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Part 900's screen-film structure lists daily processor performance, weekly phantom image quality, quarterly fixer retention and repeat analysis, and semiannual darkroom fog and other tests. Digital phantom testing follows the manufacturer's or an FDA-accepted alternative program, and failures are corrected before further exams.",
+      "variants": {
+        "simpler": "Screen-film phantom: weekly.",
+        "example": "Digital phantom frequencies come from the manufacturer's or an FDA-accepted alternative program."
+      },
+      "evidenceIds": [
+        "ev-qcr-sf-frequency-structure",
+        "ev-qcr-physicist-survey"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-078",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-ip-fa-equip-former-staff",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "A technologist resigned before this year's periodic clinical image quality review began. Under FDA's EQUIP FAQ, must her images be included?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes. Everyone employed in the past 3 years must be included.",
+          "rationale": "The FAQ requires active staff; former employees need not be included."
+        },
+        {
+          "id": "b",
+          "text": "Yes, but only her diagnostic exams.",
+          "rationale": "Not an EQUIP rule."
+        },
+        {
+          "id": "c",
+          "text": "Only if the accreditation body asks.",
+          "rationale": "Not the FAQ basis."
+        },
+        {
+          "id": "d",
+          "text": "No. Former employees need not be included; the review covers all active technologists and interpreting physicians.",
+          "rationale": "Correct. This matches FDA's EQUIP FAQ."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "FDA's EQUIP FAQ says the periodic review must include all active technologists and interpreting physicians, including those who perform only diagnostic studies. Former employees need not be included.",
+      "variants": {
+        "simpler": "Active staff are reviewed. Former staff are not required.",
+        "example": "A technologist who works only one day a month is still active and is included."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-all-active"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-079",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-ip-fa-facility-reports-unresolved",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A serious consumer complaint can't be resolved to the consumer's satisfaction. Besides giving the consumer directions for filing with the accreditation body, what must the facility itself do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Report the unresolved serious complaint to its accreditation body as specified.",
+          "rationale": "Correct. MQSA requires the facility to report unresolved serious complaints."
+        },
+        {
+          "id": "b",
+          "text": "Delete the complaint record after 30 days.",
+          "rationale": "Serious complaint records are kept at least 3 years."
+        },
+        {
+          "id": "c",
+          "text": "Forward it to the patient's insurer.",
+          "rationale": "Not the regulatory pathway."
+        },
+        {
+          "id": "d",
+          "text": "Nothing further.",
+          "rationale": "MQSA requires reporting to the accreditation body."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA complaint rules: a written system for collecting and resolving consumer complaints; a record of each serious complaint kept at least 3 years; directions for consumers to file unresolved serious complaints with the accreditation body; and the facility's own report of unresolved serious complaints to the accreditation body.",
+      "variants": {
+        "simpler": "The facility reports the unresolved serious complaint to the accreditation body itself.",
+        "example": "This is separate from the 3-year record-keeping rule."
+      },
+      "evidenceIds": [
+        "ev-mqsa-consumer-complaints",
+        "ev-qcr-facility-complaints"
       ],
       "review": {
         "status": "auto_checked",
