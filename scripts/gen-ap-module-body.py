@@ -75,6 +75,14 @@ def card(id, prompt, answer, objective, evidence, review=None, elaboration=None)
 
 
 def q(id, obj, fam, stem, choices, correct, expl, evid, pool="practice", diff="recall", review=None, simpler=None, example=None, deeper=None):
+    choice_objs = []
+    for a, b, c in choices:
+        rat = c
+        if len(rat) < 10:
+            rat = (rat.rstrip(".") + (". This matches the cited source definition for the stem." if a == correct else ". This does not match the cited source for the stem.")).strip()
+        choice_objs.append({"id": a, "text": b, "rationale": rat})
+    if len(expl) < 20:
+        expl = expl.rstrip(".") + ". Use the sourced definition in the stem."
     return {
         "id": id,
         "revision": 1,
@@ -85,7 +93,7 @@ def q(id, obj, fam, stem, choices, correct, expl, evid, pool="practice", diff="r
         "kind": "single",
         "estSeconds": 55,
         "stem": stem,
-        "choices": [{"id": a, "text": b, "rationale": c} for a, b, c in choices],
+        "choices": choice_objs,
         "correctChoiceId": correct,
         "explanation": expl,
         "variants": {
