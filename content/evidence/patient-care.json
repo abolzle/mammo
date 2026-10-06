@@ -62,7 +62,7 @@
     {
       "id": "ev-pc-mqsa-screen-dx-audit",
       "sourceId": "src-ecfr-21-cfr-900",
-      "locator": "21 CFR 900.12(f) note / audit definitions in \u00a7 900.2 context as used in outcomes audit",
+      "locator": "21 CFR 900.12(f) note / audit definitions in § 900.2 context as used in outcomes audit",
       "claim": "For MQSA audit purposes, a screening mammogram is routine views of an asymptomatic patient; a diagnostic mammogram is individualized views for symptoms, physical signs, or abnormal screening findings.",
       "citation": "quoted_public",
       "review": {
@@ -188,7 +188,7 @@
           }
         ]
       },
-      "scope": "Patient comfort coaching; not a medical order\u2014patients should follow their own clinician advice about medications.",
+      "scope": "Patient comfort coaching; not a medical order—patients should follow their own clinician advice about medications.",
       "excerpt": "For some people, the compression of the breast can be painful. Taking an over-the-counter pain medication before the procedure may lessen the discomfort. If possible, try not to schedule your mammogram right before or during your menstrual period, when your breasts may be especially tender.",
       "context": {
         "modality": [],
@@ -359,7 +359,7 @@
         ]
       },
       "scope": "Patient education about modalities.",
-      "excerpt": "Three-dimensional, or 3D, mammography, also called digital breast tomosynthesis (DBT), creates three-dimensional images of the breast. \u2026 DBT combined with standard mammography is better at finding tumors than standard mammography alone. However, it's still unknown whether DBT is more effective than standard mammography at reducing deaths from breast cancer.",
+      "excerpt": "Three-dimensional, or 3D, mammography, also called digital breast tomosynthesis (DBT), creates three-dimensional images of the breast. … DBT combined with standard mammography is better at finding tumors than standard mammography alone. However, it's still unknown whether DBT is more effective than standard mammography at reducing deaths from breast cancer.",
       "context": {
         "modality": [],
         "jurisdiction": "US"
@@ -393,7 +393,7 @@
         ]
       },
       "scope": "Patient communication about implants.",
-      "excerpt": "Women with breast implants should continue getting mammograms. However, most women who have breast reconstruction with implants after mastectomy usually do not need a mammogram of the reconstructed breast. Implants can hide some breast tissue\u2026 If you have breast implants you should let the mammography facility know. A special technique called implant displacement views may be used.",
+      "excerpt": "Women with breast implants should continue getting mammograms. However, most women who have breast reconstruction with implants after mastectomy usually do not need a mammogram of the reconstructed breast. Implants can hide some breast tissue… If you have breast implants you should let the mammography facility know. A special technique called implant displacement views may be used.",
       "context": {
         "modality": [],
         "jurisdiction": "US"
@@ -529,7 +529,7 @@
         ]
       },
       "scope": "Plain-language density effect.",
-      "excerpt": "Dense breast tissue and some abnormal breast changes, such as calcifications and tumors, both appear as white areas in the mammogram, whereas fatty tissue appears as dark areas. As a result, mammography is less sensitive in women with dense breasts\u2026 Women with dense breasts may be called back for follow-up testing more often than women with fatty breasts.",
+      "excerpt": "Dense breast tissue and some abnormal breast changes, such as calcifications and tumors, both appear as white areas in the mammogram, whereas fatty tissue appears as dark areas. As a result, mammography is less sensitive in women with dense breasts… Women with dense breasts may be called back for follow-up testing more often than women with fatty breasts.",
       "context": {
         "modality": [],
         "jurisdiction": "US"
@@ -742,7 +742,7 @@
     {
       "id": "ev-pc-uspstf-population",
       "sourceId": "src-uspstf-breast-2024",
-      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Clinician Summary \u2014 To whom does this recommendation apply?",
+      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Clinician Summary — To whom does this recommendation apply?",
       "claim": "The 2024 USPSTF recommendation applies to cisgender women and other persons assigned female at birth age 40+ at average risk, and also to those with factors such as a first-degree family history or dense breasts. It does not apply to persons with high-risk genetic markers/syndromes, high-dose chest radiation at a young age, previous breast cancer, or a high-risk breast lesion on prior biopsy.",
       "citation": "quoted_public",
       "review": {
@@ -776,7 +776,7 @@
     {
       "id": "ev-pc-uspstf-modalities",
       "sourceId": "src-uspstf-breast-2024",
-      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Clinician Summary \u2014 How to implement",
+      "locator": "USPSTF Breast Cancer Screening final recommendation (April 30, 2024), Clinician Summary — How to implement",
       "claim": "USPSTF states both digital mammography and digital breast tomosynthesis are effective mammographic screening modalities.",
       "citation": "quoted_public",
       "review": {
@@ -801,7 +801,7 @@
         ]
       },
       "scope": "Modality options for screening.",
-      "excerpt": "Both digital mammography and digital breast tomosynthesis (or \u201c3D mammography\u201d) are effective mammographic screening modalities.",
+      "excerpt": "Both digital mammography and digital breast tomosynthesis (or “3D mammography”) are effective mammographic screening modalities.",
       "context": {
         "modality": [],
         "jurisdiction": "US"
@@ -811,7 +811,7 @@
       "id": "ev-pc-acs-average-ages",
       "sourceId": "src-acs-facts-2024-2025",
       "locator": "ACS Breast Cancer Facts & Figures 2024-2025, ACS Recommendations for Breast Cancer Screening (average-risk)",
-      "claim": "ACS average-risk guidance (as stated in Facts & Figures 2024\u20132025): ages 40\u201344 may begin annual screening; ages 45\u201354 should have annual mammograms; ages 55+ may transition to every other year or continue annually; continue while in good health with life expectancy of about 10 years or more.",
+      "claim": "ACS average-risk guidance (as stated in Facts & Figures 2024–2025): ages 40–44 may begin annual screening; ages 45–54 should have annual mammograms; ages 55+ may transition to every other year or continue annually; continue while in good health with life expectancy of about 10 years or more.",
       "citation": "link_only",
       "review": {
         "status": "auto_checked",
@@ -844,7 +844,7 @@
       "id": "ev-pc-acs-high-risk",
       "sourceId": "src-acs-facts-2024-2025",
       "locator": "ACS Breast Cancer Facts & Figures 2024-2025, ACS Recommendations for Breast Cancer Screening (high-risk)",
-      "claim": "ACS high-risk guidance (as stated in Facts & Figures 2024\u20132025): women at high risk (about 20\u201325% or greater lifetime risk by family-history tools, known high-risk genetic variation or first-degree relative with such a variation, strong family history, or prior chest radiation) generally begin annual MRI and mammography at age 30.",
+      "claim": "ACS high-risk guidance (as stated in Facts & Figures 2024–2025): women at high risk (about 20–25% or greater lifetime risk by family-history tools, known high-risk genetic variation or first-degree relative with such a variation, strong family history, or prior chest radiation) generally begin annual MRI and mammography at age 30.",
       "citation": "link_only",
       "review": {
         "status": "auto_checked",
@@ -978,7 +978,7 @@
     {
       "id": "ev-pc-cdc-abhs",
       "sourceId": "src-cdc-hand-hygiene",
-      "locator": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers \u2014 When to use ABHS / soap and water",
+      "locator": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers — When to use ABHS / soap and water",
       "claim": "Unless hands are visibly soiled, alcohol-based hand sanitizer is preferred in most clinical situations. Wash with soap and water when hands are visibly soiled, before eating, after using the restroom, and during care of patients with suspected/confirmed C. difficile or norovirus in outbreaks.",
       "citation": "quoted_public",
       "review": {
@@ -1003,7 +1003,7 @@
         ]
       },
       "scope": "Product choice for hand hygiene.",
-      "excerpt": "Unless hands are visibly soiled, ABHS is preferred over soap and water in most clinical situations\u2026 When hands are visibly soiled. Before eating. After using the restroom. During the care of patients with suspected or confirmed infection during outbreaks of C. difficile and norovirus.",
+      "excerpt": "Unless hands are visibly soiled, ABHS is preferred over soap and water in most clinical situations… When hands are visibly soiled. Before eating. After using the restroom. During the care of patients with suspected or confirmed infection during outbreaks of C. difficile and norovirus.",
       "context": {
         "modality": [],
         "jurisdiction": "US"
@@ -1012,7 +1012,7 @@
     {
       "id": "ev-pc-cdc-gloves",
       "sourceId": "src-cdc-hand-hygiene",
-      "locator": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers \u2014 Know when to wear (and change) gloves",
+      "locator": "CDC Clinical Safety: Hand Hygiene for Healthcare Workers — Know when to wear (and change) gloves",
       "claim": "Gloves are not a substitute for hand hygiene. Perform hand hygiene before donning gloves and always clean hands after removing gloves.",
       "citation": "quoted_public",
       "review": {
@@ -1071,10 +1071,1033 @@
         ]
       },
       "scope": "Access resources technologists may mention; not a guarantee of eligibility.",
-      "excerpt": "CDC's National Breast and Cervical Cancer Early Detection Program provides screening services, including clinical breast exams and mammograms, to low-income, uninsured women throughout the United States and in several U.S. territories. Contact information for local programs is available from the CDC or by calling 1\u2013800\u2013CDC\u2013INFO (1\u2013800\u2013232\u20134636).",
+      "excerpt": "CDC's National Breast and Cervical Cancer Early Detection Program provides screening services, including clinical breast exams and mammograms, to low-income, uninsured women throughout the United States and in several U.S. territories. Contact information for local programs is available from the CDC or by calling 1–800–CDC–INFO (1–800–232–4636).",
       "context": {
         "modality": [],
         "jurisdiction": "US"
+      }
+    },
+    {
+      "id": "ev-pc-pdq-incidence-2025",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "Breast Cancer Screening PDQ (HP), Breast Cancer Incidence and Mortality",
+      "claim": "Breast cancer is the most common noncutaneous cancer in U.S. women, with an estimated 316,950 invasive cases, 59,080 in situ cases, and 42,170 deaths expected in 2025. Men account for about 1% of breast cancer cases and deaths.",
+      "scope": "Patient-education level incidence framing for technologists.",
+      "exceptions": "Estimates are year-specific; always cite the source year. Do not treat as lifetime risk.",
+      "excerpt": "Breast cancer is the most common noncutaneous cancer in U.S. women, with an estimated 316,950 cases of invasive disease, 59,080 cases of in situ disease, and 42,170 deaths expected in 2025. … Men account for about 1% of breast cancer cases and breast cancer deaths.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US",
+        "effective": "2025 estimates in PDQ retrieved 2026-10-06"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-pdq-brca-share",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "Breast Cancer Screening PDQ (HP), Incidence and Mortality",
+      "claim": "Women with inherited risk, including BRCA1 and BRCA2 carriers, make up approximately 5% to 10% of breast cancer cases.",
+      "scope": "Proportion of cases linked to inherited high-risk mutations.",
+      "exceptions": "Not every patient with a family history has a BRCA mutation.",
+      "excerpt": "Women with inherited risk, including BRCA1 and BRCA2 gene carriers, make up approximately 5% to 10% of breast cancer cases.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-pdq-incidence-drivers",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "Breast Cancer Screening PDQ (HP), Incidence and Mortality",
+      "claim": "Breast cancer incidence depends on reproductive factors, screening participation, and postmenopausal hormone use. Incidence (especially DCIS) rose after widespread mammography adoption; postmenopausal hormone therapy use was associated with incidence increases that later reversed when use decreased.",
+      "scope": "Why incidence numbers move over time — relevant when patients ask about rising rates.",
+      "exceptions": "Technologists explain patterns; they do not attribute an individual's diagnosis.",
+      "excerpt": "Breast cancer incidence depends on reproductive issues (such as early vs. late pregnancy, multiparity, and breastfeeding), participation in screening, and postmenopausal hormone usage. The incidence of breast cancer (especially ductal carcinoma in situ [DCIS]) increased dramatically after mammography was widely adopted … Widespread use of postmenopausal hormone therapy was associated with a dramatic increase in breast cancer incidence, a trend that reversed when its use decreased.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-pdq-disparity",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "Breast Cancer Screening PDQ (HP), Incidence and Mortality; Black women subsection",
+      "claim": "Incidence is higher in White women than Black women overall, but Black women have lower survival for every stage and about 40% higher mortality; PDQ attributes this to factors such as screening quality, follow-up timeliness, treatment quality, and tumor type.",
+      "scope": "Social/access disparities at epidemiology teaching level.",
+      "exceptions": "Do not reduce a patient's outcome to race alone; use for education about equity and follow-up urgency.",
+      "excerpt": "Breast cancer incidence is higher in White women than in Black women, although Black women have a lower survival rate for every stage of disease. … Black women have a 40% higher breast cancer mortality than White women, a finding that is attributed to multiple factors, such as delayed follow-up of abnormal mammograms, later stage at diagnosis, inferior breast cancer treatment, and more aggressive tumor types.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-pdq-biggest-risks",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "Breast Cancer Screening PDQ (HP), Incidence and Mortality",
+      "claim": "The biggest risk factor for breast cancer is being female, followed by advancing age. Other listed risks include hormonal/reproductive factors (early menarche, late menopause, nulliparity, late first pregnancy, postmenopausal hormone therapy), alcohol, and ionizing radiation exposure.",
+      "scope": "Inherent and hormonal risk overview for patient education.",
+      "exceptions": "Risk factors raise probability; they do not diagnose cancer.",
+      "excerpt": "The biggest risk factor for breast cancer is being female followed by advancing age. Other risk factors include hormonal aspects (such as early menarche, late menopause, nulliparity, late first pregnancy, and postmenopausal hormone therapy use), alcohol consumption, and exposure to ionizing radiation.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-prev-age-risk",
+      "sourceId": "src-nci-pdq-breast-prevention-hp",
+      "locator": "Breast Cancer Prevention PDQ (HP), Age",
+      "claim": "Besides female sex, advancing age is the biggest risk factor. A 30-year-old woman has about a 1 in 175 chance of diagnosis in the next 10 years; a 70-year-old woman has about a 1 in 9 chance over the same period.",
+      "scope": "Age-related risk magnitude for education (not individual counseling).",
+      "exceptions": "Numbers are population estimates; do not present as a personal prediction.",
+      "excerpt": "The major risk factor for breast cancer is advancing age. A 30-year-old woman has about a 1 in 175 chance of being diagnosed with breast cancer in the next 10 years, whereas a 70-year-old woman has a 1 in 9 chance over the same time period.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-prev-repro-mht",
+      "sourceId": "src-nci-pdq-breast-prevention-hp",
+      "locator": "Breast Cancer Prevention PDQ (HP), Overview of risk factors; Menopausal hormone therapy",
+      "claim": "Reproductive factors that increase endogenous estrogen exposure (early menarche, late menopause), nulliparity, and combination estrogen-progesterone menopausal hormone therapy after menopause increase breast cancer risk. Alcohol is also associated with increased risk.",
+      "scope": "Inherent reproductive and hormone-related risk factors.",
+      "exceptions": "Hormone therapy decisions are clinician-managed; technologists document history, not prescribe.",
+      "excerpt": "Besides female sex, advancing age is the biggest risk factor for breast cancer. Reproductive factors that increase exposure to endogenous estrogen, such as early menarche and late menopause, increase risk, as does the use of combination estrogen-progesterone hormones after menopause. Nulliparity and alcohol consumption also are associated with increased risk.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-prev-radiation-mantle",
+      "sourceId": "src-nci-pdq-breast-prevention-hp",
+      "locator": "Breast Cancer Prevention PDQ (HP), Ionizing radiation; Screening PDQ thoracic radiation subsection",
+      "claim": "Prior ionizing radiation, especially during puberty or young adulthood (including mantle irradiation for lymphoma), increases later breast cancer risk and may justify earlier or more intensive screening planning by clinicians.",
+      "scope": "Prior chest radiation as an inherent risk with imaging-pathway implications.",
+      "exceptions": "Screening start age/modality for high-risk patients is clinician-directed; USPSTF average-risk recommendation excludes high-dose chest radiation history.",
+      "excerpt": "Women treated for Hodgkin lymphoma with mantle radiation by age 16 years have a subsequent risk up to 35% of developing breast cancer by age 40 years. … Women with Hodgkin and non-Hodgkin lymphoma who were treated with mantle irradiation have an increased risk of breast cancer, starting 10 years after completing therapy and continuing life-long.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography",
+          "MRI"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-pdq-density-imaging",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "Breast Cancer Screening PDQ (HP), Breast density",
+      "claim": "Dense breasts can obscure small masses and reduce mammographic sensitivity (about 10%–29% lower sensitivity with high density). High density is also associated with modestly increased cancer risk but not higher breast cancer death. Hormone therapy is associated with increased density, lower sensitivity, and more interval cancers.",
+      "scope": "Imaging implications of density and exogenous hormones.",
+      "exceptions": "Supplemental screening mortality benefit is unproven in PDQ; FDA density notification directs patients to clinicians.",
+      "excerpt": "Dense breasts may obscure the detection of small masses on mammography, thereby reducing the sensitivity of mammography. For women of all ages, high breast density is associated with 10% to 29% lower sensitivity. High breast density is also associated with a modestly increased risk of developing breast cancer. … Hormone therapy is associated with increased breast density, lower mammographic sensitivity, and an increased rate of interval cancers.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-prev-obesity-alcohol",
+      "sourceId": "src-nci-pdq-breast-prevention-hp",
+      "locator": "Breast Cancer Prevention PDQ (HP), Obesity; alcohol mentioned in overview",
+      "claim": "Obesity is associated with increased breast cancer risk in postmenopausal women who have not used hormone therapy. Alcohol consumption is associated with increased risk.",
+      "scope": "Lifestyle/social risk factors at education level.",
+      "exceptions": "Weight-loss benefit is uncertain per PDQ; do not lecture patients—document and educate neutrally.",
+      "excerpt": "Based on solid evidence, obesity is associated with an increased breast cancer risk in postmenopausal women who have not used HT. It is uncertain whether weight reduction decreases the risk of breast cancer in women with obesity. … Nulliparity and alcohol consumption also are associated with increased risk.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-symptoms-list",
+      "sourceId": "src-nci-breast-symptoms",
+      "locator": "NCI Breast Cancer Signs and Symptoms (posted 2025-12-02)",
+      "claim": "Reportable breast changes include lumps (breast, near breast, or underarm), thickening, change in size/shape, nipple discharge not milk, nipple direction/shape change, and skin changes (scaliness, swelling, redness/darkening, itching/tingling, rash, dimpling/puckering). Early breast cancer often has no symptoms—screening matters. Most changes are not cancer, but follow-up is needed.",
+      "scope": "Technologist recognition and documentation of symptoms that may convert a study to diagnostic work-up.",
+      "exceptions": "Technologists do not diagnose; facility protocol governs screening vs diagnostic routing.",
+      "excerpt": "Although most breast changes are not cancer, it is important to check with your doctor if you notice unusual changes, including: … a lump in or near your breast … a lump under your arm … thick or firm area … a change in the size or shape of your breast … fluid or discharge that is not breast milk … changes in the shape of the nipple … scaly or swollen skin … redness or darkening … dimples or puckering. … early breast cancer often has no symptoms, which is why breast cancer screening is important.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-pain-not-usual",
+      "sourceId": "src-nci-breast-symptoms",
+      "locator": "NCI Breast Cancer Signs and Symptoms — Is pain a symptom?",
+      "claim": "Breast cancer does not usually cause pain; cysts, hormonal changes, and some medications can cause soreness. Persistent pain still warrants clinician evaluation.",
+      "scope": "Common misconception about pain as a cancer symptom.",
+      "exceptions": "Persistent pain is still a reason to see a clinician.",
+      "excerpt": "Breast cancer does not usually cause pain. Several conditions that are not cancer, such as breast cysts and hormonal changes before your period, can cause breast soreness or pain, as can certain medications. If you have breast pain that persists, it’s important to see a doctor.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-seer-symptoms-exam",
+      "sourceId": "src-nci-seer-breast",
+      "locator": "SEER Training — Physical Exam (updated 2025-01-10)",
+      "claim": "Physical exam of both breasts and axilla looks for lump/thickening, size/shape change, dimpling/puckering, inverted nipple, non-milk nipple fluid (especially bloody), scaly/red/swollen skin on breast/nipple/areola, and peau d’orange dimpling. Many cancers are found before symptoms because of screening.",
+      "scope": "Clinical findings list for history/documentation teaching.",
+      "exceptions": "SEER module is for registry training, not a clinical practice guideline.",
+      "excerpt": "During the physical examination, physician is specifically searching for the following signs: Lump or thickening in or near the breast or in the underarm area; Change in the size or shape of the breast; Dimpling or puckering in the skin of the breast; Nipple turned inward toward the breast; Fluid, other than breast milk, from the nipple, especially if it’s bloody; Scaly, red, or swollen skin on the breast, nipple, or areola; Dimples in the breast that look like the skin of an orange, called peau d’orange.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-openstax-breast-hx",
+      "sourceId": "src-openstax-clinical-nursing-breast",
+      "locator": "OpenStax Clinical Nursing Skills §23.4 — history interview and expected breast findings",
+      "claim": "Collection of subjective data begins with a health-history interview noting breast-cancer risk factors (including age and family/personal history). Expected inspection/palpation findings include smooth skin without dimpling or thickening, soft tissue without masses, no pain on palpation, and nipples mostly symmetrical without discharge (except lactation).",
+      "scope": "History-taking and physical-finding documentation habits transferable to mammography intake.",
+      "exceptions": "Nursing textbook context; facility mammography worksheets and marker protocols still govern imaging documentation. Scars/moles/tattoos marker methods are not specified here.",
+      "excerpt": "Collection of subjective data begins with a patient interview to collect a health history … note of any risk factors for breast cancer including age over 50, family or personal history … Skin over breasts should be smooth, without evidence of dimpling or skin thickening … Patient should not report any pain or discomfort during palpation. Nipples should be mostly symmetrical without discharge (except for lactating mothers).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-uspstf-gender-population",
+      "sourceId": "src-uspstf-breast-2024",
+      "locator": "USPSTF 2024 Breast Cancer Screening — Clinician Summary population",
+      "claim": "USPSTF average-risk screening recommendations apply to cisgender women and other persons assigned female at birth (including transgender men and nonbinary persons) age 40+, and to those with some increased-risk factors (e.g., first-degree family history, dense breasts). They do not apply to high-risk genetic markers/syndromes, high-dose chest radiation at a young age, previous breast cancer, or high-risk prior biopsy lesions.",
+      "scope": "Gender-affirming/inclusive population framing and high-risk exclusions that change imaging pathways.",
+      "exceptions": "Does not specify how to document top surgery or hormone therapy details—follow facility intake protocol; high-risk pathways are clinician-directed.",
+      "excerpt": "These recommendations apply to cisgender women and all other persons assigned female at birth (including transgender men and nonbinary persons) 40 years or older at average risk of breast cancer. … These recommendations do not apply to persons who have a genetic marker or syndrome associated with a high risk of breast cancer (eg, BRCA1 or BRCA2 genetic variation), a history of high-dose radiation therapy to the chest at a young age, previous breast cancer, or a high-risk breast lesion on previous biopsy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US",
+        "effective": "2024-04-30"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-lumpectomy",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — lumpectomy (termId 45758)",
+      "claim": "Lumpectomy removes cancer or abnormal breast tissue plus some surrounding normal tissue, but not the whole breast; some axillary nodes may be removed for biopsy.",
+      "scope": "Surgical terminology for technologist patient education.",
+      "excerpt": "Surgery to remove cancer or other abnormal tissue from the breast and some normal tissue around it, but not the breast itself. Some lymph nodes under the arm may be removed for biopsy. … Also called breast-conserving surgery, breast-sparing surgery, partial mastectomy, quadrantectomy, and segmental mastectomy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-simple-mastectomy",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — simple mastectomy (termId 45071)",
+      "claim": "Simple (total) mastectomy removes the whole breast (may include nipple, areola, and skin). Some underarm nodes may also be removed to check for cancer.",
+      "scope": "Surgical terminology.",
+      "excerpt": "Surgery to remove the whole breast, which may include the nipple, areola (the dark-colored skin around the nipple), and skin over the breast. Some of the lymph nodes under the arm may also be removed to check for cancer. Also called total mastectomy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-mrm",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — modified radical mastectomy (termId 46285)",
+      "claim": "Modified radical mastectomy removes the whole breast and most of the lymph nodes under the arm.",
+      "scope": "Surgical terminology.",
+      "excerpt": "Surgery to remove the whole breast, which may include the nipple, areola … and skin over the breast. Most of the lymph nodes under the arm are also removed.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-prophylactic-mastectomy",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — prophylactic mastectomy (termId 44227)",
+      "claim": "Prophylactic (preventive / risk-reducing) mastectomy removes one or both breasts before disease develops to reduce risk in people at very high risk.",
+      "scope": "Surgical terminology — not a technologist treatment decision.",
+      "excerpt": "Surgery to reduce the risk of breast cancer by removing one or both breasts before disease develops. Prophylactic mastectomy may be done in people who have a very high risk of developing breast cancer. Also called preventive mastectomy and risk-reducing mastectomy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-slnb",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — sentinel lymph node biopsy (termId 46712)",
+      "claim": "Sentinel lymph node biopsy removes and examines the first node(s) likely to receive drainage from the tumor, identified with radioactive tracer and/or blue dye.",
+      "scope": "Surgical terminology.",
+      "excerpt": "Removal and examination of the sentinel node(s) (the first lymph node(s) to which cancer cells are likely to spread from a primary tumor). To identify the sentinel lymph node(s), the surgeon injects a radioactive substance, blue dye, or both near the tumor.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-mastectomy-types",
+      "sourceId": "src-nci-breast-surgery",
+      "locator": "NCI Mastectomy patient page — Types of mastectomy",
+      "claim": "Total/simple mastectomy removes the whole breast; modified radical mastectomy adds axillary lymph node dissection; skin- and nipple-sparing variants preserve skin and/or nipple-areola when appropriate; radical mastectomy (chest wall muscles) is rarely used today.",
+      "scope": "Terminology map for post-surgical mammography patients.",
+      "exceptions": "Procedure choice is surgical; technologists use terms for history and positioning context only.",
+      "excerpt": "Total mastectomy (also called simple mastectomy). … removes your whole breast, including the nipple, areola, breast tissue, and skin. … Modified radical mastectomy. This is the same as a total mastectomy, but the surgeon also removes lymph nodes under your arm (axillary lymph node dissection). … Radical mastectomy … is now rarely performed …",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-reconstruction-implant",
+      "sourceId": "src-nci-breast-surgery",
+      "locator": "NCI Breast Reconstruction After Mastectomy — implants",
+      "claim": "Breast reconstruction rebuilds breast shape after mastectomy using implants (saline/silicone) and/or autologous tissue. Implant reconstruction is often two-stage (tissue expander then permanent implant) and may be immediate or delayed.",
+      "scope": "Reconstruction terminology including implants — not prescribing.",
+      "exceptions": "Mammography after reconstruction follows facility/protocol and order type; NCI notes mammography is not typically done on a fully reconstructed post-mastectomy breast.",
+      "excerpt": "Breasts can be rebuilt using implants (saline or silicone) or autologous tissue … Surgery to reconstruct the breasts can be done (or started) at the time of the mastectomy, called immediate reconstruction, or … delayed reconstruction. … In the first stage, the surgeon places a device called a tissue expander … The expander is slowly filled … In the second stage … the expander is removed and replaced with an implant.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-er-pr-her2",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — estrogen receptor (46409), progesterone receptor (423248), HER2/neu (44945)",
+      "claim": "ER and PR are proteins that hormones can bind to inside cells; HER2/neu is a growth-related protein that some cancers overproduce. Receptor/HER2 status helps plan treatment.",
+      "scope": "Receptor-status terminology only.",
+      "excerpt": "Estrogen receptor: A protein found inside the cells … The hormone estrogen will bind to the receptors … Also called ER. Progesterone receptor: … Also called PR. HER2/neu: A protein involved in normal cell growth. HER2/neu may be made in larger than normal amounts by some types of cancer cells, including breast … Checking the amount of HER2/neu on some types of cancer cells may help plan treatment.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-pdq-receptor-classes",
+      "sourceId": "src-nci-pdq-breast-treatment-hp",
+      "locator": "Breast Cancer Treatment PDQ (HP) — ER/PR/HER2 classification",
+      "claim": "Based on ER, PR, and HER2 results, breast cancer is classified as hormone receptor–positive patterns, HER2-positive, or triple-negative (ER, PR, and HER2 negative). Status predicts response to endocrine and HER2-directed therapy.",
+      "scope": "Terminology for why biomarker results matter — no regimen teaching.",
+      "exceptions": "Assay interpretation and therapy selection require qualified clinicians.",
+      "excerpt": "On the basis of ER, PR, and HER2 results, breast cancer is classified as one of the following types: … HER2 positive. Triple negative (ER, PR, and HER2 negative). ER, PR, and HER2 status are important in determining prognosis and in predicting response to endocrine and HER2-directed therapy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-seer-biomarkers",
+      "sourceId": "src-nci-seer-breast",
+      "locator": "SEER Training — Biomarkers",
+      "claim": "ER/PR positivity predicts favorable response to endocrine (hormonal) therapy. About 15%–20% of breast carcinomas overexpress HER2; untreated HER2 overexpression associates with worse prognosis. Biomarkers may be diagnostic, predictive, and/or prognostic.",
+      "scope": "Registry-level biomarker definitions supporting technologist vocabulary.",
+      "exceptions": "Not a prescribing reference.",
+      "excerpt": "Positive results predict a favorable response to endocrine (hormonal) therapy. … A subset of breast carcinomas (approximately 15% to 20%) overexpress human epidermal growth factor receptor 2 (HER2). … Biomarkers (tumor markers) can be diagnostic, predictive, and/or prognostic.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-chemo-rt-ht",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — chemotherapy (45214), radiation therapy (44971), hormone therapy (45110)",
+      "claim": "Chemotherapy uses drugs to kill cancer cells or stop division. Radiation therapy uses high-energy radiation to kill cancer cells/shrink tumors (external beam or internal). Hormone (endocrine) therapy adds, blocks, or removes hormones to slow hormone-sensitive cancers.",
+      "scope": "Nonsurgical treatment terminology.",
+      "excerpt": "Chemotherapy: Treatment that uses drugs to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Radiation therapy: The use of high-energy radiation … to kill cancer cells and shrink tumors. Hormone therapy: Treatment that adds, blocks, or removes hormones. … To slow or stop the growth of cancer, synthetic hormones or other drugs may be given to block the body’s natural hormones … Also called endocrine therapy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-ht-receptors",
+      "sourceId": "src-nci-breast-nonsurgical",
+      "locator": "NCI Hormone Therapy for Breast Cancer — Who gets hormone therapy?",
+      "claim": "Hormone therapy is used when tumor cells contain estrogen and/or progesterone receptors (HR-positive). HR-negative tumors do not respond to hormone therapy. About 80% of breast cancers are HR-positive. This is different from menopausal hormone therapy.",
+      "scope": "Link receptor status to endocrine therapy terminology.",
+      "exceptions": "Drug selection is clinician-only; technologists do not advise regimens.",
+      "excerpt": "You may receive hormone therapy if the cells in your breast cancer contain proteins called hormone receptors. … If the tumor cells contain hormone receptors, the cancer is called hormone receptor positive (HR positive). Tumors that lack hormone receptors (HR negative) do not respond to hormone therapy. About 80% of people diagnosed with breast cancer have HR-positive cancers. Hormone therapy for breast cancer is different from menopausal hormone therapy.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-local-systemic",
+      "sourceId": "src-nci-breast-nonsurgical",
+      "locator": "NCI Breast Cancer Treatment hub — Local vs systemic",
+      "claim": "Local treatments (surgery, radiation) target the cancer area; systemic treatments (e.g., chemotherapy, hormone therapy, targeted therapy, immunotherapy) can reach cancer cells throughout the body.",
+      "scope": "High-level treatment vocabulary.",
+      "excerpt": "Your treatment options may include both local and systemic treatments. Local treatments, such as surgery and radiation, are directed at the area with cancer and not the whole body. Systemic treatments, such as chemotherapy, are drugs that can reach cancer cells throughout the body.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-symptoms-diagnostic",
+      "sourceId": "src-nci-breast-symptoms",
+      "locator": "NCI Signs and Symptoms — diagnostic mammogram after symptoms",
+      "claim": "Depending on symptoms, clinicians may order a diagnostic mammogram or other tests to distinguish cancer from benign conditions; follow up even after a recent normal screening mammogram.",
+      "scope": "History/symptoms → imaging pathway implication.",
+      "excerpt": "Depending on your symptoms, your doctor may suggest that you have a diagnostic mammogram or another test … But it’s important to follow up with your doctor when you notice a breast change, even if you had a recent normal mammogram.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
       }
     }
   ]

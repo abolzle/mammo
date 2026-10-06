@@ -494,18 +494,26 @@
       "title": "Breast Cancer Screening (PDQ®) — Health Professional Version",
       "publisher": "National Cancer Institute",
       "url": "https://www.cancer.gov/types/breast/hp/breast-screening-pdq",
-      "publishedOrEffective": null,
+      "publishedOrEffective": "Retrieved 2026-10-06 (PDQ continuously updated)",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Retrieved; not yet extracted into evidence (Stage 2: epidemiology, risk factors, modalities).",
-      "sections": [],
+      "retrievalNote": "Full HP screening PDQ retrieved 2026-10-06 for incidence (2025 estimates), risk factor overview, density/hormone imaging implications, and disparities context.",
+      "sections": [
+        "Breast Cancer Incidence and Mortality",
+        "Risk factors overview",
+        "Women with BRCA1 and BRCA2 genetic mutations",
+        "Recipients of thoracic radiation",
+        "Black women",
+        "Breast density",
+        "Accuracy of mammography"
+      ],
       "rights": {
         "status": "public_domain",
         "canRead": true,
         "canQuote": true,
         "canRedistribute": true,
         "canSubmitToAI": true,
-        "basis": "NCI PDQ text is not copyrighted; PDQ trademark and some graphics restricted.",
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
         "basisSourceId": "src-nci-reuse"
       },
       "kind": "government_guidance"
@@ -515,39 +523,52 @@
       "title": "Breast Cancer Treatment (PDQ®) — Health Professional Version",
       "publisher": "National Cancer Institute",
       "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
-      "publishedOrEffective": null,
+      "publishedOrEffective": "Retrieved 2026-10-06 (PDQ continuously updated)",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Retrieved; not yet extracted (Stage 2: treatment options, receptor status, pathology).",
-      "sections": [],
+      "retrievalNote": "Retrieved 2026-10-06 for surgery taxonomy, SLN biopsy definition, ER/PR/HER2 classification, reconstruction/implant overview at terminology level.",
+      "sections": [
+        "General Information About Breast Cancer — receptor status",
+        "Breast-Conserving Surgery",
+        "Mastectomy options",
+        "Sentinel lymph node biopsy",
+        "Breast Reconstruction"
+      ],
       "rights": {
         "status": "public_domain",
         "canRead": true,
         "canQuote": true,
         "canRedistribute": true,
         "canSubmitToAI": true,
-        "basis": "NCI PDQ text is not copyrighted.",
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
         "basisSourceId": "src-nci-reuse"
       },
       "kind": "government_guidance"
     },
     {
       "id": "src-nci-seer-breast",
-      "title": "SEER Training Modules — Breast Cancer (anatomy, risk factors, imaging)",
-      "publisher": "National Cancer Institute SEER Program",
-      "url": "https://training.seer.cancer.gov/breast/anatomy.html",
-      "publishedOrEffective": null,
+      "title": "SEER Training Modules — Breast Cancer",
+      "publisher": "National Cancer Institute / SEER",
+      "url": "https://training.seer.cancer.gov/breast/",
+      "publishedOrEffective": "Updated January 10, 2025",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Module index retrieved; anatomy page path located. Not yet extracted.",
-      "sections": [],
+      "retrievalNote": "Module hub plus incidence, physical-exam (symptoms), surgery of primary site, reconstruction, biomarkers, and treatment overview pages retrieved 2026-10-06.",
+      "sections": [
+        "Incidence and Mortality",
+        "Physical Exam (signs/symptoms)",
+        "Surgery of Primary Site",
+        "Reconstruction",
+        "Biomarkers (ER/PR/HER2)",
+        "Treatment overview"
+      ],
       "rights": {
         "status": "public_domain",
         "canRead": true,
         "canQuote": true,
         "canRedistribute": true,
         "canSubmitToAI": true,
-        "basis": "NCI/NIH government work; verify per-graphic credits.",
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
         "basisSourceId": "src-nci-reuse"
       },
       "kind": "government_guidance"
@@ -560,7 +581,7 @@
       "publishedOrEffective": "Final recommendation April 30, 2024",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Full recommendation page retrieved 2026-10-06, including recommendation summary table and clinician summary.",
+      "retrievalNote": "Full recommendation page retrieved 2026-10-06, including recommendation summary table and clinician summary. Reconfirmed 2026-10-06 for average-risk population including transgender men and nonbinary persons AFAB, and high-risk exclusions relevant to imaging pathways.",
       "sections": [
         "Recommendation Summary",
         "Clinician Summary",
@@ -885,7 +906,7 @@
       "publishedOrEffective": "Retrieved 2026-10-06 via NCI Glossary API",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Term definitions retrieved through https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/{termId} on 2026-10-06.",
+      "retrievalNote": "Additional treatment terminology retrieved via glossary API https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/{termId} on 2026-10-06.",
       "sections": [
         "fibroadenoma",
         "DCIS",
@@ -908,7 +929,20 @@
         "fibroglandular breast tissue",
         "breast density",
         "calcification",
-        "microcalcification"
+        "microcalcification",
+        "lumpectomy",
+        "mastectomy",
+        "simple mastectomy",
+        "modified radical mastectomy",
+        "prophylactic mastectomy",
+        "sentinel lymph node biopsy",
+        "estrogen receptor",
+        "progesterone receptor",
+        "HER2/neu",
+        "chemotherapy",
+        "radiation therapy",
+        "hormone therapy",
+        "breast reconstruction"
       ],
       "rights": {
         "status": "public_domain",
@@ -982,10 +1016,13 @@
       "publishedOrEffective": "Clinical Nursing Skills",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Suspensory ligaments wording retrieved 2026-10-06.",
+      "retrievalNote": "Breast assessment expected findings and health-history interview cues retrieved 2026-10-06 for history-documentation teaching (inspection/palpation findings).",
       "sections": [
         "Internal Breast",
-        "suspensory ligaments"
+        "suspensory ligaments",
+        "Health history interview / risk factors",
+        "Inspection and palpation expected findings",
+        "Dimpling, discharge, pain cues"
       ],
       "rights": {
         "status": "open_license",
@@ -1094,6 +1131,113 @@
         "canSubmitToAI": true,
         "basis": "FDA website content is public domain unless marked otherwise.",
         "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-pdq-breast-prevention-hp",
+      "title": "Breast Cancer Prevention (PDQ®) — Health Professional Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-prevention-pdq",
+      "publishedOrEffective": "Retrieved 2026-10-06 (PDQ continuously updated)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Retrieved 2026-10-06 for inherent/social risk factors (age, reproductive history, MHT, alcohol, obesity, mantle radiation).",
+      "sections": [
+        "Overview of risk factors",
+        "Age",
+        "Reproductive factors",
+        "Menopausal hormone therapy",
+        "Alcohol",
+        "Obesity",
+        "Ionizing radiation / mantle radiation"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-breast-symptoms",
+      "title": "Breast Cancer Signs and Symptoms (NCI)",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/symptoms",
+      "publishedOrEffective": "Posted December 2, 2025",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Patient-facing signs/symptoms page retrieved 2026-10-06.",
+      "sections": [
+        "Lumps and size/shape change",
+        "Nipple changes or discharge",
+        "Skin changes",
+        "Pain is usually not cancer",
+        "Diagnostic follow-up after symptoms"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-breast-surgery",
+      "title": "Breast Cancer Surgery (NCI patient topics)",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery",
+      "publishedOrEffective": "Retrieved 2026-10-06",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Surgery hub plus lumpectomy, mastectomy (including simple/modified radical/prophylactic context), and reconstruction pages retrieved 2026-10-06.",
+      "sections": [
+        "Surgery overview / SLN biopsy",
+        "Lumpectomy",
+        "Mastectomy types",
+        "Breast reconstruction after mastectomy"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-breast-nonsurgical",
+      "title": "Breast Cancer Nonsurgical Treatments (NCI patient topics)",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/treatment",
+      "publishedOrEffective": "Retrieved 2026-10-06",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Hormone therapy, chemotherapy, and radiation patient pages retrieved 2026-10-06 for terminology-level definitions.",
+      "sections": [
+        "Hormone therapy for breast cancer",
+        "Chemotherapy for breast cancer",
+        "Radiation for breast cancer"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
+        "basisSourceId": "src-nci-reuse"
       },
       "kind": "government_guidance"
     },

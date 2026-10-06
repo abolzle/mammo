@@ -50,10 +50,11 @@
         "q-pc-007",
         "q-pc-051",
         "q-pc-052",
-        "q-pc-103"
+        "q-pc-103",
+        "q-pc-126"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
@@ -365,106 +366,181 @@
       "topicId": "top-pc-risk",
       "domainId": "dom-patient-care",
       "statement": "Describe breast cancer incidence patterns at the level needed for patient education.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-epidemiology"
+      ],
+      "cardIds": [
+        "card-pc-epi-invasive",
+        "card-pc-epi-male",
+        "card-pc-epi-brca-share",
+        "card-pc-epi-drivers"
+      ],
       "questionIds": [
-        "q-pc-100"
+        "q-pc-100",
+        "q-pc-104",
+        "q-pc-105",
+        "q-pc-106",
+        "q-pc-107",
+        "q-pc-108",
+        "q-pc-109",
+        "q-pc-110",
+        "q-pc-111"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 8,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-inherent-risk",
       "topicId": "top-pc-risk",
       "domainId": "dom-patient-care",
       "statement": "Identify inherent risk factors including reproductive history, age, personal and family history, genetic mutations, prior chest radiation, and breast density.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-inherent-risk"
+      ],
       "cardIds": [
         "card-pc-dense-common",
         "card-pc-dense-feel",
-        "card-pc-dense-risk"
+        "card-pc-dense-risk",
+        "card-pc-risk-age",
+        "card-pc-risk-repro",
+        "card-pc-risk-mantle",
+        "card-pc-risk-density-sens"
       ],
       "questionIds": [
         "q-pc-031",
         "q-pc-049",
         "q-pc-066",
         "q-pc-079",
-        "q-pc-080"
+        "q-pc-080",
+        "q-pc-112",
+        "q-pc-113",
+        "q-pc-114",
+        "q-pc-115",
+        "q-pc-116",
+        "q-pc-117",
+        "q-pc-118",
+        "q-pc-119"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 9,
       "formQuestionCount": 4,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-social-risk",
       "topicId": "top-pc-risk",
       "domainId": "dom-patient-care",
       "statement": "Identify lifestyle, access-to-care, and hormone-related risk factors, and their implications for imaging history.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-social-risk"
+      ],
+      "cardIds": [
+        "card-pc-social-mht",
+        "card-pc-social-alcohol",
+        "card-pc-social-mht-imaging",
+        "card-pc-social-access"
+      ],
       "questionIds": [
-        "q-pc-052"
+        "q-pc-052",
+        "q-pc-120",
+        "q-pc-121",
+        "q-pc-122",
+        "q-pc-123",
+        "q-pc-124",
+        "q-pc-125",
+        "q-pc-126",
+        "q-pc-127"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 8,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-signs-symptoms",
       "topicId": "top-pc-history",
       "domainId": "dom-patient-care",
       "statement": "Recognize and document signs and symptoms such as pain, lump, nipple discharge, skin thickening, erythema, dimpling, nipple changes, and edema.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-signs-symptoms"
+      ],
+      "cardIds": [
+        "card-pc-sx-list",
+        "card-pc-sx-pain",
+        "card-pc-sx-peau",
+        "card-pc-sx-silent"
+      ],
       "questionIds": [
-        "q-pc-101"
+        "q-pc-101",
+        "q-pc-128",
+        "q-pc-129",
+        "q-pc-130",
+        "q-pc-131",
+        "q-pc-132",
+        "q-pc-133",
+        "q-pc-134",
+        "q-pc-135"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 8,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-history-documentation",
       "topicId": "top-pc-history",
       "domainId": "dom-patient-care",
       "statement": "Review the imaging request and document surgical history, clinical findings (lumps, scars, moles, tattoos), and gender-affirming care relevant to the exam.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-history-doc"
+      ],
+      "cardIds": [
+        "card-pc-hx-interview",
+        "card-pc-hx-uspstf",
+        "card-pc-hx-order",
+        "card-pc-hx-markers-gap"
+      ],
+      "questionIds": [
+        "q-pc-136",
+        "q-pc-137",
+        "q-pc-138",
+        "q-pc-139",
+        "q-pc-140",
+        "q-pc-141",
+        "q-pc-142",
+        "q-pc-143"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 8,
       "formQuestionCount": 0,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-pc-prior-images",
@@ -473,10 +549,14 @@
       "statement": "Explain why prior mammograms matter and how to obtain them, including the MQSA transfer timeline.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-prior-images"
+      ],
       "cardIds": [
         "card-inf-interp-vs-comp",
-        "card-pc-transfer-15"
+        "card-pc-transfer-15",
+        "card-pc-priors-15",
+        "card-pc-priors-why"
       ],
       "questionIds": [
         "q-inf-004",
@@ -485,55 +565,91 @@
         "q-mqsa-030",
         "q-pc-028",
         "q-pc-070",
-        "q-pc-088"
+        "q-pc-088",
+        "q-pc-143",
+        "q-pc-144",
+        "q-pc-145",
+        "q-pc-146",
+        "q-pc-147"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 5,
+      "learnerQuestionCount": 10,
       "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "missing lesson"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-surgical-options",
       "topicId": "top-pc-treatment",
       "domainId": "dom-patient-care",
       "statement": "Define lumpectomy, sentinel node biopsy, simple and modified radical mastectomy, and prophylactic mastectomy.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-surgical"
+      ],
+      "cardIds": [
+        "card-pc-sx-lump",
+        "card-pc-sx-simple",
+        "card-pc-sx-mrm",
+        "card-pc-sx-proph",
+        "card-pc-sx-slnb"
+      ],
       "questionIds": [
-        "q-pc-102"
+        "q-pc-102",
+        "q-pc-148",
+        "q-pc-149",
+        "q-pc-150",
+        "q-pc-151",
+        "q-pc-152",
+        "q-pc-153",
+        "q-pc-154",
+        "q-pc-155"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 8,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-nonsurgical-options",
       "topicId": "top-pc-treatment",
       "domainId": "dom-patient-care",
       "statement": "Define radiation, chemotherapy, hormone therapy, receptor status (ER, PR, HER2), and implant reconstruction.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pc-nonsurgical"
+      ],
+      "cardIds": [
+        "card-pc-rx-local",
+        "card-pc-rx-ht",
+        "card-pc-rx-tnbc",
+        "card-pc-rx-implant"
+      ],
       "questionIds": [
-        "q-pc-072"
+        "q-pc-072",
+        "q-pc-156",
+        "q-pc-157",
+        "q-pc-158",
+        "q-pc-159",
+        "q-pc-160",
+        "q-pc-161",
+        "q-pc-162",
+        "q-pc-163"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 8,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-kvp-tube",
@@ -2833,10 +2949,10 @@
     }
   ],
   "breakdown": {
-    "public_domain_open": 48,
+    "public_domain_open": 55,
     "link_only": 7,
     "needs_clinical_review": 25,
     "truly_blocked": 3,
-    "needs_source": 21
+    "needs_source": 14
   }
 }

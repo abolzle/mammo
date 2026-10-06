@@ -34,7 +34,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -73,7 +73,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -112,7 +112,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -123,7 +123,7 @@
       "objectiveId": "obj-pc-rapport-support",
       "estSeconds": 20,
       "prompt": "What is an \"informed process\" in the room?",
-      "answer": "Briefly tell the patient the next positioning/compression steps and when you will expose; pause if they need it\u2014without diagnosing.",
+      "answer": "Briefly tell the patient the next positioning/compression steps and when you will expose; pause if they need it—without diagnosing.",
       "evidenceIds": [
         "ev-pc-nci-compression-why"
       ],
@@ -151,7 +151,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -223,7 +223,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -266,7 +266,7 @@
       "objectiveId": "obj-pc-explain-repeat",
       "estSeconds": 20,
       "prompt": "How do you explain a motion repeat?",
-      "answer": "The image blurred when the breast moved; you need to repeat that view for a clear read\u2014not a cancer diagnosis.",
+      "answer": "The image blurred when the breast moved; you need to repeat that view for a clear read—not a cancer diagnosis.",
       "evidenceIds": [
         "ev-mqsa-clinical-image-attributes"
       ],
@@ -294,7 +294,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -433,7 +433,7 @@
       "objectiveId": "obj-pc-screening-guidelines",
       "estSeconds": 20,
       "prompt": "USPSTF 2024 average-risk mammography recommendation?",
-      "answer": "Biennial screening ages 40\u201374 (Grade B).",
+      "answer": "Biennial screening ages 40–74 (Grade B).",
       "evidenceIds": [
         "ev-pc-uspstf-biennial"
       ],
@@ -461,7 +461,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -500,7 +500,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -510,7 +510,7 @@
       "revision": 1,
       "objectiveId": "obj-pc-screening-guidelines",
       "estSeconds": 25,
-      "prompt": "ACS average-risk ages 45\u201354 (Facts & Figures 2024\u20132025)?",
+      "prompt": "ACS average-risk ages 45–54 (Facts & Figures 2024–2025)?",
       "answer": "Annual mammograms.",
       "evidenceIds": [
         "ev-pc-acs-average-ages"
@@ -539,7 +539,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -578,7 +578,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -684,8 +684,8 @@
       "revision": 1,
       "objectiveId": "obj-pc-additional-imaging",
       "estSeconds": 20,
-      "prompt": "Most people called back\u2026",
-      "answer": "\u2026are not found to have breast cancer.",
+      "prompt": "Most people called back…",
+      "answer": "…are not found to have breast cancer.",
       "evidenceIds": [
         "ev-pc-nci-callback"
       ],
@@ -748,7 +748,7 @@
       "revision": 1,
       "objectiveId": "obj-mqsa-density-reporting",
       "estSeconds": 20,
-      "prompt": "Which categories \u2192 \"Your breast tissue is dense\"?",
+      "prompt": "Which categories → \"Your breast tissue is dense\"?",
       "answer": "Heterogeneously dense and extremely dense.",
       "evidenceIds": [
         "ev-mqsa-density-statements"
@@ -813,7 +813,7 @@
       "objectiveId": "obj-pc-inherent-risk",
       "estSeconds": 20,
       "prompt": "Can density be felt on clinical or self-exam?",
-      "answer": "No\u2014only determined on the mammogram by a radiologist.",
+      "answer": "No—only determined on the mammogram by a radiologist.",
       "evidenceIds": [
         "ev-pc-nci-dense-not-palpable"
       ],
@@ -908,7 +908,7 @@
       "revision": 1,
       "objectiveId": "obj-mqsa-required-policies",
       "estSeconds": 25,
-      "prompt": "MQSA infection-control system must specify\u2026",
+      "prompt": "MQSA infection-control system must specify…",
       "answer": "Cleaning/disinfecting equipment after blood or OPIM contact, per regulations/manufacturer guidance, with documentation.",
       "evidenceIds": [
         "ev-mqsa-infection-control"
@@ -1129,7 +1129,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1168,7 +1168,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1207,7 +1207,1009 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-epi-invasive",
+      "revision": 1,
+      "objectiveId": "obj-pc-epidemiology",
+      "estSeconds": 20,
+      "prompt": "About how many invasive U.S. female breast cancer cases did NCI PDQ estimate for 2025?",
+      "answer": "About 316,950 invasive cases (year-labeled estimate).",
+      "evidenceIds": [
+        "ev-pc-pdq-incidence-2025"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-epi-male",
+      "revision": 1,
+      "objectiveId": "obj-pc-epidemiology",
+      "estSeconds": 20,
+      "prompt": "About what share of breast cancer cases and deaths occur in men?",
+      "answer": "About 1%.",
+      "evidenceIds": [
+        "ev-pc-pdq-incidence-2025"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-epi-brca-share",
+      "revision": 1,
+      "objectiveId": "obj-pc-epidemiology",
+      "estSeconds": 20,
+      "prompt": "About what percentage of breast cancer cases are linked to inherited risk including BRCA1/2?",
+      "answer": "Approximately 5% to 10%.",
+      "evidenceIds": [
+        "ev-pc-pdq-brca-share"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-epi-drivers",
+      "revision": 1,
+      "objectiveId": "obj-pc-epidemiology",
+      "estSeconds": 20,
+      "prompt": "Name two population factors PDQ links to changing breast cancer incidence.",
+      "answer": "Screening participation (more DCIS) and postmenopausal hormone therapy use trends; reproductive patterns also listed.",
+      "evidenceIds": [
+        "ev-pc-pdq-incidence-drivers"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-risk-age",
+      "revision": 1,
+      "objectiveId": "obj-pc-inherent-risk",
+      "estSeconds": 20,
+      "prompt": "Besides female sex, what does PDQ call the biggest breast cancer risk factor?",
+      "answer": "Advancing age.",
+      "evidenceIds": [
+        "ev-pc-pdq-biggest-risks",
+        "ev-pc-prev-age-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-risk-repro",
+      "revision": 1,
+      "objectiveId": "obj-pc-inherent-risk",
+      "estSeconds": 20,
+      "prompt": "List three reproductive/hormonal inherent factors PDQ associates with higher risk.",
+      "answer": "Examples: early menarche, late menopause, nulliparity, late first pregnancy, postmenopausal combined hormone therapy.",
+      "evidenceIds": [
+        "ev-pc-prev-repro-mht",
+        "ev-pc-pdq-biggest-risks"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-risk-mantle",
+      "revision": 1,
+      "objectiveId": "obj-pc-inherent-risk",
+      "estSeconds": 20,
+      "prompt": "Why does prior mantle/chest radiation in youth matter for mammography history?",
+      "answer": "It raises later breast cancer risk and sits outside average-risk screening assumptions.",
+      "evidenceIds": [
+        "ev-pc-prev-radiation-mantle",
+        "ev-pc-uspstf-gender-population"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-risk-density-sens",
+      "revision": 1,
+      "objectiveId": "obj-pc-inherent-risk",
+      "estSeconds": 20,
+      "prompt": "How can high breast density affect mammography performance?",
+      "answer": "It can obscure masses and lower sensitivity; also associated with modestly higher incidence.",
+      "evidenceIds": [
+        "ev-pc-pdq-density-imaging",
+        "ev-pc-nci-dense-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-social-mht",
+      "revision": 1,
+      "objectiveId": "obj-pc-social-risk",
+      "estSeconds": 20,
+      "prompt": "Which menopausal hormone pattern does PDQ highlight for increased breast cancer risk?",
+      "answer": "Combination estrogen-progesterone therapy after menopause.",
+      "evidenceIds": [
+        "ev-pc-prev-repro-mht"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-social-alcohol",
+      "revision": 1,
+      "objectiveId": "obj-pc-social-risk",
+      "estSeconds": 20,
+      "prompt": "Name a lifestyle exposure PDQ associates with increased breast cancer risk.",
+      "answer": "Alcohol consumption (obesity also for some postmenopausal women).",
+      "evidenceIds": [
+        "ev-pc-prev-obesity-alcohol",
+        "ev-pc-pdq-biggest-risks"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-social-mht-imaging",
+      "revision": 1,
+      "objectiveId": "obj-pc-social-risk",
+      "estSeconds": 20,
+      "prompt": "What imaging effects does PDQ link to hormone therapy?",
+      "answer": "Increased density, lower mammographic sensitivity, more interval cancers.",
+      "evidenceIds": [
+        "ev-pc-pdq-density-imaging"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-social-access",
+      "revision": 1,
+      "objectiveId": "obj-pc-social-risk",
+      "estSeconds": 20,
+      "prompt": "Why does timely follow-up after abnormal screening matter in disparity discussions?",
+      "answer": "PDQ cites delayed follow-up among factors tied to worse outcomes for Black women.",
+      "evidenceIds": [
+        "ev-pc-pdq-disparity"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-list",
+      "revision": 1,
+      "objectiveId": "obj-pc-signs-symptoms",
+      "estSeconds": 20,
+      "prompt": "Name four breast findings NCI says patients should report.",
+      "answer": "Examples: lump, underarm lump, size/shape change, nipple discharge, nipple direction change, skin dimpling/redness/scaliness.",
+      "evidenceIds": [
+        "ev-pc-nci-symptoms-list"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-pain",
+      "revision": 1,
+      "objectiveId": "obj-pc-signs-symptoms",
+      "estSeconds": 20,
+      "prompt": "Does breast cancer usually cause pain?",
+      "answer": "No. Pain is usually from other causes, but persistent pain still needs evaluation.",
+      "evidenceIds": [
+        "ev-pc-nci-pain-not-usual"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-peau",
+      "revision": 1,
+      "objectiveId": "obj-pc-signs-symptoms",
+      "estSeconds": 20,
+      "prompt": "What is peau d’orange in SEER's symptom list?",
+      "answer": "Breast skin dimples that look like orange peel.",
+      "evidenceIds": [
+        "ev-pc-seer-symptoms-exam"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-silent",
+      "revision": 1,
+      "objectiveId": "obj-pc-signs-symptoms",
+      "estSeconds": 20,
+      "prompt": "Why does NCI say screening still matters if someone feels fine?",
+      "answer": "Early breast cancer often has no symptoms.",
+      "evidenceIds": [
+        "ev-pc-nci-symptoms-list"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-hx-interview",
+      "revision": 1,
+      "objectiveId": "obj-pc-history-documentation",
+      "estSeconds": 20,
+      "prompt": "What does OpenStax say subjective breast assessment begins with?",
+      "answer": "A patient interview/health history including risk factors such as age and personal/family history.",
+      "evidenceIds": [
+        "ev-pc-openstax-breast-hx"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-hx-uspstf",
+      "revision": 1,
+      "objectiveId": "obj-pc-history-documentation",
+      "estSeconds": 20,
+      "prompt": "Who besides cisgender women is included in USPSTF average-risk screening recommendations?",
+      "answer": "Other persons assigned female at birth, including transgender men and nonbinary persons, age 40+ at average risk.",
+      "evidenceIds": [
+        "ev-pc-uspstf-gender-population"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-hx-order",
+      "revision": 1,
+      "objectiveId": "obj-pc-history-documentation",
+      "estSeconds": 20,
+      "prompt": "If a screening patient reports a new lump at intake, what should you do first?",
+      "answer": "Reconcile history with the order and follow facility protocol for diagnostic pathway—do not ignore the symptom.",
+      "evidenceIds": [
+        "ev-pc-nci-symptoms-diagnostic",
+        "ev-pc-nci-screen-vs-dx"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-hx-markers-gap",
+      "revision": 1,
+      "objectiveId": "obj-pc-history-documentation",
+      "estSeconds": 20,
+      "prompt": "Do the open sources in this batch specify scar/mole/tattoo marker shapes?",
+      "answer": "No—use facility protocol; marker methods remain a documented source gap.",
+      "evidenceIds": [
+        "ev-pc-openstax-breast-hx"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-priors-15",
+      "revision": 1,
+      "objectiveId": "obj-pc-prior-images",
+      "estSeconds": 20,
+      "prompt": "Within how many calendar days must a facility transfer mammograms after a proper request?",
+      "answer": "15 calendar days.",
+      "evidenceIds": [
+        "ev-mqsa-record-transfer"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-priors-why",
+      "revision": 1,
+      "objectiveId": "obj-pc-prior-images",
+      "estSeconds": 20,
+      "prompt": "Why obtain prior mammograms when possible?",
+      "answer": "Comparison helps interpretation; MQSA incomplete categories may note need for priors.",
+      "evidenceIds": [
+        "ev-mqsa-incomplete-categories",
+        "ev-mqsa-record-transfer"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-lump",
+      "revision": 1,
+      "objectiveId": "obj-pc-surgical-options",
+      "estSeconds": 20,
+      "prompt": "Define lumpectomy in one sentence.",
+      "answer": "Removes cancer/abnormal tissue and some surrounding normal tissue but not the whole breast.",
+      "evidenceIds": [
+        "ev-pc-dict-lumpectomy"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-simple",
+      "revision": 1,
+      "objectiveId": "obj-pc-surgical-options",
+      "estSeconds": 20,
+      "prompt": "Simple mastectomy is also called what, and what is removed?",
+      "answer": "Total mastectomy; the whole breast (nipple/areola/skin as applicable).",
+      "evidenceIds": [
+        "ev-pc-dict-simple-mastectomy"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-mrm",
+      "revision": 1,
+      "objectiveId": "obj-pc-surgical-options",
+      "estSeconds": 20,
+      "prompt": "How does modified radical mastectomy differ from simple mastectomy?",
+      "answer": "It also removes most axillary lymph nodes.",
+      "evidenceIds": [
+        "ev-pc-dict-mrm",
+        "ev-pc-nci-mastectomy-types"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-proph",
+      "revision": 1,
+      "objectiveId": "obj-pc-surgical-options",
+      "estSeconds": 20,
+      "prompt": "What is prophylactic mastectomy?",
+      "answer": "Risk-reducing removal of one or both breasts before disease in very high-risk people.",
+      "evidenceIds": [
+        "ev-pc-dict-prophylactic-mastectomy"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-sx-slnb",
+      "revision": 1,
+      "objectiveId": "obj-pc-surgical-options",
+      "estSeconds": 20,
+      "prompt": "How are sentinel nodes identified for biopsy?",
+      "answer": "Radioactive tracer and/or blue dye marking the first drainage node(s).",
+      "evidenceIds": [
+        "ev-pc-dict-slnb"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-rx-local",
+      "revision": 1,
+      "objectiveId": "obj-pc-nonsurgical-options",
+      "estSeconds": 20,
+      "prompt": "Name a local nonsurgical breast cancer treatment.",
+      "answer": "Radiation therapy.",
+      "evidenceIds": [
+        "ev-pc-nci-local-systemic",
+        "ev-pc-dict-chemo-rt-ht"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-rx-ht",
+      "revision": 1,
+      "objectiveId": "obj-pc-nonsurgical-options",
+      "estSeconds": 20,
+      "prompt": "Which tumors may respond to hormone/endocrine therapy?",
+      "answer": "Hormone receptor–positive (ER and/or PR) tumors—not HR-negative.",
+      "evidenceIds": [
+        "ev-pc-nci-ht-receptors",
+        "ev-pc-seer-biomarkers"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-rx-tnbc",
+      "revision": 1,
+      "objectiveId": "obj-pc-nonsurgical-options",
+      "estSeconds": 20,
+      "prompt": "What does triple-negative mean?",
+      "answer": "ER, PR, and HER2 are all negative.",
+      "evidenceIds": [
+        "ev-pc-pdq-receptor-classes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pc-rx-implant",
+      "revision": 1,
+      "objectiveId": "obj-pc-nonsurgical-options",
+      "estSeconds": 20,
+      "prompt": "Describe a common two-stage implant reconstruction sequence.",
+      "answer": "Tissue expander placed and filled over time, then replaced with a permanent implant.",
+      "evidenceIds": [
+        "ev-pc-nci-reconstruction-implant"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources (NCI PDQ/fact sheets, SEER Training, USPSTF, NCI Dictionary)."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
           }
         ]
       }

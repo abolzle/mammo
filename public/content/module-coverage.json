@@ -768,14 +768,32 @@
         },
         {
           "objectiveId": "obj-pc-inherent-risk",
-          "lessonIds": [],
+          "lessonIds": [
+            "les-pc-inherent-risk"
+          ],
           "cardIds": [
+            "card-pc-risk-age",
+            "card-pc-risk-repro",
+            "card-pc-risk-mantle",
+            "card-pc-risk-density-sens",
             "card-pc-dense-common",
             "card-pc-dense-feel",
             "card-pc-dense-risk"
           ],
           "questionIds": [
-            "q-pc-031"
+            "q-pc-112",
+            "q-pc-113",
+            "q-pc-114",
+            "q-pc-115",
+            "q-pc-116",
+            "q-pc-117",
+            "q-pc-118",
+            "q-pc-119",
+            "q-pc-031",
+            "q-pc-049",
+            "q-pc-066",
+            "q-pc-079",
+            "q-pc-080"
           ],
           "visualIds": []
         },
@@ -815,12 +833,23 @@
         },
         {
           "objectiveId": "obj-pc-prior-images",
-          "lessonIds": [],
+          "lessonIds": [
+            "les-pc-prior-images"
+          ],
           "cardIds": [
+            "card-pc-priors-15",
+            "card-pc-priors-why",
             "card-pc-transfer-15"
           ],
           "questionIds": [
-            "q-pc-028"
+            "q-pc-144",
+            "q-pc-145",
+            "q-pc-146",
+            "q-pc-147",
+            "q-pc-028",
+            "q-pc-070",
+            "q-pc-088",
+            "q-pc-143"
           ],
           "visualIds": []
         },
@@ -930,9 +959,236 @@
           "visualIds": [
             "vis-pc-screen-vs-dx"
           ]
+        },
+        {
+          "objectiveId": "obj-pc-epidemiology",
+          "lessonIds": [
+            "les-pc-epidemiology"
+          ],
+          "cardIds": [
+            "card-pc-epi-invasive",
+            "card-pc-epi-male",
+            "card-pc-epi-brca-share",
+            "card-pc-epi-drivers"
+          ],
+          "questionIds": [
+            "q-pc-104",
+            "q-pc-105",
+            "q-pc-106",
+            "q-pc-107",
+            "q-pc-108",
+            "q-pc-109",
+            "q-pc-110",
+            "q-pc-111",
+            "q-pc-100"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-social-risk",
+          "lessonIds": [
+            "les-pc-social-risk"
+          ],
+          "cardIds": [
+            "card-pc-social-mht",
+            "card-pc-social-alcohol",
+            "card-pc-social-mht-imaging",
+            "card-pc-social-access"
+          ],
+          "questionIds": [
+            "q-pc-120",
+            "q-pc-121",
+            "q-pc-122",
+            "q-pc-123",
+            "q-pc-124",
+            "q-pc-125",
+            "q-pc-126",
+            "q-pc-127",
+            "q-pc-052"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-signs-symptoms",
+          "lessonIds": [
+            "les-pc-signs-symptoms"
+          ],
+          "cardIds": [
+            "card-pc-sx-list",
+            "card-pc-sx-pain",
+            "card-pc-sx-peau",
+            "card-pc-sx-silent"
+          ],
+          "questionIds": [
+            "q-pc-128",
+            "q-pc-129",
+            "q-pc-130",
+            "q-pc-131",
+            "q-pc-132",
+            "q-pc-133",
+            "q-pc-134",
+            "q-pc-135",
+            "q-pc-101"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-history-documentation",
+          "lessonIds": [
+            "les-pc-history-doc"
+          ],
+          "cardIds": [
+            "card-pc-hx-interview",
+            "card-pc-hx-uspstf",
+            "card-pc-hx-order",
+            "card-pc-hx-markers-gap"
+          ],
+          "questionIds": [
+            "q-pc-136",
+            "q-pc-137",
+            "q-pc-138",
+            "q-pc-139",
+            "q-pc-140",
+            "q-pc-141",
+            "q-pc-142",
+            "q-pc-143"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-surgical-options",
+          "lessonIds": [
+            "les-pc-surgical"
+          ],
+          "cardIds": [
+            "card-pc-sx-lump",
+            "card-pc-sx-simple",
+            "card-pc-sx-mrm",
+            "card-pc-sx-proph",
+            "card-pc-sx-slnb"
+          ],
+          "questionIds": [
+            "q-pc-148",
+            "q-pc-149",
+            "q-pc-150",
+            "q-pc-151",
+            "q-pc-152",
+            "q-pc-153",
+            "q-pc-154",
+            "q-pc-155",
+            "q-pc-102"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-nonsurgical-options",
+          "lessonIds": [
+            "les-pc-nonsurgical"
+          ],
+          "cardIds": [
+            "card-pc-rx-local",
+            "card-pc-rx-ht",
+            "card-pc-rx-tnbc",
+            "card-pc-rx-implant"
+          ],
+          "questionIds": [
+            "q-pc-156",
+            "q-pc-157",
+            "q-pc-158",
+            "q-pc-159",
+            "q-pc-160",
+            "q-pc-161",
+            "q-pc-162",
+            "q-pc-163",
+            "q-pc-072"
+          ],
+          "visualIds": []
         }
       ],
-      "followUps": []
+      "followUps": [
+        {
+          "objectiveId": "obj-pc-epidemiology",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-pdq-breast-screening-hp",
+            "src-nci-seer-breast"
+          ],
+          "note": "Incidence and disparity claims from Screening PDQ; SEER incidence page cross-check. Year-labeled estimates require qualified review."
+        },
+        {
+          "objectiveId": "obj-pc-inherent-risk",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-pdq-breast-screening-hp",
+            "src-nci-pdq-breast-prevention-hp",
+            "src-nci-dense-breasts",
+            "src-uspstf-breast-2024"
+          ],
+          "note": "Inherent risk + density/imaging implications from PDQ Prevention/Screening and USPSTF exclusions."
+        },
+        {
+          "objectiveId": "obj-pc-social-risk",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-pdq-breast-prevention-hp",
+            "src-nci-pdq-breast-screening-hp",
+            "src-nci-mammograms"
+          ],
+          "note": "MHT, alcohol, obesity, access/disparity, and HT imaging effects. ACS remains link-only if used elsewhere."
+        },
+        {
+          "objectiveId": "obj-pc-signs-symptoms",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-breast-symptoms",
+            "src-nci-seer-breast",
+            "src-nci-mammograms"
+          ],
+          "note": "NCI symptoms page + SEER physical-exam signs list."
+        },
+        {
+          "objectiveId": "obj-pc-history-documentation",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-openstax-clinical-nursing-breast",
+            "src-nci-breast-symptoms",
+            "src-uspstf-breast-2024",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "History interview + symptoms + USPSTF inclusive population + priors. Scar/mole/tattoo marker technique remains facility/ACR gap (see gapsNoted)."
+        },
+        {
+          "objectiveId": "obj-pc-prior-images",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "Already open via MQSA transfer evidence; lesson added for Learn path."
+        },
+        {
+          "objectiveId": "obj-pc-surgical-options",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-dictionary",
+            "src-nci-breast-surgery",
+            "src-nci-pdq-breast-treatment-hp",
+            "src-nci-seer-breast"
+          ],
+          "note": "Terminology-only surgical definitions from NCI Dictionary + surgery pages."
+        },
+        {
+          "objectiveId": "obj-pc-nonsurgical-options",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-dictionary",
+            "src-nci-breast-nonsurgical",
+            "src-nci-pdq-breast-treatment-hp",
+            "src-nci-breast-surgery",
+            "src-nci-seer-breast"
+          ],
+          "note": "Radiation/chemo/HT/receptors/implant reconstruction at definition level only—no prescribing."
+        }
+      ]
     },
     {
       "moduleId": "mod-positioning",

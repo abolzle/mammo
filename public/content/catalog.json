@@ -83,9 +83,9 @@
     },
     {
       "id": "mod-patient-care",
-      "version": "1.0.0-beta.1",
+      "version": "1.1.0-beta.1",
       "title": "Patient care and communication",
-      "summary": "Technologist-level patient communication: preparing patients, explaining the exam and compression, screening versus diagnostic purpose, results and density notification boundaries, and infection-control habits with workplace observation prompts.",
+      "summary": "Technologist-level patient communication plus risk/epidemiology, signs and history, and treatment terminology: preparing patients, explaining the exam, screening versus diagnostic purpose, results boundaries, infection control, breast cancer incidence and risk factors, symptom recognition, history documentation, and surgical/nonsurgical definitions.",
       "topicIds": [
         "top-pc-preparation",
         "top-pc-education",
@@ -98,9 +98,9 @@
         "top-ip-mqsa-records"
       ],
       "path": "/content/modules/patient-care.json",
-      "lessonCount": 12,
-      "questionCount": 103,
-      "cardCount": 35,
+      "lessonCount": 20,
+      "questionCount": 163,
+      "cardCount": 66,
       "visualCount": 4
     },
     {
@@ -165,15 +165,15 @@
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 61,
-    "complete": 45,
-    "withGap": 34,
+    "withLesson": 69,
+    "complete": 52,
+    "withGap": 27,
     "breakdown": {
-      "public_domain_open": 48,
+      "public_domain_open": 55,
       "link_only": 7,
       "needs_clinical_review": 25,
       "truly_blocked": 3,
-      "needs_source": 21
+      "needs_source": 14
     }
   }
 }

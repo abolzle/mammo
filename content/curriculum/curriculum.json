@@ -253,7 +253,7 @@
     {
       "id": "obj-pc-rapport-support",
       "topicId": "top-pc-preparation",
-      "blueprintRef": "PC 1.A.2.a\u2013c",
+      "blueprintRef": "PC 1.A.2.a–c",
       "depth": "apply",
       "statement": "Build rapport and respond to anxiety, modesty, and physical or cognitive needs while keeping the exam on track.",
       "sourceIds": [],
@@ -302,7 +302,7 @@
     {
       "id": "obj-pc-bse-cbe",
       "topicId": "top-pc-education",
-      "blueprintRef": "PC 1.A.3.b\u2013c",
+      "blueprintRef": "PC 1.A.3.b–c",
       "depth": "define",
       "statement": "State the ACS position on breast self-examination and clinical breast examination.",
       "sourceIds": [
@@ -402,8 +402,10 @@
       "statement": "Identify inherent risk factors including reproductive history, age, personal and family history, genetic mutations, prior chest radiation, and breast density.",
       "sourceIds": [
         "src-nci-pdq-breast-screening-hp",
+        "src-nci-pdq-breast-prevention-hp",
         "src-nci-mammograms",
-        "src-nci-dense-breasts"
+        "src-nci-dense-breasts",
+        "src-uspstf-breast-2024"
       ],
       "sourceState": "needs_source"
     },
@@ -414,7 +416,9 @@
       "depth": "explain",
       "statement": "Identify lifestyle, access-to-care, and hormone-related risk factors, and their implications for imaging history.",
       "sourceIds": [
-        "src-nci-pdq-breast-screening-hp"
+        "src-nci-pdq-breast-prevention-hp",
+        "src-nci-pdq-breast-screening-hp",
+        "src-nci-mammograms"
       ],
       "sourceState": "needs_source"
     },
@@ -425,7 +429,9 @@
       "depth": "define",
       "statement": "Recognize and document signs and symptoms such as pain, lump, nipple discharge, skin thickening, erythema, dimpling, nipple changes, and edema.",
       "sourceIds": [
-        "src-nci-seer-breast"
+        "src-nci-breast-symptoms",
+        "src-nci-seer-breast",
+        "src-nci-mammograms"
       ],
       "sourceState": "needs_source"
     },
@@ -435,7 +441,12 @@
       "blueprintRef": "PC 1.B.3",
       "depth": "apply",
       "statement": "Review the imaging request and document surgical history, clinical findings (lumps, scars, moles, tattoos), and gender-affirming care relevant to the exam.",
-      "sourceIds": [],
+      "sourceIds": [
+        "src-openstax-clinical-nursing-breast",
+        "src-nci-breast-symptoms",
+        "src-uspstf-breast-2024",
+        "src-ecfr-21-cfr-900"
+      ],
       "sourceState": "needs_source"
     },
     {
@@ -459,7 +470,10 @@
       "depth": "define",
       "statement": "Define lumpectomy, sentinel node biopsy, simple and modified radical mastectomy, and prophylactic mastectomy.",
       "sourceIds": [
-        "src-nci-pdq-breast-treatment-hp"
+        "src-nci-dictionary",
+        "src-nci-breast-surgery",
+        "src-nci-pdq-breast-treatment-hp",
+        "src-nci-seer-breast"
       ],
       "sourceState": "needs_source"
     },
@@ -470,14 +484,18 @@
       "depth": "define",
       "statement": "Define radiation, chemotherapy, hormone therapy, receptor status (ER, PR, HER2), and implant reconstruction.",
       "sourceIds": [
-        "src-nci-pdq-breast-treatment-hp"
+        "src-nci-dictionary",
+        "src-nci-breast-nonsurgical",
+        "src-nci-pdq-breast-treatment-hp",
+        "src-nci-breast-surgery",
+        "src-nci-seer-breast"
       ],
       "sourceState": "needs_source"
     },
     {
       "id": "obj-ip-kvp-tube",
       "topicId": "top-ip-unit-design",
-      "blueprintRef": "IP 1.A.1\u20132",
+      "blueprintRef": "IP 1.A.1–2",
       "depth": "explain",
       "statement": "Explain why mammography uses a low kVp range and how anode material, filtration, window, and focal spot shape the beam.",
       "requiresQualifiedReview": true,
@@ -490,7 +508,7 @@
     {
       "id": "obj-ip-paddles-grids",
       "topicId": "top-ip-unit-design",
-      "blueprintRef": "IP 1.A.3\u20134",
+      "blueprintRef": "IP 1.A.3–4",
       "depth": "explain",
       "statement": "Describe compression paddle types and MQSA design requirements for paddles, and the role of grids.",
       "sourceIds": [
@@ -537,7 +555,7 @@
     {
       "id": "obj-ip-receptors-monitors",
       "topicId": "top-ip-digital",
-      "blueprintRef": "IP 1.B.2\u20133",
+      "blueprintRef": "IP 1.B.2–3",
       "depth": "define",
       "statement": "Describe digital image receptors and the difference between acquisition and interpretation workstations.",
       "sourceIds": [
@@ -621,7 +639,7 @@
     {
       "id": "obj-mqsa-qa-roles",
       "topicId": "top-ip-mqsa-personnel",
-      "blueprintRef": "IP 1.C.2.a\u2013b",
+      "blueprintRef": "IP 1.C.2.a–b",
       "depth": "explain",
       "statement": "Describe QA program roles (lead interpreting physician, interpreting physicians, medical physicist, QC technologist) and QC record retention.",
       "prerequisites": [
@@ -834,7 +852,7 @@
     {
       "id": "obj-qc-physicist-tests",
       "topicId": "top-ip-qc-physicist",
-      "blueprintRef": "IP 1.D.2.b\u2013o",
+      "blueprintRef": "IP 1.D.2.b–o",
       "depth": "define",
       "statement": "State the purpose of major physicist tests: collimation, resolution/MTF, SNR/CNR, AEC, artifacts, kVp, HVL, average glandular dose, illuminance, paddle alignment, and workstation QC.",
       "requiresQualifiedReview": true,
@@ -850,7 +868,7 @@
     {
       "id": "obj-ip-exposure-factors",
       "topicId": "top-ip-technique",
-      "blueprintRef": "IP 1.E.1.a\u2013d",
+      "blueprintRef": "IP 1.E.1.a–d",
       "depth": "apply",
       "statement": "Predict how kVp, mAs, AEC, and manual technique affect contrast, noise, and dose.",
       "requiresQualifiedReview": true,
@@ -862,7 +880,7 @@
     {
       "id": "obj-ip-thickness-target-filter",
       "topicId": "top-ip-technique",
-      "blueprintRef": "IP 1.E.1.e\u2013h",
+      "blueprintRef": "IP 1.E.1.e–h",
       "depth": "apply",
       "statement": "Relate compressed thickness, target/filter selection, focal spot, and grid use to image quality and dose.",
       "requiresQualifiedReview": true,
@@ -911,7 +929,7 @@
     {
       "id": "obj-ap-clock-quadrants",
       "topicId": "top-ap-localization",
-      "blueprintRef": "PR 1.A.1\u20132",
+      "blueprintRef": "PR 1.A.1–2",
       "depth": "apply",
       "statement": "Localize findings using clock positions and quadrants for right and left breasts.",
       "sourceIds": [
@@ -988,7 +1006,7 @@
     {
       "id": "obj-ap-lexicon-masses-calcs",
       "topicId": "top-ap-reporting",
-      "blueprintRef": "PR 1.E.1.a\u2013d",
+      "blueprintRef": "PR 1.E.1.a–d",
       "depth": "define",
       "statement": "Use lexicon descriptors for masses (shape, margin, density), calcifications (typically benign vs suspicious morphology, distribution), asymmetries, and architectural distortion.",
       "requiresQualifiedReview": true,
@@ -1005,7 +1023,7 @@
     {
       "id": "obj-ap-assessment-density-categories",
       "topicId": "top-ap-reporting",
-      "blueprintRef": "PR 1.E.1.e\u2013f",
+      "blueprintRef": "PR 1.E.1.e–f",
       "depth": "apply",
       "statement": "Match assessment and density categories to their meaning and typical recommendations.",
       "prerequisites": [
@@ -1103,7 +1121,7 @@
     {
       "id": "obj-pp-lateral-views",
       "topicId": "top-pp-additional-views",
-      "blueprintRef": "PR 2.A.3\u20134",
+      "blueprintRef": "PR 2.A.3–4",
       "depth": "apply",
       "statement": "Choose between ML and LM views and explain why the side of interest goes closer to the receptor.",
       "requiresQualifiedReview": true,
@@ -1116,7 +1134,7 @@
     {
       "id": "obj-pp-exaggerated-cleavage-at",
       "topicId": "top-pp-additional-views",
-      "blueprintRef": "PR 2.A.5\u20137",
+      "blueprintRef": "PR 2.A.5–7",
       "depth": "apply",
       "statement": "Select XCCL/XCCM, cleavage, and axillary tail views for tissue not shown on standard views.",
       "requiresQualifiedReview": true,
@@ -1129,7 +1147,7 @@
     {
       "id": "obj-pp-tangential-rolled",
       "topicId": "top-pp-additional-views",
-      "blueprintRef": "PR 2.A.8\u20139",
+      "blueprintRef": "PR 2.A.8–9",
       "depth": "apply",
       "statement": "Use tangential and rolled views to evaluate skin findings and separate superimposed tissue.",
       "requiresQualifiedReview": true,
@@ -1157,7 +1175,7 @@
     {
       "id": "obj-pp-spot-mag-nipple",
       "topicId": "top-pp-additional-views",
-      "blueprintRef": "PR 2.A.11\u201314",
+      "blueprintRef": "PR 2.A.11–14",
       "depth": "apply",
       "statement": "Describe nipple-in-profile, anterior compression, spot compression, and magnification views and their purposes.",
       "requiresQualifiedReview": true,
@@ -1186,7 +1204,7 @@
     {
       "id": "obj-pp-body-habitus",
       "topicId": "top-pp-variance",
-      "blueprintRef": "PR 2.B.1, 6\u20137, 11",
+      "blueprintRef": "PR 2.B.1, 6–7, 11",
       "depth": "apply",
       "statement": "Adapt positioning for chest wall variation, kyphosis/lordosis, protruding abdomen, and very large or small breasts (mosaic/tiling, paddle selection).",
       "requiresQualifiedReview": true,
@@ -1200,7 +1218,7 @@
     {
       "id": "obj-pp-postsurgical",
       "topicId": "top-pp-variance",
-      "blueprintRef": "PR 2.B.2\u20134, 5, 8, 10",
+      "blueprintRef": "PR 2.B.2–4, 5, 8, 10",
       "depth": "apply",
       "statement": "Adapt imaging for irradiated, reduced, or post-surgical breasts, patients assigned male at birth, implanted devices, and lactation.",
       "requiresQualifiedReview": true,
@@ -1226,7 +1244,7 @@
     {
       "id": "obj-pp-us-mri",
       "topicId": "top-pp-exams",
-      "blueprintRef": "PR 2.C.2\u20133",
+      "blueprintRef": "PR 2.C.2–3",
       "depth": "define",
       "statement": "Describe basic indications and patient preparation for breast ultrasound and MRI.",
       "sourceIds": [
@@ -1247,7 +1265,7 @@
     {
       "id": "obj-pp-biopsy-localization",
       "topicId": "top-pp-interventional",
-      "blueprintRef": "PR 2.D.2\u20133",
+      "blueprintRef": "PR 2.D.2–3",
       "depth": "explain",
       "statement": "Describe stereotactic and ultrasound biopsy, wire localization, specimen imaging, and clip placement imaging.",
       "requiresQualifiedReview": true,
