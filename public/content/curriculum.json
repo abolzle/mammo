@@ -580,7 +580,10 @@
       "depth": "define",
       "requiresQualifiedReview": false,
       "sourceIds": [
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-fda-display-devices-guidance",
+        "src-fr-88-15126",
+        "src-ecfr-21-cfr-900"
       ],
       "sourceState": "needs_source"
     },
@@ -592,8 +595,15 @@
       "prerequisites": [],
       "depth": "explain",
       "requiresQualifiedReview": false,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-nlm-mesh-2026",
+        "src-ecfr-21-cfr-892-image-devices",
+        "src-ecfr-45-cfr-164-security",
+        "src-fr-88-15126",
+        "src-ecfr-21-cfr-900",
+        "src-dicom-ps3-1"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-cad",
@@ -603,8 +613,12 @@
       "prerequisites": [],
       "depth": "define",
       "requiresQualifiedReview": false,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-ecfr-21-cfr-892-image-devices",
+        "src-fda-cade-510k-guidance",
+        "src-nci-pdq-breast-screening-hp"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-mqsa-certification",
@@ -850,7 +864,10 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-fda-display-devices-guidance",
+        "src-dicom-ps3-1",
+        "src-ecfr-21-cfr-900"
       ],
       "sourceState": "needs_source"
     },
