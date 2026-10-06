@@ -557,9 +557,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Validate, explain, collaborate\u2014without promising zero pressure.",
+      "explanation": "Validate, explain, collaborate—without promising zero pressure.",
       "variants": {
-        "simpler": "Validate, explain, collaborate\u2014without promising zero pressure.",
+        "simpler": "Validate, explain, collaborate—without promising zero pressure.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -669,7 +669,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "\"I see a mass\u2014we need another picture.\"",
+          "text": "\"I see a mass—we need another picture.\"",
           "rationale": "Do not invent findings when the issue is technical."
         },
         {
@@ -742,7 +742,7 @@
         {
           "id": "b",
           "text": "A repeat fixes image quality during the visit; a callback requests more imaging after interpretation",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -808,7 +808,7 @@
         {
           "id": "b",
           "text": "Clean the skin per protocol and repeat the view if needed",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -869,7 +869,7 @@
         {
           "id": "a",
           "text": "Routine views in an asymptomatic patient",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -940,7 +940,7 @@
         {
           "id": "b",
           "text": "Individualized views for symptoms, signs, or abnormal screening findings",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -950,7 +950,7 @@
         {
           "id": "d",
           "text": "Screening exams performed with DBT",
-          "rationale": "DBT may be used for screening or diagnostic work; modality \u2260 purpose."
+          "rationale": "DBT may be used for screening or diagnostic work; modality ≠ purpose."
         }
       ],
       "correctChoiceId": "b",
@@ -1020,9 +1020,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "More angles \u2192 higher dose than a typical screen.",
+      "explanation": "More angles → higher dose than a typical screen.",
       "variants": {
-        "simpler": "More angles \u2192 higher dose than a typical screen.",
+        "simpler": "More angles → higher dose than a typical screen.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1071,7 +1071,7 @@
         {
           "id": "b",
           "text": "Escalate per facility protocol so the order/exam type can be corrected before imaging",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -1132,7 +1132,7 @@
         {
           "id": "a",
           "text": "Biennial screening for women aged 40 to 74 years",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -1151,9 +1151,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "USPSTF 2024: every other year, ages 40\u201374.",
+      "explanation": "USPSTF 2024: every other year, ages 40–74.",
       "variants": {
-        "simpler": "USPSTF 2024: every other year, ages 40\u201374.",
+        "simpler": "USPSTF 2024: every other year, ages 40–74.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1192,16 +1192,16 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Which statement correctly contrasts ACS average-risk guidance (Facts & Figures 2024\u20132025) with USPSTF 2024?",
+      "stem": "Which statement correctly contrasts ACS average-risk guidance (Facts & Figures 2024–2025) with USPSTF 2024?",
       "choices": [
         {
           "id": "a",
-          "text": "Both require identical biennial screening from 40\u201374 with no annual option",
-          "rationale": "ACS describes annual screening for ages 45\u201354 and choices at other ages."
+          "text": "Both require identical biennial screening from 40–74 with no annual option",
+          "rationale": "ACS describes annual screening for ages 45–54 and choices at other ages."
         },
         {
           "id": "b",
-          "text": "ACS describes annual screening for ages 45\u201354, while USPSTF recommends biennial screening from 40\u201374",
+          "text": "ACS describes annual screening for ages 45–54, while USPSTF recommends biennial screening from 40–74",
           "rationale": "Correct contrast at the guideline level."
         },
         {
@@ -1263,12 +1263,12 @@
         {
           "id": "a",
           "text": "Grade A strongly in favor for all patients",
-          "rationale": "Incorrect\u2014USPSTF issued an I statement."
+          "rationale": "Incorrect—USPSTF issued an I statement."
         },
         {
           "id": "b",
           "text": "Insufficient to recommend for or against (I statement)",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -1282,9 +1282,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Insufficient evidence \u2260 \"never image\" and \u2260 \"always add ultrasound.\"",
+      "explanation": "Insufficient evidence ≠ \"never image\" and ≠ \"always add ultrasound.\"",
       "variants": {
-        "simpler": "Insufficient evidence \u2260 \"never image\" and \u2260 \"always add ultrasound.\"",
+        "simpler": "Insufficient evidence ≠ \"never image\" and ≠ \"always add ultrasound.\"",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1334,7 +1334,7 @@
         {
           "id": "b",
           "text": "A 42-year-old average-risk patient assigned female at birth",
-          "rationale": "Included \u2014 not the best answer here."
+          "rationale": "Included — not the best answer here."
         },
         {
           "id": "c",
@@ -1394,7 +1394,7 @@
         {
           "id": "a",
           "text": "Within 30 calendar days of the exam",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -1459,12 +1459,12 @@
         {
           "id": "a",
           "text": "Within 7 calendar days of the final interpretation",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
           "text": "Within 60 days of the exam",
-          "rationale": "Too slow \u2014 not the best answer here."
+          "rationale": "Too slow — not the best answer here."
         },
         {
           "id": "c",
@@ -1478,9 +1478,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "Suspicious/Highly Suggestive \u2192 7 days from final interpretation for the lay summary.",
+      "explanation": "Suspicious/Highly Suggestive → 7 days from final interpretation for the lay summary.",
       "variants": {
-        "simpler": "Suspicious/Highly Suggestive \u2192 7 days from final interpretation for the lay summary.",
+        "simpler": "Suspicious/Highly Suggestive → 7 days from final interpretation for the lay summary.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1597,7 +1597,7 @@
         {
           "id": "b",
           "text": "Contact their provider",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -1611,9 +1611,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "About two weeks is NCI's practical prompt to call\u2014still within MQSA's 30-day maximum.",
+      "explanation": "About two weeks is NCI's practical prompt to call—still within MQSA's 30-day maximum.",
       "variants": {
-        "simpler": "About two weeks is NCI's practical prompt to call\u2014still within MQSA's 30-day maximum.",
+        "simpler": "About two weeks is NCI's practical prompt to call—still within MQSA's 30-day maximum.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1657,12 +1657,12 @@
         {
           "id": "a",
           "text": "Most people called back are not found to have breast cancer",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
           "text": "Callbacks always mean ductal carcinoma in situ",
-          "rationale": "False \u2014 not the best answer here."
+          "rationale": "False — not the best answer here."
         },
         {
           "id": "c",
@@ -1727,7 +1727,7 @@
         {
           "id": "b",
           "text": "\"The radiologist wants a closer look at one area; extra views help clarify, and many times it is not cancer.\"",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -1736,7 +1736,7 @@
         },
         {
           "id": "d",
-          "text": "\"Skip this\u2014density letters replace diagnostic workups.\"",
+          "text": "\"Skip this—density letters replace diagnostic workups.\"",
           "rationale": "Density notification is not a substitute for indicated additional imaging."
         }
       ],
@@ -1789,12 +1789,12 @@
         {
           "id": "a",
           "text": "15 calendar days",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
           "text": "90 calendar days",
-          "rationale": "Too long \u2014 not the best answer here."
+          "rationale": "Too long — not the best answer here."
         },
         {
           "id": "c",
@@ -1854,7 +1854,7 @@
         {
           "id": "a",
           "text": "The radiologist needs more imaging before a final category",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -1925,7 +1925,7 @@
         {
           "id": "b",
           "text": "Heterogeneously dense and extremely dense",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -1939,9 +1939,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Two categories \u2192 dense notification language.",
+      "explanation": "Two categories → dense notification language.",
       "variants": {
-        "simpler": "Two categories \u2192 dense notification language.",
+        "simpler": "Two categories → dense notification language.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2053,7 +2053,7 @@
         {
           "id": "a",
           "text": "Nearly half",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2063,7 +2063,7 @@
         {
           "id": "c",
           "text": "Over 95%",
-          "rationale": "Too high \u2014 not the best answer here."
+          "rationale": "Too high — not the best answer here."
         },
         {
           "id": "d",
@@ -2072,9 +2072,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "Nearly half\u2014useful reassurance that dense is common.",
+      "explanation": "Nearly half—useful reassurance that dense is common.",
       "variants": {
-        "simpler": "Nearly half\u2014useful reassurance that dense is common.",
+        "simpler": "Nearly half—useful reassurance that dense is common.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2124,7 +2124,7 @@
         {
           "id": "b",
           "text": "Explain that supplemental tests are individualized with her clinician; you cannot add them without the proper order/pathway",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -2138,9 +2138,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Notification \u2260 automatic supplemental imaging.",
+      "explanation": "Notification ≠ automatic supplemental imaging.",
       "variants": {
-        "simpler": "Notification \u2260 automatic supplemental imaging.",
+        "simpler": "Notification ≠ automatic supplemental imaging.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2186,7 +2186,7 @@
         {
           "id": "a",
           "text": "Cleaning and disinfecting mammography equipment after contact with blood or OPIM",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2252,7 +2252,7 @@
         {
           "id": "a",
           "text": "HBV, HCV, and HIV",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2266,7 +2266,7 @@
         },
         {
           "id": "d",
-          "text": "None\u2014mammography is risk-free for bloodborne exposure",
+          "text": "None—mammography is risk-free for bloodborne exposure",
           "rationale": "Interventional days and bleeding events create real exposure potential."
         }
       ],
@@ -2322,7 +2322,7 @@
         {
           "id": "b",
           "text": "Before touching a patient, after patient/surroundings contact, after body-fluid contact, and after glove removal (among other key moments)",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -2383,7 +2383,7 @@
         {
           "id": "a",
           "text": "When hands are visibly soiled, before eating, after restroom use, and in certain C. difficile/norovirus outbreak care situations",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2448,7 +2448,7 @@
         {
           "id": "a",
           "text": "Ask whether the patient has breast implants before the exam",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2513,7 +2513,7 @@
         {
           "id": "a",
           "text": "Implants can hide breast tissue, and displacement views may be used",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2523,7 +2523,7 @@
         {
           "id": "c",
           "text": "Implants automatically change assessment to Highly Suggestive",
-          "rationale": "False \u2014 not the best answer here."
+          "rationale": "False — not the best answer here."
         },
         {
           "id": "d",
@@ -2584,12 +2584,12 @@
         {
           "id": "b",
           "text": "Do not need a mammogram of the reconstructed breast",
-          "rationale": "Correct\u2014confirm orders rather than assuming."
+          "rationale": "Correct—confirm orders rather than assuming."
         },
         {
           "id": "c",
           "text": "Must be imaged daily",
-          "rationale": "Nonsense \u2014 not the best answer here."
+          "rationale": "Nonsense — not the best answer here."
         },
         {
           "id": "d",
@@ -2598,9 +2598,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Reconstruction is a special case\u2014verify the order.",
+      "explanation": "Reconstruction is a special case—verify the order.",
       "variants": {
-        "simpler": "Reconstruction is a special case\u2014verify the order.",
+        "simpler": "Reconstruction is a special case—verify the order.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2644,7 +2644,7 @@
         {
           "id": "a",
           "text": "DBT finds more tumors than standard mammography alone, but whether it reduces deaths more is still being studied",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2663,9 +2663,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "Better detection \u2260 proven superior mortality benefit yet.",
+      "explanation": "Better detection ≠ proven superior mortality benefit yet.",
       "variants": {
-        "simpler": "Better detection \u2260 proven superior mortality benefit yet.",
+        "simpler": "Better detection ≠ proven superior mortality benefit yet.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2709,7 +2709,7 @@
         {
           "id": "a",
           "text": "Digital mammography and digital breast tomosynthesis",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2780,7 +2780,7 @@
         {
           "id": "b",
           "text": "Explain that mammography is the ordered screening test; ultrasound is a different tool used when a clinician orders it for a specific reason",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "c",
@@ -2913,7 +2913,7 @@
         {
           "id": "a",
           "text": "Diagnostic mammography",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -2985,7 +2985,7 @@
         {
           "id": "a",
           "text": "September 10, 2024",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -3057,7 +3057,7 @@
         {
           "id": "a",
           "text": "Follow its documented cleaning/disinfection procedures aligned with regulations and manufacturer guidance",
-          "rationale": "Correct \u2014 not the best answer here."
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
@@ -3128,29 +3128,29 @@
       "choices": [
         {
           "id": "a",
-          "text": "Yes\u2014biennial screening is recommended through age 74",
-          "rationale": "Correct \u2014 not the best answer here."
+          "text": "Yes—biennial screening is recommended through age 74",
+          "rationale": "Correct — not the best answer here."
         },
         {
           "id": "b",
-          "text": "No\u2014USPSTF stops at 49",
+          "text": "No—USPSTF stops at 49",
           "rationale": "Incorrect."
         },
         {
           "id": "c",
-          "text": "Yes\u2014but only if she has never had a mammogram before",
+          "text": "Yes—but only if she has never had a mammogram before",
           "rationale": "Prior history is not the cutoff."
         },
         {
           "id": "d",
-          "text": "No\u2014everyone over 65 is an I statement",
+          "text": "No—everyone over 65 is an I statement",
           "rationale": "I statement begins at 75+ for screening decisions."
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "40\u201374 biennial; 75+ insufficient evidence.",
+      "explanation": "40–74 biennial; 75+ insufficient evidence.",
       "variants": {
-        "simpler": "40\u201374 biennial; 75+ insufficient evidence.",
+        "simpler": "40–74 biennial; 75+ insufficient evidence.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -4835,6 +4835,1651 @@
           }
         ]
       }
+    },
+    {
+      "id": "q-pc-074",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-pre-exam-instructions"
+      ],
+      "familyId": "fam-pc-fb-product-breadth",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Besides deodorant and antiperspirant, which other products does NCI tell patients to avoid around the breasts or underarms on mammogram day?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Powders, lotions, creams, or perfumes.",
+          "rationale": "Correct. NCI groups powders, lotions, creams, and perfumes with deodorant and antiperspirant as products to avoid."
+        },
+        {
+          "id": "b",
+          "text": "Only prescription creams; lotions and perfume are fine.",
+          "rationale": "NCI's list is broader than prescription products."
+        },
+        {
+          "id": "c",
+          "text": "Only oil-based products; water-based lotion is encouraged.",
+          "rationale": "NCI does not carve out water-based lotions as acceptable on exam day."
+        },
+        {
+          "id": "d",
+          "text": "Sunscreen only; everything else is allowed.",
+          "rationale": "Sunscreen is not the focus; several personal-care products are listed."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI advises avoiding deodorants, antiperspirants, powders, lotions, creams, or perfumes around the breasts or underarms because they can appear on the image and interfere with interpretation.",
+      "variants": {
+        "simpler": "Skip powders, lotions, creams, and perfume near the breasts too.",
+        "example": "A scented body cream under the arms is in the same avoid list as deodorant."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-deodorant"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-075",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-pc-fb-same-equipment",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A patient assumes diagnostic mammography requires a different machine than screening. What does NCI say?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diagnostic exams use CT; screening uses mammography units.",
+          "rationale": "Both use mammography equipment."
+        },
+        {
+          "id": "b",
+          "text": "The same machines are used; diagnostic exams usually take images from more angles.",
+          "rationale": "Correct. NCI states the same machines are used, with more angles and typically higher dose for diagnostic exams."
+        },
+        {
+          "id": "c",
+          "text": "Only DBT units may be used for diagnostic work.",
+          "rationale": "NCI does not limit diagnostic mammography to DBT."
+        },
+        {
+          "id": "d",
+          "text": "Screening and diagnostic always use identical view sets on different units.",
+          "rationale": "View sets differ; the machines are the same class of equipment."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI explains that screening and diagnostic mammograms use the same machines; diagnostic work usually includes more angles and therefore a higher radiation dose.",
+      "variants": {
+        "simpler": "Same mammography machines; diagnostic usually means more views.",
+        "example": "A lump work-up is still done on a mammography unit, not a different modality by default."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-screen-vs-dx",
+        "ev-ip-nci-diagnostic-more-images"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-076",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fb-acs-40-44",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A 41-year-old with no high-risk factors wants to know whether ACS average-risk guidance lets her start yearly mammograms now, before 45. What is accurate per Facts & Figures 2024–2025?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She must wait until 45; ACS offers no earlier option.",
+          "rationale": "ACS allows ages 40–44 to begin annual screening."
+        },
+        {
+          "id": "b",
+          "text": "She may begin annual screening mammography.",
+          "rationale": "Correct. ACS says ages 40–44 may begin annual screening."
+        },
+        {
+          "id": "c",
+          "text": "She should use MRI only until 50.",
+          "rationale": "ACS average-risk guidance for this band is about mammography, not MRI-only screening."
+        },
+        {
+          "id": "d",
+          "text": "She is required to screen every other year starting at 40.",
+          "rationale": "The 40–44 ACS option is annual screening, not a mandated biennial start."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ACS average-risk guidance states that ages 40–44 may begin annual screening mammography.",
+      "variants": {
+        "simpler": "ACS: 40–44 may start yearly mammograms.",
+        "example": "A healthy 42-year-old may choose to begin annual screening under ACS."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-average-ages"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-077",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fb-acs-45-54",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "According to ACS average-risk guidance (Facts & Figures 2024–2025), how often should women ages 45–54 have mammograms?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every three years.",
+          "rationale": "ACS calls for annual mammograms in this age band."
+        },
+        {
+          "id": "b",
+          "text": "Only if they have dense breasts.",
+          "rationale": "Density is not the trigger for the 45–54 ACS schedule."
+        },
+        {
+          "id": "c",
+          "text": "Biennially, matching USPSTF exactly.",
+          "rationale": "ACS recommends annual exams at 45–54; USPSTF recommends biennial for 40–74."
+        },
+        {
+          "id": "d",
+          "text": "Annually.",
+          "rationale": "Correct. ACS says ages 45–54 should have annual mammograms."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "ACS average-risk guidance states ages 45–54 should have annual mammograms.",
+      "variants": {
+        "simpler": "ACS: 45–54 = yearly mammograms.",
+        "example": "A 50-year-old at average risk is in the ACS annual band."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-average-ages"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-078",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-modalities"
+      ],
+      "familyId": "fam-pc-fb-tmist-open",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "NCI says DBT plus standard mammography finds more tumors than standard mammography alone. What remains unknown according to NCI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Whether DBT reduces breast cancer deaths more than standard mammography; TMIST is studying that.",
+          "rationale": "Correct. Detection gains are described; mortality benefit versus standard mammography alone is still under study."
+        },
+        {
+          "id": "b",
+          "text": "Whether DBT can create 2D images.",
+          "rationale": "NCI states DBT also creates 2D images."
+        },
+        {
+          "id": "c",
+          "text": "Whether DBT uses x-rays.",
+          "rationale": "DBT is a mammographic x-ray modality."
+        },
+        {
+          "id": "d",
+          "text": "Whether any tumors can be seen with DBT.",
+          "rationale": "NCI states DBT combined with standard mammography finds more tumors."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI notes better tumor finding with DBT plus standard mammography, but whether that reduces deaths more than standard mammography alone is still being studied (for example TMIST).",
+      "variants": {
+        "simpler": "More tumors found ≠ proven larger reduction in deaths yet.",
+        "example": "TMIST is cited as studying the mortality question."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-dbt",
+        "ev-ip-nci-dbt"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-079",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-inherent-risk"
+      ],
+      "familyId": "fam-pc-fb-hetero-forty",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "According to NCI's approximate shares for the four BI-RADS density categories, about what fraction of women have heterogeneously dense breasts?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 10%",
+          "rationale": "That figure matches entirely fatty or extremely dense, not heterogeneously dense."
+        },
+        {
+          "id": "b",
+          "text": "About 40%",
+          "rationale": "Correct. NCI lists heterogeneously dense at about 40%."
+        },
+        {
+          "id": "c",
+          "text": "About 90%",
+          "rationale": "Far too high for a single category."
+        },
+        {
+          "id": "d",
+          "text": "Under 1%",
+          "rationale": "Heterogeneously dense is common, not rare."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI's approximate shares are entirely fatty ~10%, scattered fibroglandular ~40%, heterogeneously dense ~40%, and extremely dense ~10%.",
+      "variants": {
+        "simpler": "Heterogeneously dense is about 4 in 10.",
+        "example": "Extremely dense is the smaller dense category at about 10%."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-dense-four"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-080",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-inherent-risk",
+        "obj-mqsa-density-reporting"
+      ],
+      "familyId": "fam-pc-fb-masking-sensitivity",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A patient with dense breasts asks why density matters for finding cancer on mammography. Which NCI-supported point answers the masking question?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Density only affects ultrasound, never mammography.",
+          "rationale": "Density is defined on the mammogram and affects mammographic sensitivity."
+        },
+        {
+          "id": "b",
+          "text": "Dense tissue always appears black, so cancers stand out more.",
+          "rationale": "Dense tissue appears white, not black."
+        },
+        {
+          "id": "c",
+          "text": "Dense tissue makes mammography more likely to miss cancer because dense tissue and some abnormal changes both appear white.",
+          "rationale": "Correct. NCI describes white-on-white masking and reduced sensitivity."
+        },
+        {
+          "id": "d",
+          "text": "Density only matters if the patient can feel it.",
+          "rationale": "Density is not determined by feel."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI explains that dense tissue and some abnormal changes both appear white while fat appears dark, so mammography is less sensitive in dense breasts.",
+      "variants": {
+        "simpler": "White dense tissue can hide white cancers on the mammogram.",
+        "example": "This masking effect is separate from density also being a risk factor."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-dense-white-on-white",
+        "ev-pc-nci-density-miss"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-081",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-pc-fb-highly-sug-lay",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Under MQSA, when the final assessment is Highly Suggestive of Malignancy, when is the patient's lay summary due?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within 30 calendar days of the exam, same as a benign result.",
+          "rationale": "Suspicious and Highly Suggestive use the shorter 7-day clock from final interpretation."
+        },
+        {
+          "id": "b",
+          "text": "There is no lay summary for Highly Suggestive results.",
+          "rationale": "Patients still receive a lay summary."
+        },
+        {
+          "id": "c",
+          "text": "Only after pathology confirms cancer.",
+          "rationale": "The lay summary deadline is tied to the assessment, not pathology confirmation."
+        },
+        {
+          "id": "d",
+          "text": "Within 7 calendar days of the final interpretation.",
+          "rationale": "Correct. Highly Suggestive of Malignancy shares the 7-day lay-summary deadline with Suspicious."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA requires the lay summary within 7 calendar days of final interpretation when the assessment is Suspicious or Highly Suggestive of Malignancy.",
+      "variants": {
+        "simpler": "Highly Suggestive → lay summary in 7 days of the final read.",
+        "example": "Benign screens still use the general 30-day patient summary window."
+      },
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-082",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-pc-fb-self-referred-full",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A screening patient does not name a healthcare provider. Besides the lay summary, what else must the facility send her under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The full mammography report within the required timelines (30 days generally; 7 days for Suspicious/Highly Suggestive).",
+          "rationale": "Correct. Patients without a named provider also get the full report on those timelines."
+        },
+        {
+          "id": "b",
+          "text": "Only a density statement, without assessment language.",
+          "rationale": "They receive the full report on the same timing rules."
+        },
+        {
+          "id": "c",
+          "text": "Nothing else; only patients with providers get a full report.",
+          "rationale": "Self-referred patients also receive the full report."
+        },
+        {
+          "id": "d",
+          "text": "A copy only if she pays an uncapped fee.",
+          "rationale": "Fees for records transfers are limited to documented costs; this item is about report delivery."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA requires that patients who do not name a provider also receive the full report within 30 days (7 days for Suspicious or Highly Suggestive).",
+      "variants": {
+        "simpler": "No named provider still means the patient gets the full report.",
+        "example": "A self-referred Suspicious result still triggers the 7-day full-report clock."
+      },
+      "evidenceIds": [
+        "ev-mqsa-self-referred"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-083",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-additional-imaging",
+        "obj-mqsa-report-assessment"
+      ],
+      "familyId": "fam-pc-fb-priors-incomplete-deadline",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A report uses Incomplete: Need prior mammograms for comparison. What follow-up reporting rule does MQSA require?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No further report is required if priors never arrive.",
+          "rationale": "A follow-up final assessment is still required within 30 days."
+        },
+        {
+          "id": "b",
+          "text": "A follow-up report with a final assessment must be issued within 30 calendar days, whether or not comparison images are obtained.",
+          "rationale": "Correct. The 30-day final-assessment follow-up applies even if priors cannot be obtained."
+        },
+        {
+          "id": "c",
+          "text": "The incomplete category may remain open indefinitely.",
+          "rationale": "MQSA sets a 30-day follow-up deadline."
+        },
+        {
+          "id": "d",
+          "text": "Only the accreditation body may finalize the assessment.",
+          "rationale": "The facility issues the follow-up report."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "When Incomplete: Need prior mammograms for comparison is used, MQSA requires a follow-up report with a final assessment within 30 calendar days, whether or not comparison images can be obtained.",
+      "variants": {
+        "simpler": "Need-priors incomplete → finalize within 30 days anyway.",
+        "example": "If priors never arrive, the facility still issues a final assessment category in time."
+      },
+      "evidenceIds": [
+        "ev-mqsa-incomplete-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-084",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-pc-fb-gloves-hygiene",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "According to the CDC hand-hygiene guidance cited in this module, what is true about gloves?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gloves replace hand hygiene for the entire shift.",
+          "rationale": "Gloves are not a substitute for hand hygiene."
+        },
+        {
+          "id": "b",
+          "text": "Hand hygiene after glove removal is optional if gloves looked clean.",
+          "rationale": "Cleaning after removal is required."
+        },
+        {
+          "id": "c",
+          "text": "Hand hygiene is needed before donning gloves and always after removing them.",
+          "rationale": "Correct. CDC guidance: clean hands before donning and always after removing gloves."
+        },
+        {
+          "id": "d",
+          "text": "Only sterile gloves require any hand cleaning.",
+          "rationale": "The glove rule applies to clinical glove use generally in the cited guidance."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "CDC guidance states gloves are not a substitute for hand hygiene; perform hand hygiene before donning gloves and always after removing them.",
+      "variants": {
+        "simpler": "Clean hands before gloves go on and after they come off.",
+        "example": "Changing gloves mid-exam still means hand hygiene after removal."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-gloves"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-085",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-implant-inquiry"
+      ],
+      "familyId": "fam-pc-fb-implant-max-views",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Under MQSA, after asking about implants, what imaging expectation applies unless a physician contraindicates or modifies it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skip mammography entirely for every implant patient.",
+          "rationale": "Implant patients generally continue mammography with appropriate views."
+        },
+        {
+          "id": "b",
+          "text": "Image the implant lumen only, not surrounding tissue.",
+          "rationale": "The goal is maximizing visualization of breast tissue."
+        },
+        {
+          "id": "c",
+          "text": "Use only magnification views and omit contact imaging.",
+          "rationale": "MQSA does not replace contact imaging with magnification-only protocols for implants."
+        },
+        {
+          "id": "d",
+          "text": "Obtain views that maximize visualization of breast tissue.",
+          "rationale": "Correct. MQSA expects views that maximize tissue visualization unless contraindicated or modified by a physician."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA requires a procedure to inquire about implants and, unless contraindicated or modified by a physician, views that maximize visualization of breast tissue.",
+      "variants": {
+        "simpler": "Implants: get views that show as much tissue as possible.",
+        "example": "Implant-displacement views are a common way facilities meet that expectation."
+      },
+      "evidenceIds": [
+        "ev-mqsa-implant-inquiry",
+        "ev-pc-nci-implants"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-086",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fb-exclude-high-risk-lesion",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A 44-year-old had a high-risk breast lesion on a prior biopsy and asks whether the 2024 USPSTF average-risk biennial mammography recommendation is written for her situation. What is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No. A high-risk breast lesion on prior biopsy places her outside the USPSTF average-risk recommendation population as stated.",
+          "rationale": "Correct. USPSTF's average-risk statement does not apply to persons with a high-risk breast lesion on prior biopsy."
+        },
+        {
+          "id": "b",
+          "text": "Yes, but only until age 45.",
+          "rationale": "The exclusion is about risk history, not an age cutoff inside the statement."
+        },
+        {
+          "id": "c",
+          "text": "Yes. Any prior biopsy automatically keeps her in the average-risk USPSTF population.",
+          "rationale": "A high-risk breast lesion on prior biopsy is listed among exclusions from that population."
+        },
+        {
+          "id": "d",
+          "text": "USPSTF forbids all future breast imaging after any biopsy.",
+          "rationale": "Exclusion from the average-risk statement is not a ban on imaging."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The 2024 USPSTF average-risk recommendation does not apply to persons with a high-risk breast lesion on prior biopsy (among other high-risk exclusions).",
+      "variants": {
+        "simpler": "High-risk lesion on prior biopsy → outside USPSTF average-risk population.",
+        "example": "Previous breast cancer and high-risk genetic markers are other listed exclusions."
+      },
+      "evidenceIds": [
+        "ev-pc-uspstf-population"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-087",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-pc-fb-sv-rem",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Using the dose-unit relationships in this module's evidence (1 Sv = 100 rem), what is 0.02 Sv in rem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "0.02 rem",
+          "rationale": "That ignores the 100 rem per sievert factor."
+        },
+        {
+          "id": "b",
+          "text": "2 rem",
+          "rationale": "Correct. 0.02 × 100 = 2 rem."
+        },
+        {
+          "id": "c",
+          "text": "200 rem",
+          "rationale": "Off by a factor of 100."
+        },
+        {
+          "id": "d",
+          "text": "0.0002 rem",
+          "rationale": "Far too small."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Equivalent dose units relate as 1 Sv = 100 rem, so 0.02 Sv equals 2 rem.",
+      "variants": {
+        "simpler": "Multiply sieverts by 100 to get rem.",
+        "example": "0.01 Sv would be 1 rem."
+      },
+      "evidenceIds": [
+        "ev-ip-dose-units"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-088",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-prior-images",
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-pc-fb-retention-no-return",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A patient has not returned for any later mammograms at Facility A. Under MQSA's retention rule, how long must Facility A keep her original mammograms and reports (absent a longer state requirement)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "90 days after the exam.",
+          "rationale": "Far too short."
+        },
+        {
+          "id": "b",
+          "text": "Only until the next annual inspection.",
+          "rationale": "Inspection timing does not set mammogram retention."
+        },
+        {
+          "id": "c",
+          "text": "At least 10 years, because no additional mammograms were performed there.",
+          "rationale": "Correct. Retention is at least 10 years if no additional mammograms are performed at the facility (or longer if state/local law requires)."
+        },
+        {
+          "id": "d",
+          "text": "Indefinitely with no regulatory minimum.",
+          "rationale": "MQSA sets minimum retention periods."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA requires originals and reports for the longest of: at least 5 years; at least 10 years if no additional mammograms are performed at the facility; or any longer state/local period.",
+      "variants": {
+        "simpler": "No return visits → keep records at least 10 years.",
+        "example": "If she keeps returning, the general floor is at least 5 years, unless law requires longer."
+      },
+      "evidenceIds": [
+        "ev-mqsa-record-retention",
+        "ev-qcr-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-089",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-pc-fb-consumer-representative",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Under MQSA consumer-complaint definitions used in this curriculum, who can be a consumer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the patient herself.",
+          "rationale": "Representatives such as family or a referring provider also count."
+        },
+        {
+          "id": "b",
+          "text": "Only FDA inspectors.",
+          "rationale": "Inspectors are not the consumer definition."
+        },
+        {
+          "id": "c",
+          "text": "Only the facility's accreditation body.",
+          "rationale": "The accreditation body receives unresolved serious complaints; it is not the consumer."
+        },
+        {
+          "id": "d",
+          "text": "The patient or a representative such as a family member or referring provider.",
+          "rationale": "Correct. A consumer includes the patient or a representative such as family or referring physician/provider."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "A consumer is someone who comments or complains about a mammography examination, including the patient or a representative such as a family member or referring provider.",
+      "variants": {
+        "simpler": "Family or referring provider can file as a consumer representative.",
+        "example": "A spouse calling about delayed results can be treated as a consumer complaint pathway."
+      },
+      "evidenceIds": [
+        "ev-mqsa-consumer-complaints",
+        "ev-qcr-consumer-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-090",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-pc-fb-serious-adverse",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Which situation is an example of an adverse event in the MQSA/serious-complaint sense taught here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Failure to send reports within required timelines.",
+          "rationale": "Correct. Adverse events include poor image quality, failure to send reports on time, and use of unqualified personnel."
+        },
+        {
+          "id": "b",
+          "text": "A patient dislikes the gown color.",
+          "rationale": "That is not an adverse event example in the regulation-backed list."
+        },
+        {
+          "id": "c",
+          "text": "A normal screening with a timely lay summary.",
+          "rationale": "Timely normal communication is not an adverse event."
+        },
+        {
+          "id": "d",
+          "text": "Scheduling a diagnostic appointment after a callback.",
+          "rationale": "Callbacks themselves are not listed as adverse events."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Adverse events include poor image quality, failure to send reports within required timelines, and use of unqualified personnel. A serious complaint is a report of a serious adverse event.",
+      "variants": {
+        "simpler": "Late required reports count as an adverse event example.",
+        "example": "Using unqualified personnel is another listed adverse-event example."
+      },
+      "evidenceIds": [
+        "ev-mqsa-adverse-event",
+        "ev-qcr-serious-complaint-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-091",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-pc-fb-abhs-default",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In most clinical situations when hands are not visibly soiled, which hand-cleaning method does the cited CDC guidance prefer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Soap and water only, never sanitizer.",
+          "rationale": "Soap and water is preferred for specific situations, not as the default for all clean hands."
+        },
+        {
+          "id": "b",
+          "text": "Alcohol-based hand sanitizer.",
+          "rationale": "Correct. Unless hands are visibly soiled (or other listed exceptions), ABHS is preferred in most clinical situations."
+        },
+        {
+          "id": "c",
+          "text": "Dry wiping with a towel only.",
+          "rationale": "Dry wiping is not the preferred clinical method."
+        },
+        {
+          "id": "d",
+          "text": "No cleaning between glove changes.",
+          "rationale": "Hand hygiene after glove removal is required."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "CDC clinical guidance cited here prefers alcohol-based hand sanitizer in most clinical situations unless hands are visibly soiled or other listed exceptions apply.",
+      "variants": {
+        "simpler": "Clean hands → sanitizer is usually preferred.",
+        "example": "Visibly soiled hands are a soap-and-water situation instead."
+      },
+      "evidenceIds": [
+        "ev-pc-cdc-abhs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-092",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-density-reporting"
+      ],
+      "familyId": "fam-pc-fb-density-obscure-phrase",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Which MQSA report density category carries the required wording that it \"may obscure small masses\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Almost entirely fatty",
+          "rationale": "That category does not use the obscure-small-masses phrase."
+        },
+        {
+          "id": "b",
+          "text": "Scattered areas of fibroglandular density",
+          "rationale": "That category is not the one with the obscure-small-masses wording."
+        },
+        {
+          "id": "c",
+          "text": "Heterogeneously dense",
+          "rationale": "Correct. Heterogeneously dense is reported with wording that it may obscure small masses."
+        },
+        {
+          "id": "d",
+          "text": "Extremely dense",
+          "rationale": "Extremely dense uses wording that it lowers mammography sensitivity."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA density categories include \"heterogeneously dense, which may obscure small masses\" and \"extremely dense, which lowers the sensitivity of mammography.\"",
+      "variants": {
+        "simpler": "Heterogeneously dense → may obscure small masses.",
+        "example": "Extremely dense is the category that says sensitivity is lowered."
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-093",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit",
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-pc-fb-positive-mammogram-def",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "For the MQSA medical outcomes audit, which overall assessments count as a positive mammogram?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only Highly Suggestive of Malignancy",
+          "rationale": "Suspicious also counts as positive."
+        },
+        {
+          "id": "b",
+          "text": "Benign and Probably Benign",
+          "rationale": "Those are not the positive assessments for the audit definition."
+        },
+        {
+          "id": "c",
+          "text": "Any Incomplete assessment",
+          "rationale": "Incomplete assessments are handled separately; positives are Suspicious or Highly Suggestive."
+        },
+        {
+          "id": "d",
+          "text": "Suspicious or Highly Suggestive of Malignancy",
+          "rationale": "Correct. A positive mammogram has an overall assessment of Suspicious or Highly Suggestive of Malignancy."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA defines a positive mammogram as one with an overall assessment of Suspicious or Highly Suggestive of Malignancy.",
+      "variants": {
+        "simpler": "Positive for the audit = Suspicious or Highly Suggestive.",
+        "example": "PPV uses that positive definition and cancer diagnosed within 1 year."
+      },
+      "evidenceIds": [
+        "ev-mqsa-positive-mammogram"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-094",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fb-acs-continue-health",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A vigorous 79-year-old with substantial life expectancy asks when ACS says average-risk women may stop screening. Which ACS continuation rule matches Facts & Figures 2024–2025?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stop automatically at age 70.",
+          "rationale": "ACS does not use an automatic stop at 70."
+        },
+        {
+          "id": "b",
+          "text": "Continue while in good health with life expectancy of about 10 years or more.",
+          "rationale": "Correct. ACS ties continuation to good health and roughly 10-year life expectancy."
+        },
+        {
+          "id": "c",
+          "text": "Stop when USPSTF Grade B ends at 74.",
+          "rationale": "ACS uses its own continuation framing; USPSTF has an I statement at 75+."
+        },
+        {
+          "id": "d",
+          "text": "Screening must continue regardless of health status.",
+          "rationale": "ACS links continuation to health and life expectancy."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ACS average-risk guidance says to continue screening while in good health with life expectancy of about 10 years or more.",
+      "variants": {
+        "simpler": "ACS: keep screening if healthy with ~10+ years expectancy.",
+        "example": "A healthy 78-year-old with substantial life expectancy may still be in the ACS continuation frame."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-average-ages"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-095",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biohazard"
+      ],
+      "familyId": "fam-pc-fb-ecp-hbv",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "OSHA's bloodborne pathogens exposure control plan must cover which of the following elements?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only a poster of emergency phone numbers.",
+          "rationale": "An ECP is broader than a poster."
+        },
+        {
+          "id": "b",
+          "text": "Engineering and work-practice controls, PPE, training, medical surveillance, and hepatitis B vaccination, among other 29 CFR 1910.1030 provisions.",
+          "rationale": "Correct. Those elements are listed in the module's OSHA ECP evidence."
+        },
+        {
+          "id": "c",
+          "text": "Mammography paddle force limits only.",
+          "rationale": "Force limits are MQSA equipment rules, not the OSHA ECP contents."
+        },
+        {
+          "id": "d",
+          "text": "Accreditation clinical image review schedules.",
+          "rationale": "That is MQSA accreditation, not OSHA BBP."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Employers must implement an exposure control plan covering engineering and work-practice controls, PPE, training, medical surveillance, hepatitis B vaccination, and other 29 CFR 1910.1030 provisions.",
+      "variants": {
+        "simpler": "OSHA ECP includes PPE, training, surveillance, and hep B vaccination.",
+        "example": "Hep B vaccination is part of the plan, not an optional add-on."
+      },
+      "evidenceIds": [
+        "ev-pc-osha-ecp",
+        "ev-pc-osha-bbp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-096",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-pc-fb-alara-time",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "When explaining ALARA's three basic protective measures in plain language, what does \"time\" mean?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Maximize time near the beam to \"get used to\" exposure.",
+          "rationale": "ALARA minimizes time of exposure."
+        },
+        {
+          "id": "b",
+          "text": "Schedule every mammogram at midnight.",
+          "rationale": "Clock time of day is not the ALARA time measure."
+        },
+        {
+          "id": "c",
+          "text": "Minimize time of exposure.",
+          "rationale": "Correct. CDC's ALARA measures are minimize time, maximize distance, and use shielding."
+        },
+        {
+          "id": "d",
+          "text": "Ignore time because mammography dose is always zero.",
+          "rationale": "Dose is low, not zero; time still matters in ALARA."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "CDC's three ALARA measures are time (minimize), distance (maximize), and shielding (appropriate barrier).",
+      "variants": {
+        "simpler": "ALARA time = keep exposure duration as short as practical.",
+        "example": "Stepping behind the barrier also uses distance and shielding together."
+      },
+      "evidenceIds": [
+        "ev-ip-cdc-alara",
+        "ev-ip-linear-hypothesis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-097",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-results-pathway",
+        "obj-pc-clinician-role"
+      ],
+      "familyId": "fam-pc-fb-referral-system",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Facilities that accept patients without a named healthcare provider must maintain what system under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A waiver stating no follow-up will ever be offered.",
+          "rationale": "MQSA requires a referral system when clinically indicated."
+        },
+        {
+          "id": "b",
+          "text": "A system that withholds Suspicious results from the patient.",
+          "rationale": "Patients still receive required communications."
+        },
+        {
+          "id": "c",
+          "text": "Only an email list for marketing.",
+          "rationale": "The requirement is clinical referral capability."
+        },
+        {
+          "id": "d",
+          "text": "A referral system used when clinically indicated, including for Probably Benign, Suspicious, or Highly Suggestive assessments.",
+          "rationale": "Correct. Self-referred programs maintain a referral system for clinically indicated follow-up."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Facilities accepting patients without a provider maintain a referral system, used when clinically indicated, including for Probably Benign, Suspicious, or Highly Suggestive assessments.",
+      "variants": {
+        "simpler": "No named provider → facility still needs a referral pathway.",
+        "example": "A Probably Benign self-referred result can trigger use of that referral system."
+      },
+      "evidenceIds": [
+        "ev-mqsa-self-referred"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-098",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fb-chest-rt-exclude",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A 48-year-old received high-dose chest radiation as a teenager for lymphoma. Relative to the 2024 USPSTF average-risk mammography recommendation population, what is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She is outside the USPSTF average-risk recommendation population as stated.",
+          "rationale": "Correct. High-dose chest radiation at a young age is listed among exclusions."
+        },
+        {
+          "id": "b",
+          "text": "She remains squarely in the average-risk USPSTF population with no special history flags.",
+          "rationale": "High-dose chest radiation at a young age is an exclusion."
+        },
+        {
+          "id": "c",
+          "text": "USPSTF forbids any breast imaging for her.",
+          "rationale": "Exclusion from the average-risk statement is not a ban on imaging; high-risk pathways differ."
+        },
+        {
+          "id": "d",
+          "text": "Only bilateral mastectomy history excludes someone, not chest radiation.",
+          "rationale": "Chest radiation at a young age is explicitly listed."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "USPSTF's average-risk recommendation does not apply to persons with high-dose chest radiation at a young age (among other high-risk exclusions).",
+      "variants": {
+        "simpler": "Young-age high-dose chest RT → not in USPSTF average-risk population.",
+        "example": "ACS high-risk guidance separately addresses prior chest radiation screening approaches."
+      },
+      "evidenceIds": [
+        "ev-pc-uspstf-population",
+        "ev-pc-acs-high-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
     }
   ]
 }
