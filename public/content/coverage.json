@@ -49,11 +49,12 @@
         "q-pc-006",
         "q-pc-007",
         "q-pc-051",
-        "q-pc-052"
+        "q-pc-052",
+        "q-pc-103"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
-      "formQuestionCount": 2,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -87,12 +88,11 @@
         "q-pos-096",
         "q-pos-105",
         "q-pos-106",
-        "q-pos-107",
         "q-pos-118"
       ],
       "visualIds": [],
       "learnerQuestionCount": 7,
-      "formQuestionCount": 6,
+      "formQuestionCount": 5,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -347,13 +347,14 @@
         "q-pc-043",
         "q-pc-067",
         "q-pc-069",
-        "q-pc-097"
+        "q-pc-097",
+        "q-pc-099"
       ],
       "visualIds": [
         "vis-pc-who-explains-density"
       ],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 3,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -368,10 +369,12 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pc-100"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
-      "formQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -434,10 +437,12 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pc-101"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
-      "formQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -499,10 +504,12 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pc-102"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
-      "formQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2294,18 +2301,16 @@
         "q-pos-014",
         "q-pos-015",
         "q-pos-048",
-        "q-pos-095",
         "q-pos-097",
         "q-pos-099",
         "q-pos-100",
-        "q-pos-101",
-        "q-pos-107"
+        "q-pos-101"
       ],
       "visualIds": [
         "vis-pos-pnl-which-line"
       ],
       "learnerQuestionCount": 7,
-      "formQuestionCount": 6,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-standard-pair",
@@ -2342,9 +2347,9 @@
         "q-pos-013",
         "q-pos-016",
         "q-pos-048",
-        "q-pos-095",
         "q-pos-099",
-        "q-pos-101"
+        "q-pos-101",
+        "q-pos-128"
       ],
       "visualIds": [
         "vis-pos-mlo-muscle"
@@ -2413,6 +2418,7 @@
         "q-pos-042",
         "q-pos-044",
         "q-pos-103",
+        "q-pos-129",
         "q-pqd-034",
         "q-pqd-035",
         "q-pqd-036",
@@ -2423,7 +2429,7 @@
         "vis-pqd-xccl-box"
       ],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 1,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2446,6 +2452,7 @@
       "questionIds": [
         "q-pos-043",
         "q-pos-104",
+        "q-pos-132",
         "q-pqd-038",
         "q-pqd-039",
         "q-pqd-040",
@@ -2453,7 +2460,7 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 1,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2476,7 +2483,7 @@
         "q-pos-033",
         "q-pos-034",
         "q-pos-036",
-        "q-pos-114"
+        "q-pos-130"
       ],
       "visualIds": [
         "vis-pos-implant-panel"
@@ -2608,11 +2615,14 @@
         "q-pos-046",
         "q-pos-079",
         "q-pos-088",
-        "q-pos-115"
+        "q-pos-114",
+        "q-pos-115",
+        "q-pos-130",
+        "q-pos-133"
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
-      "formQuestionCount": 3,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2665,14 +2675,17 @@
         "q-pos-091",
         "q-pos-092",
         "q-pos-093",
+        "q-pos-095",
         "q-pos-097",
-        "q-pos-104"
+        "q-pos-104",
+        "q-pos-107",
+        "q-pos-119"
       ],
       "visualIds": [
         "vis-pc-screen-vs-dx"
       ],
       "learnerQuestionCount": 11,
-      "formQuestionCount": 16,
+      "formQuestionCount": 19,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": true,
@@ -2694,6 +2707,7 @@
         "q-pos-062",
         "q-pos-063",
         "q-pos-087",
+        "q-pos-095",
         "q-pos-119",
         "q-pos-120",
         "q-pos-121",
@@ -2703,7 +2717,7 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
-      "formQuestionCount": 12,
+      "formQuestionCount": 13,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
       "complete": false,
@@ -2729,8 +2743,8 @@
         "q-pos-074",
         "q-pos-075",
         "q-pos-109",
-        "q-pos-118",
         "q-pos-126",
+        "q-pos-131",
         "q-pqd-042",
         "q-pqd-043",
         "q-pqd-044",

@@ -5594,42 +5594,43 @@
       "objectiveIds": [
         "obj-pp-screening-vs-diagnostic"
       ],
-      "familyId": "fam-pos-fb-prior-mammo-incomplete",
+      "familyId": "fam-pos-fb-ppv-one-year",
       "pool": "form-b",
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 70,
-      "stem": "A report uses the incomplete category \u201cNeed prior mammograms for comparison.\u201d What follow-up reporting rule does MQSA attach to that category?",
+      "stem": "In MQSA\u2019s PPV definition tied to positive mammograms, breast cancer diagnosis is counted within what time window after the exam?",
       "choices": [
         {
           "id": "a",
-          "text": "A follow-up report with a final assessment must be issued within 30 calendar days, whether or not comparison images are obtained",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "Within 1 year of the exam",
+          "rationale": "Correct. \u2014 see cited evidence."
         },
         {
           "id": "b",
-          "text": "No further report is required if priors cannot be obtained",
-          "rationale": "MQSA still requires a follow-up report with a final assessment."
+          "text": "Within 24 hours only",
+          "rationale": "Far too short for the PPV window."
         },
         {
           "id": "c",
-          "text": "The exam automatically becomes diagnostic and needs no final assessment",
-          "rationale": "Incomplete still requires a later final assessment."
+          "text": "Only cancers found after 10 years",
+          "rationale": "Wrong direction."
         },
         {
           "id": "d",
-          "text": "Only a lay summary is required; the medical report may stay incomplete forever",
-          "rationale": "A final-assessment follow-up report is required."
+          "text": "PPV ignores pathology entirely",
+          "rationale": "PPV correlates positive exams with cancer diagnosis."
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "When \u201cIncomplete: Need prior mammograms for comparison\u201d is used, MQSA requires a follow-up report with a final assessment within 30 calendar days even if priors are never obtained.",
+      "explanation": "PPV is the percent of patients with positive mammograms diagnosed with breast cancer within 1 year of the exam.",
       "variants": {
-        "simpler": "Prior-mammo incomplete \u2192 final assessment within 30 days.",
-        "example": "Priors never arrive: still issue a final assessment within 30 days."
+        "simpler": "PPV uses cancer diagnosis within 1 year of a positive exam.",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
-        "ev-mqsa-incomplete-categories"
+        "ev-mqsa-positive-mammogram",
+        "ev-mqsa-outcomes-audit"
       ],
       "review": {
         "status": "auto_checked",
@@ -5986,46 +5987,45 @@
       "id": "q-pos-095",
       "revision": 1,
       "objectiveIds": [
-        "obj-pp-cc",
-        "obj-pp-mlo"
+        "obj-pp-us-mri",
+        "obj-pp-screening-vs-diagnostic"
       ],
-      "familyId": "fam-pos-fb-ciq-every-3y",
+      "familyId": "fam-pos-fb-density-rule-date",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "How often must the accreditation body review clinical images from each accredited facility, and which views are submitted per unit?",
+      "stem": "The 2023 MQSA density final rule\u2019s effective date for the updated patient/report density requirements was:",
       "choices": [
         {
           "id": "a",
-          "text": "Annually; two MLO views only from one examination",
-          "rationale": "Frequency is at least every 3 years; CC and MLO from two exams."
+          "text": "September 10, 2024",
+          "rationale": "Correct \u2014 the rule took effect September 10, 2024."
         },
         {
           "id": "b",
-          "text": "Every 5 years; any two views the facility chooses",
-          "rationale": "Not the cited requirement."
+          "text": "January 1, 1992",
+          "rationale": "That predates the 2023 density final rule effective date."
         },
         {
           "id": "c",
-          "text": "At least once every 3 years; CC and MLO views from two examinations",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "December 25, 2030",
+          "rationale": "Not the cited effective date."
         },
         {
           "id": "d",
-          "text": "Only at initial accreditation; no later clinical image review",
-          "rationale": "Ongoing review at least every 3 years is required."
+          "text": "No effective date was published",
+          "rationale": "An effective date is stated."
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "Accreditation-body clinical image review occurs at least once every 3 years; for each unit the facility submits CC and MLO from two examinations.",
+      "correctChoiceId": "a",
+      "explanation": "The 2023 MQSA final rule took effect September 10, 2024, adding density to lay summaries/reports and updating wording.",
       "variants": {
-        "simpler": "CIQ review \u2265 every 3 years; CC+MLO from two exams/unit.",
-        "example": "Renewal packet: two exams \u00d7 CC/MLO per unit."
+        "simpler": "Density final rule effective date: Sept 10, 2024.",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
-        "ev-mqsa-clinical-image-review-frequency",
-        "ev-pos-mqsa-cc-mlo-submission"
+        "ev-mqsa-density-rule-effective"
       ],
       "review": {
         "status": "auto_checked",
@@ -6319,7 +6319,7 @@
       "objectiveIds": [
         "obj-pp-cc"
       ],
-      "familyId": "fam-pos-fb-pnl-borderline",
+      "familyId": "fam-pos-fb-recall-numerator",
       "pool": "form-b",
       "difficultyIntent": "apply",
       "kind": "single",
@@ -6715,39 +6715,39 @@
       "objectiveIds": [
         "obj-pc-explain-compression"
       ],
-      "familyId": "fam-pos-fb-force-initial-drive",
+      "familyId": "fam-pos-fb-force-min-available",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "Under MQSA compression-device performance rules, what is the allowed maximum force range for the initial power drive?",
+      "stem": "MQSA compression-device performance requires that at least how much force be available?",
       "choices": [
         {
           "id": "a",
-          "text": "Between 10 N and 50 N only",
-          "rationale": "Those values are far below the cited range."
+          "text": "At least 111 newtons (25 pounds)",
+          "rationale": "Correct. \u2014 see cited evidence."
         },
         {
           "id": "b",
-          "text": "Between 111 N (25 lb) and 200 N (45 lb)",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "At least 1 newton only",
+          "rationale": "Far below the cited minimum available force."
         },
         {
           "id": "c",
-          "text": "Any force the technologist prefers with no upper bound",
-          "rationale": "MQSA sets an upper bound for initial power drive."
+          "text": "Exactly 2000 newtons on every exposure",
+          "rationale": "Not the cited minimum-available rule."
         },
         {
           "id": "d",
-          "text": "Exactly 300 N on every system",
-          "rationale": "Not the cited requirement."
+          "text": "No minimum force is stated",
+          "rationale": "A minimum available force is stated."
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "At least 111 N (25 lb) must be available, and maximum force for the initial power drive is between 111 N (25 lb) and 200 N (45 lb).",
+      "correctChoiceId": "a",
+      "explanation": "At least 111 newtons (25 pounds) of force must be available on the compression device.",
       "variants": {
-        "simpler": "Initial power-drive max force: 111\u2013200 N (25\u201345 lb).",
-        "example": "Power drive that can exceed 45 lb fails the cited MQSA range."
+        "simpler": "Minimum available compression force: 111 N (25 lb).",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
         "ev-mqsa-compression-force"
@@ -6778,45 +6778,44 @@
       "id": "q-pos-107",
       "revision": 1,
       "objectiveIds": [
-        "obj-pp-cc",
-        "obj-pc-explain-compression"
+        "obj-pp-screening-vs-diagnostic"
       ],
-      "familyId": "fam-pos-fb-dose-cc-phantom",
+      "familyId": "fam-pos-fb-ip-960",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "What is the MQSA average glandular dose limit for a single craniocaudal view of an FDA-accepted phantom simulating a standard breast?",
+      "stem": "To maintain interpreting-physician continuing qualifications, MQSA requires interpreting or multi-reading at least how many mammographic examinations in 24 months?",
       "choices": [
         {
           "id": "a",
-          "text": "No dose limit applies to digital systems",
-          "rationale": "The maximum also applies to non-screen-film modalities."
+          "text": "960 examinations",
+          "rationale": "Not supported by the cited evidence."
         },
         {
           "id": "b",
-          "text": "Must not exceed 30 mGy per exposure",
-          "rationale": "That is ten times the cited limit."
+          "text": "9 examinations",
+          "rationale": "Far below the continuing volume."
         },
         {
           "id": "c",
-          "text": "Must not exceed 3.0 mGy (0.3 rad) per exposure",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "96,000 examinations",
+          "rationale": "Far above the cited figure."
         },
         {
           "id": "d",
-          "text": "Dose is unlimited if compression exceeds 200 N",
-          "rationale": "Force and dose limits are separate requirements."
+          "text": "No volume requirement exists",
+          "rationale": "A 960-in-24-months requirement is stated."
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "Average glandular dose for a single CC phantom view of a standard breast must not exceed 3.0 mGy (0.3 rad) per exposure.",
+      "correctChoiceId": "a",
+      "explanation": "Interpreting physicians maintain qualification by interpreting or multi-reading at least 960 mammographic examinations in 24 months (and meeting CE requirements).",
       "variants": {
-        "simpler": "Phantom CC AGD \u2264 3.0 mGy per exposure.",
-        "example": "FFDM/DBT still must meet the same phantom dose maximum."
+        "simpler": "IP continuing volume: 960 exams in 24 months.",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
-        "ev-mqsa-dose-limit"
+        "ev-mqsa-ip-continuing"
       ],
       "review": {
         "status": "auto_checked",
@@ -7109,7 +7108,7 @@
       "objectiveIds": [
         "obj-mqsa-image-labeling"
       ],
-      "familyId": "fam-pos-fb-label-cassette-screen",
+      "familyId": "fam-pos-fb-dbt-slices",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
@@ -7238,49 +7237,49 @@
       "id": "q-pos-114",
       "revision": 1,
       "objectiveIds": [
-        "obj-pp-implant-displaced",
-        "obj-pp-implant-inquiry"
+        "obj-pp-implant-inquiry",
+        "obj-pp-postsurgical"
       ],
-      "familyId": "fam-pos-fb-rt-training-implants",
+      "familyId": "fam-pos-fb-departed-records",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "MQSA initial mammography technologist training must include documented content in which implant-related area (among other topics)?",
+      "stem": "How long must a facility keep MQSA qualification records for personnel who have left the facility?",
       "choices": [
         {
           "id": "a",
-          "text": "Performing implant exchange surgery",
-          "rationale": "Technologists do not perform surgery."
+          "text": "Until the next annual inspection survey that follows their departure",
+          "rationale": "Correct. \u2014 see cited evidence."
         },
         {
           "id": "b",
-          "text": "Imaging patients with implants",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "Records of departed personnel may be destroyed the same day they resign",
+          "rationale": "Departed-personnel records must be retained until the next inspection survey after departure."
         },
         {
           "id": "c",
-          "text": "Writing the interpreting physician\u2019s final assessment",
-          "rationale": "Assessment is the IP\u2019s responsibility."
+          "text": "Forever in a public website dump",
+          "rationale": "Not the cited retention framing."
         },
         {
           "id": "d",
-          "text": "Inspecting facilities as an MQSA inspector",
-          "rationale": "Inspector work is not initial RT training content."
+          "text": "Only if the person was a receptionist",
+          "rationale": "Applies to IPs, RTs, and medical physicists."
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "Initial mammography training includes anatomy/physiology, positioning and compression, QA/QC, and imaging patients with implants, plus supervised examinations and modality-specific hours.",
+      "correctChoiceId": "a",
+      "explanation": "Facilities keep qualification records for current and former IPs, RTs, and physicists; departed-personnel records until the next annual inspection survey after departure.",
       "variants": {
-        "simpler": "Initial RT training must cover imaging patients with implants.",
-        "example": "New mammography RT curriculum includes implant imaging alongside positioning/compression."
+        "simpler": "Departed staff records kept until next inspection after departure.",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
-        "ev-mqsa-rt-initial-training"
+        "ev-mqsa-personnel-records"
       ],
       "review": {
         "status": "auto_checked",
-        "requiresQualifiedReview": true,
+        "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
           {
@@ -7503,42 +7502,41 @@
       "id": "q-pos-118",
       "revision": 1,
       "objectiveIds": [
-        "obj-pc-explain-compression",
-        "obj-pp-interventional-prep"
+        "obj-pc-explain-compression"
       ],
-      "familyId": "fam-pos-fb-handsfree-both-sides",
+      "familyId": "fam-pos-fb-fine-adjust-both",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "MQSA requires initial power-driven compression to be activated how?",
+      "stem": "Besides initial power-driven compression, MQSA also requires fine-adjustment compression controls that are operable from:",
       "choices": [
         {
           "id": "a",
-          "text": "Only by a foot pedal on the left side of the room",
-          "rationale": "Controls must be available from both sides."
+          "text": "Both sides of the patient",
+          "rationale": "Correct. \u2014 see cited evidence."
         },
         {
           "id": "b",
-          "text": "By hands-free controls operable from both sides of the patient",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "Only the far wall of the control booth",
+          "rationale": "Must be from both sides of the patient."
         },
         {
           "id": "c",
-          "text": "Only by the patient squeezing a hand grip",
-          "rationale": "Activation is by technologist hands-free controls."
+          "text": "Only the medical physicist\u2019s survey kit",
+          "rationale": "Clinical unit controls."
         },
         {
           "id": "d",
-          "text": "Only through the medical physicist\u2019s survey laptop",
-          "rationale": "Clinical controls are on the unit."
+          "text": "Only implant cases",
+          "rationale": "Required for the compression device generally."
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "Every system\u2019s compression device has initial power-driven compression activated by hands-free controls from both sides of the patient, plus fine-adjustment controls from both sides.",
+      "correctChoiceId": "a",
+      "explanation": "Fine-adjustment controls must be operable from both sides of the patient, in addition to hands-free initial power drive from both sides.",
       "variants": {
-        "simpler": "Power compression: hands-free controls from both sides.",
-        "example": "Tech can start power compression from either side of the patient."
+        "simpler": "Fine compression adjust: both sides of the patient.",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
         "ev-mqsa-compression-device"
@@ -7569,48 +7567,49 @@
       "id": "q-pos-119",
       "revision": 1,
       "objectiveIds": [
+        "obj-pp-screening-vs-diagnostic",
         "obj-pp-us-mri"
       ],
-      "familyId": "fam-pos-fb-uspstf-biennial-40-74",
+      "familyId": "fam-pos-fb-nbccedp",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 50,
-      "stem": "What is the 2024 USPSTF Grade B recommendation for screening mammography in average-risk women aged 40\u201374?",
+      "stem": "A low-income, underinsured patient asks about public screening help. Which CDC program provides clinical breast exams and mammograms in that access framing?",
       "choices": [
         {
           "id": "a",
-          "text": "One lifetime mammogram at age 50 only",
-          "rationale": "USPSTF recommends biennial screening across 40\u201374."
+          "text": "The National Breast and Cervical Cancer Early Detection Program (NBCCEDP)",
+          "rationale": "Correct. \u2014 see cited evidence."
         },
         {
           "id": "b",
-          "text": "Monthly screening mammography",
-          "rationale": "Not the USPSTF recommendation."
+          "text": "Only private cosmetic surgery grants",
+          "rationale": "Not the cited access program."
         },
         {
           "id": "c",
-          "text": "Biennial screening mammography",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "A federal ban on all screening under age 75",
+          "rationale": "Opposite of access programs."
         },
         {
           "id": "d",
-          "text": "Screening ultrasound instead of mammography",
-          "rationale": "USPSTF addresses mammography; supplemental US/MRI in dense breasts is an I statement."
+          "text": "USPSTF itself as a clinic network",
+          "rationale": "USPSTF issues recommendations; NBCCEDP provides services."
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "USPSTF recommends biennial screening mammography for women aged 40 to 74 years (Grade B).",
+      "correctChoiceId": "a",
+      "explanation": "CDC\u2019s NBCCEDP provides screening services, including clinical breast exams and mammograms, to low-income, underinsured eligible people.",
       "variants": {
-        "simpler": "USPSTF: biennial mammo ages 40\u201374 (B).",
-        "example": "Average-risk 52-year-old \u2192 biennial screening under USPSTF."
+        "simpler": "NBCCEDP helps eligible people get screening exams.",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
-        "ev-pc-uspstf-biennial"
+        "ev-pc-nci-access-nbccedp"
       ],
       "review": {
         "status": "auto_checked",
-        "requiresQualifiedReview": true,
+        "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
           {
@@ -7767,42 +7766,42 @@
       "objectiveIds": [
         "obj-pp-us-mri"
       ],
-      "familyId": "fam-pos-fb-acs-45-54-annual",
+      "familyId": "fam-pos-fb-acs-high-risk-gene",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "ACS average-risk guidance (Facts & Figures 2024\u20132025) for ages 45\u201354 calls for which mammography cadence?",
+      "stem": "Besides high lifetime-risk scores, which personal history does ACS (Facts & Figures 2024\u20132025) list among high-risk reasons for annual MRI plus mammography?",
       "choices": [
         {
           "id": "a",
-          "text": "One lifetime exam",
-          "rationale": "Not ACS guidance."
+          "text": "A known high-risk genetic mutation (as summarized in the cited ACS guidance)",
+          "rationale": "Correct. \u2014 see cited evidence."
         },
         {
           "id": "b",
-          "text": "Annual mammograms",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "Preferring biennial screening at average risk only",
+          "rationale": "That is average-risk interval choice, not high-risk MRI criteria."
         },
         {
           "id": "c",
-          "text": "Daily tomosynthesis",
-          "rationale": "Not ACS guidance."
+          "text": "Having used deodorant once",
+          "rationale": "Not a high-risk criterion."
         },
         {
           "id": "d",
-          "text": "No mammography until 75",
-          "rationale": "Opposite of ACS 45\u201354 guidance."
+          "text": "Working night shifts in radiology",
+          "rationale": "Not listed."
         }
       ],
-      "correctChoiceId": "b",
-      "explanation": "ACS: ages 45\u201354 should have annual mammograms.",
+      "correctChoiceId": "a",
+      "explanation": "ACS high-risk groups include known high-risk gene mutations (among other criteria) for annual MRI plus mammography.",
       "variants": {
-        "simpler": "ACS 45\u201354: annual mammograms.",
+        "simpler": "ACS high-risk includes known high-risk gene mutations.",
         "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
-        "ev-pc-acs-average-ages"
+        "ev-pc-acs-high-risk"
       ],
       "review": {
         "status": "auto_checked",
@@ -7832,42 +7831,42 @@
       "objectiveIds": [
         "obj-pp-us-mri"
       ],
-      "familyId": "fam-pos-fb-dense-not-palpable",
+      "familyId": "fam-pos-fb-dense-fda-inform",
       "pool": "form-b",
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 50,
-      "stem": "According to NCI, how is breast density determined?",
+      "stem": "Updated FDA mammography rules, as summarized by NCI, require providers to do what regarding dense breasts?",
       "choices": [
         {
           "id": "a",
-          "text": "Density equals cup size on the technologist worksheet",
-          "rationale": "Cup size is not BI-RADS density."
+          "text": "Inform women if they have dense breasts",
+          "rationale": "Correct. \u2014 see cited evidence."
         },
         {
           "id": "b",
-          "text": "Patients can reliably grade density by self-exam firmness",
-          "rationale": "Density cannot be felt on self-exam or CBE."
+          "text": "Refuse mammograms for anyone with dense tissue",
+          "rationale": "Not NCI/FDA framing."
         },
         {
           "id": "c",
-          "text": "Only a radiologist reading a mammogram can determine density; it cannot be felt on exam",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "Replace all mammograms with ultrasound automatically",
+          "rationale": "Supplemental imaging evidence is separate/insufficient per USPSTF I."
         },
         {
           "id": "d",
-          "text": "Density is measured only with a ruler on the paddle",
-          "rationale": "Density is an imaging assessment category."
+          "text": "Stop reporting density categories",
+          "rationale": "Rules added density communication, not removal."
         }
       ],
-      "correctChoiceId": "c",
-      "explanation": "Dense breast tissue cannot be felt on self-exam or clinical breast exam; only a radiologist reading a mammogram can determine density.",
+      "correctChoiceId": "a",
+      "explanation": "Updated FDA regulations require mammography providers to inform women if they have dense breasts.",
       "variants": {
-        "simpler": "Density is imaging-determined, not palpable.",
-        "example": "\u201cMy breasts feel dense\u201d \u2260 BI-RADS density category."
+        "simpler": "FDA rules: inform women about dense breasts.",
+        "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
-        "ev-pc-nci-dense-not-palpable"
+        "ev-pc-nci-dense-fda"
       ],
       "review": {
         "status": "auto_checked",
@@ -8144,6 +8143,399 @@
             "actor": "ai-assisted",
             "kind": "revision",
             "note": "AI-assisted Form B draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-128",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-fb-cir-two-exam-cc-mlo",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "For accreditation clinical image review of each mammography unit, which view set does MQSA evidence in this module require the facility to submit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only MLO views from a single examination.",
+          "rationale": "Review uses CC and MLO from two examinations."
+        },
+        {
+          "id": "b",
+          "text": "Craniocaudal (CC) and mediolateral oblique (MLO) views from two examinations.",
+          "rationale": "Correct. CIR for each unit uses CC and MLO from two exams."
+        },
+        {
+          "id": "c",
+          "text": "Only implant-displaced views from three examinations.",
+          "rationale": "Implant-displaced views are not the stated CIR submission pair."
+        },
+        {
+          "id": "d",
+          "text": "Any two random projections, as long as laterality markers are present.",
+          "rationale": "The required pair is specifically CC and MLO from two examinations."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Accreditation clinical image review for each unit uses craniocaudal (CC) and mediolateral oblique (MLO) views from two examinations.",
+      "variants": {
+        "simpler": "CIR per unit: CC + MLO from two exams.",
+        "example": "When preparing accreditation images, pull two exams\u2019 standard CC/MLO pairs."
+      },
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-129",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-exaggerated-cleavage-at"
+      ],
+      "familyId": "fam-pos-fb-at-view-named",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In the public terminology sources cited for this module, how is the axillary tail mammography view treated relative to cleavage view?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As an unofficial nickname for a repeated identical standard CC.",
+          "rationale": "It is listed as a distinct view qualifier, not a nickname for a repeat CC."
+        },
+        {
+          "id": "b",
+          "text": "As a physicist-only phantom projection never used clinically.",
+          "rationale": "It is a clinical mammography-view qualifier."
+        },
+        {
+          "id": "c",
+          "text": "As a distinct mammography-view qualifier listed alongside cleavage view.",
+          "rationale": "Correct. Axillary tail view is a distinct qualifier alongside cleavage."
+        },
+        {
+          "id": "d",
+          "text": "As a synonym for mediolateral oblique only.",
+          "rationale": "AT is not defined as a synonym for MLO in the cited terminology."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Axillary tail mammography view is listed as a distinct mammography-view qualifier alongside cleavage view.",
+      "variants": {
+        "simpler": "Axillary tail view is a named view alongside cleavage.",
+        "example": "When documenting supplemental views, AT is its own labeled projection\u2014not a free-text alias."
+      },
+      "evidenceIds": [
+        "ev-pqd-axillary-tail-term",
+        "ev-pqd-cleavage-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-130",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-implant-displaced",
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-pos-fb-recon-skip-mammo",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "NCI\u2019s implant guidance notes an exception to routine mammography of which reconstructed situation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every patient with augmentation implants must stop all mammograms permanently.",
+          "rationale": "Patients with implants and native tissue should continue mammograms."
+        },
+        {
+          "id": "b",
+          "text": "Most reconstructed breasts after mastectomy usually do not need a mammogram of the reconstructed breast.",
+          "rationale": "Correct. NCI: most post-mastectomy reconstructed breasts usually do not need mammography of that side."
+        },
+        {
+          "id": "c",
+          "text": "Implant-displaced views are forbidden whenever any implant is present.",
+          "rationale": "Displacement views may be used because implants can hide tissue."
+        },
+        {
+          "id": "d",
+          "text": "Screening is replaced by ultrasound for all implant patients under age 40.",
+          "rationale": "NCI does not replace mammography with ultrasound for all implant patients."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "People with breast implants should continue mammograms; implants can hide tissue and displacement views may be used. Most people with implants after mastectomy reconstruction usually do not need a mammogram of the reconstructed breast.",
+      "variants": {
+        "simpler": "Post-mastectomy reconstruction: usually no mammogram of that reconstructed breast.",
+        "example": "Confirm surgical history before assuming both sides need mammographic imaging."
+      },
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement",
+        "ev-pc-nci-implants"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-131",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-interventional-prep"
+      ],
+      "familyId": "fam-pos-fb-up-wrong-three",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "According to AHRQ\u2019s Universal Protocol summary used in this module, the protocol was developed to prevent which trio of errors?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wrong contrast brand, wrong kVp, and wrong grid.",
+          "rationale": "Those are technique issues, not the Universal Protocol\u2019s stated purpose."
+        },
+        {
+          "id": "b",
+          "text": "Wrong-site, wrong-procedure, and wrong-person surgery (or procedure).",
+          "rationale": "Correct. UP targets wrong-site, wrong-procedure, and wrong-person events."
+        },
+        {
+          "id": "c",
+          "text": "Wrong BI-RADS category, wrong density letter, and wrong lay-summary language.",
+          "rationale": "Reporting categories are outside UP\u2019s stated purpose."
+        },
+        {
+          "id": "d",
+          "text": "Wrong MQSA certificate type, wrong accreditation body, and wrong EQUIP attestation path.",
+          "rationale": "Certification/EQUIP topics are not what UP was developed to prevent."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "The Universal Protocol (summarized by AHRQ) was developed to prevent wrong-site, wrong-procedure, and wrong-person surgery and includes preprocedure verification, site marking, and a time-out.",
+      "variants": {
+        "simpler": "Universal Protocol: prevent wrong site, procedure, and person.",
+        "example": "Before stereotactic biopsy, frame safety checks around that three-way prevention goal."
+      },
+      "evidenceIds": [
+        "ev-pqd-universal-protocol"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-132",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-tangential-rolled"
+      ],
+      "familyId": "fam-pos-fb-rolled-loinc",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In the LOINC change-reason language cited for rolled mammography views, what happens to the breast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The breast is rolled to one side.",
+          "rationale": "Correct. Rolled view: breast is rolled to one side."
+        },
+        {
+          "id": "b",
+          "text": "The receptor is rotated 90\u00b0 while the breast stays fixed in CC.",
+          "rationale": "The cited language is about rolling the breast, not only rotating the receptor."
+        },
+        {
+          "id": "c",
+          "text": "Only the implant is displaced while native tissue stays unmoved.",
+          "rationale": "That describes implant displacement, not the rolled-view definition."
+        },
+        {
+          "id": "d",
+          "text": "The tube angulation alone creates a true lateral without breast motion.",
+          "rationale": "True lateral geometry is a different topic than rolling the breast."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "In a rolled mammography view, the breast is rolled to one side (LOINC change-reason language).",
+      "variants": {
+        "simpler": "Rolled view = breast rolled to one side.",
+        "example": "When the order says \u201crolled CC,\u201d expect intentional breast roll\u2014not a unchanged repeat."
+      },
+      "evidenceIds": [
+        "ev-pqd-rolled-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-133",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-pos-fb-fat-necrosis-scar",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "After lumpectomy or radiation, a patient reports a new firm lump near the treatment site. Which benign entity in this module\u2019s evidence can replace fat with a cyst or scar that feels like a firm lump?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inflammatory breast cancer confined to one duct.",
+          "rationale": "IBC is malignant and framed differently; not the benign post-injury entity asked here."
+        },
+        {
+          "id": "b",
+          "text": "Intraductal papilloma that never follows trauma.",
+          "rationale": "Papilloma is a duct growth; not the post-injury/surgery/radiation fat-necrosis pattern."
+        },
+        {
+          "id": "c",
+          "text": "Fat necrosis after injury, surgery, or radiation.",
+          "rationale": "Correct. Fat necrosis may form a cyst or scar that feels like a firm lump after injury/surgery/radiation."
+        },
+        {
+          "id": "d",
+          "text": "Phyllodes tumor arising only from deodorant residue.",
+          "rationale": "Phyllodes are connective-tissue tumors; unrelated to deodorant."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Fat necrosis is a benign condition after injury/surgery/radiation in which fat may be replaced by a cyst or scar that can feel like a firm lump.",
+      "variants": {
+        "simpler": "Post-treatment firm lump may be fat necrosis (benign).",
+        "example": "Document surgical/radiation history when a new firm area appears near a scar."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fat-necrosis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice or Form A item."
           },
           {
             "at": "2026-10-06",
