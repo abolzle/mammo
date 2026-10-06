@@ -7346,39 +7346,39 @@
       "objectiveIds": [
         "obj-ap-benign-conditions"
       ],
-      "familyId": "fam-ap-fb-fat-necrosis-feel",
+      "familyId": "fam-ap-fb-fat-necrosis-replace",
       "pool": "form-b",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "After lumpectomy, a patient feels a firm area near the scar. Which NCI benign condition can replace fat with a cyst or scar that feels like a firm lump?",
+      "stem": "NCI describes fat necrosis as a benign process in which injured fat may be replaced by which tissue outcomes?",
       "choices": [
         {
           "id": "a",
-          "text": "Sentinel node metaplasia",
-          "rationale": "Not an NCI entity in this module."
+          "text": "A cyst or a scar",
+          "rationale": "Correct \u2014 fat may be replaced by a cyst or scar."
         },
         {
           "id": "b",
-          "text": "Paget disease",
-          "rationale": "Paget involves nipple/areola skin changes."
+          "text": "Only invasive lobular carcinoma",
+          "rationale": "Fat necrosis is benign, not ILC."
         },
         {
           "id": "c",
-          "text": "Inflammatory breast cancer",
-          "rationale": "IBC is malignant and typically presents with inflamed skin."
+          "text": "Only sentinel lymph nodes",
+          "rationale": "Nodes are not the replacement tissue described."
         },
         {
           "id": "d",
-          "text": "Fat necrosis",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "Only Montgomery gland oil",
+          "rationale": "Unrelated secretion."
         }
       ],
-      "correctChoiceId": "d",
-      "explanation": "NCI: fat necrosis may be replaced by a cyst or scar that can feel like a firm lump.",
+      "correctChoiceId": "a",
+      "explanation": "Fat necrosis is benign; after injury/surgery/radiation, fat may be replaced by a cyst or scar that can feel like a firm lump.",
       "variants": {
-        "simpler": "Fat necrosis can feel like a firm lump.",
-        "example": "Match the stem to the cited evidence before choosing."
+        "simpler": "Fat necrosis \u2192 cyst or scar replacement.",
+        "example": "Focus on the tissue outcome, not the exam-day history script."
       },
       "evidenceIds": [
         "ev-ap-dict-fat-necrosis"
