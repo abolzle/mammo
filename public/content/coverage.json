@@ -1347,7 +1347,9 @@
         "q-ap-003",
         "q-ap-004",
         "q-ap-005",
-        "q-ap-048"
+        "q-ap-048",
+        "q-ap-051",
+        "q-ap-052"
       ],
       "visualIds": [
         "vis-ap-uoq-right"
@@ -1390,7 +1392,8 @@
         "q-ap-006",
         "q-ap-007",
         "q-ap-008",
-        "q-ap-009"
+        "q-ap-009",
+        "q-ap-053"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
@@ -1416,7 +1419,13 @@
         "q-ap-010",
         "q-ap-011",
         "q-ap-012",
-        "q-ap-013"
+        "q-ap-013",
+        "q-ap-054",
+        "q-ap-055",
+        "q-ap-056",
+        "q-ap-057",
+        "q-ap-089",
+        "q-ap-090"
       ],
       "visualIds": [
         "vis-ap-axilla-node"
@@ -1444,7 +1453,12 @@
         "q-ap-014",
         "q-ap-015",
         "q-ap-016",
-        "q-ap-017"
+        "q-ap-017",
+        "q-ap-053",
+        "q-ap-058",
+        "q-ap-059",
+        "q-ap-060",
+        "q-ap-089"
       ],
       "visualIds": [
         "vis-ap-lobule"
@@ -1471,7 +1485,11 @@
         "q-ap-018",
         "q-ap-019",
         "q-ap-020",
-        "q-ap-021"
+        "q-ap-021",
+        "q-ap-059",
+        "q-ap-061",
+        "q-ap-062",
+        "q-ap-088"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
@@ -1501,7 +1519,9 @@
         "q-ap-031",
         "q-ap-032",
         "q-ap-033",
-        "q-ap-034"
+        "q-ap-034",
+        "q-ap-063",
+        "q-ap-064"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
@@ -1539,6 +1559,17 @@
         "q-ap-029",
         "q-ap-030",
         "q-ap-049",
+        "q-ap-063",
+        "q-ap-065",
+        "q-ap-066",
+        "q-ap-067",
+        "q-ap-068",
+        "q-ap-069",
+        "q-ap-070",
+        "q-ap-071",
+        "q-ap-072",
+        "q-ap-073",
+        "q-ap-074",
         "q-mqsa-018"
       ],
       "visualIds": [
@@ -1567,7 +1598,11 @@
         "q-ap-036",
         "q-ap-037",
         "q-ap-038",
-        "q-ap-039"
+        "q-ap-039",
+        "q-ap-075",
+        "q-ap-076",
+        "q-ap-077",
+        "q-ap-078"
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
@@ -1592,7 +1627,13 @@
         "q-ap-040",
         "q-ap-041",
         "q-ap-042",
-        "q-ap-043"
+        "q-ap-043",
+        "q-ap-062",
+        "q-ap-079",
+        "q-ap-080",
+        "q-ap-081",
+        "q-ap-082",
+        "q-ap-083"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
@@ -1620,7 +1661,14 @@
         "q-ap-045",
         "q-ap-046",
         "q-ap-047",
-        "q-ap-050"
+        "q-ap-050",
+        "q-ap-061",
+        "q-ap-084",
+        "q-ap-085",
+        "q-ap-086",
+        "q-ap-087",
+        "q-ap-088",
+        "q-ap-091"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
@@ -1802,7 +1850,11 @@
         "q-pos-037",
         "q-pos-038",
         "q-pos-039",
-        "q-pos-040"
+        "q-pos-040",
+        "q-pos-056",
+        "q-pos-057",
+        "q-pos-058",
+        "q-pos-083"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
@@ -1834,7 +1886,10 @@
         "q-pos-029",
         "q-pos-030",
         "q-pos-031",
-        "q-pos-032"
+        "q-pos-032",
+        "q-pos-054",
+        "q-pos-055",
+        "q-pos-081"
       ],
       "visualIds": [],
       "learnerQuestionCount": 8,
@@ -1856,7 +1911,8 @@
       ],
       "questionIds": [
         "q-pos-045",
-        "q-pos-047"
+        "q-pos-047",
+        "q-pos-080"
       ],
       "visualIds": [],
       "learnerQuestionCount": 2,
@@ -1875,7 +1931,8 @@
         "card-pos-recon"
       ],
       "questionIds": [
-        "q-pos-046"
+        "q-pos-046",
+        "q-pos-079"
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
@@ -1914,7 +1971,15 @@
         "q-pos-025",
         "q-pos-026",
         "q-pos-027",
-        "q-pos-028"
+        "q-pos-028",
+        "q-pos-049",
+        "q-pos-050",
+        "q-pos-051",
+        "q-pos-052",
+        "q-pos-053",
+        "q-pos-081",
+        "q-pos-083",
+        "q-pos-084"
       ],
       "visualIds": [
         "vis-pc-screen-vs-dx"
@@ -1932,7 +1997,13 @@
       "requiresQualifiedReview": false,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pos-059",
+        "q-pos-060",
+        "q-pos-061",
+        "q-pos-062",
+        "q-pos-063"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -1947,7 +2018,11 @@
       "requiresQualifiedReview": true,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pos-068",
+        "q-pos-074",
+        "q-pos-075"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -1962,7 +2037,12 @@
       "requiresQualifiedReview": true,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pos-064",
+        "q-pos-065",
+        "q-pos-066",
+        "q-pos-082"
+      ],
       "visualIds": [],
       "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
@@ -1984,7 +2064,22 @@
       "questionIds": [
         "q-pc-035",
         "q-pc-036",
-        "q-pc-037"
+        "q-pc-037",
+        "q-pos-067",
+        "q-pos-068",
+        "q-pos-069",
+        "q-pos-070",
+        "q-pos-071",
+        "q-pos-072",
+        "q-pos-073",
+        "q-pos-074",
+        "q-pos-075",
+        "q-pos-076",
+        "q-pos-077",
+        "q-pos-078",
+        "q-pos-082",
+        "q-pos-085",
+        "q-pos-086"
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,

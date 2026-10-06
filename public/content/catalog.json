@@ -18,7 +18,7 @@
       ],
       "path": "/content/modules/anatomy-pathology.json",
       "lessonCount": 12,
-      "questionCount": 50,
+      "questionCount": 91,
       "cardCount": 30,
       "visualCount": 4
     },
@@ -103,7 +103,7 @@
       ],
       "path": "/content/modules/positioning.json",
       "lessonCount": 12,
-      "questionCount": 48,
+      "questionCount": 86,
       "cardCount": 22,
       "visualCount": 4
     },
