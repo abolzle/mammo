@@ -53,6 +53,8 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
   const [tick, setTick] = useState(0);
   const [issueOpen, setIssueOpen] = useState(false);
   const [issueNote, setIssueNote] = useState("");
+  const [mounted, setMounted] = useState(false);
+  const [pending, setPending] = useState(true);
 
   const persist = useCallback(async (s: StudySession) => {
     await putSession(s);
@@ -60,7 +62,26 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
   }, []);
 
   useEffect(() => {
-    void getSession(sessionId).then((s) => setSession(s ?? null));
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    let cancelled = false;
+    setPending(true);
+    void getSession(sessionId)
+      .then((s) => {
+        if (cancelled) return;
+        setSession(s ?? null);
+        setPending(false);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        setSession(null);
+        setPending(false);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [sessionId]);
 
   useEffect(() => {
@@ -93,7 +114,9 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session, tick]);
 
-  if (!content) return <p>Loading the library…</p>;
+  // Wait until mount so the server HTML and the first client render match.
+  // Date.now() in the timer, and library data loaded in an effect, both differ otherwise.
+  if (!mounted || !content || pending) return <p>Loading the library…</p>;
   if (!session) return <p>That session was not found on this device.</p>;
 
   const done = session.status === "completed";
@@ -387,8 +410,8 @@ function QuestionBlock({
               key={c.id}
               className={`flex min-h-14 items-start gap-3 rounded-lg border p-3 ${show && isCorrect ? "border-navy bg-muted" : ""} ${show && isPicked && !isCorrect ? "border-dashed" : ""}`}
             >
-              <RadioGroupItem value={c.id} className="mt-1 size-5" />
-              <span>
+              <RadioGroupItem value={c.id} className="size-5 shrink-0" />
+              <span className="min-w-0 leading-5">
                 <span className="font-medium">{c.id.toUpperCase()}.</span> {c.text}
                 {show ? (
                   <span className="mt-1 block text-sm text-muted-foreground">
@@ -462,15 +485,15 @@ function VisualBlock({
         {asset.isSchematic ? "Schematic illustration, not a mammogram. " : ""}
         {visual.accessibilityNote}
       </p>
-      <div className="overflow-auto rounded-lg border bg-white">
+      <div className="overflow-hidden rounded-lg border bg-white">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={asset.src} alt={asset.alt} width={asset.width} height={asset.height} className="max-w-full" />
+        <img src={asset.src} alt={asset.alt} width={asset.width} height={asset.height} className="h-auto w-full" />
       </div>
       <RadioGroup value={selected} onValueChange={onSelect} disabled={show}>
         {visual.hotspots.map((h) => (
-          <Label key={h.id} className="flex min-h-12 items-center gap-3 rounded-lg border p-3">
-            <RadioGroupItem value={h.id} className="size-5" />
-            <span>
+          <Label key={h.id} className="flex min-h-12 items-start gap-3 rounded-lg border p-3">
+            <RadioGroupItem value={h.id} className="size-5 shrink-0" />
+            <span className="min-w-0 leading-5">
               {h.neutralLabel}
               {show ? (
                 <span className="block text-sm text-muted-foreground">

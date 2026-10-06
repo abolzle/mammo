@@ -1,5 +1,5 @@
-const SHELL = "mammo-shell-v1";
-const CONTENT = "mammo-content-v1";
+const SHELL = "mammo-shell-v2";
+const CONTENT = "mammo-content-v2";
 
 const PRECACHE = [
   "/",
@@ -47,9 +47,18 @@ self.addEventListener("fetch", (event) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  // Next runtime, HMR, and RSC requests carry query strings that must not be reused.
+  if (url.pathname.startsWith("/_next/") || url.searchParams.has("_rsc")) return;
 
   if (url.pathname.startsWith("/content/") || url.pathname.startsWith("/assets/")) {
     event.respondWith(networkFirst(req, CONTENT));
+    return;
+  }
+
+  // Page navigations include ?id= on /session/. A cached /session/ document
+  // must not be reused for a different query string.
+  if (req.mode === "navigate") {
+    event.respondWith(networkFirst(req, SHELL));
     return;
   }
 
@@ -58,7 +67,7 @@ self.addEventListener("fetch", (event) => {
 
 async function cacheFirst(req, cacheName) {
   const cache = await caches.open(cacheName);
-  const hit = await cache.match(req, { ignoreSearch: true });
+  const hit = await cache.match(req);
   if (hit) return hit;
   try {
     const res = await fetch(req);
@@ -76,7 +85,7 @@ async function networkFirst(req, cacheName) {
     if (res.ok) cache.put(req, res.clone());
     return res;
   } catch {
-    const hit = await cache.match(req, { ignoreSearch: true });
+    const hit = await cache.match(req) ?? (await cache.match(new URL(req.url).pathname));
     if (hit) return hit;
     return new Response("Offline and not cached", { status: 503 });
   }
