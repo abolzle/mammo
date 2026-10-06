@@ -9,7 +9,7 @@ import { createSession } from "../src/lib/engine/create";
 import { eventId } from "../src/lib/engine/ids";
 import { parseBackupText, importBackup, exportBackup } from "../src/lib/engine/backup";
 import { EXAM } from "../src/config/exam";
-import { offerAssessment } from "../src/lib/engine/assessment";
+import { formQuestions, offerAssessment } from "../src/lib/engine/assessment";
 import { parseDraftJson, buildGeneratePacket } from "../src/lib/content/packet";
 import { reconcileEvent } from "../src/lib/engine/reconcile";
 import { ensureProfile, putEvent, putExposure, getExposure, resetDb } from "../src/lib/db";
@@ -169,12 +169,15 @@ describe("backup", () => {
 });
 
 describe("assessment honesty", () => {
-  it("refuses a 60-question checkpoint and a 145-item simulation", () => {
+  it("offers a 60-question checkpoint only when 60 reserved items exist, and refuses an underfilled 145-item simulation", () => {
+    const formA = formQuestions(loaded.modules).length;
     const checkpoint = offerAssessment("checkpoint", loaded.modules);
-    expect(checkpoint.ok).toBe(false);
+    expect(checkpoint.ok).toBe(formA >= 60);
     if (!checkpoint.ok) expect(checkpoint.fallback).toBeTruthy();
+    const reserved = loaded.modules.flatMap((m) => m.questions.filter((q) => q.pool !== "practice")).length;
     const sim = offerAssessment("simulation", loaded.modules);
-    expect(sim.ok).toBe(false);
+    expect(sim.ok).toBe(reserved >= 145);
+    if (!sim.ok) expect(sim.fallback).toBeTruthy();
   });
 
   it("offers a reserved Form A quiz without mixing those families into daily study", () => {
