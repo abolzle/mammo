@@ -66,11 +66,31 @@
       "questionCount": 48,
       "cardCount": 35,
       "visualCount": 4
+    },
+    {
+      "id": "mod-positioning",
+      "version": "1.0.0-beta.1",
+      "title": "Positioning and procedures",
+      "summary": "Standard CC/MLO purpose and sourced evaluation ideas, compression purpose, labeling, screening vs diagnostic pathways, implants and displacement views, and purpose-level additional views — with honest beta status for criteria that need qualified review.",
+      "topicIds": [
+        "top-pp-standard-views",
+        "top-pp-additional-views",
+        "top-pp-variance",
+        "top-pp-exams",
+        "top-pc-preparation",
+        "top-ip-mqsa-records",
+        "top-ip-image-evaluation"
+      ],
+      "path": "/content/modules/positioning.json",
+      "lessonCount": 12,
+      "questionCount": 48,
+      "cardCount": 22,
+      "visualCount": 4
     }
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 34,
+    "withLesson": 40,
     "withGap": 59,
     "breakdown": {
       "public_domain_open": 23,

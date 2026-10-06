@@ -3080,6 +3080,438 @@
           }
         ]
       }
+    },
+    {
+      "id": "ev-pos-mqsa-positioning-attribute",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(2)(i)",
+      "claim": "For clinical image review, positioning means imaging enough breast tissue so cancers are not likely to be missed because of inadequate positioning.",
+      "scope": "Accreditation-body clinical image review attribute.",
+      "excerpt": "Positioning. Sufficient breast tissue shall be imaged to ensure that cancers are not likely to be missed because of inadequate positioning.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-mqsa-compression-attribute",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(2)(ii)",
+      "claim": "For clinical image review, compression is applied to minimize overlying tissue obscuring anatomy and to reduce motion artifact.",
+      "scope": "Accreditation-body clinical image review attribute — purpose of compression on the clinical image, not a device QC force test.",
+      "excerpt": "Compression. Compression shall be applied in a manner that minimizes the potential obscuring effect of overlying breast tissue and motion artifact.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-mqsa-cc-mlo-submission",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(4)(i)",
+      "claim": "Accreditation clinical image review for each unit uses craniocaudal (CC) and mediolateral oblique (MLO) views from two examinations.",
+      "scope": "Accreditation-body clinical image selection.",
+      "excerpt": "The facility shall submit craniocaudal (CC) and mediolateral oblique (MLO) views from two mammographic examinations",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-mqsa-image-identification",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(5)",
+      "claim": "Each mammographic image must permanently and legibly show required identifiers, including view and laterality near the axilla, without obscuring anatomy.",
+      "scope": "Image identification / labeling.",
+      "excerpt": "view and laterality. This information shall be placed on the image in a position near the axilla.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-mqsa-implant-inquiry",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(g)",
+      "claim": "Facilities must ask about breast implants before the exam and, unless contraindicated or modified by a physician, obtain views that maximize visualization of breast tissue.",
+      "scope": "Patients with breast implants.",
+      "excerpt": "patients with breast implants undergoing mammography shall have mammographic views to maximize the visualization of breast tissue.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-mqsa-screening-diagnostic-audit",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(f)(1)",
+      "claim": "For audit purposes, a screening mammogram is routine views of an asymptomatic patient; a diagnostic mammogram is individualized views for a patient with symptoms, physical signs, or abnormal screening findings.",
+      "scope": "Audit definitions.",
+      "excerpt": "a mammographic examination consisting of routine views of an asymptomatic patient shall be termed a screening mammogram, while a mammographic examination consisting of individualized views of a patient with breast symptoms, physical signs of breast disease, or abnormal findings on a screening mammogram shall be termed a diagnostic mammogram.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-mqsa-magnification-capability",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(4)(iii), (b)(6)",
+      "claim": "Systems used for noninterventional problem solving must have magnification capability; magnification systems provide at least one magnification value between 1.4 and 2.0 and can operate with the grid removed.",
+      "scope": "Equipment design supporting magnification problem-solving views — not a positioning correction recipe.",
+      "excerpt": "Systems used for magnification procedures shall provide, at a minimum, at least one magnification value within the range of 1.4 to 2.0.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-nci-compression-purpose",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet — What happens during a mammogram? (updated 2025-12-02)",
+      "claim": "During a mammogram the breast is pressed between two plates; pressing helps produce a better x-ray picture of the inside of the breast. Several images are taken from different angles with the breast repositioned each time.",
+      "scope": "Patient-facing explanation of compression purpose; not a numeric force criterion.",
+      "excerpt": "Pressing the breast helps get a better x-ray picture of the inside of your breast. Several images are taken from different angles, with the breast repositioned each time.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-nci-screening-vs-diagnostic",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet — What is a mammogram?",
+      "claim": "Screening mammograms look for cancer before symptoms; diagnostic mammograms evaluate a lump or other change. The same machines are used, but diagnostic exams use images from more angles and therefore a higher radiation dose.",
+      "scope": "Patient education level distinction between screening and diagnostic mammography.",
+      "excerpt": "diagnostic mammography requires images from more angles than screening mammography, so the dose of radiation is higher.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-nci-implants-displacement",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet — Are mammograms done in people with breast implants?",
+      "claim": "People with breast implants should continue mammograms and tell the facility; implants can hide tissue. Implant displacement views may be used. Most people with implants after mastectomy reconstruction usually do not need a mammogram of the reconstructed breast.",
+      "scope": "Patient education; does not prescribe a full implant protocol.",
+      "excerpt": "Implants can hide some breast tissue, making it harder for a radiologist to see unusual changes on the mammogram. If you have breast implants you should let the mammography facility know. A special technique called implant displacement views may be used.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ffdm",
+          "dbt"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-pmc-pnl-cc-mlo",
+      "sourceId": "src-acr-aapm-siim-dm-iq-2013",
+      "locator": "PMC3553374 — Digital Mammography Image Acquisition, tissue coverage / clinical assessment of positioning",
+      "claim": "Clinical positioning assessment compares retromammary tissue between CC and MLO using the posterior nipple line (PNL): on CC, nipple-to-posterior-image distance should be no more than about 1 cm less than on MLO (nipple to anterior pectoralis edge). On MLO, the anterior pectoralis edge should be convex and ideally reach nipple level; PNL on MLO is drawn perpendicular to the muscle (often about 45°).",
+      "scope": "Educational restatement of ACR–AAPM–SIIM digital mammography image-quality guideline positioning discussion. Not a substitute for facility accreditation criteria or the ACR 1999 CIQ manual.",
+      "exceptions": "Guideline preamble states these are educational tools, not inflexible rules. Requires qualified review before verified assessment use.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US",
+        "effective": "2013 guideline text via PMC"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Link-only restatement of copyrighted ACR–AAPM–SIIM guideline positioning criteria. Needs qualified clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-pmc-compression-benefits",
+      "sourceId": "src-acr-aapm-siim-dm-iq-2013",
+      "locator": "PMC3553374 — Breast compression paragraph under image acquisition determinants",
+      "claim": "Breast compression improves digital mammography image quality by immobilizing the breast and shortening exposure (less motion blur), creating more uniform thinner tissue (less scatter, more even penetration, less geometric blur and superposition), and lowering breast dose.",
+      "scope": "Purpose of compression for image quality; not manufacturer QC force procedures.",
+      "citation": "link_only",
+      "context": {
+        "modality": [
+          "ffdm"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Link-only restatement of copyrighted guideline compression rationale."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-fda-equip-eight-attributes",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ for Facilities Q2.12",
+      "claim": "Accreditation-body clinical image quality attributes listed in 21 CFR 900.4(c)(2) are positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "scope": "FDA EQUIP FAQ restating the regulation.",
+      "excerpt": "There are eight image quality attributes listed in 900.4(c)(2)(i-viii). They are: positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-fda-equip-cc-mlo-diagnostic",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ for Facilities Q2.27",
+      "claim": "Periodic clinical image quality review is not limited to screening exams; standard CC or MLO views performed as part of a diagnostic exam can be evaluated on the eight attributes.",
+      "scope": "EQUIP / facility clinical image review practice.",
+      "excerpt": "Any screening exam views or standard CC or MLO view performed as a diagnostic mammography exam is able to be evaluated on the eight (8) image quality attributes.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "Excerpt or link-only claim prepared from retrieved public sources for the positioning module. Not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pos-acr-ciq-link-only",
+      "sourceId": "src-acr-ciq-1999",
+      "locator": "ARRT-named ACR Clinical Image Quality / Mammography QC Manual positioning reference (1999)",
+      "claim": "ARRT content specifications name the ACR Clinical Image Quality manual as a positioning reference; this module does not reproduce that copyrighted manual. Detailed facility positioning score sheets should be studied from ACR accreditation materials (link-only).",
+      "scope": "Rights/access note for learners and maintainers.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "draft",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Placeholder evidence acknowledging the blocked ACR 1999 CIQ manual; no criteria invented from it."
+          }
+        ]
+      }
     }
   ]
 }

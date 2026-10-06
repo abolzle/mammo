@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="t d">
+  <title id="t">Schematic craniocaudal outline</title>
+  <desc id="d">Simplified line drawing of a CC view with chest wall on the left and nipple on the right. Not a mammogram.</desc>
+  <rect width="420" height="300" fill="#0f1b2d"/>
+  <text x="16" y="28" fill="#5eead4" font-size="14" font-family="ui-sans-serif,system-ui,sans-serif">CC (schematic)</text>
+  <path d="M36 40 V260" stroke="#94a3b8" stroke-width="3"/>
+  <path d="M36 50 C 160 30, 300 70, 360 150 C 300 230, 160 270, 36 250 Z" fill="#6b7a90" opacity="0.9"/>
+  <circle cx="360" cy="150" r="6" fill="#e2e8f0"/>
+  <text x="372" y="154" fill="#cbd5e1" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">nipple</text>
+  <text x="44" y="160" fill="#cbd5e1" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif">chest wall</text>
+  <text x="404" y="288" fill="#e2e8f0" font-size="12" font-family="ui-sans-serif,system-ui,sans-serif" text-anchor="end">SCHEMATIC — NOT A MAMMOGRAM</text>
+</svg>

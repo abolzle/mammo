@@ -1,0 +1,556 @@
+{
+  "cards": [
+    {
+      "id": "card-pos-cc-mlo-pair",
+      "prompt": "Which two views does MQSA accreditation clinical image review require from each of two exams per unit?",
+      "answer": "CC and MLO.",
+      "objectiveId": "obj-pp-cc",
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-positioning-attr",
+      "prompt": "Define the MQSA clinical-image positioning attribute in one sentence.",
+      "answer": "Enough breast tissue is imaged that cancers are not likely missed because of inadequate positioning.",
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-compression-attr",
+      "prompt": "Define the MQSA clinical-image compression attribute.",
+      "answer": "Compression minimizes overlying tissue obscuration and motion artifact.",
+      "objectiveId": "obj-pc-explain-compression",
+      "evidenceIds": [
+        "ev-pos-mqsa-compression-attribute"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-eight",
+      "prompt": "List the eight clinical image quality attributes.",
+      "answer": "Positioning; compression; exposure level; contrast; sharpness; noise; artifacts; examination identification.",
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "evidenceIds": [
+        "ev-pos-fda-equip-eight-attributes"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-cc-purpose",
+      "prompt": "What is the CC view\u2019s basic beam orientation?",
+      "answer": "Superior to inferior (craniocaudal).",
+      "objectiveId": "obj-pp-cc",
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-mlo-purpose",
+      "prompt": "Why angle the MLO along the pectoralis?",
+      "answer": "To include posterior breast tissue and the axillary tail.",
+      "objectiveId": "obj-pp-mlo",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo",
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-pnl",
+      "prompt": "What does comparing CC vs MLO PNL check?",
+      "answer": "Whether CC posterior tissue depth nearly matches MLO (about \u22641 cm shorter on CC per cited guideline).",
+      "objectiveId": "obj-pp-cc",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-mlo-muscle",
+      "prompt": "Desirable MLO pectoralis appearance in the cited open guideline?",
+      "answer": "Convex anterior edge, ideally to nipple level; PNL drawn perpendicular to muscle (~45\u00b0).",
+      "objectiveId": "obj-pp-mlo",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-nci-compression",
+      "prompt": "NCI: why press the breast between plates?",
+      "answer": "Pressing helps get a better x-ray picture of the inside of the breast.",
+      "objectiveId": "obj-pc-explain-compression",
+      "evidenceIds": [
+        "ev-pos-nci-compression-purpose"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-label-axilla",
+      "prompt": "Where do view and laterality go on the image?",
+      "answer": "Near the axilla; must not obscure anatomy.",
+      "objectiveId": "obj-mqsa-image-labeling",
+      "evidenceIds": [
+        "ev-pos-mqsa-image-identification"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-screen-def",
+      "prompt": "MQSA audit definition of screening mammogram?",
+      "answer": "Routine views of an asymptomatic patient.",
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "evidenceIds": [
+        "ev-pos-mqsa-screening-diagnostic-audit"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-dx-def",
+      "prompt": "MQSA audit definition of diagnostic mammogram?",
+      "answer": "Individualized exam for clinical signs/symptoms or abnormal screening findings.",
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "evidenceIds": [
+        "ev-pos-mqsa-screening-diagnostic-audit"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-nci-dx-angles",
+      "prompt": "NCI: why is diagnostic dose higher?",
+      "answer": "Images from more angles than screening.",
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "evidenceIds": [
+        "ev-pos-nci-screening-vs-diagnostic"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-implant-ask",
+      "prompt": "MQSA implant rule before imaging?",
+      "answer": "Procedure to inquire about implants before the exam.",
+      "objectiveId": "obj-pp-implant-inquiry",
+      "evidenceIds": [
+        "ev-pos-mqsa-implant-inquiry"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-implant-max",
+      "prompt": "MQSA imaging expectation with implants (unless modified/contraindicated)?",
+      "answer": "Views that maximize visualization of breast tissue.",
+      "objectiveId": "obj-pp-implant-inquiry",
+      "evidenceIds": [
+        "ev-pos-mqsa-implant-inquiry"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-id-views",
+      "prompt": "NCI name for special implant technique?",
+      "answer": "Implant displacement views.",
+      "objectiveId": "obj-pp-implant-displaced",
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-recon",
+      "prompt": "NCI usual imaging note after mastectomy implant reconstruction?",
+      "answer": "Usually do not need a mammogram of the reconstructed breast.",
+      "objectiveId": "obj-pp-postsurgical",
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-mag-range",
+      "prompt": "MQSA magnification value range that must be available?",
+      "answer": "At least one value between 1.4 and 2.0; grid removable.",
+      "objectiveId": "obj-pp-spot-mag-nipple",
+      "evidenceIds": [
+        "ev-pos-mqsa-magnification-capability"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-lateral-roi",
+      "prompt": "True lateral geometry tip for the region of interest?",
+      "answer": "Place the side of interest closer to the image receptor.",
+      "objectiveId": "obj-pp-lateral-views",
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-xccl",
+      "prompt": "Purpose of an exaggerated CC (e.g., XCCL)?",
+      "answer": "Include lateral/axillary-tail tissue not shown on the standard CC.",
+      "objectiveId": "obj-pp-exaggerated-cleavage-at",
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-equip-dx",
+      "prompt": "Can diagnostic CC/MLO be used in periodic clinical image review?",
+      "answer": "Yes \u2014 EQUIP FAQ says standard CC/MLO from diagnostic exams can be scored on the eight attributes.",
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "evidenceIds": [
+        "ev-pos-fda-equip-cc-mlo-diagnostic"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-adapt",
+      "prompt": "Special-circumstances mantra in this module?",
+      "answer": "Adapt to pursue enough tissue; document limits; do not invent unsupported correction rules.",
+      "objectiveId": "obj-pp-body-habitus",
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute",
+        "ev-pos-acr-ciq-link-only"
+      ],
+      "revision": 1,
+      "estSeconds": 25,
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    }
+  ]
+}

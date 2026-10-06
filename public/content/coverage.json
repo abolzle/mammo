@@ -57,18 +57,25 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-pc-compression"
+        "les-pc-compression",
+        "les-pos-compression-purpose"
       ],
       "cardIds": [
-        "card-pc-compression-why"
+        "card-pc-compression-why",
+        "card-pos-compression-attr",
+        "card-pos-nci-compression"
       ],
       "questionIds": [
         "q-pc-008",
         "q-pc-009",
-        "q-pc-010"
+        "q-pc-010",
+        "q-pos-017",
+        "q-pos-018",
+        "q-pos-019",
+        "q-pos-020"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 7,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -832,20 +839,27 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-labeling"
+        "les-mqsa-labeling",
+        "les-pos-labels"
       ],
       "cardIds": [
-        "card-mqsa-label-7"
+        "card-mqsa-label-7",
+        "card-pos-label-axilla"
       ],
       "questionIds": [
         "q-mqsa-027",
         "q-mqsa-028",
-        "q-mqsa-044"
+        "q-mqsa-044",
+        "q-pos-021",
+        "q-pos-022",
+        "q-pos-023",
+        "q-pos-024"
       ],
       "visualIds": [
-        "vis-mqsa-label-placement"
+        "vis-mqsa-label-placement",
+        "vis-pos-label-axilla"
       ],
-      "learnerQuestionCount": 2,
+      "learnerQuestionCount": 6,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1174,7 +1188,9 @@
         "card-ip-eight",
         "card-ip-ongoing-ciq",
         "card-mqsa-8-attributes",
-        "card-pc-compression-attr"
+        "card-pc-compression-attr",
+        "card-pos-positioning-attr",
+        "card-pos-eight"
       ],
       "questionIds": [
         "q-ip-037",
@@ -1182,10 +1198,12 @@
         "q-ip-039",
         "q-ip-040",
         "q-mqsa-004",
-        "q-pc-010"
+        "q-pc-010",
+        "q-pos-002",
+        "q-pos-004"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 6,
+      "learnerQuestionCount": 8,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1390,11 +1408,30 @@
         "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards"
       ],
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-pos-standard-pair",
+        "les-pos-cc-criteria"
+      ],
+      "cardIds": [
+        "card-pos-cc-mlo-pair",
+        "card-pos-cc-purpose",
+        "card-pos-pnl"
+      ],
+      "questionIds": [
+        "q-pos-001",
+        "q-pos-003",
+        "q-pos-005",
+        "q-pos-006",
+        "q-pos-007",
+        "q-pos-008",
+        "q-pos-014",
+        "q-pos-015",
+        "q-pos-048"
+      ],
+      "visualIds": [
+        "vis-pos-pnl-which-line"
+      ],
+      "learnerQuestionCount": 9,
       "validatedQuestionCount": 0,
       "gap": "blocked: no accessible source verifies the fact"
     },
@@ -1409,11 +1446,27 @@
         "https://www.acr.org/Accreditation/Mammography"
       ],
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-pos-mlo-criteria",
+        "les-pos-pnl"
+      ],
+      "cardIds": [
+        "card-pos-mlo-purpose",
+        "card-pos-mlo-muscle"
+      ],
+      "questionIds": [
+        "q-pos-009",
+        "q-pos-010",
+        "q-pos-011",
+        "q-pos-012",
+        "q-pos-013",
+        "q-pos-016",
+        "q-pos-048"
+      ],
+      "visualIds": [
+        "vis-pos-mlo-muscle"
+      ],
+      "learnerQuestionCount": 7,
       "validatedQuestionCount": 0,
       "gap": "blocked: no accessible source verifies the fact"
     },
@@ -1424,11 +1477,17 @@
       "statement": "Choose between ML and LM views and explain why the side of interest goes closer to the receptor.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pos-additional-views"
+      ],
+      "cardIds": [
+        "card-pos-lateral-roi"
+      ],
+      "questionIds": [
+        "q-pos-041"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1440,10 +1499,15 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "cardIds": [
+        "card-pos-xccl"
+      ],
+      "questionIds": [
+        "q-pos-042",
+        "q-pos-044"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 2,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1456,9 +1520,11 @@
       "requiresQualifiedReview": true,
       "lessonIds": [],
       "cardIds": [],
-      "questionIds": [],
+      "questionIds": [
+        "q-pos-043"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1469,11 +1535,22 @@
       "statement": "Describe implant-displaced views and when they are contraindicated or modified.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
-      "visualIds": [],
-      "learnerQuestionCount": 0,
+      "lessonIds": [
+        "les-pos-implant-displaced"
+      ],
+      "cardIds": [
+        "card-pos-id-views"
+      ],
+      "questionIds": [
+        "q-pos-033",
+        "q-pos-034",
+        "q-pos-035",
+        "q-pos-036"
+      ],
+      "visualIds": [
+        "vis-pos-implant-panel"
+      ],
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1484,11 +1561,20 @@
       "statement": "Describe nipple-in-profile, anterior compression, spot compression, and magnification views and their purposes.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pos-problem-solving"
+      ],
+      "cardIds": [
+        "card-pos-mag-range"
+      ],
+      "questionIds": [
+        "q-pos-037",
+        "q-pos-038",
+        "q-pos-039",
+        "q-pos-040"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1500,20 +1586,27 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-pc-implants"
+        "les-pc-implants",
+        "les-pos-implant-inquiry"
       ],
       "cardIds": [
         "card-pc-implant-ask",
-        "card-pc-implant-id"
+        "card-pc-implant-id",
+        "card-pos-implant-ask",
+        "card-pos-implant-max"
       ],
       "questionIds": [
         "q-mqsa-035",
         "q-pc-038",
         "q-pc-039",
-        "q-pc-040"
+        "q-pc-040",
+        "q-pos-029",
+        "q-pos-030",
+        "q-pos-031",
+        "q-pos-032"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 8,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1524,11 +1617,18 @@
       "statement": "Adapt positioning for chest wall variation, kyphosis/lordosis, protruding abdomen, and very large or small breasts (mosaic/tiling, paddle selection).",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pos-special-circumstances"
+      ],
+      "cardIds": [
+        "card-pos-adapt"
+      ],
+      "questionIds": [
+        "q-pos-045",
+        "q-pos-047"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 2,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1540,10 +1640,14 @@
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
       "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "cardIds": [
+        "card-pos-recon"
+      ],
+      "questionIds": [
+        "q-pos-046"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 1,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1555,13 +1659,18 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-pc-screen-vs-dx"
+        "les-pc-screen-vs-dx",
+        "les-pos-screening-diagnostic"
       ],
       "cardIds": [
         "card-mqsa-screen-def",
         "card-pc-screen",
         "card-pc-diagnostic",
-        "card-pc-dx-dose"
+        "card-pc-dx-dose",
+        "card-pos-screen-def",
+        "card-pos-dx-def",
+        "card-pos-nci-dx-angles",
+        "card-pos-equip-dx"
       ],
       "questionIds": [
         "q-mqsa-033",
@@ -1569,12 +1678,17 @@
         "q-pc-015",
         "q-pc-016",
         "q-pc-017",
-        "q-pc-045"
+        "q-pc-045",
+        "q-pos-003",
+        "q-pos-025",
+        "q-pos-026",
+        "q-pos-027",
+        "q-pos-028"
       ],
       "visualIds": [
         "vis-pc-screen-vs-dx"
       ],
-      "learnerQuestionCount": 5,
+      "learnerQuestionCount": 10,
       "validatedQuestionCount": 0,
       "gap": null
     },

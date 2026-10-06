@@ -1,0 +1,507 @@
+{
+  "id": "mod-positioning",
+  "version": "1.0.0-beta.1",
+  "title": "Positioning and procedures",
+  "summary": "Standard CC/MLO purpose and sourced evaluation ideas, compression purpose, labeling, screening vs diagnostic pathways, implants and displacement views, and purpose-level additional views \u2014 with honest beta status for criteria that need qualified review.",
+  "topicIds": [
+    "top-pp-standard-views",
+    "top-pp-additional-views",
+    "top-pp-variance",
+    "top-pp-exams",
+    "top-pc-preparation",
+    "top-ip-mqsa-records",
+    "top-ip-image-evaluation"
+  ],
+  "assets": [
+    {
+      "id": "asset-pos-cc-schematic",
+      "kind": "svg_schematic",
+      "title": "Schematic CC outline",
+      "src": "/assets/positioning/cc-schematic.svg",
+      "width": 420,
+      "height": 300,
+      "alt": "Schematic top-down outline of a craniocaudal view with chest wall at left and nipple at right. Labeled SCHEMATIC \u2014 NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pos-mlo-schematic",
+      "kind": "svg_schematic",
+      "title": "Schematic MLO with pectoralis band",
+      "src": "/assets/positioning/mlo-schematic.svg",
+      "width": 420,
+      "height": 320,
+      "alt": "Schematic mediolateral oblique outline with a convex pectoral muscle band and nipple marker. Labeled SCHEMATIC \u2014 NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pos-pnl-compare",
+      "kind": "svg_schematic",
+      "title": "Schematic PNL comparison",
+      "src": "/assets/positioning/pnl-compare.svg",
+      "width": 640,
+      "height": 300,
+      "alt": "Side-by-side schematic CC and MLO with posterior nipple line segments marked. Labeled SCHEMATIC \u2014 NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pos-implant-displace",
+      "kind": "svg_schematic",
+      "title": "Schematic implant in-field vs displaced",
+      "src": "/assets/positioning/implant-displace.svg",
+      "width": 640,
+      "height": 280,
+      "alt": "Two schematic side views: implant overlapping native tissue versus implant displaced posteriorly with tissue drawn forward. Labeled SCHEMATIC \u2014 NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pos-label-axilla",
+      "kind": "svg_schematic",
+      "title": "Schematic label regions on MLO",
+      "src": "/assets/positioning/label-axilla.svg",
+      "width": 420,
+      "height": 300,
+      "alt": "Schematic MLO with four labeled corner/center regions for choosing view-laterality placement. Labeled SCHEMATIC \u2014 NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pos-mqsa-image-identification"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    }
+  ],
+  "visuals": [
+    {
+      "id": "vis-pos-pnl-which-line",
+      "revision": 1,
+      "objectiveId": "obj-pp-cc",
+      "assetId": "asset-pos-pnl-compare",
+      "estSeconds": 50,
+      "title": "Which segment is the CC PNL?",
+      "prompt": "On this schematic pair, select the segment that represents the CC posterior nipple line.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Segment A on the left schematic, nipple to chest-wall edge",
+          "x": 40,
+          "y": 120,
+          "w": 200,
+          "h": 40,
+          "revealLabel": "CC PNL"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Segment B on the right schematic, nipple to muscle edge",
+          "x": 360,
+          "y": 110,
+          "w": 200,
+          "h": 50,
+          "revealLabel": "MLO PNL"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Segment C, curved outer skin contour on the left",
+          "x": 210,
+          "y": 40,
+          "w": 80,
+          "h": 80,
+          "revealLabel": "Skin contour, not PNL"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Segment D, vertical muscle band only on the right",
+          "x": 340,
+          "y": 30,
+          "w": 50,
+          "h": 100,
+          "revealLabel": "Pectoralis band, not the PNL segment"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. On CC, PNL runs from nipple to the posterior (chest-wall) edge of the image.",
+        "b": "That is the MLO PNL (nipple to anterior pectoralis).",
+        "c": "Skin contour is not the PNL measurement.",
+        "d": "The muscle is the MLO landmark the PNL meets; it is not itself the PNL segment."
+      },
+      "explanation": "CC PNL = nipple to posterior image edge. MLO PNL = nipple perpendicular to anterior pectoralis. Compare those lengths.",
+      "accessibilityNote": "Segments are described by which schematic and which endpoints; names are revealed after answering.",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pos-mlo-muscle",
+      "revision": 1,
+      "objectiveId": "obj-pp-mlo",
+      "assetId": "asset-pos-mlo-schematic",
+      "estSeconds": 45,
+      "title": "Find the pectoralis band on a schematic MLO",
+      "prompt": "Select the region that represents the pectoralis muscle band on this schematic MLO.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Region A, upper-left triangular band",
+          "x": 30,
+          "y": 10,
+          "w": 120,
+          "h": 140,
+          "revealLabel": "Pectoralis band"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Region B, far-right circular marker",
+          "x": 330,
+          "y": 160,
+          "w": 50,
+          "h": 50,
+          "revealLabel": "Nipple marker"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Region C, lower curved margin",
+          "x": 80,
+          "y": 240,
+          "w": 160,
+          "h": 50,
+          "revealLabel": "Inframammary contour"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Region D, center of breast outline",
+          "x": 180,
+          "y": 120,
+          "w": 90,
+          "h": 70,
+          "revealLabel": "Central breast outline"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. The upper chest-wall band represents pectoralis on this schematic.",
+        "b": "That marker is the nipple, used when judging whether muscle reaches nipple level.",
+        "c": "That is the lower contour, not the muscle band.",
+        "d": "Central outline is breast tissue, not pectoralis."
+      },
+      "explanation": "On MLO schematics, pectoralis is the superior-posterior band along the chest wall. Desirable appearance in cited guidance: convex anterior edge, ideally to nipple level.",
+      "accessibilityNote": "Regions described by position only until reveal.",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pos-label-axilla",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-labeling",
+      "assetId": "asset-pos-label-axilla",
+      "estSeconds": 40,
+      "title": "Where does view/laterality go?",
+      "prompt": "Select the region where MQSA places view and laterality.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Region A, upper-left near chest wall",
+          "x": 28,
+          "y": 8,
+          "w": 90,
+          "h": 60,
+          "revealLabel": "Near axilla \u2014 required"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Region B, right side near outer contour",
+          "x": 300,
+          "y": 140,
+          "w": 90,
+          "h": 70,
+          "revealLabel": "Near nipple"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Region C, lower-left",
+          "x": 28,
+          "y": 230,
+          "w": 90,
+          "h": 55,
+          "revealLabel": "Inframammary region"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Region D, center",
+          "x": 160,
+          "y": 110,
+          "w": 90,
+          "h": 70,
+          "revealLabel": "Over parenchyma"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. View and laterality belong near the axilla.",
+        "b": "Too near the nipple.",
+        "c": "Too low; not the axillary region.",
+        "d": "Would risk obscuring anatomy."
+      },
+      "explanation": "\u00a7 900.12(c)(5) places view and laterality near the axilla without obscuring structures.",
+      "accessibilityNote": "Keyboard-selectable regions described by location.",
+      "evidenceIds": [
+        "ev-pos-mqsa-image-identification"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pos-implant-panel",
+      "revision": 1,
+      "objectiveId": "obj-pp-implant-displaced",
+      "assetId": "asset-pos-implant-displace",
+      "estSeconds": 45,
+      "title": "Which panel shows displacement?",
+      "prompt": "Select the panel that schematically shows implant displacement (tissue drawn forward, implant back).",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Left panel",
+          "x": 20,
+          "y": 40,
+          "w": 280,
+          "h": 200,
+          "revealLabel": "Implant in field overlapping tissue"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Right panel",
+          "x": 340,
+          "y": 40,
+          "w": 280,
+          "h": 200,
+          "revealLabel": "Displacement \u2014 tissue forward, implant back"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Title bar area",
+          "x": 200,
+          "y": 0,
+          "w": 240,
+          "h": 35,
+          "revealLabel": "Title only"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Footer caption area",
+          "x": 180,
+          "y": 245,
+          "w": 280,
+          "h": 30,
+          "revealLabel": "Caption only"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "Left panel shows implant overlapping native tissue.",
+        "b": "Correct. Right panel sketches displacement.",
+        "c": "Not a technique panel.",
+        "d": "Not a technique panel."
+      },
+      "explanation": "NCI: implants can hide tissue; implant displacement views may be used. Schematics are not mammograms and not a how-to of hand maneuvers.",
+      "accessibilityNote": "Panels identified as left/right; technique names revealed after answer.",
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement"
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "ai-assisted",
+            "kind": "maintainer_source_check",
+            "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Craniocaudal (CC)",
+      "definition": "Standard mammographic projection with a superior-to-inferior beam path; paired with MLO for routine imaging and accreditation clinical image submission.",
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission"
+      ]
+    },
+    {
+      "term": "Mediolateral oblique (MLO)",
+      "definition": "Standard angled projection oriented along the pectoralis to include posterior breast tissue and the axillary tail.",
+      "evidenceIds": [
+        "ev-pos-mqsa-cc-mlo-submission",
+        "ev-pos-pmc-pnl-cc-mlo"
+      ]
+    },
+    {
+      "term": "Posterior nipple line (PNL)",
+      "definition": "A positioning geometry comparison of posterior tissue depth between CC and MLO; cited open guidance says CC PNL should be no more than about 1 cm less than MLO PNL.",
+      "evidenceIds": [
+        "ev-pos-pmc-pnl-cc-mlo"
+      ]
+    },
+    {
+      "term": "Implant displacement views",
+      "definition": "Special mammographic technique named by NCI that may be used because implants can hide breast tissue; used in service of maximizing tissue visualization under MQSA unless modified/contraindicated.",
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement",
+        "ev-pos-mqsa-implant-inquiry"
+      ]
+    },
+    {
+      "term": "Screening mammogram (MQSA audit)",
+      "definition": "Routine views of an asymptomatic patient.",
+      "evidenceIds": [
+        "ev-pos-mqsa-screening-diagnostic-audit"
+      ]
+    },
+    {
+      "term": "Diagnostic mammogram (MQSA audit)",
+      "definition": "Individualized mammographic examination for clinical signs/symptoms or abnormal screening findings.",
+      "evidenceIds": [
+        "ev-pos-mqsa-screening-diagnostic-audit"
+      ]
+    }
+  ]
+}

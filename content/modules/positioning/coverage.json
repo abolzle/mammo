@@ -1,0 +1,304 @@
+{
+  "version": "2026-10-06.1",
+  "moduleId": "mod-positioning",
+  "note": "Module-local coverage. Curriculum.json was not rewritten; these rows map existing curriculum objective IDs to this module\u2019s assets. Detailed positioning corrections without an accessible sourced document remain gaps/beta.",
+  "counts": {
+    "lessons": 12,
+    "questions": 48,
+    "cards": 22,
+    "visuals": 4,
+    "assets": 5,
+    "evidenceFile": "content/evidence/positioning.json"
+  },
+  "blockedOrLinkOnly": [
+    {
+      "id": "src-acr-ciq-1999",
+      "note": "ARRT-named positioning manual \u2014 link-only / not reproduced"
+    },
+    {
+      "id": "src-acr-positioning-review-table",
+      "note": "ACR Learning Network table \u2014 link-only"
+    },
+    {
+      "id": "src-acr-aapm-siim-dm-iq-2013",
+      "note": "Retrieved via PMC; copyrighted expression \u2014 link-only restatement for PNL/muscle/compression benefits"
+    }
+  ],
+  "rows": [
+    {
+      "objectiveId": "obj-pp-cc",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-standard-pair",
+        "les-pos-cc-criteria"
+      ],
+      "questionIds": [
+        "q-pos-001",
+        "q-pos-003",
+        "q-pos-005",
+        "q-pos-006",
+        "q-pos-007",
+        "q-pos-008",
+        "q-pos-014",
+        "q-pos-015",
+        "q-pos-048"
+      ],
+      "cardIds": [
+        "card-pos-cc-mlo-pair",
+        "card-pos-cc-purpose",
+        "card-pos-pnl"
+      ],
+      "sourceNote": "CC purpose + PNL comparison (link-only guideline) + MQSA tissue attribute",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-mlo",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-mlo-criteria",
+        "les-pos-pnl"
+      ],
+      "questionIds": [
+        "q-pos-009",
+        "q-pos-010",
+        "q-pos-011",
+        "q-pos-012",
+        "q-pos-013",
+        "q-pos-016",
+        "q-pos-048"
+      ],
+      "cardIds": [
+        "card-pos-mlo-purpose",
+        "card-pos-mlo-muscle"
+      ],
+      "sourceNote": "MLO purpose + muscle/PNL ideas (link-only) + MQSA tissue attribute",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-lateral-views",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-additional-views"
+      ],
+      "questionIds": [
+        "q-pos-041"
+      ],
+      "cardIds": [
+        "card-pos-lateral-roi"
+      ],
+      "sourceNote": "Purpose-level laterals; ROI toward receptor; no invented correction recipes",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-exaggerated-cleavage-at",
+      "moduleId": "mod-positioning",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pos-042",
+        "q-pos-044"
+      ],
+      "cardIds": [
+        "card-pos-xccl"
+      ],
+      "sourceNote": "Purpose-level XCCL/cleavage",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-tangential-rolled",
+      "moduleId": "mod-positioning",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pos-043"
+      ],
+      "cardIds": [],
+      "sourceNote": "Purpose-level rolled views",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-implant-displaced",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-implant-displaced"
+      ],
+      "questionIds": [
+        "q-pos-033",
+        "q-pos-034",
+        "q-pos-035",
+        "q-pos-036"
+      ],
+      "cardIds": [
+        "card-pos-id-views"
+      ],
+      "sourceNote": "NCI displacement + MQSA maximize tissue",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-spot-mag-nipple",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-problem-solving"
+      ],
+      "questionIds": [
+        "q-pos-037",
+        "q-pos-038",
+        "q-pos-039",
+        "q-pos-040"
+      ],
+      "cardIds": [
+        "card-pos-mag-range"
+      ],
+      "sourceNote": "MQSA mag equipment facts + diagnostic pathway purpose",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-implant-inquiry",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-implant-inquiry"
+      ],
+      "questionIds": [
+        "q-pos-029",
+        "q-pos-030",
+        "q-pos-031",
+        "q-pos-032"
+      ],
+      "cardIds": [
+        "card-pos-implant-ask",
+        "card-pos-implant-max"
+      ],
+      "sourceNote": "MQSA inquiry + maximize tissue",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-body-habitus",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-special-circumstances"
+      ],
+      "questionIds": [
+        "q-pos-045",
+        "q-pos-047"
+      ],
+      "cardIds": [
+        "card-pos-adapt"
+      ],
+      "sourceNote": "Adapt/document frame; no invented mosaic rules",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-postsurgical",
+      "moduleId": "mod-positioning",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pos-046"
+      ],
+      "cardIds": [
+        "card-pos-recon"
+      ],
+      "sourceNote": "History/reconstruction pathway notes from NCI + inquiry",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pp-screening-vs-diagnostic",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-screening-diagnostic"
+      ],
+      "questionIds": [
+        "q-pos-003",
+        "q-pos-025",
+        "q-pos-026",
+        "q-pos-027",
+        "q-pos-028"
+      ],
+      "cardIds": [
+        "card-pos-screen-def",
+        "card-pos-dx-def",
+        "card-pos-nci-dx-angles",
+        "card-pos-equip-dx"
+      ],
+      "sourceNote": "NCI + MQSA audit definitions",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-mqsa-image-labeling",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-labels"
+      ],
+      "questionIds": [
+        "q-pos-021",
+        "q-pos-022",
+        "q-pos-023",
+        "q-pos-024"
+      ],
+      "cardIds": [
+        "card-pos-label-axilla"
+      ],
+      "sourceNote": "View/laterality near axilla",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-pc-explain-compression",
+      "moduleId": "mod-positioning",
+      "lessonIds": [
+        "les-pos-compression-purpose"
+      ],
+      "questionIds": [
+        "q-pos-017",
+        "q-pos-018",
+        "q-pos-019",
+        "q-pos-020"
+      ],
+      "cardIds": [
+        "card-pos-compression-attr",
+        "card-pos-nci-compression"
+      ],
+      "sourceNote": "Compression purpose (NCI + MQSA attribute + link-only benefits)",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    },
+    {
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "moduleId": "mod-positioning",
+      "lessonIds": [],
+      "questionIds": [
+        "q-pos-002",
+        "q-pos-004"
+      ],
+      "cardIds": [
+        "card-pos-positioning-attr",
+        "card-pos-eight"
+      ],
+      "sourceNote": "Eight attributes with positioning/compression emphasis",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false
+    }
+  ]
+}

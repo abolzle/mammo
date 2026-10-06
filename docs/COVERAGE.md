@@ -8,12 +8,12 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 18 / 79 | all |
-| Micro-lessons | 35 | 60–80 |
-| Recall cards | 113 | 200+ |
-| Practice questions | 126 | ~800 incl. two full forms |
+| Objectives complete | 19 / 79 | all |
+| Micro-lessons | 47 | 60–80 |
+| Recall cards | 135 | 200+ |
+| Practice questions | 174 | ~800 incl. two full forms |
 | Reserved-form questions | 15 | two full forms |
-| Visual exercises | 12 | — |
+| Visual exercises | 16 | — |
 
 Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 
@@ -29,7 +29,7 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 |---|---|---|---|---|---|---|
 | `obj-pc-pre-exam-instructions` | needs_source | 1 | 3 | 4 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-rapport-support` | needs_source | 1 | 1 | 3 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-explain-compression` | needs_source | 1 | 1 | 3 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pc-explain-compression` | needs_source | 2 | 3 | 7 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-explain-repeat` | needs_source | 1 | 1 | 3 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-screening-guidelines` | needs_source | 1 | 5 | 4 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pc-bse-cbe` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
@@ -62,7 +62,7 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-mqsa-report-assessment` | source_backed_open | 1 | 3 | 4 | 0 |  |
 | `obj-mqsa-results-communication` | source_backed_open | 1 | 2 | 4 | 1 |  |
 | `obj-mqsa-density-reporting` | source_backed_open | 1 | 4 | 5 | 2 |  |
-| `obj-mqsa-image-labeling` | source_backed_open | 1 | 1 | 2 | 1 |  |
+| `obj-mqsa-image-labeling` | source_backed_open | 2 | 2 | 6 | 2 |  |
 | `obj-mqsa-records-transfer` | source_backed_open | 1 | 2 | 2 | 0 |  |
 | `obj-mqsa-outcomes-audit` | source_backed_open | 1 | 2 | 3 | 0 |  |
 | `obj-mqsa-required-policies` | source_backed_open | 2 | 3 | 4 | 1 |  |
@@ -78,7 +78,7 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-ip-exposure-factors` | needs_source | 1 | 3 | 2 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-thickness-target-filter` | needs_source | 1 | 1 | 1 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-magnification-technique` | needs_source | 1 | 2 | 1 | 1 | needs source retrieval before a lesson can be written |
-| `obj-ip-image-quality-attributes` | source_backed_open | 1 | 4 | 6 | 0 |  |
+| `obj-ip-image-quality-attributes` | source_backed_open | 1 | 6 | 8 | 0 |  |
 | `obj-ip-patient-artifacts` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-clock-quadrants` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-triangulation` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
@@ -91,17 +91,17 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-ap-benign-conditions` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-high-risk-lesions` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-malignant` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-cc` | blocked | 0 | 0 | 0 | 0 | blocked: no accessible source verifies the fact |
-| `obj-pp-mlo` | blocked | 0 | 0 | 0 | 0 | blocked: no accessible source verifies the fact |
-| `obj-pp-lateral-views` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-exaggerated-cleavage-at` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-tangential-rolled` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-implant-displaced` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-spot-mag-nipple` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-implant-inquiry` | source_backed_open | 1 | 2 | 4 | 0 |  |
-| `obj-pp-body-habitus` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-postsurgical` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-screening-vs-diagnostic` | source_backed_open | 1 | 4 | 5 | 1 |  |
+| `obj-pp-cc` | blocked | 2 | 3 | 9 | 1 | blocked: no accessible source verifies the fact |
+| `obj-pp-mlo` | blocked | 2 | 2 | 7 | 1 | blocked: no accessible source verifies the fact |
+| `obj-pp-lateral-views` | needs_source | 1 | 1 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-exaggerated-cleavage-at` | needs_source | 0 | 1 | 2 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-tangential-rolled` | needs_source | 0 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-implant-displaced` | needs_source | 1 | 1 | 4 | 1 | needs source retrieval before a lesson can be written |
+| `obj-pp-spot-mag-nipple` | needs_source | 1 | 1 | 4 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-implant-inquiry` | source_backed_open | 2 | 4 | 8 | 0 |  |
+| `obj-pp-body-habitus` | needs_source | 1 | 1 | 2 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-postsurgical` | needs_source | 0 | 1 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-screening-vs-diagnostic` | source_backed_open | 2 | 8 | 10 | 1 |  |
 | `obj-pp-us-mri` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-interventional-prep` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-biopsy-localization` | needs_source | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |

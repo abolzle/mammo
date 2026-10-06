@@ -802,6 +802,75 @@
         "basis": "U.S. Government work (verify page notices)."
       },
       "kind": "government_guidance"
+    },
+    {
+      "id": "src-acr-aapm-siim-dm-iq-2013",
+      "title": "ACR–AAPM–SIIM Practice Guideline for Determinants of Image Quality in Digital Mammography",
+      "publisher": "American College of Radiology / AAPM / SIIM (via Journal of Digital Imaging / PMC)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3553374/",
+      "publishedOrEffective": "2013-01 (PMC3553374)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Full text retrieved from PMC on 2026-10-06. ACR practice guidelines are copyrighted; use link-only citations. Clinical positioning criteria restated in original wording for teaching; do not quote long passages.",
+      "sections": [
+        "Digital Mammography Image Acquisition — Tissue coverage / positioning",
+        "Breast compression"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACR/AAPM/SIIM practice guideline text is copyrighted; PMC availability for reading does not grant quote/redistribution rights. Facts restated in original wording with link-only citation."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-fda-equip-faq-facilities",
+      "title": "MQSA EQUIP Frequently Asked Questions — Facilities",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/media/101293/download",
+      "publishedOrEffective": "FAQ updates noted through 2018 in document",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "PDF fetched 2026-10-06 via fda.gov/media/101293/download. Confirms eight clinical image attributes and that CC/MLO diagnostic views may be used in periodic review.",
+      "sections": [
+        "Q2.12 AB standards for image quality attributes",
+        "Q2.27 Screening vs diagnostic studies in periodic review"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA Website Policies: FDA website text and graphics are in the public domain unless otherwise noted.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-acr-positioning-review-table",
+      "title": "ACR Mammography Positioning Review Guidelines Table (Learning Network)",
+      "publisher": "American College of Radiology",
+      "url": "https://learningnetworksupport.acr.org/support/solutions/articles/11000115257-mammography-positioning-review-guidelines-table",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "link_only",
+      "retrievalNote": "Login-gated ACR Learning Network article. Not redistributed. Used only as a link-only pointer for detailed accreditation-style positioning criteria.",
+      "sections": [
+        "Major criteria overview"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": false,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACR Learning Network copyrighted support article; link only."
+      },
+      "kind": "professional_guideline"
     }
   ]
 }
