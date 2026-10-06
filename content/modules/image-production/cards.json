@@ -28,7 +28,7 @@
       "objectiveId": "obj-ip-unit-components",
       "estSeconds": 25,
       "prompt": "Order along the beam after the tube housing?",
-      "answer": "Beam-limiting device → compression paddle → breast → breast support/image receptor.",
+      "answer": "Beam-limiting device \u2192 compression paddle \u2192 breast \u2192 breast support/image receptor.",
       "evidenceIds": [
         "ev-mqsa-mammography-unit-definition",
         "ev-mqsa-compression-device"
@@ -62,7 +62,7 @@
       "objectiveId": "obj-ip-kvp-tube",
       "estSeconds": 20,
       "prompt": "How is maximum photon energy related to tube voltage?",
-      "answer": "E_max equals the electron energy from the accelerating voltage (e.g., 100 kV → 100 keV max).",
+      "answer": "E_max equals the electron energy from the accelerating voltage (e.g., 100 kV \u2192 100 keV max).",
       "evidenceIds": [
         "ev-ip-emax-kvp"
       ]
@@ -153,7 +153,21 @@
       "answer": "Screen-film, full-field digital mammography (FFDM), and digital breast tomosynthesis (DBT).",
       "evidenceIds": [
         "ev-mqsa-modality-definition"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-dbt-slices",
@@ -164,7 +178,21 @@
       "answer": "Takes multiple thin-slice pictures across the breast; software assembles them into a 3D picture.",
       "evidenceIds": [
         "ev-ip-nci-dbt"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-dbt-2d",
@@ -175,7 +203,21 @@
       "answer": "Yes. NCI states DBT also creates 2D images like standard mammography.",
       "evidenceIds": [
         "ev-ip-nci-dbt"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-dbt-mortality",
@@ -186,7 +228,21 @@
       "answer": "Not established yet; NCI notes this is still being studied (e.g., TMIST).",
       "evidenceIds": [
         "ev-ip-nci-dbt"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-acq-vs-interp",
@@ -197,7 +253,21 @@
       "answer": "Acquisition: technologist checks completeness/quality. Interpretation: physician diagnostic review.",
       "evidenceIds": [
         "ev-ip-acr-dmqc-link"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-digital-qc-pointer",
@@ -209,7 +279,21 @@
       "evidenceIds": [
         "ev-mqsa-other-modalities-qc",
         "ev-ip-acr-dmqc-link"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-post-aec",
@@ -275,7 +359,7 @@
       "objectiveId": "obj-ip-magnification-technique",
       "estSeconds": 25,
       "prompt": "Three technique changes typical of geometric magnification?",
-      "answer": "Increased OID/air gap, grid removed, small focal spot (with factor 1.4–2.0 available).",
+      "answer": "Increased OID/air gap, grid removed, small focal spot (with factor 1.4\u20132.0 available).",
       "evidenceIds": [
         "ev-mqsa-magnification-equipment"
       ]
@@ -311,7 +395,21 @@
       "answer": "As low as reasonably achievable; time, distance, and shielding.",
       "evidenceIds": [
         "ev-ip-cdc-alara"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-lnt",
@@ -324,7 +422,7 @@
         "ev-ip-nrc-lnt"
       ],
       "review": {
-        "status": "draft",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -334,6 +432,13 @@
             "actor": "ai-assisted",
             "kind": "revision",
             "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -347,7 +452,21 @@
       "answer": "Low-dose x-rays.",
       "evidenceIds": [
         "ev-ip-nci-mammogram-low-dose"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-dna",
@@ -358,7 +477,21 @@
       "answer": "DNA molecules.",
       "evidenceIds": [
         "ev-ip-ionizing-dna"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-gy",
@@ -371,7 +504,7 @@
         "ev-ip-dose-units"
       ],
       "review": {
-        "status": "draft",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -381,6 +514,13 @@
             "actor": "ai-assisted",
             "kind": "revision",
             "note": "Touches dose, thresholds, or device-specific practice; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -394,7 +534,21 @@
       "answer": "Going behind a barrier while making the x-ray exposure.",
       "evidenceIds": [
         "ev-ip-cdc-tech-barrier"
-      ]
+      ],
+      "review": {
+        "status": "source_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
     },
     {
       "id": "card-ip-phantom-dose",

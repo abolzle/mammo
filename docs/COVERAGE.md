@@ -8,22 +8,22 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 27 / 79 | all |
+| Objectives complete | 45 / 79 | all |
 | Micro-lessons | 91 | 60–80 |
 | Recall cards | 275 | 200+ |
 | Practice questions | 375 | ~800 incl. two full forms |
 | Reserved-form questions | 302 | two full forms |
 | Visual exercises | 32 | — |
 
-Source state: 34 open/public-domain, 3 link-only, 39 need a source, 3 blocked.
+Source state: 48 open/public-domain, 7 link-only, 21 need a source, 3 blocked.
 
 ## Complete objectives by domain
 
 | Domain | Complete | Objectives |
 |---|---|---|
-| dom-patient-care | 2 | 19 |
-| dom-image-production | 18 | 34 |
-| dom-procedures | 7 | 26 |
+| dom-patient-care | 9 | 19 |
+| dom-image-production | 20 | 34 |
+| dom-procedures | 16 | 26 |
 
 ## Blocked objectives and the URLs needed
 
@@ -35,14 +35,14 @@ Source state: 34 open/public-domain, 3 link-only, 39 need a source, 3 blocked.
 
 | Objective | Source | Lessons | Cards | Practice | Form | Visuals | Gap |
 |---|---|---|---|---|---|---|---|
-| `obj-pc-pre-exam-instructions` | needs_source | 1 | 3 | 4 | 2 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-rapport-support` | needs_source | 1 | 1 | 3 | 3 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-explain-compression` | needs_source | 2 | 3 | 7 | 5 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-explain-repeat` | needs_source | 1 | 1 | 3 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-screening-guidelines` | needs_source | 1 | 5 | 5 | 9 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pc-pre-exam-instructions` | source_backed_open | 1 | 3 | 4 | 2 | 0 |  |
+| `obj-pc-rapport-support` | source_backed_open | 1 | 1 | 3 | 3 | 0 |  |
+| `obj-pc-explain-compression` | source_backed_link_only | 2 | 3 | 7 | 5 | 0 |  |
+| `obj-pc-explain-repeat` | source_backed_open | 1 | 1 | 3 | 1 | 0 |  |
+| `obj-pc-screening-guidelines` | source_backed_link_only | 1 | 5 | 5 | 9 | 0 |  |
 | `obj-pc-bse-cbe` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pc-typical-dose` | needs_source | 1 | 6 | 3 | 7 | 1 | needs source retrieval before a lesson can be written |
-| `obj-pc-modalities` | needs_source | 1 | 2 | 3 | 2 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pc-typical-dose` | source_backed_open | 1 | 6 | 3 | 7 | 1 |  |
+| `obj-pc-modalities` | source_backed_open | 1 | 2 | 3 | 2 | 0 |  |
 | `obj-pc-results-pathway` | source_backed_open | 1 | 3 | 8 | 8 | 0 |  |
 | `obj-pc-additional-imaging` | source_backed_open | 1 | 2 | 5 | 2 | 0 |  |
 | `obj-pc-clinician-role` | needs_source | 0 | 1 | 5 | 4 | 1 | needs source retrieval before a lesson can be written |
@@ -58,8 +58,8 @@ Source state: 34 open/public-domain, 3 link-only, 39 need a source, 3 blocked.
 | `obj-ip-paddles-grids` | source_backed_open | 1 | 4 | 5 | 3 | 0 |  |
 | `obj-ip-geometry` | needs_source | 1 | 2 | 0 | 3 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ip-unit-components` | source_backed_open | 1 | 3 | 5 | 0 | 2 | no assessment-form item |
-| `obj-ip-acquisition-types` | needs_source | 1 | 4 | 4 | 1 | 1 | needs source retrieval before a lesson can be written |
-| `obj-ip-receptors-monitors` | needs_source | 2 | 4 | 5 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-acquisition-types` | source_backed_link_only | 1 | 4 | 4 | 1 | 1 |  |
+| `obj-ip-receptors-monitors` | source_backed_link_only | 2 | 4 | 5 | 1 | 0 |  |
 | `obj-ip-informatics` | source_backed_open | 4 | 15 | 17 | 0 | 2 | no assessment-form item |
 | `obj-ip-cad` | source_backed_open | 2 | 8 | 10 | 0 | 1 | no assessment-form item |
 | `obj-mqsa-certification` | source_backed_open | 2 | 6 | 6 | 5 | 0 |  |
@@ -88,24 +88,24 @@ Source state: 34 open/public-domain, 3 link-only, 39 need a source, 3 blocked.
 | `obj-ip-magnification-technique` | needs_source | 1 | 2 | 1 | 1 | 1 | needs source retrieval before a lesson can be written |
 | `obj-ip-image-quality-attributes` | source_backed_open | 1 | 7 | 9 | 6 | 0 |  |
 | `obj-ip-patient-artifacts` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-clock-quadrants` | needs_source | 1 | 4 | 5 | 8 | 1 | needs source retrieval before a lesson can be written |
+| `obj-ap-clock-quadrants` | source_backed_open | 1 | 4 | 5 | 8 | 1 |  |
 | `obj-ap-triangulation` | source_backed_link_only | 1 | 2 | 4 | 0 | 0 | no assessment-form item |
-| `obj-ap-external-landmarks` | needs_source | 1 | 3 | 4 | 3 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-internal-structures` | needs_source | 1 | 3 | 4 | 11 | 1 | needs source retrieval before a lesson can be written |
-| `obj-ap-tdlu` | needs_source | 1 | 3 | 4 | 8 | 1 | needs source retrieval before a lesson can be written |
-| `obj-ap-cytology` | needs_source | 1 | 2 | 4 | 7 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-external-landmarks` | source_backed_open | 1 | 3 | 4 | 3 | 0 |  |
+| `obj-ap-internal-structures` | source_backed_open | 1 | 3 | 4 | 11 | 1 |  |
+| `obj-ap-tdlu` | source_backed_open | 1 | 3 | 4 | 8 | 1 |  |
+| `obj-ap-cytology` | source_backed_open | 1 | 2 | 4 | 7 | 0 |  |
 | `obj-ap-lexicon-masses-calcs` | blocked | 0 | 2 | 3 | 6 | 0 | blocked: no accessible source verifies the fact |
 | `obj-ap-assessment-density-categories` | source_backed_open | 2 | 6 | 11 | 20 | 1 |  |
-| `obj-ap-benign-conditions` | needs_source | 1 | 2 | 5 | 8 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-high-risk-lesions` | needs_source | 1 | 2 | 4 | 11 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-malignant` | needs_source | 1 | 4 | 5 | 16 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-benign-conditions` | source_backed_open | 1 | 2 | 5 | 8 | 0 |  |
+| `obj-ap-high-risk-lesions` | source_backed_open | 1 | 2 | 4 | 11 | 0 |  |
+| `obj-ap-malignant` | source_backed_open | 1 | 4 | 5 | 16 | 0 |  |
 | `obj-pp-cc` | blocked | 0 | 3 | 7 | 4 | 1 | blocked: no accessible source verifies the fact |
 | `obj-pp-mlo` | blocked | 1 | 2 | 6 | 3 | 1 | blocked: no accessible source verifies the fact |
 | `obj-pp-lateral-views` | source_backed_link_only | 1 | 3 | 5 | 1 | 0 |  |
 | `obj-pp-exaggerated-cleavage-at` | source_backed_open | 1 | 4 | 5 | 2 | 1 |  |
 | `obj-pp-tangential-rolled` | source_backed_link_only | 1 | 2 | 4 | 2 | 0 |  |
 | `obj-pp-implant-displaced` | needs_source | 1 | 1 | 3 | 1 | 1 | needs source retrieval before a lesson can be written |
-| `obj-pp-spot-mag-nipple` | needs_source | 1 | 1 | 3 | 6 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-spot-mag-nipple` | source_backed_open | 1 | 1 | 3 | 6 | 0 |  |
 | `obj-pp-implant-inquiry` | source_backed_open | 2 | 4 | 8 | 8 | 0 |  |
 | `obj-pp-body-habitus` | needs_source | 0 | 0 | 1 | 3 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-postsurgical` | needs_source | 0 | 1 | 1 | 6 | 0 | needs source retrieval before a lesson can be written |

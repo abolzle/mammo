@@ -135,7 +135,7 @@
       "objectiveId": "obj-ip-informatics",
       "estSeconds": 20,
       "prompt": "FDA class of a medical image storage device?",
-      "answer": "Class I and exempt from premarket notification (subject to § 892.9).",
+      "answer": "Class I and exempt from premarket notification (subject to \u00a7 892.9).",
       "evidenceIds": [
         "ev-inf-892-storage"
       ],
@@ -493,7 +493,7 @@
         "ev-inf-disp-ifu"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -510,6 +510,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -520,13 +527,13 @@
       "objectiveId": "obj-ip-receptors-monitors",
       "estSeconds": 20,
       "prompt": "Does a display used to interpret digital mammograms generally need 510(k) clearance?",
-      "answer": "Yes. Under § 900.12(b)(2)(i), MQSA also requires it to meet the applicable premarket requirements for that use.",
+      "answer": "Yes. Under \u00a7 900.12(b)(2)(i), MQSA also requires it to meet the applicable premarket requirements for that use.",
       "evidenceIds": [
         "ev-inf-fr-display-clearance",
         "ev-inf-cfr-devices-authorized"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -543,6 +550,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }

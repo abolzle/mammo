@@ -1,8 +1,8 @@
 # Source-check worksheet
 
-Maintainer worksheet for Aaron Bolzle. Generated 2026-10-06 from assembled content on branch tip. **Do not flip `sourceState` or review status in the PR that adds this file** — only check boxes here (or copy the decision into a follow-up commit after review).
+Maintainer worksheet for Aaron Bolzle. Generated 2026-10-06 from assembled content on branch tip. **Status recorded 2026-10-06:** Aaron Bolzle confirmed all 18 objectives. Curriculum `sourceState` and dependent item `review.status` were updated in the follow-up source-check confirmation PR (maintainer source check only — not clinical review).
 
-These **18** objectives already have a lesson, recall cards, at least 3 learner-visible practice questions, and at least one learner-visible Form A item, each citing evidence that resolves to a registered retrieved or link-only source. Curriculum `sourceState` is still `needs_source`, so coverage does not count them complete.
+These **18** objectives already have a lesson, recall cards, at least 3 learner-visible practice questions, and at least one learner-visible Form A item, each citing evidence that resolves to a registered retrieved or link-only source. Aaron Bolzle confirmed all 18 on 2026-10-06; curriculum `sourceState` and dependent reviews were flipped to source-backed / `source_checked` in the confirmation PR.
 
 ## How to record a confirmation
 
@@ -55,11 +55,12 @@ Reject or Needs more source: leave `sourceState` as `needs_source` (or set `bloc
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -113,11 +114,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -189,11 +191,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -253,11 +256,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -335,11 +339,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -411,11 +416,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -469,11 +475,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -521,11 +528,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -603,11 +611,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -637,11 +646,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -689,11 +699,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -765,11 +776,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -811,11 +823,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -881,11 +894,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -945,11 +959,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -1015,11 +1030,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -1097,11 +1113,12 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
@@ -1161,31 +1178,32 @@ _Notes:_
 
 **Aaron decision**
 
-- [ ] Confirm
+- [x] Confirm — 2026-10-06, Aaron Bolzle
 - [ ] Reject
 - [ ] Needs more source
 
-_Notes:_
+_Notes:_ Aaron Bolzle confirmed the cited evidence supports the claims (maintainer source check; not clinical review).
+
 
 ---
 
 ## Summary checklist
 
-- [ ] `obj-pc-pre-exam-instructions` — Confirm / Reject / Needs more source
-- [ ] `obj-pc-rapport-support` — Confirm / Reject / Needs more source
-- [ ] `obj-pc-explain-compression` — Confirm / Reject / Needs more source
-- [ ] `obj-pc-explain-repeat` — Confirm / Reject / Needs more source
-- [ ] `obj-pc-screening-guidelines` — Confirm / Reject / Needs more source
-- [ ] `obj-pc-typical-dose` — Confirm / Reject / Needs more source
-- [ ] `obj-pc-modalities` — Confirm / Reject / Needs more source
-- [ ] `obj-ip-acquisition-types` — Confirm / Reject / Needs more source
-- [ ] `obj-ip-receptors-monitors` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-clock-quadrants` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-external-landmarks` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-internal-structures` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-tdlu` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-cytology` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-benign-conditions` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-high-risk-lesions` — Confirm / Reject / Needs more source
-- [ ] `obj-ap-malignant` — Confirm / Reject / Needs more source
-- [ ] `obj-pp-spot-mag-nipple` — Confirm / Reject / Needs more source
+- [x] `obj-pc-pre-exam-instructions` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-pc-rapport-support` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-pc-explain-compression` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-pc-explain-repeat` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-pc-screening-guidelines` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-pc-typical-dose` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-pc-modalities` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ip-acquisition-types` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ip-receptors-monitors` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-clock-quadrants` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-external-landmarks` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-internal-structures` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-tdlu` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-cytology` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-benign-conditions` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-high-risk-lesions` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-ap-malignant` — **Confirm** (2026-10-06, Aaron Bolzle)
+- [x] `obj-pp-spot-mag-nipple` — **Confirm** (2026-10-06, Aaron Bolzle)
