@@ -134,12 +134,13 @@
         "q-pos-033",
         "q-pos-034",
         "q-pos-035",
-        "q-pos-036"
+        "q-pos-036",
+        "q-pos-130"
       ],
       "cardIds": [
         "card-pos-id-views"
       ],
-      "sourceNote": "NCI displacement + MQSA maximize tissue",
+      "sourceNote": "NCI implant displacement (retrieved) + MQSA maximize-tissue / contraindicated-or-modified frame",
       "assessmentPool": "practice_beta_only",
       "clinicallyReviewed": false,
       "gap": false
@@ -299,6 +300,17 @@
       "assessmentPool": "practice_beta_only",
       "clinicallyReviewed": false,
       "gap": false
+    }
+  ],
+  "curriculumFollowUps": [
+    {
+      "objectiveId": "obj-pp-implant-displaced",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "NCI retrieved fact sheet names implant displacement views and reconstruction exception; MQSA supplies maximize-tissue unless contraindicated/modified. Detailed hand maneuvers remain preceptorship/link-only (requiresQualifiedReview preserved)."
     }
   ]
 }

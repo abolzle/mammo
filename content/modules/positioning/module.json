@@ -453,6 +453,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only \u2014 not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
           }
         ]
       }

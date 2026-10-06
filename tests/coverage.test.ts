@@ -42,9 +42,9 @@ describe("module-local coverage", () => {
     // procedures-qc-depth adds federal viewing/digital-QC evidence and follow-up for monitors
     expect(applied.get("obj-qc-monitors-viewing")).toBe("source_backed_open");
     const rows = coverageMatrix(curriculum, loaded.modules, { ...opts, moduleCoverage: loaded.moduleCoverage });
-    // Still incomplete without an assessment-form item (practice depth only in this pass)
-    expect(row(rows, "obj-qc-monitors-viewing").complete).toBe(false);
-    expect(row(rows, "obj-qc-monitors-viewing").gap).toMatch(/assessment-form|form/i);
+    // Form-bank items now complete monitors/viewing when evidence resolves
+    expect(row(rows, "obj-qc-monitors-viewing").complete).toBe(true);
+    expect(row(rows, "obj-qc-monitors-viewing").formQuestionCount).toBeGreaterThanOrEqual(1);
   });
 
   it("does not apply a follow-up whose sources are unregistered", () => {

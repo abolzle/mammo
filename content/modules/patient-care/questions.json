@@ -67,7 +67,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -139,7 +139,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -211,7 +211,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -283,7 +283,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -355,7 +355,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -429,7 +429,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -501,7 +501,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -573,7 +573,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -613,9 +613,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Validate, explain, collaborate—without promising zero pressure.",
+      "explanation": "Validate, explain, collaborate\u2014without promising zero pressure.",
       "variants": {
-        "simpler": "Validate, explain, collaborate—without promising zero pressure.",
+        "simpler": "Validate, explain, collaborate\u2014without promising zero pressure.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -646,7 +646,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -719,7 +719,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -739,7 +739,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "\"I see a mass—we need another picture.\"",
+          "text": "\"I see a mass\u2014we need another picture.\"",
           "rationale": "Do not invent findings when the issue is technical."
         },
         {
@@ -792,7 +792,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -819,7 +819,7 @@
         {
           "id": "b",
           "text": "A repeat fixes image quality during the visit; a callback requests more imaging after interpretation",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -866,7 +866,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -892,7 +892,7 @@
         {
           "id": "b",
           "text": "Clean the skin per protocol and repeat the view if needed",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -939,7 +939,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -960,7 +960,7 @@
         {
           "id": "a",
           "text": "Routine views in an asymptomatic patient",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -1031,7 +1031,7 @@
         {
           "id": "b",
           "text": "Individualized views for symptoms, signs, or abnormal screening findings",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1041,7 +1041,7 @@
         {
           "id": "d",
           "text": "Screening exams performed with DBT",
-          "rationale": "DBT may be used for screening or diagnostic work; modality ≠ purpose."
+          "rationale": "DBT may be used for screening or diagnostic work; modality \u2260 purpose."
         }
       ],
       "correctChoiceId": "b",
@@ -1111,9 +1111,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "More angles → higher dose than a typical screen.",
+      "explanation": "More angles \u2192 higher dose than a typical screen.",
       "variants": {
-        "simpler": "More angles → higher dose than a typical screen.",
+        "simpler": "More angles \u2192 higher dose than a typical screen.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1162,7 +1162,7 @@
         {
           "id": "b",
           "text": "Escalate per facility protocol so the order/exam type can be corrected before imaging",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1223,7 +1223,7 @@
         {
           "id": "a",
           "text": "Biennial screening for women aged 40 to 74 years",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -1242,9 +1242,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "USPSTF 2024: every other year, ages 40–74.",
+      "explanation": "USPSTF 2024: every other year, ages 40\u201374.",
       "variants": {
-        "simpler": "USPSTF 2024: every other year, ages 40–74.",
+        "simpler": "USPSTF 2024: every other year, ages 40\u201374.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1274,7 +1274,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -1290,16 +1290,16 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Which statement correctly contrasts ACS average-risk guidance (Facts & Figures 2024–2025) with USPSTF 2024?",
+      "stem": "Which statement correctly contrasts ACS average-risk guidance (Facts & Figures 2024\u20132025) with USPSTF 2024?",
       "choices": [
         {
           "id": "a",
-          "text": "Both require identical biennial screening from 40–74 with no annual option",
-          "rationale": "ACS describes annual screening for ages 45–54 and choices at other ages."
+          "text": "Both require identical biennial screening from 40\u201374 with no annual option",
+          "rationale": "ACS describes annual screening for ages 45\u201354 and choices at other ages."
         },
         {
           "id": "b",
-          "text": "ACS describes annual screening for ages 45–54, while USPSTF recommends biennial screening from 40–74",
+          "text": "ACS describes annual screening for ages 45\u201354, while USPSTF recommends biennial screening from 40\u201374",
           "rationale": "Correct contrast at the guideline level."
         },
         {
@@ -1347,7 +1347,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -1368,12 +1368,12 @@
         {
           "id": "a",
           "text": "Grade A strongly in favor for all patients",
-          "rationale": "Incorrect—USPSTF issued an I statement."
+          "rationale": "Incorrect\u2014USPSTF issued an I statement."
         },
         {
           "id": "b",
           "text": "Insufficient to recommend for or against (I statement)",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1387,9 +1387,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Insufficient evidence ≠ \"never image\" and ≠ \"always add ultrasound.\"",
+      "explanation": "Insufficient evidence \u2260 \"never image\" and \u2260 \"always add ultrasound.\"",
       "variants": {
-        "simpler": "Insufficient evidence ≠ \"never image\" and ≠ \"always add ultrasound.\"",
+        "simpler": "Insufficient evidence \u2260 \"never image\" and \u2260 \"always add ultrasound.\"",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1420,7 +1420,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -1446,7 +1446,7 @@
         {
           "id": "b",
           "text": "A 42-year-old average-risk patient assigned female at birth",
-          "rationale": "Included — not the best answer here."
+          "rationale": "Included \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1492,7 +1492,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -1513,7 +1513,7 @@
         {
           "id": "a",
           "text": "Within 30 calendar days of the exam",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -1578,12 +1578,12 @@
         {
           "id": "a",
           "text": "Within 7 calendar days of the final interpretation",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
           "text": "Within 60 days of the exam",
-          "rationale": "Too slow — not the best answer here."
+          "rationale": "Too slow \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1597,9 +1597,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "Suspicious/Highly Suggestive → 7 days from final interpretation for the lay summary.",
+      "explanation": "Suspicious/Highly Suggestive \u2192 7 days from final interpretation for the lay summary.",
       "variants": {
-        "simpler": "Suspicious/Highly Suggestive → 7 days from final interpretation for the lay summary.",
+        "simpler": "Suspicious/Highly Suggestive \u2192 7 days from final interpretation for the lay summary.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1716,7 +1716,7 @@
         {
           "id": "b",
           "text": "Contact their provider",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1730,9 +1730,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "About two weeks is NCI's practical prompt to call—still within MQSA's 30-day maximum.",
+      "explanation": "About two weeks is NCI's practical prompt to call\u2014still within MQSA's 30-day maximum.",
       "variants": {
-        "simpler": "About two weeks is NCI's practical prompt to call—still within MQSA's 30-day maximum.",
+        "simpler": "About two weeks is NCI's practical prompt to call\u2014still within MQSA's 30-day maximum.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -1776,12 +1776,12 @@
         {
           "id": "a",
           "text": "Most people called back are not found to have breast cancer",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
           "text": "Callbacks always mean ductal carcinoma in situ",
-          "rationale": "False — not the best answer here."
+          "rationale": "False \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1846,7 +1846,7 @@
         {
           "id": "b",
           "text": "\"The radiologist wants a closer look at one area; extra views help clarify, and many times it is not cancer.\"",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1855,7 +1855,7 @@
         },
         {
           "id": "d",
-          "text": "\"Skip this—density letters replace diagnostic workups.\"",
+          "text": "\"Skip this\u2014density letters replace diagnostic workups.\"",
           "rationale": "Density notification is not a substitute for indicated additional imaging."
         }
       ],
@@ -1908,12 +1908,12 @@
         {
           "id": "a",
           "text": "15 calendar days",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
           "text": "90 calendar days",
-          "rationale": "Too long — not the best answer here."
+          "rationale": "Too long \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -1959,7 +1959,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -1980,7 +1980,7 @@
         {
           "id": "a",
           "text": "The radiologist needs more imaging before a final category",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2051,7 +2051,7 @@
         {
           "id": "b",
           "text": "Heterogeneously dense and extremely dense",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -2065,9 +2065,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Two categories → dense notification language.",
+      "explanation": "Two categories \u2192 dense notification language.",
       "variants": {
-        "simpler": "Two categories → dense notification language.",
+        "simpler": "Two categories \u2192 dense notification language.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2165,7 +2165,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -2186,7 +2186,7 @@
         {
           "id": "a",
           "text": "Nearly half",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2196,7 +2196,7 @@
         {
           "id": "c",
           "text": "Over 95%",
-          "rationale": "Too high — not the best answer here."
+          "rationale": "Too high \u2014 not the best answer here."
         },
         {
           "id": "d",
@@ -2205,9 +2205,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "Nearly half—useful reassurance that dense is common.",
+      "explanation": "Nearly half\u2014useful reassurance that dense is common.",
       "variants": {
-        "simpler": "Nearly half—useful reassurance that dense is common.",
+        "simpler": "Nearly half\u2014useful reassurance that dense is common.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2257,7 +2257,7 @@
         {
           "id": "b",
           "text": "Explain that supplemental tests are individualized with her clinician; you cannot add them without the proper order/pathway",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -2271,9 +2271,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Notification ≠ automatic supplemental imaging.",
+      "explanation": "Notification \u2260 automatic supplemental imaging.",
       "variants": {
-        "simpler": "Notification ≠ automatic supplemental imaging.",
+        "simpler": "Notification \u2260 automatic supplemental imaging.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2319,7 +2319,7 @@
         {
           "id": "a",
           "text": "Cleaning and disinfecting mammography equipment after contact with blood or OPIM",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2385,7 +2385,7 @@
         {
           "id": "a",
           "text": "HBV, HCV, and HIV",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2399,7 +2399,7 @@
         },
         {
           "id": "d",
-          "text": "None—mammography is risk-free for bloodborne exposure",
+          "text": "None\u2014mammography is risk-free for bloodborne exposure",
           "rationale": "Interventional days and bleeding events create real exposure potential."
         }
       ],
@@ -2455,7 +2455,7 @@
         {
           "id": "b",
           "text": "Before touching a patient, after patient/surroundings contact, after body-fluid contact, and after glove removal (among other key moments)",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -2516,7 +2516,7 @@
         {
           "id": "a",
           "text": "When hands are visibly soiled, before eating, after restroom use, and in certain C. difficile/norovirus outbreak care situations",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2581,7 +2581,7 @@
         {
           "id": "a",
           "text": "Ask whether the patient has breast implants before the exam",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2646,7 +2646,7 @@
         {
           "id": "a",
           "text": "Implants can hide breast tissue, and displacement views may be used",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2656,7 +2656,7 @@
         {
           "id": "c",
           "text": "Implants automatically change assessment to Highly Suggestive",
-          "rationale": "False — not the best answer here."
+          "rationale": "False \u2014 not the best answer here."
         },
         {
           "id": "d",
@@ -2717,12 +2717,12 @@
         {
           "id": "b",
           "text": "Do not need a mammogram of the reconstructed breast",
-          "rationale": "Correct—confirm orders rather than assuming."
+          "rationale": "Correct\u2014confirm orders rather than assuming."
         },
         {
           "id": "c",
           "text": "Must be imaged daily",
-          "rationale": "Nonsense — not the best answer here."
+          "rationale": "Nonsense \u2014 not the best answer here."
         },
         {
           "id": "d",
@@ -2731,9 +2731,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Reconstruction is a special case—verify the order.",
+      "explanation": "Reconstruction is a special case\u2014verify the order.",
       "variants": {
-        "simpler": "Reconstruction is a special case—verify the order.",
+        "simpler": "Reconstruction is a special case\u2014verify the order.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2777,7 +2777,7 @@
         {
           "id": "a",
           "text": "DBT finds more tumors than standard mammography alone, but whether it reduces deaths more is still being studied",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2796,9 +2796,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "Better detection ≠ proven superior mortality benefit yet.",
+      "explanation": "Better detection \u2260 proven superior mortality benefit yet.",
       "variants": {
-        "simpler": "Better detection ≠ proven superior mortality benefit yet.",
+        "simpler": "Better detection \u2260 proven superior mortality benefit yet.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -2828,7 +2828,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -2849,7 +2849,7 @@
         {
           "id": "a",
           "text": "Digital mammography and digital breast tomosynthesis",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -2900,7 +2900,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -2927,7 +2927,7 @@
         {
           "id": "b",
           "text": "Explain that mammography is the ordered screening test; ultrasound is a different tool used when a clinician orders it for a specific reason",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "c",
@@ -2974,7 +2974,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -3067,7 +3067,7 @@
         {
           "id": "a",
           "text": "Diagnostic mammography",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -3139,7 +3139,7 @@
         {
           "id": "a",
           "text": "September 10, 2024",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -3211,7 +3211,7 @@
         {
           "id": "a",
           "text": "Follow its documented cleaning/disinfection procedures aligned with regulations and manufacturer guidance",
-          "rationale": "Correct — not the best answer here."
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
@@ -3282,29 +3282,29 @@
       "choices": [
         {
           "id": "a",
-          "text": "Yes—biennial screening is recommended through age 74",
-          "rationale": "Correct — not the best answer here."
+          "text": "Yes\u2014biennial screening is recommended through age 74",
+          "rationale": "Correct \u2014 not the best answer here."
         },
         {
           "id": "b",
-          "text": "No—USPSTF stops at 49",
+          "text": "No\u2014USPSTF stops at 49",
           "rationale": "Incorrect."
         },
         {
           "id": "c",
-          "text": "Yes—but only if she has never had a mammogram before",
+          "text": "Yes\u2014but only if she has never had a mammogram before",
           "rationale": "Prior history is not the cutoff."
         },
         {
           "id": "d",
-          "text": "No—everyone over 65 is an I statement",
+          "text": "No\u2014everyone over 65 is an I statement",
           "rationale": "I statement begins at 75+ for screening decisions."
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "40–74 biennial; 75+ insufficient evidence.",
+      "explanation": "40\u201374 biennial; 75+ insufficient evidence.",
       "variants": {
-        "simpler": "40–74 biennial; 75+ insufficient evidence.",
+        "simpler": "40\u201374 biennial; 75+ insufficient evidence.",
         "example": "Apply the same rule on the next patient encounter."
       },
       "evidenceIds": [
@@ -3342,7 +3342,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -3414,7 +3414,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -3487,7 +3487,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -3560,7 +3560,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -3633,14 +3633,14 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           },
           {
             "at": "2026-10-06",
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -3714,7 +3714,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -3788,7 +3788,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -3860,7 +3860,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -3933,7 +3933,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4005,7 +4005,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       },
@@ -4080,7 +4080,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4153,7 +4153,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4226,7 +4226,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4631,7 +4631,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4769,7 +4769,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4907,7 +4907,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -4980,7 +4980,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -5052,7 +5052,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -5125,7 +5125,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -5272,17 +5272,17 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "A 41-year-old with no high-risk factors wants to know whether ACS average-risk guidance lets her start yearly mammograms now, before 45. What is accurate per Facts & Figures 2024–2025?",
+      "stem": "A 41-year-old with no high-risk factors wants to know whether ACS average-risk guidance lets her start yearly mammograms now, before 45. What is accurate per Facts & Figures 2024\u20132025?",
       "choices": [
         {
           "id": "a",
           "text": "She must wait until 45; ACS offers no earlier option.",
-          "rationale": "ACS allows ages 40–44 to begin annual screening."
+          "rationale": "ACS allows ages 40\u201344 to begin annual screening."
         },
         {
           "id": "b",
           "text": "She may begin annual screening mammography.",
-          "rationale": "Correct. ACS says ages 40–44 may begin annual screening."
+          "rationale": "Correct. ACS says ages 40\u201344 may begin annual screening."
         },
         {
           "id": "c",
@@ -5292,13 +5292,13 @@
         {
           "id": "d",
           "text": "She is required to screen every other year starting at 40.",
-          "rationale": "The 40–44 ACS option is annual screening, not a mandated biennial start."
+          "rationale": "The 40\u201344 ACS option is annual screening, not a mandated biennial start."
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "ACS average-risk guidance states that ages 40–44 may begin annual screening mammography.",
+      "explanation": "ACS average-risk guidance states that ages 40\u201344 may begin annual screening mammography.",
       "variants": {
-        "simpler": "ACS: 40–44 may start yearly mammograms.",
+        "simpler": "ACS: 40\u201344 may start yearly mammograms.",
         "example": "A healthy 42-year-old may choose to begin annual screening under ACS."
       },
       "evidenceIds": [
@@ -5337,7 +5337,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "According to ACS average-risk guidance (Facts & Figures 2024–2025), how often should women ages 45–54 have mammograms?",
+      "stem": "According to ACS average-risk guidance (Facts & Figures 2024\u20132025), how often should women ages 45\u201354 have mammograms?",
       "choices": [
         {
           "id": "a",
@@ -5347,23 +5347,23 @@
         {
           "id": "b",
           "text": "Only if they have dense breasts.",
-          "rationale": "Density is not the trigger for the 45–54 ACS schedule."
+          "rationale": "Density is not the trigger for the 45\u201354 ACS schedule."
         },
         {
           "id": "c",
           "text": "Biennially, matching USPSTF exactly.",
-          "rationale": "ACS recommends annual exams at 45–54; USPSTF recommends biennial for 40–74."
+          "rationale": "ACS recommends annual exams at 45\u201354; USPSTF recommends biennial for 40\u201374."
         },
         {
           "id": "d",
           "text": "Annually.",
-          "rationale": "Correct. ACS says ages 45–54 should have annual mammograms."
+          "rationale": "Correct. ACS says ages 45\u201354 should have annual mammograms."
         }
       ],
       "correctChoiceId": "d",
-      "explanation": "ACS average-risk guidance states ages 45–54 should have annual mammograms.",
+      "explanation": "ACS average-risk guidance states ages 45\u201354 should have annual mammograms.",
       "variants": {
-        "simpler": "ACS: 45–54 = yearly mammograms.",
+        "simpler": "ACS: 45\u201354 = yearly mammograms.",
         "example": "A 50-year-old at average risk is in the ACS annual band."
       },
       "evidenceIds": [
@@ -5428,7 +5428,7 @@
       "correctChoiceId": "a",
       "explanation": "NCI notes better tumor finding with DBT plus standard mammography, but whether that reduces deaths more than standard mammography alone is still being studied (for example TMIST).",
       "variants": {
-        "simpler": "More tumors found ≠ proven larger reduction in deaths yet.",
+        "simpler": "More tumors found \u2260 proven larger reduction in deaths yet.",
         "example": "TMIST is cited as studying the mortality question."
       },
       "evidenceIds": [
@@ -5524,7 +5524,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -5598,7 +5598,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -5640,7 +5640,7 @@
       "correctChoiceId": "d",
       "explanation": "MQSA requires the lay summary within 7 calendar days of final interpretation when the assessment is Suspicious or Highly Suggestive of Malignancy.",
       "variants": {
-        "simpler": "Highly Suggestive → lay summary in 7 days of the final read.",
+        "simpler": "Highly Suggestive \u2192 lay summary in 7 days of the final read.",
         "example": "Benign screens still use the general 30-day patient summary window."
       },
       "evidenceIds": [
@@ -5771,7 +5771,7 @@
       "correctChoiceId": "b",
       "explanation": "When Incomplete: Need prior mammograms for comparison is used, MQSA requires a follow-up report with a final assessment within 30 calendar days, whether or not comparison images can be obtained.",
       "variants": {
-        "simpler": "Need-priors incomplete → finalize within 30 days anyway.",
+        "simpler": "Need-priors incomplete \u2192 finalize within 30 days anyway.",
         "example": "If priors never arrive, the facility still issues a final assessment category in time."
       },
       "evidenceIds": [
@@ -5967,7 +5967,7 @@
       "correctChoiceId": "a",
       "explanation": "The 2024 USPSTF average-risk recommendation does not apply to persons with a high-risk breast lesion on prior biopsy (among other high-risk exclusions).",
       "variants": {
-        "simpler": "High-risk lesion on prior biopsy → outside USPSTF average-risk population.",
+        "simpler": "High-risk lesion on prior biopsy \u2192 outside USPSTF average-risk population.",
         "example": "Previous breast cancer and high-risk genetic markers are other listed exclusions."
       },
       "evidenceIds": [
@@ -6016,7 +6016,7 @@
         {
           "id": "b",
           "text": "2 rem",
-          "rationale": "Correct. 0.02 × 100 = 2 rem."
+          "rationale": "Correct. 0.02 \u00d7 100 = 2 rem."
         },
         {
           "id": "c",
@@ -6098,7 +6098,7 @@
       "correctChoiceId": "c",
       "explanation": "MQSA requires originals and reports for the longest of: at least 5 years; at least 10 years if no additional mammograms are performed at the facility; or any longer state/local period.",
       "variants": {
-        "simpler": "No return visits → keep records at least 10 years.",
+        "simpler": "No return visits \u2192 keep records at least 10 years.",
         "example": "If she keeps returning, the general floor is at least 5 years, unless law requires longer."
       },
       "evidenceIds": [
@@ -6129,7 +6129,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -6303,7 +6303,7 @@
       "correctChoiceId": "b",
       "explanation": "CDC clinical guidance cited here prefers alcohol-based hand sanitizer in most clinical situations unless hands are visibly soiled or other listed exceptions apply.",
       "variants": {
-        "simpler": "Clean hands → sanitizer is usually preferred.",
+        "simpler": "Clean hands \u2192 sanitizer is usually preferred.",
         "example": "Visibly soiled hands are a soap-and-water situation instead."
       },
       "evidenceIds": [
@@ -6368,7 +6368,7 @@
       "correctChoiceId": "c",
       "explanation": "MQSA density categories include \"heterogeneously dense, which may obscure small masses\" and \"extremely dense, which lowers the sensitivity of mammography.\"",
       "variants": {
-        "simpler": "Heterogeneously dense → may obscure small masses.",
+        "simpler": "Heterogeneously dense \u2192 may obscure small masses.",
         "example": "Extremely dense is the category that says sensitivity is lowered."
       },
       "evidenceIds": [
@@ -6473,7 +6473,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "A vigorous 79-year-old with substantial life expectancy asks when ACS says average-risk women may stop screening. Which ACS continuation rule matches Facts & Figures 2024–2025?",
+      "stem": "A vigorous 79-year-old with substantial life expectancy asks when ACS says average-risk women may stop screening. Which ACS continuation rule matches Facts & Figures 2024\u20132025?",
       "choices": [
         {
           "id": "a",
@@ -6700,7 +6700,7 @@
       "correctChoiceId": "d",
       "explanation": "Facilities accepting patients without a provider maintain a referral system, used when clinically indicated, including for Probably Benign, Suspicious, or Highly Suggestive assessments.",
       "variants": {
-        "simpler": "No named provider → facility still needs a referral pathway.",
+        "simpler": "No named provider \u2192 facility still needs a referral pathway.",
         "example": "A Probably Benign self-referred result can trigger use of that referral system."
       },
       "evidenceIds": [
@@ -6766,7 +6766,7 @@
       "correctChoiceId": "a",
       "explanation": "USPSTF's average-risk recommendation does not apply to persons with high-dose chest radiation at a young age (among other high-risk exclusions).",
       "variants": {
-        "simpler": "Young-age high-dose chest RT → not in USPSTF average-risk population.",
+        "simpler": "Young-age high-dose chest RT \u2192 not in USPSTF average-risk population.",
         "example": "ACS high-risk guidance separately addresses prior chest radiation screening approaches."
       },
       "evidenceIds": [
@@ -6807,7 +6807,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "NCI’s MQSA patient-education summary says facilities must meet uniform quality standards and also give patients what kind of mammogram result document?",
+      "stem": "NCI\u2019s MQSA patient-education summary says facilities must meet uniform quality standards and also give patients what kind of mammogram result document?",
       "choices": [
         {
           "id": "a",
@@ -6822,7 +6822,7 @@
         {
           "id": "c",
           "text": "A verbal diagnosis of cancer or benign disease from the technologist before leaving",
-          "rationale": "Technologists do not issue cancer diagnoses; the lay summary comes from the facility’s required written communication."
+          "rationale": "Technologists do not issue cancer diagnoses; the lay summary comes from the facility\u2019s required written communication."
         },
         {
           "id": "d",
@@ -6876,7 +6876,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Dense breasts are rare — under 5% of screened women.",
+          "text": "Dense breasts are rare \u2014 under 5% of screened women.",
           "rationale": "NCI says nearly half of women 40+ who get mammograms have dense tissue."
         },
         {
@@ -6887,7 +6887,7 @@
         {
           "id": "c",
           "text": "Nearly half of women age 40 and older who get mammograms are found to have dense breast tissue.",
-          "rationale": "Correct. NCI: nearly half of screened women ≥40 have dense tissue."
+          "rationale": "Correct. NCI: nearly half of screened women \u226540 have dense tissue."
         },
         {
           "id": "d",
@@ -6898,7 +6898,7 @@
       "correctChoiceId": "c",
       "explanation": "NCI reports dense breasts are common: nearly half of women age 40 and older who get mammograms have dense breast tissue.",
       "variants": {
-        "simpler": "About half of screened women ≥40 have dense breasts (NCI).",
+        "simpler": "About half of screened women \u226540 have dense breasts (NCI).",
         "example": "Use this prevalence when a patient assumes density is unusual."
       },
       "evidenceIds": [
@@ -6928,7 +6928,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -6944,12 +6944,12 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "Which presentation feature of inflammatory breast cancer is emphasized in this module’s dictionary-level evidence?",
+      "stem": "Which presentation feature of inflammatory breast cancer is emphasized in this module\u2019s dictionary-level evidence?",
       "choices": [
         {
           "id": "a",
           "text": "It always presents as a painless, mobile, well-defined lump.",
-          "rationale": "That pattern fits common benign masses such as fibroadenoma, not IBC’s framing here."
+          "rationale": "That pattern fits common benign masses such as fibroadenoma, not IBC\u2019s framing here."
         },
         {
           "id": "b",
@@ -6958,7 +6958,7 @@
         },
         {
           "id": "c",
-          "text": "It often has no palpable lump, may not be seen on mammogram, and can show swollen/inflamed skin (including peau d’orange-like changes).",
+          "text": "It often has no palpable lump, may not be seen on mammogram, and can show swollen/inflamed skin (including peau d\u2019orange-like changes).",
           "rationale": "Correct. Dictionary evidence: often no lump; skin inflammation; may be mammographically occult."
         },
         {
@@ -6968,10 +6968,10 @@
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "Inflammatory breast cancer is rare and fast-growing; cells block skin lymph vessels, causing swollen/inflamed appearance; often no palpable lump and may not be seen on mammogram; peau d’orange-like changes.",
+      "explanation": "Inflammatory breast cancer is rare and fast-growing; cells block skin lymph vessels, causing swollen/inflamed appearance; often no palpable lump and may not be seen on mammogram; peau d\u2019orange-like changes.",
       "variants": {
         "simpler": "IBC: inflamed/swollen skin, often no lump, may miss on mammogram.",
-        "example": "Document skin erythema/edema/peau d’orange even when no discrete mass is felt."
+        "example": "Document skin erythema/edema/peau d\u2019orange even when no discrete mass is felt."
       },
       "evidenceIds": [
         "ev-ap-dict-ibc"
@@ -7000,7 +7000,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7043,7 +7043,7 @@
       "explanation": "The sentinel lymph node is the first lymph node to which cancer is likely to spread from the primary tumor.",
       "variants": {
         "simpler": "Sentinel node = first drainage node from the tumor.",
-        "example": "When a patient hears “sentinel node biopsy,” this is the definition to use."
+        "example": "When a patient hears \u201csentinel node biopsy,\u201d this is the definition to use."
       },
       "evidenceIds": [
         "ev-ap-dict-sentinel"
@@ -7072,7 +7072,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7103,7 +7103,7 @@
         {
           "id": "c",
           "text": "Any callback automatically upgrades the exam to Highly Suggestive of Malignancy.",
-          "rationale": "Callback ≠ that final assessment category."
+          "rationale": "Callback \u2260 that final assessment category."
         },
         {
           "id": "d",
@@ -7114,7 +7114,7 @@
       "correctChoiceId": "b",
       "explanation": "NCI notes callbacks can be frightening, but most people who are called back are not found to have breast cancer.",
       "variants": {
-        "simpler": "Most callbacks are not cancer — acknowledge fear, share that NCI fact.",
+        "simpler": "Most callbacks are not cancer \u2014 acknowledge fear, share that NCI fact.",
         "example": "Use this reassurance while still directing her to complete the recommended follow-up."
       },
       "evidenceIds": [
@@ -7159,7 +7159,7 @@
         {
           "id": "a",
           "text": "About 316,950",
-          "rationale": "Correct—PDQ's 2025 invasive estimate."
+          "rationale": "Correct\u2014PDQ's 2025 invasive estimate."
         },
         {
           "id": "b",
@@ -7178,7 +7178,7 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "PDQ estimates about 316,950 invasive cases for 2025—always keep the year with the number.",
+      "explanation": "PDQ estimates about 316,950 invasive cases for 2025\u2014always keep the year with the number.",
       "variants": {
         "simpler": "Use the PDQ 2025 invasive estimate (~316,950).",
         "example": "Match the stem to the sourced definition before eliminating distractors."
@@ -7210,7 +7210,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7245,7 +7245,7 @@
         },
         {
           "id": "d",
-          "text": "Zero—male breast cancer is not reported",
+          "text": "Zero\u2014male breast cancer is not reported",
           "rationale": "Male breast cancer is uncommon but real (~1%)."
         }
       ],
@@ -7282,7 +7282,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7303,12 +7303,12 @@
         {
           "id": "a",
           "text": "Fewer than 1%",
-          "rationale": "Too low. — eliminate this option using the sourced explanation."
+          "rationale": "Too low. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
           "text": "Approximately 5% to 10%",
-          "rationale": "Correct. Inherited risk including BRCA1/2 accounts for about 5%–10% of cases."
+          "rationale": "Correct. Inherited risk including BRCA1/2 accounts for about 5%\u201310% of cases."
         },
         {
           "id": "c",
@@ -7318,13 +7318,13 @@
         {
           "id": "d",
           "text": "All cases with any family history",
-          "rationale": "Family history ≠ proven inherited high-risk mutation."
+          "rationale": "Family history \u2260 proven inherited high-risk mutation."
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Inherited risk including BRCA1/2 accounts for about 5%–10% of cases.",
+      "explanation": "Inherited risk including BRCA1/2 accounts for about 5%\u201310% of cases.",
       "variants": {
-        "simpler": "Inherited risk including BRCA1/2 accounts for about 5%–10% of cases.",
+        "simpler": "Inherited risk including BRCA1/2 accounts for about 5%\u201310% of cases.",
         "example": "Match the stem to the sourced definition before eliminating distractors."
       },
       "evidenceIds": [
@@ -7354,7 +7354,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7426,7 +7426,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7498,7 +7498,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7570,7 +7570,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7596,7 +7596,7 @@
         {
           "id": "b",
           "text": "Because screening detects more in situ disease",
-          "rationale": "Correct—PDQ links dramatic DCIS increases to screening adoption."
+          "rationale": "Correct\u2014PDQ links dramatic DCIS increases to screening adoption."
         },
         {
           "id": "c",
@@ -7642,7 +7642,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7663,7 +7663,7 @@
         {
           "id": "a",
           "text": "Any recent-sounding number is fine",
-          "rationale": "Unsafe. — eliminate this option using the sourced explanation."
+          "rationale": "Unsafe. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -7714,7 +7714,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7786,7 +7786,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7806,23 +7806,23 @@
       "choices": [
         {
           "id": "a",
-          "text": "Age 30 ≈ 1 in 9; age 70 ≈ 1 in 175",
-          "rationale": "Reversed. — eliminate this option using the sourced explanation."
+          "text": "Age 30 \u2248 1 in 9; age 70 \u2248 1 in 175",
+          "rationale": "Reversed. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
-          "text": "Age 30 ≈ 1 in 175; age 70 ≈ 1 in 9",
+          "text": "Age 30 \u2248 1 in 175; age 70 \u2248 1 in 9",
           "rationale": "Correct. About 1 in 175 at age 30 vs about 1 in 9 at age 70 over the next 10 years."
         },
         {
           "id": "c",
-          "text": "Both ages ≈ 1 in 8 lifetime only",
+          "text": "Both ages \u2248 1 in 8 lifetime only",
           "rationale": "Different metric; not this locator."
         },
         {
           "id": "d",
           "text": "Age is unrelated once screening starts",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
@@ -7858,7 +7858,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7931,7 +7931,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -7962,7 +7962,7 @@
         {
           "id": "c",
           "text": "Mammography is never allowed again",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -8004,7 +8004,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8035,12 +8035,12 @@
         {
           "id": "c",
           "text": "Density guarantees cancer within one year",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
           "text": "Density eliminates the need for priors",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
@@ -8077,7 +8077,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8108,7 +8108,7 @@
         {
           "id": "c",
           "text": "Proof the patient must have BRCA1",
-          "rationale": "Family history ≠ confirmed mutation."
+          "rationale": "Family history \u2260 confirmed mutation."
         },
         {
           "id": "d",
@@ -8150,7 +8150,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8176,7 +8176,7 @@
         {
           "id": "b",
           "text": "Known BRCA1/BRCA2 or other high-risk genetic syndrome",
-          "rationale": "Correct—excluded from the average-risk recommendation."
+          "rationale": "Correct\u2014excluded from the average-risk recommendation."
         },
         {
           "id": "c",
@@ -8222,7 +8222,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8294,7 +8294,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8366,7 +8366,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8439,7 +8439,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8511,7 +8511,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8532,7 +8532,7 @@
         {
           "id": "a",
           "text": "Guaranteed higher sensitivity",
-          "rationale": "Opposite. — eliminate this option using the sourced explanation."
+          "rationale": "Opposite. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -8542,7 +8542,7 @@
         {
           "id": "c",
           "text": "Elimination of the need for compression",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -8583,7 +8583,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8609,12 +8609,12 @@
         {
           "id": "b",
           "text": "Distinguish menopausal hormone therapy (risk factor) from breast-cancer endocrine treatment",
-          "rationale": "Correct. Menopausal HT ≠ breast-cancer hormone/endocrine therapy."
+          "rationale": "Correct. Menopausal HT \u2260 breast-cancer hormone/endocrine therapy."
         },
         {
           "id": "c",
           "text": "Tell her to stop all hormones today",
-          "rationale": "Prescribing—out of scope."
+          "rationale": "Prescribing\u2014out of scope."
         },
         {
           "id": "d",
@@ -8623,9 +8623,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Menopausal HT ≠ breast-cancer hormone/endocrine therapy.",
+      "explanation": "Menopausal HT \u2260 breast-cancer hormone/endocrine therapy.",
       "variants": {
-        "simpler": "Menopausal HT ≠ breast-cancer hormone/endocrine therapy.",
+        "simpler": "Menopausal HT \u2260 breast-cancer hormone/endocrine therapy.",
         "example": "Match the stem to the sourced definition before eliminating distractors."
       },
       "evidenceIds": [
@@ -8656,7 +8656,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8682,17 +8682,17 @@
         {
           "id": "b",
           "text": "Follow-up timing never affects stage",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
           "text": "Only cosmetic clinics need follow-up",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
           "text": "Dense breasts make follow-up optional",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "a",
@@ -8728,7 +8728,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8801,7 +8801,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8832,7 +8832,7 @@
         {
           "id": "c",
           "text": "They replace the need for a radiology report",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -8875,7 +8875,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8947,7 +8947,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -8968,7 +8968,7 @@
         {
           "id": "a",
           "text": "Breast cancer usually presents with severe pain",
-          "rationale": "Opposite. — eliminate this option using the sourced explanation."
+          "rationale": "Opposite. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -8978,12 +8978,12 @@
         {
           "id": "c",
           "text": "Pain always means inflammatory carcinoma",
-          "rationale": "Not true. — eliminate this option using the sourced explanation."
+          "rationale": "Not true. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
           "text": "Pain means screening is unnecessary",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
@@ -9019,7 +9019,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9035,7 +9035,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Peau d’orange refers to:",
+      "stem": "Peau d\u2019orange refers to:",
       "choices": [
         {
           "id": "a",
@@ -9045,7 +9045,7 @@
         {
           "id": "b",
           "text": "Orange-peel-like skin dimpling of the breast",
-          "rationale": "Correct. SEER lists peau d’orange as orange-peel skin dimpling."
+          "rationale": "Correct. SEER lists peau d\u2019orange as orange-peel skin dimpling."
         },
         {
           "id": "c",
@@ -9055,13 +9055,13 @@
         {
           "id": "d",
           "text": "A brand of skin marker",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "SEER lists peau d’orange as orange-peel skin dimpling.",
+      "explanation": "SEER lists peau d\u2019orange as orange-peel skin dimpling.",
       "variants": {
-        "simpler": "SEER lists peau d’orange as orange-peel skin dimpling.",
+        "simpler": "SEER lists peau d\u2019orange as orange-peel skin dimpling.",
         "example": "Match the stem to the sourced definition before eliminating distractors."
       },
       "evidenceIds": [
@@ -9091,7 +9091,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9122,7 +9122,7 @@
         {
           "id": "c",
           "text": "Symmetric lactation in a nursing parent",
-          "rationale": "Expected. — eliminate this option using the sourced explanation."
+          "rationale": "Expected. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -9164,7 +9164,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9190,17 +9190,17 @@
         {
           "id": "b",
           "text": "Cancer always hurts first",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
           "text": "Symptoms only appear after age 80",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
           "text": "Symptoms are impossible before metastasis",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "a",
@@ -9236,7 +9236,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9309,7 +9309,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9340,7 +9340,7 @@
         {
           "id": "c",
           "text": "No imaging ever",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -9382,7 +9382,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9454,7 +9454,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9526,7 +9526,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9547,7 +9547,7 @@
         {
           "id": "a",
           "text": "Ignore the lump to keep the schedule",
-          "rationale": "Unsafe. — eliminate this option using the sourced explanation."
+          "rationale": "Unsafe. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -9599,7 +9599,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9671,7 +9671,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9743,7 +9743,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9817,7 +9817,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9853,7 +9853,7 @@
         {
           "id": "d",
           "text": "Tattoos always contraindicate mammography",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
@@ -9890,7 +9890,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -9915,7 +9915,7 @@
         },
         {
           "id": "b",
-          "text": "Always peau d’orange at baseline",
+          "text": "Always peau d\u2019orange at baseline",
           "rationale": "That is abnormal."
         },
         {
@@ -9962,7 +9962,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10035,7 +10035,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10061,7 +10061,7 @@
         {
           "id": "b",
           "text": "15 months",
-          "rationale": "Too long. — eliminate this option using the sourced explanation."
+          "rationale": "Too long. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
@@ -10071,7 +10071,7 @@
         {
           "id": "d",
           "text": "Next accreditation cycle",
-          "rationale": "Wrong. — eliminate this option using the sourced explanation."
+          "rationale": "Wrong. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "a",
@@ -10107,7 +10107,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10143,7 +10143,7 @@
         {
           "id": "d",
           "text": "Destruction of priors first",
-          "rationale": "Opposite. — eliminate this option using the sourced explanation."
+          "rationale": "Opposite. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
@@ -10179,7 +10179,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10205,7 +10205,7 @@
         {
           "id": "b",
           "text": "Patient to write the radiology report",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
@@ -10215,7 +10215,7 @@
         {
           "id": "d",
           "text": "Stopping all future imaging forever",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "a",
@@ -10251,7 +10251,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10272,7 +10272,7 @@
         {
           "id": "a",
           "text": "May be any amount the facility likes",
-          "rationale": "Limited. — eliminate this option using the sourced explanation."
+          "rationale": "Limited. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -10323,7 +10323,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10395,7 +10395,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10421,7 +10421,7 @@
         {
           "id": "b",
           "text": "Lumpectomy",
-          "rationale": "Opposite. — eliminate this option using the sourced explanation."
+          "rationale": "Opposite. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
@@ -10467,7 +10467,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10540,7 +10540,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10561,7 +10561,7 @@
         {
           "id": "a",
           "text": "Emergency mastectomy after trauma only",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -10612,7 +10612,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10684,7 +10684,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10705,7 +10705,7 @@
         {
           "id": "a",
           "text": "The most common modern first choice for every DCIS",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -10715,12 +10715,12 @@
         {
           "id": "c",
           "text": "Identical to lumpectomy",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
           "text": "Required before any reconstruction",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
@@ -10756,7 +10756,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10828,7 +10828,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10901,7 +10901,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10927,12 +10927,12 @@
         {
           "id": "b",
           "text": "Intravenous chemotherapy circulating systemically",
-          "rationale": "Systemic. — eliminate this option using the sourced explanation."
+          "rationale": "Systemic. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
           "text": "Oral endocrine therapy alone",
-          "rationale": "Systemic. — eliminate this option using the sourced explanation."
+          "rationale": "Systemic. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -10974,7 +10974,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -10995,7 +10995,7 @@
         {
           "id": "a",
           "text": "Surgery to remove the breast",
-          "rationale": "Surgery. — eliminate this option using the sourced explanation."
+          "rationale": "Surgery. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "b",
@@ -11046,7 +11046,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -11072,7 +11072,7 @@
         {
           "id": "b",
           "text": "Always HR-negative",
-          "rationale": "Opposite. — eliminate this option using the sourced explanation."
+          "rationale": "Opposite. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
@@ -11119,7 +11119,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -11140,7 +11140,7 @@
         {
           "id": "a",
           "text": "ER, PR, and HER2 are all negative",
-          "rationale": "Correct. TNBC: ER−, PR−, HER2−."
+          "rationale": "Correct. TNBC: ER\u2212, PR\u2212, HER2\u2212."
         },
         {
           "id": "b",
@@ -11150,18 +11150,18 @@
         {
           "id": "c",
           "text": "Three lumpectomies are required",
-          "rationale": "Nonsense. — eliminate this option using the sourced explanation."
+          "rationale": "Nonsense. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
           "text": "Three negative mammograms prove cure",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "TNBC: ER−, PR−, HER2−.",
+      "explanation": "TNBC: ER\u2212, PR\u2212, HER2\u2212.",
       "variants": {
-        "simpler": "TNBC: ER−, PR−, HER2−.",
+        "simpler": "TNBC: ER\u2212, PR\u2212, HER2\u2212.",
         "example": "Match the stem to the sourced definition before eliminating distractors."
       },
       "evidenceIds": [
@@ -11191,7 +11191,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -11217,17 +11217,17 @@
         {
           "id": "b",
           "text": "It measures blood pressure",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "c",
           "text": "It replaces the need for mammography forever",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
           "text": "It is only a dental finding",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "a",
@@ -11264,7 +11264,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -11295,7 +11295,7 @@
         {
           "id": "c",
           "text": "Mandatory radical mastectomy of the contralateral lung",
-          "rationale": "Nonsense. — eliminate this option using the sourced explanation."
+          "rationale": "Nonsense. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -11336,7 +11336,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -11362,12 +11362,12 @@
         {
           "id": "b",
           "text": "Different from menopausal hormone therapy",
-          "rationale": "Correct. Endocrine treatment ≠ menopausal HT."
+          "rationale": "Correct. Endocrine treatment \u2260 menopausal HT."
         },
         {
           "id": "c",
           "text": "A type of screening mammogram",
-          "rationale": "No. — eliminate this option using the sourced explanation."
+          "rationale": "No. \u2014 eliminate this option using the sourced explanation."
         },
         {
           "id": "d",
@@ -11376,9 +11376,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Endocrine treatment ≠ menopausal HT.",
+      "explanation": "Endocrine treatment \u2260 menopausal HT.",
       "variants": {
-        "simpler": "Endocrine treatment ≠ menopausal HT.",
+        "simpler": "Endocrine treatment \u2260 menopausal HT.",
         "example": "Match the stem to the sourced definition before eliminating distractors."
       },
       "evidenceIds": [
@@ -11408,7 +11408,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
           }
         ]
       }
@@ -11429,7 +11429,7 @@
         {
           "id": "a",
           "text": "Pick one and dose it",
-          "rationale": "Prescribing—prohibited here."
+          "rationale": "Prescribing\u2014prohibited here."
         },
         {
           "id": "b",
@@ -11444,7 +11444,7 @@
         {
           "id": "d",
           "text": "Tell her biomarkers are irrelevant",
-          "rationale": "False. — eliminate this option using the sourced explanation."
+          "rationale": "False. \u2014 eliminate this option using the sourced explanation."
         }
       ],
       "correctChoiceId": "b",
@@ -11481,7 +11481,138 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only \u2014 not clinical review."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-164",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-history-documentation"
+      ],
+      "familyId": "fam-pc-fa-hx-unexpected-skin",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "During intake inspection notes, which skin finding would fall outside OpenStax's expected breast inspection findings and should be documented as an unexpected clinical finding?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Smooth skin without dimpling or thickening",
+          "rationale": "That is the expected finding OpenStax lists, not an unexpected one."
+        },
+        {
+          "id": "b",
+          "text": "Skin dimpling or thickening",
+          "rationale": "Correct. OpenStax expects smooth skin without dimpling or thickening, so dimpling or thickening is an unexpected finding to document."
+        },
+        {
+          "id": "c",
+          "text": "Even skin tone across both breasts",
+          "rationale": "Tone symmetry is not the OpenStax expected-inspection criterion used here."
+        },
+        {
+          "id": "d",
+          "text": "Visible superficial veins only after exercise",
+          "rationale": "Not the OpenStax expected-inspection contrast taught from this evidence."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "OpenStax frames expected inspection findings as smooth skin without dimpling or thickening. Documenting dimpling or thickening captures an unexpected clinical finding for correlation with imaging.",
+      "variants": {
+        "simpler": "Dimpling or thickening is unexpected on OpenStax inspection criteria.",
+        "example": "A new dimple near a scar is documented even if the order says screening."
+      },
+      "evidenceIds": [
+        "ev-pc-openstax-breast-hx"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-165",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-history-documentation"
+      ],
+      "familyId": "fam-pc-fb-hx-underarm-change",
+      "pool": "form-b",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A patient mentions a new underarm lump while denying any breast lump. For history documentation grounded in NCI's reportable changes, what should you do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Omit it because underarm findings are outside breast history",
+          "rationale": "NCI includes lumps near the breast or underarm among reportable changes."
+        },
+        {
+          "id": "b",
+          "text": "Document the underarm change as a reportable clinical finding and reconcile with the order",
+          "rationale": "Correct. NCI lists underarm lumps among reportable breast-area changes that matter for diagnostic planning."
+        },
+        {
+          "id": "c",
+          "text": "Record only family history and skip current symptoms",
+          "rationale": "Current findings are part of the sourced history scope."
+        },
+        {
+          "id": "d",
+          "text": "Tell the patient underarm lumps never affect mammography scheduling",
+          "rationale": "Symptoms can change screening versus diagnostic pathways."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI's reportable changes include lumps in the breast, near the breast, or underarm. Documenting the underarm finding supports order reconciliation and appropriate workup.",
+      "variants": {
+        "simpler": "Underarm lumps are reportable history, not optional side notes.",
+        "example": "A new axillary lump with a screening order triggers history reconciliation."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-symptoms-list",
+        "ev-pc-nci-symptoms-diagnostic"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
           }
         ]
       }

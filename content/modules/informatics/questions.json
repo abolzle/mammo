@@ -2920,6 +2920,400 @@
           }
         ]
       }
+    },
+    {
+      "id": "q-inf-045",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-informatics"
+      ],
+      "familyId": "fam-inf-fa-his-scope",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A new hire asks which system is built to handle both administrative and clinical information for the hospital as a whole, not just radiology scheduling.",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Radiology information system (RIS) alone",
+          "rationale": "RIS focuses on radiology administrative activities, not the whole hospital."
+        },
+        {
+          "id": "b",
+          "text": "Hospital information system (HIS)",
+          "rationale": "Correct. MeSH defines HIS as an integrated hospital-wide administrative and clinical system, broader than RIS."
+        },
+        {
+          "id": "c",
+          "text": "Medical image storage device only",
+          "rationale": "Storage devices archive images; they are not the hospital-wide HIS."
+        },
+        {
+          "id": "d",
+          "text": "DICOM conformance statement binder",
+          "rationale": "A conformance statement is documentation, not the HIS."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "A hospital information system integrates administrative and clinical information across the hospital. A RIS is narrower and focuses on radiology administrative work.",
+      "variants": {
+        "simpler": "HIS is hospital-wide; RIS is radiology-focused.",
+        "example": "Scheduling a bed and a lab result live in HIS territory more than RIS."
+      },
+      "evidenceIds": [
+        "ev-inf-mesh-his",
+        "ev-inf-mesh-ris"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-inf-046",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-informatics"
+      ],
+      "familyId": "fam-inf-fb-dicom-not-mandated",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A vendor claims MQSA will fail the facility unless every mammogram is archived exclusively as DICOM. What is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "True \u2014 MQSA mandates DICOM as the only legal format",
+          "rationale": "FDA noted DICOM's predominance but did not mandate a specific file format."
+        },
+        {
+          "id": "b",
+          "text": "False \u2014 MQSA does not require a specific file format such as DICOM",
+          "rationale": "Correct. FDA declined to mandate DICOM even while recognizing it as predominant."
+        },
+        {
+          "id": "c",
+          "text": "True only for DBT, not FFDM",
+          "rationale": "The non-mandate is not modality-split that way in the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "True only when images leave the facility",
+          "rationale": "Format mandate is not how MQSA is framed here."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "In the MQSA amendments discussion, FDA recognized DICOM as predominant but declined to require a specific file format for storing or transferring mammograms.",
+      "variants": {
+        "simpler": "MQSA does not force DICOM-only archives.",
+        "example": "A facility may still choose DICOM; MQSA simply does not mandate it."
+      },
+      "evidenceIds": [
+        "ev-inf-fr-dicom-not-required"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-inf-047",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-cad"
+      ],
+      "familyId": "fam-inf-fa-cadx-vs-cade",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Which capability distinguishes CADx (\u00a7 892.2060) from CADe in FDA's device classifications?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "CADx characterizes a lesion (for example as suspicious), while clinician judgment still decides",
+          "rationale": "Correct. CADx supports characterization; decisions remain clinical."
+        },
+        {
+          "id": "b",
+          "text": "CADx permanently deletes unread screening exams from the worklist",
+          "rationale": "Worklist removal is not the CADx distinction cited here."
+        },
+        {
+          "id": "c",
+          "text": "CADx is only a film digitizer power supply",
+          "rationale": "CADx is a software classification, not a digitizer power supply."
+        },
+        {
+          "id": "d",
+          "text": "CADx forbids any human review of the images",
+          "rationale": "Clinician review remains required."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "FDA's CADx classification covers software that characterizes findings to support interpretation, whereas CADe is oriented to directing attention to regions; neither replaces clinician judgment.",
+      "variants": {
+        "simpler": "CADx characterizes; CADe mainly points.",
+        "example": "A 'suspicious' characterization still needs the radiologist's decision."
+      },
+      "evidenceIds": [
+        "ev-inf-892-cadx",
+        "ev-inf-cadg-cadx-triage"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-inf-048",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-cad"
+      ],
+      "familyId": "fam-inf-fb-cad-no-invasive-gain",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "When counseling staff about CAD expectations, which NCI-summarized finding about invasive cancer detection is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Large studies show CAD reliably increases invasive cancer detection",
+          "rationale": "NCI summarizes that CAD has not been shown to improve invasive cancer detection."
+        },
+        {
+          "id": "b",
+          "text": "CAD has not been shown to improve invasive breast cancer detection",
+          "rationale": "Correct. NCI's evidence summary reports no demonstrated improvement in invasive cancer detection from CAD."
+        },
+        {
+          "id": "c",
+          "text": "CAD eliminates DCIS detection entirely",
+          "rationale": "NCI notes more DCIS detected with CAD in the sensitivity/specificity tradeoff summary, not elimination."
+        },
+        {
+          "id": "d",
+          "text": "CAD removes the need for technologist positioning standards",
+          "rationale": "CAD performance can worsen with poor image quality; positioning still matters."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI's evidence summary states that large studies have not shown CAD improves detection of invasive breast cancer, even as sensitivity/specificity tradeoffs and DCIS detection patterns are discussed.",
+      "variants": {
+        "simpler": "CAD has not proven an invasive-cancer detection boost.",
+        "example": "Do not promise CAD will 'catch invasive disease we miss.'"
+      },
+      "evidenceIds": [
+        "ev-inf-nci-cad-studies"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-inf-049",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-monitors-viewing"
+      ],
+      "familyId": "fam-inf-fa-qc-not-clearance",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 65,
+      "stem": "A manager says weekly display QC on a new interpretation monitor means FDA premarket authorization can be skipped. What is the accurate reply?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Display QC is a separate MQSA standard and does not by itself satisfy FDA premarket authorization requirements",
+          "rationale": "Correct. Having QC tests does not replace applicable FDA authorization for an interpretation display."
+        },
+        {
+          "id": "b",
+          "text": "Weekly QC always replaces 510(k) clearance for every device class",
+          "rationale": "QC and premarket authorization are separate requirements."
+        },
+        {
+          "id": "c",
+          "text": "Only hot-lights need clearance; monitors never do",
+          "rationale": "Interpretation displays generally need applicable authorization."
+        },
+        {
+          "id": "d",
+          "text": "Authorization matters only for waiting-room TVs",
+          "rationale": "The cited issue is clinical interpretation displays."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Display QC tests are a separate MQSA standard. Performing QC does not by itself satisfy FDA premarket requirements, and interpreting on a display without applicable authorization would not meet the device rules discussed in the MQSA amendments.",
+      "variants": {
+        "simpler": "Passing display QC \u2260 skipping FDA authorization.",
+        "example": "A fancy monitor still needs the right clearance path before primary reads."
+      },
+      "evidenceIds": [
+        "ev-inf-fr-display-qc-separate",
+        "ev-inf-fr-display-clearance"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-inf-050",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-monitors-viewing"
+      ],
+      "familyId": "fam-inf-fb-display-char-props",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "When manufacturers characterize diagnostic displays for mammography QC, which property set is among those commonly assessed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Luminance range, pixel defects/artifacts, and conformance to a grayscale-to-luminance function such as DICOM GSDF",
+          "rationale": "Correct. Manufacturer display characterization includes luminance, defects/artifacts, and grayscale-function conformance."
+        },
+        {
+          "id": "b",
+          "text": "Only the color of the reception desk chairs",
+          "rationale": "Furniture color is not a display characterization property."
+        },
+        {
+          "id": "c",
+          "text": "Only whether the mouse is wireless",
+          "rationale": "Input peripherals are not the cited display metrics."
+        },
+        {
+          "id": "d",
+          "text": "Only the brand of coffee in the reading room",
+          "rationale": "Irrelevant to display characterization."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Manufacturers characterize diagnostic displays for properties such as spatial resolution, pixel defects, artifacts, luminance range, and conformance to a grayscale-to-luminance function such as the DICOM GSDF \u2014 the kinds of properties that facility display QC then tracks.",
+      "variants": {
+        "simpler": "Display QC cares about luminance, defects, and GSDF-style grayscale response.",
+        "example": "A monitor with dead pixels and wrong luminance range fails characterization expectations."
+      },
+      "evidenceIds": [
+        "ev-inf-disp-tests",
+        "ev-inf-dicom-gsdf"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }

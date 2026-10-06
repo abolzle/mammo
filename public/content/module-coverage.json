@@ -385,7 +385,9 @@
             "q-ip-001",
             "q-ip-002",
             "q-ip-003",
-            "q-ip-004"
+            "q-ip-004",
+            "q-ip-117",
+            "q-ip-118"
           ],
           "visualIds": [
             "vis-ip-beam-limiting"
@@ -473,7 +475,9 @@
             "q-inf-041",
             "q-inf-042",
             "q-inf-043",
-            "q-inf-044"
+            "q-inf-044",
+            "q-inf-045",
+            "q-inf-046"
           ],
           "visualIds": [
             "vis-inf-originals-home",
@@ -506,7 +510,9 @@
             "q-inf-028",
             "q-inf-029",
             "q-inf-030",
-            "q-inf-031"
+            "q-inf-031",
+            "q-inf-047",
+            "q-inf-048"
           ],
           "visualIds": [
             "vis-inf-cad-nomark"
@@ -544,7 +550,9 @@
             "q-inf-018",
             "q-inf-019",
             "q-inf-020",
-            "q-inf-021"
+            "q-inf-021",
+            "q-inf-049",
+            "q-inf-050"
           ],
           "visualIds": []
         },
@@ -1051,7 +1059,9 @@
             "q-pc-140",
             "q-pc-141",
             "q-pc-142",
-            "q-pc-143"
+            "q-pc-143",
+            "q-pc-164",
+            "q-pc-165"
           ],
           "visualIds": []
         },
@@ -1284,7 +1294,8 @@
             "q-pos-033",
             "q-pos-034",
             "q-pos-035",
-            "q-pos-036"
+            "q-pos-036",
+            "q-pos-130"
           ],
           "visualIds": []
         },
@@ -1413,7 +1424,17 @@
           "visualIds": []
         }
       ],
-      "followUps": []
+      "followUps": [
+        {
+          "objectiveId": "obj-pp-implant-displaced",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-mammograms",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "NCI retrieved fact sheet names implant displacement views and reconstruction exception; MQSA supplies maximize-tissue unless contraindicated/modified. Detailed hand maneuvers remain preceptorship/link-only (requiresQualifiedReview preserved)."
+        }
+      ]
     },
     {
       "moduleId": "mod-procedures-qc-depth",
@@ -1476,7 +1497,9 @@
             "q-pqd-014",
             "q-pqd-015",
             "q-pqd-016",
-            "q-pqd-017"
+            "q-pqd-017",
+            "q-pqd-049",
+            "q-pqd-050"
           ],
           "visualIds": []
         },
@@ -1529,7 +1552,9 @@
             "q-pqd-003",
             "q-pqd-006",
             "q-pqd-007",
-            "q-pqd-009"
+            "q-pqd-009",
+            "q-pqd-053",
+            "q-pqd-054"
           ],
           "visualIds": [
             "vis-pqd-digital-path"
@@ -1551,7 +1576,9 @@
             "q-pqd-026",
             "q-pqd-027",
             "q-pqd-028",
-            "q-pqd-029"
+            "q-pqd-029",
+            "q-pqd-055",
+            "q-pqd-056"
           ],
           "visualIds": []
         },
@@ -1644,7 +1671,9 @@
             "q-pqd-032",
             "q-pqd-046",
             "q-pqd-047",
-            "q-pqd-048"
+            "q-pqd-048",
+            "q-pqd-057",
+            "q-pqd-058"
           ],
           "visualIds": []
         }

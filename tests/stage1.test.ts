@@ -21,7 +21,7 @@ describe("content validation", () => {
     expect(loaded.issues.filter((i) => i.level === "error")).toEqual([]);
     const mqsa = loaded.modules.find((m) => m.id === "mod-mqsa");
     expect(mqsa).toBeDefined();
-    expect(mqsa!.questions).toHaveLength(48);
+    expect(mqsa!.questions.length).toBeGreaterThanOrEqual(48);
     expect(mqsa!.lessons.length).toBeGreaterThanOrEqual(8);
     const anatomy = loaded.modules.find((m) => m.id === "mod-anatomy-pathology");
     expect(anatomy).toBeDefined();

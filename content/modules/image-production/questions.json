@@ -7074,6 +7074,137 @@
         ]
       },
       "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ip-117",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-unit-components"
+      ],
+      "familyId": "fam-ip-fa-supporting-structures",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Besides the generator, control, tube housing assembly, and beam-limiting device, what else does MQSA include in the minimum mammography-unit assemblage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Supporting structures",
+          "rationale": "Correct. Supporting structures are explicitly part of the minimum unit definition."
+        },
+        {
+          "id": "b",
+          "text": "A hospital cafeteria tray line",
+          "rationale": "Not part of the mammography-unit definition."
+        },
+        {
+          "id": "c",
+          "text": "A non-mammography fluoroscopy C-arm",
+          "rationale": "General fluoroscopy hardware is not part of the minimum mammography unit."
+        },
+        {
+          "id": "d",
+          "text": "A consumer inkjet photo printer",
+          "rationale": "Not part of the unit assemblage."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA's minimum mammography unit includes an x-ray generator, an x-ray control, a tube housing assembly, a beam-limiting device, and supporting structures.",
+      "variants": {
+        "simpler": "Supporting structures are part of the minimum unit.",
+        "example": "Listing only a tube and generator without supporting structures is incomplete."
+      },
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ip-118",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-unit-components"
+      ],
+      "familyId": "fam-ip-fb-beam-limiter-role",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "In the MQSA minimum mammography-unit list, what is the beam-limiting device's job along the primary beam path?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Produce the x-ray beam inside the tube housing",
+          "rationale": "X-ray production is the tube housing assembly's role, not the beam limiter."
+        },
+        {
+          "id": "b",
+          "text": "Shape and restrict the useful beam before it reaches the patient/compression assembly",
+          "rationale": "Correct. The beam-limiting device sits in the beam path as the component that limits/shapes the field."
+        },
+        {
+          "id": "c",
+          "text": "Store FFDM images in PACS",
+          "rationale": "Image storage is informatics equipment, not a unit beam-path component."
+        },
+        {
+          "id": "d",
+          "text": "Generate the high voltage without a tube",
+          "rationale": "High-voltage generation is the generator's role."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "MQSA's minimum unit includes a beam-limiting device with the generator, control, tube housing assembly, and supporting structures. Along the primary beam path, the beam-limiting device restricts/shapes the useful beam before compression and the receptor.",
+      "variants": {
+        "simpler": "The beam limiter shapes the useful x-ray field.",
+        "example": "Without a beam-limiting device, the assemblage is not a complete MQSA unit."
+      },
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-compression-device"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }

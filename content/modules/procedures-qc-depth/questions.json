@@ -16,7 +16,7 @@
         {
           "id": "a",
           "text": "At least weekly",
-          "rationale": "Correct. § 900.12(e)(2) sets a weekly floor for screen-film phantom image testing."
+          "rationale": "Correct. \u00a7 900.12(e)(2) sets a weekly floor for screen-film phantom image testing."
         },
         {
           "id": "b",
@@ -30,7 +30,7 @@
         },
         {
           "id": "d",
-          "text": "Never—phantoms are optional visual aids",
+          "text": "Never\u2014phantoms are optional visual aids",
           "rationale": "Phantom image quality testing is a required QC test in the cited regulation."
         }
       ],
@@ -76,7 +76,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "A required phantom image QC test is outside action limits. What does § 900.12(e)(8) require before patients are imaged with the failed component?",
+      "stem": "A required phantom image QC test is outside action limits. What does \u00a7 900.12(e)(8) require before patients are imaged with the failed component?",
       "choices": [
         {
           "id": "a",
@@ -103,7 +103,7 @@
       "explanation": "Failed phantom image testing requires corrective action before further examinations on the failed component.",
       "variants": {
         "simpler": "Failed phantom image testing requires corrective action before further examinations on the failed component.",
-        "example": "A required phantom image QC test is outside action limits. What does § 900.12(e)(8) require before patients are imaged with the failed component?"
+        "example": "A required phantom image QC test is outside action limits. What does \u00a7 900.12(e)(8) require before patients are imaged with the failed component?"
       },
       "evidenceIds": [
         "ev-pqd-phantom-before-exams"
@@ -343,7 +343,7 @@
         {
           "id": "a",
           "text": "To keep the image receptor's response within the program's expected operating range",
-          "rationale": "Correct—purpose-level; steps stay in the manual."
+          "rationale": "Correct\u2014purpose-level; steps stay in the manual."
         },
         {
           "id": "b",
@@ -476,7 +476,7 @@
         {
           "id": "a",
           "text": "Average glandular dose shall not exceed 3.0 mGy",
-          "rationale": "Correct—explicitly preserved in (e)(6) and Alt #24."
+          "rationale": "Correct\u2014explicitly preserved in (e)(6) and Alt #24."
         },
         {
           "id": "b",
@@ -539,7 +539,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "For nonscreen-film modalities, to what should QC results be compared under § 900.12(e)(8)(i)?",
+      "stem": "For nonscreen-film modalities, to what should QC results be compared under \u00a7 900.12(e)(8)(i)?",
       "choices": [
         {
           "id": "a",
@@ -566,7 +566,7 @@
       "explanation": "Nonscreen-film QC results are compared to manufacturer-recommended action limits.",
       "variants": {
         "simpler": "Nonscreen-film QC results are compared to manufacturer-recommended action limits.",
-        "example": "For nonscreen-film modalities, to what should QC results be compared under § 900.12(e)(8)(i)?"
+        "example": "For nonscreen-film modalities, to what should QC results be compared under \u00a7 900.12(e)(8)(i)?"
       },
       "evidenceIds": [
         "ev-pqd-action-limits-compare"
@@ -604,7 +604,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "What minimum compression force must be available under § 900.12(e)(4)(iii)(A)?",
+      "stem": "What minimum compression force must be available under \u00a7 900.12(e)(4)(iii)(A)?",
       "choices": [
         {
           "id": "a",
@@ -631,7 +631,7 @@
       "explanation": "At least 111 N (25 lb) of compression force shall be provided.",
       "variants": {
         "simpler": "At least 111 N (25 lb) of compression force shall be provided.",
-        "example": "What minimum compression force must be available under § 900.12(e)(4)(iii)(A)?"
+        "example": "What minimum compression force must be available under \u00a7 900.12(e)(4)(iii)(A)?"
       },
       "evidenceIds": [
         "ev-pqd-compression-force"
@@ -673,7 +673,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Between 111 N and 200 N (25–45 lb)",
+          "text": "Between 111 N and 200 N (25\u201345 lb)",
           "rationale": "Correct. Initial power-drive maximum must fall between 111 and 200 N."
         },
         {
@@ -739,7 +739,7 @@
         {
           "id": "a",
           "text": "Before further examinations",
-          "rationale": "Correct—(e)(4)(iii) is on the before-further-exams list."
+          "rationale": "Correct\u2014(e)(4)(iii) is on the before-further-exams list."
         },
         {
           "id": "b",
@@ -753,7 +753,7 @@
         },
         {
           "id": "d",
-          "text": "Never—compression QC is optional",
+          "text": "Never\u2014compression QC is optional",
           "rationale": "Compression device performance is a required test."
         }
       ],
@@ -864,7 +864,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "What must facilities establish under § 900.12(e)(11) regarding cleanliness?",
+      "stem": "What must facilities establish under \u00a7 900.12(e)(11) regarding cleanliness?",
       "choices": [
         {
           "id": "a",
@@ -891,7 +891,7 @@
       "explanation": "Facilities need cleanliness protocols and documentation at the stated frequencies.",
       "variants": {
         "simpler": "Facilities need cleanliness protocols and documentation at the stated frequencies.",
-        "example": "What must facilities establish under § 900.12(e)(11) regarding cleanliness?"
+        "example": "What must facilities establish under \u00a7 900.12(e)(11) regarding cleanliness?"
       },
       "evidenceIds": [
         "ev-pqd-facility-cleanliness"
@@ -930,7 +930,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Which viewing aids must be available to interpreting physicians under § 900.12(b)(14)–(15)?",
+      "stem": "Which viewing aids must be available to interpreting physicians under \u00a7 900.12(b)(14)\u2013(15)?",
       "choices": [
         {
           "id": "a",
@@ -957,7 +957,7 @@
       "explanation": "Hot-lights and appropriate masking devices must be available for interpretation.",
       "variants": {
         "simpler": "Hot-lights and appropriate masking devices must be available for interpretation.",
-        "example": "Which viewing aids must be available to interpreting physicians under § 900.12(b)(14)–(15)?"
+        "example": "Which viewing aids must be available to interpreting physicians under \u00a7 900.12(b)(14)\u2013(15)?"
       },
       "evidenceIds": [
         "ev-pqd-hotlights-masking"
@@ -1061,7 +1061,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Besides having cleanliness protocols, what documentation does § 900.12(e)(11) require?",
+      "stem": "Besides having cleanliness protocols, what documentation does \u00a7 900.12(e)(11) require?",
       "choices": [
         {
           "id": "a",
@@ -1088,7 +1088,7 @@
       "explanation": "Cleaning must be documented at the protocol frequencies.",
       "variants": {
         "simpler": "Cleaning must be documented at the protocol frequencies.",
-        "example": "Besides having cleanliness protocols, what documentation does § 900.12(e)(11) require?"
+        "example": "Besides having cleanliness protocols, what documentation does \u00a7 900.12(e)(11) require?"
       },
       "evidenceIds": [
         "ev-pqd-facility-cleanliness"
@@ -1126,7 +1126,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Under § 900.12(e)(3)(ii), when must reasons for a change in total repeat/reject rate be determined?",
+      "stem": "Under \u00a7 900.12(e)(3)(ii), when must reasons for a change in total repeat/reject rate be determined?",
       "choices": [
         {
           "id": "a",
@@ -1140,7 +1140,7 @@
         },
         {
           "id": "c",
-          "text": "Never—rates are ignored",
+          "text": "Never\u2014rates are ignored",
           "rationale": "The regulation requires investigation when the change exceeds 2.0%."
         },
         {
@@ -1153,7 +1153,7 @@
       "explanation": "A >2.0% change in total repeat/reject rate triggers reason determination.",
       "variants": {
         "simpler": "A >2.0% change in total repeat/reject rate triggers reason determination.",
-        "example": "Under § 900.12(e)(3)(ii), when must reasons for a change in total repeat/reject rate be determined?"
+        "example": "Under \u00a7 900.12(e)(3)(ii), when must reasons for a change in total repeat/reject rate be determined?"
       },
       "evidenceIds": [
         "ev-pqd-repeat-analysis"
@@ -1191,7 +1191,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "After identifying reasons for a repeat/reject rate change, what else does § 900.12(e)(3)(ii) require?",
+      "stem": "After identifying reasons for a repeat/reject rate change, what else does \u00a7 900.12(e)(3)(ii) require?",
       "choices": [
         {
           "id": "a",
@@ -1218,7 +1218,7 @@
       "explanation": "Corrective actions and assessment of their results must be recorded.",
       "variants": {
         "simpler": "Corrective actions and assessment of their results must be recorded.",
-        "example": "After identifying reasons for a repeat/reject rate change, what else does § 900.12(e)(3)(ii) require?"
+        "example": "After identifying reasons for a repeat/reject rate change, what else does \u00a7 900.12(e)(3)(ii) require?"
       },
       "evidenceIds": [
         "ev-pqd-repeat-analysis"
@@ -1326,7 +1326,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Repeat analysis tracks rejected/repeated exposures; EQUIP periodic review samples clinical image quality attributes—different jobs",
+          "text": "Repeat analysis tracks rejected/repeated exposures; EQUIP periodic review samples clinical image quality attributes\u2014different jobs",
           "rationale": "Correct at principle level taught across modules."
         },
         {
@@ -1458,7 +1458,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Facility cleanliness protocols in § 900.12(e)(11)",
+          "text": "Facility cleanliness protocols in \u00a7 900.12(e)(11)",
           "rationale": "Correct. View box cleanliness is part of facility cleanliness protocols."
         },
         {
@@ -1524,7 +1524,7 @@
         {
           "id": "a",
           "text": "Before further examinations",
-          "rationale": "Correct—(e)(6) is listed in (e)(8)(ii)(A)."
+          "rationale": "Correct\u2014(e)(6) is listed in (e)(8)(ii)(A)."
         },
         {
           "id": "b",
@@ -1865,7 +1865,7 @@
         {
           "id": "d",
           "text": "Ignored because physicists never measure them",
-          "rationale": "They may be measured—but criteria stay in manuals."
+          "rationale": "They may be measured\u2014but criteria stay in manuals."
         }
       ],
       "correctChoiceId": "a",
@@ -1914,7 +1914,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Diagnostic exams use individualized additional angles; a 90° ML is often used when triangulation/localization is needed",
+          "text": "Diagnostic exams use individualized additional angles; a 90\u00b0 ML is often used when triangulation/localization is needed",
           "rationale": "Correct at the sourced purpose level."
         },
         {
@@ -1981,7 +1981,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Needs accessible sourced criteria / ACR link-only—not invented in this app",
+          "text": "Needs accessible sourced criteria / ACR link-only\u2014not invented in this app",
           "rationale": "Correct. ML/LM evaluation criteria remain ACR/needs-source; Mammo does not invent them."
         },
         {
@@ -2047,8 +2047,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "A 90° mediolateral (ML) view",
-          "rationale": "Correct—purpose-level link-only fact."
+          "text": "A 90\u00b0 mediolateral (ML) view",
+          "rationale": "Correct\u2014purpose-level link-only fact."
         },
         {
           "id": "b",
@@ -2067,9 +2067,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "A 90° ML is frequently obtained for diagnostic triangulation (link-only citation).",
+      "explanation": "A 90\u00b0 ML is frequently obtained for diagnostic triangulation (link-only citation).",
       "variants": {
-        "simpler": "A 90° ML is frequently obtained for diagnostic triangulation (link-only citation).",
+        "simpler": "A 90\u00b0 ML is frequently obtained for diagnostic triangulation (link-only citation).",
         "example": "Link-only clinical implementation literature associates which additional view with diagnostic triangulation?"
       },
       "evidenceIds": [
@@ -2243,7 +2243,7 @@
         {
           "id": "a",
           "text": "When lateral/axillary-tail tissue of interest was not shown on the standard CC",
-          "rationale": "Correct—name and diagnostic 'more angles' framing."
+          "rationale": "Correct\u2014name and diagnostic 'more angles' framing."
         },
         {
           "id": "b",
@@ -2505,7 +2505,7 @@
         {
           "id": "a",
           "text": "Localizing skin lesions",
-          "rationale": "Correct—link-only purpose-level fact."
+          "rationale": "Correct\u2014link-only purpose-level fact."
         },
         {
           "id": "b",
@@ -2636,7 +2636,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Left as ACR/needs-source (link-only pointers)—not invented here",
+          "text": "Left as ACR/needs-source (link-only pointers)\u2014not invented here",
           "rationale": "Correct. Technique criteria remain outside redistributable public-domain text."
         },
         {
@@ -2897,17 +2897,17 @@
       "choices": [
         {
           "id": "a",
-          "text": "Yes—the final time-out is just prior to the procedure regardless of where it is performed",
+          "text": "Yes\u2014the final time-out is just prior to the procedure regardless of where it is performed",
           "rationale": "Correct. Time-out applies before the procedure wherever it is performed."
         },
         {
           "id": "b",
-          "text": "No—time-outs exist only in hospital ORs with general anesthesia",
+          "text": "No\u2014time-outs exist only in hospital ORs with general anesthesia",
           "rationale": "AHRQ text is not limited to ORs."
         },
         {
           "id": "c",
-          "text": "No—MQSA bans time-outs",
+          "text": "No\u2014MQSA bans time-outs",
           "rationale": "MQSA does not ban time-outs."
         },
         {
@@ -2963,7 +2963,7 @@
         {
           "id": "a",
           "text": "To estimate lesion location using multiple projections before targeted ultrasound or biopsy",
-          "rationale": "Correct—purpose level without inventing cookbook steps."
+          "rationale": "Correct\u2014purpose level without inventing cookbook steps."
         },
         {
           "id": "b",
@@ -3035,7 +3035,7 @@
         {
           "id": "b",
           "text": "Triangulation is illegal",
-          "rationale": "It is a standard localization concept—methods still need lawful sources."
+          "rationale": "It is a standard localization concept\u2014methods still need lawful sources."
         },
         {
           "id": "c",
@@ -3096,8 +3096,8 @@
       "choices": [
         {
           "id": "a",
-          "text": "90° ML",
-          "rationale": "Correct. A 90° ML is frequently obtained for diagnostic triangulation."
+          "text": "90\u00b0 ML",
+          "rationale": "Correct. A 90\u00b0 ML is frequently obtained for diagnostic triangulation."
         },
         {
           "id": "b",
@@ -3116,9 +3116,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "A 90° ML is frequently obtained for diagnostic triangulation.",
+      "explanation": "A 90\u00b0 ML is frequently obtained for diagnostic triangulation.",
       "variants": {
-        "simpler": "A 90° ML is frequently obtained for diagnostic triangulation.",
+        "simpler": "A 90\u00b0 ML is frequently obtained for diagnostic triangulation.",
         "example": "Which additional mammographic view is cited (link-only) as frequently obtained for diagnostic triangulation?"
       },
       "evidenceIds": [
@@ -3135,6 +3135,529 @@
             "actor": "ai-assisted",
             "kind": "revision",
             "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-049",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-visual-checklist"
+      ],
+      "familyId": "fam-pqd-fa-clean-scope",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Under \u00a7 900.12(e)(11), facility cleanliness protocols must address which set of items?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Darkroom, screen, and view box cleanliness",
+          "rationale": "Correct. Federal text names darkroom, screen, and view box cleanliness protocols with documented frequencies."
+        },
+        {
+          "id": "b",
+          "text": "Only the digital detector flat-field map",
+          "rationale": "Detector calibration lives elsewhere; (e)(11) names darkroom/screen/view box cleanliness."
+        },
+        {
+          "id": "c",
+          "text": "Only the medical physicist's annual binder",
+          "rationale": "Cleanliness protocols are a facility QA duty, not only the annual survey binder."
+        },
+        {
+          "id": "d",
+          "text": "Only the reception waiting-area floors",
+          "rationale": "The cited requirement is about imaging cleanliness surfaces, not waiting rooms."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\u00a7 900.12(e)(11) requires adequate protocols for maintaining darkroom, screen, and view box cleanliness and documentation that cleaning occurs at the specified frequencies.",
+      "variants": {
+        "simpler": "Darkroom, screens, and view boxes need cleanliness protocols.",
+        "example": "A missing view-box cleaning log is an (e)(11) documentation gap."
+      },
+      "evidenceIds": [
+        "ev-pqd-facility-cleanliness"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-050",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-visual-checklist"
+      ],
+      "familyId": "fam-pqd-fb-clean-frequency-docs",
+      "pool": "form-b",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A cleanliness protocol exists on paper, but nobody can show that cleaning actually happened. Which \u00a7 900.12(e)(11) requirement is missing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Documentation that cleaning is performed at the frequencies specified in the protocols",
+          "rationale": "Correct. The rule requires both protocols and documentation that cleaning occurs at those frequencies."
+        },
+        {
+          "id": "b",
+          "text": "A requirement to clean only once per accreditation cycle",
+          "rationale": "Frequencies come from the facility protocols; the gap here is missing documentation of performance."
+        },
+        {
+          "id": "c",
+          "text": "A ban on cleaning view boxes entirely",
+          "rationale": "View boxes are among the surfaces that need cleanliness protocols."
+        },
+        {
+          "id": "d",
+          "text": "A rule that only patients may clean the darkroom",
+          "rationale": "Not a federal requirement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\u00a7 900.12(e)(11) requires facilities to establish cleanliness protocols and to document that cleaning procedures are performed at the frequencies those protocols specify.",
+      "variants": {
+        "simpler": "Protocols are not enough \u2014 document that cleaning actually happened on schedule.",
+        "example": "A blank view-box cleaning log fails (e)(11) documentation."
+      },
+      "evidenceIds": [
+        "ev-pqd-facility-cleanliness"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-053",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-detector-calibration"
+      ],
+      "familyId": "fam-pqd-fa-detector-not-optional",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A lead technologist proposes skipping manufacturer detector calibration because 'our phantom still looks fine.' What is the best principle-level reply grounded in (e)(6)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Detector calibration is part of keeping the digital QA program substantially the same as the manufacturer's recommended program",
+          "rationale": "Correct. (e)(6) ties digital QA to the manufacturer's recommended program, which includes detector calibration tasks."
+        },
+        {
+          "id": "b",
+          "text": "Phantom images abolish every other digital QC task forever",
+          "rationale": "Phantom testing does not erase the rest of the manufacturer QA program."
+        },
+        {
+          "id": "c",
+          "text": "Detector calibration is optional if the waiting room is busy",
+          "rationale": "Workload does not waive manufacturer QA elements."
+        },
+        {
+          "id": "d",
+          "text": "Only film facilities ever calibrate detectors",
+          "rationale": "Detector calibration is a digital/nonscreen-film concern."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "For nonscreen-film systems, \u00a7 900.12(e)(6) requires a QA program substantially the same as the image-receptor manufacturer's recommended program. Detector calibration belongs in that program path so receptor response stays in the expected range.",
+      "variants": {
+        "simpler": "A good phantom does not let you skip manufacturer detector calibration.",
+        "example": "Follow the unit's digital QA manual even when phantoms are passing."
+      },
+      "evidenceIds": [
+        "ev-pqd-digital-manufacturer-qc",
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-054",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-detector-calibration"
+      ],
+      "familyId": "fam-pqd-fb-compare-mfr-limits",
+      "pool": "form-b",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "After running a nonscreen-film QC test tied to detector performance, the spreadsheet has numbers but no pass/fail column. What comparison does \u00a7 900.12(e)(8)(i) require?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Compare results to the manufacturer's recommended action limits",
+          "rationale": "Correct. For nonscreen-film modalities, QC results are compared to the manufacturer's recommended action limits."
+        },
+        {
+          "id": "b",
+          "text": "Compare results only to last year's birthday-party attendance",
+          "rationale": "Irrelevant comparison."
+        },
+        {
+          "id": "c",
+          "text": "Skip comparison if the numbers look 'about right'",
+          "rationale": "Informal eyeballing is not the cited standard."
+        },
+        {
+          "id": "d",
+          "text": "Compare results only to USPSTF screening ages",
+          "rationale": "Screening ages are not QC action limits."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "After QC tests, facilities compare results to specified action limits; for nonscreen-film modalities, that means the manufacturer's recommended action limits.",
+      "variants": {
+        "simpler": "Digital QC numbers must be judged against manufacturer action limits.",
+        "example": "A detector metric without a manufacturer limit comparison is incomplete QC."
+      },
+      "evidenceIds": [
+        "ev-pqd-action-limits-compare"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-055",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-physicist-tests"
+      ],
+      "familyId": "fam-pqd-fa-phys-includes-phantom",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Besides the annual tests in (e)(5) and (e)(6), what weekly QC test must the annual medical physicist survey also include checks for?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The weekly phantom image quality test in (e)(2)",
+          "rationale": "Correct. The annual survey must include tests ensuring the facility meets annual QA requirements and the weekly phantom image quality test."
+        },
+        {
+          "id": "b",
+          "text": "Only the receptionist phone script audit",
+          "rationale": "Not part of the physicist survey scope."
+        },
+        {
+          "id": "c",
+          "text": "Only USPSTF age-eligibility counseling",
+          "rationale": "Screening counseling is not the physicist survey requirement cited here."
+        },
+        {
+          "id": "d",
+          "text": "Only social-media marketing review",
+          "rationale": "Irrelevant to QC survey scope."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The annual medical physicist survey must include tests ensuring the facility meets the annual QA requirements in (e)(5) and (e)(6) and the weekly phantom image quality test in (e)(2).",
+      "variants": {
+        "simpler": "The annual survey still covers the weekly phantom test.",
+        "example": "Physicist survey paperwork that ignores phantom QC is incomplete."
+      },
+      "evidenceIds": [
+        "ev-pqd-phys-survey-includes-annual"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-056",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-physicist-tests"
+      ],
+      "familyId": "fam-pqd-fb-phys-snr-not-here",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Where does this module put manufacturer/ACR pass-fail tables for digital SNR/CNR and MTF?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Link-only to ACR DMQC or manufacturer manuals; not redistributed as scored tables here",
+          "rationale": "Correct. Digital SNR/CNR/MTF tables remain link-only manual content."
+        },
+        {
+          "id": "b",
+          "text": "Fully reprinted with numeric cut-scores for every vendor",
+          "rationale": "Those tables are not redistributed here."
+        },
+        {
+          "id": "c",
+          "text": "Replaced by a single universal 50% SNR rule invented for the course",
+          "rationale": "Invented cut-scores are forbidden."
+        },
+        {
+          "id": "d",
+          "text": "Ignored because physicists never evaluate digital units",
+          "rationale": "Physicists do evaluate digital units; the detailed tables just stay in the manuals."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "SNR/CNR, MTF, and related digital-specific physicist metrics are specified in the ACR Digital Mammography QC Manual or manufacturer QC materials and are not redistributed as pass/fail tables in this module.",
+      "variants": {
+        "simpler": "SNR/CNR/MTF cut-scores stay in the QC manuals.",
+        "example": "Use your unit's ACR/manufacturer tables during survey prep."
+      },
+      "evidenceIds": [
+        "ev-pqd-phys-snr-cnr-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-057",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-triangulation"
+      ],
+      "familyId": "fam-pqd-fa-triang-more-angles",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "At a purpose level, how does NCI distinguish diagnostic mammography imaging needs from screening when a lump or change is being evaluated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diagnostic work uses images from more angles than screening",
+          "rationale": "Correct. NCI states diagnostic mammography requires images from more angles than screening."
+        },
+        {
+          "id": "b",
+          "text": "Diagnostic work always uses fewer images than screening",
+          "rationale": "Opposite of the cited distinction."
+        },
+        {
+          "id": "c",
+          "text": "Diagnostic work never uses mammography at all",
+          "rationale": "Diagnostic mammography is still mammography."
+        },
+        {
+          "id": "d",
+          "text": "Diagnostic work replaces all ultrasound forever",
+          "rationale": "NCI's angle distinction does not abolish ultrasound pathways."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI explains that diagnostic mammography evaluates a lump or other change and requires images from more angles than screening mammography \u2014 the purpose-level rationale for multi-view localization/triangulation pathways.",
+      "variants": {
+        "simpler": "Diagnostic exams use more angles than screening.",
+        "example": "A lump workup may add views beyond the standard screening pair."
+      },
+      "evidenceIds": [
+        "ev-pqd-nci-more-angles",
+        "ev-pqd-mqsa-diagnostic-individualized"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pqd-058",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-triangulation"
+      ],
+      "familyId": "fam-pqd-fb-triang-individualized",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "For MQSA audit definitions, how is a diagnostic mammogram framed relative to routine screening views?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As individualized views for symptoms, signs, or abnormal screening findings",
+          "rationale": "Correct. Diagnostic mammograms are individualized for clinical concerns or abnormal screening results."
+        },
+        {
+          "id": "b",
+          "text": "As an identical four-view set that never changes",
+          "rationale": "Diagnostic imaging is individualized, not a fixed screening clone."
+        },
+        {
+          "id": "c",
+          "text": "As ultrasound-only encounters with no mammographic views",
+          "rationale": "The definition still concerns mammographic diagnostic exams."
+        },
+        {
+          "id": "d",
+          "text": "As physicist survey paperwork only",
+          "rationale": "Not an audit definition of diagnostic mammography."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA audit definitions treat a diagnostic mammogram as individualized views for symptoms, signs, or abnormal screening findings, which is the regulatory frame supporting multi-view localization/triangulation pathways.",
+      "variants": {
+        "simpler": "Diagnostic mammograms use individualized views, not a rigid screening script.",
+        "example": "A lump workup can add views beyond screening CC/MLO."
+      },
+      "evidenceIds": [
+        "ev-pqd-mqsa-diagnostic-individualized",
+        "ev-pqd-nci-more-angles"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
           },
           {
             "at": "2026-10-06",

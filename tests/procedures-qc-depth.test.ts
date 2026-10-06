@@ -7,13 +7,15 @@ const loaded = loadRepoContent();
 const mod = loaded.modules.find((m) => m.id === "mod-procedures-qc-depth");
 
 describe("procedures-qc-depth module", () => {
-  it("loads with lessons, cards, and a practice-only question pool", () => {
+  it("loads with lessons, cards, and practice plus reserved-form items", () => {
     expect(loaded.ok).toBe(true);
     expect(mod).toBeDefined();
     expect(mod!.lessons.length).toBeGreaterThanOrEqual(10);
     expect(mod!.questions.length).toBeGreaterThanOrEqual(40);
     expect(mod!.cards.length).toBeGreaterThanOrEqual(30);
-    expect(mod!.questions.every((q) => q.pool === "practice")).toBe(true);
+    expect(mod!.questions.some((q) => q.pool === "practice")).toBe(true);
+    expect(mod!.questions.some((q) => q.pool === "form-a")).toBe(true);
+    expect(mod!.questions.some((q) => q.pool === "form-b")).toBe(true);
   });
 
   it("keeps AI-assisted drafts out of the validated pool", () => {
