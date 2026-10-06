@@ -550,7 +550,7 @@
       "evidenceIds": ["ev-mqsa-key-features-fda"]
     },
     {
-      "id": "q-mqsa-040", "revision": 1, "objectiveIds": ["obj-mqsa-rt-initial"], "familyId": "fam-forma-rt-25", "pool": "form-a", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-040", "revision": 1, "objectiveIds": ["obj-mqsa-rt-initial"], "familyId": "fam-mqsa-direct-supervision", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
       "stem": "How many examinations under direct supervision are part of a technologist's initial MQSA mammography requirements?",
       "choices": [
         { "id": "a", "text": "8", "rationale": "8 hours is the per-modality training minimum." },
@@ -564,7 +564,7 @@
       "evidenceIds": ["ev-mqsa-rt-initial-training"]
     },
     {
-      "id": "q-mqsa-041", "revision": 1, "objectiveIds": ["obj-mqsa-rt-continuing"], "familyId": "fam-forma-ce-short", "pool": "form-a", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-041", "revision": 1, "objectiveIds": ["obj-mqsa-rt-continuing"], "familyId": "fam-mqsa-ce-calc", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
       "stem": "At inspection, a technologist has 11 mammography CEUs in the 36-month window. What is required before she resumes unsupervised mammography?",
       "choices": [
         { "id": "a", "text": "Obtain enough CEUs to total at least 15 in the previous 3 years, with at least 6 per modality used", "rationale": "Correct. § 900.12(a)(2)(iii)(D)." },
@@ -592,7 +592,7 @@
       "evidenceIds": ["ev-mqsa-assessment-categories"]
     },
     {
-      "id": "q-mqsa-043", "revision": 1, "objectiveIds": ["obj-mqsa-density-reporting"], "familyId": "fam-forma-not-dense", "pool": "form-a", "difficultyIntent": "apply", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-043", "revision": 1, "objectiveIds": ["obj-mqsa-density-reporting"], "familyId": "fam-mqsa-density-map", "pool": "practice", "difficultyIntent": "apply", "kind": "single", "estSeconds": 55,
       "stem": "A report states 'There are scattered areas of fibroglandular density.' The patient's lay summary must say:",
       "choices": [
         { "id": "a", "text": "'Your breast tissue is not dense.'", "rationale": "Correct. Scattered fibroglandular density maps to the not-dense paragraph, § 900.12(c)(2)(iii)." },
@@ -606,7 +606,7 @@
       "evidenceIds": ["ev-mqsa-density-statements"]
     },
     {
-      "id": "q-mqsa-044", "revision": 1, "objectiveIds": ["obj-mqsa-image-labeling"], "familyId": "fam-forma-label-list", "pool": "form-a", "difficultyIntent": "recall", "kind": "single", "estSeconds": 50,
+      "id": "q-mqsa-044", "revision": 1, "objectiveIds": ["obj-mqsa-image-labeling"], "familyId": "fam-pos-label-required-bits", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 50,
       "stem": "Which item is required on every mammographic image under MQSA?",
       "choices": [
         { "id": "a", "text": "The interpreting physician's name", "rationale": "The interpreting physician is named in the report, not on the image." },
@@ -620,7 +620,7 @@
       "evidenceIds": ["ev-mqsa-image-identification"]
     },
     {
-      "id": "q-mqsa-045", "revision": 1, "objectiveIds": ["obj-mqsa-records-transfer"], "familyId": "fam-forma-transfer-days", "pool": "form-a", "difficultyIntent": "recall", "kind": "single", "estSeconds": 40,
+      "id": "q-mqsa-045", "revision": 1, "objectiveIds": ["obj-mqsa-records-transfer"], "familyId": "fam-qcr-transfer", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 40,
       "stem": "Within how many calendar days must a facility transfer original mammograms after the patient requests it?",
       "choices": [
         { "id": "a", "text": "7", "rationale": "7 days applies to Suspicious or Highly Suggestive results." },
@@ -648,7 +648,7 @@
       "evidenceIds": ["ev-mqsa-positive-mammogram", "ev-mqsa-outcomes-audit"]
     },
     {
-      "id": "q-mqsa-047", "revision": 1, "objectiveIds": ["obj-mqsa-required-policies"], "familyId": "fam-forma-consumer", "pool": "form-a", "difficultyIntent": "understand", "kind": "case", "estSeconds": 70,
+      "id": "q-mqsa-047", "revision": 1, "objectiveIds": ["obj-mqsa-required-policies"], "familyId": "fam-qcr-consumer", "pool": "practice", "difficultyIntent": "understand", "kind": "case", "estSeconds": 70,
       "stem": "A referring physician calls to complain that a patient's mammography report never arrived. Under MQSA, who counts as a 'consumer' who may complain?",
       "choices": [
         { "id": "a", "text": "Only the patient", "rationale": "Consumers include representatives of the patient." },
@@ -662,7 +662,7 @@
       "evidenceIds": ["ev-mqsa-consumer-complaints", "ev-mqsa-adverse-event"]
     },
     {
-      "id": "q-mqsa-048", "revision": 1, "objectiveIds": ["obj-mqsa-equipment-qc", "obj-ip-unit-components"], "familyId": "fam-forma-prohibited", "pool": "form-a", "difficultyIntent": "understand", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-048", "revision": 1, "objectiveIds": ["obj-mqsa-equipment-qc", "obj-ip-unit-components"], "familyId": "fam-ip-prohibited", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 55,
       "stem": "A clinic proposes adding a mammography attachment to its general-purpose radiographic unit. Under MQSA, this unit:",
       "choices": [
         { "id": "a", "text": "May be used if the physicist approves the attachment", "rationale": "The prohibition applies regardless of physicist evaluation." },

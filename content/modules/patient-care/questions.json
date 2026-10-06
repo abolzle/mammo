@@ -2831,8 +2831,8 @@
       "objectiveIds": [
         "obj-pc-results-pathway"
       ],
-      "familyId": "fam-pc-lay-30-form",
-      "pool": "form-a",
+      "familyId": "fam-pc-lay-30",
+      "pool": "practice",
       "difficultyIntent": "apply",
       "kind": "case",
       "estSeconds": 70,
@@ -2886,6 +2886,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice family fam-pc-lay-30: closely mirrors practice item q-pc-022, so it is not an unseen reserved item. Stem, choices, and key unchanged."
           }
         ]
       }
@@ -2896,8 +2903,8 @@
       "objectiveIds": [
         "obj-pp-screening-vs-diagnostic"
       ],
-      "familyId": "fam-pc-screen-def-form",
-      "pool": "form-a",
+      "familyId": "fam-pc-dx-def",
+      "pool": "practice",
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
@@ -2951,6 +2958,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice family fam-pc-dx-def: closely mirrors practice item q-pc-015, so it is not an unseen reserved item. Stem, choices, and key unchanged."
           }
         ]
       }
@@ -2961,8 +2975,8 @@
       "objectiveIds": [
         "obj-mqsa-density-reporting"
       ],
-      "familyId": "fam-pc-dense-date-form",
-      "pool": "form-a",
+      "familyId": "fam-qcr-fr",
+      "pool": "practice",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
@@ -3016,6 +3030,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice family fam-qcr-fr: closely mirrors practice item q-qcr-044, so it is not an unseen reserved item. Stem, choices, and key unchanged."
           }
         ]
       }
@@ -3026,8 +3047,8 @@
       "objectiveIds": [
         "obj-mqsa-required-policies"
       ],
-      "familyId": "fam-pc-infection-mqsa-form",
-      "pool": "form-a",
+      "familyId": "fam-pc-infection-mqsa",
+      "pool": "practice",
       "difficultyIntent": "apply",
       "kind": "case",
       "estSeconds": 55,
@@ -3081,6 +3102,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice family fam-pc-infection-mqsa: closely mirrors practice item q-pc-034, so it is not an unseen reserved item. Stem, choices, and key unchanged."
           }
         ]
       }
@@ -3091,8 +3119,8 @@
       "objectiveIds": [
         "obj-pc-screening-guidelines"
       ],
-      "familyId": "fam-pc-uspstf-interval-form",
-      "pool": "form-a",
+      "familyId": "fam-pc-uspstf-interval",
+      "pool": "practice",
       "difficultyIntent": "apply",
       "kind": "case",
       "estSeconds": 55,
@@ -3147,6 +3175,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice family fam-pc-uspstf-interval: closely mirrors practice item q-pc-018, so it is not an unseen reserved item. Stem, choices, and key unchanged."
           }
         ]
       }
