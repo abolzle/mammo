@@ -1662,7 +1662,7 @@
       "visualIds": [
         "vis-pos-pnl-which-line"
       ],
-      "learnerQuestionCount": 9,
+      "learnerQuestionCount": 8,
       "validatedQuestionCount": 0,
       "gap": "blocked: no accessible source verifies the fact"
     },
@@ -1697,7 +1697,7 @@
       "visualIds": [
         "vis-pos-mlo-muscle"
       ],
-      "learnerQuestionCount": 7,
+      "learnerQuestionCount": 6,
       "validatedQuestionCount": 0,
       "gap": "blocked: no accessible source verifies the fact"
     },
@@ -1718,7 +1718,7 @@
         "q-pos-041"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1738,7 +1738,7 @@
         "q-pos-044"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 2,
+      "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1755,7 +1755,7 @@
         "q-pos-043"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 0,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
@@ -1805,7 +1805,7 @@
         "q-pos-040"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },

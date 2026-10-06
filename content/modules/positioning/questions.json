@@ -279,7 +279,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -289,6 +289,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence names CC and MLO as the accreditation pair and defines the positioning attribute, but does not describe the CC beam path or purpose; obj-pp-cc is blocked pending the ARRT-named ACR Clinical Image Quality reference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -337,7 +344,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -347,6 +354,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Key restates CC/MLO PNL criteria from a link-only guideline; obj-pp-cc is blocked until the ARRT-named ACR Clinical Image Quality reference (or an accessible equivalent) verifies them. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -395,7 +409,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -405,6 +419,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -453,7 +474,7 @@
         "ev-pos-acr-ciq-link-only"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -463,6 +484,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Key rests on placeholder (draft) evidence ev-pos-acr-ciq-link-only rather than a checked source record. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -512,7 +540,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -522,6 +550,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence describes PNL and pectoralis appearance on the MLO but not the purpose of angling or axillary-tail inclusion; obj-pp-mlo is blocked pending the ARRT-named ACR Clinical Image Quality reference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -570,7 +605,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -580,6 +615,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on MLO pectoralis criteria that remain unverified while obj-pp-mlo is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -628,7 +670,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -638,6 +680,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on MLO PNL orientation criteria that remain unverified while obj-pp-mlo is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -744,7 +793,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -754,6 +803,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc and obj-pp-mlo are blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -802,7 +858,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -812,6 +868,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Applies the approximate 1 cm PNL comparison, which remains unverified while obj-pp-cc is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -860,7 +923,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -870,6 +933,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc is blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -918,7 +988,7 @@
         "ev-pos-pmc-pnl-cc-mlo"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -928,6 +998,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Depends on CC/MLO PNL criteria that remain unverified while obj-pp-cc and obj-pp-mlo are blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -1382,10 +1459,11 @@
         "example": "Also remember patient name + second identifier, date, view/laterality, facility, etc."
       },
       "evidenceIds": [
-        "ev-pos-mqsa-image-identification"
+        "ev-pos-mqsa-image-identification",
+        "ev-mqsa-image-identification"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1395,6 +1473,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: The positioning evidence record quotes only the view/laterality clause; added ev-mqsa-image-identification, which lists technologist identification. Needs a fresh maintainer source check against that record. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -1619,7 +1704,7 @@
         "ev-pos-mqsa-cc-mlo-submission"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1629,6 +1714,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Evidence defines screening as routine views and names CC/MLO for accreditation review, but does not state that the routine screening set is bilateral CC and MLO; the key is an inference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2261,7 +2353,7 @@
         "ev-pos-nci-screening-vs-diagnostic"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2271,6 +2363,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: Neither cited record discusses workstation zoom versus geometric magnification; the key is not supported by the evidence. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2320,7 +2419,7 @@
         "ev-pos-mqsa-screening-diagnostic-audit"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2330,6 +2429,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited public MQSA/NCI evidence."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Cited evidence defines diagnostic exams as individualized but does not itself say magnification is used for them; key is an inference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2378,7 +2484,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2388,6 +2494,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The positioning-attribute evidence does not state that the side of interest goes closer to the receptor; no accessible source is registered for lateral views. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2437,7 +2550,7 @@
         "ev-pos-nci-screening-vs-diagnostic"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2447,6 +2560,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence does not describe exaggerated CC views; no accessible source is registered for XCCL. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2496,7 +2616,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2506,6 +2626,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The cited evidence does not describe rolled views; no accessible source is registered for tangential/rolled views. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2554,7 +2681,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "draft",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2564,6 +2691,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Needs source. Audit downgrade from source_checked: The positioning-attribute evidence does not describe cleavage views; no accessible source is registered for this view. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2612,7 +2746,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2622,6 +2756,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Evidence supports the sufficient-tissue goal only; documenting limitations and following facility guidance are not in the cited record. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2672,7 +2813,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2682,6 +2823,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Evidence supports implant inquiry and reconstruction guidance; the broader surgical-history framing is an inference. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2731,7 +2879,7 @@
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2741,6 +2889,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Key rests partly on placeholder (draft) evidence ev-pos-acr-ciq-link-only. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
@@ -2792,7 +2947,7 @@
         "ev-pos-mqsa-image-identification"
       ],
       "review": {
-        "status": "source_checked",
+        "status": "auto_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -2802,6 +2957,13 @@
             "actor": "ai-assisted",
             "kind": "maintainer_source_check",
             "note": "AI-assisted draft source-checked against cited evidence. Items that teach detailed positioning criteria remain outside the clinically reviewed pool."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Audit downgrade from source_checked: Combines unverified CC/MLO PNL and pectoralis criteria with the labeling rule; obj-pp-cc and obj-pp-mlo are blocked. Earlier source_checked label was an AI-assisted check, not a maintainer check."
           }
         ]
       }
