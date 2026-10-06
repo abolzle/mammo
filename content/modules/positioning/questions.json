@@ -8658,6 +8658,1061 @@
           }
         ]
       }
+    },
+    {
+      "id": "q-pos-svl-001",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-cc-exaggeration",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "On a CC, the nipple is in profile but points well to the lateral side, and medial posterior tissue is missing from the image. Which evaluation point does this most directly fail?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Excessive exaggeration: the nipple is off midline and posterior tissue is lost",
+          "rationale": "Correct. Pulling the nipple far off midline with tissue loss is the exaggeration failure."
+        },
+        {
+          "id": "b",
+          "text": "Inframammary fold visibility",
+          "rationale": "The IMF is evaluated on the MLO, not the CC."
+        },
+        {
+          "id": "c",
+          "text": "Pectoralis must be visible on every CC",
+          "rationale": "The muscle shows on only about 30% of CCs; it is not a universal requirement."
+        },
+        {
+          "id": "d",
+          "text": "Motion",
+          "rationale": "Nothing in the description suggests blur."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The nipple should sit near midline (roughly 20\u00b0 or less off center). Exaggeration that moves it off midline and drops medial or lateral posterior tissue counts as excessive.",
+      "variants": {
+        "simpler": "Nipple far to one side plus missing tissue = too much exaggeration.",
+        "example": "A CC rotated so far laterally that inner tissue falls off the image fails even if the nipple is in profile."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-cc",
+        "ev-svl-brahim-cc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-002",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-cc-pnl-calc",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "calculation",
+      "estSeconds": 75,
+      "stem": "The MLO PNL measures 11.0 cm. Which CC PNL suggests the CC may be missing posterior tissue?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "10.6 cm",
+          "rationale": "Only 0.4 cm shorter, within the 1 cm tolerance."
+        },
+        {
+          "id": "b",
+          "text": "9.6 cm",
+          "rationale": "Correct. 1.4 cm shorter exceeds the 1 cm tolerance."
+        },
+        {
+          "id": "c",
+          "text": "10.2 cm",
+          "rationale": "0.8 cm shorter, still within 1 cm."
+        },
+        {
+          "id": "d",
+          "text": "11.0 cm",
+          "rationale": "Equal lengths meet the comparison."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "The CC PNL should be within about 1 cm of the MLO PNL. 11.0 \u2212 9.6 = 1.4 cm, so the CC is too short.",
+      "variants": {
+        "simpler": "Subtract: more than 1 cm short means flag it.",
+        "example": "MLO 11.0, CC 9.6: difference 1.4 cm, outside tolerance."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-pnl",
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-003",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-cc-no-muscle",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A CC shows a clear band of retroglandular fat along the posterior edge but no pectoralis muscle. Which statement is best?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The CC fails because the muscle must show on every CC",
+          "rationale": "The muscle appears on only about 30% of CCs."
+        },
+        {
+          "id": "b",
+          "text": "The image must be repeated as an MLO",
+          "rationale": "An MLO is a different projection, not a fix for the CC."
+        },
+        {
+          "id": "c",
+          "text": "Missing muscle alone is not a failure; posterior fat and the PNL comparison judge depth",
+          "rationale": "Correct. These are the posterior-depth checks."
+        },
+        {
+          "id": "d",
+          "text": "Retroglandular fat means the nipple is out of profile",
+          "rationale": "These are unrelated findings."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "ACR's positioning table notes the pectoralis shows on the CC in about 30% of women. Visible retroglandular fat and a PNL within 1 cm of the MLO indicate adequate posterior depth.",
+      "variants": {
+        "simpler": "No muscle on CC is common. Look for the fat band and compare PNLs.",
+        "example": "Fat band present and PNL 0.5 cm shorter than the MLO: posterior depth looks adequate."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-cc",
+        "ev-svl-brahim-cc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-004",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-nipple-each-breast",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "On the right CC the nipple is not in profile. Under ACR's positioning table, what would still satisfy the nipple criterion for the right breast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nipple in profile on the left CC",
+          "rationale": "The rule applies to each breast separately."
+        },
+        {
+          "id": "b",
+          "text": "Visible pectoralis on the right CC",
+          "rationale": "Muscle visibility is a separate criterion."
+        },
+        {
+          "id": "c",
+          "text": "A nipple marker on the left breast",
+          "rationale": "A marker on the other breast says nothing about this one."
+        },
+        {
+          "id": "d",
+          "text": "Nipple in profile on the right MLO",
+          "rationale": "Correct. In profile on at least one view of each breast."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "The criterion is the nipple in profile on at least one view (CC or MLO) of each breast. The right MLO can satisfy it for the right breast.",
+      "variants": {
+        "simpler": "Each breast needs one view with the nipple in profile.",
+        "example": "RCC nipple not in profile, RMLO nipple in profile: the right breast meets the criterion."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-nipple"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-005",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-fa-cc-beam",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "Which describes the beam direction for a craniocaudal (CC) view?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Vertically downward from above the breast",
+          "rationale": "Correct. CC means head-to-foot."
+        },
+        {
+          "id": "b",
+          "text": "Lateral to medial, parallel to the floor",
+          "rationale": "That describes a lateral projection."
+        },
+        {
+          "id": "c",
+          "text": "Angled along the pectoralis muscle",
+          "rationale": "That describes the MLO."
+        },
+        {
+          "id": "d",
+          "text": "Inferior to superior from below the breast",
+          "rationale": "That would be a reversed (FB) projection."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "On a CC the x-rays travel vertically downward from above the breast.",
+      "variants": {
+        "simpler": "CC = from the top down.",
+        "example": "Cranio (head) to caudal (feet)."
+      },
+      "evidenceIds": [
+        "ev-svl-brahim-cc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-svl-006",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-fa-cc-fat",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 50,
+      "stem": "Which finding on a CC best indicates that posterior tissue was included?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The nipple marker is visible",
+          "rationale": "A marker shows where the nipple is, not posterior depth."
+        },
+        {
+          "id": "b",
+          "text": "Retroglandular fat is visible along the chest-wall edge",
+          "rationale": "Correct. This dark band shows the image reaches behind the glandular tissue."
+        },
+        {
+          "id": "c",
+          "text": "The image shows the inframammary fold",
+          "rationale": "The IMF is an MLO criterion."
+        },
+        {
+          "id": "d",
+          "text": "Skin folds appear at the lateral edge",
+          "rationale": "Folds are a problem, not a depth sign."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Posterior adequacy on the CC is judged by the retroglandular fat plane and the PNL comparison with the MLO.",
+      "variants": {
+        "simpler": "Dark fat band at the back = posterior tissue included.",
+        "example": "Fat band visible across the posterior edge with the PNL within 1 cm of the MLO."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-cc",
+        "ev-svl-brahim-cc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-svl-007",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-fb-cc-pnl-ok",
+      "pool": "form-b",
+      "difficultyIntent": "apply",
+      "kind": "calculation",
+      "estSeconds": 70,
+      "stem": "MLO PNL is 9.0 cm and CC PNL is 8.3 cm. Which statement is correct?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The CC fails because it is shorter than the MLO",
+          "rationale": "A small shortfall is expected; the tolerance is about 1 cm."
+        },
+        {
+          "id": "b",
+          "text": "The PNL comparison only applies to DBT",
+          "rationale": "ACR's table applies it to 2D or synthesized 2D images."
+        },
+        {
+          "id": "c",
+          "text": "The CC meets the PNL comparison because it is within 1 cm",
+          "rationale": "Correct. 0.7 cm is within tolerance."
+        },
+        {
+          "id": "d",
+          "text": "The CC must be longer than the MLO",
+          "rationale": "Not required."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "9.0 \u2212 8.3 = 0.7 cm, within the 1 cm tolerance.",
+      "variants": {
+        "simpler": "Less than 1 cm short = meets.",
+        "example": "MLO 9.0, CC 8.3: 0.7 cm difference, acceptable."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-pnl"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-svl-008",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-cc"
+      ],
+      "familyId": "fam-pos-svl-fb-accred-views",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "For ACR mammography accreditation clinical-image review, which images does a facility submit for each exam?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the two CC views",
+          "rationale": "All four standard views are required."
+        },
+        {
+          "id": "b",
+          "text": "MLO views from implant patients",
+          "rationale": "Implant exams may not be submitted."
+        },
+        {
+          "id": "c",
+          "text": "Any diagnostic spot views",
+          "rationale": "Accreditation uses standard screening views."
+        },
+        {
+          "id": "d",
+          "text": "CC and MLO views of both breasts from the same patient",
+          "rationale": "Correct. Four images per exam."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "ACR requires CC and MLO of both breasts from one patient, with one fatty and one dense exam, scored on eight parameters.",
+      "variants": {
+        "simpler": "Four views: RCC, LCC, RMLO, LMLO.",
+        "example": "A fatty exam and a dense exam, each with four standard views."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-cit-four-views"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-svl-011",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-mlo-shape",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Which pectoralis appearance best matches a well-positioned MLO?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wide superiorly, narrowing inferiorly, convex front edge, reaching the PNL or below",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "A narrow band with a concave front edge",
+          "rationale": "Concave and thin is inadequate."
+        },
+        {
+          "id": "c",
+          "text": "Muscle ending 2 cm above the PNL",
+          "rationale": "More than 1 cm short is inadequate."
+        },
+        {
+          "id": "d",
+          "text": "No muscle visible",
+          "rationale": "Little or no muscle is inadequate."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Good MLO muscle is wide at the top, narrows downward, is convex or straight anteriorly, and reaches the PNL or lower.",
+      "variants": {
+        "simpler": "Wide, convex, down to nipple level.",
+        "example": "A broad triangular muscle reaching the PNL with a gently convex edge."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-muscle",
+        "ev-svl-brahim-mlo"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-012",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-mlo-short",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "On an MLO, the lower edge of the pectoralis ends 1.8 cm above the PNL. How does this rate on ACR's positioning table?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Meets: any visible muscle is enough",
+          "rationale": "The muscle should reach the PNL."
+        },
+        {
+          "id": "b",
+          "text": "Inadequate: more than 1 cm short of the PNL",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Partially meets: within 1 cm of the PNL",
+          "rationale": "1.8 cm is more than 1 cm."
+        },
+        {
+          "id": "d",
+          "text": "Not evaluated on the MLO",
+          "rationale": "Muscle amount is an MLO criterion."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Muscle more than 1 cm short of the PNL is inadequate; within 1 cm partially meets; at or below the PNL meets.",
+      "variants": {
+        "simpler": "Over 1 cm short = inadequate.",
+        "example": "1.8 cm short: inadequate. 0.6 cm short: partial."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-muscle"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-013",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-mlo-pnl-draw",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "How is the posterior nipple line drawn on an MLO?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Horizontally to the image edge",
+          "rationale": "That describes the CC measurement."
+        },
+        {
+          "id": "b",
+          "text": "From the axilla to the inframammary fold",
+          "rationale": "That runs along the muscle, not across it."
+        },
+        {
+          "id": "c",
+          "text": "From the nipple perpendicular to the front edge of the pectoralis",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Parallel to the pectoralis edge",
+          "rationale": "The line is perpendicular to the muscle."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "On the MLO the PNL runs from the nipple at a right angle to the anterior pectoralis edge, often around 45\u00b0 on the image.",
+      "variants": {
+        "simpler": "Nipple \u2192 straight back to the muscle at 90\u00b0.",
+        "example": "Draw from the nipple to meet the muscle edge at a right angle."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-pnl",
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-014",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-mlo-imf",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "An MLO shows the inframammary fold closed, with a large skin fold over the lower breast. What is the best evaluation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Acceptable because the IMF is a CC criterion",
+          "rationale": "The IMF is assessed on the MLO."
+        },
+        {
+          "id": "b",
+          "text": "A motion failure",
+          "rationale": "Folds are not motion."
+        },
+        {
+          "id": "c",
+          "text": "Acceptable as long as the nipple is in profile",
+          "rationale": "Each criterion is assessed separately."
+        },
+        {
+          "id": "d",
+          "text": "Inadequate IMF: closed and obscured by a large fold",
+          "rationale": "Correct: this matches the cited evidence."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "The MLO IMF should be open without folds. A closed IMF or large folds hiding tissue is inadequate.",
+      "variants": {
+        "simpler": "IMF should be open and smooth.",
+        "example": "A closed fold with a big skin crease at the bottom of the MLO fails the IMF criterion."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-lower"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-svl-015",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-fa-mlo-uoq",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "Which region does a single MLO show with more breast tissue than any other single view?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Upper outer quadrant",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Lower inner quadrant",
+          "rationale": "Not the region emphasized."
+        },
+        {
+          "id": "c",
+          "text": "Retroareolar region only",
+          "rationale": "The MLO covers much more."
+        },
+        {
+          "id": "d",
+          "text": "Medial cleavage",
+          "rationale": "Cleavage needs dedicated views."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The MLO captures the upper outer quadrant with the greatest amount of breast tissue.",
+      "variants": {
+        "simpler": "MLO = best for upper outer tissue.",
+        "example": "The axillary tail and upper outer tissue are well shown on the MLO."
+      },
+      "evidenceIds": [
+        "ev-svl-brahim-mlo"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-svl-016",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-fa-mlo-high",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 50,
+      "stem": "An MLO shows a large amount of abdomen at the bottom and the axilla is not included. What does this most likely indicate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Motion during exposure",
+          "rationale": "Motion causes blur, not this distribution."
+        },
+        {
+          "id": "b",
+          "text": "The breast was positioned too high on the detector",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "The nipple was out of profile",
+          "rationale": "Unrelated."
+        },
+        {
+          "id": "d",
+          "text": "Excessive CC exaggeration",
+          "rationale": "Exaggeration is a CC criterion."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ACR's table describes a breast positioned too high as showing too much abdomen and not enough axilla.",
+      "variants": {
+        "simpler": "Too much belly, too little armpit = too high.",
+        "example": "Centered breast with axilla and IMF both included meets the criterion."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-lower"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-svl-017",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-fb-mlo-concave",
+      "pool": "form-b",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "On an MLO the front edge of the pectoralis curves inward (concave). How should this be rated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ideal muscle shape",
+          "rationale": "Convex or straight is desirable."
+        },
+        {
+          "id": "b",
+          "text": "Only relevant on the CC",
+          "rationale": "This is an MLO criterion."
+        },
+        {
+          "id": "c",
+          "text": "Inadequate pectoralis",
+          "rationale": "Correct. A concave anterior border is listed as inadequate."
+        },
+        {
+          "id": "d",
+          "text": "A labeling error",
+          "rationale": "Unrelated."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "A concave anterior pectoralis border is listed as inadequate; desirable muscle is convex or straight.",
+      "variants": {
+        "simpler": "Concave muscle = not enough muscle.",
+        "example": "Relaxed, convex muscle meets; tense, concave muscle does not."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-muscle",
+        "ev-svl-brahim-mlo"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-svl-018",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-mlo"
+      ],
+      "familyId": "fam-pos-svl-fb-mlo-partial",
+      "pool": "form-b",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "The MLO pectoralis is wide and convex but its lower edge ends 0.6 cm above the PNL. How does ACR's positioning table rate the muscle amount?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Meets",
+          "rationale": "Meeting requires reaching the PNL or below."
+        },
+        {
+          "id": "b",
+          "text": "Cannot be rated without a CC",
+          "rationale": "Muscle amount is rated on the MLO itself."
+        },
+        {
+          "id": "c",
+          "text": "Inadequate: more than 1 cm short",
+          "rationale": "0.6 cm is within 1 cm."
+        },
+        {
+          "id": "d",
+          "text": "Partially meets: close to the PNL, within 1 cm",
+          "rationale": "Correct: this matches the cited evidence."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Muscle within 1 cm of the PNL partially meets the criterion.",
+      "variants": {
+        "simpler": "Within 1 cm short = partial.",
+        "example": "0.6 cm short: partial. At or below PNL: meets."
+      },
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-muscle"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
     }
   ]
 }

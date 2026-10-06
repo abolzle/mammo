@@ -579,6 +579,332 @@
           }
         ]
       }
+    },
+    {
+      "id": "card-pos-svl-cc-nipple",
+      "revision": 1,
+      "objectiveId": "obj-pp-cc",
+      "prompt": "On a CC, where should the nipple be?",
+      "answer": "In profile and near midline (about 20\u00b0 or less off center).",
+      "evidenceIds": [
+        "ev-svl-brahim-cc",
+        "ev-svl-acr-table-cc"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-pnl-tolerance",
+      "revision": 1,
+      "objectiveId": "obj-pp-cc",
+      "prompt": "How close should the CC PNL be to the MLO PNL?",
+      "answer": "Within about 1 cm.",
+      "evidenceIds": [
+        "ev-svl-acr-table-pnl",
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-cc-muscle",
+      "revision": 1,
+      "objectiveId": "obj-pp-cc",
+      "prompt": "About how often does the pectoralis show on a CC (ACR positioning table)?",
+      "answer": "In about 30% of women, so its absence alone is not a failure.",
+      "evidenceIds": [
+        "ev-svl-acr-table-cc"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-cc-fat",
+      "revision": 1,
+      "objectiveId": "obj-pp-cc",
+      "prompt": "Which posterior landmark should be visible on a CC?",
+      "answer": "Retroglandular fat, the dark band nearest the chest wall.",
+      "evidenceIds": [
+        "ev-svl-brahim-cc",
+        "ev-svl-acr-table-cc"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-nipple-each",
+      "revision": 1,
+      "objectiveId": "obj-pp-cc",
+      "prompt": "Nipple-in-profile rule per breast (ACR positioning table)?",
+      "answer": "In profile on at least one view (CC or MLO) of each breast.",
+      "evidenceIds": [
+        "ev-svl-acr-table-nipple"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-mlo-shape",
+      "revision": 1,
+      "objectiveId": "obj-pp-mlo",
+      "prompt": "Desired pectoralis shape on the MLO?",
+      "answer": "Wide at the top, narrowing downward, with a convex or straight front edge.",
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-muscle",
+        "ev-svl-brahim-mlo"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-mlo-depth",
+      "revision": 1,
+      "objectiveId": "obj-pp-mlo",
+      "prompt": "How far down should the MLO pectoralis reach?",
+      "answer": "To the PNL (about nipple level) or below.",
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-muscle",
+        "ev-svl-brahim-mlo"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-mlo-pnl",
+      "revision": 1,
+      "objectiveId": "obj-pp-mlo",
+      "prompt": "How is the PNL drawn on an MLO?",
+      "answer": "From the nipple, perpendicular to the front edge of the pectoralis.",
+      "evidenceIds": [
+        "ev-svl-acr-table-pnl",
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-imf",
+      "revision": 1,
+      "objectiveId": "obj-pp-mlo",
+      "prompt": "What should the inframammary fold look like on an MLO?",
+      "answer": "Open, without skin folds.",
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-lower"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pos-svl-too-high",
+      "revision": 1,
+      "objectiveId": "obj-pp-mlo",
+      "prompt": "MLO breast placed too high on the detector shows what?",
+      "answer": "Too much abdomen and not enough axilla.",
+      "evidenceIds": [
+        "ev-svl-acr-table-mlo-lower"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
     }
   ]
 }

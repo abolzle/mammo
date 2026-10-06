@@ -1011,14 +1011,11 @@
       "statement": "Use lexicon descriptors for masses (shape, margin, density), calcifications (typically benign vs suspicious morphology, distribution), asymmetries, and architectural distortion.",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-acr-birads-atlas"
+        "src-acr-birads-v2025-mammo-summary",
+        "src-pmc-nicosia-2024-cem-birads",
+        "src-pmc-lee-2018-birads3"
       ],
-      "sourceState": "blocked",
-      "blockedNote": "Descriptor definitions require the ACR BI-RADS Atlas (commercial; not accessible to this pipeline) or an accessible secondary source. Radiopaedia returned HTTP 406 to automated retrieval. Once a maintainer reads an accessible source, facts can be taught in original wording with a link-only citation.",
-      "blockedUrls": [
-        "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS",
-        "https://radiopaedia.org/articles/breast-imaging-reporting-and-data-system-bi-rads"
-      ]
+      "sourceState": "source_backed_link_only"
     },
     {
       "id": "obj-ap-assessment-density-categories",
@@ -1090,14 +1087,12 @@
         "obj-ap-external-landmarks"
       ],
       "sourceIds": [
-        "src-acr-ciq-1999"
+        "src-acr-positioning-review-table",
+        "src-acr-aapm-siim-dm-iq-2013",
+        "src-pmc-brahim-2022-positioning",
+        "src-acr-clinical-image-testing-mammo"
       ],
-      "sourceState": "blocked",
-      "blockedNote": "ARRT names the ACR Clinical Image Quality manual (1999) as the positioning reference. No accessible copy or equivalent open source has been located; a maintainer must obtain it (link-only citation is fine) or identify an accessible equivalent such as ACR accreditation positioning guidance.",
-      "blockedUrls": [
-        "https://www.acr.org/Accreditation/Mammography",
-        "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards"
-      ]
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-mlo",
@@ -1110,13 +1105,12 @@
         "obj-ap-external-landmarks"
       ],
       "sourceIds": [
-        "src-acr-ciq-1999"
+        "src-acr-positioning-review-table",
+        "src-acr-aapm-siim-dm-iq-2013",
+        "src-pmc-brahim-2022-positioning",
+        "src-acr-clinical-image-testing-mammo"
       ],
-      "sourceState": "blocked",
-      "blockedNote": "Same reference gap as the CC objective.",
-      "blockedUrls": [
-        "https://www.acr.org/Accreditation/Mammography"
-      ]
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-lateral-views",

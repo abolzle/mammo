@@ -644,6 +644,141 @@
           }
         ]
       }
+    },
+    {
+      "id": "les-pos-cc-checklist",
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "objectiveId": "obj-pp-cc",
+      "title": "Checking a CC: nipple, posterior depth, and edges",
+      "estMinutes": 4,
+      "summary": "A well-positioned CC shows the nipple in profile near midline, retroglandular fat at the back of the image, no medial or lateral cut-off, and a PNL close to the MLO's.",
+      "explanation": [
+        {
+          "heading": "Beam path",
+          "body": "The **craniocaudal (CC)** beam travels straight down from above the breast. Together with the MLO it forms the four-view screening set that ACR also uses for accreditation clinical-image review."
+        },
+        {
+          "heading": "Nipple",
+          "body": "Aim for the nipple **in profile** and **near midline**. One 2022 open-access study describes acceptable deviation as no more than about **20\u00b0** medially or laterally. Pulling the nipple far off midline (excessive exaggeration) can drop **medial or lateral posterior tissue** off the image. ACR's quality-improvement table requires the nipple in profile on **at least one view of each breast**."
+        },
+        {
+          "heading": "Posterior depth",
+          "body": "Look for **retroglandular fat**, the dark band nearest the chest wall. The pectoralis shows on the CC in only about **30%** of women, so missing muscle alone is not a failure. Then compare depth with the MLO using the **posterior nipple line (PNL)**: the CC PNL should be **within about 1 cm** of the MLO PNL."
+        },
+        {
+          "heading": "Everything else",
+          "body": "Check that no medial or lateral tissue is **cut off**, there is **no motion**, **skin folds** do not hide tissue, and nothing else (chin, shoulder, hand, the other breast) lies over the breast."
+        }
+      ],
+      "example": "MLO PNL is 10.5 cm and CC PNL is 9.0 cm. The CC is 1.5 cm short, more than the 1 cm tolerance, so posterior tissue may be missing from the CC.",
+      "misconception": {
+        "belief": "Every acceptable CC shows the pectoralis muscle.",
+        "correction": "ACR's positioning table notes the muscle appears on the CC in only about 30% of women. Judge posterior depth with retroglandular fat and the PNL comparison."
+      },
+      "variants": {
+        "simpler": "CC check: nipple in profile and centered, dark fat band at the back, no tissue cut off at either side, PNL within 1 cm of the MLO.",
+        "example": "A neat-looking CC with the nipple pulled well to one side and lateral posterior tissue missing fails on exaggeration, even though it looks tidy.",
+        "deeper": "These criteria come from ACR's quality-improvement positioning table (ACR says it is not accreditation scoring), the ACR\u2013AAPM\u2013SIIM image-quality guideline, and a CC BY 2022 study. ACR accreditation reviewers use the Clinical Image Evaluation section of the 1999 ACR QC manual, which Mammo has not accessed. Needs confirmation by a qualified reviewer."
+      },
+      "observationPrompt": "On your next screening exam (with your preceptor), find the retroglandular fat on each CC and measure both PNLs. Is the CC within 1 cm of the MLO?",
+      "checkQuestionId": "q-pos-svl-001",
+      "evidenceIds": [
+        "ev-svl-brahim-cc",
+        "ev-svl-acr-table-cc",
+        "ev-svl-acr-table-nipple",
+        "ev-svl-acr-table-pnl",
+        "ev-svl-acr-table-mlo-lower",
+        "ev-svl-acr-cit-four-views"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pos-mlo-checklist",
+      "revision": 1,
+      "moduleId": "mod-positioning",
+      "objectiveId": "obj-pp-mlo",
+      "title": "Checking an MLO: pectoralis, PNL, and the inframammary fold",
+      "estMinutes": 4,
+      "summary": "A well-positioned MLO shows a relaxed pectoralis that is wide at the top, convex or straight, and reaches the PNL or lower, plus an open inframammary fold, the nipple in profile, and posterior tissue.",
+      "explanation": [
+        {
+          "heading": "Why the MLO matters",
+          "body": "The **mediolateral oblique (MLO)** follows the line of the pectoralis. It shows the **upper outer quadrant** with more breast tissue than any other single view."
+        },
+        {
+          "heading": "Pectoralis",
+          "body": "Good muscle is **wide at the top and narrows going down**, with an anterior edge that is **convex or straight**. Its lower edge should reach the **PNL (about nipple level) or below**. In ACR's quality-improvement table, muscle ending **within 1 cm** of the PNL only partially meets the criterion; **more than 1 cm short**, a thin sliver, or a **concave** front edge is inadequate."
+        },
+        {
+          "heading": "PNL on the MLO",
+          "body": "Draw the PNL from the nipple **perpendicular to the front edge of the pectoralis** (often about 45\u00b0 on the image). Use this length as the reference for the CC comparison."
+        },
+        {
+          "heading": "Lower breast and placement",
+          "body": "The **inframammary fold (IMF)** should be **open without folds**. The breast should be **lifted, not sagging**, and **centered** on the detector. If it sits too high, the image shows too much abdomen and not enough axilla. Also check for the nipple in profile, retroglandular fat, no skin folds, and no motion."
+        }
+      ],
+      "example": "The MLO pectoralis ends 1.8 cm above the PNL and its front edge curves inward. Both findings point to inadequate muscle, so posterior tissue may be under-represented.",
+      "misconception": {
+        "belief": "If any pectoralis shows on the MLO, the view is acceptable.",
+        "correction": "The muscle needs adequate width, a convex or straight front edge, and should reach the PNL. A thin, concave muscle that stops well above the PNL is inadequate."
+      },
+      "variants": {
+        "simpler": "MLO check: muscle wide at the top, convex, down to nipple level; IMF open; breast lifted and centered.",
+        "example": "An MLO with lots of abdomen at the bottom and the axilla cut off has the breast placed too high on the detector.",
+        "deeper": "Criteria come from ACR's quality-improvement positioning table (not accreditation scoring), the ACR\u2013AAPM\u2013SIIM guideline, and a CC BY 2022 study. How to fix a short muscle or closed IMF is hands-on technique to learn from a preceptor. Needs confirmation by a qualified reviewer."
+      },
+      "observationPrompt": "With your preceptor, trace the pectoralis on several MLOs: is it convex, wide superiorly, and down to the PNL? Is the IMF open?",
+      "checkQuestionId": "q-pos-svl-011",
+      "evidenceIds": [
+        "ev-svl-brahim-mlo",
+        "ev-svl-acr-table-mlo-muscle",
+        "ev-svl-acr-table-mlo-lower",
+        "ev-svl-acr-table-pnl",
+        "ev-pos-pmc-pnl-cc-mlo"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Positioning evaluation criteria: needs confirmation by a qualified reviewer (e.g., registered mammographer) before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
     }
   ]
 }

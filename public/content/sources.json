@@ -374,9 +374,9 @@
       "publisher": "American College of Radiology",
       "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards",
       "publishedOrEffective": "1999",
-      "retrievedOn": null,
-      "retrievalStatus": "not_attempted",
-      "retrievalNote": "Named by the ARRT content specifications as the positioning reference. No open online copy located yet; the URL is a starting point, not the document. Positioning objectives need either this document (link-only) or an accessible equivalent.",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "blocked",
+      "retrievalNote": "2026-10-06: no publicly accessible copy located. ACR's public Clinical Image Testing page names its 'Clinical Image Evaluation' section as the accreditation review criteria. CC/MLO evaluation facts are verified instead against src-acr-positioning-review-table, src-acr-aapm-siim-dm-iq-2013, src-pmc-brahim-2022-positioning and src-acr-clinical-image-testing-mammo.",
       "sections": [],
       "rights": {
         "status": "copyrighted_permission_needed",
@@ -394,9 +394,9 @@
       "publisher": "American College of Radiology",
       "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS",
       "publishedOrEffective": null,
-      "retrievedOn": null,
-      "retrievalStatus": "not_attempted",
-      "retrievalNote": "Lexicon descriptors (mass shape/margin, calcification morphology/distribution) need this atlas or an accessible secondary source. MQSA assessment and density categories are already covered by 21 CFR 900.12(c).",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "blocked",
+      "retrievalNote": "2026-10-06: full commercial atlas not accessed; Radiopaedia returned HTTP 406 to automated retrieval. Lexicon facts are verified instead against the publicly hosted v2025 Appendix B summary form (src-acr-birads-v2025-mammo-summary) and CC BY reviews (src-pmc-nicosia-2024-cem-birads, src-pmc-lee-2018-birads3).",
       "sections": [],
       "rights": {
         "status": "copyrighted_link_only",
@@ -883,18 +883,20 @@
       "url": "https://learningnetworksupport.acr.org/support/solutions/articles/11000115257-mammography-positioning-review-guidelines-table",
       "publishedOrEffective": null,
       "retrievedOn": "2026-10-06",
-      "retrievalStatus": "link_only",
-      "retrievalNote": "Login-gated ACR Learning Network article. Not redistributed. Used only as a link-only pointer for detailed accreditation-style positioning criteria.",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Publicly viewable without login on 2026-10-06 (earlier note said login-gated). The page states these criteria are for quality improvement in ACR's Mammography Positioning improvement collaborative and are not to be used for accreditation; 2D/synthetic images only; implants and tiled/mosaic exams excluded.",
       "sections": [
-        "Major criteria overview"
+        "Instructions",
+        "Major criteria (7, bilateral)",
+        "Minor criteria (6, bilateral)"
       ],
       "rights": {
         "status": "copyrighted_link_only",
-        "canRead": false,
+        "canRead": true,
         "canQuote": false,
         "canRedistribute": false,
         "canSubmitToAI": false,
-        "basis": "ACR Learning Network copyrighted support article; link only."
+        "basis": "ACR Learning Network copyrighted support article, publicly viewable. Criteria restated in original wording with a link-only citation; table not reproduced."
       },
       "kind": "professional_guideline"
     },
@@ -1240,6 +1242,127 @@
         "basisSourceId": "src-nci-reuse"
       },
       "kind": "government_guidance"
+    },
+    {
+      "id": "src-acr-clinical-image-testing-mammo",
+      "title": "ACR Accreditation Support — Clinical Image Testing: Mammography (Revised 05-02-2024)",
+      "publisher": "American College of Radiology",
+      "url": "https://accreditationsupport.acr.org/support/solutions/articles/11000065937-clinical-image-testing-mammography-revised-05-02-2024-",
+      "publishedOrEffective": "Revised 2024-05-02; page modified 2025-07-22",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Publicly viewable without login on 2026-10-06. States accreditation submissions are CC and MLO images of both breasts (4 images per exam), one fatty and one dense exam, scored by at least 2 radiologist reviewers on 8 parameters, and points to the Clinical Image Evaluation section of the 1999 ACR Mammography QC Manual for review criteria.",
+      "sections": [
+        "For all submissions",
+        "For initial, renewal, repeat or reinstatement accreditation",
+        "8 parameters scored"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACR website content is copyrighted. Publicly viewable; facts restated in original wording with a link-only citation. Not pasted into generation packets."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-pmc-brahim-2022-positioning",
+      "title": "Brahim M, et al. Automated Assessment of Breast Positioning Quality in Screening Mammography. Cancers (Basel). 2022;14(19):4704. doi:10.3390/cancers14194704",
+      "publisher": "MDPI (via PubMed Central PMC9562663)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9562663/",
+      "publishedOrEffective": "2022-09",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Full text read on PMC 2026-10-06. Sections 2.1–2.2 list adequate MLO and CC criteria; section 3.2 describes the MLO pectoralis level relative to the PNL.",
+      "sections": [
+        "2.1 Mediolateral-Oblique View",
+        "2.2 Cranio-Caudal View",
+        "3.2 MLO: Pectoralis Muscle Level",
+        "3.5 CC: Nipple Position"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "License statement on the PMC article page (checked 2026-10-06): © 2022 by the authors. Licensee MDPI. Distributed under the Creative Commons Attribution (CC BY) license. Creative Commons Attribution 4.0 permits reuse with attribution and indication of changes. Mammo restates facts in original wording and cites by link; no figures are reused."
+      },
+      "kind": "other"
+    },
+    {
+      "id": "src-acr-birads-v2025-mammo-summary",
+      "title": "ACR BI-RADS® Mammography v2025 Manual — Appendix B: Mammography Lexicon Summary Form",
+      "publisher": "American College of Radiology",
+      "url": "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/BI-RADS/BI-RADS-Summary-Form-Mammography.pdf",
+      "publishedOrEffective": "BI-RADS Mammography v2025 manual (PDF created 2026-02-16)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Publicly hosted 4-page ACR PDF (manual pp.173–176) read 2026-10-06. Defines mass, mass shape/margin/density, typically benign and suspicious calcification morphology, calcification distribution, architectural distortion, and asymmetries. The full BI-RADS Atlas was not accessed.",
+      "sections": [
+        "A. Masses",
+        "B. Calcifications",
+        "C. Architectural distortion",
+        "D. Asymmetries"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACR copyrighted publication, publicly downloadable. Terms are facts; definitions are restated in original wording with a link-only citation. Do not reproduce the form or paste it into generation packets."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-pmc-lee-2018-birads3",
+      "title": "Lee KA, Talati N, Oudsema R, Steinberger S, Margolies LR. BI-RADS 3: Current and Future Use of Probably Benign. Curr Radiol Rep. 2018;6(2):5. doi:10.1007/s40134-018-0266-8",
+      "publisher": "Springer (via PubMed Central PMC5787219)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5787219/",
+      "publishedOrEffective": "2018-01-27",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Full text read on PMC 2026-10-06. Used only for descriptor definitions (focal vs developing asymmetry; 75% circumscribed margin), not for assessment-category teaching.",
+      "sections": [
+        "Mammography — masses, focal asymmetry"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "License statement on the PMC article page (checked 2026-10-06): © The Author(s) 2018. Distributed under the terms of the Creative Commons Attribution 4.0 International License. Creative Commons Attribution 4.0 permits reuse with attribution and indication of changes. Mammo restates facts in original wording and cites by link; no figures are reused."
+      },
+      "kind": "other"
+    },
+    {
+      "id": "src-pmc-nicosia-2024-cem-birads",
+      "title": "Nicosia L, et al. Contrast-enhanced mammography BI-RADS: a case-based approach to radiology reporting. Insights Imaging. 2024;15:37. doi:10.1186/s13244-024-01612-z",
+      "publisher": "Springer (via PubMed Central PMC10853105)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10853105/",
+      "publishedOrEffective": "2024-02-08",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Full text read on PMC 2026-10-06. Low-energy (mammography-equivalent) findings section restates the BI-RADS 5th-edition mass descriptors and the typically benign vs suspicious calcification split.",
+      "sections": [
+        "BI-RADS CEM overview — Findings on LE images only"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "License statement on the PMC article page (checked 2026-10-06): © The Author(s) 2024. Licensed under a Creative Commons Attribution 4.0 International License. Creative Commons Attribution 4.0 permits reuse with attribution and indication of changes. Mammo restates facts in original wording and cites by link; no figures are reused."
+      },
+      "kind": "other"
     },
     {
       "id": "src-ecfr-21-cfr-892-image-devices",

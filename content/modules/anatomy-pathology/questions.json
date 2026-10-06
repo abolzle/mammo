@@ -9453,6 +9453,531 @@
         ]
       },
       "simulationRole": "pilot"
+    },
+    {
+      "id": "q-ap-lex-001",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-distribution-set",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "Which list contains only BI-RADS calcification distribution terms?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Amorphous, fine pleomorphic, rim, suture",
+          "rationale": "These are morphology terms."
+        },
+        {
+          "id": "b",
+          "text": "Oval, round, irregular",
+          "rationale": "These are mass shapes."
+        },
+        {
+          "id": "c",
+          "text": "Diffuse, regional, grouped, linear, segmental",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Circumscribed, obscured, spiculated",
+          "rationale": "These are mass margins."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Distribution describes where calcifications sit: diffuse, regional, grouped, linear, segmental.",
+      "variants": {
+        "simpler": "Distribution = where; morphology = what they look like.",
+        "example": "Grouped is a distribution; amorphous is a morphology."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-calc-dist"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-lex-002",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-suspicious-morph",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "Which term is one of the BI-RADS suspicious calcification morphologies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rim",
+          "rationale": "Rim is typically benign."
+        },
+        {
+          "id": "b",
+          "text": "Vascular",
+          "rationale": "Vascular is typically benign."
+        },
+        {
+          "id": "c",
+          "text": "Suture",
+          "rationale": "Suture is typically benign."
+        },
+        {
+          "id": "d",
+          "text": "Fine pleomorphic",
+          "rationale": "Correct: this matches the cited evidence."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Suspicious morphologies are amorphous, coarse heterogeneous, fine pleomorphic, and fine linear / fine linear-branching.",
+      "variants": {
+        "simpler": "Four suspicious: amorphous, coarse heterogeneous, fine pleomorphic, fine linear.",
+        "example": "Rim, vascular, skin, and suture are on the typically benign list."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-calc-morph"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-lex-003",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-obscured",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "About 30% of a mass margin is hidden by overlapping fibroglandular tissue, and the visible margin is sharp. Which margin term fits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Obscured",
+          "rationale": "Correct. 25% or more hidden with a sharp visible margin."
+        },
+        {
+          "id": "b",
+          "text": "Circumscribed",
+          "rationale": "Circumscribed needs at least 75% sharply defined."
+        },
+        {
+          "id": "c",
+          "text": "Spiculated",
+          "rationale": "Spiculated means radiating lines."
+        },
+        {
+          "id": "d",
+          "text": "Indistinct",
+          "rationale": "Indistinct means poorly demarcated, not hidden."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Obscured means 25% or more of the margin is hidden by overlapping tissue while the visible part is circumscribed.",
+      "variants": {
+        "simpler": "Hidden but sharp where seen = obscured.",
+        "example": "If only 10% were hidden, the margin could still be circumscribed."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-mass",
+        "ev-svl-lee-asymmetry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-lex-004",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-asymmetry-one-view",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 50,
+      "stem": "An area of fibroglandular-density tissue is visible on only one projection and may be overlapping normal tissue. Which BI-RADS term fits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mass",
+          "rationale": "A mass is seen on two projections."
+        },
+        {
+          "id": "b",
+          "text": "Asymmetry",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Global asymmetry",
+          "rationale": "Global asymmetry covers at least a quadrant and is not defined by single-view visibility."
+        },
+        {
+          "id": "d",
+          "text": "Architectural distortion",
+          "rationale": "Distortion is a pulled tissue pattern."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "An asymmetry is seen on one projection and often reflects superimposed normal tissue.",
+      "variants": {
+        "simpler": "One view only = asymmetry.",
+        "example": "Seen on two views, smaller than a quadrant = focal asymmetry."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-ad-asym"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-lex-005",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-fa-mass-def",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "Under BI-RADS, which feature defines a mass?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seen on only one projection",
+          "rationale": "That describes an asymmetry."
+        },
+        {
+          "id": "b",
+          "text": "Any area of calcification",
+          "rationale": "Calcifications are a separate category."
+        },
+        {
+          "id": "c",
+          "text": "Three-dimensional, seen on two projections with an outward-bulging contour",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Distorted tissue with no central density",
+          "rationale": "That describes architectural distortion."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "A mass occupies space, appears on two projections (or consecutive DBT slices), and has a wholly or partly convex-outward contour.",
+      "variants": {
+        "simpler": "Mass = 3D, two views, bulges outward.",
+        "example": "A density on CC and MLO with an outward contour is a mass."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-mass"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-ap-lex-006",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-fa-segmental",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "Calcifications arranged like a duct and its branches, forming a triangle pointing toward the nipple, are described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Diffuse",
+          "rationale": "Diffuse is random throughout the breast."
+        },
+        {
+          "id": "b",
+          "text": "Regional",
+          "rationale": "Regional covers a large area not following a duct."
+        },
+        {
+          "id": "c",
+          "text": "Grouped",
+          "rationale": "Grouped is a small cluster."
+        },
+        {
+          "id": "d",
+          "text": "Segmental",
+          "rationale": "Correct: this matches the cited evidence."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Segmental distribution suggests deposits in a duct system, often triangular with the apex toward the nipple.",
+      "variants": {
+        "simpler": "Duct-shaped triangle = segmental.",
+        "example": "Random scatter in both breasts would be diffuse."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-calc-dist"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-ap-lex-007",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-fb-distortion",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "Which best describes architectural distortion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Distorted tissue pattern with no definite mass visible",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "A mass with spiculated margins",
+          "rationale": "That is a mass with a margin descriptor."
+        },
+        {
+          "id": "c",
+          "text": "Tissue seen on only one projection",
+          "rationale": "That is an asymmetry."
+        },
+        {
+          "id": "d",
+          "text": "Calcifications in a line",
+          "rationale": "That is a linear distribution."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Architectural distortion means the parenchyma is distorted with no definite mass.",
+      "variants": {
+        "simpler": "Pulled tissue, no mass.",
+        "example": "Radiating lines with a central mass would be described as a spiculated mass instead."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-ad-asym"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
+    },
+    {
+      "id": "q-ap-lex-008",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-ap-lex-fb-grouped",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
+      "stem": "BI-RADS 'grouped' calcifications are generally:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Scattered randomly through both breasts",
+          "rationale": "That is diffuse."
+        },
+        {
+          "id": "b",
+          "text": "At least 5 calcifications within 1 cm (or more within 2 cm)",
+          "rationale": "Correct: this matches the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Spread over more than a quadrant",
+          "rationale": "That is regional."
+        },
+        {
+          "id": "d",
+          "text": "Arranged in a single line",
+          "rationale": "That is linear."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Grouped is used for relatively few calcifications in a small area: generally at least 5 within 1 cm or more within 2 cm.",
+      "variants": {
+        "simpler": "Grouped = small cluster.",
+        "example": "Five calcifications within 1 cm: grouped."
+      },
+      "evidenceIds": [
+        "ev-svl-birads-calc-dist"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "simulationRole": "scored"
     }
   ]
 }

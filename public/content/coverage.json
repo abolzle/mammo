@@ -2188,17 +2188,22 @@
       "topicId": "top-ap-reporting",
       "domainId": "dom-procedures",
       "statement": "Use lexicon descriptors for masses (shape, margin, density), calcifications (typically benign vs suspicious morphology, distribution), asymmetries, and architectural distortion.",
-      "sourceState": "blocked",
-      "blockedNote": "Descriptor definitions require the ACR BI-RADS Atlas (commercial; not accessible to this pipeline) or an accessible secondary source. Radiopaedia returned HTTP 406 to automated retrieval. Once a maintainer reads an accessible source, facts can be taught in original wording with a link-only citation.",
-      "blockedUrls": [
-        "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS",
-        "https://radiopaedia.org/articles/breast-imaging-reporting-and-data-system-bi-rads"
-      ],
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-ap-lexicon-terms"
+      ],
       "cardIds": [
         "card-ap-macro",
-        "card-ap-micro"
+        "card-ap-micro",
+        "card-ap-lex-mass-def",
+        "card-ap-lex-circumscribed",
+        "card-ap-lex-suspicious-morph",
+        "card-ap-lex-distributions",
+        "card-ap-lex-grouped",
+        "card-ap-lex-asymmetry",
+        "card-ap-lex-distortion",
+        "card-ap-lex-editions"
       ],
       "questionIds": [
         "q-ap-031",
@@ -2209,19 +2214,27 @@
         "q-ap-109",
         "q-ap-110",
         "q-ap-136",
-        "q-ap-137"
+        "q-ap-137",
+        "q-ap-lex-001",
+        "q-ap-lex-002",
+        "q-ap-lex-003",
+        "q-ap-lex-004",
+        "q-ap-lex-005",
+        "q-ap-lex-006",
+        "q-ap-lex-007",
+        "q-ap-lex-008"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
-      "formQuestionCount": 6,
+      "learnerQuestionCount": 7,
+      "formQuestionCount": 10,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-ap-findings-vocab",
         "q-ap-034",
         "q-ap-135"
       ],
-      "complete": false,
-      "gap": "blocked: no accessible source verifies the fact"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-assessment-density-categories",
@@ -2415,18 +2428,20 @@
       "topicId": "top-pp-standard-views",
       "domainId": "dom-procedures",
       "statement": "Position and evaluate the craniocaudal view against standard criteria.",
-      "sourceState": "blocked",
-      "blockedNote": "ARRT names the ACR Clinical Image Quality manual (1999) as the positioning reference. No accessible copy or equivalent open source has been located; a maintainer must obtain it (link-only citation is fine) or identify an accessible equivalent such as ACR accreditation positioning guidance.",
-      "blockedUrls": [
-        "https://www.acr.org/Accreditation/Mammography",
-        "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards"
-      ],
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pos-cc-checklist"
+      ],
       "cardIds": [
         "card-pos-cc-mlo-pair",
         "card-pos-cc-purpose",
-        "card-pos-pnl"
+        "card-pos-pnl",
+        "card-pos-svl-cc-nipple",
+        "card-pos-svl-pnl-tolerance",
+        "card-pos-svl-cc-muscle",
+        "card-pos-svl-cc-fat",
+        "card-pos-svl-nipple-each"
       ],
       "questionIds": [
         "q-pos-001",
@@ -2440,13 +2455,21 @@
         "q-pos-097",
         "q-pos-099",
         "q-pos-100",
-        "q-pos-101"
+        "q-pos-101",
+        "q-pos-svl-001",
+        "q-pos-svl-002",
+        "q-pos-svl-003",
+        "q-pos-svl-004",
+        "q-pos-svl-005",
+        "q-pos-svl-006",
+        "q-pos-svl-007",
+        "q-pos-svl-008"
       ],
       "visualIds": [
         "vis-pos-pnl-which-line"
       ],
-      "learnerQuestionCount": 7,
-      "formQuestionCount": 4,
+      "learnerQuestionCount": 11,
+      "formQuestionCount": 8,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-standard-pair",
@@ -2454,26 +2477,28 @@
         "q-pos-008",
         "q-pos-098"
       ],
-      "complete": false,
-      "gap": "blocked: no accessible source verifies the fact"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-mlo",
       "topicId": "top-pp-standard-views",
       "domainId": "dom-procedures",
       "statement": "Position and evaluate the mediolateral oblique view against standard criteria, including pectoral muscle and inframammary fold.",
-      "sourceState": "blocked",
-      "blockedNote": "Same reference gap as the CC objective.",
-      "blockedUrls": [
-        "https://www.acr.org/Accreditation/Mammography"
-      ],
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
-        "les-pos-pnl"
+        "les-pos-pnl",
+        "les-pos-mlo-checklist"
       ],
       "cardIds": [
         "card-pos-mlo-purpose",
-        "card-pos-mlo-muscle"
+        "card-pos-mlo-muscle",
+        "card-pos-svl-mlo-shape",
+        "card-pos-svl-mlo-depth",
+        "card-pos-svl-mlo-pnl",
+        "card-pos-svl-imf",
+        "card-pos-svl-too-high"
       ],
       "questionIds": [
         "q-pos-009",
@@ -2485,20 +2510,28 @@
         "q-pos-048",
         "q-pos-099",
         "q-pos-101",
-        "q-pos-128"
+        "q-pos-128",
+        "q-pos-svl-011",
+        "q-pos-svl-012",
+        "q-pos-svl-013",
+        "q-pos-svl-014",
+        "q-pos-svl-015",
+        "q-pos-svl-016",
+        "q-pos-svl-017",
+        "q-pos-svl-018"
       ],
       "visualIds": [
         "vis-pos-mlo-muscle"
       ],
-      "learnerQuestionCount": 6,
-      "formQuestionCount": 3,
+      "learnerQuestionCount": 10,
+      "formQuestionCount": 7,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [
         "les-pos-mlo-criteria",
         "q-pos-098"
       ],
-      "complete": false,
-      "gap": "blocked: no accessible source verifies the fact"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-lateral-views",
@@ -2968,10 +3001,10 @@
     }
   ],
   "breakdown": {
-    "public_domain_open": 56,
-    "link_only": 7,
-    "needs_clinical_review": 25,
-    "truly_blocked": 3,
+    "public_domain_open": 58,
+    "link_only": 8,
+    "needs_clinical_review": 27,
+    "truly_blocked": 0,
     "needs_source": 13
   }
 }

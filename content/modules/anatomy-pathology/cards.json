@@ -1122,6 +1122,266 @@
           }
         ]
       }
+    },
+    {
+      "id": "card-ap-lex-mass-def",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "What makes a finding a mass (not an asymmetry) in BI-RADS?",
+      "answer": "It is 3D: seen on two projections with an outward-bulging contour.",
+      "evidenceIds": [
+        "ev-svl-birads-mass"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lex-circumscribed",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "Circumscribed vs obscured margin?",
+      "answer": "Circumscribed: at least 75% sharply defined. Obscured: 25% or more hidden by overlapping tissue.",
+      "evidenceIds": [
+        "ev-svl-birads-mass",
+        "ev-svl-lee-asymmetry"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lex-suspicious-morph",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "Name the four suspicious calcification morphologies.",
+      "answer": "Amorphous, coarse heterogeneous, fine pleomorphic, fine linear / fine linear-branching.",
+      "evidenceIds": [
+        "ev-svl-birads-calc-morph"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lex-distributions",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "Name the five calcification distribution terms.",
+      "answer": "Diffuse, regional, grouped, linear, segmental.",
+      "evidenceIds": [
+        "ev-svl-birads-calc-dist"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lex-grouped",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "BI-RADS 'grouped' calcifications means?",
+      "answer": "Few calcifications in a small area: generally at least 5 within 1 cm (or more within 2 cm).",
+      "evidenceIds": [
+        "ev-svl-birads-calc-dist"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lex-asymmetry",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "Asymmetry vs focal asymmetry?",
+      "answer": "Asymmetry: one view only. Focal asymmetry: more than one view, under a quadrant, concave borders.",
+      "evidenceIds": [
+        "ev-svl-birads-ad-asym",
+        "ev-svl-lee-asymmetry"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lex-distortion",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "What is architectural distortion?",
+      "answer": "Distorted tissue pattern with no definite mass visible.",
+      "evidenceIds": [
+        "ev-svl-birads-ad-asym"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-ap-lex-editions",
+      "revision": 1,
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "prompt": "Which margin term is in BI-RADS 5th-edition lists but not the v2025 summary form?",
+      "answer": "Microlobulated.",
+      "evidenceIds": [
+        "ev-svl-nicosia-5th-descriptors",
+        "ev-svl-birads-mass"
+      ],
+      "estSeconds": 25,
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      },
+      "elaboration": "v2025 also adds 'lobulated' as a shape."
     }
   ]
 }

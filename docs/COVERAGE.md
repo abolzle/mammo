@@ -8,14 +8,14 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 63 / 79 | all |
-| Micro-lessons | 99 | 60–80 |
-| Recall cards | 306 | 200+ |
-| Practice questions | 435 | ~800 incl. two full forms |
-| Reserved-form questions | 322 | two full forms |
+| Objectives complete | 66 / 79 | all |
+| Micro-lessons | 102 | 60–80 |
+| Recall cards | 324 | 200+ |
+| Practice questions | 447 | ~800 incl. two full forms |
+| Reserved-form questions | 334 | two full forms |
 | Visual exercises | 32 | — |
 
-Source state: 56 open/public-domain, 7 link-only, 13 need a source, 3 blocked.
+Source state: 58 open/public-domain, 8 link-only, 13 need a source, 0 blocked.
 
 ## Complete objectives by domain
 
@@ -23,13 +23,11 @@ Source state: 56 open/public-domain, 7 link-only, 13 need a source, 3 blocked.
 |---|---|---|
 | dom-patient-care | 17 | 19 |
 | dom-image-production | 28 | 34 |
-| dom-procedures | 18 | 26 |
+| dom-procedures | 21 | 26 |
 
 ## Blocked objectives and the URLs needed
 
-- `obj-ap-lexicon-masses-calcs`: Descriptor definitions require the ACR BI-RADS Atlas (commercial; not accessible to this pipeline) or an accessible secondary source. Radiopaedia returned HTTP 406 to automated retrieval. Once a maintainer reads an accessible source, facts can be taught in original wording with a link-only citation. https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS, https://radiopaedia.org/articles/breast-imaging-reporting-and-data-system-bi-rads
-- `obj-pp-cc`: ARRT names the ACR Clinical Image Quality manual (1999) as the positioning reference. No accessible copy or equivalent open source has been located; a maintainer must obtain it (link-only citation is fine) or identify an accessible equivalent such as ACR accreditation positioning guidance. https://www.acr.org/Accreditation/Mammography, https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards
-- `obj-pp-mlo`: Same reference gap as the CC objective. https://www.acr.org/Accreditation/Mammography
+None.
 
 ## Objective matrix
 
@@ -94,13 +92,13 @@ Source state: 56 open/public-domain, 7 link-only, 13 need a source, 3 blocked.
 | `obj-ap-internal-structures` | source_backed_open | 1 | 3 | 4 | 11 | 1 |  |
 | `obj-ap-tdlu` | source_backed_open | 1 | 3 | 4 | 8 | 1 |  |
 | `obj-ap-cytology` | source_backed_open | 1 | 2 | 4 | 7 | 0 |  |
-| `obj-ap-lexicon-masses-calcs` | blocked | 0 | 2 | 3 | 6 | 0 | blocked: no accessible source verifies the fact |
+| `obj-ap-lexicon-masses-calcs` | source_backed_link_only | 1 | 10 | 7 | 10 | 0 |  |
 | `obj-ap-assessment-density-categories` | source_backed_open | 2 | 6 | 11 | 20 | 1 |  |
 | `obj-ap-benign-conditions` | source_backed_open | 1 | 2 | 5 | 8 | 0 |  |
 | `obj-ap-high-risk-lesions` | source_backed_open | 1 | 2 | 4 | 11 | 0 |  |
 | `obj-ap-malignant` | source_backed_open | 1 | 4 | 5 | 16 | 0 |  |
-| `obj-pp-cc` | blocked | 0 | 3 | 7 | 4 | 1 | blocked: no accessible source verifies the fact |
-| `obj-pp-mlo` | blocked | 1 | 2 | 6 | 3 | 1 | blocked: no accessible source verifies the fact |
+| `obj-pp-cc` | source_backed_open | 1 | 8 | 11 | 8 | 1 |  |
+| `obj-pp-mlo` | source_backed_open | 2 | 7 | 10 | 7 | 1 |  |
 | `obj-pp-lateral-views` | source_backed_link_only | 1 | 3 | 5 | 1 | 0 |  |
 | `obj-pp-exaggerated-cleavage-at` | source_backed_open | 1 | 4 | 5 | 2 | 1 |  |
 | `obj-pp-tangential-rolled` | source_backed_link_only | 1 | 2 | 4 | 2 | 0 |  |

@@ -788,6 +788,77 @@
       },
       "revision": 1,
       "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-lexicon-terms",
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology",
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "title": "BI-RADS words for masses, calcifications, asymmetries, and distortion",
+      "estMinutes": 5,
+      "summary": "The BI-RADS lexicon gives radiologists shared terms for findings. Technologists should recognize the terms; radiologists apply them.",
+      "explanation": [
+        {
+          "heading": "Scope",
+          "body": "This lesson is for **recognition**: knowing what the words in a request or report mean. Choosing descriptors and assessments is the radiologist's job."
+        },
+        {
+          "heading": "Masses",
+          "body": "A **mass** is three-dimensional: it shows on **two projections** (or consecutive DBT slices) with an outward-bulging contour. **Shape:** oval, round, irregular (the v2025 form also lists *lobulated*). **Margin:** *circumscribed* (at least 75% sharply defined), *obscured* (25% or more hidden by overlapping tissue), *indistinct*, *spiculated* (lines radiating out). **Density** compares the mass with the same volume of fibroglandular tissue: fat-containing, low, equal, high."
+        },
+        {
+          "heading": "Calcifications",
+          "body": "**Morphology** is either *typically benign* (for example skin, vascular, coarse, large rod-like, round, rim, suture) or *suspicious*: **amorphous**, **coarse heterogeneous**, **fine pleomorphic**, **fine linear / fine linear-branching**. **Distribution:** *diffuse*, *regional* (large area over 2 cm), *grouped* (generally at least 5 within 1 cm), *linear*, *segmental* (duct-shaped, triangle pointing to the nipple)."
+        },
+        {
+          "heading": "Asymmetries and distortion",
+          "body": "An **asymmetry** shows on only one view, often from overlapping normal tissue. A **focal asymmetry** shows on more than one view, covers less than a quadrant, and has inward-curving borders mixed with fat. A **global asymmetry** covers at least a quadrant. A focal asymmetry that is new or larger is a **developing asymmetry**. **Architectural distortion** means the tissue pattern is pulled or distorted with no definite mass."
+        },
+        {
+          "heading": "Edition note",
+          "body": "Term lists change between editions. The 5th edition (2013) lists three mass shapes and includes a *microlobulated* margin; the v2025 summary form adds *lobulated* and lists four margins. Check which edition your course uses."
+        }
+      ],
+      "example": "A diagnostic request mentions \"grouped amorphous calcifications.\" You recognize *grouped* as a distribution term and *amorphous* as one of the suspicious-morphology terms. What it means for the patient is the radiologist's call.",
+      "misconception": {
+        "belief": "A circumscribed margin must be completely visible.",
+        "correction": "Circumscribed means at least 75% of the margin is sharply defined. If 25% or more is hidden by overlapping tissue but the visible margin is sharp, the term is obscured."
+      },
+      "variants": {
+        "simpler": "Masses: shape, margin, density. Calcifications: morphology (benign vs suspicious) and distribution. Asymmetry is seen on one view; focal asymmetry on two; distortion is pulled tissue with no mass.",
+        "example": "Segmental calcifications follow a duct system in a triangle pointing toward the nipple; diffuse calcifications are scattered randomly through the breast.",
+        "deeper": "Definitions are restated from ACR's publicly hosted BI-RADS v2025 Appendix B summary form (link-only) and two CC BY reviews. The full BI-RADS Atlas was not accessed. Needs confirmation by a qualified reviewer."
+      },
+      "checkQuestionId": "q-ap-lex-001",
+      "evidenceIds": [
+        "ev-svl-birads-mass",
+        "ev-svl-birads-calc-morph",
+        "ev-svl-birads-calc-dist",
+        "ev-svl-birads-ad-asym",
+        "ev-svl-nicosia-5th-descriptors",
+        "ev-svl-lee-asymmetry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft in original wording from evidence retrieved 2026-10-06. Lexicon recognition at technologist scope (not interpretation): needs confirmation by a qualified reviewer before being treated as verified instruction."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Needs confirmation by a qualified reviewer."
+          }
+        ]
+      }
     }
   ]
 }

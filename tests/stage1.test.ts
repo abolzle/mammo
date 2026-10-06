@@ -284,7 +284,10 @@ describe("coverage", () => {
   it("reports four-way source breakdown", () => {
     const b = sourceBreakdown(loaded.curriculum!);
     expect(b.public_domain_open).toBeGreaterThan(0);
-    expect(b.truly_blocked).toBeGreaterThan(0);
+    expect(b.public_domain_open + b.link_only + b.needs_source + b.truly_blocked).toBe(loaded.curriculum!.objectives.length);
+    const blocked = loaded.curriculum!.objectives.filter((o) => o.sourceState === "blocked");
+    expect(b.truly_blocked).toBe(blocked.length);
+    expect(blocked.every((o) => o.blockedNote)).toBe(true);
     const rows = coverageMatrix(loaded.curriculum!, loaded.modules);
     expect(rows.some((r) => r.gap)).toBe(true);
   });

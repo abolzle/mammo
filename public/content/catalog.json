@@ -17,9 +17,9 @@
         "top-ap-malignant"
       ],
       "path": "/content/modules/anatomy-pathology.json",
-      "lessonCount": 12,
-      "questionCount": 137,
-      "cardCount": 30,
+      "lessonCount": 13,
+      "questionCount": 145,
+      "cardCount": 38,
       "visualCount": 4
     },
     {
@@ -118,9 +118,9 @@
         "top-ip-image-evaluation"
       ],
       "path": "/content/modules/positioning.json",
-      "lessonCount": 12,
-      "questionCount": 133,
-      "cardCount": 22,
+      "lessonCount": 14,
+      "questionCount": 149,
+      "cardCount": 32,
       "visualCount": 4
     },
     {
@@ -165,14 +165,14 @@
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 69,
-    "complete": 63,
-    "withGap": 16,
+    "withLesson": 71,
+    "complete": 66,
+    "withGap": 13,
     "breakdown": {
-      "public_domain_open": 56,
-      "link_only": 7,
-      "needs_clinical_review": 25,
-      "truly_blocked": 3,
+      "public_domain_open": 58,
+      "link_only": 8,
+      "needs_clinical_review": 27,
+      "truly_blocked": 0,
       "needs_source": 13
     }
   }
