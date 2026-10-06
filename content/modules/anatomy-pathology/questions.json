@@ -3067,7 +3067,7 @@
       "objectiveIds": [
         "obj-ap-clock-quadrants"
       ],
-      "familyId": "fam-ap-form-a",
+      "familyId": "fam-ap-form-a-loq",
       "pool": "form-a",
       "difficultyIntent": "recall",
       "kind": "single",
@@ -3132,8 +3132,8 @@
       "objectiveIds": [
         "obj-ap-assessment-density-categories"
       ],
-      "familyId": "fam-ap-form-a",
-      "pool": "form-a",
+      "familyId": "fam-ap-form-a-dense-wording",
+      "pool": "practice",
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
@@ -3188,6 +3188,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice: too close to a practice item (q-ap-025 / q-ap-019) to count as an unseen reserved question. Stem and key unchanged."
           }
         ]
       }
@@ -3198,8 +3205,8 @@
       "objectiveIds": [
         "obj-ap-malignant"
       ],
-      "familyId": "fam-ap-form-a",
-      "pool": "form-a",
+      "familyId": "fam-ap-form-a-dcis",
+      "pool": "practice",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
@@ -3246,6 +3253,2845 @@
             "actor": "ai-assisted",
             "kind": "revision",
             "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice: too close to a practice item (q-ap-025 / q-ap-019) to count as an unseen reserved question. Stem and key unchanged."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-051",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-forma-ap-051",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A history sheet notes a palpable thickening \"directly behind the left nipple and areola.\" Using SEER's breast divisions, where should this finding be localized?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The left upper outer quadrant",
+          "rationale": "Tissue directly behind the nipple and areola is the central portion, not one of the four quadrants."
+        },
+        {
+          "id": "b",
+          "text": "The central portion of the left breast",
+          "rationale": "Correct. SEER divides each breast into four quadrants plus a central portion that contains the areola and nipple."
+        },
+        {
+          "id": "c",
+          "text": "The left axillary tail",
+          "rationale": "The axillary tail extends toward the underarm, away from the nipple."
+        },
+        {
+          "id": "d",
+          "text": "Any quadrant, because the nipple is not a localization landmark",
+          "rationale": "SEER treats the nipple–areola region as its own central portion, so it is a localization landmark."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "SEER's localization scheme has four quadrants (UIQ, UOQ, LIQ, LOQ) plus a central portion containing the areola and nipple. A finding behind the nipple–areola complex belongs to that central portion, always stated with laterality.",
+      "variants": {
+        "simpler": "Behind the nipple = central portion.",
+        "example": "\"Left breast, central portion, retroareolar\" is a clearer note than forcing the finding into a quadrant."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-052",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-clock-quadrants"
+      ],
+      "familyId": "fam-forma-ap-052",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to SEER training, how is the location of a breast tumor typically described?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As a lobe number from 1 to 20",
+          "rationale": "Lobes are anatomic units, not a localization system used in reports."
+        },
+        {
+          "id": "b",
+          "text": "As an axillary lymph node level",
+          "rationale": "Node levels describe lymph node groups, not the location of a tumor in the breast."
+        },
+        {
+          "id": "c",
+          "text": "As a distance from the pectoralis major only",
+          "rationale": "Depth alone does not give position around the breast; SEER describes location by clock time."
+        },
+        {
+          "id": "d",
+          "text": "As a specific time on a clock face",
+          "rationale": "Correct. SEER states tumor location is typically described as a specific clock time."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "SEER notes that, in addition to quadrant names, tumor location in the breast is typically described as a specific time on a clock. Laterality must always accompany the clock time.",
+      "variants": {
+        "simpler": "Breast locations are usually given as clock times.",
+        "example": "\"Right breast, 10 o'clock\" tells the team where to look on the next images."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-053",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-external-landmarks",
+        "obj-ap-tdlu"
+      ],
+      "familyId": "fam-forma-ap-053",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax traces the path milk takes from where it is made to where it leaves the breast. Through which external structure does milk exit?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nipple pores, after passing through lactiferous ducts and sinuses",
+          "rationale": "Correct. OpenStax describes milk draining through lactiferous ducts to lactiferous sinuses and out through nipple pores."
+        },
+        {
+          "id": "b",
+          "text": "Montgomery glands on the areola",
+          "rationale": "Montgomery glands secrete oil; they are not the outlet for milk."
+        },
+        {
+          "id": "c",
+          "text": "The inframammary fold",
+          "rationale": "The inframammary fold is a landmark at the lower edge of the breast, not a duct opening."
+        },
+        {
+          "id": "d",
+          "text": "Suspensory ligaments at the skin surface",
+          "rationale": "Suspensory ligaments are connective-tissue supports anchored to the dermis; they carry no milk."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Milk is made in alveoli, drains from lobules into lactiferous ducts, collects in lactiferous sinuses, and leaves through pores in the nipple.",
+      "variants": {
+        "simpler": "Milk leaves through tiny openings in the nipple.",
+        "example": "This duct pathway is why a duct-related finding can produce nipple discharge."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-054",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-054",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Per SEER training, what mainly gives the breast its size and shape?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Muscle tissue inside the breast",
+          "rationale": "SEER states the breast itself has no muscle tissue."
+        },
+        {
+          "id": "b",
+          "text": "The number of lymph nodes in the axilla",
+          "rationale": "Lymph nodes do not determine breast size or shape."
+        },
+        {
+          "id": "c",
+          "text": "The subcutaneous fat that covers the lobes",
+          "rationale": "Correct. SEER states the fat covering the lobes gives the breast its size and shape."
+        },
+        {
+          "id": "d",
+          "text": "The pectoralis minor muscle",
+          "rationale": "The breast rests on the pectoralis major; neither chest muscle is breast tissue that sets its size."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "SEER describes 15–20 lobes covered by subcutaneous adipose tissue; that fat gives the breast its size and shape. The breast contains no muscle of its own.",
+      "variants": {
+        "simpler": "Fat sets breast size and shape.",
+        "example": "A breast can be large and mostly fatty, which matters for how dense it looks on the image."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lobes-ducts",
+        "ev-ap-seer-no-muscle-in-breast"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-055",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-055",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax describes the composition of a breast that is not pregnant or lactating. It is mostly made of:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Active milk-secreting alveoli",
+          "rationale": "Milk-secreting activity describes the lactating breast."
+        },
+        {
+          "id": "b",
+          "text": "Skeletal muscle fibers",
+          "rationale": "The breast itself contains no muscle tissue."
+        },
+        {
+          "id": "c",
+          "text": "Adipose and collagenous tissue",
+          "rationale": "Correct. OpenStax states the non-pregnant, non-lactating breast is mostly adipose and collagenous tissue."
+        },
+        {
+          "id": "d",
+          "text": "Lymph node tissue",
+          "rationale": "Lymph nodes are present but are not the main tissue of the breast."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "OpenStax notes the resting breast is mostly fat and collagenous connective tissue; lactation changes the balance toward active glandular tissue.",
+      "variants": {
+        "simpler": "Resting breast = mostly fat and connective tissue.",
+        "example": "Composition varies, which is why density is reported on each mammogram."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-056",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-056",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A surgical note mentions Rotter (interpectoral) nodes. In SEER's list of regional breast lymph nodes, these belong to which group?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Axillary nodes (levels I–III)",
+          "rationale": "Correct. SEER lists interpectoral (Rotter) nodes within the axillary levels I–III."
+        },
+        {
+          "id": "b",
+          "text": "Internal mammary (parasternal) nodes",
+          "rationale": "Internal mammary nodes are a separate parasternal group."
+        },
+        {
+          "id": "c",
+          "text": "Supraclavicular nodes",
+          "rationale": "Supraclavicular nodes lie above the collarbone and are listed separately."
+        },
+        {
+          "id": "d",
+          "text": "Intramammary nodes",
+          "rationale": "Intramammary nodes sit within breast tissue and are a separate category."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "SEER's regional nodes are axillary levels I–III (which include interpectoral/Rotter nodes), infraclavicular, internal mammary (parasternal), intramammary, and supraclavicular nodes.",
+      "variants": {
+        "simpler": "Rotter nodes count as axillary nodes.",
+        "example": "Knowing the node groups helps you understand surgical and pathology terms in a history."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lymph-groups"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-057",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-057",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which SEER regional lymph node group is located within the breast tissue itself?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Supraclavicular nodes",
+          "rationale": "SEER places these above the collarbone."
+        },
+        {
+          "id": "b",
+          "text": "Internal mammary (parasternal) nodes",
+          "rationale": "These lie along the sternum in the chest, not inside the breast tissue."
+        },
+        {
+          "id": "c",
+          "text": "Infraclavicular nodes",
+          "rationale": "These lie below the collarbone, outside the breast."
+        },
+        {
+          "id": "d",
+          "text": "Intramammary nodes",
+          "rationale": "Correct. Intramammary nodes are the SEER group found within the breast."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "SEER notes node groups in the axilla, above the collarbone, and in the chest. Intramammary nodes are the group inside the breast.",
+      "variants": {
+        "simpler": "Intra-mammary = inside the breast.",
+        "example": "A node seen within the breast on an image belongs to this group."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lymph-groups"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-058",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu"
+      ],
+      "familyId": "fam-forma-ap-058",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "Which sequence correctly follows milk from production to the nipple, as described by OpenStax?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lactiferous sinus → alveoli → lobule → nipple pore",
+          "rationale": "This starts at a storage point and places the milk-making alveoli in the middle."
+        },
+        {
+          "id": "b",
+          "text": "Alveoli → lobule's common duct → lactiferous duct → lactiferous sinus → nipple pore",
+          "rationale": "Correct. This is the OpenStax drainage path."
+        },
+        {
+          "id": "c",
+          "text": "Montgomery gland → lactiferous duct → alveoli → nipple pore",
+          "rationale": "Montgomery glands secrete oil on the areola; milk begins in alveoli."
+        },
+        {
+          "id": "d",
+          "text": "Lobule → suspensory ligament → lactiferous sinus → nipple pore",
+          "rationale": "Suspensory ligaments are supports, not milk channels."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Alveoli lined with lactocytes make milk; clusters of alveoli draining to a common duct form a lobule; milk then moves through lactiferous ducts to lactiferous sinuses and out the nipple pores.",
+      "variants": {
+        "simpler": "Make it in alveoli, move it through ducts, release at the nipple.",
+        "example": "Ductal and lobular cancers are named for where along this path they begin."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-059",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu",
+        "obj-ap-cytology"
+      ],
+      "familyId": "fam-forma-ap-059",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "OpenStax calls the cells lining the breast alveoli lactocytes. What are they?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Contractile cells that squeeze the alveoli",
+          "rationale": "That is the role of the surrounding myoepithelial cells."
+        },
+        {
+          "id": "b",
+          "text": "Milk-secreting cuboidal cells",
+          "rationale": "Correct. OpenStax describes lactocytes as the milk-secreting cuboidal cells lining alveoli."
+        },
+        {
+          "id": "c",
+          "text": "Oil-secreting cells of the areola",
+          "rationale": "Oil on the areola comes from Montgomery glands."
+        },
+        {
+          "id": "d",
+          "text": "Lymphocytes inside intramammary nodes",
+          "rationale": "Lymphocytes are immune cells; lactocytes are glandular cells."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "In OpenStax's description, alveoli are lined with milk-secreting lactocytes and wrapped in a net of contractile myoepithelial cells.",
+      "variants": {
+        "simpler": "Lactocytes make milk.",
+        "example": "Lactocytes make milk; myoepithelial cells push it along."
+      },
+      "evidenceIds": [
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-060",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu"
+      ],
+      "familyId": "fam-forma-ap-060",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER says lobules end in dozens of tiny bulbs. What do those bulbs do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They secrete oil onto the areola",
+          "rationale": "That describes Montgomery glands."
+        },
+        {
+          "id": "b",
+          "text": "They anchor breast tissue to the skin",
+          "rationale": "Anchoring is the role of suspensory ligaments."
+        },
+        {
+          "id": "c",
+          "text": "They filter lymph from the breast",
+          "rationale": "Lymph is filtered by lymph nodes."
+        },
+        {
+          "id": "d",
+          "text": "They can make milk",
+          "rationale": "Correct. SEER states the bulbs at the ends of lobules can make milk."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "SEER describes each lobe as containing lobules that end in tiny milk-producing bulbs, all linked by ducts.",
+      "variants": {
+        "simpler": "The bulbs at the end of lobules make milk.",
+        "example": "These milk-producing units are where lobular disease begins."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lobes-ducts"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-061",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-cytology",
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-061",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which statement about ductal and lobular carcinoma is supported by SEER training?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both ductal and lobular carcinoma can be either in situ or invasive",
+          "rationale": "Correct. SEER states both types can be in situ or invasive."
+        },
+        {
+          "id": "b",
+          "text": "Lobular carcinoma is always invasive",
+          "rationale": "SEER notes lobular carcinoma can also be in situ."
+        },
+        {
+          "id": "c",
+          "text": "Ductal carcinoma is always in situ",
+          "rationale": "Invasive ductal carcinoma is the most common invasive type."
+        },
+        {
+          "id": "d",
+          "text": "\"In situ\" applies only to lobular disease",
+          "rationale": "DCIS is the most familiar in situ diagnosis, and it is ductal."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\"Ductal\" and \"lobular\" describe where a carcinoma begins. \"In situ\" and \"invasive\" describe whether it has spread beyond where it formed. The two descriptions are independent.",
+      "variants": {
+        "simpler": "Where it started and whether it spread are separate questions.",
+        "example": "DCIS and IDC are both ductal; one has not spread beyond the duct and the other has."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-histologies",
+        "ev-ap-dict-insitu"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-062",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-cytology",
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-forma-ap-062",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "Applying the NCI definition of \"in situ,\" lobular carcinoma in situ (LCIS) describes abnormal cells that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have spread from the lobules into surrounding tissue",
+          "rationale": "That would describe invasive lobular carcinoma."
+        },
+        {
+          "id": "b",
+          "text": "Are located in the lining of a milk duct",
+          "rationale": "Abnormal cells in duct lining describe DCIS or ADH, not LCIS."
+        },
+        {
+          "id": "c",
+          "text": "Are found in the breast lobules and have not spread from where they formed",
+          "rationale": "Correct. LCIS cells are in the lobules, and in situ means they remain where they first formed."
+        },
+        {
+          "id": "d",
+          "text": "Have spread to the sentinel lymph node",
+          "rationale": "Spread to a node is not in situ disease."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI defines in situ as \"in its original place.\" LCIS is abnormal cells in the lobules that have not spread. NCI adds that LCIS seldom becomes invasive itself but raises risk in either breast.",
+      "variants": {
+        "simpler": "LCIS = abnormal lobule cells that have stayed put.",
+        "example": "A history listing LCIS signals higher risk, not an invasive cancer."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-lcis",
+        "ev-ap-dict-insitu"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-063",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs",
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-063",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient says she stopped her calcium supplements because a prior mammogram showed calcifications. What does NCI say?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Calcifications mean she has too much dietary calcium",
+          "rationale": "NCI says breast calcifications are not caused by dietary calcium."
+        },
+        {
+          "id": "b",
+          "text": "Stopping supplements will make calcifications disappear",
+          "rationale": "Because they are not diet-related, stopping supplements is not expected to change them."
+        },
+        {
+          "id": "c",
+          "text": "Calcifications seen on mammograms are not related to the calcium in her diet",
+          "rationale": "Correct. NCI states neither macro- nor microcalcifications are related to dietary calcium."
+        },
+        {
+          "id": "d",
+          "text": "All calcifications indicate cancer",
+          "rationale": "NCI notes macrocalcifications are usually benign."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI explains that calcifications on mammograms are not linked to dietary calcium. Questions about supplements belong with her clinician; the technologist can share this general fact.",
+      "variants": {
+        "simpler": "Breast calcifications are not from calcium in food or pills.",
+        "example": "\"Breast calcifications aren't caused by calcium in your diet; your provider can answer questions about supplements.\""
+      },
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-064",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-lexicon-masses-calcs"
+      ],
+      "familyId": "fam-forma-ap-064",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In NCI's patient-level description of masses on a mammogram, which appearance is more likely to need further tests?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A lump with jagged or irregular features",
+          "rationale": "Correct. NCI notes jagged or irregular features may need more tests."
+        },
+        {
+          "id": "b",
+          "text": "A smooth, round lump with clear, defined edges",
+          "rationale": "NCI describes this appearance as often benign, such as a cyst."
+        },
+        {
+          "id": "c",
+          "text": "Fatty tissue that appears dark",
+          "rationale": "Fat appearing dark is normal and is not a mass."
+        },
+        {
+          "id": "d",
+          "text": "Any lump, regardless of features, is a cancer",
+          "rationale": "NCI distinguishes appearances that are often benign from those needing more tests."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI's lay description contrasts smooth, round, well-defined lumps (often benign cysts) with jagged or irregular features that may need more tests. Detailed lexicon terms come from the ACR atlas, which Mammo cites link-only.",
+      "variants": {
+        "simpler": "Smooth edges are often benign; jagged edges may need more tests.",
+        "example": "This is patient-education language; the radiologist decides what a finding means."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-065",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-065",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "On a mammogram, how do fatty tissue and dense tissue typically appear, according to NCI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fat appears white; dense tissue appears dark",
+          "rationale": "This reverses NCI's description."
+        },
+        {
+          "id": "b",
+          "text": "Both fat and dense tissue appear the same gray",
+          "rationale": "The contrast between dark fat and white dense tissue is what NCI describes."
+        },
+        {
+          "id": "c",
+          "text": "Tumors appear dark against white fat",
+          "rationale": "NCI says tumors appear white, which is why dense tissue can hide them."
+        },
+        {
+          "id": "d",
+          "text": "Fat appears dark; dense tissue, calcifications, and tumors appear white",
+          "rationale": "Correct. NCI explains dense tissue and some abnormalities both appear white, while fat appears dark."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "Because dense tissue and many abnormalities both appear white, mammography is less sensitive in dense breasts. Fatty tissue appears dark and provides more contrast.",
+      "variants": {
+        "simpler": "Fat looks dark; dense tissue and many findings look white.",
+        "example": "White-on-white is why a finding can hide in dense tissue."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-masking-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-066",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-066",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "During positioning, a patient asks the technologist to feel her breasts and tell her whether they are dense. Which response matches NCI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Firm breasts are always dense, so the technologist can tell her now",
+          "rationale": "NCI says density cannot be determined by touch."
+        },
+        {
+          "id": "b",
+          "text": "Density can't be felt; only a radiologist reading the mammogram can determine it",
+          "rationale": "Correct. NCI states dense tissue cannot be felt and only a radiologist reading a mammogram can determine density."
+        },
+        {
+          "id": "c",
+          "text": "Her doctor can determine density during a clinical breast exam",
+          "rationale": "NCI says a clinical breast exam cannot determine density either."
+        },
+        {
+          "id": "d",
+          "text": "Density is determined from her age alone",
+          "rationale": "Density is a mammographic assessment, not an age category."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Density is a mammographic description of tissue composition, not something felt. The radiologist reports it, and the patient receives it in her results.",
+      "variants": {
+        "simpler": "You can't feel density; the radiologist sees it on the images.",
+        "example": "\"Density shows up on the images, not by touch. Your results will tell you.\""
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-not-palpable"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-067",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-067",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI estimates roughly what share of mammograms fall into the \"extremely dense\" category?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 40%",
+          "rationale": "About 40% applies to the scattered fibroglandular and the heterogeneously dense categories."
+        },
+        {
+          "id": "b",
+          "text": "About 10%",
+          "rationale": "Correct. NCI lists extremely dense at about 10%."
+        },
+        {
+          "id": "c",
+          "text": "About 50%",
+          "rationale": "\"Nearly half\" describes all dense breasts (both dense categories combined) among women 40 and older."
+        },
+        {
+          "id": "d",
+          "text": "About 75%",
+          "rationale": "No density category is this common in NCI's figures."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI's approximate distribution: almost entirely fatty about 10%, scattered fibroglandular about 40%, heterogeneously dense about 40%, extremely dense about 10%.",
+      "variants": {
+        "simpler": "Extremely dense is about 1 in 10.",
+        "example": "The two outer categories are each about 10%; the middle two are each about 40%."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-four"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-068",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-068",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A patient reads that she has dense breasts and asks whether that means she has a breast disease. What does NCI say?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dense breasts are a form of benign breast disease that needs treatment",
+          "rationale": "NCI does not describe density as a disease."
+        },
+        {
+          "id": "b",
+          "text": "Dense breasts have no relationship to cancer risk",
+          "rationale": "NCI identifies density as a risk factor."
+        },
+        {
+          "id": "c",
+          "text": "Dense breasts mean cancer is already present but hidden",
+          "rationale": "Density describes tissue; it does not mean cancer is present."
+        },
+        {
+          "id": "d",
+          "text": "Dense breasts are not a disease, but they are a risk factor for breast cancer",
+          "rationale": "Correct. NCI says dense tissue is not a disease and is a risk factor apart from its masking effect."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI separates two facts: density makes mammography less sensitive, and density is itself a risk factor. Neither makes density a disease.",
+      "variants": {
+        "simpler": "Dense is common and not a disease, but it does raise risk.",
+        "example": "Point her to her clinician to discuss what density means for her."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-masking-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-069",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-069",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A report's final assessment reads \"Known Biopsy-Proven Malignancy.\" Which category on NCI's BI-RADS table matches?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Category 6",
+          "rationale": "Correct. NCI lists category 6 as known biopsy-proven malignancy."
+        },
+        {
+          "id": "b",
+          "text": "Category 0",
+          "rationale": "Category 0 means additional imaging evaluation is needed."
+        },
+        {
+          "id": "c",
+          "text": "Category 4",
+          "rationale": "Category 4 is a suspicious abnormality that may require biopsy."
+        },
+        {
+          "id": "d",
+          "text": "Category 5",
+          "rationale": "Category 5 is highly suggestive of malignancy and requires biopsy; the cancer has not yet been biopsy-proven."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Category 6 is used when a malignancy has already been proven by biopsy. MQSA lists the same wording as a final assessment category.",
+      "variants": {
+        "simpler": "Cancer already confirmed by biopsy = category 6.",
+        "example": "A patient imaged after a biopsy diagnosis but before surgery may carry this assessment."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-birads-table",
+        "ev-ap-mqsa-assessment"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-070",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-070",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "Under MQSA, a report is issued as \"Incomplete: Need prior mammograms for comparison.\" What must happen next?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The case can stay incomplete until the priors arrive, however long that takes",
+          "rationale": "MQSA sets a 30-day limit regardless of whether priors arrive."
+        },
+        {
+          "id": "b",
+          "text": "The patient must be rescanned the same day",
+          "rationale": "The category asks for prior images, not new imaging."
+        },
+        {
+          "id": "c",
+          "text": "A follow-up report with a final assessment must be issued within 30 calendar days, whether or not priors are obtained",
+          "rationale": "Correct. MQSA requires the follow-up final assessment within 30 days even if comparison images can't be obtained."
+        },
+        {
+          "id": "d",
+          "text": "The technologist assigns the final category once priors are uploaded",
+          "rationale": "Final assessments come from the interpreting physician's report."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA's two incomplete categories are \"Need additional imaging evaluation\" and \"Need prior mammograms for comparison.\" For the second, a final assessment (Negative through Highly Suggestive of Malignancy) must follow within 30 calendar days.",
+      "variants": {
+        "simpler": "Waiting for priors has a 30-day limit.",
+        "example": "Requesting outside priors quickly helps the facility meet this deadline."
+      },
+      "evidenceIds": [
+        "ev-mqsa-incomplete-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-071",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-071",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which categories on NCI's BI-RADS table carry the follow-up \"continue routine screening\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Category 0 and category 3",
+          "rationale": "Category 0 needs additional imaging; category 3 gets a 6-month follow-up."
+        },
+        {
+          "id": "b",
+          "text": "Category 3 only",
+          "rationale": "Category 3 carries a short-interval (6-month) follow-up, not routine screening."
+        },
+        {
+          "id": "c",
+          "text": "Category 1 (negative) and category 2 (benign)",
+          "rationale": "Correct. NCI lists routine screening for both categories 1 and 2."
+        },
+        {
+          "id": "d",
+          "text": "Category 4 and category 5",
+          "rationale": "These carry biopsy recommendations."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "A benign finding (category 2) is reported but leads to the same routine screening follow-up as a negative exam (category 1).",
+      "variants": {
+        "simpler": "Negative or benign: back to routine screening.",
+        "example": "A patient with a known benign finding can still be told she returns on the routine schedule."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-birads-table"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-072",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-072",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under MQSA's report density categories, which category carries the wording that it \"may obscure small masses\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heterogeneously dense",
+          "rationale": "Correct. MQSA's wording for heterogeneously dense notes it may obscure small masses."
+        },
+        {
+          "id": "b",
+          "text": "Almost entirely fatty",
+          "rationale": "Fatty tissue offers high contrast; MQSA gives this category no masking wording."
+        },
+        {
+          "id": "c",
+          "text": "Scattered areas of fibroglandular density",
+          "rationale": "MQSA gives this category no masking wording."
+        },
+        {
+          "id": "d",
+          "text": "Extremely dense",
+          "rationale": "MQSA's wording for extremely dense is that it lowers the sensitivity of mammography."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA's four report density categories: almost entirely fatty; scattered areas of fibroglandular density; heterogeneously dense, which may obscure small masses; extremely dense, which lowers the sensitivity of mammography.",
+      "variants": {
+        "simpler": "Heterogeneously dense: may hide small masses.",
+        "example": "The masking wording is attached only to the two dense categories."
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-073",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-073",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which MQSA report density category is worded as one that \"lowers the sensitivity of mammography\"?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heterogeneously dense",
+          "rationale": "Its MQSA wording is that it may obscure small masses."
+        },
+        {
+          "id": "b",
+          "text": "Scattered areas of fibroglandular density",
+          "rationale": "MQSA attaches no sensitivity wording to this category."
+        },
+        {
+          "id": "c",
+          "text": "Almost entirely fatty",
+          "rationale": "Fatty tissue does not carry this wording."
+        },
+        {
+          "id": "d",
+          "text": "Extremely dense",
+          "rationale": "Correct. MQSA attaches this wording to the extremely dense category."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA attaches different wording to each dense category. Heterogeneously dense may obscure small masses; extremely dense lowers the sensitivity of mammography.",
+      "variants": {
+        "simpler": "Extremely dense lowers how well mammography finds cancer.",
+        "example": "This is the reason supplemental imaging conversations come up for some patients."
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-categories"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-074",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-forma-ap-074",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "apply",
+      "kind": "calculation",
+      "estSeconds": 75,
+      "stem": "Using NCI's approximate density distribution, about what share of women fall in the two middle categories combined (scattered fibroglandular plus heterogeneously dense)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 20%",
+          "rationale": "About 20% is the two outer categories combined (about 10% each)."
+        },
+        {
+          "id": "b",
+          "text": "About 80%",
+          "rationale": "Correct. NCI lists about 40% for each middle category, so about 80% combined."
+        },
+        {
+          "id": "c",
+          "text": "About 50%",
+          "rationale": "\"Nearly half\" describes dense breasts (heterogeneously plus extremely dense), not the two middle categories."
+        },
+        {
+          "id": "d",
+          "text": "About 40%",
+          "rationale": "About 40% is one middle category on its own."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI's figures: fatty about 10%, scattered about 40%, heterogeneously dense about 40%, extremely dense about 10%. The middle two add to about 80%.",
+      "variants": {
+        "simpler": "40% + 40% = about 80%.",
+        "example": "Most patients you image will fall in one of the two middle categories."
+      },
+      "evidenceIds": [
+        "ev-ap-nci-dense-four"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-075",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-forma-ap-075",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A patient's history lists a prior fibroadenoma. Which statement about fibroadenoma and breast cancer risk matches NCI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "All fibroadenomas become cancer if left in place",
+          "rationale": "NCI describes fibroadenoma as a benign tumor; most do not raise risk."
+        },
+        {
+          "id": "b",
+          "text": "Most fibroadenomas do not increase the risk of breast cancer",
+          "rationale": "Correct. NCI states most fibroadenomas do not increase breast cancer risk."
+        },
+        {
+          "id": "c",
+          "text": "Fibroadenoma is a form of DCIS",
+          "rationale": "DCIS is an in situ cancer; fibroadenoma is a benign tumor."
+        },
+        {
+          "id": "d",
+          "text": "Fibroadenoma has the same risk meaning as atypical ductal hyperplasia",
+          "rationale": "NCI says ADH increases risk; most fibroadenomas do not."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI describes fibroadenoma as the most common benign breast tumor, made of fibrous and glandular tissue, and notes that most do not increase cancer risk.",
+      "variants": {
+        "simpler": "Most fibroadenomas don't raise cancer risk.",
+        "example": "Record it in the history, but don't present it to the patient as a risk marker."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fibroadenoma"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-076",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-forma-ap-076",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to NCI, a fibroadenoma is made up of which tissues?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fat cells only",
+          "rationale": "A tumor made only of fat cells is a lipoma."
+        },
+        {
+          "id": "b",
+          "text": "Fluid inside a closed sac",
+          "rationale": "A fluid-filled sac describes a cyst."
+        },
+        {
+          "id": "c",
+          "text": "Abnormal cells in the duct lining",
+          "rationale": "That describes DCIS or ADH."
+        },
+        {
+          "id": "d",
+          "text": "Fibrous (connective) tissue and glandular tissue",
+          "rationale": "Correct. NCI defines fibroadenoma as fibrous plus glandular tissue."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "The name reflects the composition: \"fibro\" for fibrous connective tissue and \"adenoma\" for glandular tissue.",
+      "variants": {
+        "simpler": "Fibroadenoma = fibrous + glandular tissue.",
+        "example": "Compare with a lipoma (fat) and a cyst (fluid-filled sac)."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fibroadenoma"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-077",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-forma-ap-077",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A patient's history notes a single intraductal papilloma removed last year. Which NCI statement applies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A single papilloma does not increase the risk of breast cancer",
+          "rationale": "Correct. NCI states a single papilloma does not increase breast cancer risk."
+        },
+        {
+          "id": "b",
+          "text": "A single papilloma is an invasive cancer",
+          "rationale": "NCI describes intraductal papilloma as a benign growth."
+        },
+        {
+          "id": "c",
+          "text": "Papillomas grow in the lymph nodes",
+          "rationale": "NCI places papillomas in a milk duct, usually near the nipple."
+        },
+        {
+          "id": "d",
+          "text": "A single papilloma carries the same risk as LCIS",
+          "rationale": "NCI notes LCIS increases risk; a single papilloma does not."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI describes intraductal papilloma as a benign, wart-like growth in a milk duct, usually near the nipple, that may cause nipple discharge. A single papilloma does not raise cancer risk.",
+      "variants": {
+        "simpler": "One benign duct growth; no added cancer risk.",
+        "example": "Papilloma with atypia is a separate high-risk entity; this item is about a single benign papilloma."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-papilloma"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-078",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-benign-conditions"
+      ],
+      "familyId": "fam-forma-ap-078",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI defines a cyst as a closed, sac-like pocket of tissue. What can it contain?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only fat cells",
+          "rationale": "Fat cells make up a lipoma."
+        },
+        {
+          "id": "b",
+          "text": "Only fibrous and glandular tissue",
+          "rationale": "That is the composition of a fibroadenoma."
+        },
+        {
+          "id": "c",
+          "text": "Fluid, air, pus, or other material",
+          "rationale": "Correct. NCI lists fluid, air, pus, or other material."
+        },
+        {
+          "id": "d",
+          "text": "Only abnormal ductal cells",
+          "rationale": "Abnormal ductal cells describe DCIS or ADH."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI's definition: a closed, sac-like pocket that may be filled with fluid, air, pus, or other material. Most cysts are benign.",
+      "variants": {
+        "simpler": "A cyst is a sac that can hold fluid or other material.",
+        "example": "NCI notes smooth, round, clear-edged lumps are often benign cysts."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-cyst"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-079",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-forma-ap-079",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Atypical ductal hyperplasia (ADH) and atypical lobular hyperplasia (ALH) are both benign conditions that increase breast cancer risk. What mainly distinguishes them in NCI's definitions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ADH is invasive and ALH is in situ",
+          "rationale": "NCI describes both as benign conditions, not cancers."
+        },
+        {
+          "id": "b",
+          "text": "ALH increases risk and ADH does not",
+          "rationale": "NCI says both increase breast cancer risk."
+        },
+        {
+          "id": "c",
+          "text": "Where the abnormal cells are: duct lining for ADH, lobules for ALH",
+          "rationale": "Correct. NCI places ADH in the duct lining and ALH in the lobules."
+        },
+        {
+          "id": "d",
+          "text": "ADH occurs only in men",
+          "rationale": "NCI's definition does not limit ADH by sex."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Both are more cells than normal that look abnormal under a microscope, and both raise risk. \"Ductal\" and \"lobular\" tell you where the cells are.",
+      "variants": {
+        "simpler": "Same idea, different location: ducts vs lobules.",
+        "example": "Seeing either term in a history is a reason to document it accurately."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-adh",
+        "ev-ap-dict-alh"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-080",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-forma-ap-080",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "Which pair are both described by NCI as benign conditions that increase breast cancer risk?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Atypical ductal hyperplasia and atypical lobular hyperplasia",
+          "rationale": "Correct. NCI defines both as benign and as increasing breast cancer risk."
+        },
+        {
+          "id": "b",
+          "text": "Lipoma and single intraductal papilloma",
+          "rationale": "NCI describes neither as raising risk; a single papilloma explicitly does not."
+        },
+        {
+          "id": "c",
+          "text": "Fibroadenoma and simple cyst",
+          "rationale": "NCI says most fibroadenomas do not raise risk, and most cysts are benign."
+        },
+        {
+          "id": "d",
+          "text": "Invasive ductal and invasive lobular carcinoma",
+          "rationale": "These are invasive cancers, not benign conditions."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Atypia (ADH, ALH) and LCIS are risk markers. Lipoma, single papilloma, fibroadenoma, and cysts are benign without the same risk meaning in NCI's definitions.",
+      "variants": {
+        "simpler": "\"Atypical\" hyperplasia raises risk.",
+        "example": "A history listing ADH or ALH tells the reader the patient has higher risk."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-adh",
+        "ev-ap-dict-alh",
+        "ev-ap-dict-papilloma"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-081",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-forma-ap-081",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI notes phyllodes tumors are usually removed surgically. What does NCI say about their behavior afterward?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They never recur once removed",
+          "rationale": "NCI notes recurrence can occur."
+        },
+        {
+          "id": "b",
+          "text": "They always spread widely to other organs",
+          "rationale": "NCI says they rarely spread to other parts of the body."
+        },
+        {
+          "id": "c",
+          "text": "They convert into fibroadenomas",
+          "rationale": "NCI describes no such conversion."
+        },
+        {
+          "id": "d",
+          "text": "They can come back (recur)",
+          "rationale": "Correct. NCI notes phyllodes tumors can recur."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI describes phyllodes tumors as rare connective-tissue tumors that grow quickly. Most are benign, some are borderline or malignant, they rarely spread, they are usually removed surgically, and they can recur.",
+      "variants": {
+        "simpler": "Phyllodes tumors can return after removal.",
+        "example": "A history of phyllodes tumor at a surgical site is worth recording for the radiologist."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-phyllodes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-082",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-forma-ap-082",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "How does NCI classify phyllodes tumors by behavior?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "All are malignant",
+          "rationale": "NCI says most are benign."
+        },
+        {
+          "id": "b",
+          "text": "Most are benign, but some are borderline or malignant",
+          "rationale": "Correct. NCI says most are benign, with some malignant or borderline."
+        },
+        {
+          "id": "c",
+          "text": "All are benign",
+          "rationale": "NCI notes some are malignant or borderline."
+        },
+        {
+          "id": "d",
+          "text": "They are a subtype of DCIS",
+          "rationale": "Phyllodes tumors arise in connective tissue; DCIS arises in duct lining."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Phyllodes tumors span a behavior range: benign, borderline, or malignant. They are rare, grow quickly, and usually form in connective tissue.",
+      "variants": {
+        "simpler": "Mostly benign, sometimes borderline or malignant.",
+        "example": "That range is one reason they are usually removed surgically."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-phyllodes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-083",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-high-risk-lesions"
+      ],
+      "familyId": "fam-forma-ap-083",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why is a radial scar called a \"scar\" in NCI's definition?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It always follows a prior surgery",
+          "rationale": "NCI does not tie radial scar to prior surgery."
+        },
+        {
+          "id": "b",
+          "text": "It looks like a scar when viewed under a microscope",
+          "rationale": "Correct. NCI says it is hardened tissue that looks like a scar under a microscope."
+        },
+        {
+          "id": "c",
+          "text": "It appears as a skin scar visible on the breast surface",
+          "rationale": "The name refers to microscopic appearance, not a visible skin scar."
+        },
+        {
+          "id": "d",
+          "text": "It is a healed cancer",
+          "rationale": "NCI defines radial scar as benign."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI defines radial scar as a benign area of hardened tissue that looks like a scar microscopically. Because it can look like cancer on a mammogram, biopsy is usually needed.",
+      "variants": {
+        "simpler": "Named for how it looks under the microscope.",
+        "example": "Don't assume a patient with a radial scar on her report has had surgery."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-radial-scar"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-084",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-084",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "In inflammatory breast cancer, what causes the breast to look swollen or inflamed, according to NCI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bacterial infection of the milk ducts",
+          "rationale": "Infection describes mastitis or abscess, not IBC."
+        },
+        {
+          "id": "b",
+          "text": "Compression during the mammogram",
+          "rationale": "Compression does not cause IBC's skin changes."
+        },
+        {
+          "id": "c",
+          "text": "A large lump pressing on the skin",
+          "rationale": "NCI notes IBC usually does not form a lump that can be felt."
+        },
+        {
+          "id": "d",
+          "text": "Cancer cells block lymph vessels in the skin of the breast",
+          "rationale": "Correct. NCI states cancer cells block skin lymph vessels."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "IBC is rare and fast-growing. Blocked skin lymph vessels cause swelling and skin changes. It often lacks a palpable lump and may not be seen on a mammogram.",
+      "variants": {
+        "simpler": "Blocked skin lymph vessels cause the swelling.",
+        "example": "Document red, swollen, or peau d'orange-like skin carefully in the history."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-ibc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-085",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-085",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient reports a red, swollen breast with no lump she can feel, and says a recent mammogram was normal. Which NCI statement about inflammatory breast cancer is relevant to documenting her history?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "IBC usually does not form a palpable lump and may not be seen on a mammogram",
+          "rationale": "Correct. NCI states both facts, which is why her symptoms still matter."
+        },
+        {
+          "id": "b",
+          "text": "IBC always appears as a clustered calcification",
+          "rationale": "NCI gives no such imaging description of IBC."
+        },
+        {
+          "id": "c",
+          "text": "A normal mammogram rules out IBC",
+          "rationale": "NCI says IBC may not be seen on a mammogram."
+        },
+        {
+          "id": "d",
+          "text": "IBC is always slow-growing, so symptoms can wait",
+          "rationale": "NCI describes IBC as fast-growing."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The technologist does not diagnose. Recording symptoms accurately matters because IBC may not form a lump or show on a mammogram. The interpreting physician and referring clinician decide next steps.",
+      "variants": {
+        "simpler": "Symptoms matter even if the last mammogram was normal.",
+        "example": "Note the skin changes and their location so the radiologist sees them with the images."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-ibc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-086",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-086",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER training gives invasive lobular carcinoma's approximate share of invasive breast cancers as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 70%",
+          "rationale": "About 70% is SEER's figure for invasive ductal carcinoma."
+        },
+        {
+          "id": "b",
+          "text": "About 15–20%",
+          "rationale": "That is SEER's figure for DCIS as a share of all breast cancers."
+        },
+        {
+          "id": "c",
+          "text": "About 10–15%",
+          "rationale": "Correct. SEER says invasive lobular carcinoma accounts for 10–15% of invasive breast cancers."
+        },
+        {
+          "id": "d",
+          "text": "Less than 1%",
+          "rationale": "ILC is far more common than that in SEER's figures."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "SEER's figures: IDC is about 70% of breast cancers; ILC about 10–15% of invasive cancers; DCIS about 15–20% of all breast cancers.",
+      "variants": {
+        "simpler": "ILC is about 1 in 8 invasive cancers.",
+        "example": "IDC is the most common type; ILC is a distant second."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-histologies"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-087",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-087",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Beyond spreading into surrounding normal breast tissue, how does NCI say invasive ductal and invasive lobular carcinoma can spread to other parts of the body?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only by direct contact with the skin",
+          "rationale": "NCI names blood and lymph spread."
+        },
+        {
+          "id": "b",
+          "text": "Through the milk ducts out of the nipple",
+          "rationale": "This does not describe how cancer spreads to other parts of the body."
+        },
+        {
+          "id": "c",
+          "text": "Through the blood and lymph systems",
+          "rationale": "Correct. NCI notes both can spread through the blood and lymph systems."
+        },
+        {
+          "id": "d",
+          "text": "They cannot spread beyond the breast",
+          "rationale": "Invasive cancers can spread; in situ disease has not."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Invasive means cells have spread beyond the duct or lobule into surrounding tissue. NCI adds that they can spread through blood and lymph, which is why lymph node evaluation matters.",
+      "variants": {
+        "simpler": "Invasive cancer can travel in blood and lymph.",
+        "example": "This is the reason the sentinel node is checked: it is the first node cancer is likely to reach."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-idc",
+        "ev-ap-dict-ilc",
+        "ev-ap-dict-sentinel"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-088",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant",
+        "obj-ap-cytology"
+      ],
+      "familyId": "fam-forma-ap-088",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI gives another name for ductal carcinoma in situ (DCIS). Which is it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Intraductal breast carcinoma",
+          "rationale": "Correct. NCI lists intraductal breast carcinoma as another name for DCIS."
+        },
+        {
+          "id": "b",
+          "text": "Invasive ductal carcinoma",
+          "rationale": "IDC has spread outside the duct; DCIS has not."
+        },
+        {
+          "id": "c",
+          "text": "Lobular carcinoma in situ",
+          "rationale": "LCIS is in the lobules, not the duct lining."
+        },
+        {
+          "id": "d",
+          "text": "Inflammatory breast cancer",
+          "rationale": "IBC is an invasive cancer with skin lymph vessel involvement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "DCIS is abnormal cells in the lining of a duct that have not spread outside it. \"Intraductal\" emphasizes that the cells are inside the duct.",
+      "variants": {
+        "simpler": "DCIS = intraductal carcinoma: cells still inside the duct.",
+        "example": "Seeing \"intraductal carcinoma\" in an older report means the same thing as DCIS."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-dcis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-089",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-tdlu",
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-089",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER says each breast has 15–20 lobes. OpenStax says the lactating breast has 12–20 lobules organized radially. What explains the two descriptions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They contradict each other, so one must be wrong",
+          "rationale": "Each source describes its own unit at its own level of detail, so they are not in conflict."
+        },
+        {
+          "id": "b",
+          "text": "Lobes and lobules are the same structure",
+          "rationale": "SEER describes lobules as smaller sections within each lobe."
+        },
+        {
+          "id": "c",
+          "text": "Lobules exist only in men",
+          "rationale": "Both sources describe lobules in the female breast."
+        },
+        {
+          "id": "d",
+          "text": "They describe related but different units: lobes contain many smaller lobules",
+          "rationale": "Correct. SEER describes lobes containing many smaller lobules; OpenStax defines a lobule as a cluster of alveoli draining to a common duct."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "SEER: lobes, each with many smaller lobules ending in milk-making bulbs, linked by ducts. OpenStax: a lobule is a cluster of alveoli draining to a common duct, arranged radially around the nipple. Read source terms carefully before treating numbers as a conflict.",
+      "variants": {
+        "simpler": "Lobes are bigger units that contain lobules.",
+        "example": "\"Lobular\" carcinoma refers to the small lobules, not the larger lobes."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lobes-ducts",
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-090",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-090",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER notes groups of lymph nodes near the breast in the axilla, in the chest, and in one other location. Where are supraclavicular nodes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within the breast tissue",
+          "rationale": "Nodes within the breast are intramammary."
+        },
+        {
+          "id": "b",
+          "text": "Above the collarbone",
+          "rationale": "Correct. SEER describes node groups above the collarbone, which are the supraclavicular nodes."
+        },
+        {
+          "id": "c",
+          "text": "Along the sternum",
+          "rationale": "Nodes along the sternum are internal mammary (parasternal)."
+        },
+        {
+          "id": "d",
+          "text": "Between the pectoral muscles",
+          "rationale": "Interpectoral (Rotter) nodes are counted with the axillary group."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "\"Supra-\" means above and \"clavicular\" refers to the clavicle (collarbone). SEER lists supraclavicular nodes among regional breast nodes.",
+      "variants": {
+        "simpler": "Supraclavicular = above the collarbone.",
+        "example": "Node group names usually describe their location."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-lymph-groups"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-091",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-091",
+      "pool": "form-a",
+      "simulationRole": "pilot",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "SEER training describes DCIS as the earliest form of the disease. About what share of all breast cancers does SEER attribute to DCIS?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "About 70%",
+          "rationale": "About 70% is SEER's figure for invasive ductal carcinoma."
+        },
+        {
+          "id": "b",
+          "text": "About 15–20%",
+          "rationale": "Correct. SEER states DCIS comprises about 15–20% of all breast cancers."
+        },
+        {
+          "id": "c",
+          "text": "About 10%",
+          "rationale": "This is below SEER's DCIS figure."
+        },
+        {
+          "id": "d",
+          "text": "About 50%",
+          "rationale": "SEER gives no figure this high for DCIS."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "SEER: DCIS about 15–20% of all breast cancers, developing solely in the milk ducts; IDC about 70%; ILC about 10–15% of invasive cancers.",
+      "variants": {
+        "simpler": "DCIS is about 1 in 6 breast cancers.",
+        "example": "NCI notes clustered microcalcifications may be a sign of DCIS."
+      },
+      "evidenceIds": [
+        "ev-ap-seer-histologies",
+        "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-092",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-092",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A radiologist's note describes extensive fibroglandular tissue. According to NCI, why does that tissue matter for the mammogram?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a benign tumor that needs removal",
+          "rationale": "Fibroglandular tissue is normal breast tissue (fibrous plus glandular), not a tumor."
+        },
+        {
+          "id": "b",
+          "text": "It appears dark, which improves contrast",
+          "rationale": "NCI says fibroglandular tissue often appears dense (white), not dark."
+        },
+        {
+          "id": "c",
+          "text": "It is made only of fat, so it has no effect on the image",
+          "rationale": "Fibroglandular tissue is fibrous connective tissue plus ducts and lobules, not fat."
+        },
+        {
+          "id": "d",
+          "text": "It often appears dense on a mammogram, which may make cancer harder to find",
+          "rationale": "Correct. NCI says fibroglandular tissue often appears dense and may make breast cancer harder to find."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI defines fibroglandular tissue as fibrous connective tissue plus glandular tissue (ducts and lobules). It often appears dense on a mammogram, which may make cancer or other changes harder to find.",
+      "variants": {
+        "simpler": "Fibroglandular tissue looks dense and can hide findings.",
+        "example": "That's why the report also states an overall density category."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fibroglandular"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-093",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-093",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which type of invasive breast cancer does the NCI Dictionary call the most common?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Invasive ductal carcinoma",
+          "rationale": "Correct. NCI calls invasive ductal carcinoma the most common type of invasive breast cancer."
+        },
+        {
+          "id": "b",
+          "text": "Invasive lobular carcinoma",
+          "rationale": "SEER puts ILC at about 10–15% of invasive cancers, well behind IDC."
+        },
+        {
+          "id": "c",
+          "text": "Inflammatory breast cancer",
+          "rationale": "NCI describes IBC as rare."
+        },
+        {
+          "id": "d",
+          "text": "Phyllodes tumor",
+          "rationale": "NCI describes phyllodes tumors as rare, and most are benign."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "IDC begins in the lining of the milk ducts and spreads into surrounding tissue. NCI calls it the most common invasive type, consistent with SEER's figure of about 70% of breast cancers.",
+      "variants": {
+        "simpler": "IDC is the most common invasive type.",
+        "example": "Most cancer histories you see on intake forms will be ductal."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-idc",
+        "ev-ap-seer-histologies"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
           },
           {
             "at": "2026-10-06",
