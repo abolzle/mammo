@@ -1,4 +1,5 @@
 import type { Curriculum, Evidence, ModuleContent, Source } from "@/lib/schemas/content";
+import type { ModuleCoverage } from "./coverage";
 
 export type ContentCatalog = {
   version: string;
@@ -18,6 +19,7 @@ export type ContentCatalog = {
   coverageSummary: {
     objectives: number;
     withLesson: number;
+    complete?: number;
     withGap: number;
     breakdown: Record<string, number>;
   };
@@ -29,6 +31,7 @@ export type LoadedContent = {
   sources: Source[];
   evidence: Evidence[];
   modules: ModuleContent[];
+  moduleCoverage: ModuleCoverage[];
 };
 
 let cache: LoadedContent | null = null;
@@ -49,12 +52,16 @@ export async function loadContent(): Promise<LoadedContent> {
   for (const m of catalog.modules) {
     modules.push(await getJson<ModuleContent>(m.path));
   }
+  const moduleCoverage = await getJson<{ modules: ModuleCoverage[] }>("/content/module-coverage.json")
+    .then((f) => f.modules)
+    .catch(() => []);
   cache = {
     catalog,
     curriculum,
     sources: sourcesFile.sources,
     evidence: evidenceFile.evidence,
     modules,
+    moduleCoverage,
   };
   return cache;
 }

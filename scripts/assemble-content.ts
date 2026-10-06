@@ -9,7 +9,15 @@ import {
   parseSources,
   type ValidationIssue,
 } from "../src/lib/content/validate";
-import { coverageMatrix, sourceBreakdown, coverageMarkdown } from "../src/lib/content/coverage";
+import {
+  applyCurriculumFollowUps,
+  checkModuleCoverage,
+  coverageMatrix,
+  coverageMarkdown,
+  parseModuleCoverage,
+  sourceBreakdown,
+  type ModuleCoverage,
+} from "../src/lib/content/coverage";
 import type { Evidence, ModuleContent, Source } from "../src/lib/schemas/content";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -78,6 +86,16 @@ function loadAllModules(): { modules: ModuleContent[]; issues: ValidationIssue[]
   return { modules, issues };
 }
 
+function loadAllModuleCoverage(): ModuleCoverage[] {
+  const modulesDir = join(root, "content/modules");
+  const coverages: ModuleCoverage[] = [];
+  for (const name of readdirSync(modulesDir).sort()) {
+    const p = join(modulesDir, name, "coverage.json");
+    if (existsSync(p)) coverages.push(parseModuleCoverage(readJson(p), `mod-${name}`));
+  }
+  return coverages;
+}
+
 function loadRepoContent() {
   const issues: ValidationIssue[] = [];
   const { sources, issues: sIssues } = loadAllSources();
@@ -88,17 +106,22 @@ function loadRepoContent() {
   issues.push(...eIssues);
   const { modules, issues: mIssues } = loadAllModules();
   issues.push(...mIssues);
+  const moduleCoverage = loadAllModuleCoverage();
   if (!curriculum || modules.length === 0) {
-    return { ok: false as const, issues, curriculum, sources, evidence, modules };
+    return { ok: false as const, issues, curriculum, sources, evidence, modules, moduleCoverage };
   }
   issues.push(...crossCheck({ curriculum, sources, evidence, modules }));
+  issues.push(...checkModuleCoverage(curriculum, modules, moduleCoverage));
+  const applied = applyCurriculumFollowUps(curriculum, moduleCoverage, sources);
+  issues.push(...applied.issues);
   return {
     ok: issues.filter((i) => i.level === "error").length === 0,
     issues,
-    curriculum,
+    curriculum: applied.curriculum,
     sources,
     evidence,
     modules,
+    moduleCoverage,
   };
 }
 
@@ -109,7 +132,11 @@ export function assemble() {
     console.error(JSON.stringify(errors, null, 2));
     throw new Error(`${errors.length} content validation errors`);
   }
-  const coverage = coverageMatrix(loaded.curriculum!, loaded.modules);
+  const coverage = coverageMatrix(loaded.curriculum!, loaded.modules, {
+    moduleCoverage: loaded.moduleCoverage,
+    evidence: loaded.evidence,
+    sources: loaded.sources,
+  });
   const breakdown = sourceBreakdown(loaded.curriculum!);
   const catalog = {
     version: loaded.curriculum!.version,
@@ -129,6 +156,7 @@ export function assemble() {
     coverageSummary: {
       objectives: coverage.length,
       withLesson: coverage.filter((r) => r.lessonIds.length).length,
+      complete: coverage.filter((r) => r.complete).length,
       withGap: coverage.filter((r) => r.gap).length,
       breakdown,
     },
@@ -140,6 +168,7 @@ export function assemble() {
   writeFileSync(join(outDir, "sources.json"), JSON.stringify({ sources: loaded.sources }, null, 2));
   writeFileSync(join(outDir, "evidence.json"), JSON.stringify({ evidence: loaded.evidence }, null, 2));
   writeFileSync(join(outDir, "coverage.json"), JSON.stringify({ rows: coverage, breakdown }, null, 2));
+  writeFileSync(join(outDir, "module-coverage.json"), JSON.stringify({ modules: loaded.moduleCoverage }, null, 2));
   const counts = {
     lessons: loaded.modules.reduce((a, m) => a + m.lessons.length, 0),
     cards: loaded.modules.reduce((a, m) => a + m.cards.length, 0),

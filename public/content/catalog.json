@@ -146,14 +146,15 @@
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 54,
-    "withGap": 57,
+    "withLesson": 50,
+    "complete": 19,
+    "withGap": 60,
     "breakdown": {
-      "public_domain_open": 23,
+      "public_domain_open": 25,
       "link_only": 0,
       "needs_clinical_review": 29,
       "truly_blocked": 3,
-      "needs_source": 53
+      "needs_source": 51
     }
   }
 }

@@ -1,0 +1,1361 @@
+{
+  "modules": [
+    {
+      "moduleId": "mod-anatomy-pathology",
+      "links": [
+        {
+          "objectiveId": "obj-ap-assessment-density-categories",
+          "lessonIds": [
+            "les-ap-density-tissue",
+            "les-ap-density-categories",
+            "les-ap-assessment"
+          ],
+          "cardIds": [
+            "card-ap-dense-def",
+            "card-ap-dense-common",
+            "card-ap-dense-map",
+            "card-ap-birads0",
+            "card-ap-birads3"
+          ],
+          "questionIds": [
+            "q-ap-022",
+            "q-ap-023",
+            "q-ap-024",
+            "q-ap-025",
+            "q-ap-026",
+            "q-ap-027",
+            "q-ap-028",
+            "q-ap-029",
+            "q-ap-030",
+            "q-ap-049"
+          ],
+          "visualIds": [
+            "vis-ap-dense-map"
+          ]
+        },
+        {
+          "objectiveId": "obj-ap-benign-conditions",
+          "lessonIds": [
+            "les-ap-benign"
+          ],
+          "cardIds": [
+            "card-ap-fibroadenoma",
+            "card-ap-papilloma"
+          ],
+          "questionIds": [
+            "q-ap-035",
+            "q-ap-036",
+            "q-ap-037",
+            "q-ap-038",
+            "q-ap-039"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ap-clock-quadrants",
+          "lessonIds": [
+            "les-ap-clock-quadrants"
+          ],
+          "cardIds": [
+            "card-ap-quadrants",
+            "card-ap-central",
+            "card-ap-ax-tail",
+            "card-ap-clock-overlap"
+          ],
+          "questionIds": [
+            "q-ap-001",
+            "q-ap-002",
+            "q-ap-003",
+            "q-ap-004",
+            "q-ap-005",
+            "q-ap-048"
+          ],
+          "visualIds": [
+            "vis-ap-uoq-right"
+          ]
+        },
+        {
+          "objectiveId": "obj-ap-cytology",
+          "lessonIds": [
+            "les-ap-insitu-invasive"
+          ],
+          "cardIds": [
+            "card-ap-insitu",
+            "card-ap-myoepithelial"
+          ],
+          "questionIds": [
+            "q-ap-018",
+            "q-ap-019",
+            "q-ap-020",
+            "q-ap-021"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ap-external-landmarks",
+          "lessonIds": [
+            "les-ap-external"
+          ],
+          "cardIds": [
+            "card-ap-areola",
+            "card-ap-montgomery",
+            "card-ap-no-muscle"
+          ],
+          "questionIds": [
+            "q-ap-006",
+            "q-ap-007",
+            "q-ap-008",
+            "q-ap-009"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ap-high-risk-lesions",
+          "lessonIds": [
+            "les-ap-high-risk"
+          ],
+          "cardIds": [
+            "card-ap-adh",
+            "card-ap-lcis"
+          ],
+          "questionIds": [
+            "q-ap-040",
+            "q-ap-041",
+            "q-ap-042",
+            "q-ap-043"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ap-internal-structures",
+          "lessonIds": [
+            "les-ap-internal"
+          ],
+          "cardIds": [
+            "card-ap-suspensory",
+            "card-ap-fibroglandular",
+            "card-ap-sentinel"
+          ],
+          "questionIds": [
+            "q-ap-010",
+            "q-ap-011",
+            "q-ap-012",
+            "q-ap-013"
+          ],
+          "visualIds": [
+            "vis-ap-axilla-node"
+          ]
+        },
+        {
+          "objectiveId": "obj-ap-lexicon-masses-calcs",
+          "lessonIds": [
+            "les-ap-findings-vocab"
+          ],
+          "cardIds": [
+            "card-ap-macro",
+            "card-ap-micro"
+          ],
+          "questionIds": [
+            "q-ap-031",
+            "q-ap-032",
+            "q-ap-033",
+            "q-ap-034"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ap-malignant",
+          "lessonIds": [
+            "les-ap-malignant"
+          ],
+          "cardIds": [
+            "card-ap-dcis",
+            "card-ap-idc",
+            "card-ap-ibc",
+            "card-ap-paget"
+          ],
+          "questionIds": [
+            "q-ap-044",
+            "q-ap-045",
+            "q-ap-046",
+            "q-ap-047",
+            "q-ap-050"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ap-tdlu",
+          "lessonIds": [
+            "les-ap-ductal-lobular"
+          ],
+          "cardIds": [
+            "card-ap-lobes",
+            "card-ap-ductal-origin",
+            "card-ap-lobular-origin"
+          ],
+          "questionIds": [
+            "q-ap-014",
+            "q-ap-015",
+            "q-ap-016",
+            "q-ap-017"
+          ],
+          "visualIds": [
+            "vis-ap-lobule"
+          ]
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "moduleId": "mod-image-production",
+      "links": [
+        {
+          "objectiveId": "obj-ip-acquisition-types",
+          "lessonIds": [
+            "les-ip-ffdm-dbt"
+          ],
+          "cardIds": [
+            "card-ip-modality-examples",
+            "card-ip-dbt-slices",
+            "card-ip-dbt-2d",
+            "card-ip-dbt-mortality"
+          ],
+          "questionIds": [
+            "q-ip-017",
+            "q-ip-018",
+            "q-ip-019",
+            "q-ip-020"
+          ],
+          "visualIds": [
+            "vis-ip-dbt-idea"
+          ]
+        },
+        {
+          "objectiveId": "obj-ip-exposure-factors",
+          "lessonIds": [
+            "les-ip-exposure-factors"
+          ],
+          "cardIds": [
+            "card-ip-post-aec",
+            "card-ip-manual-mas",
+            "card-ip-diagnostic-dose"
+          ],
+          "questionIds": [
+            "q-ip-025",
+            "q-ip-026",
+            "q-ip-027",
+            "q-ip-028"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-geometry",
+          "lessonIds": [
+            "les-ip-geometry"
+          ],
+          "cardIds": [
+            "card-ip-mag-range",
+            "card-ip-sid-word"
+          ],
+          "questionIds": [
+            "q-ip-013",
+            "q-ip-014",
+            "q-ip-015",
+            "q-ip-016"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-image-quality-attributes",
+          "lessonIds": [
+            "les-ip-image-quality"
+          ],
+          "cardIds": [
+            "card-ip-eight",
+            "card-ip-ongoing-ciq"
+          ],
+          "questionIds": [
+            "q-ip-037",
+            "q-ip-038",
+            "q-ip-039",
+            "q-ip-040"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-kvp-tube",
+          "lessonIds": [
+            "les-ip-xray-production"
+          ],
+          "cardIds": [
+            "card-ip-brems",
+            "card-ip-characteristic",
+            "card-ip-emax",
+            "card-ip-low-e-contrast",
+            "card-ip-soft-tissue"
+          ],
+          "questionIds": [
+            "q-ip-005",
+            "q-ip-006",
+            "q-ip-007",
+            "q-ip-008"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-magnification-technique",
+          "lessonIds": [
+            "les-ip-mag-technique"
+          ],
+          "cardIds": [
+            "card-ip-mag-grid",
+            "card-ip-mag-trio"
+          ],
+          "questionIds": [
+            "q-ip-033",
+            "q-ip-034",
+            "q-ip-035",
+            "q-ip-036"
+          ],
+          "visualIds": [
+            "vis-ip-mag-air-gap"
+          ]
+        },
+        {
+          "objectiveId": "obj-ip-paddles-grids",
+          "lessonIds": [
+            "les-ip-paddles-grids"
+          ],
+          "cardIds": [
+            "card-ip-paddle-deflect",
+            "card-ip-compression-why"
+          ],
+          "questionIds": [
+            "q-ip-009",
+            "q-ip-010",
+            "q-ip-011",
+            "q-ip-012"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-receptors-monitors",
+          "lessonIds": [
+            "les-ip-receptors-displays"
+          ],
+          "cardIds": [
+            "card-ip-acq-vs-interp",
+            "card-ip-digital-qc-pointer"
+          ],
+          "questionIds": [
+            "q-ip-021",
+            "q-ip-022",
+            "q-ip-023",
+            "q-ip-024"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-thickness-target-filter",
+          "lessonIds": [
+            "les-ip-thickness-target"
+          ],
+          "cardIds": [
+            "card-ip-indicate-target"
+          ],
+          "questionIds": [
+            "q-ip-029",
+            "q-ip-030",
+            "q-ip-031",
+            "q-ip-032"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-unit-components",
+          "lessonIds": [
+            "les-ip-beam-path"
+          ],
+          "cardIds": [
+            "card-ip-unit-parts",
+            "card-ip-no-general-purpose",
+            "card-ip-beam-order"
+          ],
+          "questionIds": [
+            "q-ip-001",
+            "q-ip-002",
+            "q-ip-003",
+            "q-ip-004"
+          ],
+          "visualIds": [
+            "vis-ip-beam-limiting"
+          ]
+        },
+        {
+          "objectiveId": "obj-mqsa-equipment-qc",
+          "lessonIds": [],
+          "cardIds": [
+            "card-ip-phantom-dose",
+            "card-ip-standard-breast"
+          ],
+          "questionIds": [],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-typical-dose",
+          "lessonIds": [
+            "les-ip-radiation-concepts"
+          ],
+          "cardIds": [
+            "card-ip-alara",
+            "card-ip-lnt",
+            "card-ip-low-dose-words",
+            "card-ip-dna",
+            "card-ip-gy",
+            "card-ip-barrier"
+          ],
+          "questionIds": [
+            "q-ip-041",
+            "q-ip-042",
+            "q-ip-043",
+            "q-ip-044",
+            "q-ip-045"
+          ],
+          "visualIds": [
+            "vis-ip-alara-shield"
+          ]
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "moduleId": "mod-informatics",
+      "links": [
+        {
+          "objectiveId": "obj-ip-informatics",
+          "lessonIds": [
+            "les-inf-systems-map",
+            "les-inf-pacs-devices",
+            "les-inf-dicom",
+            "les-inf-integrity-backup"
+          ],
+          "cardIds": [
+            "card-inf-ris",
+            "card-inf-his",
+            "card-inf-ehr",
+            "card-inf-pacs-originals",
+            "card-inf-storage-class",
+            "card-inf-comm-tools",
+            "card-inf-mimps-standards",
+            "card-inf-dicom-what",
+            "card-inf-dicom-not",
+            "card-inf-dicom-uid",
+            "card-inf-dicom-mqsa",
+            "card-inf-integrity",
+            "card-inf-backup-vs-dr",
+            "card-inf-emergency-mode",
+            "card-inf-unique-user"
+          ],
+          "questionIds": [
+            "q-inf-001",
+            "q-inf-002",
+            "q-inf-003",
+            "q-inf-004",
+            "q-inf-005",
+            "q-inf-006",
+            "q-inf-007",
+            "q-inf-008",
+            "q-inf-009",
+            "q-inf-010",
+            "q-inf-011",
+            "q-inf-012",
+            "q-inf-013",
+            "q-inf-041",
+            "q-inf-042",
+            "q-inf-043",
+            "q-inf-044"
+          ],
+          "visualIds": [
+            "vis-inf-originals-home",
+            "vis-inf-contingency"
+          ]
+        },
+        {
+          "objectiveId": "obj-ip-cad",
+          "lessonIds": [
+            "les-inf-cad-types",
+            "les-inf-cad-limits"
+          ],
+          "cardIds": [
+            "card-inf-cade",
+            "card-inf-cade-not",
+            "card-inf-cadx",
+            "card-inf-cadt",
+            "card-inf-cad-tradeoff",
+            "card-inf-cad-invasive",
+            "card-inf-cad-iq",
+            "card-inf-ai-unknowns"
+          ],
+          "questionIds": [
+            "q-inf-022",
+            "q-inf-023",
+            "q-inf-024",
+            "q-inf-025",
+            "q-inf-026",
+            "q-inf-027",
+            "q-inf-028",
+            "q-inf-029",
+            "q-inf-030",
+            "q-inf-031"
+          ],
+          "visualIds": [
+            "vis-inf-cad-nomark"
+          ]
+        },
+        {
+          "objectiveId": "obj-ip-receptors-monitors",
+          "lessonIds": [
+            "les-inf-display-roles"
+          ],
+          "cardIds": [
+            "card-inf-display-ifu",
+            "card-inf-display-510k"
+          ],
+          "questionIds": [
+            "q-inf-014",
+            "q-inf-015",
+            "q-inf-016",
+            "q-inf-017"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-qc-monitors-viewing",
+          "lessonIds": [
+            "les-inf-display-qc"
+          ],
+          "cardIds": [
+            "card-inf-qc-not-clearance",
+            "card-inf-gsdf",
+            "card-inf-digital-qa-source",
+            "card-inf-hotlight"
+          ],
+          "questionIds": [
+            "q-inf-018",
+            "q-inf-019",
+            "q-inf-020",
+            "q-inf-021"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-mqsa-image-labeling",
+          "lessonIds": [
+            "les-inf-labeling-identity"
+          ],
+          "cardIds": [
+            "card-inf-label-elements",
+            "card-inf-label-quality",
+            "card-inf-report-id"
+          ],
+          "questionIds": [
+            "q-inf-031",
+            "q-inf-032",
+            "q-inf-033",
+            "q-inf-034",
+            "q-inf-035"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-mqsa-records-transfer",
+          "lessonIds": [
+            "les-inf-originals"
+          ],
+          "cardIds": [
+            "card-inf-lossless",
+            "card-inf-lossy",
+            "card-inf-cad-marks",
+            "card-inf-electronic"
+          ],
+          "questionIds": [
+            "q-inf-036",
+            "q-inf-037",
+            "q-inf-038",
+            "q-inf-039",
+            "q-inf-044"
+          ],
+          "visualIds": [
+            "vis-inf-original-set"
+          ]
+        },
+        {
+          "objectiveId": "obj-pc-prior-images",
+          "lessonIds": [],
+          "cardIds": [
+            "card-inf-interp-vs-comp"
+          ],
+          "questionIds": [
+            "q-inf-004",
+            "q-inf-039",
+            "q-inf-040"
+          ],
+          "visualIds": []
+        }
+      ],
+      "followUps": [
+        {
+          "objectiveId": "obj-ip-informatics",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nlm-mesh-2026",
+            "src-ecfr-21-cfr-892-image-devices",
+            "src-ecfr-45-cfr-164-security",
+            "src-fr-88-15126",
+            "src-ecfr-21-cfr-900",
+            "src-dicom-ps3-1"
+          ],
+          "note": "System roles, PACS device classes, DICOM basics, integrity and backup are source-backed. The 'basic troubleshooting' clause stays a gap (see gapsNoted)."
+        },
+        {
+          "objectiveId": "obj-ip-cad",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-892-image-devices",
+            "src-fda-cade-510k-guidance",
+            "src-nci-pdq-breast-screening-hp"
+          ],
+          "note": "Fully covered by FDA classification text, FDA guidance, and NCI PDQ."
+        },
+        {
+          "objectiveId": "obj-ip-receptors-monitors",
+          "suggestedSourceState": "needs_source",
+          "suggestedSourceIds": [
+            "src-fda-display-devices-guidance",
+            "src-fr-88-15126",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "Interpretation-display half is source-backed. Digital image receptor half is not covered here (see image-production module and gapsNoted)."
+        },
+        {
+          "objectiveId": "obj-qc-monitors-viewing",
+          "suggestedSourceState": "needs_source",
+          "suggestedSourceIds": [
+            "src-fda-display-devices-guidance",
+            "src-dicom-ps3-1",
+            "src-ecfr-21-cfr-900",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Principles only. Procedures, test patterns, frequencies, and criteria remain manufacturer/ACR link-only and need qualified review."
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-patient-care",
+      "links": [
+        {
+          "objectiveId": "obj-ip-image-quality-attributes",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pc-compression-attr"
+          ],
+          "questionIds": [
+            "q-pc-010"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-mqsa-density-reporting",
+          "lessonIds": [
+            "les-pc-density"
+          ],
+          "cardIds": [
+            "card-pc-dense-map",
+            "card-pc-dense-date"
+          ],
+          "questionIds": [
+            "q-pc-030",
+            "q-pc-031",
+            "q-pc-032",
+            "q-pc-033",
+            "q-pc-046"
+          ],
+          "visualIds": [
+            "vis-pc-density-boundary"
+          ]
+        },
+        {
+          "objectiveId": "obj-mqsa-required-policies",
+          "lessonIds": [
+            "les-pc-infection"
+          ],
+          "cardIds": [
+            "card-pc-infection"
+          ],
+          "questionIds": [
+            "q-pc-034",
+            "q-pc-035",
+            "q-pc-047"
+          ],
+          "visualIds": [
+            "vis-pc-infection-surface"
+          ]
+        },
+        {
+          "objectiveId": "obj-pc-additional-imaging",
+          "lessonIds": [
+            "les-pc-callback"
+          ],
+          "cardIds": [
+            "card-pc-repeat-vs-callback",
+            "card-pc-callback"
+          ],
+          "questionIds": [
+            "q-pc-012",
+            "q-pc-026",
+            "q-pc-027",
+            "q-pc-028",
+            "q-pc-029"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-clinician-role",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pc-no-diagnose"
+          ],
+          "questionIds": [
+            "q-pc-006",
+            "q-pc-024",
+            "q-pc-030",
+            "q-pc-033",
+            "q-pc-043"
+          ],
+          "visualIds": [
+            "vis-pc-who-explains-density"
+          ]
+        },
+        {
+          "objectiveId": "obj-pc-explain-compression",
+          "lessonIds": [
+            "les-pc-compression"
+          ],
+          "cardIds": [
+            "card-pc-compression-why"
+          ],
+          "questionIds": [
+            "q-pc-008",
+            "q-pc-009",
+            "q-pc-010"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-explain-repeat",
+          "lessonIds": [
+            "les-pc-repeat"
+          ],
+          "cardIds": [
+            "card-pc-repeat"
+          ],
+          "questionIds": [
+            "q-pc-011",
+            "q-pc-012",
+            "q-pc-013"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-inherent-risk",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pc-dense-common",
+            "card-pc-dense-feel",
+            "card-pc-dense-risk"
+          ],
+          "questionIds": [
+            "q-pc-031"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-modalities",
+          "lessonIds": [
+            "les-pc-modalities"
+          ],
+          "cardIds": [
+            "card-pc-dbt",
+            "card-pc-modalities-uspstf"
+          ],
+          "questionIds": [
+            "q-pc-041",
+            "q-pc-042",
+            "q-pc-043"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-pre-exam-instructions",
+          "lessonIds": [
+            "les-pc-pre-exam"
+          ],
+          "cardIds": [
+            "card-pc-deodorant",
+            "card-pc-deodorant-why",
+            "card-pc-menses"
+          ],
+          "questionIds": [
+            "q-pc-001",
+            "q-pc-002",
+            "q-pc-003",
+            "q-pc-004"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-prior-images",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pc-transfer-15"
+          ],
+          "questionIds": [
+            "q-pc-028"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-rapport-support",
+          "lessonIds": [
+            "les-pc-exam-process"
+          ],
+          "cardIds": [
+            "card-pc-narrate"
+          ],
+          "questionIds": [
+            "q-pc-005",
+            "q-pc-006",
+            "q-pc-007"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-results-pathway",
+          "lessonIds": [
+            "les-pc-results"
+          ],
+          "cardIds": [
+            "card-pc-lay-30",
+            "card-pc-lay-7",
+            "card-pc-nci-2w"
+          ],
+          "questionIds": [
+            "q-pc-022",
+            "q-pc-023",
+            "q-pc-024",
+            "q-pc-025",
+            "q-pc-044"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-screening-guidelines",
+          "lessonIds": [
+            "les-pc-guidelines"
+          ],
+          "cardIds": [
+            "card-pc-uspstf",
+            "card-pc-uspstf-75",
+            "card-pc-acs",
+            "card-pc-uspstf-dense-i",
+            "card-pc-nbccedp"
+          ],
+          "questionIds": [
+            "q-pc-018",
+            "q-pc-019",
+            "q-pc-020",
+            "q-pc-021",
+            "q-pc-048"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-biohazard",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pc-bbp",
+            "card-pc-hh",
+            "card-pc-gloves"
+          ],
+          "questionIds": [
+            "q-pc-035",
+            "q-pc-036",
+            "q-pc-037"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-implant-inquiry",
+          "lessonIds": [
+            "les-pc-implants"
+          ],
+          "cardIds": [
+            "card-pc-implant-ask",
+            "card-pc-implant-id"
+          ],
+          "questionIds": [
+            "q-pc-038",
+            "q-pc-039",
+            "q-pc-040"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-screening-vs-diagnostic",
+          "lessonIds": [
+            "les-pc-screen-vs-dx"
+          ],
+          "cardIds": [
+            "card-pc-screen",
+            "card-pc-diagnostic",
+            "card-pc-dx-dose"
+          ],
+          "questionIds": [
+            "q-pc-014",
+            "q-pc-015",
+            "q-pc-016",
+            "q-pc-017",
+            "q-pc-045"
+          ],
+          "visualIds": [
+            "vis-pc-screen-vs-dx"
+          ]
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "moduleId": "mod-positioning",
+      "links": [
+        {
+          "objectiveId": "obj-pp-cc",
+          "lessonIds": [
+            "les-pos-standard-pair",
+            "les-pos-cc-criteria"
+          ],
+          "cardIds": [
+            "card-pos-cc-mlo-pair",
+            "card-pos-cc-purpose",
+            "card-pos-pnl"
+          ],
+          "questionIds": [
+            "q-pos-001",
+            "q-pos-003",
+            "q-pos-005",
+            "q-pos-006",
+            "q-pos-007",
+            "q-pos-008",
+            "q-pos-014",
+            "q-pos-015",
+            "q-pos-048"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-mlo",
+          "lessonIds": [
+            "les-pos-mlo-criteria",
+            "les-pos-pnl"
+          ],
+          "cardIds": [
+            "card-pos-mlo-purpose",
+            "card-pos-mlo-muscle"
+          ],
+          "questionIds": [
+            "q-pos-009",
+            "q-pos-010",
+            "q-pos-011",
+            "q-pos-012",
+            "q-pos-013",
+            "q-pos-016",
+            "q-pos-048"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-lateral-views",
+          "lessonIds": [
+            "les-pos-additional-views"
+          ],
+          "cardIds": [
+            "card-pos-lateral-roi"
+          ],
+          "questionIds": [
+            "q-pos-041"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-exaggerated-cleavage-at",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pos-xccl"
+          ],
+          "questionIds": [
+            "q-pos-042",
+            "q-pos-044"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-tangential-rolled",
+          "lessonIds": [],
+          "cardIds": [],
+          "questionIds": [
+            "q-pos-043"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-implant-displaced",
+          "lessonIds": [
+            "les-pos-implant-displaced"
+          ],
+          "cardIds": [
+            "card-pos-id-views"
+          ],
+          "questionIds": [
+            "q-pos-033",
+            "q-pos-034",
+            "q-pos-035",
+            "q-pos-036"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-spot-mag-nipple",
+          "lessonIds": [
+            "les-pos-problem-solving"
+          ],
+          "cardIds": [
+            "card-pos-mag-range"
+          ],
+          "questionIds": [
+            "q-pos-037",
+            "q-pos-038",
+            "q-pos-039",
+            "q-pos-040"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-implant-inquiry",
+          "lessonIds": [
+            "les-pos-implant-inquiry"
+          ],
+          "cardIds": [
+            "card-pos-implant-ask",
+            "card-pos-implant-max"
+          ],
+          "questionIds": [
+            "q-pos-029",
+            "q-pos-030",
+            "q-pos-031",
+            "q-pos-032"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-body-habitus",
+          "lessonIds": [
+            "les-pos-special-circumstances"
+          ],
+          "cardIds": [
+            "card-pos-adapt"
+          ],
+          "questionIds": [
+            "q-pos-045",
+            "q-pos-047"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-postsurgical",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pos-recon"
+          ],
+          "questionIds": [
+            "q-pos-046"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-screening-vs-diagnostic",
+          "lessonIds": [
+            "les-pos-screening-diagnostic"
+          ],
+          "cardIds": [
+            "card-pos-screen-def",
+            "card-pos-dx-def",
+            "card-pos-nci-dx-angles",
+            "card-pos-equip-dx"
+          ],
+          "questionIds": [
+            "q-pos-003",
+            "q-pos-025",
+            "q-pos-026",
+            "q-pos-027",
+            "q-pos-028"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-mqsa-image-labeling",
+          "lessonIds": [
+            "les-pos-labels"
+          ],
+          "cardIds": [
+            "card-pos-label-axilla"
+          ],
+          "questionIds": [
+            "q-pos-021",
+            "q-pos-022",
+            "q-pos-023",
+            "q-pos-024"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-explain-compression",
+          "lessonIds": [
+            "les-pos-compression-purpose"
+          ],
+          "cardIds": [
+            "card-pos-compression-attr",
+            "card-pos-nci-compression"
+          ],
+          "questionIds": [
+            "q-pos-017",
+            "q-pos-018",
+            "q-pos-019",
+            "q-pos-020"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-ip-image-quality-attributes",
+          "lessonIds": [],
+          "cardIds": [
+            "card-pos-positioning-attr",
+            "card-pos-eight"
+          ],
+          "questionIds": [
+            "q-pos-002",
+            "q-pos-004"
+          ],
+          "visualIds": []
+        }
+      ],
+      "followUps": []
+    },
+    {
+      "moduleId": "mod-qc-regulations",
+      "links": [
+        {
+          "objectiveId": "obj-ip-image-quality-attributes",
+          "lessonIds": [],
+          "cardIds": [
+            "card-qcr-eight"
+          ],
+          "questionIds": [
+            "q-qcr-014"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-mqsa-certification",
+          "lessonIds": [
+            "les-qcr-inspection-bundle"
+          ],
+          "cardIds": [
+            "card-qcr-inspection-list",
+            "card-qcr-fr-effective"
+          ],
+          "questionIds": [
+            "q-qcr-042",
+            "q-qcr-043",
+            "q-qcr-044"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-mqsa-equipment-qc",
+          "lessonIds": [
+            "les-qcr-qc-framework"
+          ],
+          "cardIds": [
+            "card-qcr-qa-purpose",
+            "card-qcr-digital-qc",
+            "card-qcr-before-exams",
+            "card-qcr-30days",
+            "card-qcr-dose-ceiling"
+          ],
+          "questionIds": [
+            "q-qcr-033",
+            "q-qcr-034",
+            "q-qcr-035",
+            "q-qcr-036",
+            "q-qcr-037",
+            "q-qcr-041",
+            "q-qcr-047"
+          ],
+          "visualIds": [
+            "vis-qcr-timing-bucket"
+          ]
+        },
+        {
+          "objectiveId": "obj-mqsa-image-review-equip",
+          "lessonIds": [
+            "les-qcr-equip-purpose",
+            "les-qcr-equip-feedback",
+            "les-qcr-equip-periodic"
+          ],
+          "cardIds": [
+            "card-qcr-equip-not-new-law",
+            "card-qcr-ciq-continue",
+            "card-qcr-equip-three",
+            "card-qcr-feedback-elements",
+            "card-qcr-sop-optional",
+            "card-qcr-ip-decides-poor",
+            "card-qcr-periodic-min",
+            "card-qcr-periodic-docs",
+            "card-qcr-not-reject",
+            "card-qcr-not-daily-interp",
+            "card-qcr-all-active",
+            "card-qcr-sample-size"
+          ],
+          "questionIds": [
+            "q-qcr-001",
+            "q-qcr-002",
+            "q-qcr-003",
+            "q-qcr-004",
+            "q-qcr-005",
+            "q-qcr-006",
+            "q-qcr-007",
+            "q-qcr-009",
+            "q-qcr-010",
+            "q-qcr-011",
+            "q-qcr-012",
+            "q-qcr-013",
+            "q-qcr-015",
+            "q-qcr-045",
+            "q-qcr-046"
+          ],
+          "visualIds": [
+            "vis-qcr-equip-focus"
+          ]
+        },
+        {
+          "objectiveId": "obj-mqsa-qa-roles",
+          "lessonIds": [
+            "les-qcr-equip-lip"
+          ],
+          "cardIds": [
+            "card-qcr-lip-most-responsible",
+            "card-qcr-lip-paths",
+            "card-qcr-lip-level2",
+            "card-qcr-qc-record-keep"
+          ],
+          "questionIds": [
+            "q-qcr-008",
+            "q-qcr-016",
+            "q-qcr-017",
+            "q-qcr-018",
+            "q-qcr-019",
+            "q-qcr-040"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-mqsa-records-transfer",
+          "lessonIds": [
+            "les-qcr-records-lifecycle"
+          ],
+          "cardIds": [
+            "card-qcr-retain-longest",
+            "card-qcr-10yr",
+            "card-qcr-transfer-15",
+            "card-qcr-amr"
+          ],
+          "questionIds": [
+            "q-qcr-028",
+            "q-qcr-029",
+            "q-qcr-030",
+            "q-qcr-031",
+            "q-qcr-032"
+          ],
+          "visualIds": [
+            "vis-qcr-retention-rule"
+          ]
+        },
+        {
+          "objectiveId": "obj-mqsa-required-policies",
+          "lessonIds": [
+            "les-qcr-complaints"
+          ],
+          "cardIds": [
+            "card-qcr-consumer",
+            "card-qcr-serious-def",
+            "card-qcr-complaint-3yr",
+            "card-qcr-complaint-ab"
+          ],
+          "questionIds": [
+            "q-qcr-024",
+            "q-qcr-025",
+            "q-qcr-026",
+            "q-qcr-027",
+            "q-qcr-048"
+          ],
+          "visualIds": [
+            "vis-qcr-complaint-step"
+          ]
+        },
+        {
+          "objectiveId": "obj-mqsa-rt-continuing",
+          "lessonIds": [
+            "les-qcr-personnel-layers"
+          ],
+          "cardIds": [
+            "card-qcr-mqsa-200",
+            "card-qcr-mqsa-15ceu",
+            "card-qcr-arrt-separate"
+          ],
+          "questionIds": [
+            "q-qcr-020",
+            "q-qcr-021",
+            "q-qcr-022",
+            "q-qcr-023"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-qc-physicist-survey",
+          "lessonIds": [
+            "les-qcr-qc-frequency"
+          ],
+          "cardIds": [
+            "card-qcr-phys-survey",
+            "card-qcr-mee"
+          ],
+          "questionIds": [
+            "q-qcr-038",
+            "q-qcr-039"
+          ],
+          "visualIds": []
+        }
+      ],
+      "followUps": []
+    }
+  ]
+}

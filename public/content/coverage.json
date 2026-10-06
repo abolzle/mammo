@@ -24,7 +24,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -49,7 +52,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -80,7 +86,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 7,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -104,7 +113,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -137,7 +149,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -152,7 +167,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -188,7 +206,10 @@
         "vis-ip-alara-shield"
       ],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -213,7 +234,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -247,7 +271,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 8,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -274,7 +301,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -302,7 +332,10 @@
         "vis-pc-who-explains-density"
       ],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -317,7 +350,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -340,7 +376,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -357,7 +396,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -372,7 +414,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -387,7 +432,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -412,7 +460,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "missing lesson"
     },
     {
@@ -427,7 +478,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -444,7 +498,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -472,7 +529,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -501,7 +561,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -527,7 +590,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -557,8 +623,11 @@
         "vis-mqsa-unit-components"
       ],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
-      "gap": null
+      "unresolvedItemIds": [],
+      "complete": false,
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-ip-acquisition-types",
@@ -587,7 +656,10 @@
         "vis-ip-dbt-idea"
       ],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -620,7 +692,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -628,7 +703,7 @@
       "topicId": "top-ip-digital",
       "domainId": "dom-image-production",
       "statement": "Explain HIS/RIS, EMR, and PACS roles, including storage, backup, archive, and basic troubleshooting.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-inf-systems-map",
@@ -677,15 +752,18 @@
         "vis-inf-contingency"
       ],
       "learnerQuestionCount": 17,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
-      "gap": "needs source retrieval before a lesson can be written"
+      "unresolvedItemIds": [],
+      "complete": false,
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-ip-cad",
       "topicId": "top-ip-digital",
       "domainId": "dom-image-production",
       "statement": "Describe what computer-aided detection does and does not do.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-inf-cad-types",
@@ -717,8 +795,11 @@
         "vis-inf-cad-nomark"
       ],
       "learnerQuestionCount": 10,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
-      "gap": "needs source retrieval before a lesson can be written"
+      "unresolvedItemIds": [],
+      "complete": false,
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-mqsa-certification",
@@ -752,7 +833,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 6,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -811,7 +895,10 @@
         "vis-qcr-equip-focus"
       ],
       "learnerQuestionCount": 18,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -840,7 +927,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -881,7 +971,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 9,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -920,7 +1013,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 9,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -949,7 +1045,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -976,8 +1075,11 @@
         "vis-mqsa-results-timeline"
       ],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
-      "gap": null
+      "unresolvedItemIds": [],
+      "complete": false,
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-mqsa-density-reporting",
@@ -1011,7 +1113,10 @@
         "vis-pc-density-boundary"
       ],
       "learnerQuestionCount": 7,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -1052,8 +1157,11 @@
         "vis-pos-label-axilla"
       ],
       "learnerQuestionCount": 12,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
-      "gap": null
+      "unresolvedItemIds": [],
+      "complete": false,
+      "gap": "no assessment-form item"
     },
     {
       "objectiveId": "obj-mqsa-records-transfer",
@@ -1101,7 +1209,10 @@
         "vis-qcr-retention-rule"
       ],
       "learnerQuestionCount": 13,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -1128,7 +1239,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -1172,7 +1286,10 @@
         "vis-qcr-complaint-step"
       ],
       "learnerQuestionCount": 11,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -1220,7 +1337,10 @@
         "vis-qcr-timing-bucket"
       ],
       "learnerQuestionCount": 11,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -1237,7 +1357,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1252,7 +1375,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1267,7 +1393,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1294,7 +1423,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1311,7 +1443,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1326,7 +1461,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1353,7 +1491,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -1368,7 +1509,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1394,7 +1538,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 2,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1418,7 +1565,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1446,7 +1596,10 @@
         "vis-ip-mag-air-gap"
       ],
       "learnerQuestionCount": 1,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1482,7 +1635,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 9,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -1497,7 +1653,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1530,7 +1689,10 @@
         "vis-ap-uoq-right"
       ],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1545,7 +1707,10 @@
       "questionIds": [],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1572,7 +1737,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1607,7 +1775,10 @@
         "vis-ap-axilla-node"
       ],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 7,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1640,7 +1811,10 @@
         "vis-ap-lobule"
       ],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 5,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1669,7 +1843,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1684,9 +1861,7 @@
         "https://radiopaedia.org/articles/breast-imaging-reporting-and-data-system-bi-rads"
       ],
       "requiresQualifiedReview": true,
-      "lessonIds": [
-        "les-ap-findings-vocab"
-      ],
+      "lessonIds": [],
       "cardIds": [
         "card-ap-macro",
         "card-ap-micro"
@@ -1695,13 +1870,18 @@
         "q-ap-031",
         "q-ap-032",
         "q-ap-033",
-        "q-ap-034",
         "q-ap-063",
         "q-ap-064"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 3,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [
+        "les-ap-findings-vocab",
+        "q-ap-034"
+      ],
+      "complete": false,
       "gap": "blocked: no accessible source verifies the fact"
     },
     {
@@ -1713,8 +1893,7 @@
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-ap-density-tissue",
-        "les-ap-density-categories",
-        "les-ap-assessment"
+        "les-ap-density-categories"
       ],
       "cardIds": [
         "card-ap-dense-def",
@@ -1752,7 +1931,12 @@
         "vis-ap-dense-map"
       ],
       "learnerQuestionCount": 11,
+      "formQuestionCount": 11,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [
+        "les-ap-assessment"
+      ],
+      "complete": true,
       "gap": null
     },
     {
@@ -1782,7 +1966,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1813,7 +2000,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1849,7 +2039,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 5,
+      "formQuestionCount": 8,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1864,10 +2057,7 @@
         "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards"
       ],
       "requiresQualifiedReview": true,
-      "lessonIds": [
-        "les-pos-standard-pair",
-        "les-pos-cc-criteria"
-      ],
+      "lessonIds": [],
       "cardIds": [
         "card-pos-cc-mlo-pair",
         "card-pos-cc-purpose",
@@ -1879,7 +2069,6 @@
         "q-pos-005",
         "q-pos-006",
         "q-pos-007",
-        "q-pos-008",
         "q-pos-014",
         "q-pos-015",
         "q-pos-048"
@@ -1887,8 +2076,15 @@
       "visualIds": [
         "vis-pos-pnl-which-line"
       ],
-      "learnerQuestionCount": 8,
+      "learnerQuestionCount": 7,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [
+        "les-pos-standard-pair",
+        "les-pos-cc-criteria",
+        "q-pos-008"
+      ],
+      "complete": false,
       "gap": "blocked: no accessible source verifies the fact"
     },
     {
@@ -1903,7 +2099,6 @@
       ],
       "requiresQualifiedReview": true,
       "lessonIds": [
-        "les-pos-mlo-criteria",
         "les-pos-pnl"
       ],
       "cardIds": [
@@ -1923,7 +2118,12 @@
         "vis-pos-mlo-muscle"
       ],
       "learnerQuestionCount": 6,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [
+        "les-pos-mlo-criteria"
+      ],
+      "complete": false,
       "gap": "blocked: no accessible source verifies the fact"
     },
     {
@@ -1933,9 +2133,7 @@
       "statement": "Choose between ML and LM views and explain why the side of interest goes closer to the receptor.",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [
-        "les-pos-additional-views"
-      ],
+      "lessonIds": [],
       "cardIds": [
         "card-pos-lateral-roi"
       ],
@@ -1944,7 +2142,12 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [
+        "les-pos-additional-views"
+      ],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1964,7 +2167,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -1981,7 +2187,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2000,14 +2209,18 @@
       "questionIds": [
         "q-pos-033",
         "q-pos-034",
-        "q-pos-035",
         "q-pos-036"
       ],
       "visualIds": [
         "vis-pos-implant-panel"
       ],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 3,
+      "formQuestionCount": 0,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [
+        "q-pos-035"
+      ],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2035,7 +2248,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2071,7 +2287,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 8,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -2081,20 +2300,22 @@
       "statement": "Adapt positioning for chest wall variation, kyphosis/lordosis, protruding abdomen, and very large or small breasts (mosaic/tiling, paddle selection).",
       "sourceState": "needs_source",
       "requiresQualifiedReview": true,
-      "lessonIds": [
-        "les-pos-special-circumstances"
-      ],
-      "cardIds": [
-        "card-pos-adapt"
-      ],
+      "lessonIds": [],
+      "cardIds": [],
       "questionIds": [
         "q-pos-045",
-        "q-pos-047",
         "q-pos-080"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 2,
+      "learnerQuestionCount": 1,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [
+        "les-pos-special-circumstances",
+        "card-pos-adapt",
+        "q-pos-047"
+      ],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2115,7 +2336,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 1,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2164,7 +2388,10 @@
         "vis-pc-screen-vs-dx"
       ],
       "learnerQuestionCount": 11,
+      "formQuestionCount": 8,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": true,
       "gap": null
     },
     {
@@ -2186,7 +2413,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 6,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2205,7 +2435,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 3,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2225,7 +2458,10 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 0,
+      "formQuestionCount": 4,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     },
     {
@@ -2263,15 +2499,18 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 3,
+      "formQuestionCount": 15,
       "validatedQuestionCount": 0,
+      "unresolvedItemIds": [],
+      "complete": false,
       "gap": "needs source retrieval before a lesson can be written"
     }
   ],
   "breakdown": {
-    "public_domain_open": 23,
+    "public_domain_open": 25,
     "link_only": 0,
     "needs_clinical_review": 29,
     "truly_blocked": 3,
-    "needs_source": 53
+    "needs_source": 51
   }
 }

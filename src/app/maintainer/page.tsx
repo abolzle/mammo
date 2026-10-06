@@ -21,7 +21,11 @@ export default function MaintainerPage() {
   }, []);
 
   if (!ready || !content) return <p>Loading…</p>;
-  const rows = coverageMatrix(content.curriculum, content.modules);
+  const rows = coverageMatrix(content.curriculum, content.modules, {
+    moduleCoverage: content.moduleCoverage,
+    evidence: content.evidence,
+    sources: content.sources,
+  });
   const breakdown = sourceBreakdown(content.curriculum);
   const gaps = rows.filter((r) => r.gap);
 
@@ -60,7 +64,7 @@ export default function MaintainerPage() {
       <section>
         <h2 className="font-heading text-lg">Coverage</h2>
         <p className="text-sm">
-          {rows.length} objectives · {rows.filter((r) => r.lessonIds.length).length} with lessons · {gaps.length} with gaps
+          {rows.length} objectives · {rows.filter((r) => r.lessonIds.length).length} with lessons · {rows.filter((r) => r.complete).length} complete · {gaps.length} with gaps
         </p>
         <ul className="mt-2 text-sm">
           <li>Public-domain / open-backed: {breakdown.public_domain_open}</li>
