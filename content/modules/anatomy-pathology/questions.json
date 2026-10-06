@@ -3067,7 +3067,7 @@
       "objectiveIds": [
         "obj-ap-clock-quadrants"
       ],
-      "familyId": "fam-ap-form-a",
+      "familyId": "fam-ap-form-a-loq",
       "pool": "form-a",
       "difficultyIntent": "recall",
       "kind": "single",
@@ -3132,7 +3132,7 @@
       "objectiveIds": [
         "obj-ap-assessment-density-categories"
       ],
-      "familyId": "fam-ap-form-a",
+      "familyId": "fam-ap-form-a-dense-wording",
       "pool": "form-a",
       "difficultyIntent": "apply",
       "kind": "single",
@@ -3198,7 +3198,7 @@
       "objectiveIds": [
         "obj-ap-malignant"
       ],
-      "familyId": "fam-ap-form-a",
+      "familyId": "fam-ap-form-a-dcis",
       "pool": "form-a",
       "difficultyIntent": "recall",
       "kind": "single",
@@ -5935,6 +5935,137 @@
       "evidenceIds": [
         "ev-ap-seer-histologies",
         "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-092",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-internal-structures"
+      ],
+      "familyId": "fam-forma-ap-092",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A radiologist's note describes extensive fibroglandular tissue. According to NCI, why does that tissue matter for the mammogram?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is a benign tumor that needs removal",
+          "rationale": "Fibroglandular tissue is normal breast tissue (fibrous plus glandular), not a tumor."
+        },
+        {
+          "id": "b",
+          "text": "It appears dark, which improves contrast",
+          "rationale": "NCI says fibroglandular tissue often appears dense (white), not dark."
+        },
+        {
+          "id": "c",
+          "text": "It is made only of fat, so it has no effect on the image",
+          "rationale": "Fibroglandular tissue is fibrous connective tissue plus ducts and lobules, not fat."
+        },
+        {
+          "id": "d",
+          "text": "It often appears dense on a mammogram, which may make cancer harder to find",
+          "rationale": "Correct. NCI says fibroglandular tissue often appears dense and may make breast cancer harder to find."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI defines fibroglandular tissue as fibrous connective tissue plus glandular tissue (ducts and lobules). It often appears dense on a mammogram, which may make cancer or other changes harder to find.",
+      "variants": {
+        "simpler": "Fibroglandular tissue looks dense and can hide findings.",
+        "example": "That's why the report also states an overall density category."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-fibroglandular"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-ap-093",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ap-malignant"
+      ],
+      "familyId": "fam-forma-ap-093",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which type of invasive breast cancer does the NCI Dictionary call the most common?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Invasive ductal carcinoma",
+          "rationale": "Correct. NCI calls invasive ductal carcinoma the most common type of invasive breast cancer."
+        },
+        {
+          "id": "b",
+          "text": "Invasive lobular carcinoma",
+          "rationale": "SEER puts ILC at about 10–15% of invasive cancers, well behind IDC."
+        },
+        {
+          "id": "c",
+          "text": "Inflammatory breast cancer",
+          "rationale": "NCI describes IBC as rare."
+        },
+        {
+          "id": "d",
+          "text": "Phyllodes tumor",
+          "rationale": "NCI describes phyllodes tumors as rare, and most are benign."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "IDC begins in the lining of the milk ducts and spreads into surrounding tissue. NCI calls it the most common invasive type, consistent with SEER's figure of about 70% of breast cancers.",
+      "variants": {
+        "simpler": "IDC is the most common invasive type.",
+        "example": "Most cancer histories you see on intake forms will be ductal."
+      },
+      "evidenceIds": [
+        "ev-ap-dict-idc",
+        "ev-ap-seer-histologies"
       ],
       "review": {
         "status": "auto_checked",
