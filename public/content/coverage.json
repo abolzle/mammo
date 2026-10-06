@@ -532,15 +532,17 @@
         "q-pc-140",
         "q-pc-141",
         "q-pc-142",
-        "q-pc-143"
+        "q-pc-143",
+        "q-pc-164",
+        "q-pc-165"
       ],
       "visualIds": [],
       "learnerQuestionCount": 8,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-prior-images",
@@ -768,6 +770,8 @@
         "q-ip-002",
         "q-ip-003",
         "q-ip-004",
+        "q-ip-117",
+        "q-ip-118",
         "q-mqsa-048"
       ],
       "visualIds": [
@@ -775,11 +779,11 @@
         "vis-mqsa-unit-components"
       ],
       "learnerQuestionCount": 5,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-acquisition-types",
@@ -897,18 +901,20 @@
         "q-inf-041",
         "q-inf-042",
         "q-inf-043",
-        "q-inf-044"
+        "q-inf-044",
+        "q-inf-045",
+        "q-inf-046"
       ],
       "visualIds": [
         "vis-inf-originals-home",
         "vis-inf-contingency"
       ],
       "learnerQuestionCount": 17,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-cad",
@@ -941,17 +947,19 @@
         "q-inf-028",
         "q-inf-029",
         "q-inf-030",
-        "q-inf-031"
+        "q-inf-031",
+        "q-inf-047",
+        "q-inf-048"
       ],
       "visualIds": [
         "vis-inf-cad-nomark"
       ],
       "learnerQuestionCount": 10,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-mqsa-certification",
@@ -1241,17 +1249,19 @@
         "q-mqsa-022",
         "q-mqsa-023",
         "q-mqsa-024",
-        "q-mqsa-025"
+        "q-mqsa-025",
+        "q-mqsa-049",
+        "q-mqsa-050"
       ],
       "visualIds": [
         "vis-mqsa-results-timeline"
       ],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-mqsa-density-reporting",
@@ -1625,15 +1635,17 @@
         "q-pqd-014",
         "q-pqd-015",
         "q-pqd-016",
-        "q-pqd-017"
+        "q-pqd-017",
+        "q-pqd-049",
+        "q-pqd-050"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-qc-monitors-viewing",
@@ -1660,6 +1672,8 @@
         "q-inf-019",
         "q-inf-020",
         "q-inf-021",
+        "q-inf-049",
+        "q-inf-050",
         "q-pqd-015",
         "q-pqd-022",
         "q-pqd-023",
@@ -1668,11 +1682,11 @@
       ],
       "visualIds": [],
       "learnerQuestionCount": 9,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-qc-repeat-analysis",
@@ -1722,17 +1736,19 @@
         "q-pqd-003",
         "q-pqd-006",
         "q-pqd-007",
-        "q-pqd-009"
+        "q-pqd-009",
+        "q-pqd-053",
+        "q-pqd-054"
       ],
       "visualIds": [
         "vis-pqd-digital-path"
       ],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-qc-physicist-survey",
@@ -1786,15 +1802,17 @@
         "q-pqd-026",
         "q-pqd-027",
         "q-pqd-028",
-        "q-pqd-029"
+        "q-pqd-029",
+        "q-pqd-055",
+        "q-pqd-056"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-exposure-factors",
@@ -2005,15 +2023,17 @@
         "q-pqd-032",
         "q-pqd-046",
         "q-pqd-047",
-        "q-pqd-048"
+        "q-pqd-048",
+        "q-pqd-057",
+        "q-pqd-058"
       ],
       "visualIds": [],
       "learnerQuestionCount": 4,
-      "formQuestionCount": 0,
+      "formQuestionCount": 2,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "no assessment-form item"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-external-landmarks",
@@ -2587,7 +2607,7 @@
       "topicId": "top-pp-additional-views",
       "domainId": "dom-procedures",
       "statement": "Describe implant-displaced views and when they are contraindicated or modified.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-pos-implant-displaced"
@@ -2598,20 +2618,19 @@
       "questionIds": [
         "q-pos-033",
         "q-pos-034",
+        "q-pos-035",
         "q-pos-036",
         "q-pos-130"
       ],
       "visualIds": [
         "vis-pos-implant-panel"
       ],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
-      "unresolvedItemIds": [
-        "q-pos-035"
-      ],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "unresolvedItemIds": [],
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-spot-mag-nipple",
@@ -2949,10 +2968,10 @@
     }
   ],
   "breakdown": {
-    "public_domain_open": 55,
+    "public_domain_open": 56,
     "link_only": 7,
     "needs_clinical_review": 25,
     "truly_blocked": 3,
-    "needs_source": 14
+    "needs_source": 13
   }
 }

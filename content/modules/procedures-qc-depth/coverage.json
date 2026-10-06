@@ -65,7 +65,9 @@
         "q-pqd-014",
         "q-pqd-015",
         "q-pqd-016",
-        "q-pqd-017"
+        "q-pqd-017",
+        "q-pqd-049",
+        "q-pqd-050"
       ],
       "cardIds": [
         "card-pqd-clean-protocols",
@@ -118,7 +120,9 @@
         "q-pqd-003",
         "q-pqd-006",
         "q-pqd-007",
-        "q-pqd-009"
+        "q-pqd-009",
+        "q-pqd-053",
+        "q-pqd-054"
       ],
       "cardIds": [
         "card-pqd-detector-purpose",
@@ -137,7 +141,9 @@
         "q-pqd-026",
         "q-pqd-027",
         "q-pqd-028",
-        "q-pqd-029"
+        "q-pqd-029",
+        "q-pqd-055",
+        "q-pqd-056"
       ],
       "cardIds": [
         "card-pqd-phys-scope",
@@ -233,7 +239,9 @@
         "q-pqd-032",
         "q-pqd-046",
         "q-pqd-047",
-        "q-pqd-048"
+        "q-pqd-048",
+        "q-pqd-057",
+        "q-pqd-058"
       ],
       "cardIds": [
         "card-pqd-triang-purpose",

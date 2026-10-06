@@ -1286,9 +1286,10 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-ecfr-21-cfr-900"
+        "src-ecfr-21-cfr-900",
+        "src-nci-mammograms"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-spot-mag-nipple",

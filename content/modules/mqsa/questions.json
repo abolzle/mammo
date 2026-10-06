@@ -1,680 +1,2281 @@
 {
   "questions": [
     {
-      "id": "q-mqsa-001", "revision": 1, "objectiveIds": ["obj-mqsa-certification"], "familyId": "fam-mqsa-cert-basis", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 60,
+      "id": "q-mqsa-001",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-mqsa-cert-basis",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
       "stem": "Under MQSA, what must a facility obtain before it can be issued an FDA certificate?",
       "choices": [
-        { "id": "a", "text": "Accreditation by an FDA-approved accreditation body", "rationale": "Correct. FDA issues a certificate after the facility meets the quality standards and is accredited by an approved accreditation body (or other FDA-designated entity)." },
-        { "id": "b", "text": "ARRT certification and registration for every technologist", "rationale": "MQSA requires State licensure or general certification plus mammography training; it does not make ARRT credentials the basis for facility certification." },
-        { "id": "c", "text": "A passing result on the facility's first annual inspection", "rationale": "Inspections check certified facilities. The certificate is based on accreditation, not on a prior inspection." },
-        { "id": "d", "text": "A State radiation-control license for each unit", "rationale": "State rules may apply separately, but the MQSA certificate depends on accreditation and meeting § 900.12." }
+        {
+          "id": "a",
+          "text": "Accreditation by an FDA-approved accreditation body",
+          "rationale": "Correct. FDA issues a certificate after the facility meets the quality standards and is accredited by an approved accreditation body (or other FDA-designated entity)."
+        },
+        {
+          "id": "b",
+          "text": "ARRT certification and registration for every technologist",
+          "rationale": "MQSA requires State licensure or general certification plus mammography training; it does not make ARRT credentials the basis for facility certification."
+        },
+        {
+          "id": "c",
+          "text": "A passing result on the facility's first annual inspection",
+          "rationale": "Inspections check certified facilities. The certificate is based on accreditation, not on a prior inspection."
+        },
+        {
+          "id": "d",
+          "text": "A State radiation-control license for each unit",
+          "rationale": "State rules may apply separately, but the MQSA certificate depends on accreditation and meeting \u00a7 900.12."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "Accreditation comes first: an approved accreditation body reviews the facility, and FDA (or a State certification agency) issues the certificate.",
-      "variants": { "simpler": "No accreditation, no certificate. The accreditation body's review is the basis for FDA's approval.", "example": "A facility whose accreditation is denied cannot obtain an FDA certificate, even with excellent staff." },
-      "evidenceIds": ["ev-mqsa-certificate-required"]
+      "variants": {
+        "simpler": "No accreditation, no certificate. The accreditation body's review is the basis for FDA's approval.",
+        "example": "A facility whose accreditation is denied cannot obtain an FDA certificate, even with excellent staff."
+      },
+      "evidenceIds": [
+        "ev-mqsa-certificate-required"
+      ]
     },
     {
-      "id": "q-mqsa-002", "revision": 1, "objectiveIds": ["obj-mqsa-certification"], "familyId": "fam-mqsa-provisional", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-002",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-mqsa-provisional",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "A new facility receives a provisional MQSA certificate. Which statement about it is accurate?",
       "choices": [
-        { "id": "a", "text": "It lasts 12 months and can be renewed once.", "rationale": "The provisional certificate lasts up to 6 months and cannot be renewed." },
-        { "id": "b", "text": "It lasts up to 6 months; it cannot be renewed, but one 90-day extension may be requested.", "rationale": "Correct. This matches § 900.11(b)(2)–(3)." },
-        { "id": "c", "text": "It allows screening only; diagnostic exams wait for full certification.", "rationale": "The regulation describes the provisional certificate as enabling the facility to perform mammography; it doesn't split screening from diagnostic." },
-        { "id": "d", "text": "It lasts 3 years, matching the clinical image review cycle.", "rationale": "Three years is the accreditation body's clinical image review frequency, not the provisional certificate's length." }
+        {
+          "id": "a",
+          "text": "It lasts 12 months and can be renewed once.",
+          "rationale": "The provisional certificate lasts up to 6 months and cannot be renewed."
+        },
+        {
+          "id": "b",
+          "text": "It lasts up to 6 months; it cannot be renewed, but one 90-day extension may be requested.",
+          "rationale": "Correct. This matches \u00a7 900.11(b)(2)\u2013(3)."
+        },
+        {
+          "id": "c",
+          "text": "It allows screening only; diagnostic exams wait for full certification.",
+          "rationale": "The regulation describes the provisional certificate as enabling the facility to perform mammography; it doesn't split screening from diagnostic."
+        },
+        {
+          "id": "d",
+          "text": "It lasts 3 years, matching the clinical image review cycle.",
+          "rationale": "Three years is the accreditation body's clinical image review frequency, not the provisional certificate's length."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "The provisional certificate exists so the facility can perform exams and collect the clinical images needed for accreditation. Up to 6 months, no renewal, one possible 90-day extension.",
-      "variants": { "simpler": "Six months to finish accreditation, plus at most one 90-day extension.", "example": "A rural facility that would leave its county without mammography could document that impact when asking for the 90-day extension." },
-      "evidenceIds": ["ev-mqsa-provisional-certificate"]
+      "variants": {
+        "simpler": "Six months to finish accreditation, plus at most one 90-day extension.",
+        "example": "A rural facility that would leave its county without mammography could document that impact when asking for the 90-day extension."
+      },
+      "evidenceIds": [
+        "ev-mqsa-provisional-certificate"
+      ]
     },
     {
-      "id": "q-mqsa-003", "revision": 1, "objectiveIds": ["obj-mqsa-certification"], "familyId": "fam-mqsa-applicability", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 40,
+      "id": "q-mqsa-003",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-mqsa-applicability",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 40,
       "stem": "Which mammography facility is NOT subject to the MQSA facility quality standards in 21 CFR 900 Subpart B?",
       "choices": [
-        { "id": "a", "text": "A hospital-based breast center", "rationale": "Hospital outpatient departments are included in the definition of facility." },
-        { "id": "b", "text": "A mobile mammography unit", "rationale": "Mobile units are explicitly included in the definition of facility." },
-        { "id": "c", "text": "A Department of Veterans Affairs facility", "rationale": "Correct. Subpart B excludes Department of Veterans Affairs facilities." },
-        { "id": "d", "text": "A radiologist's private office", "rationale": "Offices of a physician that conduct mammography are included." }
+        {
+          "id": "a",
+          "text": "A hospital-based breast center",
+          "rationale": "Hospital outpatient departments are included in the definition of facility."
+        },
+        {
+          "id": "b",
+          "text": "A mobile mammography unit",
+          "rationale": "Mobile units are explicitly included in the definition of facility."
+        },
+        {
+          "id": "c",
+          "text": "A Department of Veterans Affairs facility",
+          "rationale": "Correct. Subpart B excludes Department of Veterans Affairs facilities."
+        },
+        {
+          "id": "d",
+          "text": "A radiologist's private office",
+          "rationale": "Offices of a physician that conduct mammography are included."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Subpart B applies to all facilities under U.S. regulatory jurisdiction providing mammography, except the Department of Veterans Affairs.",
-      "variants": { "simpler": "Almost everyone is covered. The named exception is the VA.", "example": "A mobile coach that serves workplaces is still a facility under MQSA." },
-      "evidenceIds": ["ev-mqsa-va-exception"]
+      "variants": {
+        "simpler": "Almost everyone is covered. The named exception is the VA.",
+        "example": "A mobile coach that serves workplaces is still a facility under MQSA."
+      },
+      "evidenceIds": [
+        "ev-mqsa-va-exception"
+      ]
     },
     {
-      "id": "q-mqsa-004", "revision": 1, "objectiveIds": ["obj-mqsa-image-review-equip", "obj-ip-image-quality-attributes"], "familyId": "fam-mqsa-attributes", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 50,
+      "id": "q-mqsa-004",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip",
+        "obj-ip-image-quality-attributes"
+      ],
+      "familyId": "fam-mqsa-attributes",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 50,
       "stem": "Which of these is NOT one of the eight attributes an accreditation body uses in clinical image review?",
       "choices": [
-        { "id": "a", "text": "Sharpness", "rationale": "Sharpness is one of the eight: margins of normal structures should be distinct." },
-        { "id": "b", "text": "Noise", "rationale": "Noise is one of the eight: it must not obscure or mimic structures." },
-        { "id": "c", "text": "Examination identification", "rationale": "Exam identification (labeling) is the eighth attribute." },
-        { "id": "d", "text": "Patient dose", "rationale": "Correct. Dose is controlled through equipment QC and the phantom dose limit, not scored as a clinical image attribute." }
+        {
+          "id": "a",
+          "text": "Sharpness",
+          "rationale": "Sharpness is one of the eight: margins of normal structures should be distinct."
+        },
+        {
+          "id": "b",
+          "text": "Noise",
+          "rationale": "Noise is one of the eight: it must not obscure or mimic structures."
+        },
+        {
+          "id": "c",
+          "text": "Examination identification",
+          "rationale": "Exam identification (labeling) is the eighth attribute."
+        },
+        {
+          "id": "d",
+          "text": "Patient dose",
+          "rationale": "Correct. Dose is controlled through equipment QC and the phantom dose limit, not scored as a clinical image attribute."
+        }
       ],
       "correctChoiceId": "d",
       "explanation": "The eight attributes are positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
-      "variants": { "simpler": "The reviewers judge what they can see on the image. Dose isn't visible on the image, so it's not on the list.", "example": "An overexposed image fails 'exposure level', but that's a judgment about visibility of structures, not a dose measurement." },
-      "evidenceIds": ["ev-mqsa-clinical-image-attributes"]
+      "variants": {
+        "simpler": "The reviewers judge what they can see on the image. Dose isn't visible on the image, so it's not on the list.",
+        "example": "An overexposed image fails 'exposure level', but that's a judgment about visibility of structures, not a dose measurement."
+      },
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-attributes"
+      ]
     },
     {
-      "id": "q-mqsa-005", "revision": 1, "objectiveIds": ["obj-mqsa-image-review-equip"], "familyId": "fam-mqsa-equip-focus", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 60,
+      "id": "q-mqsa-005",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-mqsa-equip-focus",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
       "stem": "An MQSA inspector asks how your facility reviews sample clinical images from each technologist and each interpreting physician. This question comes from which program?",
       "choices": [
-        { "id": "a", "text": "EQUIP (Enhancing Quality Using the Inspection Program)", "rationale": "Correct. EQUIP's first inspection question covers facility procedures for ongoing clinical image quality, including regular sample-image review per technologist and interpreting physician." },
-        { "id": "b", "text": "The medical outcomes audit", "rationale": "The audit follows positive mammograms and correlates pathology; it isn't a sample-image quality review." },
-        { "id": "c", "text": "The annual medical physicist survey", "rationale": "The physicist survey evaluates equipment and the facility's QC program, not technologist-by-technologist clinical images." },
-        { "id": "d", "text": "The consumer complaint mechanism", "rationale": "Complaint handling responds to consumers; it isn't a routine image review procedure." }
+        {
+          "id": "a",
+          "text": "EQUIP (Enhancing Quality Using the Inspection Program)",
+          "rationale": "Correct. EQUIP's first inspection question covers facility procedures for ongoing clinical image quality, including regular sample-image review per technologist and interpreting physician."
+        },
+        {
+          "id": "b",
+          "text": "The medical outcomes audit",
+          "rationale": "The audit follows positive mammograms and correlates pathology; it isn't a sample-image quality review."
+        },
+        {
+          "id": "c",
+          "text": "The annual medical physicist survey",
+          "rationale": "The physicist survey evaluates equipment and the facility's QC program, not technologist-by-technologist clinical images."
+        },
+        {
+          "id": "d",
+          "text": "The consumer complaint mechanism",
+          "rationale": "Complaint handling responds to consumers; it isn't a routine image review procedure."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "EQUIP added three inspection questions: ongoing clinical image quality review, corrective action for poor images, and lead interpreting physician oversight of QA/QC records.",
-      "variants": { "simpler": "EQUIP is about the facility checking its own image quality between accreditation reviews.", "example": "A log showing quarterly sample-image reviews for each technologist, with feedback notes, is EQUIP evidence." },
-      "evidenceIds": ["ev-mqsa-equip"]
+      "variants": {
+        "simpler": "EQUIP is about the facility checking its own image quality between accreditation reviews.",
+        "example": "A log showing quarterly sample-image reviews for each technologist, with feedback notes, is EQUIP evidence."
+      },
+      "evidenceIds": [
+        "ev-mqsa-equip"
+      ]
     },
     {
-      "id": "q-mqsa-006", "revision": 1, "objectiveIds": ["obj-mqsa-image-review-equip"], "familyId": "fam-mqsa-cir-frequency", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-006",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-mqsa-cir-frequency",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "How often must an accreditation body review clinical images from each facility it accredits?",
       "choices": [
-        { "id": "a", "text": "Every year, at the MQSA inspection", "rationale": "Annual inspections are separate from accreditation clinical image review." },
-        { "id": "b", "text": "At least once every 2 years", "rationale": "Two years isn't the stated frequency." },
-        { "id": "c", "text": "At least once every 3 years", "rationale": "Correct. § 900.4(c)(1) sets review at least once every 3 years." },
-        { "id": "d", "text": "Only when a complaint is received", "rationale": "Additional reviews can follow concerns, but routine review is at least every 3 years." }
+        {
+          "id": "a",
+          "text": "Every year, at the MQSA inspection",
+          "rationale": "Annual inspections are separate from accreditation clinical image review."
+        },
+        {
+          "id": "b",
+          "text": "At least once every 2 years",
+          "rationale": "Two years isn't the stated frequency."
+        },
+        {
+          "id": "c",
+          "text": "At least once every 3 years",
+          "rationale": "Correct. \u00a7 900.4(c)(1) sets review at least once every 3 years."
+        },
+        {
+          "id": "d",
+          "text": "Only when a complaint is received",
+          "rationale": "Additional reviews can follow concerns, but routine review is at least every 3 years."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Clinical image review occurs at least once every 3 years. For each unit, CC and MLO views from two examinations are submitted and reviewed independently by two or more review physicians.",
-      "variants": { "simpler": "Inspection: every year. Accreditation image review: every 3 years.", "example": "A facility accredited in 2025 should expect its next clinical image review no later than 2028." },
-      "evidenceIds": ["ev-mqsa-clinical-image-review-frequency"]
+      "variants": {
+        "simpler": "Inspection: every year. Accreditation image review: every 3 years.",
+        "example": "A facility accredited in 2025 should expect its next clinical image review no later than 2028."
+      },
+      "evidenceIds": [
+        "ev-mqsa-clinical-image-review-frequency"
+      ]
     },
     {
-      "id": "q-mqsa-007", "revision": 1, "objectiveIds": ["obj-mqsa-rt-initial"], "familyId": "fam-mqsa-rt-40h", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-007",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-mqsa-rt-40h",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "How many contact hours of documented mammography training does MQSA require for a technologist's initial qualification?",
       "choices": [
-        { "id": "a", "text": "8", "rationale": "8 hours is the minimum training for each mammography modality, not the total initial training." },
-        { "id": "b", "text": "15", "rationale": "15 is the continuing education total required over 36 months." },
-        { "id": "c", "text": "25", "rationale": "25 is the number of exams performed under direct supervision." },
-        { "id": "d", "text": "40", "rationale": "Correct. At least 40 contact hours under a qualified instructor." }
+        {
+          "id": "a",
+          "text": "8",
+          "rationale": "8 hours is the minimum training for each mammography modality, not the total initial training."
+        },
+        {
+          "id": "b",
+          "text": "15",
+          "rationale": "15 is the continuing education total required over 36 months."
+        },
+        {
+          "id": "c",
+          "text": "25",
+          "rationale": "25 is the number of exams performed under direct supervision."
+        },
+        {
+          "id": "d",
+          "text": "40",
+          "rationale": "Correct. At least 40 contact hours under a qualified instructor."
+        }
       ],
       "correctChoiceId": "d",
       "explanation": "Initial training is at least 40 contact hours, including anatomy and physiology, positioning and compression, QA/QC, and imaging patients with implants; plus 25 supervised exams and 8 hours per modality.",
-      "variants": { "simpler": "40 hours of training, 25 supervised exams, 8 hours per modality.", "example": "A weekend course listing 16 contact hours covers less than half of the initial requirement." },
-      "evidenceIds": ["ev-mqsa-rt-initial-training"]
+      "variants": {
+        "simpler": "40 hours of training, 25 supervised exams, 8 hours per modality.",
+        "example": "A weekend course listing 16 contact hours covers less than half of the initial requirement."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-initial-training"
+      ]
     },
     {
-      "id": "q-mqsa-008", "revision": 1, "objectiveIds": ["obj-mqsa-rt-initial"], "familyId": "fam-mqsa-direct-supervision", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-008",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-mqsa-direct-supervision",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
       "stem": "A trainee is completing her 25 supervised mammograms. During one exam, her qualified supervisor is at the front desk but can be paged within a minute. Does this exam count toward the 25?",
       "choices": [
-        { "id": "a", "text": "Yes, because the supervisor is in the building and immediately available", "rationale": "Being available isn't enough. Direct supervision requires the supervisor to be present to observe and correct." },
-        { "id": "b", "text": "No, because direct supervision requires the supervisor to be present to observe and correct as needed", "rationale": "Correct. This matches the § 900.2(o)(2) definition of direct supervision." },
-        { "id": "c", "text": "Yes, if the supervisor reviews and signs the images afterward", "rationale": "After-the-fact image review describes physician joint interpretation, not supervision of an exam." },
-        { "id": "d", "text": "No, because only an interpreting physician can supervise exams", "rationale": "Supervision is by an individual qualified as a technologist under § 900.12(a)(2)." }
+        {
+          "id": "a",
+          "text": "Yes, because the supervisor is in the building and immediately available",
+          "rationale": "Being available isn't enough. Direct supervision requires the supervisor to be present to observe and correct."
+        },
+        {
+          "id": "b",
+          "text": "No, because direct supervision requires the supervisor to be present to observe and correct as needed",
+          "rationale": "Correct. This matches the \u00a7 900.2(o)(2) definition of direct supervision."
+        },
+        {
+          "id": "c",
+          "text": "Yes, if the supervisor reviews and signs the images afterward",
+          "rationale": "After-the-fact image review describes physician joint interpretation, not supervision of an exam."
+        },
+        {
+          "id": "d",
+          "text": "No, because only an interpreting physician can supervise exams",
+          "rationale": "Supervision is by an individual qualified as a technologist under \u00a7 900.12(a)(2)."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "For an exam, direct supervision means the supervisor is present to observe and correct the person performing it.",
-      "variants": { "simpler": "Supervisor in the room, watching: counts. Supervisor down the hall: doesn't.", "example": "Documenting the supervisor's name for each training exam helps show the supervision was direct." },
-      "evidenceIds": ["ev-mqsa-direct-supervision", "ev-mqsa-rt-initial-training"]
+      "variants": {
+        "simpler": "Supervisor in the room, watching: counts. Supervisor down the hall: doesn't.",
+        "example": "Documenting the supervisor's name for each training exam helps show the supervision was direct."
+      },
+      "evidenceIds": [
+        "ev-mqsa-direct-supervision",
+        "ev-mqsa-rt-initial-training"
+      ]
     },
     {
-      "id": "q-mqsa-009", "revision": 1, "objectiveIds": ["obj-mqsa-rt-initial"], "familyId": "fam-mqsa-modality-training", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 70,
+      "id": "q-mqsa-009",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-mqsa-modality-training",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
       "stem": "A newly qualified technologist trained only on FFDM. Her facility adds DBT next month. What does MQSA require before she performs DBT exams independently?",
       "choices": [
-        { "id": "a", "text": "At least 8 hours of continuing education in DBT", "rationale": "Correct. Before using a modality not covered in initial training, the technologist needs at least 8 hours of CEUs in that modality." },
-        { "id": "b", "text": "Another 40 contact hours of initial training", "rationale": "The 40 hours are a one-time initial requirement; a new modality requires 8 hours." },
-        { "id": "c", "text": "25 DBT exams under direct supervision", "rationale": "25 supervised exams is the initial requirement and the experience-requalification path, not the new-modality rule." },
-        { "id": "d", "text": "Nothing, if the facility's physicist approves the unit", "rationale": "Equipment evaluation is separate from personnel training requirements." }
+        {
+          "id": "a",
+          "text": "At least 8 hours of continuing education in DBT",
+          "rationale": "Correct. Before using a modality not covered in initial training, the technologist needs at least 8 hours of CEUs in that modality."
+        },
+        {
+          "id": "b",
+          "text": "Another 40 contact hours of initial training",
+          "rationale": "The 40 hours are a one-time initial requirement; a new modality requires 8 hours."
+        },
+        {
+          "id": "c",
+          "text": "25 DBT exams under direct supervision",
+          "rationale": "25 supervised exams is the initial requirement and the experience-requalification path, not the new-modality rule."
+        },
+        {
+          "id": "d",
+          "text": "Nothing, if the facility's physicist approves the unit",
+          "rationale": "Equipment evaluation is separate from personnel training requirements."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "Each modality requires modality-specific training. For a modality added later, the rule is at least 8 hours of CEUs in it before independent use.",
-      "variants": { "simpler": "New modality? Eight hours of training in it first.", "example": "Vendor applications training can count if it's documented and meets the definition of a contact hour." },
-      "evidenceIds": ["ev-mqsa-rt-ce-requalification"]
+      "variants": {
+        "simpler": "New modality? Eight hours of training in it first.",
+        "example": "Vendor applications training can count if it's documented and meets the definition of a contact hour."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-ce-requalification"
+      ]
     },
     {
-      "id": "q-mqsa-010", "revision": 1, "objectiveIds": ["obj-mqsa-rt-initial"], "familyId": "fam-mqsa-rt-general", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-010",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-mqsa-rt-general",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "Which credential satisfies MQSA's general requirement for a radiologic technologist?",
       "choices": [
-        { "id": "a", "text": "A bachelor's degree in a physical science", "rationale": "A physical-science degree relates to medical physicist qualifications, not technologists." },
-        { "id": "b", "text": "Completion of 25 supervised mammograms", "rationale": "That is part of the mammography-specific requirement, not the general requirement." },
-        { "id": "c", "text": "A State license for general radiography, or general certification from an FDA-recognized body", "rationale": "Correct. Either satisfies § 900.12(a)(2)(i)." },
-        { "id": "d", "text": "A CPR certificate and facility orientation", "rationale": "These may be employer requirements but are not MQSA's general requirement." }
+        {
+          "id": "a",
+          "text": "A bachelor's degree in a physical science",
+          "rationale": "A physical-science degree relates to medical physicist qualifications, not technologists."
+        },
+        {
+          "id": "b",
+          "text": "Completion of 25 supervised mammograms",
+          "rationale": "That is part of the mammography-specific requirement, not the general requirement."
+        },
+        {
+          "id": "c",
+          "text": "A State license for general radiography, or general certification from an FDA-recognized body",
+          "rationale": "Correct. Either satisfies \u00a7 900.12(a)(2)(i)."
+        },
+        {
+          "id": "d",
+          "text": "A CPR certificate and facility orientation",
+          "rationale": "These may be employer requirements but are not MQSA's general requirement."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "The general requirement is State licensure for general radiography or general certification from an FDA-recognized body. Mammography-specific training is added on top.",
-      "variants": { "simpler": "First you must be a qualified radiographer (license or certification). Mammography training comes after.", "example": "A technologist certified in radiography by an FDA-recognized body meets the general requirement even in a State without licensure." },
-      "evidenceIds": ["ev-mqsa-rt-general"]
+      "variants": {
+        "simpler": "First you must be a qualified radiographer (license or certification). Mammography training comes after.",
+        "example": "A technologist certified in radiography by an FDA-recognized body meets the general requirement even in a State without licensure."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-general"
+      ]
     },
     {
-      "id": "q-mqsa-011", "revision": 1, "objectiveIds": ["obj-mqsa-rt-continuing"], "familyId": "fam-mqsa-rt-ce15", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-011",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-mqsa-rt-ce15",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "What is the MQSA continuing education requirement for radiologic technologists?",
       "choices": [
-        { "id": "a", "text": "15 CEUs in mammography in 36 months, with at least 6 related to each modality used", "rationale": "Correct. This matches § 900.12(a)(2)(iii)." },
-        { "id": "b", "text": "24 CEUs in 24 months, any radiology topic", "rationale": "ARRT biennial CE is a different program; MQSA counts mammography CEUs over 36 months." },
-        { "id": "c", "text": "15 category I CME credits in 36 months", "rationale": "Category I CME is the interpreting physician requirement." },
-        { "id": "d", "text": "8 CEUs per year in each modality", "rationale": "8 hours is the new-modality minimum, not an annual requirement." }
+        {
+          "id": "a",
+          "text": "15 CEUs in mammography in 36 months, with at least 6 related to each modality used",
+          "rationale": "Correct. This matches \u00a7 900.12(a)(2)(iii)."
+        },
+        {
+          "id": "b",
+          "text": "24 CEUs in 24 months, any radiology topic",
+          "rationale": "ARRT biennial CE is a different program; MQSA counts mammography CEUs over 36 months."
+        },
+        {
+          "id": "c",
+          "text": "15 category I CME credits in 36 months",
+          "rationale": "Category I CME is the interpreting physician requirement."
+        },
+        {
+          "id": "d",
+          "text": "8 CEUs per year in each modality",
+          "rationale": "8 hours is the new-modality minimum, not an annual requirement."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "15 mammography CEUs in 36 months, at least 6 per modality used. A course taught several times counts once.",
-      "variants": { "simpler": "Every 3 years: 15 hours of mammography CE, including 6 for each type of mammography you do.", "example": "A technologist using FFDM and DBT needs at least 6 CEUs related to each, within the 15 total." },
-      "evidenceIds": ["ev-mqsa-rt-continuing-education"]
+      "variants": {
+        "simpler": "Every 3 years: 15 hours of mammography CE, including 6 for each type of mammography you do.",
+        "example": "A technologist using FFDM and DBT needs at least 6 CEUs related to each, within the 15 total."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-continuing-education"
+      ]
     },
     {
-      "id": "q-mqsa-012", "revision": 1, "objectiveIds": ["obj-mqsa-rt-continuing"], "familyId": "fam-mqsa-rt-200", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-012",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-mqsa-rt-200",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
       "stem": "At inspection, a technologist has performed 170 mammograms in the facility's chosen 24-month window. What must happen before she resumes unsupervised mammography?",
       "choices": [
-        { "id": "a", "text": "She performs 30 more exams on her own to reach 200.", "rationale": "Requalification requires supervised exams; performing unsupervised exams is what she can't do yet." },
-        { "id": "b", "text": "She completes 15 additional CEUs.", "rationale": "That's the CE requalification path; her shortfall is in experience." },
-        { "id": "c", "text": "She performs at least 25 exams under direct supervision of a qualified technologist.", "rationale": "Correct. § 900.12(a)(2)(iv)(B)." },
-        { "id": "d", "text": "She repeats the 40-hour initial training.", "rationale": "Initial training isn't repeated for an experience shortfall." }
+        {
+          "id": "a",
+          "text": "She performs 30 more exams on her own to reach 200.",
+          "rationale": "Requalification requires supervised exams; performing unsupervised exams is what she can't do yet."
+        },
+        {
+          "id": "b",
+          "text": "She completes 15 additional CEUs.",
+          "rationale": "That's the CE requalification path; her shortfall is in experience."
+        },
+        {
+          "id": "c",
+          "text": "She performs at least 25 exams under direct supervision of a qualified technologist.",
+          "rationale": "Correct. \u00a7 900.12(a)(2)(iv)(B)."
+        },
+        {
+          "id": "d",
+          "text": "She repeats the 40-hour initial training.",
+          "rationale": "Initial training isn't repeated for an experience shortfall."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Continuing experience is 200 exams in 24 months. Falling short requires at least 25 exams under direct supervision of a qualified technologist before unsupervised work.",
-      "variants": { "simpler": "Short on exam count? 25 supervised exams, then back to normal.", "example": "A technologist returning from extended leave often faces exactly this situation." },
-      "evidenceIds": ["ev-mqsa-rt-continuing-experience"]
+      "variants": {
+        "simpler": "Short on exam count? 25 supervised exams, then back to normal.",
+        "example": "A technologist returning from extended leave often faces exactly this situation."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-continuing-experience"
+      ]
     },
     {
-      "id": "q-mqsa-013", "revision": 1, "objectiveIds": ["obj-mqsa-rt-continuing"], "familyId": "fam-mqsa-ce-calc", "pool": "practice", "difficultyIntent": "apply", "kind": "calculation", "estSeconds": 90,
+      "id": "q-mqsa-013",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-mqsa-ce-calc",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "calculation",
+      "estSeconds": 90,
       "stem": "A technologist performs FFDM and DBT. In the 36-month window she has 16 mammography CEUs: 12 related to FFDM and 4 related to DBT (each unit relates to one modality). What is the minimum additional CE she needs?",
       "choices": [
-        { "id": "a", "text": "None; she has more than 15 CEUs.", "rationale": "The total is met, but DBT is below the 6-per-modality minimum." },
-        { "id": "b", "text": "2 DBT-related CEUs", "rationale": "Correct. Total 16 ≥ 15; FFDM 12 ≥ 6; DBT 4 needs 2 more to reach 6." },
-        { "id": "c", "text": "6 DBT-related CEUs", "rationale": "She already has 4 DBT CEUs; only 2 more are needed to reach 6." },
-        { "id": "d", "text": "2 CEUs on any mammography topic", "rationale": "The shortfall is modality-specific, so the additional units must relate to DBT." }
+        {
+          "id": "a",
+          "text": "None; she has more than 15 CEUs.",
+          "rationale": "The total is met, but DBT is below the 6-per-modality minimum."
+        },
+        {
+          "id": "b",
+          "text": "2 DBT-related CEUs",
+          "rationale": "Correct. Total 16 \u2265 15; FFDM 12 \u2265 6; DBT 4 needs 2 more to reach 6."
+        },
+        {
+          "id": "c",
+          "text": "6 DBT-related CEUs",
+          "rationale": "She already has 4 DBT CEUs; only 2 more are needed to reach 6."
+        },
+        {
+          "id": "d",
+          "text": "2 CEUs on any mammography topic",
+          "rationale": "The shortfall is modality-specific, so the additional units must relate to DBT."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Check the total (15) and each modality (6) separately. Here only the DBT subtotal is short, by 2.",
-      "variants": { "simpler": "Two checks: at least 15 total, and at least 6 for each modality. She passes the first, fails the second by 2.", "example": "If she had 13 total (9 FFDM, 4 DBT), the same 2 DBT CEUs would fix both checks at once." },
-      "evidenceIds": ["ev-mqsa-rt-continuing-education", "ev-mqsa-rt-ce-requalification"]
+      "variants": {
+        "simpler": "Two checks: at least 15 total, and at least 6 for each modality. She passes the first, fails the second by 2.",
+        "example": "If she had 13 total (9 FFDM, 4 DBT), the same 2 DBT CEUs would fix both checks at once."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-continuing-education",
+        "ev-mqsa-rt-ce-requalification"
+      ]
     },
     {
-      "id": "q-mqsa-014", "revision": 1, "objectiveIds": ["obj-mqsa-rt-continuing"], "familyId": "fam-mqsa-window", "pool": "practice", "difficultyIntent": "apply", "kind": "single", "estSeconds": 70,
+      "id": "q-mqsa-014",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-mqsa-window",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
       "stem": "A facility's annual MQSA inspection is on August 20. Which end date may the facility choose for counting a technologist's 24-month exam total?",
       "choices": [
-        { "id": "a", "text": "Any date from June 30 through August 20", "rationale": "Correct. The window may end on the inspection date, the last day of the preceding calendar quarter (June 30), or any date in between." },
-        { "id": "b", "text": "Only August 20", "rationale": "The facility has a choice; the inspection date is one option." },
-        { "id": "c", "text": "December 31 of the previous year", "rationale": "The calendar year end isn't one of the options." },
-        { "id": "d", "text": "The technologist's hire anniversary", "rationale": "The window is anchored to the inspection, not to employment dates." }
+        {
+          "id": "a",
+          "text": "Any date from June 30 through August 20",
+          "rationale": "Correct. The window may end on the inspection date, the last day of the preceding calendar quarter (June 30), or any date in between."
+        },
+        {
+          "id": "b",
+          "text": "Only August 20",
+          "rationale": "The facility has a choice; the inspection date is one option."
+        },
+        {
+          "id": "c",
+          "text": "December 31 of the previous year",
+          "rationale": "The calendar year end isn't one of the options."
+        },
+        {
+          "id": "d",
+          "text": "The technologist's hire anniversary",
+          "rationale": "The window is anchored to the inspection, not to employment dates."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "The facility picks the inspection date, the last day of the previous calendar quarter, or any date between. For an August 20 inspection, the preceding quarter ended June 30.",
-      "variants": { "simpler": "Pick an end date between the end of last quarter and inspection day.", "example": "For a February 5 inspection, the earliest choice is December 31." },
-      "evidenceIds": ["ev-mqsa-inspection-window"]
+      "variants": {
+        "simpler": "Pick an end date between the end of last quarter and inspection day.",
+        "example": "For a February 5 inspection, the earliest choice is December 31."
+      },
+      "evidenceIds": [
+        "ev-mqsa-inspection-window"
+      ]
     },
     {
-      "id": "q-mqsa-015", "revision": 1, "objectiveIds": ["obj-mqsa-qa-roles"], "familyId": "fam-mqsa-lip", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 50,
+      "id": "q-mqsa-015",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-mqsa-lip",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 50,
       "stem": "Who has general responsibility for ensuring a facility's quality assurance program meets all MQSA requirements?",
       "choices": [
-        { "id": "a", "text": "The quality control technologist", "rationale": "The QC technologist handles tasks not assigned to the lead interpreting physician or medical physicist, but doesn't hold general responsibility." },
-        { "id": "b", "text": "The medical physicist", "rationale": "The physicist performs surveys and equipment evaluations and oversees equipment-related QA." },
-        { "id": "c", "text": "The lead interpreting physician", "rationale": "Correct. § 900.12(d)(1)(i)." },
-        { "id": "d", "text": "The facility administrator", "rationale": "MQSA assigns QA program responsibility to the lead interpreting physician; administrative titles are left to the facility." }
+        {
+          "id": "a",
+          "text": "The quality control technologist",
+          "rationale": "The QC technologist handles tasks not assigned to the lead interpreting physician or medical physicist, but doesn't hold general responsibility."
+        },
+        {
+          "id": "b",
+          "text": "The medical physicist",
+          "rationale": "The physicist performs surveys and equipment evaluations and oversees equipment-related QA."
+        },
+        {
+          "id": "c",
+          "text": "The lead interpreting physician",
+          "rationale": "Correct. \u00a7 900.12(d)(1)(i)."
+        },
+        {
+          "id": "d",
+          "text": "The facility administrator",
+          "rationale": "MQSA assigns QA program responsibility to the lead interpreting physician; administrative titles are left to the facility."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "The lead interpreting physician has general responsibility for the QA program. Other individuals keep QA tasks only if the lead interpreting physician judges their qualifications and performance adequate.",
-      "variants": { "simpler": "The lead physician is the captain of the QA team.", "example": "Under EQUIP, inspectors ask how the lead interpreting physician oversees QC records." },
-      "evidenceIds": ["ev-mqsa-qa-roles"]
+      "variants": {
+        "simpler": "The lead physician is the captain of the QA team.",
+        "example": "Under EQUIP, inspectors ask how the lead interpreting physician oversees QC records."
+      },
+      "evidenceIds": [
+        "ev-mqsa-qa-roles"
+      ]
     },
     {
-      "id": "q-mqsa-016", "revision": 1, "objectiveIds": ["obj-mqsa-qa-roles", "obj-qc-physicist-survey"], "familyId": "fam-mqsa-mee", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-016",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles",
+        "obj-qc-physicist-survey"
+      ],
+      "familyId": "fam-mqsa-mee",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
       "stem": "The detector on Room 2's unit is replaced by service on Tuesday afternoon. What must happen before Room 2 is used for patient exams?",
       "choices": [
-        { "id": "a", "text": "The technologist runs the daily QC tests and resumes scanning if they pass.", "rationale": "Major component replacement triggers a physicist's equipment evaluation; routine QC alone isn't sufficient." },
-        { "id": "b", "text": "A mammography equipment evaluation by (or under direct supervision of) a medical physicist, with problems corrected first", "rationale": "Correct. § 900.12(e)(10) requires this after major components are changed or repaired." },
-        { "id": "c", "text": "The accreditation body reviews new clinical images from the unit.", "rationale": "Accreditation procedures may apply for new units, but the regulation's pre-use requirement here is the equipment evaluation." },
-        { "id": "d", "text": "Nothing until the next annual survey", "rationale": "Waiting for the annual survey would allow use of equipment not yet shown to meet standards." }
+        {
+          "id": "a",
+          "text": "The technologist runs the daily QC tests and resumes scanning if they pass.",
+          "rationale": "Major component replacement triggers a physicist's equipment evaluation; routine QC alone isn't sufficient."
+        },
+        {
+          "id": "b",
+          "text": "A mammography equipment evaluation by (or under direct supervision of) a medical physicist, with problems corrected first",
+          "rationale": "Correct. \u00a7 900.12(e)(10) requires this after major components are changed or repaired."
+        },
+        {
+          "id": "c",
+          "text": "The accreditation body reviews new clinical images from the unit.",
+          "rationale": "Accreditation procedures may apply for new units, but the regulation's pre-use requirement here is the equipment evaluation."
+        },
+        {
+          "id": "d",
+          "text": "Nothing until the next annual survey",
+          "rationale": "Waiting for the annual survey would allow use of equipment not yet shown to meet standards."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Installation, disassembly and reassembly, or major component change or repair requires a mammography equipment evaluation; all problems are corrected before clinical use.",
-      "variants": { "simpler": "Big repair? The physicist checks it before patients.", "example": "Converting a unit to add DBT makes it a new unit for MQSA purposes, which also requires evaluation before clinical use." },
-      "evidenceIds": ["ev-mqsa-equipment-evaluation"]
+      "variants": {
+        "simpler": "Big repair? The physicist checks it before patients.",
+        "example": "Converting a unit to add DBT makes it a new unit for MQSA purposes, which also requires evaluation before clinical use."
+      },
+      "evidenceIds": [
+        "ev-mqsa-equipment-evaluation"
+      ]
     },
     {
-      "id": "q-mqsa-017", "revision": 1, "objectiveIds": ["obj-mqsa-qa-roles"], "familyId": "fam-mqsa-qc-records", "pool": "practice", "difficultyIntent": "apply", "kind": "single", "estSeconds": 70,
+      "id": "q-mqsa-017",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-mqsa-qc-records",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
       "stem": "How long must QC records for a required test be kept?",
       "choices": [
-        { "id": "a", "text": "Exactly 1 year", "rationale": "The rule isn't a fixed period." },
-        { "id": "b", "text": "Until the next annual inspection is completed and FDA finds compliance, or until the test is performed two more times, whichever is longer", "rationale": "Correct. § 900.12(d)(2)." },
-        { "id": "c", "text": "At least 5 years, like mammograms", "rationale": "Five years is a minimum retention for original mammograms and reports, not QC records." },
-        { "id": "d", "text": "3 years, like serious complaint records", "rationale": "Three years applies to serious complaint records." }
+        {
+          "id": "a",
+          "text": "Exactly 1 year",
+          "rationale": "The rule isn't a fixed period."
+        },
+        {
+          "id": "b",
+          "text": "Until the next annual inspection is completed and FDA finds compliance, or until the test is performed two more times, whichever is longer",
+          "rationale": "Correct. \u00a7 900.12(d)(2)."
+        },
+        {
+          "id": "c",
+          "text": "At least 5 years, like mammograms",
+          "rationale": "Five years is a minimum retention for original mammograms and reports, not QC records."
+        },
+        {
+          "id": "d",
+          "text": "3 years, like serious complaint records",
+          "rationale": "Three years applies to serious complaint records."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "QC records are kept until the next annual inspection is completed with compliance found, or until the test has been done two additional times at its required frequency, whichever is longer.",
-      "variants": { "simpler": "Keep QC records through the next clean inspection, and at least until the test has been done twice more.", "example": "An annual test's record would usually be kept roughly two years, because two more annual performances take longer than reaching the next inspection." },
-      "evidenceIds": ["ev-mqsa-qc-records-retention"]
+      "variants": {
+        "simpler": "Keep QC records through the next clean inspection, and at least until the test has been done twice more.",
+        "example": "An annual test's record would usually be kept roughly two years, because two more annual performances take longer than reaching the next inspection."
+      },
+      "evidenceIds": [
+        "ev-mqsa-qc-records-retention"
+      ]
     },
     {
-      "id": "q-mqsa-018", "revision": 1, "objectiveIds": ["obj-mqsa-report-assessment", "obj-ap-assessment-density-categories"], "familyId": "fam-mqsa-positive", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 50,
+      "id": "q-mqsa-018",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-report-assessment",
+        "obj-ap-assessment-density-categories"
+      ],
+      "familyId": "fam-mqsa-positive",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 50,
       "stem": "Under MQSA, which final assessments define a 'positive mammogram'?",
       "choices": [
-        { "id": "a", "text": "Probably Benign and Suspicious", "rationale": "Probably Benign isn't part of the positive definition." },
-        { "id": "b", "text": "Incomplete: Need additional imaging evaluation and Suspicious", "rationale": "Incomplete-additional imaging defines a screening recall, not a positive mammogram." },
-        { "id": "c", "text": "Suspicious and Highly Suggestive of Malignancy", "rationale": "Correct. § 900.2(mm)." },
-        { "id": "d", "text": "Highly Suggestive of Malignancy and Known Biopsy-Proven Malignancy", "rationale": "Known Biopsy-Proven Malignancy is reserved for known cancers; it isn't in the positive definition." }
+        {
+          "id": "a",
+          "text": "Probably Benign and Suspicious",
+          "rationale": "Probably Benign isn't part of the positive definition."
+        },
+        {
+          "id": "b",
+          "text": "Incomplete: Need additional imaging evaluation and Suspicious",
+          "rationale": "Incomplete-additional imaging defines a screening recall, not a positive mammogram."
+        },
+        {
+          "id": "c",
+          "text": "Suspicious and Highly Suggestive of Malignancy",
+          "rationale": "Correct. \u00a7 900.2(mm)."
+        },
+        {
+          "id": "d",
+          "text": "Highly Suggestive of Malignancy and Known Biopsy-Proven Malignancy",
+          "rationale": "Known Biopsy-Proven Malignancy is reserved for known cancers; it isn't in the positive definition."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "A positive mammogram is assessed Suspicious or Highly Suggestive of Malignancy. That definition drives the PPV calculation and the 7-day reporting rule.",
-      "variants": { "simpler": "Positive = Suspicious or Highly Suggestive.", "example": "A Probably Benign result leads to follow-up, but it doesn't count as positive for PPV." },
-      "evidenceIds": ["ev-mqsa-positive-mammogram", "ev-mqsa-assessment-categories"]
+      "variants": {
+        "simpler": "Positive = Suspicious or Highly Suggestive.",
+        "example": "A Probably Benign result leads to follow-up, but it doesn't count as positive for PPV."
+      },
+      "evidenceIds": [
+        "ev-mqsa-positive-mammogram",
+        "ev-mqsa-assessment-categories"
+      ]
     },
     {
-      "id": "q-mqsa-019", "revision": 1, "objectiveIds": ["obj-mqsa-report-assessment"], "familyId": "fam-mqsa-incomplete-priors", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-019",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-report-assessment"
+      ],
+      "familyId": "fam-mqsa-incomplete-priors",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
       "stem": "A report dated March 3 is assessed 'Incomplete: Need prior mammograms for comparison.' The outside facility hasn't sent the priors. What does the regulation require?",
       "choices": [
-        { "id": "a", "text": "Wait for the priors before issuing a final assessment, however long it takes.", "rationale": "The follow-up report is due within 30 days whether or not comparisons are obtained." },
-        { "id": "b", "text": "Issue a follow-up report with a final assessment within 30 calendar days of the initial report.", "rationale": "Correct. § 900.12(c)(1)(v)(B)." },
-        { "id": "c", "text": "Convert the result to 'Probably Benign' automatically after 7 days.", "rationale": "No automatic conversion exists; an interpreting physician issues the follow-up assessment." },
-        { "id": "d", "text": "Repeat the exam to create new comparison images.", "rationale": "Repeating the exam isn't the regulatory requirement and adds dose." }
+        {
+          "id": "a",
+          "text": "Wait for the priors before issuing a final assessment, however long it takes.",
+          "rationale": "The follow-up report is due within 30 days whether or not comparisons are obtained."
+        },
+        {
+          "id": "b",
+          "text": "Issue a follow-up report with a final assessment within 30 calendar days of the initial report.",
+          "rationale": "Correct. \u00a7 900.12(c)(1)(v)(B)."
+        },
+        {
+          "id": "c",
+          "text": "Convert the result to 'Probably Benign' automatically after 7 days.",
+          "rationale": "No automatic conversion exists; an interpreting physician issues the follow-up assessment."
+        },
+        {
+          "id": "d",
+          "text": "Repeat the exam to create new comparison images.",
+          "rationale": "Repeating the exam isn't the regulatory requirement and adds dose."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "If 'Incomplete: Need prior mammograms for comparison' is used, a follow-up report with a final assessment category must be issued within 30 calendar days of the initial report, whether or not comparison views can be obtained.",
-      "variants": { "simpler": "Waiting for old films has a 30-day limit.", "example": "From a March 3 report, the follow-up is due by April 2." },
-      "evidenceIds": ["ev-mqsa-incomplete-categories"]
+      "variants": {
+        "simpler": "Waiting for old films has a 30-day limit.",
+        "example": "From a March 3 report, the follow-up is due by April 2."
+      },
+      "evidenceIds": [
+        "ev-mqsa-incomplete-categories"
+      ]
     },
     {
-      "id": "q-mqsa-020", "revision": 1, "objectiveIds": ["obj-mqsa-report-assessment"], "familyId": "fam-mqsa-report-contents", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 50,
+      "id": "q-mqsa-020",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-report-assessment"
+      ],
+      "familyId": "fam-mqsa-report-contents",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 50,
       "stem": "Which item must appear in the facility location on a mammography report but is NOT required in the facility location on the image label?",
       "choices": [
-        { "id": "a", "text": "City", "rationale": "City is required in both." },
-        { "id": "b", "text": "ZIP code", "rationale": "ZIP code is required in both." },
-        { "id": "c", "text": "Telephone number", "rationale": "Correct. The report's location includes the facility telephone number; the image label's location requires city, State, and ZIP code." },
-        { "id": "d", "text": "State", "rationale": "State is required in both." }
+        {
+          "id": "a",
+          "text": "City",
+          "rationale": "City is required in both."
+        },
+        {
+          "id": "b",
+          "text": "ZIP code",
+          "rationale": "ZIP code is required in both."
+        },
+        {
+          "id": "c",
+          "text": "Telephone number",
+          "rationale": "Correct. The report's location includes the facility telephone number; the image label's location requires city, State, and ZIP code."
+        },
+        {
+          "id": "d",
+          "text": "State",
+          "rationale": "State is required in both."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Report: city, State, ZIP, and telephone number. Image label: city, State, and ZIP code.",
-      "variants": { "simpler": "The report needs a phone number so patients and providers can call; the image doesn't.", "example": "A report template missing the facility phone number would need updating." },
-      "evidenceIds": ["ev-mqsa-report-contents", "ev-mqsa-image-identification"]
+      "variants": {
+        "simpler": "The report needs a phone number so patients and providers can call; the image doesn't.",
+        "example": "A report template missing the facility phone number would need updating."
+      },
+      "evidenceIds": [
+        "ev-mqsa-report-contents",
+        "ev-mqsa-image-identification"
+      ]
     },
     {
-      "id": "q-mqsa-021", "revision": 1, "objectiveIds": ["obj-mqsa-report-assessment"], "familyId": "fam-mqsa-marker-category", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-021",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-report-assessment"
+      ],
+      "familyId": "fam-mqsa-marker-category",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
       "stem": "After a stereotactic biopsy, a mammogram is taken only to confirm the position of the tissue marker. Which MQSA assessment category is reserved for this?",
       "choices": [
-        { "id": "a", "text": "Benign", "rationale": "Benign describes benign findings on an interpreted mammogram; it isn't the marker-placement category." },
-        { "id": "b", "text": "Known Biopsy-Proven Malignancy", "rationale": "This is reserved for known cancers being evaluated for definitive therapy." },
-        { "id": "c", "text": "Incomplete: Need additional imaging evaluation", "rationale": "Used when more imaging is needed before a final assessment." },
-        { "id": "d", "text": "Post-Procedure Mammogram for Marker Placement", "rationale": "Correct. § 900.12(c)(1)(iv)(G)." }
+        {
+          "id": "a",
+          "text": "Benign",
+          "rationale": "Benign describes benign findings on an interpreted mammogram; it isn't the marker-placement category."
+        },
+        {
+          "id": "b",
+          "text": "Known Biopsy-Proven Malignancy",
+          "rationale": "This is reserved for known cancers being evaluated for definitive therapy."
+        },
+        {
+          "id": "c",
+          "text": "Incomplete: Need additional imaging evaluation",
+          "rationale": "Used when more imaging is needed before a final assessment."
+        },
+        {
+          "id": "d",
+          "text": "Post-Procedure Mammogram for Marker Placement",
+          "rationale": "Correct. \u00a7 900.12(c)(1)(iv)(G)."
+        }
       ],
       "correctChoiceId": "d",
       "explanation": "'Post-Procedure Mammogram for Marker Placement' is reserved for a mammogram used to confirm deployment and position of a breast tissue marker.",
-      "variants": { "simpler": "Clip check after biopsy has its own category.", "example": "This category tells the reader the exam's purpose was the marker, not a new screening evaluation." },
-      "evidenceIds": ["ev-mqsa-assessment-categories"]
+      "variants": {
+        "simpler": "Clip check after biopsy has its own category.",
+        "example": "This category tells the reader the exam's purpose was the marker, not a new screening evaluation."
+      },
+      "evidenceIds": [
+        "ev-mqsa-assessment-categories"
+      ]
     },
     {
-      "id": "q-mqsa-022", "revision": 1, "objectiveIds": ["obj-mqsa-results-communication", "obj-pc-results-pathway"], "familyId": "fam-mqsa-lay-30", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-022",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-results-communication",
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-mqsa-lay-30",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "A screening mammogram is assessed Negative. Within what time must the patient receive the lay summary?",
       "choices": [
-        { "id": "a", "text": "7 calendar days of the exam", "rationale": "The 7-day rule applies to Suspicious or Highly Suggestive results, counted from final interpretation." },
-        { "id": "b", "text": "15 calendar days of the exam", "rationale": "15 days is the deadline for transferring records on request." },
-        { "id": "c", "text": "30 calendar days of the exam", "rationale": "Correct. § 900.12(c)(2)." },
-        { "id": "d", "text": "At her next annual visit", "rationale": "Every patient receives a lay summary within 30 days." }
+        {
+          "id": "a",
+          "text": "7 calendar days of the exam",
+          "rationale": "The 7-day rule applies to Suspicious or Highly Suggestive results, counted from final interpretation."
+        },
+        {
+          "id": "b",
+          "text": "15 calendar days of the exam",
+          "rationale": "15 days is the deadline for transferring records on request."
+        },
+        {
+          "id": "c",
+          "text": "30 calendar days of the exam",
+          "rationale": "Correct. \u00a7 900.12(c)(2)."
+        },
+        {
+          "id": "d",
+          "text": "At her next annual visit",
+          "rationale": "Every patient receives a lay summary within 30 days."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Every patient receives a lay-language summary within 30 calendar days of the exam. It must include a breast density statement.",
-      "variants": { "simpler": "Routine results: within 30 days.", "example": "An exam on May 1 with a Negative result means the lay summary must reach the patient by May 31." },
-      "evidenceIds": ["ev-mqsa-lay-summary-timing"]
+      "variants": {
+        "simpler": "Routine results: within 30 days.",
+        "example": "An exam on May 1 with a Negative result means the lay summary must reach the patient by May 31."
+      },
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing"
+      ]
     },
     {
-      "id": "q-mqsa-023", "revision": 1, "objectiveIds": ["obj-mqsa-results-communication", "obj-pc-results-pathway"], "familyId": "fam-mqsa-7day", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 80,
+      "id": "q-mqsa-023",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-results-communication",
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-mqsa-7day",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 80,
       "stem": "A diagnostic exam is performed on a Monday and the final interpretation on Thursday is 'Highly Suggestive of Malignancy.' The patient has a referring provider. Which timeline applies?",
       "choices": [
-        { "id": "a", "text": "Lay summary and provider report within 7 calendar days of Thursday", "rationale": "Correct. For Suspicious or Highly Suggestive results, both are due within 7 calendar days of the final interpretation." },
-        { "id": "b", "text": "Lay summary within 7 days of Monday; provider report within 30 days", "rationale": "The 7-day clock runs from final interpretation, and the provider also gets the 7-day rule." },
-        { "id": "c", "text": "Both within 30 days of Monday", "rationale": "30 days applies to other results." },
-        { "id": "d", "text": "Provider report within 7 days; the patient hears only from the provider", "rationale": "The facility must still send the patient a lay summary." }
+        {
+          "id": "a",
+          "text": "Lay summary and provider report within 7 calendar days of Thursday",
+          "rationale": "Correct. For Suspicious or Highly Suggestive results, both are due within 7 calendar days of the final interpretation."
+        },
+        {
+          "id": "b",
+          "text": "Lay summary within 7 days of Monday; provider report within 30 days",
+          "rationale": "The 7-day clock runs from final interpretation, and the provider also gets the 7-day rule."
+        },
+        {
+          "id": "c",
+          "text": "Both within 30 days of Monday",
+          "rationale": "30 days applies to other results."
+        },
+        {
+          "id": "d",
+          "text": "Provider report within 7 days; the patient hears only from the provider",
+          "rationale": "The facility must still send the patient a lay summary."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "Suspicious and Highly Suggestive results trigger 7-calendar-day deadlines from the final interpretation for both the patient's lay summary and the provider's report.",
-      "variants": { "simpler": "Worrying result: patient and provider both hear within 7 days of the final read.", "example": "If the provider is unavailable, the report may go to a responsible designee within the same 7 days." },
-      "evidenceIds": ["ev-mqsa-lay-summary-timing", "ev-mqsa-provider-report"]
+      "variants": {
+        "simpler": "Worrying result: patient and provider both hear within 7 days of the final read.",
+        "example": "If the provider is unavailable, the report may go to a responsible designee within the same 7 days."
+      },
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-mqsa-provider-report"
+      ]
     },
     {
-      "id": "q-mqsa-024", "revision": 1, "objectiveIds": ["obj-mqsa-results-communication"], "familyId": "fam-mqsa-self-referred", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-024",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-results-communication"
+      ],
+      "familyId": "fam-mqsa-self-referred",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
       "stem": "A self-referred patient names no healthcare provider. Her screening result is Probably Benign. What does MQSA require of the facility?",
       "choices": [
-        { "id": "a", "text": "Send only the lay summary; the full report goes to whichever provider she sees later.", "rationale": "Patients without a named provider also receive the full report." },
-        { "id": "b", "text": "Send the lay summary and the full report within 30 days, and use the facility's referral system to connect her with a provider", "rationale": "Correct. § 900.12(c)(2)(i)–(ii); Probably Benign is listed as a reason referral is clinically indicated." },
-        { "id": "c", "text": "Decline to report until she names a provider.", "rationale": "Facilities that accept self-referred patients must still provide results." },
-        { "id": "d", "text": "Send the full report within 7 days.", "rationale": "The 7-day rule is for Suspicious or Highly Suggestive results." }
+        {
+          "id": "a",
+          "text": "Send only the lay summary; the full report goes to whichever provider she sees later.",
+          "rationale": "Patients without a named provider also receive the full report."
+        },
+        {
+          "id": "b",
+          "text": "Send the lay summary and the full report within 30 days, and use the facility's referral system to connect her with a provider",
+          "rationale": "Correct. \u00a7 900.12(c)(2)(i)\u2013(ii); Probably Benign is listed as a reason referral is clinically indicated."
+        },
+        {
+          "id": "c",
+          "text": "Decline to report until she names a provider.",
+          "rationale": "Facilities that accept self-referred patients must still provide results."
+        },
+        {
+          "id": "d",
+          "text": "Send the full report within 7 days.",
+          "rationale": "The 7-day rule is for Suspicious or Highly Suggestive results."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "A self-referred patient receives both the lay summary and the full report, and the facility's referral system applies when clinically indicated, including Probably Benign, Suspicious, or Highly Suggestive.",
-      "variants": { "simpler": "No doctor named? She gets the full report too, and the facility helps her find a provider.", "example": "A facility might keep a list of local clinics accepting new patients for this referral system." },
-      "evidenceIds": ["ev-mqsa-self-referred"]
+      "variants": {
+        "simpler": "No doctor named? She gets the full report too, and the facility helps her find a provider.",
+        "example": "A facility might keep a list of local clinics accepting new patients for this referral system."
+      },
+      "evidenceIds": [
+        "ev-mqsa-self-referred"
+      ]
     },
     {
-      "id": "q-mqsa-025", "revision": 1, "objectiveIds": ["obj-mqsa-results-communication"], "familyId": "fam-mqsa-provider-30", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-025",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-results-communication"
+      ],
+      "familyId": "fam-mqsa-provider-30",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "For a Benign result, what is the latest the written report may reach the referring provider?",
       "choices": [
-        { "id": "a", "text": "As soon as possible, but no later than 30 days from the exam", "rationale": "Correct. § 900.12(c)(3)(i)." },
-        { "id": "b", "text": "Within 7 days of the exam", "rationale": "7-day timelines apply to Suspicious or Highly Suggestive results." },
-        { "id": "c", "text": "Within 15 days of the provider's request", "rationale": "15 days applies to transfer of records on request." },
-        { "id": "d", "text": "Within 60 days of the exam", "rationale": "The limit is 30 days." }
+        {
+          "id": "a",
+          "text": "As soon as possible, but no later than 30 days from the exam",
+          "rationale": "Correct. \u00a7 900.12(c)(3)(i)."
+        },
+        {
+          "id": "b",
+          "text": "Within 7 days of the exam",
+          "rationale": "7-day timelines apply to Suspicious or Highly Suggestive results."
+        },
+        {
+          "id": "c",
+          "text": "Within 15 days of the provider's request",
+          "rationale": "15 days applies to transfer of records on request."
+        },
+        {
+          "id": "d",
+          "text": "Within 60 days of the exam",
+          "rationale": "The limit is 30 days."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "Reports go to the referring or named provider as soon as possible and no later than 30 days. Failure to send within 30 days is listed as an adverse event.",
-      "variants": { "simpler": "Provider report: 30 days at the latest.", "example": "A batch of reports stuck in an interface queue past 30 days would be an adverse event to correct." },
-      "evidenceIds": ["ev-mqsa-provider-report", "ev-mqsa-adverse-event"]
+      "variants": {
+        "simpler": "Provider report: 30 days at the latest.",
+        "example": "A batch of reports stuck in an interface queue past 30 days would be an adverse event to correct."
+      },
+      "evidenceIds": [
+        "ev-mqsa-provider-report",
+        "ev-mqsa-adverse-event"
+      ]
     },
     {
-      "id": "q-mqsa-026", "revision": 1, "objectiveIds": ["obj-mqsa-density-reporting", "obj-pc-results-pathway"], "familyId": "fam-mqsa-density-map", "pool": "practice", "difficultyIntent": "apply", "kind": "single", "estSeconds": 60,
+      "id": "q-mqsa-026",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-density-reporting",
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-mqsa-density-map",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 60,
       "stem": "A report states 'The breasts are heterogeneously dense, which may obscure small masses.' Which statement must the patient's lay summary include?",
       "choices": [
-        { "id": "a", "text": "'Your breast tissue is not dense.'", "rationale": "That statement goes with almost entirely fatty or scattered fibroglandular density." },
-        { "id": "b", "text": "'Your breast tissue is dense,' with the note that other imaging tests may help some people with dense tissue", "rationale": "Correct. Heterogeneously and extremely dense map to the dense paragraph, § 900.12(c)(2)(iv)." },
-        { "id": "c", "text": "'Your breast tissue has high density.'", "rationale": "'High/low density' was earlier wording; the current rule uses dense/not dense." },
-        { "id": "d", "text": "No density statement; density is only for the provider.", "rationale": "Since September 10, 2024, every lay summary includes a density statement." }
+        {
+          "id": "a",
+          "text": "'Your breast tissue is not dense.'",
+          "rationale": "That statement goes with almost entirely fatty or scattered fibroglandular density."
+        },
+        {
+          "id": "b",
+          "text": "'Your breast tissue is dense,' with the note that other imaging tests may help some people with dense tissue",
+          "rationale": "Correct. Heterogeneously and extremely dense map to the dense paragraph, \u00a7 900.12(c)(2)(iv)."
+        },
+        {
+          "id": "c",
+          "text": "'Your breast tissue has high density.'",
+          "rationale": "'High/low density' was earlier wording; the current rule uses dense/not dense."
+        },
+        {
+          "id": "d",
+          "text": "No density statement; density is only for the provider.",
+          "rationale": "Since September 10, 2024, every lay summary includes a density statement."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Four report categories map to two patient statements: the first two to 'not dense', heterogeneously and extremely dense to 'dense', with the added sentence about other imaging tests.",
-      "variants": { "simpler": "The two denser categories → 'dense'. The two less dense → 'not dense'.", "example": "Scattered areas of fibroglandular density → 'Your breast tissue is not dense.'" },
-      "evidenceIds": ["ev-mqsa-density-statements", "ev-mqsa-density-categories", "ev-mqsa-density-rule-effective"]
+      "variants": {
+        "simpler": "The two denser categories \u2192 'dense'. The two less dense \u2192 'not dense'.",
+        "example": "Scattered areas of fibroglandular density \u2192 'Your breast tissue is not dense.'"
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-statements",
+        "ev-mqsa-density-categories",
+        "ev-mqsa-density-rule-effective"
+      ]
     },
     {
-      "id": "q-mqsa-027", "revision": 1, "objectiveIds": ["obj-mqsa-image-labeling"], "familyId": "fam-mqsa-label-axilla", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 40,
+      "id": "q-mqsa-027",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-labeling"
+      ],
+      "familyId": "fam-mqsa-label-axilla",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 40,
       "stem": "Where on the image must view and laterality be placed?",
       "choices": [
-        { "id": "a", "text": "Near the nipple", "rationale": "The regulation specifies near the axilla." },
-        { "id": "b", "text": "Near the axilla", "rationale": "Correct. § 900.12(c)(5)(iii)." },
-        { "id": "c", "text": "Anywhere that doesn't cover tissue", "rationale": "Not obscuring anatomy is required for all labels, but view and laterality specifically go near the axilla." },
-        { "id": "d", "text": "In the DICOM header only", "rationale": "The information must be indicated on the image." }
+        {
+          "id": "a",
+          "text": "Near the nipple",
+          "rationale": "The regulation specifies near the axilla."
+        },
+        {
+          "id": "b",
+          "text": "Near the axilla",
+          "rationale": "Correct. \u00a7 900.12(c)(5)(iii)."
+        },
+        {
+          "id": "c",
+          "text": "Anywhere that doesn't cover tissue",
+          "rationale": "Not obscuring anatomy is required for all labels, but view and laterality specifically go near the axilla."
+        },
+        {
+          "id": "d",
+          "text": "In the DICOM header only",
+          "rationale": "The information must be indicated on the image."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "View and laterality are placed near the axilla, using standardized codes, and like all labels must not obscure anatomy.",
-      "variants": { "simpler": "Side and view marker: by the armpit.", "example": "On an RMLO, the 'RMLO' marker sits toward the axillary region of the image." },
-      "evidenceIds": ["ev-mqsa-image-identification"]
+      "variants": {
+        "simpler": "Side and view marker: by the armpit.",
+        "example": "On an RMLO, the 'RMLO' marker sits toward the axillary region of the image."
+      },
+      "evidenceIds": [
+        "ev-mqsa-image-identification"
+      ]
     },
     {
-      "id": "q-mqsa-028", "revision": 1, "objectiveIds": ["obj-mqsa-image-labeling"], "familyId": "fam-mqsa-label-unit", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 70,
+      "id": "q-mqsa-028",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-labeling"
+      ],
+      "familyId": "fam-mqsa-label-unit",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
       "stem": "A facility has one mammography unit. Which label item is NOT required on its images?",
       "choices": [
-        { "id": "a", "text": "Technologist identification", "rationale": "Always required." },
-        { "id": "b", "text": "An additional patient identifier", "rationale": "Always required with the patient name." },
-        { "id": "c", "text": "Mammography unit identification", "rationale": "Correct. Unit identification is required only if the facility has more than one unit." },
-        { "id": "d", "text": "Date of examination", "rationale": "Always required." }
+        {
+          "id": "a",
+          "text": "Technologist identification",
+          "rationale": "Always required."
+        },
+        {
+          "id": "b",
+          "text": "An additional patient identifier",
+          "rationale": "Always required with the patient name."
+        },
+        {
+          "id": "c",
+          "text": "Mammography unit identification",
+          "rationale": "Correct. Unit identification is required only if the facility has more than one unit."
+        },
+        {
+          "id": "d",
+          "text": "Date of examination",
+          "rationale": "Always required."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Unit ID is conditional on having more than one unit. The other six items always apply.",
-      "variants": { "simpler": "With only one machine, there's no doubt which one took the image.", "example": "When a second unit is installed, unit identification becomes required on images from both." },
-      "evidenceIds": ["ev-mqsa-image-identification"]
+      "variants": {
+        "simpler": "With only one machine, there's no doubt which one took the image.",
+        "example": "When a second unit is installed, unit identification becomes required on images from both."
+      },
+      "evidenceIds": [
+        "ev-mqsa-image-identification"
+      ]
     },
     {
-      "id": "q-mqsa-029", "revision": 1, "objectiveIds": ["obj-mqsa-records-transfer"], "familyId": "fam-mqsa-retention", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 70,
+      "id": "q-mqsa-029",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-mqsa-retention",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
       "stem": "A patient had one mammogram at a facility in 2021 and has not returned. The State has no longer requirement. Until at least when must the facility keep the original images and report?",
       "choices": [
-        { "id": "a", "text": "2026", "rationale": "Five years applies when additional mammograms are performed at the facility." },
-        { "id": "b", "text": "2028", "rationale": "Seven years isn't one of the MQSA periods." },
-        { "id": "c", "text": "2031", "rationale": "Correct. With no additional mammograms at the facility, the minimum is 10 years." },
-        { "id": "d", "text": "Indefinitely", "rationale": "MQSA sets minimums; indefinite retention isn't required." }
+        {
+          "id": "a",
+          "text": "2026",
+          "rationale": "Five years applies when additional mammograms are performed at the facility."
+        },
+        {
+          "id": "b",
+          "text": "2028",
+          "rationale": "Seven years isn't one of the MQSA periods."
+        },
+        {
+          "id": "c",
+          "text": "2031",
+          "rationale": "Correct. With no additional mammograms at the facility, the minimum is 10 years."
+        },
+        {
+          "id": "d",
+          "text": "Indefinitely",
+          "rationale": "MQSA sets minimums; indefinite retention isn't required."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Retention is the longest of 5 years, 10 years if no additional mammograms at the facility, or State/local law.",
-      "variants": { "simpler": "She never came back, so keep it 10 years.", "example": "If State law required 12 years, the facility would keep it until 2033." },
-      "evidenceIds": ["ev-mqsa-record-retention"]
+      "variants": {
+        "simpler": "She never came back, so keep it 10 years.",
+        "example": "If State law required 12 years, the facility would keep it until 2033."
+      },
+      "evidenceIds": [
+        "ev-mqsa-record-retention"
+      ]
     },
     {
-      "id": "q-mqsa-030", "revision": 1, "objectiveIds": ["obj-mqsa-records-transfer", "obj-pc-prior-images"], "familyId": "fam-mqsa-transfer", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-030",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer",
+        "obj-pc-prior-images"
+      ],
+      "familyId": "fam-mqsa-transfer",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
       "stem": "A patient asks your facility to send her DBT exam to another hospital for a second interpretation. Which response meets MQSA?",
       "choices": [
-        { "id": "a", "text": "Send printed key slices within 30 days.", "rationale": "Printed slices aren't the original digital images, and the deadline is 15 days." },
-        { "id": "b", "text": "Provide the original digital images electronically within 15 calendar days of the request.", "rationale": "Correct. § 900.12(c)(4)(ii)–(iii)." },
-        { "id": "c", "text": "Send a scanned copy of the report only.", "rationale": "For final interpretation, the recipient needs the original digital images." },
-        { "id": "d", "text": "Require the patient to pay a flat fee set by the facility, then send within 15 days.", "rationale": "Fees may not exceed documented costs; a flat fee unrelated to cost isn't allowed." }
+        {
+          "id": "a",
+          "text": "Send printed key slices within 30 days.",
+          "rationale": "Printed slices aren't the original digital images, and the deadline is 15 days."
+        },
+        {
+          "id": "b",
+          "text": "Provide the original digital images electronically within 15 calendar days of the request.",
+          "rationale": "Correct. \u00a7 900.12(c)(4)(ii)\u2013(iii)."
+        },
+        {
+          "id": "c",
+          "text": "Send a scanned copy of the report only.",
+          "rationale": "For final interpretation, the recipient needs the original digital images."
+        },
+        {
+          "id": "d",
+          "text": "Require the patient to pay a flat fee set by the facility, then send within 15 days.",
+          "rationale": "Fees may not exceed documented costs; a flat fee unrelated to cost isn't allowed."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Transfers and copies occur within 15 calendar days. For digital mammography or DBT used for final interpretation, original digital images must be available electronically. Fees can't exceed documented costs.",
-      "variants": { "simpler": "15 days, original digital images, fair cost.", "example": "Pushing the exam to the other hospital's PACS, or providing it on media in original DICOM format, preserves original digital images." },
-      "evidenceIds": ["ev-mqsa-record-transfer"]
+      "variants": {
+        "simpler": "15 days, original digital images, fair cost.",
+        "example": "Pushing the exam to the other hospital's PACS, or providing it on media in original DICOM format, preserves original digital images."
+      },
+      "evidenceIds": [
+        "ev-mqsa-record-transfer"
+      ]
     },
     {
-      "id": "q-mqsa-031", "revision": 1, "objectiveIds": ["obj-mqsa-outcomes-audit"], "familyId": "fam-mqsa-recall-def", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-031",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit"
+      ],
+      "familyId": "fam-mqsa-recall-def",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
       "stem": "In the MQSA medical outcomes audit, the recall rate is the percentage of:",
       "choices": [
-        { "id": "a", "text": "All mammograms assessed Suspicious", "rationale": "Suspicious assessments feed PPV; recall rate uses screening exams assessed Incomplete-additional imaging." },
-        { "id": "b", "text": "Screening mammograms assessed 'Incomplete: Need additional imaging evaluation'", "rationale": "Correct. § 900.12(f)(1)(iii)." },
-        { "id": "c", "text": "Patients who return for their next annual screening", "rationale": "Return adherence isn't the audit's recall rate." },
-        { "id": "d", "text": "Diagnostic mammograms that lead to biopsy", "rationale": "Recall rate is defined on screening exams." }
+        {
+          "id": "a",
+          "text": "All mammograms assessed Suspicious",
+          "rationale": "Suspicious assessments feed PPV; recall rate uses screening exams assessed Incomplete-additional imaging."
+        },
+        {
+          "id": "b",
+          "text": "Screening mammograms assessed 'Incomplete: Need additional imaging evaluation'",
+          "rationale": "Correct. \u00a7 900.12(f)(1)(iii)."
+        },
+        {
+          "id": "c",
+          "text": "Patients who return for their next annual screening",
+          "rationale": "Return adherence isn't the audit's recall rate."
+        },
+        {
+          "id": "d",
+          "text": "Diagnostic mammograms that lead to biopsy",
+          "rationale": "Recall rate is defined on screening exams."
+        }
       ],
       "correctChoiceId": "b",
-      "explanation": "Recall rate = screening mammograms assessed Incomplete: Need additional imaging evaluation ÷ screening mammograms.",
-      "variants": { "simpler": "How often screening exams get called back for more pictures.", "example": "120 call-backs from 1,500 screens is a recall rate of 8%." },
-      "evidenceIds": ["ev-mqsa-outcomes-audit"]
+      "explanation": "Recall rate = screening mammograms assessed Incomplete: Need additional imaging evaluation \u00f7 screening mammograms.",
+      "variants": {
+        "simpler": "How often screening exams get called back for more pictures.",
+        "example": "120 call-backs from 1,500 screens is a recall rate of 8%."
+      },
+      "evidenceIds": [
+        "ev-mqsa-outcomes-audit"
+      ]
     },
     {
-      "id": "q-mqsa-032", "revision": 1, "objectiveIds": ["obj-mqsa-outcomes-audit"], "familyId": "fam-mqsa-cdr-calc", "pool": "practice", "difficultyIntent": "apply", "kind": "calculation", "estSeconds": 100,
+      "id": "q-mqsa-032",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit"
+      ],
+      "familyId": "fam-mqsa-cdr-calc",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "calculation",
+      "estSeconds": 100,
       "stem": "In a year, 2,500 patients were screened. Among them, 12 were diagnosed with breast cancer within 1 year after an Incomplete-additional imaging, Suspicious, or Highly Suggestive assessment. What is the cancer detection rate?",
       "choices": [
-        { "id": "a", "text": "0.48 per 1,000", "rationale": "This divides 12 by 25,000; the denominator is 2,500 patients." },
-        { "id": "b", "text": "4.8 per 1,000", "rationale": "Correct. 12 ÷ 2,500 = 0.0048; × 1,000 = 4.8 per 1,000." },
-        { "id": "c", "text": "4.8%", "rationale": "The audit expresses cancer detection per 1,000 patients, and 4.8% would be 48 per 1,000." },
-        { "id": "d", "text": "48 per 1,000", "rationale": "This multiplies by 10,000 instead of 1,000." }
+        {
+          "id": "a",
+          "text": "0.48 per 1,000",
+          "rationale": "This divides 12 by 25,000; the denominator is 2,500 patients."
+        },
+        {
+          "id": "b",
+          "text": "4.8 per 1,000",
+          "rationale": "Correct. 12 \u00f7 2,500 = 0.0048; \u00d7 1,000 = 4.8 per 1,000."
+        },
+        {
+          "id": "c",
+          "text": "4.8%",
+          "rationale": "The audit expresses cancer detection per 1,000 patients, and 4.8% would be 48 per 1,000."
+        },
+        {
+          "id": "d",
+          "text": "48 per 1,000",
+          "rationale": "This multiplies by 10,000 instead of 1,000."
+        }
       ],
       "correctChoiceId": "b",
-      "explanation": "Cancer detection rate = qualifying cancers ÷ screened patients × 1,000. 12 ÷ 2,500 × 1,000 = 4.8 per 1,000.",
-      "variants": { "simpler": "Divide cancers by patients screened, then multiply by 1,000.", "example": "Same math: 9 cancers among 3,000 screened = 3 per 1,000." },
-      "evidenceIds": ["ev-mqsa-outcomes-audit"]
+      "explanation": "Cancer detection rate = qualifying cancers \u00f7 screened patients \u00d7 1,000. 12 \u00f7 2,500 \u00d7 1,000 = 4.8 per 1,000.",
+      "variants": {
+        "simpler": "Divide cancers by patients screened, then multiply by 1,000.",
+        "example": "Same math: 9 cancers among 3,000 screened = 3 per 1,000."
+      },
+      "evidenceIds": [
+        "ev-mqsa-outcomes-audit"
+      ]
     },
     {
-      "id": "q-mqsa-033", "revision": 1, "objectiveIds": ["obj-mqsa-outcomes-audit", "obj-pp-screening-vs-diagnostic"], "familyId": "fam-mqsa-screen-dx", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 70,
+      "id": "q-mqsa-033",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit",
+        "obj-pp-screening-vs-diagnostic"
+      ],
+      "familyId": "fam-mqsa-screen-dx",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
       "stem": "A 52-year-old arrives for her routine annual mammogram but tells you she found a new lump last week. For audit purposes, how should this exam be classified?",
       "choices": [
-        { "id": "a", "text": "Screening, because it's her scheduled annual exam", "rationale": "Scheduling doesn't decide it; a symptomatic patient's exam is diagnostic under the audit definition." },
-        { "id": "b", "text": "Diagnostic, because she has a breast symptom", "rationale": "Correct. Diagnostic exams are individualized views for patients with symptoms, physical signs, or abnormal screening findings." },
-        { "id": "c", "text": "Screening, unless she asks for diagnostic", "rationale": "Patient preference doesn't change the regulatory definition." },
-        { "id": "d", "text": "Neither; it's excluded from the audit", "rationale": "The audit covers all mammographic examinations." }
+        {
+          "id": "a",
+          "text": "Screening, because it's her scheduled annual exam",
+          "rationale": "Scheduling doesn't decide it; a symptomatic patient's exam is diagnostic under the audit definition."
+        },
+        {
+          "id": "b",
+          "text": "Diagnostic, because she has a breast symptom",
+          "rationale": "Correct. Diagnostic exams are individualized views for patients with symptoms, physical signs, or abnormal screening findings."
+        },
+        {
+          "id": "c",
+          "text": "Screening, unless she asks for diagnostic",
+          "rationale": "Patient preference doesn't change the regulatory definition."
+        },
+        {
+          "id": "d",
+          "text": "Neither; it's excluded from the audit",
+          "rationale": "The audit covers all mammographic examinations."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Screening = routine views of an asymptomatic patient. A new lump is a symptom, which makes the exam diagnostic for audit purposes. Follow your facility's protocol for routing it to a diagnostic work-up.",
-      "variants": { "simpler": "Any symptom means diagnostic.", "example": "Document the lump location on the history form so the interpreting physician knows the exam's purpose." },
-      "evidenceIds": ["ev-mqsa-screening-diagnostic-definition"]
+      "variants": {
+        "simpler": "Any symptom means diagnostic.",
+        "example": "Document the lump location on the history form so the interpreting physician knows the exam's purpose."
+      },
+      "evidenceIds": [
+        "ev-mqsa-screening-diagnostic-definition"
+      ]
     },
     {
-      "id": "q-mqsa-034", "revision": 1, "objectiveIds": ["obj-mqsa-required-policies"], "familyId": "fam-mqsa-complaint-3y", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-034",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-mqsa-complaint-3y",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "How long must a facility keep the record of each serious consumer complaint?",
       "choices": [
-        { "id": "a", "text": "1 year", "rationale": "Too short; the requirement is at least 3 years." },
-        { "id": "b", "text": "At least 3 years from receipt", "rationale": "Correct. § 900.12(h)(2)." },
-        { "id": "c", "text": "5 years, like mammograms", "rationale": "Five years is the minimum for original mammograms and reports." },
-        { "id": "d", "text": "Until the complaint is resolved", "rationale": "The record is kept at least 3 years regardless of resolution." }
+        {
+          "id": "a",
+          "text": "1 year",
+          "rationale": "Too short; the requirement is at least 3 years."
+        },
+        {
+          "id": "b",
+          "text": "At least 3 years from receipt",
+          "rationale": "Correct. \u00a7 900.12(h)(2)."
+        },
+        {
+          "id": "c",
+          "text": "5 years, like mammograms",
+          "rationale": "Five years is the minimum for original mammograms and reports."
+        },
+        {
+          "id": "d",
+          "text": "Until the complaint is resolved",
+          "rationale": "The record is kept at least 3 years regardless of resolution."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Serious complaint records are kept at least 3 years from receipt. Unresolved serious complaints are reported to the accreditation body.",
-      "variants": { "simpler": "Serious complaint records: 3 years.", "example": "A serious complaint received March 2026 stays on file until at least March 2029." },
-      "evidenceIds": ["ev-mqsa-consumer-complaints"]
+      "variants": {
+        "simpler": "Serious complaint records: 3 years.",
+        "example": "A serious complaint received March 2026 stays on file until at least March 2029."
+      },
+      "evidenceIds": [
+        "ev-mqsa-consumer-complaints"
+      ]
     },
     {
-      "id": "q-mqsa-035", "revision": 1, "objectiveIds": ["obj-mqsa-required-policies", "obj-pp-implant-inquiry"], "familyId": "fam-mqsa-implant", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 70,
+      "id": "q-mqsa-035",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies",
+        "obj-pp-implant-inquiry"
+      ],
+      "familyId": "fam-mqsa-implant",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
       "stem": "Which practice reflects the MQSA requirement for patients with breast implants?",
       "choices": [
-        { "id": "a", "text": "Ask about implants only if the order mentions them.", "rationale": "Facilities must have a procedure to ask every patient before the exam." },
-        { "id": "b", "text": "Ask before the exam and, unless contraindicated or modified by a physician, use views that maximize visualization of breast tissue", "rationale": "Correct. § 900.12(g)." },
-        { "id": "c", "text": "Perform only standard CC and MLO views to limit pressure on the implant.", "rationale": "The regulation calls for views maximizing tissue visualization unless contraindicated." },
-        { "id": "d", "text": "Refer all implant patients to MRI instead of mammography.", "rationale": "MQSA doesn't require MRI referral; it requires an implant inquiry and appropriate views." }
+        {
+          "id": "a",
+          "text": "Ask about implants only if the order mentions them.",
+          "rationale": "Facilities must have a procedure to ask every patient before the exam."
+        },
+        {
+          "id": "b",
+          "text": "Ask before the exam and, unless contraindicated or modified by a physician, use views that maximize visualization of breast tissue",
+          "rationale": "Correct. \u00a7 900.12(g)."
+        },
+        {
+          "id": "c",
+          "text": "Perform only standard CC and MLO views to limit pressure on the implant.",
+          "rationale": "The regulation calls for views maximizing tissue visualization unless contraindicated."
+        },
+        {
+          "id": "d",
+          "text": "Refer all implant patients to MRI instead of mammography.",
+          "rationale": "MQSA doesn't require MRI referral; it requires an implant inquiry and appropriate views."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Facilities need a procedure to ask about implants before the exam, and use views that maximize visualization of breast tissue unless contraindicated or modified by a physician.",
-      "variants": { "simpler": "Always ask about implants first, then image to see as much tissue as safely possible.", "example": "A patient may not mention implants unless asked, especially years after surgery." },
-      "evidenceIds": ["ev-mqsa-implant-inquiry"]
+      "variants": {
+        "simpler": "Always ask about implants first, then image to see as much tissue as safely possible.",
+        "example": "A patient may not mention implants unless asked, especially years after surgery."
+      },
+      "evidenceIds": [
+        "ev-mqsa-implant-inquiry"
+      ]
     },
     {
-      "id": "q-mqsa-036", "revision": 1, "objectiveIds": ["obj-mqsa-equipment-qc"], "familyId": "fam-mqsa-dose", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-036",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-mqsa-dose",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
       "stem": "What is the MQSA limit on average glandular dose for a single CC view of an FDA-accepted phantom simulating a standard breast?",
       "choices": [
-        { "id": "a", "text": "1.0 mGy", "rationale": "Not the regulatory limit." },
-        { "id": "b", "text": "3.0 mGy (0.3 rad) per exposure", "rationale": "Correct. § 900.12(e)(5)(vi); the same maximum applies to other modalities under (e)(6)." },
-        { "id": "c", "text": "3.0 mGy per four-view exam", "rationale": "The limit is per exposure, for a single CC view of the phantom." },
-        { "id": "d", "text": "30 mGy", "rationale": "Ten times too high." }
+        {
+          "id": "a",
+          "text": "1.0 mGy",
+          "rationale": "Not the regulatory limit."
+        },
+        {
+          "id": "b",
+          "text": "3.0 mGy (0.3 rad) per exposure",
+          "rationale": "Correct. \u00a7 900.12(e)(5)(vi); the same maximum applies to other modalities under (e)(6)."
+        },
+        {
+          "id": "c",
+          "text": "3.0 mGy per four-view exam",
+          "rationale": "The limit is per exposure, for a single CC view of the phantom."
+        },
+        {
+          "id": "d",
+          "text": "30 mGy",
+          "rationale": "Ten times too high."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "3.0 mGy (0.3 rad) per exposure for a single CC view of a phantom simulating a standard breast (4.2 cm, 50/50), with clinical technique. It is a phantom test limit, not an individual patient's measured dose.",
-      "variants": { "simpler": "The test phantom can't receive more than 3 mGy per picture.", "example": "If the physicist measures 3.4 mGy for the phantom CC view, the dose test fails and must be corrected before further exams." },
-      "evidenceIds": ["ev-mqsa-dose-limit", "ev-mqsa-other-modalities-qc"],
-      "review": { "requiresQualifiedReview": true }
+      "variants": {
+        "simpler": "The test phantom can't receive more than 3 mGy per picture.",
+        "example": "If the physicist measures 3.4 mGy for the phantom CC view, the dose test fails and must be corrected before further exams."
+      },
+      "evidenceIds": [
+        "ev-mqsa-dose-limit",
+        "ev-mqsa-other-modalities-qc"
+      ],
+      "review": {
+        "requiresQualifiedReview": true
+      }
     },
     {
-      "id": "q-mqsa-037", "revision": 1, "objectiveIds": ["obj-mqsa-equipment-qc"], "familyId": "fam-mqsa-corrective", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 80,
+      "id": "q-mqsa-037",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-mqsa-corrective",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 80,
       "stem": "On a digital unit, the morning phantom image fails the manufacturer's action limits. What does MQSA require?",
       "choices": [
-        { "id": "a", "text": "Continue scanning and correct the problem within 30 days.", "rationale": "Other-modality QC failures are in the group that must be corrected before further exams." },
-        { "id": "b", "text": "Identify the problem and correct it before performing further exams on that unit", "rationale": "Correct. § 900.12(e)(8)(ii)(A) includes (e)(6), the QC program for non-screen-film modalities." },
-        { "id": "c", "text": "Repeat the test once; if it passes, ignore the failure.", "rationale": "A failure requires identifying the source and taking corrective action, not ignoring it." },
-        { "id": "d", "text": "Wait for the physicist's annual survey.", "rationale": "Waiting would allow exams on a failing system." }
+        {
+          "id": "a",
+          "text": "Continue scanning and correct the problem within 30 days.",
+          "rationale": "Other-modality QC failures are in the group that must be corrected before further exams."
+        },
+        {
+          "id": "b",
+          "text": "Identify the problem and correct it before performing further exams on that unit",
+          "rationale": "Correct. \u00a7 900.12(e)(8)(ii)(A) includes (e)(6), the QC program for non-screen-film modalities."
+        },
+        {
+          "id": "c",
+          "text": "Repeat the test once; if it passes, ignore the failure.",
+          "rationale": "A failure requires identifying the source and taking corrective action, not ignoring it."
+        },
+        {
+          "id": "d",
+          "text": "Wait for the physicist's annual survey.",
+          "rationale": "Waiting would allow exams on a failing system."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Digital (other-modality) QC failures must be corrected before further exams. Only tests outside the listed group allow 30 days.",
-      "variants": { "simpler": "Failing phantom on digital: fix it before the next patient.", "example": "Patients scheduled on that unit may be moved to another unit that passed QC." },
-      "evidenceIds": ["ev-mqsa-corrective-action-timing", "ev-mqsa-other-modalities-qc", "ev-mqsa-action-limits-definition"],
-      "review": { "requiresQualifiedReview": true }
+      "variants": {
+        "simpler": "Failing phantom on digital: fix it before the next patient.",
+        "example": "Patients scheduled on that unit may be moved to another unit that passed QC."
+      },
+      "evidenceIds": [
+        "ev-mqsa-corrective-action-timing",
+        "ev-mqsa-other-modalities-qc",
+        "ev-mqsa-action-limits-definition"
+      ],
+      "review": {
+        "requiresQualifiedReview": true
+      }
     },
     {
-      "id": "q-mqsa-038", "revision": 1, "objectiveIds": ["obj-mqsa-equipment-qc", "obj-ip-paddles-grids"], "familyId": "fam-mqsa-paddle", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 60,
+      "id": "q-mqsa-038",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc",
+        "obj-ip-paddles-grids"
+      ],
+      "familyId": "fam-mqsa-paddle",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
       "stem": "Which statement about the compression device meets MQSA equipment requirements?",
       "choices": [
-        { "id": "a", "text": "Initial compression may be hand-cranked from one side only.", "rationale": "Initial compression is power-driven with hands-free controls operable from both sides." },
-        { "id": "b", "text": "A flat paddle may deflect from parallel by up to 2.0 cm.", "rationale": "The limit is 1.0 cm." },
-        { "id": "c", "text": "The chest-wall edge of the paddle must be straight, parallel to the receptor edge, and must not appear on the image.", "rationale": "Correct. § 900.12(b)(8)(ii)(D)–(E)." },
-        { "id": "d", "text": "Spot paddles must be the same size as the full-field receptor.", "rationale": "Special-purpose paddles, including spot paddles smaller than the receptor, are permitted." }
+        {
+          "id": "a",
+          "text": "Initial compression may be hand-cranked from one side only.",
+          "rationale": "Initial compression is power-driven with hands-free controls operable from both sides."
+        },
+        {
+          "id": "b",
+          "text": "A flat paddle may deflect from parallel by up to 2.0 cm.",
+          "rationale": "The limit is 1.0 cm."
+        },
+        {
+          "id": "c",
+          "text": "The chest-wall edge of the paddle must be straight, parallel to the receptor edge, and must not appear on the image.",
+          "rationale": "Correct. \u00a7 900.12(b)(8)(ii)(D)\u2013(E)."
+        },
+        {
+          "id": "d",
+          "text": "Spot paddles must be the same size as the full-field receptor.",
+          "rationale": "Special-purpose paddles, including spot paddles smaller than the receptor, are permitted."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Power-driven, hands-free initial compression and fine adjustment from both sides; flat paddles deflect no more than 1.0 cm; the chest-wall edge is straight and parallel and must not appear on the image.",
-      "variants": { "simpler": "Motorized from both sides, nearly flat, and the edge shouldn't show on the image.", "example": "A visible paddle-edge line along the chest wall of a clinical image would point to a paddle problem." },
-      "evidenceIds": ["ev-mqsa-compression-device"]
+      "variants": {
+        "simpler": "Motorized from both sides, nearly flat, and the edge shouldn't show on the image.",
+        "example": "A visible paddle-edge line along the chest wall of a clinical image would point to a paddle problem."
+      },
+      "evidenceIds": [
+        "ev-mqsa-compression-device"
+      ]
     },
-
     {
-      "id": "q-mqsa-039", "revision": 1, "objectiveIds": ["obj-mqsa-certification"], "familyId": "fam-forma-inspection", "pool": "form-a", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-039",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-forma-inspection",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "How often is a certified mammography facility inspected by a certified MQSA inspector?",
       "choices": [
-        { "id": "a", "text": "At least annually", "rationale": "Correct. FDA's MQSA program page cites 42 U.S.C. 263b(g)(1)(E)." },
-        { "id": "b", "text": "Every 3 years with clinical image review", "rationale": "Three years is the accreditation body's image review cycle." },
-        { "id": "c", "text": "Only after a serious complaint", "rationale": "Inspections are routine; complaints can lead to additional review." },
-        { "id": "d", "text": "Once, at initial certification", "rationale": "Inspections continue at least annually." }
+        {
+          "id": "a",
+          "text": "At least annually",
+          "rationale": "Correct. FDA's MQSA program page cites 42 U.S.C. 263b(g)(1)(E)."
+        },
+        {
+          "id": "b",
+          "text": "Every 3 years with clinical image review",
+          "rationale": "Three years is the accreditation body's image review cycle."
+        },
+        {
+          "id": "c",
+          "text": "Only after a serious complaint",
+          "rationale": "Inspections are routine; complaints can lead to additional review."
+        },
+        {
+          "id": "d",
+          "text": "Once, at initial certification",
+          "rationale": "Inspections continue at least annually."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "Facilities are inspected at least annually. Separately, accreditation bodies review clinical images at least every 3 years.",
-      "variants": { "simpler": "Inspection: yearly.", "example": "CE and experience windows are anchored to this annual inspection date." },
-      "evidenceIds": ["ev-mqsa-key-features-fda"]
+      "variants": {
+        "simpler": "Inspection: yearly.",
+        "example": "CE and experience windows are anchored to this annual inspection date."
+      },
+      "evidenceIds": [
+        "ev-mqsa-key-features-fda"
+      ]
     },
     {
-      "id": "q-mqsa-040", "revision": 1, "objectiveIds": ["obj-mqsa-rt-initial"], "familyId": "fam-mqsa-direct-supervision", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 45,
+      "id": "q-mqsa-040",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-initial"
+      ],
+      "familyId": "fam-mqsa-direct-supervision",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 45,
       "stem": "How many examinations under direct supervision are part of a technologist's initial MQSA mammography requirements?",
       "choices": [
-        { "id": "a", "text": "8", "rationale": "8 hours is the per-modality training minimum." },
-        { "id": "b", "text": "15", "rationale": "15 is the continuing education total over 36 months." },
-        { "id": "c", "text": "25", "rationale": "Correct. § 900.12(a)(2)(ii)(B)." },
-        { "id": "d", "text": "200", "rationale": "200 is the continuing experience requirement over 24 months." }
+        {
+          "id": "a",
+          "text": "8",
+          "rationale": "8 hours is the per-modality training minimum."
+        },
+        {
+          "id": "b",
+          "text": "15",
+          "rationale": "15 is the continuing education total over 36 months."
+        },
+        {
+          "id": "c",
+          "text": "25",
+          "rationale": "Correct. \u00a7 900.12(a)(2)(ii)(B)."
+        },
+        {
+          "id": "d",
+          "text": "200",
+          "rationale": "200 is the continuing experience requirement over 24 months."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Initial mammography requirements include at least 25 examinations under direct supervision.",
-      "variants": { "simpler": "25 supervised exams to start.", "example": "The same number, 25, is the requalification path for an experience shortfall." },
-      "evidenceIds": ["ev-mqsa-rt-initial-training"]
+      "variants": {
+        "simpler": "25 supervised exams to start.",
+        "example": "The same number, 25, is the requalification path for an experience shortfall."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-initial-training"
+      ]
     },
     {
-      "id": "q-mqsa-041", "revision": 1, "objectiveIds": ["obj-mqsa-rt-continuing"], "familyId": "fam-mqsa-ce-calc", "pool": "practice", "difficultyIntent": "apply", "kind": "case", "estSeconds": 75,
+      "id": "q-mqsa-041",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-mqsa-ce-calc",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
       "stem": "At inspection, a technologist has 11 mammography CEUs in the 36-month window. What is required before she resumes unsupervised mammography?",
       "choices": [
-        { "id": "a", "text": "Obtain enough CEUs to total at least 15 in the previous 3 years, with at least 6 per modality used", "rationale": "Correct. § 900.12(a)(2)(iii)(D)." },
-        { "id": "b", "text": "Perform 25 exams under direct supervision", "rationale": "That's the experience requalification path." },
-        { "id": "c", "text": "Nothing; CE shortfalls are noted but not enforced", "rationale": "She may not perform unsupervised exams until CE is complete." },
-        { "id": "d", "text": "Repeat the 40-hour initial course", "rationale": "Only enough CEUs to reach the requirement are needed." }
+        {
+          "id": "a",
+          "text": "Obtain enough CEUs to total at least 15 in the previous 3 years, with at least 6 per modality used",
+          "rationale": "Correct. \u00a7 900.12(a)(2)(iii)(D)."
+        },
+        {
+          "id": "b",
+          "text": "Perform 25 exams under direct supervision",
+          "rationale": "That's the experience requalification path."
+        },
+        {
+          "id": "c",
+          "text": "Nothing; CE shortfalls are noted but not enforced",
+          "rationale": "She may not perform unsupervised exams until CE is complete."
+        },
+        {
+          "id": "d",
+          "text": "Repeat the 40-hour initial course",
+          "rationale": "Only enough CEUs to reach the requirement are needed."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "A CE shortfall is fixed by bringing the total to at least 15 in the prior 3 years, with at least 6 per modality, before resuming unsupervised exams.",
-      "variants": { "simpler": "Short on CE: make it up before working alone.", "example": "With 11 CEUs she needs at least 4 more, and must still meet 6 per modality." },
-      "evidenceIds": ["ev-mqsa-rt-ce-requalification"]
+      "variants": {
+        "simpler": "Short on CE: make it up before working alone.",
+        "example": "With 11 CEUs she needs at least 4 more, and must still meet 6 per modality."
+      },
+      "evidenceIds": [
+        "ev-mqsa-rt-ce-requalification"
+      ]
     },
     {
-      "id": "q-mqsa-042", "revision": 1, "objectiveIds": ["obj-mqsa-report-assessment"], "familyId": "fam-forma-known-malig", "pool": "form-a", "difficultyIntent": "understand", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-042",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-report-assessment"
+      ],
+      "familyId": "fam-forma-known-malig",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
       "stem": "Which MQSA assessment category is reserved for a known cancer being imaged before definitive therapy?",
       "choices": [
-        { "id": "a", "text": "Highly Suggestive of Malignancy", "rationale": "Used for findings with a high probability of malignancy, not already proven cancer." },
-        { "id": "b", "text": "Suspicious", "rationale": "Used for findings with a definite probability of malignancy." },
-        { "id": "c", "text": "Incomplete: Need additional imaging evaluation", "rationale": "Used when more imaging is needed before a final assessment." },
-        { "id": "d", "text": "Known Biopsy-Proven Malignancy", "rationale": "Correct. § 900.12(c)(1)(iv)(F)." }
+        {
+          "id": "a",
+          "text": "Highly Suggestive of Malignancy",
+          "rationale": "Used for findings with a high probability of malignancy, not already proven cancer."
+        },
+        {
+          "id": "b",
+          "text": "Suspicious",
+          "rationale": "Used for findings with a definite probability of malignancy."
+        },
+        {
+          "id": "c",
+          "text": "Incomplete: Need additional imaging evaluation",
+          "rationale": "Used when more imaging is needed before a final assessment."
+        },
+        {
+          "id": "d",
+          "text": "Known Biopsy-Proven Malignancy",
+          "rationale": "Correct. \u00a7 900.12(c)(1)(iv)(F)."
+        }
       ],
       "correctChoiceId": "d",
       "explanation": "'Known Biopsy-Proven Malignancy' is reserved for known malignancies being evaluated for definitive therapy.",
-      "variants": { "simpler": "Already-diagnosed cancer has its own category.", "example": "A pre-surgical exam to map extent of a biopsy-proven cancer uses this category." },
-      "evidenceIds": ["ev-mqsa-assessment-categories"]
+      "variants": {
+        "simpler": "Already-diagnosed cancer has its own category.",
+        "example": "A pre-surgical exam to map extent of a biopsy-proven cancer uses this category."
+      },
+      "evidenceIds": [
+        "ev-mqsa-assessment-categories"
+      ]
     },
     {
-      "id": "q-mqsa-043", "revision": 1, "objectiveIds": ["obj-mqsa-density-reporting"], "familyId": "fam-mqsa-density-map", "pool": "practice", "difficultyIntent": "apply", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-043",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-density-reporting"
+      ],
+      "familyId": "fam-mqsa-density-map",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
       "stem": "A report states 'There are scattered areas of fibroglandular density.' The patient's lay summary must say:",
       "choices": [
-        { "id": "a", "text": "'Your breast tissue is not dense.'", "rationale": "Correct. Scattered fibroglandular density maps to the not-dense paragraph, § 900.12(c)(2)(iii)." },
-        { "id": "b", "text": "'Your breast tissue is dense.'", "rationale": "That statement is for heterogeneously or extremely dense." },
-        { "id": "c", "text": "'Your breast tissue has low density.'", "rationale": "Earlier wording; replaced by dense/not dense." },
-        { "id": "d", "text": "Nothing about density", "rationale": "Every lay summary includes a density statement." }
+        {
+          "id": "a",
+          "text": "'Your breast tissue is not dense.'",
+          "rationale": "Correct. Scattered fibroglandular density maps to the not-dense paragraph, \u00a7 900.12(c)(2)(iii)."
+        },
+        {
+          "id": "b",
+          "text": "'Your breast tissue is dense.'",
+          "rationale": "That statement is for heterogeneously or extremely dense."
+        },
+        {
+          "id": "c",
+          "text": "'Your breast tissue has low density.'",
+          "rationale": "Earlier wording; replaced by dense/not dense."
+        },
+        {
+          "id": "d",
+          "text": "Nothing about density",
+          "rationale": "Every lay summary includes a density statement."
+        }
       ],
       "correctChoiceId": "a",
       "explanation": "Almost entirely fatty and scattered fibroglandular density both map to 'Your breast tissue is not dense.'",
-      "variants": { "simpler": "Scattered = not dense.", "example": "The same paragraph still tells the patient to talk with her provider about density and risk." },
-      "evidenceIds": ["ev-mqsa-density-statements"]
+      "variants": {
+        "simpler": "Scattered = not dense.",
+        "example": "The same paragraph still tells the patient to talk with her provider about density and risk."
+      },
+      "evidenceIds": [
+        "ev-mqsa-density-statements"
+      ]
     },
     {
-      "id": "q-mqsa-044", "revision": 1, "objectiveIds": ["obj-mqsa-image-labeling"], "familyId": "fam-pos-label-required-bits", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 50,
+      "id": "q-mqsa-044",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-labeling"
+      ],
+      "familyId": "fam-pos-label-required-bits",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 50,
       "stem": "Which item is required on every mammographic image under MQSA?",
       "choices": [
-        { "id": "a", "text": "The interpreting physician's name", "rationale": "The interpreting physician is named in the report, not on the image." },
-        { "id": "b", "text": "Technologist identification", "rationale": "Correct. § 900.12(c)(5)(v)." },
-        { "id": "c", "text": "The patient's date of birth", "rationale": "An additional patient identifier is required, but the regulation doesn't specify date of birth." },
-        { "id": "d", "text": "The kVp and mAs used", "rationale": "Technique display is an equipment requirement, not an image label item." }
+        {
+          "id": "a",
+          "text": "The interpreting physician's name",
+          "rationale": "The interpreting physician is named in the report, not on the image."
+        },
+        {
+          "id": "b",
+          "text": "Technologist identification",
+          "rationale": "Correct. \u00a7 900.12(c)(5)(v)."
+        },
+        {
+          "id": "c",
+          "text": "The patient's date of birth",
+          "rationale": "An additional patient identifier is required, but the regulation doesn't specify date of birth."
+        },
+        {
+          "id": "d",
+          "text": "The kVp and mAs used",
+          "rationale": "Technique display is an equipment requirement, not an image label item."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "Image labels include technologist identification along with patient name and additional identifier, date, view and laterality, facility name and location, cassette/screen ID, and unit ID when there's more than one unit.",
-      "variants": { "simpler": "The image shows who took it; the report shows who read it.", "example": "Technologist initials or ID code on each image let QA reviews give individual feedback." },
-      "evidenceIds": ["ev-mqsa-image-identification"]
+      "variants": {
+        "simpler": "The image shows who took it; the report shows who read it.",
+        "example": "Technologist initials or ID code on each image let QA reviews give individual feedback."
+      },
+      "evidenceIds": [
+        "ev-mqsa-image-identification"
+      ]
     },
     {
-      "id": "q-mqsa-045", "revision": 1, "objectiveIds": ["obj-mqsa-records-transfer"], "familyId": "fam-qcr-transfer", "pool": "practice", "difficultyIntent": "recall", "kind": "single", "estSeconds": 40,
+      "id": "q-mqsa-045",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-qcr-transfer",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 40,
       "stem": "Within how many calendar days must a facility transfer original mammograms after the patient requests it?",
       "choices": [
-        { "id": "a", "text": "7", "rationale": "7 days applies to Suspicious or Highly Suggestive results." },
-        { "id": "b", "text": "10", "rationale": "Not an MQSA timeline." },
-        { "id": "c", "text": "15", "rationale": "Correct. § 900.12(c)(4)(ii)." },
-        { "id": "d", "text": "30", "rationale": "30 days applies to reports and lay summaries." }
+        {
+          "id": "a",
+          "text": "7",
+          "rationale": "7 days applies to Suspicious or Highly Suggestive results."
+        },
+        {
+          "id": "b",
+          "text": "10",
+          "rationale": "Not an MQSA timeline."
+        },
+        {
+          "id": "c",
+          "text": "15",
+          "rationale": "Correct. \u00a7 900.12(c)(4)(ii)."
+        },
+        {
+          "id": "d",
+          "text": "30",
+          "rationale": "30 days applies to reports and lay summaries."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Transfers and copies are completed within 15 calendar days of receiving the request.",
-      "variants": { "simpler": "Records request: 15 days.", "example": "A request received June 1 must be fulfilled by June 16." },
-      "evidenceIds": ["ev-mqsa-record-transfer"]
+      "variants": {
+        "simpler": "Records request: 15 days.",
+        "example": "A request received June 1 must be fulfilled by June 16."
+      },
+      "evidenceIds": [
+        "ev-mqsa-record-transfer"
+      ]
     },
     {
-      "id": "q-mqsa-046", "revision": 1, "objectiveIds": ["obj-mqsa-outcomes-audit"], "familyId": "fam-forma-ppv-calc", "pool": "form-a", "difficultyIntent": "apply", "kind": "calculation", "estSeconds": 90,
+      "id": "q-mqsa-046",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-outcomes-audit"
+      ],
+      "familyId": "fam-forma-ppv-calc",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "calculation",
+      "estSeconds": 90,
       "stem": "A facility issued 40 positive mammograms in its audit period. Within 1 year, 10 of those patients were diagnosed with breast cancer. What is the PPV?",
       "choices": [
-        { "id": "a", "text": "4%", "rationale": "This inverts the ratio (40 ÷ 10 = 4) and reads it as a percentage." },
-        { "id": "b", "text": "10%", "rationale": "This uses the cancer count as the percentage." },
-        { "id": "c", "text": "25%", "rationale": "Correct. 10 ÷ 40 = 0.25 = 25%." },
-        { "id": "d", "text": "40%", "rationale": "This uses the positive-mammogram count as the percentage." }
+        {
+          "id": "a",
+          "text": "4%",
+          "rationale": "This inverts the ratio (40 \u00f7 10 = 4) and reads it as a percentage."
+        },
+        {
+          "id": "b",
+          "text": "10%",
+          "rationale": "This uses the cancer count as the percentage."
+        },
+        {
+          "id": "c",
+          "text": "25%",
+          "rationale": "Correct. 10 \u00f7 40 = 0.25 = 25%."
+        },
+        {
+          "id": "d",
+          "text": "40%",
+          "rationale": "This uses the positive-mammogram count as the percentage."
+        }
       ],
       "correctChoiceId": "c",
-      "explanation": "PPV = patients with positive mammograms diagnosed with cancer within 1 year ÷ patients with positive mammograms × 100%.",
-      "variants": { "simpler": "Of the 40 called positive, 10 were cancer: one in four.", "example": "If 12 of 40 were cancer, PPV would be 30%." },
-      "evidenceIds": ["ev-mqsa-positive-mammogram", "ev-mqsa-outcomes-audit"]
+      "explanation": "PPV = patients with positive mammograms diagnosed with cancer within 1 year \u00f7 patients with positive mammograms \u00d7 100%.",
+      "variants": {
+        "simpler": "Of the 40 called positive, 10 were cancer: one in four.",
+        "example": "If 12 of 40 were cancer, PPV would be 30%."
+      },
+      "evidenceIds": [
+        "ev-mqsa-positive-mammogram",
+        "ev-mqsa-outcomes-audit"
+      ]
     },
     {
-      "id": "q-mqsa-047", "revision": 1, "objectiveIds": ["obj-mqsa-required-policies"], "familyId": "fam-qcr-consumer", "pool": "practice", "difficultyIntent": "understand", "kind": "case", "estSeconds": 70,
+      "id": "q-mqsa-047",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-qcr-consumer",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 70,
       "stem": "A referring physician calls to complain that a patient's mammography report never arrived. Under MQSA, who counts as a 'consumer' who may complain?",
       "choices": [
-        { "id": "a", "text": "Only the patient", "rationale": "Consumers include representatives of the patient." },
-        { "id": "b", "text": "The patient or a representative such as a family member or the referring provider", "rationale": "Correct. § 900.2(k)." },
-        { "id": "c", "text": "Only facility staff", "rationale": "Staff concerns are handled internally; consumers are patients and their representatives." },
-        { "id": "d", "text": "Only the accreditation body", "rationale": "The accreditation body receives unresolved serious complaints; it isn't the consumer." }
+        {
+          "id": "a",
+          "text": "Only the patient",
+          "rationale": "Consumers include representatives of the patient."
+        },
+        {
+          "id": "b",
+          "text": "The patient or a representative such as a family member or the referring provider",
+          "rationale": "Correct. \u00a7 900.2(k)."
+        },
+        {
+          "id": "c",
+          "text": "Only facility staff",
+          "rationale": "Staff concerns are handled internally; consumers are patients and their representatives."
+        },
+        {
+          "id": "d",
+          "text": "Only the accreditation body",
+          "rationale": "The accreditation body receives unresolved serious complaints; it isn't the consumer."
+        }
       ],
       "correctChoiceId": "b",
       "explanation": "A consumer is anyone who comments or complains about an exam: the patient or a representative such as a family member or referring provider. A missing report is also a possible adverse event.",
-      "variants": { "simpler": "Patients, families, and their doctors can all complain.", "example": "The facility's written complaint system should capture complaints from all three." },
-      "evidenceIds": ["ev-mqsa-consumer-complaints", "ev-mqsa-adverse-event"]
+      "variants": {
+        "simpler": "Patients, families, and their doctors can all complain.",
+        "example": "The facility's written complaint system should capture complaints from all three."
+      },
+      "evidenceIds": [
+        "ev-mqsa-consumer-complaints",
+        "ev-mqsa-adverse-event"
+      ]
     },
     {
-      "id": "q-mqsa-048", "revision": 1, "objectiveIds": ["obj-mqsa-equipment-qc", "obj-ip-unit-components"], "familyId": "fam-ip-prohibited", "pool": "practice", "difficultyIntent": "understand", "kind": "single", "estSeconds": 55,
+      "id": "q-mqsa-048",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc",
+        "obj-ip-unit-components"
+      ],
+      "familyId": "fam-ip-prohibited",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
       "stem": "A clinic proposes adding a mammography attachment to its general-purpose radiographic unit. Under MQSA, this unit:",
       "choices": [
-        { "id": "a", "text": "May be used if the physicist approves the attachment", "rationale": "The prohibition applies regardless of physicist evaluation." },
-        { "id": "b", "text": "May be used for screening only", "rationale": "The prohibition isn't limited by exam type." },
-        { "id": "c", "text": "May not be used for mammography", "rationale": "Correct. § 900.12(b)(1) prohibits general-purpose equipment, including modified systems with special attachments." },
-        { "id": "d", "text": "May be used if dose stays below 3.0 mGy", "rationale": "Meeting the dose limit doesn't override the equipment prohibition." }
+        {
+          "id": "a",
+          "text": "May be used if the physicist approves the attachment",
+          "rationale": "The prohibition applies regardless of physicist evaluation."
+        },
+        {
+          "id": "b",
+          "text": "May be used for screening only",
+          "rationale": "The prohibition isn't limited by exam type."
+        },
+        {
+          "id": "c",
+          "text": "May not be used for mammography",
+          "rationale": "Correct. \u00a7 900.12(b)(1) prohibits general-purpose equipment, including modified systems with special attachments."
+        },
+        {
+          "id": "d",
+          "text": "May be used if dose stays below 3.0 mGy",
+          "rationale": "Meeting the dose limit doesn't override the equipment prohibition."
+        }
       ],
       "correctChoiceId": "c",
       "explanation": "Radiographic equipment designed for general purpose or special non-mammography procedures, including systems modified with mammography attachments, may not be used for mammography.",
-      "variants": { "simpler": "Only machines built for mammography can do mammography.", "example": "A mammography unit, at minimum, includes its own generator, control, tube housing, beam-limiting device, and supporting structures." },
-      "evidenceIds": ["ev-mqsa-prohibited-equipment", "ev-mqsa-mammography-unit-definition"],
-      "review": { "requiresQualifiedReview": true }
+      "variants": {
+        "simpler": "Only machines built for mammography can do mammography.",
+        "example": "A mammography unit, at minimum, includes its own generator, control, tube housing, beam-limiting device, and supporting structures."
+      },
+      "evidenceIds": [
+        "ev-mqsa-prohibited-equipment",
+        "ev-mqsa-mammography-unit-definition"
+      ],
+      "review": {
+        "requiresQualifiedReview": true
+      }
+    },
+    {
+      "id": "q-mqsa-049",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-results-communication"
+      ],
+      "familyId": "fam-mqsa-fa-suspicious-lay-7",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "For a final assessment of Suspicious or Highly Suggestive of Malignancy, what is the MQSA lay-summary timing relative to interpretation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within 30 calendar days of the exam only; interpretation date is irrelevant",
+          "rationale": "Suspicious/highly suggestive results tighten the clock to 7 days from final interpretation."
+        },
+        {
+          "id": "b",
+          "text": "Within 7 calendar days of the final interpretation",
+          "rationale": "Correct. Lay summaries for Suspicious or Highly Suggestive must go within 7 calendar days of final interpretation."
+        },
+        {
+          "id": "c",
+          "text": "Within 24 hours of scheduling the biopsy",
+          "rationale": "Timing is tied to interpretation, not biopsy scheduling."
+        },
+        {
+          "id": "d",
+          "text": "Only if the patient requests the letter in writing",
+          "rationale": "The facility must send the lay summary; it is not optional on request."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "MQSA requires the patient lay summary within 30 days of the exam generally, and within 7 calendar days of final interpretation when the assessment is Suspicious or Highly Suggestive of Malignancy.",
+      "variants": {
+        "simpler": "Suspicious results: lay summary within 7 days of interpretation.",
+        "example": "A Friday 'Highly Suggestive' read starts a 7-day lay-summary clock."
+      },
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-mqsa-050",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-results-communication"
+      ],
+      "familyId": "fam-mqsa-fb-provider-7day",
+      "pool": "form-b",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A final interpretation of Highly Suggestive of Malignancy is signed today. Besides the patient lay summary, what is the MQSA outer bound for the written report to the referring provider?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within 7 calendar days of the final interpretation",
+          "rationale": "Correct. Suspicious/Highly Suggestive assessments tighten provider-report timing to 7 calendar days from final interpretation."
+        },
+        {
+          "id": "b",
+          "text": "Within 90 days if the clinic is busy",
+          "rationale": "Busy schedules do not extend the 7-day suspicious/highly suggestive clock."
+        },
+        {
+          "id": "c",
+          "text": "Only at the next annual physical",
+          "rationale": "Annual timing is far outside the required window."
+        },
+        {
+          "id": "d",
+          "text": "Never \u2014 Highly Suggestive results are phone-only",
+          "rationale": "A written report is still required."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "For Suspicious or Highly Suggestive assessments, MQSA requires both the lay summary and the provider report within 7 calendar days of the final interpretation (tighter than the general 30-day bound).",
+      "variants": {
+        "simpler": "Highly Suggestive: provider report within 7 days of interpretation.",
+        "example": "A Monday Highly Suggestive read starts a 7-day provider-report clock."
+      },
+      "evidenceIds": [
+        "ev-mqsa-provider-report",
+        "ev-mqsa-lay-summary-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form B draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }
