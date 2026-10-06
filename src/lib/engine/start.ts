@@ -2,7 +2,15 @@ import { contentVersions, type LoadedContent } from "@/lib/content/load";
 import { allExposures, allObjectives, allSchedules, allSessions, putSession } from "@/lib/db";
 import { createSession } from "@/lib/engine/create";
 import { planLessonSession, planQuiz, planStudySession, practiceQuestions } from "@/lib/engine/planner";
-import { dailyPracticePool, formPool, offerAssessment, type AssessmentOffer, type AssessmentRequest } from "@/lib/engine/assessment";
+import {
+  dailyPracticePool,
+  formPool,
+  isFormPool,
+  offerAssessment,
+  type AssessmentOffer,
+  type AssessmentRequest,
+  type FormPool,
+} from "@/lib/engine/assessment";
 import { assembleForm, proportionalMinutes } from "@/lib/engine/forms";
 import { newId } from "@/lib/engine/ids";
 import type { MinutesPref, Profile, SessionItem, StudySession } from "@/lib/schemas/learner";
@@ -92,11 +100,12 @@ export async function startAssessment(
   const reservedKind = offer.pool !== "practice";
   const mode = reservedKind ? "test" : opts.mode;
   const salt = offer.kind === "topic_quiz" ? `topic:${offer.topicId}` : offer.kind === "mixed_quiz" ? "mixed" : `${offer.pool}:${offer.kind}`;
+  const reservedPool: FormPool | null = isFormPool(offer.pool) ? offer.pool : null;
   const plan =
     offer.kind === "topic_quiz"
       ? offer.plan
       : assembleForm({
-          questions: offer.pool === "practice" ? dailyPracticePool(content.modules) : formPool(content.modules),
+          questions: reservedPool ? formPool(content.modules, reservedPool) : dailyPracticePool(content.modules),
           curriculum: content.curriculum,
           scored: offer.scored,
           pilots: offer.pilots,

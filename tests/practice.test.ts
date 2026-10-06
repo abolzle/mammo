@@ -6,6 +6,7 @@ import { dailyPracticePool, formPool, offerAssessment } from "../src/lib/engine/
 import { createSession } from "../src/lib/engine/create";
 import { planStudySession, reservedFamilies } from "../src/lib/engine/planner";
 import { remainingMs } from "../src/lib/engine/session";
+import { formIdFor, priorAttempts } from "../src/lib/engine/start";
 import {
   assessmentReport,
   canAdvance,
@@ -19,7 +20,7 @@ import {
   toggleFlag,
 } from "../src/lib/engine/test-mode";
 import { defaultProfile } from "../src/lib/db";
-import { session as sessionSchema, type SessionItem } from "../src/lib/schemas/learner";
+import { session as sessionSchema, type SessionItem, type StudySession } from "../src/lib/schemas/learner";
 import type { Curriculum, ModuleContent, Question } from "../src/lib/schemas/content";
 
 const loaded = loadRepoContent();
@@ -148,6 +149,26 @@ describe("family separation", () => {
     const mixed = offerAssessment({ kind: "mixed_quiz", size: 40 }, { curriculum, modules: loaded.modules });
     if (mixed.ok) expect(mixed.plan.items.some((i) => reserved.has(i.question.familyId))).toBe(false);
   });
+
+  it("excludes both Form A and Form B families from daily study, and keeps A/B form pools disjoint", () => {
+    const aFams = new Set(formPool(loaded.modules, "form-a").map((q) => q.familyId));
+    const bFams = new Set(formPool(loaded.modules, "form-b").map((q) => q.familyId));
+    expect(aFams.size).toBeGreaterThan(0);
+    expect(bFams.size).toBeGreaterThan(0);
+    for (const fam of aFams) expect(bFams.has(fam)).toBe(false);
+
+    const daily = dailyPracticePool(loaded.modules);
+    expect(daily.some((q) => aFams.has(q.familyId) || bFams.has(q.familyId))).toBe(false);
+
+    const aBaseline = offerAssessment({ kind: "baseline", form: "form-a" }, { curriculum, modules: loaded.modules });
+    const bBaseline = offerAssessment({ kind: "baseline", form: "form-b" }, { curriculum, modules: loaded.modules });
+    if (aBaseline.ok && bBaseline.ok) {
+      const aIds = new Set(aBaseline.plan.items.map((i) => i.question.id));
+      expect(bBaseline.plan.items.some((i) => aIds.has(i.question.id))).toBe(false);
+      expect(aBaseline.plan.items.every((i) => i.question.pool === "form-a")).toBe(true);
+      expect(bBaseline.plan.items.every((i) => i.question.pool === "form-b")).toBe(true);
+    }
+  });
 });
 
 describe("refusal and fallback", () => {
@@ -161,9 +182,14 @@ describe("refusal and fallback", () => {
     expect(offer.reason).toMatch(/Anatomy, Physiology, and Pathology 4 of 7 \(short 3\)/);
     expect(offer.reason).toMatch(/Mammographic Positioning and Procedures 3 of 10 \(short 7\)/);
     expect(offer.reason).not.toMatch(/18/);
-    const largest = largestFeasible({ questions: formPool(small), curriculum, max: 29 });
-    expect(offer.fallback).toEqual({ kind: "form_quiz", size: largest, label: `${largest}-question reserved Form A quiz` });
-    const fb = offerAssessment({ kind: "form_quiz", size: largest }, { curriculum, modules: small });
+    const largest = largestFeasible({ questions: formPool(small, "form-a"), curriculum, max: 29 });
+    expect(offer.fallback).toEqual({
+      kind: "form_quiz",
+      size: largest,
+      label: `${largest}-question reserved Form A quiz`,
+      form: "form-a",
+    });
+    const fb = offerAssessment({ kind: "form_quiz", size: largest, form: "form-a" }, { curriculum, modules: small });
     expect(fb.ok).toBe(true);
   });
 
@@ -186,6 +212,93 @@ describe("refusal and fallback", () => {
     const offer = offerAssessment("baseline", { curriculum, modules: tiny });
     expect(offer.ok).toBe(false);
     if (!offer.ok) expect(offer.fallback?.kind).toBe("mixed_quiz");
+  });
+
+  it("refuses Form B independently when that bank is short, even if Form A is full", () => {
+    const aQs = bank(full, () => ({ pool: "form-a" as const }));
+    const bQs = bank(
+      { "sub-patient-interactions": 2, "sub-acquisition-qa": 2, "sub-anatomy-pathology": 2, "sub-positioning-procedures": 2 },
+      () => ({ pool: "form-b" as const }),
+    );
+    const modules = asModules([...aQs, ...bQs]);
+    const aOk = offerAssessment({ kind: "baseline", form: "form-a" }, { curriculum, modules });
+    const bNo = offerAssessment({ kind: "baseline", form: "form-b" }, { curriculum, modules });
+    expect(aOk.ok).toBe(true);
+    expect(bNo.ok).toBe(false);
+    if (!bNo.ok) {
+      expect(bNo.reason).toMatch(/Form B/);
+      expect(bNo.pool).toBe("form-b");
+      expect(bNo.shortfall.length).toBeGreaterThan(0);
+    }
+  });
+});
+
+describe("form selection", () => {
+  it("routes baseline, checkpoint, and simulation to the chosen reserved pool", () => {
+    const aQs = bank(full, () => ({ pool: "form-a" as const }));
+    const bQs = bank(full, (sub, i) => ({
+      pool: "form-b" as const,
+      id: `q-b-${sub.replace("sub-", "")}-${i}`,
+      familyId: `fam-b-${sub.replace("sub-", "")}-${i}`,
+    }));
+    const modules = asModules([...aQs, ...bQs]);
+    for (const kind of ["baseline", "checkpoint", "simulation"] as const) {
+      const a = offerAssessment({ kind, form: "form-a" }, { curriculum, modules });
+      const b = offerAssessment({ kind, form: "form-b" }, { curriculum, modules });
+      expect(a.ok).toBe(true);
+      expect(b.ok).toBe(true);
+      if (!a.ok || !b.ok) continue;
+      expect(a.pool).toBe("form-a");
+      expect(b.pool).toBe("form-b");
+      expect(a.label).toMatch(/Form A/);
+      expect(b.label).toMatch(/Form B/);
+      expect(a.plan.items.every((i) => i.question.pool === "form-a")).toBe(true);
+      expect(b.plan.items.every((i) => i.question.pool === "form-b")).toBe(true);
+      expect(formIdFor(a)).toBe(`form-a:${kind}`);
+      expect(formIdFor(b)).toBe(`form-b:${kind}`);
+    }
+  });
+
+  it("labels retakes only when the same formId was completed before", () => {
+    const offerA = offerAssessment({ kind: "baseline", form: "form-a" }, { curriculum, modules: asModules(bank(full)) });
+    expect(offerA.ok).toBe(true);
+    if (!offerA.ok) return;
+    const formIdA = formIdFor(offerA);
+    const formIdB = "form-b:baseline";
+    const completed = (formId: string, n: number): StudySession[] =>
+      Array.from({ length: n }, (_, i) =>
+        createSession({
+          kind: "assessment",
+          mode: "test",
+          minutes: 30,
+          items: [],
+          why: "t",
+          contentVersion: "1",
+          beta: true,
+          assessment: {
+            kind: "baseline",
+            label: "t",
+            pool: formId.startsWith("form-b") ? "form-b" : "form-a",
+            formId,
+            formVersion: "v",
+            attempt: i + 1,
+            retake: i > 0,
+            standard: true,
+            timing: "standard",
+            timeMultiplier: 1,
+            requireAnswer: false,
+            designatedPilots: 0,
+          },
+        }),
+      ).map((s) => ({ ...s, status: "completed" as const, completedAt: s.startedAt }));
+
+    expect(priorAttempts([], formIdA)).toBe(0);
+    expect(priorAttempts(completed(formIdA, 1), formIdA)).toBe(1);
+    expect(priorAttempts(completed(formIdA, 2), formIdA)).toBe(2);
+    // Completing Form B does not make a Form A attempt a retake.
+    expect(priorAttempts(completed(formIdB, 3), formIdA)).toBe(0);
+    expect(priorAttempts([...completed(formIdA, 1), ...completed(formIdB, 2)], formIdA)).toBe(1);
+    expect(priorAttempts([...completed(formIdA, 1), ...completed(formIdB, 2)], formIdB)).toBe(2);
   });
 });
 
@@ -300,12 +413,20 @@ describe("test mode", () => {
 });
 
 describe("current bank", () => {
-  it("reports which options are live", () => {
-    const status = (["baseline", "checkpoint", "simulation"] as const).map((k) => {
-      const o = offerAssessment(k, { curriculum, modules: loaded.modules });
-      return o.ok ? `${k}: live` : `${k}: refused (${o.shortfall.map((s) => `${s.id} ${s.have}/${s.need}`).join(", ")}) → ${o.fallback?.label ?? "none"}`;
-    });
-    console.log(`Form A usable: ${formPool(loaded.modules).length}\n${status.join("\n")}`);
-    expect(status).toHaveLength(3);
+  it("reports which Form A and Form B options are live", () => {
+    const lines: string[] = [];
+    for (const form of ["form-a", "form-b"] as const) {
+      const status = (["baseline", "checkpoint", "simulation"] as const).map((k) => {
+        const o = offerAssessment({ kind: k, form }, { curriculum, modules: loaded.modules });
+        return o.ok
+          ? `${k}: live`
+          : `${k}: refused (${o.shortfall.map((s) => `${s.id} ${s.have}/${s.need}`).join(", ")}) → ${o.fallback?.label ?? "none"}`;
+      });
+      lines.push(`${form} usable: ${formPool(loaded.modules, form).length}`, ...status);
+      for (const k of ["baseline", "checkpoint", "simulation"] as const) {
+        expect(offerAssessment({ kind: k, form }, { curriculum, modules: loaded.modules }).ok).toBe(true);
+      }
+    }
+    console.log(lines.join("\n"));
   });
 });

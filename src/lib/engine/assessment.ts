@@ -7,7 +7,21 @@ import { practiceQuestions, reservedFamilies } from "./planner";
 
 export type AssessmentKind = AssessmentKindValue;
 
-export const FORM_POOL = "form-a";
+/** Reserved exam forms learners can choose on Practice. */
+export const FORM_POOLS = ["form-a", "form-b"] as const;
+export type FormPool = (typeof FORM_POOLS)[number];
+export const DEFAULT_FORM_POOL: FormPool = "form-a";
+
+/** @deprecated Prefer an explicit FormPool; kept for callers that still mean Form A. */
+export const FORM_POOL = DEFAULT_FORM_POOL;
+
+export function formDisplayName(pool: FormPool): string {
+  return pool === "form-b" ? "Form B" : "Form A";
+}
+
+export function isFormPool(value: string): value is FormPool {
+  return (FORM_POOLS as readonly string[]).includes(value);
+}
 
 export const STANDARD_SIZES = {
   baseline: 30,
@@ -19,9 +33,11 @@ export type AssessmentRequest = {
   /** Requested length for quizzes; standard kinds ignore it. */
   size?: number;
   topicId?: string;
+  /** Reserved form bank for baseline / checkpoint / simulation / form_quiz. Defaults to Form A. */
+  form?: FormPool;
 };
 
-export type Fallback = { kind: AssessmentKind; size: number; label: string; topicId?: string };
+export type Fallback = { kind: AssessmentKind; size: number; label: string; topicId?: string; form?: FormPool };
 
 export type AssessmentOffer =
   | {
@@ -45,20 +61,22 @@ export type AssessmentOffer =
       shortfall: FormPlan["shortfall"];
       reason: string;
       fallback: Fallback | null;
+      pool?: string;
     };
 
 type Catalog = { curriculum: Curriculum; modules: ModuleContent[] };
 
-export function labelFor(kind: AssessmentKind, size: number, topicTitle?: string): string {
+export function labelFor(kind: AssessmentKind, size: number, topicTitle?: string, form: FormPool = DEFAULT_FORM_POOL): string {
+  const formName = formDisplayName(form);
   switch (kind) {
     case "baseline":
-      return `${size}-question baseline`;
+      return `${size}-question ${formName} baseline`;
     case "checkpoint":
-      return `${size}-question checkpoint`;
+      return `${size}-question ${formName} checkpoint`;
     case "simulation":
-      return `Full ${EXAM.totalQuestions}-question simulation`;
+      return `Full ${EXAM.totalQuestions}-question ${formName} simulation`;
     case "form_quiz":
-      return `${size}-question reserved Form A quiz`;
+      return `${size}-question reserved ${formName} quiz`;
     case "topic_quiz":
       return `${size}-question topic quiz${topicTitle ? `: ${topicTitle}` : ""}`;
     case "mixed_quiz":
@@ -71,8 +89,8 @@ export function dailyPracticePool(modules: ModuleContent[]): Question[] {
   return practiceQuestions(modules).filter((q) => !reserved.has(q.familyId));
 }
 
-export function formPool(modules: ModuleContent[]): Question[] {
-  return usableQuestions(modules, FORM_POOL);
+export function formPool(modules: ModuleContent[], pool: FormPool = DEFAULT_FORM_POOL): Question[] {
+  return usableQuestions(modules, pool);
 }
 
 function topicBlueprint(curriculum: Curriculum, topicId: string): { blueprint: Blueprint; objectiveIds: Set<string> } | null {
@@ -98,18 +116,18 @@ function needText(plan: FormPlan): string {
   return BLUEPRINT.map((b) => `${plan.scoredTarget[b.id]} ${b.name}`).join(", ");
 }
 
-/** The largest valid shorter reserved option: a smaller standard form if it fits, else the largest balanced Form A quiz. */
-function reservedFallback(catalog: Catalog, below: number): Fallback | null {
-  const pool = formPool(catalog.modules);
+/** The largest valid shorter reserved option: a smaller standard form if it fits, else the largest balanced form quiz. */
+function reservedFallback(catalog: Catalog, below: number, form: FormPool): Fallback | null {
+  const pool = formPool(catalog.modules, form);
   for (const kind of ["checkpoint", "baseline"] as const) {
     const n = STANDARD_SIZES[kind];
     if (n >= below) continue;
     if (assembleForm({ questions: pool, curriculum: catalog.curriculum, scored: n, salt: "probe" }).ok) {
-      return { kind, size: n, label: labelFor(kind, n) };
+      return { kind, size: n, label: labelFor(kind, n, undefined, form), form };
     }
   }
   const n = largestFeasible({ questions: pool, curriculum: catalog.curriculum, max: Math.min(below - 1, pool.length) });
-  if (n >= MIN_FORM_QUIZ) return { kind: "form_quiz", size: n, label: labelFor("form_quiz", n) };
+  if (n >= MIN_FORM_QUIZ) return { kind: "form_quiz", size: n, label: labelFor("form_quiz", n, undefined, form), form };
   const practice = dailyPracticePool(catalog.modules);
   const m = largestFeasible({ questions: practice, curriculum: catalog.curriculum, max: Math.min(20, practice.length) });
   return m > 0 ? { kind: "mixed_quiz", size: m, label: labelFor("mixed_quiz", m) } : null;
@@ -119,6 +137,7 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
   const r: AssessmentRequest = typeof req === "string" ? { kind: req } : req;
   const { kind } = r;
   const { curriculum, modules } = catalog;
+  const form: FormPool = r.form && isFormPool(r.form) ? r.form : DEFAULT_FORM_POOL;
 
   if (kind === "topic_quiz") {
     const tb = r.topicId ? topicBlueprint(curriculum, r.topicId) : null;
@@ -186,12 +205,13 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
     };
   }
 
-  const pool = formPool(modules);
+  const pool = formPool(modules, form);
+  const formName = formDisplayName(form);
   const scored = kind === "simulation" ? EXAM.scoredQuestions : kind === "form_quiz" ? (r.size ?? MIN_FORM_QUIZ) : STANDARD_SIZES[kind];
   const pilots = kind === "simulation" ? EXAM.pilotQuestions : 0;
   const total = scored + pilots;
-  const label = labelFor(kind, total);
-  const plan = assembleForm({ questions: pool, curriculum, scored, pilots, salt: `${FORM_POOL}:${kind}` });
+  const label = labelFor(kind, total, undefined, form);
+  const plan = assembleForm({ questions: pool, curriculum, scored, pilots, salt: `${form}:${kind}` });
 
   if (!plan.ok) {
     const parts: string[] = [];
@@ -199,7 +219,7 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
     if (plan.pilotPicked < pilots) {
       parts.push(`After the scored slots, ${plan.pilotPicked} of ${pilots} distinct families remain for simulated pilots.`);
     }
-    const fallback = reservedFallback(catalog, total);
+    const fallback = reservedFallback(catalog, total, form);
     return {
       ok: false,
       kind,
@@ -207,10 +227,11 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
       available: pool.length,
       required: total,
       shortfall: plan.shortfall,
+      pool: form,
       reason:
         `${label} needs ${scored} scored questions allocated ${needText(plan)}` +
         (pilots ? `, plus ${pilots} simulated pilots` : "") +
-        `, each from a distinct reserved family. ${parts.join(" ")} Repeating items or padding from daily practice would manufacture a score, so this is not offered yet.`,
+        `, each from a distinct reserved ${formName} family. ${parts.join(" ")} Repeating items or padding from daily practice would manufacture a score, so this is not offered yet.`,
       fallback,
     };
   }
@@ -228,11 +249,11 @@ export function offerAssessment(req: AssessmentRequest | AssessmentKind, catalog
     size: total,
     scored,
     pilots,
-    pool: FORM_POOL,
+    pool: form,
     why:
       kind === "simulation"
-        ? `${EXAM.totalQuestions} reserved Form A questions in ${EXAM.testMinutes} minutes: ${EXAM.scoredQuestions} scored (${needText(plan)}) and ${pilots} simulated pilots, which are revealed after you submit.${pilotNote}`
-        : `${total} reserved Form A questions allocated ${needText(plan)}. These families never appear in daily study.`,
+        ? `${EXAM.totalQuestions} reserved ${formName} questions in ${EXAM.testMinutes} minutes: ${EXAM.scoredQuestions} scored (${needText(plan)}) and ${pilots} simulated pilots, which are revealed after you submit.${pilotNote}`
+        : `${total} reserved ${formName} questions allocated ${needText(plan)}. These families never appear in daily study.`,
     plan,
   };
 }
