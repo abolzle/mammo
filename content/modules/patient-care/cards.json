@@ -722,7 +722,7 @@
         "ev-mqsa-record-transfer"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -739,6 +739,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -786,7 +793,7 @@
         "ev-pc-nci-dense-common"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -803,6 +810,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -818,7 +832,7 @@
         "ev-pc-nci-dense-not-palpable"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -835,6 +849,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -850,7 +871,7 @@
         "ev-pc-nci-dense-risk"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -867,6 +888,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1223,7 +1251,7 @@
         "ev-pc-pdq-incidence-2025"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1240,6 +1268,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1255,7 +1290,7 @@
         "ev-pc-pdq-incidence-2025"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1272,6 +1307,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1287,7 +1329,7 @@
         "ev-pc-pdq-brca-share"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1304,6 +1346,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1319,7 +1368,7 @@
         "ev-pc-pdq-incidence-drivers"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1336,6 +1385,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1352,7 +1408,7 @@
         "ev-pc-prev-age-risk"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1369,6 +1425,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1385,7 +1448,7 @@
         "ev-pc-pdq-biggest-risks"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1402,6 +1465,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1418,7 +1488,7 @@
         "ev-pc-uspstf-gender-population"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1435,6 +1505,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1451,7 +1528,7 @@
         "ev-pc-nci-dense-risk"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1468,6 +1545,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1483,7 +1567,7 @@
         "ev-pc-prev-repro-mht"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1500,6 +1584,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1516,7 +1607,7 @@
         "ev-pc-pdq-biggest-risks"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1533,6 +1624,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1548,7 +1646,7 @@
         "ev-pc-pdq-density-imaging"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1565,6 +1663,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1580,7 +1685,7 @@
         "ev-pc-pdq-disparity"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1597,6 +1702,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1612,7 +1724,7 @@
         "ev-pc-nci-symptoms-list"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1629,6 +1741,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1644,7 +1763,7 @@
         "ev-pc-nci-pain-not-usual"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1661,6 +1780,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1676,7 +1802,7 @@
         "ev-pc-seer-symptoms-exam"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1693,6 +1819,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1708,7 +1841,7 @@
         "ev-pc-nci-symptoms-list"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1725,6 +1858,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1740,7 +1880,7 @@
         "ev-pc-openstax-breast-hx"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1757,6 +1897,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1772,7 +1919,7 @@
         "ev-pc-uspstf-gender-population"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1789,6 +1936,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1805,7 +1959,7 @@
         "ev-pc-nci-screen-vs-dx"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1822,6 +1976,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1837,7 +1998,7 @@
         "ev-pc-openstax-breast-hx"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": true,
         "aiAssisted": true,
         "history": [
@@ -1854,6 +2015,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed automated validation. Clinical thresholds, risk magnitudes, or guideline implications need qualified review before verified pools."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1869,7 +2037,7 @@
         "ev-mqsa-record-transfer"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1886,6 +2054,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1902,7 +2077,7 @@
         "ev-mqsa-record-transfer"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1919,6 +2094,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1934,7 +2116,7 @@
         "ev-pc-dict-lumpectomy"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1951,6 +2133,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1966,7 +2155,7 @@
         "ev-pc-dict-simple-mastectomy"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -1983,6 +2172,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1999,7 +2195,7 @@
         "ev-pc-nci-mastectomy-types"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2016,6 +2212,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2031,7 +2234,7 @@
         "ev-pc-dict-prophylactic-mastectomy"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2048,6 +2251,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2063,7 +2273,7 @@
         "ev-pc-dict-slnb"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2080,6 +2290,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2096,7 +2313,7 @@
         "ev-pc-dict-chemo-rt-ht"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2113,6 +2330,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2129,7 +2353,7 @@
         "ev-pc-seer-biomarkers"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2146,6 +2370,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2161,7 +2392,7 @@
         "ev-pc-pdq-receptor-classes"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2178,6 +2409,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2193,7 +2431,7 @@
         "ev-pc-nci-reconstruction-implant"
       ],
       "review": {
-        "status": "auto_checked",
+        "status": "source_checked",
         "requiresQualifiedReview": false,
         "aiAssisted": true,
         "history": [
@@ -2210,6 +2448,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "source_checked",
+            "actor": "Aaron Bolzle",
+            "kind": "maintainer_source_check",
+            "note": "Aaron Bolzle confirmed that the cited evidence supports the claims for the Patient Care risk/symptoms/treatment batch. Maintainer source check only — not clinical review."
           }
         ]
       }

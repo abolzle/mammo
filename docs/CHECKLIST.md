@@ -29,7 +29,8 @@ Keep this file current. A missing asset or unresolved source is a gap, not a com
 
 ## Content needing review (not done)
 
-- [ ] Maintainer source-check worksheet: [docs/source-check-worksheet.md](./source-check-worksheet.md) — 18 objectives with lesson/cards/practice/Form A already citing retrieved evidence, but curriculum `sourceState` still `needs_source`. Aaron marks Confirm / Reject / Needs more source; a follow-up commit flips status (do not flip in the worksheet PR). Regenerate: `npx tsx scripts/gen-source-check-worksheet.ts`
+- [x] Maintainer source-check worksheet: [docs/source-check-worksheet.md](./source-check-worksheet.md) — Aaron Bolzle confirmed all 18 on 2026-10-06 (PR #19); curriculum `sourceState` + dependent `review.status` flipped to source-backed / `source_checked` (not clinical review)
+- [x] Maintainer source-check for Patient Care risk/symptoms/treatment batch (PR #20) — Aaron Bolzle confirmed 2026-10-06 for `obj-pc-epidemiology`, `obj-pc-inherent-risk`, `obj-pc-social-risk`, `obj-pc-signs-symptoms`, `obj-pc-history-documentation`, `obj-pc-prior-images`, `obj-pc-surgical-options`, `obj-pc-nonsurgical-options` (maintainer source check only; `obj-pc-history-documentation` still lacks an assessment-form item)
 - [ ] Maintainer source-check of MQSA excerpts against eCFR
 - [ ] Qualified clinical review of dose, compression force, and equipment items
 - [ ] BI-RADS lexicon objective (`obj-ap-lexicon-masses-calcs`) — truly blocked until an accessible source is read

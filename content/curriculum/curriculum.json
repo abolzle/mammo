@@ -392,7 +392,7 @@
         "src-nci-pdq-breast-screening-hp",
         "src-nci-seer-breast"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-inherent-risk",
@@ -407,7 +407,7 @@
         "src-nci-dense-breasts",
         "src-uspstf-breast-2024"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-social-risk",
@@ -420,7 +420,7 @@
         "src-nci-pdq-breast-screening-hp",
         "src-nci-mammograms"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-signs-symptoms",
@@ -433,7 +433,7 @@
         "src-nci-seer-breast",
         "src-nci-mammograms"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-history-documentation",
@@ -447,7 +447,7 @@
         "src-uspstf-breast-2024",
         "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-prior-images",
@@ -475,7 +475,7 @@
         "src-nci-pdq-breast-treatment-hp",
         "src-nci-seer-breast"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pc-nonsurgical-options",
@@ -490,7 +490,7 @@
         "src-nci-breast-surgery",
         "src-nci-seer-breast"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-kvp-tube",

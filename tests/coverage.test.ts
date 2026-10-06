@@ -48,7 +48,7 @@ describe("module-local coverage", () => {
   });
 
   it("does not apply a follow-up whose sources are unregistered", () => {
-    // Start from raw curriculum (before module follow-ups) so the objective is still needs_source.
+    // Use an objective that remains needs_source in curriculum.json (epidemiology is now source-checked).
     const raw = JSON.parse(readFileSync(join(__dirname, "../content/curriculum/curriculum.json"), "utf8"));
     const { curriculum: rawCurriculum } = applyCurriculumFollowUps(
       // parseCurriculum shape is already applied in loaded; rebuild a minimal clone from raw JSON fields.
@@ -62,13 +62,13 @@ describe("module-local coverage", () => {
       [],
       loaded.sources,
     );
-    expect(rawCurriculum.objectives.find((o) => o.id === "obj-pc-epidemiology")!.sourceState).toBe("needs_source");
+    expect(rawCurriculum.objectives.find((o) => o.id === "obj-pc-bse-cbe")!.sourceState).toBe("needs_source");
     const cov = parseModuleCoverage({
       moduleId: "mod-x",
-      curriculumFollowUps: [{ objectiveId: "obj-pc-epidemiology", suggestedSourceState: "source_backed_open", suggestedSourceIds: ["src-nope"] }],
+      curriculumFollowUps: [{ objectiveId: "obj-pc-bse-cbe", suggestedSourceState: "source_backed_open", suggestedSourceIds: ["src-nope"] }],
     });
     const { curriculum: next, issues } = applyCurriculumFollowUps(rawCurriculum, [cov], loaded.sources);
-    expect(next.objectives.find((o) => o.id === "obj-pc-epidemiology")!.sourceState).toBe("needs_source");
+    expect(next.objectives.find((o) => o.id === "obj-pc-bse-cbe")!.sourceState).toBe("needs_source");
     expect(issues.some((i) => i.level === "error")).toBe(true);
   });
 

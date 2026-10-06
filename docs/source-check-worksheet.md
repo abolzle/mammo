@@ -4,6 +4,20 @@ Maintainer worksheet for Aaron Bolzle. Generated 2026-10-06 from assembled conte
 
 These **18** objectives already have a lesson, recall cards, at least 3 learner-visible practice questions, and at least one learner-visible Form A item, each citing evidence that resolves to a registered retrieved or link-only source. Aaron Bolzle confirmed all 18 on 2026-10-06; curriculum `sourceState` and dependent reviews were flipped to source-backed / `source_checked` in the confirmation PR.
 
+
+## Also confirmed 2026-10-06 (PR #20 Patient Care risk/symptoms/treatment)
+
+Aaron Bolzle confirmed the following new Patient Care objectives that ship with lessons + evidence in PR #20 (maintainer source check only — not clinical review). Curriculum `sourceState` set to `source_backed_open`; dependent lessons/cards/questions set to `review.status: source_checked` with history actor **Aaron Bolzle** / kind `maintainer_source_check`. `requiresQualifiedReview` preserved. Not marked `clinically_reviewed`.
+
+- `obj-pc-epidemiology`
+- `obj-pc-inherent-risk`
+- `obj-pc-social-risk`
+- `obj-pc-signs-symptoms`
+- `obj-pc-history-documentation` (partial: scar/mole/tattoo marker methods still facility/ACR gap; no Form A/B item)
+- `obj-pc-prior-images` (already `source_backed_open`; dependents source-checked)
+- `obj-pc-surgical-options`
+- `obj-pc-nonsurgical-options`
+
 ## How to record a confirmation
 
 After Aaron confirms an objective (and its cited claims) against the linked sources:
