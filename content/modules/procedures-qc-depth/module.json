@@ -1,0 +1,505 @@
+{
+  "id": "mod-procedures-qc-depth",
+  "version": "1.0.0-beta.1",
+  "title": "Procedures and QC depth",
+  "summary": "Fills Stage 3 gaps: federal-sourced technologist/physicist QC purposes (without redistributing ACR DMQC procedures), additional-view terminology and purpose-level localization, and interventional consent/time-out from AHRQ Universal Protocol summaries.",
+  "topicIds": [
+    "top-ip-qc-technologist",
+    "top-ip-qc-physicist",
+    "top-pp-additional-views",
+    "top-pp-interventional",
+    "top-ap-localization",
+    "top-ip-image-evaluation"
+  ],
+  "assets": [
+    {
+      "id": "asset-pqd-qc-paths",
+      "kind": "svg_schematic",
+      "title": "Schematic: digital QC path choices",
+      "src": "/assets/procedures-qc-depth/qc-digital-paths.svg",
+      "width": 640,
+      "height": 280,
+      "alt": "Two-path schematic: manufacturer QC versus FDA Alt Standard #24 ACR DMQC, both under a 3.0 mGy dose ceiling banner. Labeled SCHEMATIC — NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pqd-digital-manufacturer-qc",
+        "ev-pqd-alt24-acr-dmqc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pqd-comp-force",
+      "kind": "svg_schematic",
+      "title": "Schematic: compression force band",
+      "src": "/assets/procedures-qc-depth/compression-force-band.svg",
+      "width": 640,
+      "height": 280,
+      "alt": "Horizontal band schematic showing minimum 111 N available force and 111–200 N initial power-drive maximum. Labeled SCHEMATIC — NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pqd-compression-force"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pqd-view-names",
+      "kind": "svg_schematic",
+      "title": "Schematic: additional view name map",
+      "src": "/assets/procedures-qc-depth/additional-view-names.svg",
+      "width": 640,
+      "height": 300,
+      "alt": "Labeled boxes for XCCL, cleavage, axillary tail, rolled, and ML triangulation purpose tags. Labeled SCHEMATIC — NOT A MAMMOGRAM.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pqd-xccl-term",
+        "ev-pqd-cleavage-term",
+        "ev-pqd-rolled-term",
+        "ev-pqd-ml-triangulation-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-pqd-timeout",
+      "kind": "svg_schematic",
+      "title": "Schematic: Universal Protocol three steps",
+      "src": "/assets/procedures-qc-depth/universal-protocol-steps.svg",
+      "width": 640,
+      "height": 280,
+      "alt": "Three-step schematic: verification including consent, site marking, time-out. Labeled SCHEMATIC — NOT A PROCEDURE PHOTO.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-pqd-universal-protocol",
+        "ev-pqd-timeout-steps",
+        "ev-pqd-consent-in-verification"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "visuals": [
+    {
+      "id": "vis-pqd-digital-path",
+      "revision": 1,
+      "objectiveId": "obj-qc-detector-calibration",
+      "assetId": "asset-pqd-qc-paths",
+      "estSeconds": 45,
+      "title": "Which path is Alt Standard #24?",
+      "prompt": "Select the QC path that uses the ACR Digital Mammography QC Manual as FDA's approved alternative for FFDM/DBT.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Left path: Manufacturer QA",
+          "x": 40,
+          "y": 70,
+          "w": 240,
+          "h": 140,
+          "revealLabel": "Manufacturer-recommended QA"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Right path: ACR DMQC alternative",
+          "x": 360,
+          "y": 70,
+          "w": 240,
+          "h": 140,
+          "revealLabel": "Alt Standard #24 — ACR DMQC"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Top banner: dose ceiling",
+          "x": 160,
+          "y": 20,
+          "w": 320,
+          "h": 40,
+          "revealLabel": "3.0 mGy ceiling applies to both"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "That is the default (e)(6) manufacturer path, not Alt #24.",
+        "b": "Correct. Alt Standard #24 points to the ACR DMQC Manual path.",
+        "c": "The dose ceiling applies to both paths; it is not itself Alt #24."
+      },
+      "explanation": "FDA Alt #24 allows ACR DMQC (+ DBT Supplement) with the ACR phantom as an alternative to manufacturer QC; the 3.0 mGy ceiling remains.",
+      "accessibilityNote": "Regions described by position; labels revealed after answering. SCHEMATIC — NOT A MAMMOGRAM.",
+      "evidenceIds": [
+        "ev-pqd-alt24-acr-dmqc",
+        "ev-pqd-digital-manufacturer-qc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pqd-force-band",
+      "revision": 1,
+      "objectiveId": "obj-qc-compression-tests",
+      "assetId": "asset-pqd-comp-force",
+      "estSeconds": 45,
+      "title": "Where is the initial power-drive maximum band?",
+      "prompt": "Select the segment that represents the 111–200 N initial power-drive maximum force band.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Left marker: 111 N minimum available",
+          "x": 40,
+          "y": 100,
+          "w": 140,
+          "h": 80,
+          "revealLabel": "≥111 N available"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Center band: 111–200 N max drive",
+          "x": 220,
+          "y": 90,
+          "w": 200,
+          "h": 100,
+          "revealLabel": "111–200 N initial power-drive max"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Right zone: above 200 N",
+          "x": 460,
+          "y": 100,
+          "w": 140,
+          "h": 80,
+          "revealLabel": "Above allowed max"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "That marks the minimum available force, not the max-drive band.",
+        "b": "Correct. Initial power-drive maximum must be between 111 and 200 N.",
+        "c": "Above 200 N exceeds the allowed initial power-drive maximum."
+      },
+      "explanation": "Federal compression device performance sets ≥111 N available and 111–200 N initial power-drive maximum.",
+      "accessibilityNote": "Regions described by position; labels revealed after answering. SCHEMATIC — NOT A MAMMOGRAM.",
+      "evidenceIds": [
+        "ev-pqd-compression-force"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pqd-xccl-box",
+      "revision": 1,
+      "objectiveId": "obj-pp-exaggerated-cleavage-at",
+      "assetId": "asset-pqd-view-names",
+      "estSeconds": 45,
+      "title": "Which box is XCCL?",
+      "prompt": "Select the labeled box that names the laterally exaggerated craniocaudal view.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Box A top-left",
+          "x": 24,
+          "y": 50,
+          "w": 180,
+          "h": 90,
+          "revealLabel": "XCCL — laterally exaggerated CC"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Box B top-center",
+          "x": 230,
+          "y": 50,
+          "w": 180,
+          "h": 90,
+          "revealLabel": "Cleavage view"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Box C top-right",
+          "x": 436,
+          "y": 50,
+          "w": 180,
+          "h": 90,
+          "revealLabel": "Axillary tail view"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Box D bottom",
+          "x": 180,
+          "y": 170,
+          "w": 280,
+          "h": 80,
+          "revealLabel": "Rolled — breast rolled to one side"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. XCCL = laterally exaggerated craniocaudal.",
+        "b": "That box is the cleavage view name.",
+        "c": "That box is the axillary tail view name.",
+        "d": "That box is the rolled-view definition."
+      },
+      "explanation": "Public terminology defines XCCL as laterally exaggerated craniocaudal.",
+      "accessibilityNote": "Regions described by position; labels revealed after answering. SCHEMATIC — NOT A MAMMOGRAM.",
+      "evidenceIds": [
+        "ev-pqd-xccl-term",
+        "ev-pqd-cleavage-term",
+        "ev-pqd-axillary-tail-term",
+        "ev-pqd-rolled-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-pqd-timeout-step",
+      "revision": 1,
+      "objectiveId": "obj-pp-interventional-prep",
+      "assetId": "asset-pqd-timeout",
+      "estSeconds": 45,
+      "title": "Which step is the time-out?",
+      "prompt": "Select the Universal Protocol step that occurs just before the procedure starts.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Step 1 left",
+          "x": 30,
+          "y": 70,
+          "w": 170,
+          "h": 140,
+          "revealLabel": "Verification (includes signed consent)"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Step 2 center",
+          "x": 235,
+          "y": 70,
+          "w": 170,
+          "h": 140,
+          "revealLabel": "Site marking"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Step 3 right",
+          "x": 440,
+          "y": 70,
+          "w": 170,
+          "h": 140,
+          "revealLabel": "Time-out"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "Verification comes earlier and includes consent review.",
+        "b": "Site marking is the middle step.",
+        "c": "Correct. Time-out is the final pause just before the procedure."
+      },
+      "explanation": "Universal Protocol: verification, site marking, then time-out immediately before the procedure.",
+      "accessibilityNote": "Regions described by position; labels revealed after answering. SCHEMATIC — NOT A MAMMOGRAM.",
+      "evidenceIds": [
+        "ev-pqd-timeout-steps",
+        "ev-pqd-universal-protocol"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "FDA Alternative Standard #24",
+      "definition": "FDA-approved alternative allowing FFDM/DBT facilities to follow the ACR Digital Mammography QC Manual (and DBT Supplement) with the ACR Digital Mammography Phantom instead of manufacturer QC, while still obeying the 3.0 mGy phantom dose ceiling.",
+      "evidenceIds": [
+        "ev-pqd-alt24-acr-dmqc"
+      ]
+    },
+    {
+      "term": "XCCL",
+      "definition": "Laterally exaggerated craniocaudal mammography view (also glossed as cranio-caudal exaggerated to the axilla).",
+      "evidenceIds": [
+        "ev-pqd-xccl-term"
+      ]
+    },
+    {
+      "term": "Rolled view",
+      "definition": "Mammography view in which the breast is rolled to one side.",
+      "evidenceIds": [
+        "ev-pqd-rolled-term"
+      ]
+    },
+    {
+      "term": "Universal Protocol",
+      "definition": "Wrong-site/wrong-procedure/wrong-person prevention framework summarized by AHRQ as preprocedure verification, site marking, and time-out.",
+      "evidenceIds": [
+        "ev-pqd-universal-protocol",
+        "ev-pqd-timeout-steps"
+      ]
+    },
+    {
+      "term": "Time-out",
+      "definition": "Final preprocedure pause immediately before an invasive procedure to confirm correct patient, procedure, and site/side.",
+      "evidenceIds": [
+        "ev-pqd-timeout-steps"
+      ]
+    }
+  ]
+}

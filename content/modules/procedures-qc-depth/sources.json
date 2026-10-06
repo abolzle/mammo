@@ -1,0 +1,193 @@
+{
+  "version": "2026-10-06.1",
+  "note": "New public FDA/AHRQ/NCI sources for procedures-qc-depth; ACR/ARRT/PMC are link-only.",
+  "sources": [
+    {
+      "id": "src-fda-alt-standard-24",
+      "title": "MQSA Alternative Standard #24 — ACR Digital Mammography QC Manual for FFDM/DBT",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/regulations-mqsa/mqsa-alternative-standard-24-approval-alternative-standard-using-quality-assurance-program",
+      "publishedOrEffective": "Approved effective 2018-07-13; no time limit; later amended for DBT supplement",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched 2026-10-06. States facilities may use ACR DMQC Manual (+ DBT Supplement) with ACR Digital Mammography Phantom as an alternative to manufacturer QC for FFDM/DBT, while the 3.0 mGy phantom dose ceiling still applies.",
+      "sections": [
+        "Original standard 900.12(e)(6)",
+        "Approved alternative standard text"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-ahrq-psnet-universal-protocol",
+      "title": "AHRQ PSNet — Universal Protocol / time-out (wrong-site prevention overview)",
+      "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+      "url": "https://psnet.ahrq.gov/issue/universal-protocol-preventing-wrong-site-wrong-procedure-wrong-person-surgery",
+      "publishedOrEffective": "PSNet issue page summarizing Joint Commission Universal Protocol (effective 2004)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched 2026-10-06. AHRQ government page summarizing Universal Protocol components: preprocedure verification (including signed consent), site marking, and time-out. Joint Commission source text itself remains copyrighted and is not redistributed.",
+      "sections": [
+        "Universal Protocol components",
+        "Time-out"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. government work (AHRQ). Third-party Joint Commission materials linked from the page remain copyrighted and are not copied."
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-ahrq-psnet-timeout-inside",
+      "title": "AHRQ PSNet — The Inside of a Time Out",
+      "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+      "url": "https://psnet.ahrq.gov/web-mm/inside-time-out",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched 2026-10-06. Describes Universal Protocol three steps and that time-out occurs immediately before the procedure; expands checklist elements commonly confirmed.",
+      "sections": [
+        "Universal Protocol steps",
+        "Time-out contents"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. government work (AHRQ)."
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-evs-xccl",
+      "title": "NCI EVS / Metathesaurus — View XCCL (laterally exaggerated craniocaudal) LOINC terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncim/CL571604",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched 2026-10-06. Preferred/synonym strings include Laterally exaggerated craniocaudal; Cranio Caudal view eXaggerated to axilLa; Internally rotated CC.",
+      "sections": [
+        "Preferred Name",
+        "Synonyms / LRN2"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI EVS government terminology service; text free of copyright unless otherwise indicated.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-evs-rolled",
+      "title": "NCI EVS / LOINC — Views rolled (breast mammography)",
+      "publisher": "National Cancer Institute",
+      "url": "https://evsexplore.semantics.cancer.gov/evsexplore/concept/lnc/37016-3",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched 2026-10-06. CHANGE_REASON_PUBLIC states rolled means the breast is rolled to one side.",
+      "sections": [
+        "CHANGE_REASON_PUBLIC",
+        "LOINC component Views rolled"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI EVS government terminology service surfaces LOINC change notes; Mammo quotes the public change-reason text as retrieved.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-evs-cleavage",
+      "title": "NCI EVS / SNOMED — Cleavage mammography view",
+      "publisher": "National Cancer Institute",
+      "url": "https://evsexplore.semantics.cancer.gov/evsexplore/hierarchy/snomedct_us/399161006",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched 2026-10-06. Lists Cleavage mammography view as a mammography view qualifier under Mammography view hierarchy (alongside axillary tail).",
+      "sections": [
+        "Cleavage mammography view",
+        "Mammography view hierarchy"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI EVS government terminology service listing; SNOMED CT terms are presented for identification only.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-pmc-dbt-clinical-impl-2014",
+      "title": "Clinical Implementation of Digital Breast Tomosynthesis (PMC4128330) — link-only",
+      "publisher": "Radiographics / PMC",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4128330/",
+      "publishedOrEffective": "2014",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Read 2026-10-06 for facts only. Copyrighted article; no excerpts redistributed. Used for link-only restatement that a 90° ML view is frequently obtained for diagnostic triangulation and that tangential imaging is used to localize skin lesions.",
+      "sections": [
+        "Localization / triangulation discussion"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "Copyrighted journal article available via PMC; facts restated in original wording with link-only citation."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-ahrq-psnet-wrong-catheter",
+      "title": "AHRQ PSNet — Wrong Catheter in the Right Patient (Universal Protocol verification)",
+      "publisher": "Agency for Healthcare Research and Quality (AHRQ)",
+      "url": "https://psnet.ahrq.gov/web-mm/wrong-catheter-right-patient",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched 2026-10-06. Describes Universal Protocol preprocedure verification documentation including signed consent form.",
+      "sections": [
+        "Universal Protocol",
+        "Preoperative verification"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. government work (AHRQ)."
+      },
+      "kind": "government_guidance"
+    }
+  ]
+}

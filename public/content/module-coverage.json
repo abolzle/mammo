@@ -1160,6 +1160,358 @@
       "followUps": []
     },
     {
+      "moduleId": "mod-procedures-qc-depth",
+      "links": [
+        {
+          "objectiveId": "obj-qc-phantom",
+          "lessonIds": [
+            "les-pqd-phantom-federal"
+          ],
+          "cardIds": [
+            "card-pqd-phantom-weekly",
+            "card-pqd-phantom-stop",
+            "card-pqd-digital-qa",
+            "card-pqd-alt24",
+            "card-pqd-acr-link",
+            "card-pqd-dose-digital"
+          ],
+          "questionIds": [
+            "q-pqd-001",
+            "q-pqd-002",
+            "q-pqd-003",
+            "q-pqd-004",
+            "q-pqd-005",
+            "q-pqd-008",
+            "q-pqd-009"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-qc-compression-tests",
+          "lessonIds": [
+            "les-pqd-compression-tests"
+          ],
+          "cardIds": [
+            "card-pqd-comp-min",
+            "card-pqd-comp-max",
+            "card-pqd-comp-stop",
+            "card-pqd-thickness-gap"
+          ],
+          "questionIds": [
+            "q-pqd-010",
+            "q-pqd-011",
+            "q-pqd-012",
+            "q-pqd-013"
+          ],
+          "visualIds": [
+            "vis-pqd-force-band"
+          ]
+        },
+        {
+          "objectiveId": "obj-qc-visual-checklist",
+          "lessonIds": [
+            "les-pqd-visual-cleanliness"
+          ],
+          "cardIds": [
+            "card-pqd-clean-protocols",
+            "card-pqd-visual-gap"
+          ],
+          "questionIds": [
+            "q-pqd-014",
+            "q-pqd-015",
+            "q-pqd-016",
+            "q-pqd-017"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-qc-monitors-viewing",
+          "lessonIds": [
+            "les-pqd-monitors-viewing"
+          ],
+          "cardIds": [
+            "card-pqd-hotlights",
+            "card-pqd-masking",
+            "card-pqd-monitor-link"
+          ],
+          "questionIds": [
+            "q-pqd-015",
+            "q-pqd-022",
+            "q-pqd-023",
+            "q-pqd-024",
+            "q-pqd-025"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-qc-repeat-analysis",
+          "lessonIds": [
+            "les-pqd-repeat-analysis"
+          ],
+          "cardIds": [
+            "card-pqd-repeat-2",
+            "card-pqd-repeat-loop"
+          ],
+          "questionIds": [
+            "q-pqd-018",
+            "q-pqd-019",
+            "q-pqd-020",
+            "q-pqd-021"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-qc-detector-calibration",
+          "lessonIds": [
+            "les-pqd-digital-qc-path"
+          ],
+          "cardIds": [
+            "card-pqd-detector-purpose",
+            "card-pqd-detector-where"
+          ],
+          "questionIds": [
+            "q-pqd-003",
+            "q-pqd-006",
+            "q-pqd-007",
+            "q-pqd-009"
+          ],
+          "visualIds": [
+            "vis-pqd-digital-path"
+          ]
+        },
+        {
+          "objectiveId": "obj-qc-physicist-tests",
+          "lessonIds": [
+            "les-pqd-physicist-tests"
+          ],
+          "cardIds": [
+            "card-pqd-phys-scope",
+            "card-pqd-phys-collimation",
+            "card-pqd-phys-dose",
+            "card-pqd-phys-artifacts",
+            "card-pqd-snr-link"
+          ],
+          "questionIds": [
+            "q-pqd-026",
+            "q-pqd-027",
+            "q-pqd-028",
+            "q-pqd-029"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-lateral-views",
+          "lessonIds": [
+            "les-pqd-lateral-ml-lm"
+          ],
+          "cardIds": [
+            "card-pqd-lateral-ml",
+            "card-pqd-diagnostic-angles"
+          ],
+          "questionIds": [
+            "q-pqd-030",
+            "q-pqd-031",
+            "q-pqd-032",
+            "q-pqd-033",
+            "q-pqd-048"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-exaggerated-cleavage-at",
+          "lessonIds": [
+            "les-pqd-xccl-cleavage"
+          ],
+          "cardIds": [
+            "card-pqd-xccl",
+            "card-pqd-cleavage",
+            "card-pqd-at"
+          ],
+          "questionIds": [
+            "q-pqd-034",
+            "q-pqd-035",
+            "q-pqd-036",
+            "q-pqd-037",
+            "q-pqd-041"
+          ],
+          "visualIds": [
+            "vis-pqd-xccl-box"
+          ]
+        },
+        {
+          "objectiveId": "obj-pp-tangential-rolled",
+          "lessonIds": [
+            "les-pqd-rolled-tangential"
+          ],
+          "cardIds": [
+            "card-pqd-rolled",
+            "card-pqd-tangential"
+          ],
+          "questionIds": [
+            "q-pqd-038",
+            "q-pqd-039",
+            "q-pqd-040",
+            "q-pqd-041"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-interventional-prep",
+          "lessonIds": [
+            "les-pqd-consent-timeout"
+          ],
+          "cardIds": [
+            "card-pqd-up-three",
+            "card-pqd-timeout",
+            "card-pqd-consent"
+          ],
+          "questionIds": [
+            "q-pqd-042",
+            "q-pqd-043",
+            "q-pqd-044",
+            "q-pqd-045"
+          ],
+          "visualIds": [
+            "vis-pqd-timeout-step"
+          ]
+        },
+        {
+          "objectiveId": "obj-ap-triangulation",
+          "lessonIds": [
+            "les-pqd-triangulation"
+          ],
+          "cardIds": [
+            "card-pqd-triang-purpose",
+            "card-pqd-triang-gap"
+          ],
+          "questionIds": [
+            "q-pqd-032",
+            "q-pqd-046",
+            "q-pqd-047",
+            "q-pqd-048"
+          ],
+          "visualIds": []
+        }
+      ],
+      "followUps": [
+        {
+          "objectiveId": "obj-qc-phantom",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-fda-alt-standard-24",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Federal weekly/corrective + Alt #24; ACR procedures remain link-only."
+        },
+        {
+          "objectiveId": "obj-qc-compression-tests",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Federal force limits sourced; thickness-indicator criteria stay ACR link-only."
+        },
+        {
+          "objectiveId": "obj-qc-visual-checklist",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Federal cleanliness/viewing aids; digital checklist contents ACR link-only."
+        },
+        {
+          "objectiveId": "obj-qc-repeat-analysis",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Federal >2% change rule; worksheets ACR/manufacturer link-only."
+        },
+        {
+          "objectiveId": "obj-qc-detector-calibration",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-fda-alt-standard-24",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Purpose/path from federal + Alt #24; device steps link-only."
+        },
+        {
+          "objectiveId": "obj-qc-physicist-tests",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Federal purposes/limits for listed annual tests; SNR/CNR/MTF digital tables link-only."
+        },
+        {
+          "objectiveId": "obj-qc-monitors-viewing",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-acr-dmqc-manual"
+          ],
+          "note": "Federal hot-lights/masking/cleanliness + digital QA path; SMPTE procedures link-only."
+        },
+        {
+          "objectiveId": "obj-pp-exaggerated-cleavage-at",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-evs-xccl",
+            "src-nci-evs-cleavage",
+            "src-nci-mammograms"
+          ],
+          "note": "Terminology/purpose-level only; technique criteria still ACR needs-source."
+        },
+        {
+          "objectiveId": "obj-pp-tangential-rolled",
+          "suggestedSourceState": "source_backed_link_only",
+          "suggestedSourceIds": [
+            "src-nci-evs-rolled",
+            "src-pmc-dbt-clinical-impl-2014",
+            "src-nci-mammograms"
+          ],
+          "note": "Rolled definition open; tangential skin localization link-only PMC."
+        },
+        {
+          "objectiveId": "obj-pp-interventional-prep",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ahrq-psnet-universal-protocol",
+            "src-ahrq-psnet-timeout-inside",
+            "src-ahrq-psnet-wrong-catheter"
+          ],
+          "note": "Consent/time-out from AHRQ Universal Protocol summaries."
+        },
+        {
+          "objectiveId": "obj-pp-lateral-views",
+          "suggestedSourceState": "source_backed_link_only",
+          "suggestedSourceIds": [
+            "src-nci-mammograms",
+            "src-ecfr-21-cfr-900",
+            "src-pmc-dbt-clinical-impl-2014"
+          ],
+          "note": "Diagnostic purpose open; ML triangulation association link-only; ML/LM evaluation criteria still needs ACR."
+        },
+        {
+          "objectiveId": "obj-ap-triangulation",
+          "suggestedSourceState": "source_backed_link_only",
+          "suggestedSourceIds": [
+            "src-pmc-dbt-clinical-impl-2014",
+            "src-nci-mammograms",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "Purpose-level triangulation via ML; clock-face method remains needs-source/blocked detail."
+        }
+      ]
+    },
+    {
       "moduleId": "mod-qc-regulations",
       "links": [
         {
