@@ -337,7 +337,9 @@
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
       "retrievalNote": "Resources page read; FDA has determined facilities may use the manual for QC of 2D and DBT. Image-production module cites this link-only and does not redistribute manual text or device-specific pass/fail criteria.",
-      "sections": ["Resources page"],
+      "sections": [
+        "Resources page"
+      ],
       "rights": {
         "status": "copyrighted_link_only",
         "canRead": true,
@@ -647,9 +649,21 @@
       "publishedOrEffective": "2022",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "OpenStax CMS API reports license CC BY-NC-SA (not plain CC BY). §§ 30.4 and 32.2 retrieved 2026-10-06 for image-production evidence.",
-      "sections": ["30.4 X Rays: Atomic Origins and Applications", "32.2 Biological Effects of Ionizing Radiation", "Ch. 32 Section Summary"],
-      "rights": { "status": "open_license", "license": "CC BY-NC-SA 4.0", "canRead": true, "canQuote": true, "canRedistribute": true, "canSubmitToAI": true, "basis": "Quotes allowed with attribution; adapted text must be shared alike and non-commercially. Mammo is non-commercial." },
+      "retrievalNote": "OpenStax CMS API reports license CC BY-NC-SA (not plain CC BY). \u00a7\u00a7 30.4 and 32.2 retrieved 2026-10-06 for image-production evidence.",
+      "sections": [
+        "30.4 X Rays: Atomic Origins and Applications",
+        "32.2 Biological Effects of Ionizing Radiation",
+        "Ch. 32 Section Summary"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY-NC-SA 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "Quotes allowed with attribution; adapted text must be shared alike and non-commercially. Mammo is non-commercial."
+      },
       "kind": "other"
     },
     {
@@ -661,21 +675,43 @@
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
       "retrievalNote": "Full page retrieved for LNT / low-dose risk framing used in image-production radiation lesson.",
-      "sections": ["Radiation Exposure and Cancer"],
-      "rights": { "status": "public_domain", "canRead": true, "canQuote": true, "canRedistribute": true, "canSubmitToAI": true, "basis": "U.S. Government work." },
+      "sections": [
+        "Radiation Exposure and Cancer"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. Government work."
+      },
       "kind": "government_guidance"
     },
     {
       "id": "src-cdc-alara",
-      "title": "CDC — ALARA (As Low As Reasonably Achievable) Recommendations",
+      "title": "CDC \u2014 ALARA (As Low As Reasonably Achievable) Recommendations",
       "publisher": "Centers for Disease Control and Prevention",
       "url": "https://www.cdc.gov/radiation-health/safety/alara.html",
       "publishedOrEffective": "Updated 2026-07-17",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
       "retrievalNote": "Retrieved successfully on 2026-10-06 for time/distance/shielding evidence in the image-production module.",
-      "sections": ["Overview", "Time", "Distance", "Shielding", "Time, distance, and shielding: Three principles that work together"],
-      "rights": { "status": "public_domain", "canRead": true, "canQuote": true, "canRedistribute": true, "canSubmitToAI": true, "basis": "U.S. Government work (verify page notices)." },
+      "sections": [
+        "Overview",
+        "Time",
+        "Distance",
+        "Shielding",
+        "Time, distance, and shielding: Three principles that work together"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. Government work (verify page notices)."
+      },
       "kind": "government_guidance"
     },
     {
@@ -771,7 +807,7 @@
     },
     {
       "id": "src-acr-aapm-siim-dm-iq-2013",
-      "title": "ACR–AAPM–SIIM Practice Guideline for Determinants of Image Quality in Digital Mammography",
+      "title": "ACR\u2013AAPM\u2013SIIM Practice Guideline for Determinants of Image Quality in Digital Mammography",
       "publisher": "American College of Radiology / AAPM / SIIM (via Journal of Digital Imaging / PMC)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3553374/",
       "publishedOrEffective": "2013-01 (PMC3553374)",
@@ -779,7 +815,7 @@
       "retrievalStatus": "retrieved",
       "retrievalNote": "Full text retrieved from PMC on 2026-10-06. ACR practice guidelines are copyrighted; use link-only citations. Clinical positioning criteria restated in original wording for teaching; do not quote long passages.",
       "sections": [
-        "Digital Mammography Image Acquisition — Tissue coverage / positioning",
+        "Digital Mammography Image Acquisition \u2014 Tissue coverage / positioning",
         "Breast compression"
       ],
       "rights": {
@@ -794,16 +830,21 @@
     },
     {
       "id": "src-fda-equip-faq-facilities",
-      "title": "MQSA EQUIP Frequently Asked Questions — Facilities",
+      "title": "MQSA EQUIP Frequently Asked Questions \u2014 Facilities",
       "publisher": "U.S. Food and Drug Administration",
       "url": "https://www.fda.gov/media/101293/download",
       "publishedOrEffective": "FAQ updates noted through 2018 in document",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "PDF fetched 2026-10-06 via fda.gov/media/101293/download. Confirms eight clinical image attributes and that CC/MLO diagnostic views may be used in periodic review.",
+      "retrievalNote": "PDF fetched 2026-10-06 via fda.gov/media/101293/download. Confirms eight clinical image attributes; periodic review at least annually by default; written documentation required; all active RTs/IPs included; repeat analysis is not a substitute; LIP role and citation pathway details.",
       "sections": [
         "Q2.12 AB standards for image quality attributes",
-        "Q2.27 Screening vs diagnostic studies in periodic review"
+        "Q2.27 Screening vs diagnostic studies in periodic review",
+        "Q1 corrective action FAQ",
+        "Q2 periodic review FAQ",
+        "Q2.12 eight attributes",
+        "Q3 LIP oversight",
+        "Compliance Pathway"
       ],
       "rights": {
         "status": "public_domain",
@@ -837,6 +878,105 @@
         "basis": "ACR Learning Network copyrighted support article; link only."
       },
       "kind": "professional_guideline"
+    },
+    {
+      "id": "src-fda-equip-info",
+      "title": "MQSA Important Information about the EQUIP Initiative",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/media/101641/download",
+      "publishedOrEffective": "EQUIP inspection questions began with 2017 inspections",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "PDF fetched 2026-10-06. States the three EQUIP main questions, cites 21 CFR 900.12(i), (d)(1)(ii)(A), and (d)(2), and explains IP feedback plus documenting corrective-action effectiveness.",
+      "sections": [
+        "MQSA Clinical Image Quality-Related Regulations",
+        "Quality Assurance \u2014 Clinical Image Corrective Action",
+        "Clinical Image Quality",
+        "Quality Control"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-equip-lip-attestation",
+      "title": "EQUIP Quality Assurance / Quality Control Attestation by the Lead Interpreting Physician (LIP)",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/media/101655/download",
+      "publishedOrEffective": "EQUIP inspection program form",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "PDF fetched 2026-10-06. Lists three inspection-day pathways for LIP oversight evidence and states that missing all three yields a Level 2 citation.",
+      "sections": [
+        "LIP oversight inspection questions",
+        "Lead Interpreting Physician (LIP) QA/QC Attestation"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-mqsa-inspection-resources",
+      "title": "MQSA Inspection Resources",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mammography-quality-standards-act-mqsa-and-mqsa-program/mqsa-inspection-resources",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Page summary retrieved via search/snippet and cross-checked against FDA MQSA program language on 2026-10-06: annual inspection scope includes equipment, QA/QC records, technologist tests, physicist survey, personnel, reports/lay summaries, and medical audit records.",
+      "sections": [
+        "What MQSA requires",
+        "What inspectors assess annually"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-annual-inspection-help",
+      "title": "Annual MQSA Inspection: What Facilities Can Do to Help",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mqsa-insights/annual-mqsa-inspection-what-facilities-can-do-help",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Live page timed out for full fetch; content confirmed via search extract on 2026-10-06 describing physicist survey timing window language, EQUIP documentation checklist items, and QC data expectations including manufacturer or ACR DM QC alternative standard.",
+      "sections": [
+        "Physicist survey materials",
+        "Clinical Image Quality (EQUIP)",
+        "QC Test Data"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
     }
   ]
 }

@@ -618,22 +618,28 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-certification"
+        "les-mqsa-certification",
+        "les-qcr-inspection-bundle"
       ],
       "cardIds": [
         "card-mqsa-cert-basis",
         "card-mqsa-provisional",
         "card-mqsa-inspection-freq",
-        "card-mqsa-va"
+        "card-mqsa-va",
+        "card-qcr-inspection-list",
+        "card-qcr-fr-effective"
       ],
       "questionIds": [
         "q-mqsa-001",
         "q-mqsa-002",
         "q-mqsa-003",
-        "q-mqsa-039"
+        "q-mqsa-039",
+        "q-qcr-042",
+        "q-qcr-043",
+        "q-qcr-044"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 6,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -645,19 +651,51 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-image-quality-equip"
+        "les-mqsa-image-quality-equip",
+        "les-qcr-equip-purpose",
+        "les-qcr-equip-feedback",
+        "les-qcr-equip-periodic"
       ],
       "cardIds": [
         "card-mqsa-cir-3y",
-        "card-mqsa-equip-3"
+        "card-mqsa-equip-3",
+        "card-qcr-equip-not-new-law",
+        "card-qcr-ciq-continue",
+        "card-qcr-equip-three",
+        "card-qcr-feedback-elements",
+        "card-qcr-sop-optional",
+        "card-qcr-ip-decides-poor",
+        "card-qcr-periodic-min",
+        "card-qcr-periodic-docs",
+        "card-qcr-not-reject",
+        "card-qcr-not-daily-interp",
+        "card-qcr-all-active",
+        "card-qcr-sample-size"
       ],
       "questionIds": [
         "q-mqsa-004",
         "q-mqsa-005",
-        "q-mqsa-006"
+        "q-mqsa-006",
+        "q-qcr-001",
+        "q-qcr-002",
+        "q-qcr-003",
+        "q-qcr-004",
+        "q-qcr-005",
+        "q-qcr-006",
+        "q-qcr-007",
+        "q-qcr-009",
+        "q-qcr-010",
+        "q-qcr-011",
+        "q-qcr-012",
+        "q-qcr-013",
+        "q-qcr-015",
+        "q-qcr-045",
+        "q-qcr-046"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 3,
+      "visualIds": [
+        "vis-qcr-equip-focus"
+      ],
+      "learnerQuestionCount": 18,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -697,7 +735,8 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-rt-continuing"
+        "les-mqsa-rt-continuing",
+        "les-qcr-personnel-layers"
       ],
       "cardIds": [
         "card-mqsa-ce-15-6",
@@ -705,17 +744,24 @@
         "card-mqsa-requal-exp",
         "card-mqsa-new-modality",
         "card-mqsa-window",
-        "card-mqsa-ip-numbers"
+        "card-mqsa-ip-numbers",
+        "card-qcr-mqsa-200",
+        "card-qcr-mqsa-15ceu",
+        "card-qcr-arrt-separate"
       ],
       "questionIds": [
         "q-mqsa-011",
         "q-mqsa-012",
         "q-mqsa-013",
         "q-mqsa-014",
-        "q-mqsa-041"
+        "q-mqsa-041",
+        "q-qcr-020",
+        "q-qcr-021",
+        "q-qcr-022",
+        "q-qcr-023"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 8,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -727,20 +773,31 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-qa-roles"
+        "les-mqsa-qa-roles",
+        "les-qcr-equip-lip"
       ],
       "cardIds": [
         "card-mqsa-lip",
         "card-mqsa-qctech",
-        "card-mqsa-qc-records"
+        "card-mqsa-qc-records",
+        "card-qcr-lip-most-responsible",
+        "card-qcr-lip-paths",
+        "card-qcr-lip-level2",
+        "card-qcr-qc-record-keep"
       ],
       "questionIds": [
         "q-mqsa-015",
         "q-mqsa-016",
-        "q-mqsa-017"
+        "q-mqsa-017",
+        "q-qcr-008",
+        "q-qcr-016",
+        "q-qcr-017",
+        "q-qcr-018",
+        "q-qcr-019",
+        "q-qcr-040"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 3,
+      "learnerQuestionCount": 9,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -871,19 +928,31 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
       "lessonIds": [
-        "les-mqsa-records"
+        "les-mqsa-records",
+        "les-qcr-records-lifecycle"
       ],
       "cardIds": [
         "card-mqsa-retention",
-        "card-mqsa-transfer-15"
+        "card-mqsa-transfer-15",
+        "card-qcr-retain-longest",
+        "card-qcr-10yr",
+        "card-qcr-transfer-15",
+        "card-qcr-amr"
       ],
       "questionIds": [
         "q-mqsa-029",
         "q-mqsa-030",
-        "q-mqsa-045"
+        "q-mqsa-045",
+        "q-qcr-028",
+        "q-qcr-029",
+        "q-qcr-030",
+        "q-qcr-031",
+        "q-qcr-032"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 2,
+      "visualIds": [
+        "vis-qcr-retention-rule"
+      ],
+      "learnerQuestionCount": 7,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -921,12 +990,17 @@
       "requiresQualifiedReview": false,
       "lessonIds": [
         "les-mqsa-policies",
-        "les-pc-infection"
+        "les-pc-infection",
+        "les-qcr-complaints"
       ],
       "cardIds": [
         "card-mqsa-complaint",
         "card-mqsa-infection",
-        "card-pc-infection"
+        "card-pc-infection",
+        "card-qcr-consumer",
+        "card-qcr-serious-def",
+        "card-qcr-complaint-3yr",
+        "card-qcr-complaint-ab"
       ],
       "questionIds": [
         "q-mqsa-034",
@@ -934,12 +1008,18 @@
         "q-mqsa-047",
         "q-pc-034",
         "q-pc-035",
-        "q-pc-047"
+        "q-pc-047",
+        "q-qcr-024",
+        "q-qcr-025",
+        "q-qcr-026",
+        "q-qcr-027",
+        "q-qcr-048"
       ],
       "visualIds": [
-        "vis-pc-infection-surface"
+        "vis-pc-infection-surface",
+        "vis-qcr-complaint-step"
       ],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 9,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -951,7 +1031,8 @@
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
-        "les-mqsa-equipment-qc"
+        "les-mqsa-equipment-qc",
+        "les-qcr-qc-framework"
       ],
       "cardIds": [
         "card-ip-phantom-dose",
@@ -959,16 +1040,30 @@
         "card-mqsa-dose",
         "card-mqsa-standard-breast",
         "card-mqsa-compression-force",
-        "card-mqsa-digital-qc"
+        "card-mqsa-digital-qc",
+        "card-qcr-qa-purpose",
+        "card-qcr-digital-qc",
+        "card-qcr-before-exams",
+        "card-qcr-30days",
+        "card-qcr-dose-ceiling"
       ],
       "questionIds": [
         "q-mqsa-036",
         "q-mqsa-037",
         "q-mqsa-038",
-        "q-mqsa-048"
+        "q-mqsa-048",
+        "q-qcr-033",
+        "q-qcr-034",
+        "q-qcr-035",
+        "q-qcr-036",
+        "q-qcr-037",
+        "q-qcr-041",
+        "q-qcr-047"
       ],
-      "visualIds": [],
-      "learnerQuestionCount": 3,
+      "visualIds": [
+        "vis-qcr-timing-bucket"
+      ],
+      "learnerQuestionCount": 10,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1069,18 +1164,24 @@
       "statement": "Explain when the annual physicist survey and a mammography equipment evaluation are required, and what the facility receives.",
       "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-qcr-qc-frequency"
+      ],
       "cardIds": [
         "card-mqsa-survey",
-        "card-mqsa-mee"
+        "card-mqsa-mee",
+        "card-qcr-phys-survey",
+        "card-qcr-mee"
       ],
       "questionIds": [
-        "q-mqsa-016"
+        "q-mqsa-016",
+        "q-qcr-038",
+        "q-qcr-039"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 3,
       "validatedQuestionCount": 0,
-      "gap": "missing lesson"
+      "gap": null
     },
     {
       "objectiveId": "obj-qc-physicist-tests",
@@ -1190,7 +1291,8 @@
         "card-mqsa-8-attributes",
         "card-pc-compression-attr",
         "card-pos-positioning-attr",
-        "card-pos-eight"
+        "card-pos-eight",
+        "card-qcr-eight"
       ],
       "questionIds": [
         "q-ip-037",
@@ -1200,10 +1302,11 @@
         "q-mqsa-004",
         "q-pc-010",
         "q-pos-002",
-        "q-pos-004"
+        "q-pos-004",
+        "q-qcr-014"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 8,
+      "learnerQuestionCount": 9,
       "validatedQuestionCount": 0,
       "gap": null
     },

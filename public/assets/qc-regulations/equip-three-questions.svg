@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Three EQUIP inspection focus areas as labeled boxes">
+  <rect width="640" height="280" fill="#F7F5F1"/>
+  <text x="24" y="36" font-family="Georgia, serif" font-size="18" fill="#1B2A41">EQUIP inspection focus areas</text>
+  <rect x="24" y="60" width="180" height="180" rx="4" fill="#E8F3F1" stroke="#2A6F6A" stroke-width="2"/>
+  <text x="40" y="92" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#1B2A41">1. Corrective action</text>
+  <text x="40" y="118" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">IP feedback to RTs</text>
+  <text x="40" y="138" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Document actions</text>
+  <text x="40" y="158" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Check effectiveness</text>
+  <rect x="230" y="60" width="180" height="180" rx="4" fill="#E8F3F1" stroke="#2A6F6A" stroke-width="2"/>
+  <text x="246" y="92" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#1B2A41">2. Periodic review</text>
+  <text x="246" y="118" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Sample each active RT</text>
+  <text x="246" y="138" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Sample each active IP</text>
+  <text x="246" y="158" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Documented since last</text>
+  <text x="246" y="178" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">inspection</text>
+  <rect x="436" y="60" width="180" height="180" rx="4" fill="#E8F3F1" stroke="#2A6F6A" stroke-width="2"/>
+  <text x="452" y="92" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#1B2A41">3. LIP oversight</text>
+  <text x="452" y="118" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">QA/QC record review</text>
+  <text x="452" y="138" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Test frequency check</text>
+  <text x="452" y="158" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">Corrective-action</text>
+  <text x="452" y="178" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">appropriateness</text>
+</svg>

@@ -86,12 +86,32 @@
       "questionCount": 48,
       "cardCount": 22,
       "visualCount": 4
+    },
+    {
+      "id": "mod-qc-regulations",
+      "version": "1.0.0-beta.1",
+      "title": "QC principles and regulations depth",
+      "summary": "Goes beyond the MQSA survey module: EQUIP inspection feedback loops, personnel layers (MQSA vs ARRT link-only), consumer complaints and records lifecycle under 21 CFR 900, and technologist-level QC principles—categories, frequency rationale, and corrective-action timing—without redistributing ACR Digital Mammography QC Manual procedures.",
+      "topicIds": [
+        "top-ip-accreditation",
+        "top-ip-mqsa-personnel",
+        "top-ip-mqsa-records",
+        "top-ip-mqsa-audit-policies",
+        "top-ip-qc-technologist",
+        "top-ip-qc-physicist",
+        "top-ip-image-evaluation"
+      ],
+      "path": "/content/modules/qc-regulations.json",
+      "lessonCount": 10,
+      "questionCount": 48,
+      "cardCount": 37,
+      "visualCount": 4
     }
   ],
   "coverageSummary": {
     "objectives": 79,
-    "withLesson": 40,
-    "withGap": 59,
+    "withLesson": 41,
+    "withGap": 58,
     "breakdown": {
       "public_domain_open": 23,
       "link_only": 0,

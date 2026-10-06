@@ -3512,6 +3512,1510 @@
           }
         ]
       }
+    },
+    {
+      "id": "ev-qcr-equip-purpose",
+      "sourceId": "src-fda-equip-info",
+      "locator": "FDA EQUIP Important Information PDF, opening paragraphs",
+      "claim": "EQUIP added annual-inspection questions about existing clinical image quality regulations to emphasize continuous clinical image quality and the responsibilities of the lead interpreting physician and other interpreting physicians.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Inspection questions related to these clinical image quality regulations have previously not been part of the annual inspection. As part of its EQUIP initiative, FDA’s Division of Mammography Quality Standards developed inspection questions related to the image quality regulations and added them to the inspection program, thereby emphasizing the significance of continuous clinical image quality.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-ciq-standard",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(i)",
+      "claim": "Clinical images produced by any certified facility must continue to comply with the clinical image quality standards established by that facility's accreditation body.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Clinical images produced by any certified facility must continue to comply with the standards for clinical image quality established by that facility's accreditation body.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-q1",
+      "sourceId": "src-fda-equip-info",
+      "locator": "FDA EQUIP Important Information PDF, Quality Assurance — Clinical Image Corrective Action",
+      "claim": "EQUIP asks whether the facility has procedures for corrective action when clinical images are of poor quality, including ongoing interpreting-physician feedback to technologists or other designated personnel and documentation of corrective actions and their effectiveness.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Does the facility have procedures for corrective action (CA) when clinical images are of poor quality? (a) Do the procedures include a mechanism for providing ongoing IP feedback on image quality to RT’s or other designated facility personnel? (b) Do the procedures require documenting any corrective actions taken and documenting the effectiveness of any corrective actions taken?",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-ip-poor-quality-duty",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(d)(1)(ii)(A)",
+      "claim": "All interpreting physicians interpreting mammograms for the facility shall follow the facility procedures for corrective action when the images they are asked to interpret are of poor quality.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "All interpreting physicians interpreting mammograms for the facility shall: (A) Follow the facility procedures for corrective action when the images they are asked to interpret are of poor quality",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-q1-no-written-sop",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q1.1",
+      "claim": "A facility's corrective-action system for poor clinical images does not have to be a written SOP; a verbal explanation is acceptable if it includes ongoing IP feedback and documentation/assessment of corrective actions.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "No. Facilities are not required to create a written procedure. A facility may verbally explain its system to the inspector. Whether written or verbal, the system must include mechanisms for ongoing IP feedback and for documenting and assessing corrective actions.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-q1-ip-decides",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q1.2",
+      "claim": "For the corrective-action inspection question, the interpreting physician is responsible for determining whether images are of poor quality and providing feedback.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "For the purpose of this inspection question, the IP is responsible for determining if images are of poor quality and providing feedback.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-q2",
+      "sourceId": "src-fda-equip-info",
+      "locator": "FDA EQUIP Important Information PDF, Clinical Image Quality question 2",
+      "claim": "EQUIP asks whether the facility has procedures to keep clinical images compliant with accreditation-body standards, including regular review of image-quality attributes for a sample of mammograms from each active RT and each active IP, with documentation since the last inspection.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Does the facility have procedures to ensure that clinical images continue to comply with the clinical image quality standards established by the facility’s accreditation body? (a) Do the procedures include a mechanism for regular reviews of image quality attributes of a sample of mammograms performed by each active RT and a sample of mammograms accepted for interpretation by each active IP? (b) Is there documentation of such review since the last inspection?",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-periodic-annual",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.1",
+      "claim": "Periodic clinical image quality review is required; because inspectors look for a review since the last inspection, it must be done at least annually, and more frequent review is encouraged.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Yes. Since the periodic clinical image quality reviews are discussed at the time of the inspection and need to have been done since the last inspection, by default the periodic clinical image quality review needs to be done at least annually. More frequent review (i.e., monthly, quarterly) is encouraged.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-periodic-docs",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.2, Q2.6",
+      "claim": "Written documentation of the periodic clinical image quality review is required (verbal discussion alone is not accepted), and the review must be dated.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Yes. A verbal demonstration or discussion will not be accepted. Documentation can include such things as a summary report, written statement by LIP that a review was performed, clinical image review meeting records, memos of review results to RTs and IPs, etc.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-not-repeat-analysis",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.3",
+      "claim": "Repeat/reject analysis QC does not count as the periodic clinical image quality review under EQUIP.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "No. Repeat/reject rates are not necessarily directly linked to poor quality images presented for interpretation to an IP.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-not-daily-interp",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.7",
+      "claim": "Daily review of every mammogram at the time of interpretation does not count as the required periodic sample review.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "No.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-all-active",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.9, Q2.10, Q2.26",
+      "claim": "The periodic review must include all active RTs and IPs (including those who only do diagnostic studies); former employees need not be included.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "No. The review must include all RT’s and IP’s. ... Only personnel actively performing/interpreting mammograms at the time of the review need to be included in the review. ... All IPs and RTs must be included in the review, even if they only perform diagnostic studies.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-sample-size",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.8",
+      "claim": "FDA does not set a required sample size for the periodic clinical image quality review; the facility determines sample size.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "No. The sample size of images to review is left up to the facility to determine.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-eight-attributes",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.12; 21 CFR 900.4(c)(2)(i)–(viii)",
+      "claim": "Accreditation-body clinical image quality attributes are the eight listed in 900.4(c)(2): positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "There are eight image quality attributes listed in 900.4(c)(2)(i-viii). They are: positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-q3",
+      "sourceId": "src-fda-equip-lip-attestation",
+      "locator": "EQUIP LIP attestation PDF, inspection questions",
+      "claim": "EQUIP asks whether the facility has a procedure for lead interpreting physician oversight of QA/QC records and corrective actions, including review of required-test frequency and review of whether appropriate corrective actions were performed when needed.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Does the facility have a procedure for LIP oversight of QA/QC records and corrective actions that includes: (a) Requirements for LIP oversight of QA/QC records, including review of the frequency of performance of all required tests? (b) Requirements for LIP review to determine whether appropriate corrective actions were performed when needed?",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-lip-attestation-paths",
+      "sourceId": "src-fda-equip-lip-attestation",
+      "locator": "EQUIP LIP attestation PDF, inspection-day options",
+      "claim": "On inspection day, LIP oversight evidence may be a signed LIP attestation, a verbal description by the LIP, or a written facility procedure containing the required elements and signed by the LIP; if none of these occurs, the questions are answered No and a Level 2 citation is generated.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "If one of these three scenarios does not occur on the day of the inspection, the inspection questions will be answered “No” by the inspector and a level 2 citation will be generated.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-lip-role",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities Q2.24",
+      "claim": "Under EQUIP, the lead interpreting physician is viewed as the individual most responsible for ensuring continuous image quality; the LIP designation does not confer supervisory responsibility over other interpreting physicians.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "The LIP is viewed as the individual most responsible for ensuring image quality is continuously maintained by the facility. ... The Lead Interpreting Physician is an MQSA designation only, and does not confer any supervisory responsibility over other IPs.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equip-citation-pathway",
+      "sourceId": "src-fda-equip-faq-facilities",
+      "locator": "EQUIP FAQ Facilities, Compliance Pathway",
+      "claim": "After the initial non-citation year for clinical image quality review requirements, deficiencies are cited as Level 2 with a written response due within 30 days; a repeat Level 2 violation requires a response within 15 days and referral to the accreditation body for clinical image evaluation.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "MQSA Inspection Year Two: Facilities will receive Level 2 citations for deficiencies noted by MQSA inspectors in the area of CIQRs. The facility will be required to provide a written response to the FDA district office within 30 days. MQSA Inspection Year Three: A repeat violation of the CIQRs will be cited as a Level 2 repeat violation. The facility will be required to provide a written response to the FDA district office within 15 days and will be referred to its accreditation body for an evaluation of clinical images.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-qa-records-lip",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(d)(2)",
+      "claim": "The lead interpreting physician shall ensure that records concerning mammography technique and procedures, quality control (including monitoring data, problems, corrective actions, and effectiveness), safety, protection, and employee qualifications for assigned QA tasks are properly maintained and updated.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "The lead interpreting physician ... shall ensure that records concerning mammography technique and procedures, quality control (including monitoring data, problems detected by analysis of that data, corrective actions, and the effectiveness of the corrective actions), safety, protection and employee qualifications to meet assigned quality assurance tasks are properly maintained and updated.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-rt-continuing-experience",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(iv)",
+      "claim": "After the applicable anniversary, a radiologic technologist must have performed at least 200 mammography examinations during the 24 months immediately preceding a facility-chosen date tied to the annual inspection window, or requalify with 25 exams under direct supervision.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "the radiologic technologist shall have performed a minimum of 200 mammography examinations during the 24 months immediately preceding the date of the facility's annual inspection or the last day of the calendar quarter preceding the inspection or any date in between the two.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-rt-continuing-education",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(a)(2)(iii)",
+      "claim": "After the applicable anniversary, a radiologic technologist must have taught or completed at least 15 mammography CEUs in 36 months (at least 6 related to each mammographic modality used), using a facility-chosen date in the inspection window.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "the radiologic technologist shall have taught or completed at least 15 continuing education units in mammography during the 36 months immediately preceding the date of the facility's annual MQSA inspection or the last day of the calendar quarter preceding the inspection or any date in between the two.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-arrt-clinical-experience-link",
+      "sourceId": "src-arrt-clinical-experience-2025",
+      "locator": "ARRT Mammography Clinical Experience Requirements (2025) PDF — link only",
+      "claim": "ARRT mammography clinical experience requirements for eligibility/credentialing are published by ARRT and are separate from MQSA facility continuing-experience rules; consult the current ARRT document rather than treating MQSA exam counts as ARRT portfolio requirements.",
+      "scope": "Candidates pursuing ARRT mammography certification; not a substitute for MQSA facility compliance.",
+      "exceptions": "Exact case counts and documentation rules are copyrighted ARRT content and are not redistributed here.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-arrt-handbook-link",
+      "sourceId": "src-arrt-postprimary-handbook-2026",
+      "locator": "ARRT 2026 Postprimary Eligibility Pathway Handbook — link only",
+      "claim": "ARRT postprimary handbooks describe credential eligibility pathways and exam logistics; they do not replace MQSA personnel standards that facilities must meet for certification.",
+      "scope": "ARRT postprimary candidates.",
+      "exceptions": "Handbook text is copyrighted; use the official PDF for current eligibility details.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-consumer-def",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(k)",
+      "claim": "A consumer is an individual who chooses to comment or complain about a mammography examination, including the patient or a representative such as a family member or referring physician.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Consumer means an individual who chooses to comment or complain in reference to a mammography examination, including the patient or representative of the patient (e.g., family member or referring physician).",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-serious-complaint-def",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(c), (ss)",
+      "claim": "A serious complaint is a report of a serious adverse event; adverse events include poor image quality, failure to send reports within required timelines, and use of unqualified personnel.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Serious complaint means a report of a serious adverse event. ... Adverse events include but are not limited to: (1) Poor image quality; (2) Failure to send mammography reports within 30 days to the referring physician or in a timely manner to the self-referred patient; and (3) Use of personnel that do not meet the applicable requirements",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-facility-complaints",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(h)",
+      "claim": "Each facility must have a written documented system for collecting and resolving consumer complaints; keep each serious complaint record at least 3 years; give directions for filing unresolved serious complaints with the accreditation body; and report unresolved serious complaints to the accreditation body as specified.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Each facility shall: (1) Establish a written and documented system for collecting and resolving consumer complaints; (2) Maintain a record of each serious complaint received by the facility for at least 3 years from the date the complaint was received; (3) Provide the consumer with adequate directions for filing serious complaints with the facility's accreditation body if the facility is unable to resolve a serious complaint to the consumer's satisfaction; (4) Report unresolved serious complaints to the accreditation body in a manner and timeframe specified by the accreditation body.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-record-retention",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4)(i)",
+      "claim": "Original mammograms and reports are retained for the longest of: at least 5 years; at least 10 years if no additional mammograms of the patient are performed at the facility; or any longer period required by State or local law.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "for the longest of the following: a period of not less than 5 years, a period of not less than 10 years if no additional mammograms of the patient are performed at the facility, or a period, if any, mandated by State or local law.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-record-transfer",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4)(ii)",
+      "claim": "Upon request by or on behalf of the patient, the facility must transfer original mammograms and copies of reports to a medical institution, physician, healthcare provider, or the patient within 15 calendar days.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Upon request by or on behalf of the patient, a facility must permanently or temporarily transfer the original mammograms and copies of the patient's reports to a medical institution, a physician or health care provider of the patient, or to the patient within 15 calendar days.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-facility-ceases",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(c)(4) closing / ceasing provisions",
+      "claim": "If a facility ceases mammography, it must arrange continued access to records for the remaining retention period and notify its accreditation body and certification agency in writing of the arrangements; a facility that continues as a medical entity may retain records if it can meet the recordkeeping rules unless transfer is requested.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "If a facility ceases to perform mammography but continues to operate as a medical entity, and is able to satisfy the recordkeeping requirements of paragraphs (c)(4)(i) through (iv) of this section, it may choose to continue to retain the medical records rather than transfer them to another facility, unless such a transfer is requested by, or on behalf of, the patient. The facility must notify its accreditation body and certification agency in writing of the arrangements it has made",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-additional-review",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(j)(1)–(2)",
+      "claim": "If FDA believes mammography quality may present a serious risk to human health, the facility must provide clinical images and other information for additional mammography review; if FDA determines patients need notification, the facility must notify patients or their physicians and the public as directed.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "If FDA believes that mammography quality at a facility has been compromised and may present a serious risk to human health, the facility shall provide clinical images and other relevant information, as specified by FDA, for review by the accreditation body or other entity designated by FDA.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-qa-program-purpose",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(d)",
+      "claim": "Each facility must establish and maintain a quality assurance program to ensure the safety, reliability, clarity, and accuracy of mammography services performed at the facility.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Each facility shall establish and maintain a quality assurance program to ensure the safety, reliability, clarity, and accuracy of mammography services performed at the facility.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-digital-manufacturer-qc",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(6)",
+      "claim": "For image-receptor modalities other than screen-film (such as FFDM or DBT), the quality assurance program shall be substantially the same as the image-receptor manufacturer's recommended program, except that average glandular dose may not exceed the screen-film maximum.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "For systems with image receptor modalities other than screen-film, the quality assurance program shall be substantially the same as the quality assurance program recommended by the image receptor manufacturer, except that the maximum allowable dose shall not exceed the maximum allowable dose for screen-film systems in paragraph (e)(5)(vi) of this section.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-action-limits",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.2(b); 900.12(e)(8)",
+      "claim": "Action limits are the minimum and maximum acceptable values of a QA measurement; results outside action limits require identifying the source of the problem and taking corrective action within the timing rules in § 900.12(e)(8).",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "If the test results fall outside of the action limits, the source of the problem shall be identified and corrective actions shall be taken",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-corrective-timing",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(8)(ii)",
+      "claim": "For listed equipment QA tests (including daily/weekly processor and phantom tests, certain semiannual tests, compression device performance, dose, and other-modality manufacturer QC), corrective action must occur before any further examinations using the failed component; for all other tests in § 900.12(e), corrective action must occur within 30 days of the test date.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "(A) Before any further examinations are performed or any films are processed using a component of the mammography system that failed any of the tests described in paragraphs (e)(1), (e)(2), (e)(4)(i), (e)(4)(ii), (e)(4)(iii), (e)(5)(vi), (e)(6), or (e)(7) of this section; (B) Within 30 days of the test date for all other tests described in paragraph (e) of this section.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-dose-ceiling",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(vi), (e)(6); 900.2(uu)",
+      "claim": "Average glandular dose for a single craniocaudal view of an FDA-accepted phantom simulating a standard breast (4.2 cm, 50% glandular/50% adipose) shall not exceed 3.0 mGy per exposure; this ceiling also applies to non-screen-film modalities.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "The average glandular dose delivered during a single cranio-caudal view of an FDA-accepted phantom simulating a standard breast shall not exceed 3.0 milligray (mGy) (0.3 rad) per exposure.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-physicist-survey",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(9)",
+      "claim": "At least once a year, a medical physicist (or someone under a physicist's direct supervision) must survey the facility, including tests ensuring the facility meets annual equipment QA requirements and the weekly phantom image quality test requirement referenced in the regulations.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "At least once a year, each facility shall undergo a survey by a medical physicist or by an individual under the direct supervision of a medical physicist.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-equipment-evaluation",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(10)",
+      "claim": "A mammography equipment evaluation by a medical physicist (or under direct supervision) is required when a unit is newly installed, reassembled, or has major component changes/repairs; problems must be corrected before clinical use.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "These evaluations shall be used to determine whether the new or changed equipment meets the requirements of applicable standards in paragraphs (b) and (e) of this section. All problems shall be corrected before the new or changed equipment is put into service for examinations or film processing.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-qc-records-retention",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(d)(2)",
+      "claim": "QC records for required tests are kept until the next annual inspection is completed and FDA finds compliance, or until the test has been performed two additional times at the required frequency, whichever is longer.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "These quality control records shall be kept for each test specified in paragraphs (e) and (f) of this section until the next annual inspection has been completed and FDA has determined that the facility is in compliance with the quality assurance requirements or until the test has been performed two additional times at the required frequency, whichever is longer.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-sf-frequency-structure",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(1)–(4)",
+      "claim": "Part 900 encodes a screen-film equipment QC frequency structure (daily processor performance; weekly phantom image quality; quarterly fixer retention and repeat analysis; semiannual darkroom fog and other listed tests). Modern digital systems instead follow manufacturer (or FDA-accepted alternative) QC under (e)(6), while still meeting federal ceilings and corrective-action timing.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Daily quality control tests. Film processors... A processor performance test shall be performed on each day that clinical films are processed... Weekly quality control tests. Facilities with screen-film systems shall perform an image quality evaluation test, using an FDA-approved phantom, at least weekly.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-acr-dmqc-link",
+      "sourceId": "src-acr-dmqc-manual",
+      "locator": "ACR Digital Mammography QC Manual resources page — link only",
+      "claim": "FDA has determined facilities may use the ACR Digital Mammography QC Manual as an alternative standard for QC of 2D and DBT systems; detailed procedures and pass/fail criteria remain ACR copyrighted material and are not redistributed in Mammo.",
+      "scope": "Facilities using the ACR DMQC alternative standard for digital mammography QC.",
+      "exceptions": "Do not redistribute manual procedures, worksheets, or device-specific thresholds.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-inspection-scope",
+      "sourceId": "src-fda-mqsa-inspection-resources",
+      "locator": "FDA MQSA Inspection Resources page",
+      "claim": "Annual MQSA inspections assess items FDA considers most directly related to performance and quality, including equipment performance, QA/QC records and tests, technologist tests, the medical physicist's annual survey, mammography equipment evaluations when applicable, personnel qualification records, medical reports and lay summaries, and medical audit and outcome analysis records.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "Under MQSA, each facility location will be inspected at least annually for the following: Equipment performance; Quality Assurance (QA) records; Quality Control (QC) records and tests; Technologist tests; Medical physicist's annual survey report; Mammography equipment evaluations, if applicable; Personnel qualification records; Mammography medical reports and lay summaries; Medical audit and outcome analysis records.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-fr-amendments-theme",
+      "sourceId": "src-fr-88-15126",
+      "locator": "88 FR 15126 (March 10, 2023), abstract / executive purpose; effective 2024-09-10",
+      "claim": "The March 10, 2023 MQSA final rule updates mammography regulations to strengthen communication of healthcare information, support more informed decision-making by patients and providers, help ensure availability of qualified personnel, and bolster the medical outcomes audit, among other modernizations; the rule's effective date is September 10, 2024.",
+      "scope": "U.S. MQSA-certified mammography facilities.",
+      "excerpt": "The Food and Drug Administration (FDA, Agency, or we) is issuing a final rule to update the mammography regulations that were issued under the Mammography Quality Standards Act of 1992 (MQSA) and the Federal Food, Drug, and Cosmetic Act (FD&C Act). We are issuing updates to modernize the regulations by incorporating current science and mammography best practices.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-qcr-nci-quality-context",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet (public education context)",
+      "claim": "NCI explains mammography as an x-ray exam used to look for breast cancer and emphasizes that image quality and technique affect what can be seen; this public education context supports why continuous clinical image quality matters to patients without supplying facility QC procedures.",
+      "scope": "Patient-facing public education; not a substitute for MQSA QC requirements.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR/NCI sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }

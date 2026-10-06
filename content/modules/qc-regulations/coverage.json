@@ -1,0 +1,229 @@
+{
+  "moduleId": "mod-qc-regulations",
+  "version": "2026-10-06.1",
+  "note": "Module-local coverage for Stage 2 QC/regulations depth. Extends beyond mod-mqsa without rewriting MQSA lessons. Shared curriculum.json topic.moduleId fields left unchanged to avoid merge conflicts.",
+  "objectiveCoverage": [
+    {
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "lessonIds": [],
+      "questionIds": [
+        "q-qcr-014"
+      ],
+      "cardIds": [
+        "card-qcr-eight"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-mqsa-certification",
+      "lessonIds": [
+        "les-qcr-inspection-bundle"
+      ],
+      "questionIds": [
+        "q-qcr-042",
+        "q-qcr-043",
+        "q-qcr-044"
+      ],
+      "cardIds": [
+        "card-qcr-inspection-list",
+        "card-qcr-fr-effective"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "lessonIds": [
+        "les-qcr-qc-framework"
+      ],
+      "questionIds": [
+        "q-qcr-033",
+        "q-qcr-034",
+        "q-qcr-035",
+        "q-qcr-036",
+        "q-qcr-037",
+        "q-qcr-041",
+        "q-qcr-047"
+      ],
+      "cardIds": [
+        "card-qcr-qa-purpose",
+        "card-qcr-digital-qc",
+        "card-qcr-before-exams",
+        "card-qcr-30days",
+        "card-qcr-dose-ceiling"
+      ],
+      "visualIds": [
+        "vis-qcr-timing-bucket"
+      ]
+    },
+    {
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "lessonIds": [
+        "les-qcr-equip-purpose",
+        "les-qcr-equip-feedback",
+        "les-qcr-equip-periodic"
+      ],
+      "questionIds": [
+        "q-qcr-001",
+        "q-qcr-002",
+        "q-qcr-003",
+        "q-qcr-004",
+        "q-qcr-005",
+        "q-qcr-006",
+        "q-qcr-007",
+        "q-qcr-009",
+        "q-qcr-010",
+        "q-qcr-011",
+        "q-qcr-012",
+        "q-qcr-013",
+        "q-qcr-015",
+        "q-qcr-045",
+        "q-qcr-046"
+      ],
+      "cardIds": [
+        "card-qcr-equip-not-new-law",
+        "card-qcr-ciq-continue",
+        "card-qcr-equip-three",
+        "card-qcr-feedback-elements",
+        "card-qcr-sop-optional",
+        "card-qcr-ip-decides-poor",
+        "card-qcr-periodic-min",
+        "card-qcr-periodic-docs",
+        "card-qcr-not-reject",
+        "card-qcr-not-daily-interp",
+        "card-qcr-all-active",
+        "card-qcr-sample-size"
+      ],
+      "visualIds": [
+        "vis-qcr-equip-focus"
+      ]
+    },
+    {
+      "objectiveId": "obj-mqsa-qa-roles",
+      "lessonIds": [
+        "les-qcr-equip-lip"
+      ],
+      "questionIds": [
+        "q-qcr-008",
+        "q-qcr-016",
+        "q-qcr-017",
+        "q-qcr-018",
+        "q-qcr-019",
+        "q-qcr-040"
+      ],
+      "cardIds": [
+        "card-qcr-lip-most-responsible",
+        "card-qcr-lip-paths",
+        "card-qcr-lip-level2",
+        "card-qcr-qc-record-keep"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-mqsa-records-transfer",
+      "lessonIds": [
+        "les-qcr-records-lifecycle"
+      ],
+      "questionIds": [
+        "q-qcr-028",
+        "q-qcr-029",
+        "q-qcr-030",
+        "q-qcr-031",
+        "q-qcr-032"
+      ],
+      "cardIds": [
+        "card-qcr-retain-longest",
+        "card-qcr-10yr",
+        "card-qcr-transfer-15",
+        "card-qcr-amr"
+      ],
+      "visualIds": [
+        "vis-qcr-retention-rule"
+      ]
+    },
+    {
+      "objectiveId": "obj-mqsa-required-policies",
+      "lessonIds": [
+        "les-qcr-complaints"
+      ],
+      "questionIds": [
+        "q-qcr-024",
+        "q-qcr-025",
+        "q-qcr-026",
+        "q-qcr-027",
+        "q-qcr-048"
+      ],
+      "cardIds": [
+        "card-qcr-consumer",
+        "card-qcr-serious-def",
+        "card-qcr-complaint-3yr",
+        "card-qcr-complaint-ab"
+      ],
+      "visualIds": [
+        "vis-qcr-complaint-step"
+      ]
+    },
+    {
+      "objectiveId": "obj-mqsa-rt-continuing",
+      "lessonIds": [
+        "les-qcr-personnel-layers"
+      ],
+      "questionIds": [
+        "q-qcr-020",
+        "q-qcr-021",
+        "q-qcr-022",
+        "q-qcr-023"
+      ],
+      "cardIds": [
+        "card-qcr-mqsa-200",
+        "card-qcr-mqsa-15ceu",
+        "card-qcr-arrt-separate"
+      ],
+      "visualIds": []
+    },
+    {
+      "objectiveId": "obj-qc-physicist-survey",
+      "lessonIds": [
+        "les-qcr-qc-frequency"
+      ],
+      "questionIds": [
+        "q-qcr-038",
+        "q-qcr-039"
+      ],
+      "cardIds": [
+        "card-qcr-phys-survey",
+        "card-qcr-mee"
+      ],
+      "visualIds": []
+    }
+  ],
+  "gapsNoted": [
+    {
+      "objectiveId": "obj-qc-phantom",
+      "note": "Technologist phantom procedure steps and pass/fail scoring stay ACR DMQC / manufacturer manual (link-only). Module teaches principles and federal corrective-action timing only; detailed performance items remain needs_source / requiresQualifiedReview and out of verified pools."
+    },
+    {
+      "objectiveId": "obj-qc-compression-tests",
+      "note": "Compression thickness indicator and force test procedures/criteria are ACR/manufacturer detail; not redistributed. Federal compression-device performance limits remain in MQSA module evidence."
+    },
+    {
+      "objectiveId": "obj-qc-visual-checklist",
+      "note": "Visual checklist contents are manual-specific; covered only at category/principle level."
+    },
+    {
+      "objectiveId": "obj-qc-monitors-viewing",
+      "note": "SMPTE/TG18 and monitor calibration procedures are link-only / qualified-review territory; not expanded into scored verified content."
+    },
+    {
+      "objectiveId": "obj-qc-repeat-analysis",
+      "note": "Taught that repeat analysis is QC and is NOT a substitute for EQUIP periodic clinical image review; full calculation worksheets remain ACR/manual detail."
+    },
+    {
+      "objectiveId": "obj-qc-detector-calibration",
+      "note": "Manufacturer detector calibration purpose mentioned at principle level only; device steps not redistributed."
+    },
+    {
+      "objectiveId": "obj-qc-physicist-tests",
+      "note": "Individual physicist test methods (MTF, SNR/CNR, HVL, etc.) need qualified review and ACR/physicist sources; only survey/evaluation timing principles covered here."
+    }
+  ]
+}

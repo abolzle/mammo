@@ -1,0 +1,510 @@
+{
+  "id": "mod-qc-regulations",
+  "version": "1.0.0-beta.1",
+  "title": "QC principles and regulations depth",
+  "summary": "Goes beyond the MQSA survey module: EQUIP inspection feedback loops, personnel layers (MQSA vs ARRT link-only), consumer complaints and records lifecycle under 21 CFR 900, and technologist-level QC principles\u2014categories, frequency rationale, and corrective-action timing\u2014without redistributing ACR Digital Mammography QC Manual procedures.",
+  "topicIds": [
+    "top-ip-accreditation",
+    "top-ip-mqsa-personnel",
+    "top-ip-mqsa-records",
+    "top-ip-mqsa-audit-policies",
+    "top-ip-qc-technologist",
+    "top-ip-qc-physicist",
+    "top-ip-image-evaluation"
+  ],
+  "assets": [
+    {
+      "id": "asset-qcr-equip-three",
+      "kind": "svg_schematic",
+      "title": "Three EQUIP inspection focus areas",
+      "src": "/assets/qc-regulations/equip-three-questions.svg",
+      "width": 640,
+      "height": 280,
+      "alt": "Three labeled boxes: corrective action with IP feedback; periodic sample review of each active RT and IP; LIP oversight of QA/QC frequency and corrective actions.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-qcr-equip-q1",
+        "ev-qcr-equip-q2",
+        "ev-qcr-equip-q3"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-qcr-complaint-path",
+      "kind": "svg_schematic",
+      "title": "Serious consumer complaint path",
+      "src": "/assets/qc-regulations/complaint-path.svg",
+      "width": 640,
+      "height": 260,
+      "alt": "Three-step schematic: facility written system; directions to accreditation body if unresolved; accreditation body receives unresolved serious complaints. Notes 3-year serious-complaint retention.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-qcr-facility-complaints",
+        "ev-qcr-consumer-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-qcr-retention-longest",
+      "kind": "svg_schematic",
+      "title": "Retention chooses the longest rule",
+      "src": "/assets/qc-regulations/retention-longest.svg",
+      "width": 640,
+      "height": 260,
+      "alt": "Three boxes labeled 5 year federal floor, 10 year if no later mammogram at the facility, and longer State or local mandate. Caption says keep the longest.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-qcr-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "asset-qcr-qc-timing",
+      "kind": "svg_schematic",
+      "title": "Two QC corrective-action timing buckets",
+      "src": "/assets/qc-regulations/qc-timing-buckets.svg",
+      "width": 640,
+      "height": 260,
+      "alt": "Two boxes: before further exams for listed safety-critical tests including phantom, compression, dose, and digital manufacturer QC; within 30 days for other equipment QA tests.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-qcr-corrective-timing",
+        "ev-qcr-action-limits"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "visuals": [
+    {
+      "id": "vis-qcr-equip-focus",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "assetId": "asset-qcr-equip-three",
+      "estSeconds": 45,
+      "title": "Which EQUIP focus is LIP oversight?",
+      "prompt": "Select the EQUIP focus area that covers lead interpreting physician review of QA/QC test frequency and corrective-action appropriateness.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Box 1, left: Corrective action",
+          "x": 24,
+          "y": 60,
+          "w": 180,
+          "h": 180,
+          "revealLabel": "Corrective action / IP feedback"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Box 2, center: Periodic review",
+          "x": 230,
+          "y": 60,
+          "w": 180,
+          "h": 180,
+          "revealLabel": "Periodic sample review"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Box 3, right: LIP oversight",
+          "x": 436,
+          "y": 60,
+          "w": 180,
+          "h": 180,
+          "revealLabel": "LIP oversight of QA/QC"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "That box is the poor-image corrective-action / IP feedback focus.",
+        "b": "That box is the periodic sample clinical image review focus.",
+        "c": "Correct. LIP oversight is the third EQUIP focus: QA/QC frequency and corrective-action review."
+      },
+      "explanation": "EQUIP's three inspection foci are corrective action with IP feedback, periodic sample clinical image review, and LIP oversight of QA/QC records including test frequency and corrective-action appropriateness.",
+      "accessibilityNote": "Boxes are announced by number and short title; details appear after answering.",
+      "evidenceIds": [
+        "ev-qcr-equip-q3",
+        "ev-qcr-equip-q1",
+        "ev-qcr-equip-q2"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-qcr-complaint-step",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-required-policies",
+      "assetId": "asset-qcr-complaint-path",
+      "estSeconds": 40,
+      "title": "Where do unresolved serious complaints go?",
+      "prompt": "A serious complaint cannot be resolved at the facility. Select the next regulatory destination the consumer must be directed toward.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Step 1, facility box",
+          "x": 24,
+          "y": 60,
+          "w": 160,
+          "h": 100,
+          "revealLabel": "Facility written system"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Step 2, unresolved box",
+          "x": 236,
+          "y": 60,
+          "w": 168,
+          "h": 100,
+          "revealLabel": "Directions to accreditation body"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Step 3, accreditation body box",
+          "x": 456,
+          "y": 60,
+          "w": 160,
+          "h": 100,
+          "revealLabel": "Accreditation body"
+        }
+      ],
+      "correctHotspotId": "c",
+      "feedback": {
+        "a": "The facility tries first, but the question asks where unresolved serious complaints are directed.",
+        "b": "This step is the instruction to file with the accreditation body\u2014the destination itself is the accreditation body.",
+        "c": "Correct. Unresolved serious complaints are filed with the facility's accreditation body, and the facility reports them there."
+      },
+      "explanation": "\u00a7 900.12(h) requires the facility to give directions for filing unresolved serious complaints with its accreditation body and to report those unresolved complaints to the body.",
+      "accessibilityNote": "Steps are named; selecting any step is keyboard accessible.",
+      "evidenceIds": [
+        "ev-qcr-facility-complaints"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-qcr-retention-rule",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "assetId": "asset-qcr-retention-longest",
+      "estSeconds": 40,
+      "title": "Which retention rule applies?",
+      "prompt": "A patient had only one mammogram at your facility and never returned. State law requires 7 years. Select the federal box that forces a longer retention than the 5-year floor.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "5 year federal floor",
+          "x": 40,
+          "y": 70,
+          "w": 160,
+          "h": 110,
+          "revealLabel": "5-year floor \u2014 not enough alone here"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "10 year if no later mammogram",
+          "x": 240,
+          "y": 70,
+          "w": 160,
+          "h": 110,
+          "revealLabel": "10-year rule applies when no later mammo at facility"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "State or local longer mandate",
+          "x": 440,
+          "y": 70,
+          "w": 160,
+          "h": 110,
+          "revealLabel": "State 7 years is shorter than 10 here"
+        }
+      ],
+      "correctHotspotId": "b",
+      "feedback": {
+        "a": "Five years is the federal floor, but with no later mammogram the 10-year rule applies.",
+        "b": "Correct. No additional mammograms at the facility triggers the at-least-10-years rule, which is longer than both 5 and this State's 7.",
+        "c": "State law matters when it is longer; here 7 years is shorter than the federal 10-year no-return rule."
+      },
+      "explanation": "Retention uses the longest of 5 years, 10 years if no later mammograms at the facility, or a longer State/local mandate.",
+      "accessibilityNote": "Boxes are labeled by duration rule.",
+      "evidenceIds": [
+        "ev-qcr-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "vis-qcr-timing-bucket",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "assetId": "asset-qcr-qc-timing",
+      "estSeconds": 45,
+      "title": "Which timing bucket for a failed phantom test?",
+      "prompt": "A required phantom image QC test is outside action limits. Select the corrective-action timing bucket that applies before patients may be imaged on the failed component.",
+      "hotspots": [
+        {
+          "id": "a",
+          "neutralLabel": "Left box: Before further exams",
+          "x": 40,
+          "y": 60,
+          "w": 260,
+          "h": 150,
+          "revealLabel": "Before further examinations"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Right box: Within 30 days",
+          "x": 340,
+          "y": 60,
+          "w": 260,
+          "h": 150,
+          "revealLabel": "Within 30 days"
+        }
+      ],
+      "correctHotspotId": "a",
+      "feedback": {
+        "a": "Correct. Phantom image testing is on the before-further-examinations list in \u00a7 900.12(e)(8).",
+        "b": "Thirty days applies to other equipment QA tests that are not on the before-further-exams list."
+      },
+      "explanation": "\u00a7 900.12(e)(8) splits failures into before-further-exams (including phantom, compression device, dose, and digital manufacturer QC) versus within 30 days for other listed equipment tests.",
+      "accessibilityNote": "Buckets are named by timing rule.",
+      "evidenceIds": [
+        "ev-qcr-corrective-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "term": "EQUIP",
+      "definition": "Enhancing Quality Using the Inspection Program: FDA's addition of annual inspection questions on clinical image corrective action, periodic sample image review, and lead interpreting physician oversight of QA/QC.",
+      "evidenceIds": [
+        "ev-qcr-equip-purpose",
+        "ev-qcr-equip-q1"
+      ]
+    },
+    {
+      "term": "Periodic clinical image quality review",
+      "definition": "Documented review, at least annually since the last inspection, of image-quality attributes on a sample of mammograms from each active technologist and each active interpreting physician.",
+      "evidenceIds": [
+        "ev-qcr-equip-periodic-annual",
+        "ev-qcr-equip-q2"
+      ]
+    },
+    {
+      "term": "Action limits",
+      "definition": "Minimum and maximum acceptable values for a quality assurance measurement; results outside them require identifying the problem and correcting it on the required timeline.",
+      "evidenceIds": [
+        "ev-qcr-action-limits"
+      ]
+    },
+    {
+      "term": "Serious complaint",
+      "definition": "A report of a serious adverse event (for example poor image quality, late required reports, or unqualified personnel).",
+      "evidenceIds": [
+        "ev-qcr-serious-complaint-def"
+      ]
+    },
+    {
+      "term": "Consumer (MQSA)",
+      "definition": "Anyone who comments or complains about a mammography examination, including the patient or a representative such as a family member or referring physician.",
+      "evidenceIds": [
+        "ev-qcr-consumer-def"
+      ]
+    },
+    {
+      "term": "Manufacturer QC (digital)",
+      "definition": "For FFDM/DBT and other non-screen-film receptors, MQSA requires a QA program substantially the same as the image-receptor manufacturer's recommendations, while still obeying the federal phantom dose ceiling.",
+      "evidenceIds": [
+        "ev-qcr-digital-manufacturer-qc"
+      ]
+    },
+    {
+      "term": "Mammography equipment evaluation",
+      "definition": "Physicist assessment after installation, reassembly, or major repair/change; problems must be corrected before clinical use.",
+      "evidenceIds": [
+        "ev-qcr-equipment-evaluation"
+      ]
+    },
+    {
+      "term": "Additional mammography review",
+      "definition": "FDA-directed review of clinical images and related information when quality may present a serious risk to human health, which can lead to required patient or public notification.",
+      "evidenceIds": [
+        "ev-qcr-additional-review"
+      ]
+    },
+    {
+      "term": "ACR DMQC Manual (link-only)",
+      "definition": "An FDA-accepted alternative standard some facilities use for digital mammography QC procedures; Mammo links to it and does not redistribute its worksheets or pass/fail tables.",
+      "evidenceIds": [
+        "ev-qcr-acr-dmqc-link"
+      ]
+    }
+  ]
+}

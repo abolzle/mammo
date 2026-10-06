@@ -834,10 +834,15 @@
       "publishedOrEffective": "FAQ updates noted through 2018 in document",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "PDF fetched 2026-10-06 via fda.gov/media/101293/download. Confirms eight clinical image attributes and that CC/MLO diagnostic views may be used in periodic review.",
+      "retrievalNote": "PDF fetched 2026-10-06 via fda.gov/media/101293/download. Confirms eight clinical image attributes; periodic review at least annually by default; written documentation required; all active RTs/IPs included; repeat analysis is not a substitute; LIP role and citation pathway details.",
       "sections": [
         "Q2.12 AB standards for image quality attributes",
-        "Q2.27 Screening vs diagnostic studies in periodic review"
+        "Q2.27 Screening vs diagnostic studies in periodic review",
+        "Q1 corrective action FAQ",
+        "Q2 periodic review FAQ",
+        "Q2.12 eight attributes",
+        "Q3 LIP oversight",
+        "Compliance Pathway"
       ],
       "rights": {
         "status": "public_domain",
@@ -871,6 +876,105 @@
         "basis": "ACR Learning Network copyrighted support article; link only."
       },
       "kind": "professional_guideline"
+    },
+    {
+      "id": "src-fda-equip-info",
+      "title": "MQSA Important Information about the EQUIP Initiative",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/media/101641/download",
+      "publishedOrEffective": "EQUIP inspection questions began with 2017 inspections",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "PDF fetched 2026-10-06. States the three EQUIP main questions, cites 21 CFR 900.12(i), (d)(1)(ii)(A), and (d)(2), and explains IP feedback plus documenting corrective-action effectiveness.",
+      "sections": [
+        "MQSA Clinical Image Quality-Related Regulations",
+        "Quality Assurance — Clinical Image Corrective Action",
+        "Clinical Image Quality",
+        "Quality Control"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-equip-lip-attestation",
+      "title": "EQUIP Quality Assurance / Quality Control Attestation by the Lead Interpreting Physician (LIP)",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/media/101655/download",
+      "publishedOrEffective": "EQUIP inspection program form",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "PDF fetched 2026-10-06. Lists three inspection-day pathways for LIP oversight evidence and states that missing all three yields a Level 2 citation.",
+      "sections": [
+        "LIP oversight inspection questions",
+        "Lead Interpreting Physician (LIP) QA/QC Attestation"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-mqsa-inspection-resources",
+      "title": "MQSA Inspection Resources",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mammography-quality-standards-act-mqsa-and-mqsa-program/mqsa-inspection-resources",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Page summary retrieved via search/snippet and cross-checked against FDA MQSA program language on 2026-10-06: annual inspection scope includes equipment, QA/QC records, technologist tests, physicist survey, personnel, reports/lay summaries, and medical audit records.",
+      "sections": [
+        "What MQSA requires",
+        "What inspectors assess annually"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-annual-inspection-help",
+      "title": "Annual MQSA Inspection: What Facilities Can Do to Help",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mqsa-insights/annual-mqsa-inspection-what-facilities-can-do-help",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Live page timed out for full fetch; content confirmed via search extract on 2026-10-06 describing physicist survey timing window language, EQUIP documentation checklist items, and QC data expectations including manufacturer or ACR DM QC alternative standard.",
+      "sections": [
+        "Physicist survey materials",
+        "Clinical Image Quality (EQUIP)",
+        "QC Test Data"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
     }
   ]
 }

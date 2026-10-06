@@ -1,0 +1,1192 @@
+{
+  "cards": [
+    {
+      "id": "card-qcr-equip-not-new-law",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Did EQUIP create a separate new set of image-quality statutes?",
+      "answer": "No. It added annual inspection questions emphasizing existing clinical image quality and related QA duties.",
+      "evidenceIds": [
+        "ev-qcr-equip-purpose"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-ciq-continue",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "What does \u00a7 900.12(i) require of clinical images at a certified facility?",
+      "answer": "They must continue to comply with the clinical image quality standards of the facility's accreditation body.",
+      "evidenceIds": [
+        "ev-qcr-ciq-standard"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-equip-three",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Name the three EQUIP inspection focus areas.",
+      "answer": "Corrective action with IP feedback; periodic sample clinical image review; LIP oversight of QA/QC frequency and corrective actions.",
+      "evidenceIds": [
+        "ev-qcr-equip-q1",
+        "ev-qcr-equip-q2",
+        "ev-qcr-equip-q3"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-feedback-elements",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "What two elements must a poor-image corrective-action system include under EQUIP?",
+      "answer": "Ongoing IP feedback to RTs or designated staff, and documentation of corrective actions plus their effectiveness.",
+      "evidenceIds": [
+        "ev-qcr-equip-q1"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-sop-optional",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Must the EQUIP corrective-action system be a written SOP?",
+      "answer": "No. A verbal explanation can suffice if feedback and documented effectiveness mechanisms exist.",
+      "evidenceIds": [
+        "ev-qcr-equip-q1-no-written-sop"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-ip-decides-poor",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Who determines ongoing poor clinical image quality for the EQUIP corrective-action question?",
+      "answer": "The interpreting physician.",
+      "evidenceIds": [
+        "ev-qcr-equip-q1-ip-decides"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-periodic-min",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "What is the default minimum frequency for periodic clinical image quality review under EQUIP?",
+      "answer": "At least annually (a review documented since the last inspection); more frequent review is encouraged.",
+      "evidenceIds": [
+        "ev-qcr-equip-periodic-annual"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-periodic-docs",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Can a facility satisfy periodic EQUIP image review with a verbal discussion alone?",
+      "answer": "No. Written, dated documentation is required.",
+      "evidenceIds": [
+        "ev-qcr-equip-periodic-docs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-not-reject",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Does repeat/reject analysis count as EQUIP periodic clinical image review?",
+      "answer": "No.",
+      "evidenceIds": [
+        "ev-qcr-equip-not-repeat-analysis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-not-daily-interp",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Does reviewing every image only at interpretation time satisfy the periodic sample review?",
+      "answer": "No.",
+      "evidenceIds": [
+        "ev-qcr-equip-not-daily-interp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-all-active",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Must diagnostic-only active RTs and IPs be included in periodic EQUIP review?",
+      "answer": "Yes. All active RTs and IPs must be included.",
+      "evidenceIds": [
+        "ev-qcr-equip-all-active"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-eight",
+      "revision": 1,
+      "objectiveId": "obj-ip-image-quality-attributes",
+      "estSeconds": 20,
+      "prompt": "List the eight clinical image quality attributes used in accreditation/EQUIP review.",
+      "answer": "Positioning, compression, exposure level, contrast, sharpness, noise, artifacts, examination identification.",
+      "evidenceIds": [
+        "ev-qcr-eight-attributes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-sample-size",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-review-equip",
+      "estSeconds": 20,
+      "prompt": "Who sets the EQUIP periodic review sample size?",
+      "answer": "The facility; FDA does not mandate a specific number.",
+      "evidenceIds": [
+        "ev-qcr-equip-sample-size"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-lip-most-responsible",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-qa-roles",
+      "estSeconds": 20,
+      "prompt": "How does EQUIP describe the LIP's role for image quality?",
+      "answer": "As the individual most responsible for ensuring continuous clinical image quality (without conferring supervisory power over other IPs).",
+      "evidenceIds": [
+        "ev-qcr-lip-role"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-lip-paths",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-qa-roles",
+      "estSeconds": 20,
+      "prompt": "Name three inspection-day ways to evidence LIP QA/QC oversight.",
+      "answer": "Signed LIP attestation; LIP verbal description; LIP-signed written procedure with required elements.",
+      "evidenceIds": [
+        "ev-qcr-lip-attestation-paths"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-lip-level2",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-qa-roles",
+      "estSeconds": 20,
+      "prompt": "What citation level results if none of the three LIP oversight evidence paths is available?",
+      "answer": "Level 2.",
+      "evidenceIds": [
+        "ev-qcr-lip-attestation-paths"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-mqsa-200",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-rt-continuing",
+      "estSeconds": 20,
+      "prompt": "MQSA continuing experience minimum for technologists?",
+      "answer": "At least 200 mammography examinations in 24 months (after the applicable anniversary), using the facility-chosen inspection-window date.",
+      "evidenceIds": [
+        "ev-qcr-rt-continuing-experience"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-mqsa-15ceu",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-rt-continuing",
+      "estSeconds": 20,
+      "prompt": "MQSA continuing education minimum for technologists?",
+      "answer": "At least 15 mammography CEUs in 36 months, with at least 6 related to each modality used.",
+      "evidenceIds": [
+        "ev-qcr-rt-continuing-education"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-arrt-separate",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-rt-continuing",
+      "estSeconds": 20,
+      "prompt": "Are ARRT clinical experience requirements the same document as MQSA continuing experience?",
+      "answer": "No. ARRT eligibility documents are separate and should be consulted via official ARRT links; they do not replace facility MQSA personnel records.",
+      "evidenceIds": [
+        "ev-qcr-arrt-clinical-experience-link",
+        "ev-qcr-arrt-handbook-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-consumer",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-required-policies",
+      "estSeconds": 20,
+      "prompt": "Who can be an MQSA 'consumer' for complaints?",
+      "answer": "Anyone commenting or complaining about an exam, including the patient or a representative such as family or a referring physician.",
+      "evidenceIds": [
+        "ev-qcr-consumer-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-serious-def",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-required-policies",
+      "estSeconds": 20,
+      "prompt": "What is a serious complaint?",
+      "answer": "A report of a serious adverse event.",
+      "evidenceIds": [
+        "ev-qcr-serious-complaint-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-complaint-3yr",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-required-policies",
+      "estSeconds": 20,
+      "prompt": "How long must a facility keep each serious complaint record?",
+      "answer": "At least 3 years from the date the complaint was received.",
+      "evidenceIds": [
+        "ev-qcr-facility-complaints"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-complaint-ab",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-required-policies",
+      "estSeconds": 20,
+      "prompt": "If a serious complaint stays unresolved, where must the consumer be directed?",
+      "answer": "To file with the facility's accreditation body; the facility also reports unresolved serious complaints to that body.",
+      "evidenceIds": [
+        "ev-qcr-facility-complaints"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-retain-longest",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 20,
+      "prompt": "How does MQSA choose among 5-year, 10-year, and State retention rules?",
+      "answer": "Keep originals/reports for the longest applicable period.",
+      "evidenceIds": [
+        "ev-qcr-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-10yr",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 20,
+      "prompt": "When does the at-least-10-year federal retention rule apply?",
+      "answer": "When no additional mammograms of the patient are performed at the facility.",
+      "evidenceIds": [
+        "ev-qcr-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-transfer-15",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 20,
+      "prompt": "How quickly must a facility transfer originals/copies after a proper request?",
+      "answer": "Within 15 calendar days.",
+      "evidenceIds": [
+        "ev-qcr-record-transfer"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-amr",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-records-transfer",
+      "estSeconds": 20,
+      "prompt": "What is additional mammography review under \u00a7 900.12(j)?",
+      "answer": "FDA-directed review of clinical images and related information when quality may present a serious risk to human health, potentially leading to required notification.",
+      "evidenceIds": [
+        "ev-qcr-additional-review"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-qa-purpose",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "estSeconds": 20,
+      "prompt": "What four outcomes must the facility QA program ensure?",
+      "answer": "Safety, reliability, clarity, and accuracy of mammography services.",
+      "evidenceIds": [
+        "ev-qcr-qa-program-purpose"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-digital-qc",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "estSeconds": 20,
+      "prompt": "For FFDM/DBT, whose QC program must facility QA substantially follow?",
+      "answer": "The image-receptor manufacturer's recommended program (or an FDA-accepted alternative such as ACR DMQC), while still obeying the federal dose ceiling.",
+      "evidenceIds": [
+        "ev-qcr-digital-manufacturer-qc",
+        "ev-qcr-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-before-exams",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "estSeconds": 20,
+      "prompt": "Name the stricter corrective-action timing bucket for listed critical QC failures.",
+      "answer": "Correct before any further examinations using the failed component.",
+      "evidenceIds": [
+        "ev-qcr-corrective-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-30days",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "estSeconds": 20,
+      "prompt": "What is the corrective-action deadline for other \u00a7 900.12(e) tests not on the before-exams list?",
+      "answer": "Within 30 days of the test date.",
+      "evidenceIds": [
+        "ev-qcr-corrective-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-dose-ceiling",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-equipment-qc",
+      "estSeconds": 20,
+      "prompt": "What is the federal phantom average glandular dose ceiling for a standard-breast CC view?",
+      "answer": "3.0 mGy per exposure.",
+      "evidenceIds": [
+        "ev-qcr-dose-ceiling"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-phys-survey",
+      "revision": 1,
+      "objectiveId": "obj-qc-physicist-survey",
+      "estSeconds": 20,
+      "prompt": "How often must a facility undergo a medical physicist survey?",
+      "answer": "At least once a year.",
+      "evidenceIds": [
+        "ev-qcr-physicist-survey"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-mee",
+      "revision": 1,
+      "objectiveId": "obj-qc-physicist-survey",
+      "estSeconds": 20,
+      "prompt": "When is a mammography equipment evaluation required?",
+      "answer": "After new installation, reassembly, or major component change/repair\u2014and problems must be fixed before clinical use.",
+      "evidenceIds": [
+        "ev-qcr-equipment-evaluation"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-qc-record-keep",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-qa-roles",
+      "estSeconds": 20,
+      "prompt": "How long are QC test records retained?",
+      "answer": "Until the next annual inspection finds compliance, or until the test has been performed two additional times at the required frequency\u2014whichever is longer.",
+      "evidenceIds": [
+        "ev-qcr-qc-records-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-inspection-list",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-certification",
+      "estSeconds": 20,
+      "prompt": "Give three categories FDA lists among annual inspection assessments.",
+      "answer": "Examples: equipment performance; QA/QC records/tests; physicist survey; personnel qualifications; reports/lay summaries; medical audit records; EQUIP clinical image systems.",
+      "evidenceIds": [
+        "ev-qcr-inspection-scope"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-qcr-fr-effective",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-certification",
+      "estSeconds": 20,
+      "prompt": "What is the effective date of the March 10, 2023 MQSA final rule amendments?",
+      "answer": "September 10, 2024.",
+      "evidenceIds": [
+        "ev-qcr-fr-amendments-theme"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}

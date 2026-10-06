@@ -1,0 +1,3134 @@
+{
+  "questions": [
+    {
+      "id": "q-qcr-001",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-equip-purpose",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "What did EQUIP primarily change about clinical image quality oversight?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It added annual inspection questions emphasizing existing clinical image quality regulations and related QA duties.",
+          "rationale": "Correct. EQUIP put continuous image-quality duties into the inspection program."
+        },
+        {
+          "id": "b",
+          "text": "It replaced accreditation clinical image review entirely.",
+          "rationale": "Accreditation clinical image review continues; EQUIP adds inspection emphasis between those reviews."
+        },
+        {
+          "id": "c",
+          "text": "It created a new optional State-only quality program.",
+          "rationale": "EQUIP is an FDA inspection initiative under MQSA, not an optional State-only program."
+        },
+        {
+          "id": "d",
+          "text": "It removed lead interpreting physician responsibilities.",
+          "rationale": "EQUIP highlights LIP responsibilities rather than removing them."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "EQUIP added inspection questions about existing clinical image quality rules so continuous quality is checked annually.",
+      "variants": {
+        "simpler": "EQUIP made inspectors ask every year about clinical image quality systems that already existed in the regulations.",
+        "example": "Think of EQUIP as a spotlight on continuous quality, not a brand-new statute book."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-purpose",
+        "ev-qcr-ciq-standard"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-002",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-ciq-continue",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under \u00a7 900.12(i), clinical images from a certified facility must continue to comply with which standards?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The clinical image quality standards established by the facility's accreditation body",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only manufacturer marketing specifications",
+          "rationale": "Manufacturer specs may inform QC, but \u00a7 900.12(i) points to accreditation-body clinical image standards."
+        },
+        {
+          "id": "c",
+          "text": "ARRT task inventory scoring rubrics",
+          "rationale": "ARRT documents are separate from MQSA clinical image quality standards."
+        },
+        {
+          "id": "d",
+          "text": "Voluntary hospital customer-service scores",
+          "rationale": "Customer-service scores are not the \u00a7 900.12(i) standard."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Certified facilities must keep meeting their accreditation body's clinical image quality standards.",
+      "variants": {
+        "simpler": "Your images must keep meeting the accreditation body's clinical image rules\u2014not only at accreditation time.",
+        "example": "Between accreditation cycles, EQUIP asks how you know you still meet those standards."
+      },
+      "evidenceIds": [
+        "ev-qcr-ciq-standard"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-003",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-equip-three",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which set correctly lists EQUIP's three main inspection focus areas?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Poor-image corrective action with IP feedback; periodic sample clinical image review; LIP oversight of QA/QC",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only phantom QC, only dose charts, and only billing audits",
+          "rationale": "Those are not the three EQUIP clinical image focus areas."
+        },
+        {
+          "id": "c",
+          "text": "State tax compliance, parking, and waiting-room surveys",
+          "rationale": "Irrelevant to EQUIP."
+        },
+        {
+          "id": "d",
+          "text": "ARRT CE tracking, ultrasound QC, and MRI zoning",
+          "rationale": "Not EQUIP's three mammography inspection questions."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "EQUIP centers on corrective action/feedback, periodic sample review, and LIP QA/QC oversight.",
+      "variants": {
+        "simpler": "Remember three: fix poor images with feedback, sample-review clinical images, and LIP oversight of QC.",
+        "example": "If any one of the three is missing documentation, inspection risk remains."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-q1",
+        "ev-qcr-equip-q2",
+        "ev-qcr-equip-q3"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-004",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-equip-purpose",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A coworker says EQUIP means accreditation reviews now happen every year. What is the best correction?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "EQUIP adds inspection questions about continuous clinical image quality; accreditation clinical image review remains a separate accreditation-body process.",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Accreditation review was abolished in 2017.",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "c",
+          "text": "EQUIP only applies to screen-film facilities.",
+          "rationale": "EQUIP applies to certified facilities' clinical image quality processes regardless of that claim."
+        },
+        {
+          "id": "d",
+          "text": "Inspectors replaced accreditation bodies.",
+          "rationale": "Accreditation bodies still accredit; inspectors inspect."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Do not confuse annual EQUIP inspection questions with the accreditation body's clinical image review cycle.",
+      "variants": {
+        "simpler": "Yearly EQUIP questions are not the same thing as accreditation image review.",
+        "example": "You can have both an EQUIP packet and a separate accreditation submission calendar."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-purpose",
+        "ev-qcr-ciq-standard"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-005",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-feedback",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "For EQUIP's corrective-action question, which pair of elements must the facility system include?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ongoing IP feedback to RTs/designated staff, and documentation of corrective actions and their effectiveness",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only a waiting-room suggestion box",
+          "rationale": "A suggestion box alone lacks IP feedback and effectiveness documentation."
+        },
+        {
+          "id": "c",
+          "text": "Only physicist survey signatures",
+          "rationale": "Physicist surveys matter for QC but do not replace IP clinical-image feedback systems."
+        },
+        {
+          "id": "d",
+          "text": "Only ARRT ethics acknowledgments",
+          "rationale": "Not the EQUIP corrective-action elements."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Feedback plus documented corrective actions with effectiveness checks are the required elements.",
+      "variants": {
+        "simpler": "IPs must feed back on poor images, and the facility must record fixes and whether they worked.",
+        "example": "A coaching note without a later effectiveness check is incomplete."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-q1"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-006",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-feedback-sop",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to FDA's EQUIP FAQ, must the poor-image corrective-action system be a written SOP?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; a verbal explanation can suffice if feedback and documented effectiveness mechanisms exist",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Yes; only notarized SOPs are accepted",
+          "rationale": "FDA explicitly says a written SOP is not required for this system."
+        },
+        {
+          "id": "c",
+          "text": "Yes; it must be published in the Federal Register",
+          "rationale": "Not required."
+        },
+        {
+          "id": "d",
+          "text": "No system is required if phantom QC passes",
+          "rationale": "Phantom QC does not replace clinical-image corrective-action procedures."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Written SOP is optional for this EQUIP corrective-action system; the two required elements are not optional.",
+      "variants": {
+        "simpler": "You don't have to invent a fancy SOP binder for this question\u2014but you do need a real feedback-and-fix system.",
+        "example": "Be ready to explain the system clearly on inspection day."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-q1-no-written-sop"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-007",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-ip-decides",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Who is responsible for determining whether clinical images are of poor quality for the EQUIP corrective-action inspection question?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The interpreting physician",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only the patient",
+          "rationale": "Patients may complain, but IPs determine poor quality for this EQUIP question."
+        },
+        {
+          "id": "c",
+          "text": "Only the front-desk scheduler",
+          "rationale": "Not a clinical image quality decision-maker under EQUIP."
+        },
+        {
+          "id": "d",
+          "text": "Only the State tax auditor",
+          "rationale": "Irrelevant."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "The IP determines poor quality and provides feedback for this inspection question.",
+      "variants": {
+        "simpler": "The reader decides if the image is poor enough to trigger feedback.",
+        "example": "Software tools may help, but the IP still owns the determination."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-q1-ip-decides"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-008",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-qcr-ip-duty",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "What does \u00a7 900.12(d)(1)(ii)(A) require of interpreting physicians regarding poor-quality images?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Follow the facility procedures for corrective action when images they are asked to interpret are of poor quality",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Ignore image quality if the patient is asymptomatic",
+          "rationale": "Quality duties apply regardless."
+        },
+        {
+          "id": "c",
+          "text": "Delete poor images without documentation",
+          "rationale": "Opposite of corrective-action expectations."
+        },
+        {
+          "id": "d",
+          "text": "Refer all mammograms to ultrasound automatically",
+          "rationale": "Not the cited requirement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "IPs must follow facility corrective-action procedures for poor images\u2014the duty EQUIP inspection questions emphasize.",
+      "variants": {
+        "simpler": "Readers cannot shrug at poor images; they must follow the facility's fix process.",
+        "example": "That process should include feedback to technologists."
+      },
+      "evidenceIds": [
+        "ev-qcr-ip-poor-quality-duty"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-009",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-feedback",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A facility documents that an IP emailed a technologist about motion but never checks later images. Which EQUIP element is missing?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Documenting the effectiveness of corrective actions",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Accreditation body membership dues",
+          "rationale": "Not the missing EQUIP element."
+        },
+        {
+          "id": "c",
+          "text": "A new Federal Register notice",
+          "rationale": "Not required for this scenario."
+        },
+        {
+          "id": "d",
+          "text": "Patient billing adjustments",
+          "rationale": "Not EQUIP clinical-image corrective action."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "EQUIP expects documentation of corrective actions and whether they worked.",
+      "variants": {
+        "simpler": "Feedback without a later check misses the effectiveness half.",
+        "example": "After coaching, sample later images and record the result."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-q1"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-010",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-periodic",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why does FDA's EQUIP FAQ say periodic clinical image quality review must be done at least annually by default?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inspectors look for a review performed since the last inspection",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Film chemistry expires yearly",
+          "rationale": "Not the FAQ rationale."
+        },
+        {
+          "id": "c",
+          "text": "ARRT cards renew every year only",
+          "rationale": "Not the EQUIP rationale."
+        },
+        {
+          "id": "d",
+          "text": "Ultrasound probes require annual review instead",
+          "rationale": "Not applicable."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Because the review must be shown since the last inspection, the default minimum is annual; more frequent is encouraged.",
+      "variants": {
+        "simpler": "If inspection is yearly, you need a documented review since last time\u2014so at least yearly.",
+        "example": "Many sites review quarterly for earlier feedback."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-periodic-annual"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-011",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-periodic-docs",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which statement about documenting EQUIP periodic clinical image review is true?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Written documentation is required; a verbal discussion alone is not accepted",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only verbal discussion is allowed",
+          "rationale": "Opposite of the FAQ."
+        },
+        {
+          "id": "c",
+          "text": "Documentation is forbidden",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Only social-media posts count",
+          "rationale": "Not acceptable documentation."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "FDA requires written documentation of the periodic review.",
+      "variants": {
+        "simpler": "Write it down. Talking about it is not enough.",
+        "example": "Summary reports, LIP statements, meeting records, or memos can serve as documentation."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-periodic-docs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-012",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-not-reject",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Does facility repeat/reject analysis satisfy the EQUIP periodic clinical image quality review question?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No",
+          "rationale": "Correct. FDA states repeat analysis does not count as that review."
+        },
+        {
+          "id": "b",
+          "text": "Yes, always",
+          "rationale": "Incorrect per EQUIP FAQ Q2.3."
+        },
+        {
+          "id": "c",
+          "text": "Yes, if the reject rate is under 50%",
+          "rationale": "No threshold makes reject analysis a substitute."
+        },
+        {
+          "id": "d",
+          "text": "Only for DBT",
+          "rationale": "The FAQ rejection of this substitute is not modality-limited that way."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Repeat/reject rates are not accepted as the periodic clinical image quality review.",
+      "variants": {
+        "simpler": "Reject logs help QC, but they are not the EQUIP sample image review.",
+        "example": "Keep both: reject analysis and a separate dated clinical image sample review."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-not-repeat-analysis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-013",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-all-active",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A technologist performs only diagnostic mammograms. Must that active technologist be included in periodic EQUIP clinical image review?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes; all active RTs and IPs must be included, including diagnostic-only staff",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "No; diagnostic work is exempt from EQUIP",
+          "rationale": "FDA FAQ says diagnostic-only staff are still included."
+        },
+        {
+          "id": "c",
+          "text": "Only if the patient is under 40",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "d",
+          "text": "Only on leap years",
+          "rationale": "Irrelevant."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Active status\u2014not screening-only status\u2014drives inclusion.",
+      "variants": {
+        "simpler": "If they still work there doing mammograms, include them in the sample review.",
+        "example": "Former employees do not need to be included."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-all-active"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-014",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-ip-image-quality-attributes"
+      ],
+      "familyId": "fam-qcr-eight",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which list matches the eight attributes in 21 CFR 900.4(c)(2) referenced by EQUIP?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Positioning, compression, exposure level, contrast, sharpness, noise, artifacts, examination identification",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Billing codes, parking, wait times, Wi-Fi, d\u00e9cor, music, coffee, magazines",
+          "rationale": "Not clinical image attributes."
+        },
+        {
+          "id": "c",
+          "text": "Only SNR, CNR, and MTF",
+          "rationale": "Those are physics metrics, not the eight clinical attributes list."
+        },
+        {
+          "id": "d",
+          "text": "Only BI-RADS final assessment categories",
+          "rationale": "Assessment categories are reporting, not the eight image attributes."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "EQUIP FAQ Q2.12 restates the eight regulatory attributes.",
+      "variants": {
+        "simpler": "Memorize the eight: positioning, compression, exposure, contrast, sharpness, noise, artifacts, ID.",
+        "example": "Use them as the vocabulary of sample image review notes."
+      },
+      "evidenceIds": [
+        "ev-qcr-eight-attributes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-015",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-daily-interp",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "An interpreting physician reviews every mammogram at interpretation. Does that alone satisfy EQUIP's periodic sample review requirement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No",
+          "rationale": "Correct. FDA FAQ Q2.7 says daily interpretation review does not count as the periodic sample review."
+        },
+        {
+          "id": "b",
+          "text": "Yes",
+          "rationale": "Incorrect."
+        },
+        {
+          "id": "c",
+          "text": "Yes if done before coffee",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "d",
+          "text": "Yes for mobile units only",
+          "rationale": "No such exception in the cited FAQ."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Periodic sample review is a distinct documented process.",
+      "variants": {
+        "simpler": "Reading cases all day is not the same as the required dated sample review.",
+        "example": "Schedule and document a separate periodic review covering each active RT and IP."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-not-daily-interp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-016",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-qcr-lip",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "EQUIP LIP oversight includes review of which pair?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Frequency of performance of required QA/QC tests, and whether appropriate corrective actions were performed when needed",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only cafeteria menus and only parking fees",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "c",
+          "text": "Only social-media branding",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "d",
+          "text": "Only ultrasound gel inventory",
+          "rationale": "Not the EQUIP LIP oversight pair."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "LIP oversight covers test frequency and corrective-action appropriateness.",
+      "variants": {
+        "simpler": "The lead physician oversees that QC was done on time and that fixes were real.",
+        "example": "Attestation language mirrors those two bullets."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-q3",
+        "ev-qcr-qa-records-lip"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-017",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-qcr-lip-paths",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "On inspection day, which option is an acceptable way to evidence LIP QA/QC oversight under EQUIP?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Present a LIP-signed attestation describing the required oversight elements",
+          "rationale": "Correct. Attestation is one of three accepted paths."
+        },
+        {
+          "id": "b",
+          "text": "Leave a sticky note from a student technologist",
+          "rationale": "Not an accepted LIP oversight evidence path."
+        },
+        {
+          "id": "c",
+          "text": "Show an unrelated MRI policy",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "d",
+          "text": "Promise to invent a procedure next year",
+          "rationale": "Future promises do not satisfy inspection day."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Accepted paths: signed attestation, LIP verbal description, or LIP-signed written procedure with required elements.",
+      "variants": {
+        "simpler": "Bring a signed LIP attestation\u2014or have the LIP available\u2014or show a LIP-signed written procedure.",
+        "example": "Missing all three paths yields a Level 2 citation."
+      },
+      "evidenceIds": [
+        "ev-qcr-lip-attestation-paths"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-018",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-qcr-lip-level2",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "If none of the three LIP oversight evidence options is available on inspection day, what happens?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The inspection questions are answered No and a Level 2 citation is generated",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "The facility automatically receives a gold star",
+          "rationale": "This option is the opposite of the cited requirement."
+        },
+        {
+          "id": "c",
+          "text": "MQSA is permanently waived",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Only a verbal warning with no citation pathway exists",
+          "rationale": "FDA's attestation sheet states a Level 2 citation is generated."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "No attestation, no LIP description, and no LIP-signed procedure \u2192 Level 2 citation.",
+      "variants": {
+        "simpler": "No LIP proof on inspection day means a Level 2 finding.",
+        "example": "Store the signed attestation with QA/QC records ahead of time."
+      },
+      "evidenceIds": [
+        "ev-qcr-lip-attestation-paths"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-019",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-qcr-lip-role",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "According to FDA's EQUIP FAQ, does the LIP designation confer supervisory responsibility over other interpreting physicians?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; it is an MQSA designation that does not confer supervisory responsibility over other IPs",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Yes; the LIP may unilaterally revoke other physicians' medical licenses",
+          "rationale": "Far beyond MQSA LIP designation."
+        },
+        {
+          "id": "c",
+          "text": "Yes; other IPs become employees of the LIP personally",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Only in facilities with fewer than two rooms",
+          "rationale": "No such rule."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "LIP is most responsible for continuous image quality under EQUIP, but not a license-level supervisor of other IPs.",
+      "variants": {
+        "simpler": "LIP is an MQSA quality role, not automatic boss of every other reader.",
+        "example": "Other IPs still follow facility corrective-action procedures."
+      },
+      "evidenceIds": [
+        "ev-qcr-lip-role"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-020",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-qcr-personnel-layers",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which statement best separates MQSA continuing experience from ARRT credential pathways?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "MQSA continuing experience is a facility compliance rule under 21 CFR 900; ARRT clinical experience requirements are a separate credential document consulted via official ARRT links",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "They are identical documents published only by FDA",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "c",
+          "text": "ARRT rules abolish MQSA personnel standards",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Neither set of requirements exists",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Keep facility MQSA personnel documentation distinct from ARRT eligibility paperwork.",
+      "variants": {
+        "simpler": "MQSA keeps you legal to scan at the facility; ARRT is the registry pathway\u2014different checklists.",
+        "example": "Inspection pulls MQSA CE/exam counts; ARRT applications use ARRT forms."
+      },
+      "evidenceIds": [
+        "ev-qcr-rt-continuing-experience",
+        "ev-qcr-arrt-clinical-experience-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-021",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-qcr-200",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "After the applicable anniversary, what continuing experience minimum must a mammography technologist meet under MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 200 mammography examinations in 24 months",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "At least 2 examinations in 24 months",
+          "rationale": "Far too low."
+        },
+        {
+          "id": "c",
+          "text": "At least 2000 CEUs in 24 months",
+          "rationale": "Confuses experience with education units."
+        },
+        {
+          "id": "d",
+          "text": "No experience minimum exists",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\u00a7 900.12(a)(2)(iv) sets a 200-exam / 24-month continuing experience minimum.",
+      "variants": {
+        "simpler": "200 exams in two years\u2014after you are in the continuing-experience window.",
+        "example": "The facility picks the end date inside the inspection window."
+      },
+      "evidenceIds": [
+        "ev-qcr-rt-continuing-experience"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-022",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-qcr-ceu",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which continuing education statement matches MQSA for technologists?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 15 mammography CEUs in 36 months, with at least 6 related to each modality used",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Exactly 1 CEU every 10 years",
+          "rationale": "Far too little."
+        },
+        {
+          "id": "c",
+          "text": "CEUs are never required if ARRT registered",
+          "rationale": "MQSA CE remains a facility qualification rule."
+        },
+        {
+          "id": "d",
+          "text": "Only physics CEUs count; positioning CEUs are banned",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "15 CEUs / 36 months with modality-specific minimums.",
+      "variants": {
+        "simpler": "Fifteen hours in three years, including modality-specific hours.",
+        "example": "Teaching the same course many times still counts once toward the 15."
+      },
+      "evidenceIds": [
+        "ev-qcr-rt-continuing-education"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-023",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-rt-continuing"
+      ],
+      "familyId": "fam-qcr-personnel-layers",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A technologist meets MQSA continuing experience. Does that automatically complete ARRT mammography clinical experience requirements?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; ARRT requirements are separate and must be checked in current ARRT documents",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Yes; MQSA exam counts are auto-uploaded to ARRT",
+          "rationale": "Not how the systems work."
+        },
+        {
+          "id": "c",
+          "text": "Yes; FDA abolished ARRT",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Only if the technologist works nights",
+          "rationale": "Irrelevant."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Do not treat MQSA facility counts as proof of ARRT portfolio completion.",
+      "variants": {
+        "simpler": "Passing MQSA facility tracking is not the same as finishing ARRT paperwork.",
+        "example": "Open the current ARRT clinical experience PDF for credential details."
+      },
+      "evidenceIds": [
+        "ev-qcr-arrt-clinical-experience-link",
+        "ev-qcr-arrt-handbook-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-024",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-qcr-consumer",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under MQSA definitions, which person can be a 'consumer' who comments or complains about an exam?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The patient or a representative such as a family member or referring physician",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only FDA commissioners",
+          "rationale": "Too narrow."
+        },
+        {
+          "id": "c",
+          "text": "Only equipment vendors",
+          "rationale": "Vendors are not the definition of consumer."
+        },
+        {
+          "id": "d",
+          "text": "Only patients who paid cash",
+          "rationale": "Payment method is irrelevant."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Consumer includes patients and representatives.",
+      "variants": {
+        "simpler": "Patients, family, or referring clinicians can be consumers for complaint purposes.",
+        "example": "A referring physician's complaint still enters the written system."
+      },
+      "evidenceIds": [
+        "ev-qcr-consumer-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-025",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-qcr-serious",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A serious complaint is defined as a report of which of the following?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A serious adverse event",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Any compliment about parking",
+          "rationale": "Not a serious complaint."
+        },
+        {
+          "id": "c",
+          "text": "A request for a warmer blanket only",
+          "rationale": "Not by itself a serious adverse-event report."
+        },
+        {
+          "id": "d",
+          "text": "A vendor sales call",
+          "rationale": "Not a serious complaint."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Serious complaint = report of a serious adverse event.",
+      "variants": {
+        "simpler": "Serious complaint means someone reported a serious adverse event.",
+        "example": "Poor image quality and late required reports are listed adverse-event examples."
+      },
+      "evidenceIds": [
+        "ev-qcr-serious-complaint-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-026",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-qcr-complaint-retain",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "How long must a facility maintain a record of each serious complaint?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least 3 years from the date the complaint was received",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "24 hours only",
+          "rationale": "Far too short."
+        },
+        {
+          "id": "c",
+          "text": "Until the end of the shift",
+          "rationale": "Far too short."
+        },
+        {
+          "id": "d",
+          "text": "Records are prohibited",
+          "rationale": "Opposite of the rule."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\u00a7 900.12(h)(2) requires at least three years.",
+      "variants": {
+        "simpler": "Keep serious complaint records at least three years.",
+        "example": "Date the receipt so the three-year clock is clear."
+      },
+      "evidenceIds": [
+        "ev-qcr-facility-complaints"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-027",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-qcr-complaint-ab",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "If a facility cannot resolve a serious complaint to the consumer's satisfaction, what must it provide?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Adequate directions for filing the serious complaint with the facility's accreditation body",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "A gift card instead of any process",
+          "rationale": "Not the regulatory requirement."
+        },
+        {
+          "id": "c",
+          "text": "No further information",
+          "rationale": "This option is the opposite of the cited requirement."
+        },
+        {
+          "id": "d",
+          "text": "Directions to file only with a social-media moderator",
+          "rationale": "Not the MQSA path."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Unresolved serious complaints escalate toward the accreditation body, and the facility must report them there as specified.",
+      "variants": {
+        "simpler": "Show the person how to take an unresolved serious complaint to the accreditation body.",
+        "example": "Also report unresolved serious complaints to that body on its timeline."
+      },
+      "evidenceIds": [
+        "ev-qcr-facility-complaints"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-028",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-qcr-retention",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "MQSA medical record retention requires keeping original mammograms and reports for which duration rule?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The longest of: \u22655 years; \u226510 years if no later mammograms at the facility; or any longer State/local mandate",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Always exactly 90 days",
+          "rationale": "Far too short."
+        },
+        {
+          "id": "c",
+          "text": "Only until the next birthday",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Whichever period is shortest",
+          "rationale": "Opposite: choose the longest."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Longest applicable period wins.",
+      "variants": {
+        "simpler": "Keep records for the longest clock that applies\u2014not the shortest.",
+        "example": "No-return patients need at least ten federal years."
+      },
+      "evidenceIds": [
+        "ev-qcr-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-029",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-qcr-10yr",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A patient had one mammogram at your facility and never returned. State law requires 7 years. What federal retention issue dominates?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep at least 10 years because no additional mammograms were performed at the facility",
+          "rationale": "Correct. 10 > 7 and 10 > 5."
+        },
+        {
+          "id": "b",
+          "text": "Destroy at 5 years despite the no-return rule",
+          "rationale": "Violates the 10-year no-return rule."
+        },
+        {
+          "id": "c",
+          "text": "Destroy at 7 years because State law always shortens federal rules",
+          "rationale": "State law lengthens retention when longer; it does not shorten federal floors."
+        },
+        {
+          "id": "d",
+          "text": "Retention rules do not apply to digital images",
+          "rationale": "Retention rules apply; digital originals have additional transfer form rules."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "No later mammograms at the facility triggers the \u226510-year federal rule.",
+      "variants": {
+        "simpler": "No return visit \u2192 think ten years minimum federally.",
+        "example": "If State required 12 years, you would keep 12."
+      },
+      "evidenceIds": [
+        "ev-qcr-record-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-030",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-qcr-transfer",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "After a proper patient request, within how many calendar days must the facility transfer original mammograms and report copies?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "15",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "150",
+          "rationale": "This deadline is longer than the cited regulatory timeline."
+        },
+        {
+          "id": "c",
+          "text": "1 year",
+          "rationale": "This deadline is longer than the cited regulatory timeline."
+        },
+        {
+          "id": "d",
+          "text": "No deadline exists",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Fifteen calendar days is the transfer deadline.",
+      "variants": {
+        "simpler": "Fifteen days to move the records after a proper request.",
+        "example": "Track request date and ship/transmit by day 15."
+      },
+      "evidenceIds": [
+        "ev-qcr-record-transfer"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-031",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-qcr-close",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "When a facility ceases mammography, which action is required regarding medical records?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Arrange continued access for the remaining retention period and notify the accreditation body and certification agency in writing of the arrangements",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Shred all records the same day",
+          "rationale": "Opposite of retention/access duties."
+        },
+        {
+          "id": "c",
+          "text": "Post records publicly online without controls",
+          "rationale": "Not the requirement and unsafe."
+        },
+        {
+          "id": "d",
+          "text": "Mail records randomly to unrelated clinics",
+          "rationale": "Not an acceptable arrangement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Closure requires planned access plus written notice to AB and certification agency.",
+      "variants": {
+        "simpler": "If you stop doing mammo, plan where records live and tell the regulators in writing.",
+        "example": "A facility that remains a medical entity may retain records if it can still meet the rules\u2014unless transfer is requested."
+      },
+      "evidenceIds": [
+        "ev-qcr-facility-ceases"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-032",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-records-transfer"
+      ],
+      "familyId": "fam-qcr-amr",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "What triggers additional mammography review under \u00a7 900.12(j)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "FDA belief that mammography quality may present a serious risk to human health",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "A single late lunch break",
+          "rationale": "Not a \u00a7 900.12(j) trigger."
+        },
+        {
+          "id": "c",
+          "text": "Routine EQUIP sample review alone",
+          "rationale": "EQUIP sample review is separate from FDA-directed additional review."
+        },
+        {
+          "id": "d",
+          "text": "Automatic annual marketing audits",
+          "rationale": "Not the cited trigger."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Serious risk concern can lead to FDA-directed additional review and possible notification duties.",
+      "variants": {
+        "simpler": "If FDA thinks quality may seriously endanger people, it can order a deeper image review.",
+        "example": "That pathway can include notifying patients or the public if FDA directs it."
+      },
+      "evidenceIds": [
+        "ev-qcr-additional-review"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-033",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-qcr-qa-purpose",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A facility quality assurance program must ensure which set of outcomes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Safety, reliability, clarity, and accuracy of mammography services",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only marketing reach and brand color matching",
+          "rationale": "Not QA outcomes under \u00a7 900.12(d)."
+        },
+        {
+          "id": "c",
+          "text": "Only physician vacation schedules",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "d",
+          "text": "Only cafeteria profitability",
+          "rationale": "Irrelevant."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\u00a7 900.12(d) states those four outcomes.",
+      "variants": {
+        "simpler": "QA protects safety, reliability, clarity, and accuracy.",
+        "example": "Every QC task should map back to those goals."
+      },
+      "evidenceIds": [
+        "ev-qcr-qa-program-purpose"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-034",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-qcr-digital-qc",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "For FFDM or DBT systems, MQSA requires the QA program to be substantially the same as which program?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The image-receptor manufacturer's recommended QA program (while still obeying the federal phantom dose ceiling)",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "A handwritten schedule invented without reference to manufacturer or accepted alternatives",
+          "rationale": "Not compliant with (e)(6)."
+        },
+        {
+          "id": "c",
+          "text": "Only dental radiography QC",
+          "rationale": "Wrong modality."
+        },
+        {
+          "id": "d",
+          "text": "No QC program is allowed for digital units",
+          "rationale": "This option is the opposite of the cited requirement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\u00a7 900.12(e)(6) points to manufacturer QA for non-screen-film receptors, with the dose ceiling preserved.",
+      "variants": {
+        "simpler": "Digital QC follows the manufacturer's program (or accepted alternative), plus the federal dose ceiling.",
+        "example": "ACR DMQC may be used as an alternative standard\u2014link to ACR; do not redistribute the manual here."
+      },
+      "evidenceIds": [
+        "ev-qcr-digital-manufacturer-qc",
+        "ev-qcr-dose-ceiling"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-035",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-qcr-timing",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A required phantom image QC test falls outside action limits. What is the corrective-action timing under \u00a7 900.12(e)(8)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Correct before any further examinations using the failed component",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Correct within 5 years",
+          "rationale": "Far too late."
+        },
+        {
+          "id": "c",
+          "text": "No correction is required",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Correct only after 100 more patients",
+          "rationale": "Unsafe and noncompliant."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Phantom image testing is on the before-further-examinations list.",
+      "variants": {
+        "simpler": "Failed phantom QC \u2192 stop and fix before scanning more patients on that component.",
+        "example": "Dose and compression-device failures follow the same stricter bucket."
+      },
+      "evidenceIds": [
+        "ev-qcr-corrective-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-036",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-qcr-timing-30",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "For equipment QA tests in \u00a7 900.12(e) that are not on the before-further-examinations list, what is the corrective-action deadline?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within 30 days of the test date",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Within 30 years",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "c",
+          "text": "Immediately before every lunch break only",
+          "rationale": "Not the regulatory framing."
+        },
+        {
+          "id": "d",
+          "text": "Never",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Other tests still require correction within 30 days.",
+      "variants": {
+        "simpler": "Non-listed QC failures still must be fixed within thirty days.",
+        "example": "Track the test date so day 30 is unambiguous."
+      },
+      "evidenceIds": [
+        "ev-qcr-corrective-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-037",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-qcr-dose",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "What is the federal average glandular dose ceiling for one CC view of an FDA-accepted phantom simulating a standard breast?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "3.0 mGy per exposure",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "30 Gy per exposure",
+          "rationale": "Orders of magnitude too high and unsafe as a 'limit' claim."
+        },
+        {
+          "id": "c",
+          "text": "No federal ceiling exists",
+          "rationale": "False; 3.0 mGy is specified."
+        },
+        {
+          "id": "d",
+          "text": "3.0 Sv per week for the technologist badge only",
+          "rationale": "Wrong quantity and context."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "3.0 mGy per exposure for the standard-breast phantom CC view; also applies to non-screen-film modalities.",
+      "variants": {
+        "simpler": "Remember 3.0 mGy for the standard phantom CC dose ceiling.",
+        "example": "Do not invent other numeric dose limits beyond sourced federal rules."
+      },
+      "evidenceIds": [
+        "ev-qcr-dose-ceiling"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-038",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-physicist-survey"
+      ],
+      "familyId": "fam-qcr-phys-survey",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "How often must each facility undergo a survey by a medical physicist (or under a physicist's direct supervision)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "At least once a year",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Once every 20 years",
+          "rationale": "Far too rare."
+        },
+        {
+          "id": "c",
+          "text": "Never, if technologist QC exists",
+          "rationale": "Technologist QC does not replace the annual survey."
+        },
+        {
+          "id": "d",
+          "text": "Only when a patient requests it",
+          "rationale": "Not the regulatory trigger."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Annual physicist survey is required.",
+      "variants": {
+        "simpler": "Physicist survey: at least yearly.",
+        "example": "Daily checks and annual surveys answer different failure modes."
+      },
+      "evidenceIds": [
+        "ev-qcr-physicist-survey"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-039",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-qc-physicist-survey"
+      ],
+      "familyId": "fam-qcr-mee",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "When is a mammography equipment evaluation required?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "After installation, reassembly, or major component change/repair, with problems corrected before clinical use",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only after the facility redecorates the waiting room",
+          "rationale": "Not a regulatory trigger."
+        },
+        {
+          "id": "c",
+          "text": "Never for digital units",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Only when accreditation is 10 years away",
+          "rationale": "Not the trigger."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Equipment evaluations are event-driven and must pass before return to service.",
+      "variants": {
+        "simpler": "New, moved, or major-repaired gear needs a physicist evaluation before patients.",
+        "example": "Do not resume clinical exams on a failed evaluation."
+      },
+      "evidenceIds": [
+        "ev-qcr-equipment-evaluation"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-040",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-qa-roles"
+      ],
+      "familyId": "fam-qcr-qc-records",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "QC records for required tests must be kept until which condition is met?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The next annual inspection finds compliance, or the test has been performed two additional times at the required frequency\u2014whichever is longer",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "The end of the shift only",
+          "rationale": "Too short."
+        },
+        {
+          "id": "c",
+          "text": "Until the printer runs out of paper",
+          "rationale": "Not the rule."
+        },
+        {
+          "id": "d",
+          "text": "Records must be destroyed weekly",
+          "rationale": "This option is the opposite of the cited requirement."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "\u00a7 900.12(d)(2) sets the longer of inspection-compliance or two additional performances.",
+      "variants": {
+        "simpler": "Keep QC logs long enough to cover inspection plus recent repeats of the test.",
+        "example": "Do not purge last quarter's failing test before inspection without meeting the retention rule."
+      },
+      "evidenceIds": [
+        "ev-qcr-qc-records-retention"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-041",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-qcr-frequency-why",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Why does Part 900's screen-film QC structure use different frequencies (daily, weekly, quarterly, semiannual)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Different failure modes need different monitoring cadences\u2014sudden process failures versus slower drift\u2014while digital systems follow manufacturer/alternative schedules under (e)(6)",
+          "rationale": "Correct principle-level reading."
+        },
+        {
+          "id": "b",
+          "text": "Frequencies were chosen randomly with no quality rationale",
+          "rationale": "Not a sound reading of QA design."
+        },
+        {
+          "id": "c",
+          "text": "Daily tests replace the physicist survey",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Quarterly tests abolish action limits",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Frequency categories match risk and drift; digital inherits manufacturer/alternative cadence while keeping federal ceilings and timing rules.",
+      "variants": {
+        "simpler": "Some checks protect today's patients; others watch trends. Digital uses manufacturer timing charts.",
+        "example": "Do not memorize redistributed ACR worksheets here\u2014use the on-site manual."
+      },
+      "evidenceIds": [
+        "ev-qcr-sf-frequency-structure",
+        "ev-qcr-digital-manufacturer-qc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-042",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-qcr-inspection",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which group of items is included among FDA's listed annual MQSA inspection assessments?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Equipment performance; QA/QC records and tests; physicist survey; personnel qualifications; reports/lay summaries; medical audit records",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only gift-shop inventory",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "c",
+          "text": "Only social-media follower counts",
+          "rationale": "Irrelevant."
+        },
+        {
+          "id": "d",
+          "text": "Only outdoor landscaping",
+          "rationale": "Irrelevant."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Inspection resources list performance, QC, personnel, reporting, and audit evidence\u2014EQUIP clinical image systems sit alongside them.",
+      "variants": {
+        "simpler": "Inspectors look at machines, QC logs, people, reports, and audits.",
+        "example": "Add EQUIP documentation to that same preparation pile."
+      },
+      "evidenceIds": [
+        "ev-qcr-inspection-scope"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-043",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-qcr-inspection-scope",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A facility argues that because an inspector did not ask about a Part 900 requirement, the facility need not follow it. What is the best response?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inspection sampling does not remove the facility's duty to meet all applicable MQSA requirements",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "The facility is correct; unasked rules are void",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "c",
+          "text": "Only State rules matter after any inspection",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "Part 900 applies only to dental offices",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "FDA notes facilities remain responsible for all requirements even when inspection questions are scoped.",
+      "variants": {
+        "simpler": "Not being asked \u2260 not required.",
+        "example": "Use checklists beyond last year's interview notes."
+      },
+      "evidenceIds": [
+        "ev-qcr-inspection-scope"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-044",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-certification"
+      ],
+      "familyId": "fam-qcr-fr",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "What is the effective date of the March 10, 2023 MQSA final rule (88 FR 15126)?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "September 10, 2024",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "September 10, 1992",
+          "rationale": "That relates to MQSA's historical era, not this amendment's effective date."
+        },
+        {
+          "id": "c",
+          "text": "January 1, 2100",
+          "rationale": "This option contradicts the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "d",
+          "text": "The rule never becomes effective",
+          "rationale": "False; it has an effective date."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Published 2023-03-10; effective 2024-09-10.",
+      "variants": {
+        "simpler": "Remember September 10, 2024 for the 2023 MQSA amendments' effective date.",
+        "example": "FDA also notes inspections will not cover new rules before their effective dates."
+      },
+      "evidenceIds": [
+        "ev-qcr-fr-amendments-theme"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-045",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-citation-path",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "After EQUIP's initial non-citation year for clinical image quality review requirements, what does FDA's FAQ describe for a first CIQR deficiency citation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A Level 2 citation with a written response due to the FDA district office within 30 days",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Automatic permanent facility closure the same hour",
+          "rationale": "Not what the FAQ compliance pathway states for year two."
+        },
+        {
+          "id": "c",
+          "text": "A celebratory exemption letter",
+          "rationale": "This option is the opposite of the cited requirement."
+        },
+        {
+          "id": "d",
+          "text": "Criminal prosecution of every patient",
+          "rationale": "False and inappropriate."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Year two: Level 2 with 30-day written response; repeat findings tighten timelines and refer to the accreditation body.",
+      "variants": {
+        "simpler": "After the intro year, CIQR gaps become Level 2 findings needing a written response.",
+        "example": "Do not wait for year three repeat findings\u2014fix documentation now."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-citation-pathway"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-046",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-image-review-equip"
+      ],
+      "familyId": "fam-qcr-sample-size",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Does FDA mandate a specific minimum number of images per technologist for EQUIP periodic review?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No; sample size is left to the facility, but every active RT and IP must be included",
+          "rationale": "Correct based on the cited FDA or eCFR evidence."
+        },
+        {
+          "id": "b",
+          "text": "Yes; exactly 500 images per person",
+          "rationale": "FDA does not set that number."
+        },
+        {
+          "id": "c",
+          "text": "Yes; exactly one image for the entire facility staff combined",
+          "rationale": "Too minimal and still must cover each active person."
+        },
+        {
+          "id": "d",
+          "text": "Yes; sample size must equal annual patient volume",
+          "rationale": "Not required."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Facility chooses sample size; inclusion of all active personnel is required.",
+      "variants": {
+        "simpler": "You pick how many images\u2014but everyone active must appear in the review.",
+        "example": "Document why your sample size is enough for your site."
+      },
+      "evidenceIds": [
+        "ev-qcr-equip-sample-size",
+        "ev-qcr-equip-all-active"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-047",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-equipment-qc"
+      ],
+      "familyId": "fam-qcr-acr-link",
+      "pool": "practice",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "How should Mammo treat detailed ACR Digital Mammography QC Manual procedures?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Link-only reference; do not redistribute manual procedures or device-specific pass/fail tables in the app content",
+          "rationale": "Correct per rights and product rules."
+        },
+        {
+          "id": "b",
+          "text": "Paste the entire manual into every lesson",
+          "rationale": "Violates copyright and project rules."
+        },
+        {
+          "id": "c",
+          "text": "Invent substitute numeric thresholds without sources",
+          "rationale": "Forbidden."
+        },
+        {
+          "id": "d",
+          "text": "Ignore that FDA may accept the manual as an alternative standard",
+          "rationale": "Inaccurate; FDA acceptance is why the link matters."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ACR DMQC is link-only; teach federal principles here and point to the manual on site.",
+      "variants": {
+        "simpler": "Use the ACR QC manual at work; don't copy it into study apps.",
+        "example": "This module teaches categories and timing principles from eCFR/FDA instead."
+      },
+      "evidenceIds": [
+        "ev-qcr-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-qcr-048",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-mqsa-required-policies"
+      ],
+      "familyId": "fam-qcr-adverse",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Which example is listed among MQSA adverse events that can underlie a serious complaint?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Poor image quality",
+          "rationale": "Correct; also late required reports and unqualified personnel are listed examples."
+        },
+        {
+          "id": "b",
+          "text": "Choosing a preferred appointment time",
+          "rationale": "Not an adverse event example."
+        },
+        {
+          "id": "c",
+          "text": "Asking for a gown",
+          "rationale": "Not an adverse event."
+        },
+        {
+          "id": "d",
+          "text": "Requesting bilingual instructions",
+          "rationale": "A communication need, not a listed adverse-event example."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "Adverse events include poor image quality, failure to send reports within required timelines, and use of unqualified personnel.",
+      "variants": {
+        "simpler": "Poor images, late required reports, and unqualified staff are classic serious-complaint themes.",
+        "example": "Log them in the written complaint system with dates."
+      },
+      "evidenceIds": [
+        "ev-qcr-serious-complaint-def"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/FR sources and link-only ARRT/ACR references."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}
