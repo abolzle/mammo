@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" role="img" aria-labelledby="t d">
+  <title id="t">Schematic four density categories</title>
+  <desc id="d">Four shaded boxes from almost entirely fatty to extremely dense with dense/not-dense patient mapping. Labeled SCHEMATIC — NOT A MAMMOGRAM.</desc>
+  <rect width="640" height="220" fill="#fbfaf7"/>
+  <text x="320" y="20" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#0f766e" font-weight="600">SCHEMATIC shading — NOT A MAMMOGRAM</text>
+  <g font-family="system-ui,sans-serif" font-size="11" text-anchor="middle">
+    <rect x="16" y="36" width="140" height="110" fill="#f8f1e3" stroke="#193854"/>
+    <text x="86" y="80" fill="#193854">Almost entirely</text>
+    <text x="86" y="96" fill="#193854">fatty</text>
+    <text x="86" y="170" fill="#0f766e" font-size="12">Not dense</text>
+    <rect x="172" y="36" width="140" height="110" fill="#e7d9b8" stroke="#193854"/>
+    <text x="242" y="80" fill="#193854">Scattered</text>
+    <text x="242" y="96" fill="#193854">fibroglandular</text>
+    <text x="242" y="170" fill="#0f766e" font-size="12">Not dense</text>
+    <rect x="328" y="36" width="140" height="110" fill="#c8b089" stroke="#193854"/>
+    <text x="398" y="80" fill="#193854">Heterogeneously</text>
+    <text x="398" y="96" fill="#193854">dense</text>
+    <text x="398" y="170" fill="#9a3412" font-size="12">Dense</text>
+    <rect x="484" y="36" width="140" height="110" fill="#8b7355" stroke="#193854"/>
+    <text x="554" y="80" fill="#fbfaf7">Extremely</text>
+    <text x="554" y="96" fill="#fbfaf7">dense</text>
+    <text x="554" y="170" fill="#9a3412" font-size="12">Dense</text>
+  </g>
+  <text x="320" y="205" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">MQSA patient mapping: A–B not dense; C–D dense</text>
+</svg>

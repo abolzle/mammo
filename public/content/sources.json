@@ -394,9 +394,9 @@
       "publisher": "American College of Radiology",
       "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS",
       "publishedOrEffective": null,
-      "retrievedOn": null,
-      "retrievalStatus": "not_attempted",
-      "retrievalNote": "Lexicon descriptors (mass shape/margin, calcification morphology/distribution) need this atlas or an accessible secondary source. MQSA assessment and density categories are already covered by 21 CFR 900.12(c).",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "link_only",
+      "retrievalNote": "Link-only. Lexicon descriptors not redistributed. NCI patient BI-RADS table + MQSA assessment/density used for awareness teaching in anatomy-pathology module.",
       "sections": [],
       "rights": {
         "status": "copyrighted_link_only",
@@ -536,11 +536,16 @@
       "title": "SEER Training Modules — Breast Cancer (anatomy, risk factors, imaging)",
       "publisher": "National Cancer Institute SEER Program",
       "url": "https://training.seer.cancer.gov/breast/anatomy.html",
-      "publishedOrEffective": null,
+      "publishedOrEffective": "Anatomy page updated 2025-01-10",
       "retrievedOn": "2026-10-06",
       "retrievalStatus": "retrieved",
-      "retrievalNote": "Module index retrieved; anatomy page path located. Not yet extracted.",
-      "sections": [],
+      "retrievalNote": "Anatomy page retrieved 2026-10-06; lobes/ducts, quadrants/clock, lymph nodes extracted for anatomy-pathology module. Some figures © Terese Winslow — not redistributed.",
+      "sections": [
+        "Anatomy of the Female Breast",
+        "Lymph Nodes",
+        "Quadrants and ICD-O-3",
+        "Clock positions note"
+      ],
       "rights": {
         "status": "public_domain",
         "canRead": true,
@@ -871,6 +876,127 @@
         "basis": "ACR Learning Network copyrighted support article; link only."
       },
       "kind": "professional_guideline"
+    },
+    {
+      "id": "src-nci-dictionary",
+      "title": "NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms",
+      "publishedOrEffective": "Retrieved 2026-10-06 via NCI Glossary API",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Term definitions retrieved through https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/{termId} on 2026-10-06.",
+      "sections": [
+        "fibroadenoma",
+        "DCIS",
+        "IDC",
+        "ILC",
+        "inflammatory breast cancer",
+        "Paget disease",
+        "LCIS",
+        "ADH",
+        "ALH",
+        "radial scar",
+        "phyllodes",
+        "in situ",
+        "cyst",
+        "lipoma",
+        "intraductal papilloma",
+        "fat necrosis",
+        "sentinel lymph node",
+        "areola",
+        "fibroglandular breast tissue",
+        "breast density",
+        "calcification",
+        "microcalcification"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: Dictionary of Cancer Terms text is free of copyright unless otherwise indicated.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-seer-breast-types",
+      "title": "SEER Training Modules — Types of Breast Histologies",
+      "publisher": "National Cancer Institute SEER Program",
+      "url": "https://training.seer.cancer.gov/breast/types.html",
+      "publishedOrEffective": "Updated 2025-01-10",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Full page retrieved 2026-10-06.",
+      "sections": [
+        "DCIS share",
+        "Invasive ductal ~70%",
+        "Invasive lobular 10–15%",
+        "In situ vs invasive framing"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI/NIH government work; verify per-graphic credits (some figures © Terese Winslow — not redistributed).",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-openstax-anatomy-phys-2e",
+      "title": "Anatomy and Physiology 2e — § 28.6 Lactation",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/28-6-lactation",
+      "publishedOrEffective": "Anatomy and Physiology 2e",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Lactation / breast structure section retrieved 2026-10-06.",
+      "sections": [
+        "Structure of the Lactating Breast",
+        "alveoli",
+        "myoepithelial cells",
+        "lobules",
+        "Montgomery glands"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "OpenStax textbooks are licensed CC BY 4.0; attribute OpenStax."
+      },
+      "kind": "other"
+    },
+    {
+      "id": "src-openstax-clinical-nursing-breast",
+      "title": "Clinical Nursing Skills — § 23.4 Breast and Lymphatic System",
+      "publisher": "OpenStax / Rice University",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/23-4-breast-and-lymphatic-system",
+      "publishedOrEffective": "Clinical Nursing Skills",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Suspensory ligaments wording retrieved 2026-10-06.",
+      "sections": [
+        "Internal Breast",
+        "suspensory ligaments"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "OpenStax CC BY 4.0; attribute OpenStax."
+      },
+      "kind": "other"
     }
   ]
 }

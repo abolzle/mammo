@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-labelledby="t d">
+  <title id="t">Schematic lobe, lobule, and duct tree</title>
+  <desc id="d">Tree-like schematic from nipple pores through ducts to lobules with alveoli bulbs. Labeled SCHEMATIC — NOT A MAMMOGRAM.</desc>
+  <rect width="640" height="300" fill="#fbfaf7"/>
+  <text x="320" y="22" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#0f766e" font-weight="600">SCHEMATIC — NOT A MAMMOGRAM</text>
+  <circle cx="80" cy="150" r="28" fill="#fde68a" stroke="#193854"/>
+  <text x="80" y="155" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#193854">Nipple</text>
+  <path d="M108 150 H180 Q220 150 240 110 T300 80" fill="none" stroke="#193854" stroke-width="3"/>
+  <path d="M180 150 Q220 150 240 190 T300 220" fill="none" stroke="#193854" stroke-width="3"/>
+  <path d="M180 150 H260" fill="none" stroke="#193854" stroke-width="3"/>
+  <g fill="#c7d2fe" stroke="#193854">
+    <circle cx="320" cy="70" r="18"/><circle cx="350" cy="55" r="12"/><circle cx="355" cy="85" r="12"/>
+    <circle cx="320" cy="150" r="18"/><circle cx="355" cy="140" r="12"/><circle cx="355" cy="170" r="12"/>
+    <circle cx="320" cy="230" r="18"/><circle cx="350" cy="215" r="12"/><circle cx="355" cy="245" r="12"/>
+  </g>
+  <text x="430" y="80" font-family="system-ui,sans-serif" font-size="12" fill="#193854">Lobule / alveoli (milk-making bulbs)</text>
+  <text x="430" y="155" font-family="system-ui,sans-serif" font-size="12" fill="#193854">Ducts link lobules to nipple</text>
+  <text x="430" y="230" font-family="system-ui,sans-serif" font-size="12" fill="#193854">Fat surrounds glandular tissue</text>
+  <text x="320" y="285" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">Based on SEER/OpenStax structure — educational outline only</text>
+</svg>

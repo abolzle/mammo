@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" role="img" aria-labelledby="t d">
+  <title id="t">Schematic regional lymph node groups near the breast</title>
+  <desc id="d">Simple torso outline with markers for axillary, infraclavicular, internal mammary, and supraclavicular node regions. Labeled SCHEMATIC — NOT A MAMMOGRAM.</desc>
+  <rect width="520" height="320" fill="#fbfaf7"/>
+  <text x="260" y="22" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#0f766e" font-weight="600">SCHEMATIC — NOT A MAMMOGRAM</text>
+  <ellipse cx="260" cy="180" rx="90" ry="100" fill="#e8eef5" stroke="#193854" stroke-width="2"/>
+  <circle cx="260" cy="150" r="8" fill="#193854"/>
+  <circle cx="140" cy="140" r="16" fill="#99f6e4" stroke="#0f766e"/>
+  <text x="140" y="144" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#134e4a">Axilla</text>
+  <circle cx="200" cy="70" r="14" fill="#99f6e4" stroke="#0f766e"/>
+  <text x="200" y="74" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#134e4a">Supra-</text>
+  <circle cx="320" cy="70" r="14" fill="#99f6e4" stroke="#0f766e"/>
+  <text x="320" y="74" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#134e4a">Infra-</text>
+  <circle cx="300" cy="160" r="12" fill="#fde68a" stroke="#193854"/>
+  <text x="300" y="164" text-anchor="middle" font-family="system-ui,sans-serif" font-size="9" fill="#193854">IM</text>
+  <text x="260" y="300" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#64748b">SEER regional groups (axillary, IM, infra/supraclavicular) — locations only</text>
+</svg>

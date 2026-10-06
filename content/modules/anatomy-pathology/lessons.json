@@ -1,0 +1,737 @@
+{
+  "lessons": [
+    {
+      "id": "les-ap-clock-quadrants",
+      "objectiveId": "obj-ap-clock-quadrants",
+      "title": "Clock face and quadrant language",
+      "estMinutes": 3,
+      "summary": "Localize using named quadrants, the central nipple–areola region, axillary tail, and clock language—without inventing hour maps the source does not spell out.",
+      "explanation": [
+        {
+          "heading": "Named quadrants and central region",
+          "body": "SEER training divides each breast into **upper inner (UIQ)**, **upper outer (UOQ)**, **lower inner (LIQ)**, and **lower outer (LOQ)** quadrants, plus a **central** portion containing the areola and nipple. ICD-O also codes the **axillary tail** (C506)."
+        },
+        {
+          "heading": "Clock language",
+          "body": "Tumor location is typically described as a clock time. SEER notes that lesions sitting directly at **3, 6, 9, or 12 o’clock** (or overlapping quadrants) are coded as overlapping when they are a single tumor across subsites.\n\nWhen you document, state laterality first, then the clock or quadrant your facility uses—and do not guess a quadrant from a clock hour unless your site map is clear."
+        },
+        {
+          "heading": "Positioning relevance",
+          "body": "Quadrant and clock language helps you and the radiologist talk about where to look on CC versus MLO and which additional view might include more of that tissue. Detailed triangulation methods need separate sourced teaching."
+        }
+      ],
+      "example": "A history says “right breast 12 o’clock.” You document laterality and the clock position as given, and you know 12 o’clock sits on a vertical boundary that SEER treats as overlapping for coding when a single tumor sits on that hour.",
+      "misconception": {
+        "belief": "Clock positions are the same absolute map on both breasts without thinking about laterality.",
+        "correction": "Always pair clock/quadrant language with laterality. SEER names quadrants separately for each breast; do not drop “right” or “left.”"
+      },
+      "variants": {
+        "simpler": "Say which breast, then use UIQ/UOQ/LIQ/LOQ, central, axillary tail, or a clock time.",
+        "example": "“Left UOQ” and “left 10 o’clock” are both localization languages—use what the order and your protocol require.",
+        "deeper": "SEER’s ICD-O table is a coding map, not a positioning checklist. Still, knowing axillary-tail and central codes keeps your landmark vocabulary aligned with how findings are recorded."
+      },
+      "observationPrompt": "Ask where your site records clock vs quadrant on the requisition and who updates localization after diagnostic work-up.",
+      "checkQuestionId": "q-ap-001",
+      "evidenceIds": [
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ap-external",
+      "objectiveId": "obj-ap-external-landmarks",
+      "title": "External landmarks that guide positioning",
+      "estMinutes": 3,
+      "summary": "Nipple, areola (with Montgomery glands), axillary tail, and the breast’s relationship to pectoralis are the external cues you use every exam.",
+      "explanation": [
+        {
+          "heading": "Nipple and areola",
+          "body": "The **areola** is the darker skin around the nipple (NCI Dictionary). OpenStax describes **Montgomery glands** on the areola as oil-secreting bumps that help protect the nipple. SEER’s central breast region contains the areola and nipple—useful when a finding is “retroareolar.”"
+        },
+        {
+          "heading": "Axillary tail and chest wall",
+          "body": "SEER codes the **axillary tail** as its own ICD-O subsite. Lymph nodes near the breast include axillary groups under the arm—so covering the tail of tissue that extends toward the axilla matters for complete imaging, even though lymph staging itself is not your job."
+        },
+        {
+          "heading": "Muscle is under the breast, not inside it",
+          "body": "SEER states the breast itself has **no muscle tissue**; breasts rest on **pectoralis major**. When MLO images show a muscle band, that is underlying chest-wall muscle, not intrinsic breast muscle."
+        }
+      ],
+      "example": "Before an MLO, you orient to the inframammary crease and the axillary tail of tissue rather than assuming “breast” ends at the anterior fold.",
+      "misconception": {
+        "belief": "The pectoralis band on an MLO is breast muscle.",
+        "correction": "SEER: the breast has no muscle tissue; it rests on pectoralis major."
+      },
+      "variants": {
+        "simpler": "Know nipple/areola, axillary tail, and that muscle under the breast is pectoralis—not breast muscle.",
+        "example": "Montgomery glands are normal areolar bumps, not skin lesions to “clean off” unless product residue is the issue.",
+        "deeper": "Morgagni tubercles are closely related areolar gland terminology used in some texts; OpenStax’s sourced term here is Montgomery glands."
+      },
+      "observationPrompt": "With a preceptor, point to axillary tail tissue on a patient (with consent) and name where it should appear on MLO.",
+      "checkQuestionId": "q-ap-006",
+      "evidenceIds": [
+        "ev-ap-dict-areola",
+        "ev-ap-openstax-structure",
+        "ev-ap-seer-no-muscle-in-breast",
+        "ev-ap-seer-quadrants-clock"
+      ],
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ap-internal",
+      "objectiveId": "obj-ap-internal-structures",
+      "title": "Inside the breast: fat, glands, ligaments, lymph",
+      "estMinutes": 3,
+      "summary": "Fibroglandular tissue, fat, suspensory ligaments, ducts/lobules, and regional lymphatics are the internal map behind what compression and positioning try to spread and include.",
+      "explanation": [
+        {
+          "heading": "Tissue types",
+          "body": "NCI: breasts contain **glandular**, **fibrous connective**, and **fatty** tissue. Fibroglandular tissue (ducts + lobules + fibrous tissue) often looks dense on a mammogram. SEER: fat covering the lobes contributes to size and shape; fat surrounds the mammary glands."
+        },
+        {
+          "heading": "Suspensory ligaments",
+          "body": "OpenStax describes **suspensory ligaments**—connective-tissue bands attaching breast tissue to the overlying dermis. They help explain why breast tissue is mobile and why you lift and spread rather than “smash flat.”"
+        },
+        {
+          "heading": "Lymphatics",
+          "body": "SEER lists regional nodes including axillary levels, internal mammary, infraclavicular, and supraclavicular groups. The **sentinel lymph node** is the first node cancer is most likely to reach from a primary tumor (NCI Dictionary / SEER)."
+        }
+      ],
+      "example": "When compression spreads fibroglandular tissue, you are separating overlapping dense structures so the radiologist can see through them—not removing density.",
+      "misconception": {
+        "belief": "Breast size equals cancer risk or glandular volume.",
+        "correction": "OpenStax notes non-lactating breasts are mostly adipose/collagenous tissue; size alone does not tell you density."
+      },
+      "variants": {
+        "simpler": "Breasts are fat + fibrous + glandular tissue on muscle, held by suspensory ligaments, draining to nearby lymph nodes.",
+        "example": "Axillary nodes are under the arm; internal mammary nodes sit along the sternum side—both are SEER regional groups.",
+        "deeper": "Detailed fascial-layer names and retroglandular-fat criteria for image evaluation need additional sourced teaching beyond this lesson."
+      },
+      "observationPrompt": "Ask how your site describes “posterior tissue” or retroglandular fat on image critique sheets.",
+      "checkQuestionId": "q-ap-010",
+      "evidenceIds": [
+        "ev-ap-nci-dense-definition",
+        "ev-ap-dict-fibroglandular",
+        "ev-ap-openstax-suspensory",
+        "ev-ap-seer-lymph-groups",
+        "ev-ap-dict-sentinel"
+      ],
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ap-ductal-lobular",
+      "objectiveId": "obj-ap-tdlu",
+      "title": "Ducts, lobules, and why origin matters",
+      "estMinutes": 3,
+      "summary": "Milk is made in lobular/alveolar units and travels through ducts—the same architecture that names ductal versus lobular disease.",
+      "explanation": [
+        {
+          "heading": "The tree",
+          "body": "SEER: 15–20 **lobes**, each with **lobules** ending in milk-making **bulbs**, linked by **ducts**. OpenStax: **alveoli** lined by lactocytes, clustered into **lobules**, draining through lactiferous ducts to the nipple."
+        },
+        {
+          "heading": "Pathology relevance",
+          "body": "SEER: **ductal** carcinoma starts in the milk ducts; **lobular** carcinoma originates in the lobes/lobules. That is why technologists hear “DCIS,” “IDC,” and “ILC” as origin-based names—not as something you diagnose from the console."
+        },
+        {
+          "heading": "About the term TDLU",
+          "body": "Many curricula name the **terminal ductal lobular unit** as the functional end-unit. This lesson teaches the sourced duct–lobule–alveoli structure; the exact TDLU micro-anatomy label is left for a source that defines that phrase explicitly."
+        }
+      ],
+      "example": "A pathology report saying “invasive lobular carcinoma” tells you the named origin is lobular—not that you should have seen a classic mass on every mammogram.",
+      "misconception": {
+        "belief": "Ductal and lobular names describe how round the finding looks on the image.",
+        "correction": "They describe histologic origin (ducts vs lobules), per SEER/NCI wording—not a shape rule for technologists."
+      },
+      "variants": {
+        "simpler": "Lobules make milk; ducts carry it. Cancers are named for where they start.",
+        "example": "DCIS stays in the duct lining; invasive ductal disease has left that confined space.",
+        "deeper": "OpenStax’s myoepithelial net around alveoli is physiology for milk ejection; relating every cell layer to invasion still needs careful pathology sources."
+      },
+      "checkQuestionId": "q-ap-014",
+      "evidenceIds": [
+        "ev-ap-seer-lobes-ducts",
+        "ev-ap-openstax-structure",
+        "ev-ap-seer-ductal-vs-lobular-origin"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-insitu-invasive",
+      "objectiveId": "obj-ap-cytology",
+      "title": "In situ versus invasive — vocabulary, not diagnosis",
+      "estMinutes": 3,
+      "summary": "In situ means abnormal cells remain where they formed; invasive means they have spread into surrounding tissue—definitions from NCI, not your image call.",
+      "explanation": [
+        {
+          "heading": "In situ",
+          "body": "NCI Dictionary: **in situ** means in its original place. In carcinoma in situ, abnormal cells have not spread from where they first formed. **DCIS** is abnormal cells in the duct lining that have not spread outside the duct."
+        },
+        {
+          "heading": "Invasive",
+          "body": "NCI: **invasive ductal carcinoma** begins in duct lining and spreads outside the ducts into surrounding normal tissue. **Invasive lobular carcinoma** begins in lobules and likewise spreads into surrounding tissue."
+        },
+        {
+          "heading": "Myoepithelial cells (physiology hook)",
+          "body": "OpenStax: alveoli are surrounded by contractile **myoepithelial** cells that squeeze milk into ducts. That is a structural fact. Claims about basement-membrane breach as the histologic definition of invasion need a pathology source beyond this batch—so we do not invent that mechanism here."
+        }
+      ],
+      "example": "You can explain to a curious student technologist: “In situ means still in place; invasive means it left that place”—then stop short of interpreting the patient’s images.",
+      "misconception": {
+        "belief": "If there is no palpable lump, disease cannot be invasive.",
+        "correction": "Inflammatory breast cancer often has no palpable lump and may not be seen on mammogram (NCI Dictionary)—clinical signs still matter."
+      },
+      "variants": {
+        "simpler": "In situ = still in the original place. Invasive = has spread into nearby tissue.",
+        "example": "DCIS is in situ in a duct; IDC has left the duct.",
+        "deeper": "LCIS is also “in situ” in lobules but behaves as a risk marker more than a direct precursor in NCI’s wording—see the high-risk lesson."
+      },
+      "checkQuestionId": "q-ap-018",
+      "evidenceIds": [
+        "ev-ap-dict-insitu",
+        "ev-ap-dict-dcis",
+        "ev-ap-dict-idc",
+        "ev-ap-dict-ilc",
+        "ev-ap-openstax-structure"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-density-tissue",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "title": "Tissue composition and what “dense” means",
+      "estMinutes": 3,
+      "summary": "Density is a mammographic description of relative fibroglandular versus fatty tissue—not something patients can feel.",
+      "explanation": [
+        {
+          "heading": "Composition",
+          "body": "Dense breasts have relatively more glandular and fibrous tissue and less fat (NCI). Nearly half of women 40+ who get mammograms have dense tissue."
+        },
+        {
+          "heading": "Why images get harder",
+          "body": "Dense tissue and some abnormalities both appear white, while fat appears darker—so cancers can hide (masking). Density is also a risk factor separate from masking."
+        },
+        {
+          "heading": "What you do not tell patients as fact from touch",
+          "body": "Density cannot be felt on clinical or self-exam; only the interpreting radiologist assigns it from the mammogram."
+        }
+      ],
+      "example": "A patient says “my breasts feel dense.” You redirect: density is judged on the mammogram report, not by firmness.",
+      "misconception": {
+        "belief": "Firm breasts on exam equal dense breasts on mammography.",
+        "correction": "NCI: density is not palpable; it is a mammographic assessment."
+      },
+      "variants": {
+        "simpler": "Dense means more white fibroglandular tissue on the mammogram—not how the breast feels.",
+        "example": "Fatty tissue looks darker; dense tissue looks whiter and can hide findings.",
+        "deeper": "NCI notes USPSTF finds insufficient evidence for/against routine supplemental screening for density alone—hand that conversation to the clinician."
+      },
+      "checkQuestionId": "q-ap-022",
+      "evidenceIds": [
+        "ev-ap-nci-dense-definition",
+        "ev-ap-nci-dense-common",
+        "ev-ap-nci-dense-not-palpable",
+        "ev-ap-nci-dense-masking-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-density-categories",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "title": "Four density categories and the patient letter",
+      "estMinutes": 3,
+      "summary": "Map the four report density categories to the two MQSA patient statements: not dense versus dense.",
+      "explanation": [
+        {
+          "heading": "Four categories",
+          "body": "NCI/BI-RADS framing used in the dense-breasts FAQ: almost entirely fatty; scattered fibroglandular; heterogeneously dense; extremely dense. Approximate shares: ~10% / ~40% / ~40% / ~10%."
+        },
+        {
+          "heading": "Patient mapping (MQSA)",
+          "body": "On the lay summary, the first two categories map to **“Your breast tissue is not dense.”** Heterogeneously or extremely dense map to **“Your breast tissue is dense,”** with language that other imaging may help some people."
+        },
+        {
+          "heading": "Your lane",
+          "body": "You can explain that dense/not-dense language comes from the report categories. You do not assign the category yourself or invent supplemental-screening orders."
+        }
+      ],
+      "example": "Heterogeneously dense → patient letter says dense. Scattered fibroglandular → not dense.",
+      "misconception": {
+        "belief": "Only extremely dense counts as dense on the patient letter.",
+        "correction": "Heterogeneously dense also maps to the dense patient statement."
+      },
+      "variants": {
+        "simpler": "A/B = not dense letter. C/D = dense letter.",
+        "example": "If the report says heterogeneously dense, the lay letter uses the dense paragraph.",
+        "deeper": "MQSA also requires the density category on the medical report itself—separate from the patient wording."
+      },
+      "checkQuestionId": "q-ap-026",
+      "evidenceIds": [
+        "ev-ap-nci-dense-four",
+        "ev-ap-mqsa-density"
+      ],
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public sources."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-ap-assessment",
+      "objectiveId": "obj-ap-assessment-density-categories",
+      "title": "BI-RADS assessment awareness (not interpretation)",
+      "estMinutes": 3,
+      "summary": "Know what assessment categories mean for follow-up communication—without pretending you assign them from the images.",
+      "explanation": [
+        {
+          "heading": "Why categories exist",
+          "body": "NCI: BI-RADS categories give a consistent way to report findings and recommended follow-up. MQSA requires an overall final assessment (or incomplete category) on the report."
+        },
+        {
+          "heading": "Category map (NCI patient table)",
+          "body": "**0** needs more imaging; **1** negative; **2** benign; **3** probably benign (often 6-month follow-up); **4** suspicious (may need biopsy); **5** highly suggestive (biopsy); **6** known biopsy-proven malignancy."
+        },
+        {
+          "heading": "Hard stop",
+          "body": "You do not “call it a 3” from the console. Detailed lexicon descriptors live in the ACR BI-RADS Atlas (link-only). Ambiguous image interpretation stays out of verified pools."
+        }
+      ],
+      "example": "A patient asks what BI-RADS 0 means after a callback letter. You say additional imaging is needed before a final category—then point them to the written results and their provider.",
+      "misconception": {
+        "belief": "Technologists should practice assigning BI-RADS categories on screening images.",
+        "correction": "Assessment is the interpreting physician’s report duty. Your job is process, positioning, and accurate communication boundaries."
+      },
+      "variants": {
+        "simpler": "0 = need more pictures. 1–2 = routine follow-up. 3 = short-interval. 4–5 = biopsy pathway. 6 = known cancer.",
+        "example": "MQSA incomplete categories cover needing more imaging or prior mammograms.",
+        "deeper": "Compare NCI’s patient-facing table with MQSA’s regulatory wording when you study reports—same idea, different documents."
+      },
+      "checkQuestionId": "q-ap-030",
+      "evidenceIds": [
+        "ev-ap-nci-birads-table",
+        "ev-ap-mqsa-assessment",
+        "ev-ap-acr-birads-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-findings-vocab",
+      "objectiveId": "obj-ap-lexicon-masses-calcs",
+      "title": "Masses and calcifications — technologist vocabulary",
+      "estMinutes": 3,
+      "summary": "Use NCI’s public descriptions of masses and calcifications. Full ACR BI-RADS descriptor lists remain link-only.",
+      "explanation": [
+        {
+          "heading": "Masses",
+          "body": "NCI: size, shape, and edges matter. Smooth, round, clear-edged lumps are often benign cysts; jagged or irregular features may need more tests. That is awareness language—not a license to diagnose."
+        },
+        {
+          "heading": "Calcifications",
+          "body": "NCI: **macrocalcifications** are larger white dots, often from aging/injury/inflammation and usually benign. **Microcalcifications** are fine white specks; clustered patterns may be associated with DCIS or cancer. Neither type comes from dietary calcium."
+        },
+        {
+          "heading": "Atlas boundary",
+          "body": "Shape/margin/density lexicon details and calcification morphology/distribution codes require the ACR BI-RADS Atlas. We link it; we do not invent those descriptor definitions here."
+        }
+      ],
+      "example": "A student asks if white flecks mean cancer. You answer with NCI’s distinction: macros are often benign; clustered micros can be concerning—and the radiologist decides.",
+      "misconception": {
+        "belief": "Any calcification means cancer.",
+        "correction": "Macrocalcifications are usually benign; only certain microcalcification patterns raise concern—interpreted by the radiologist."
+      },
+      "variants": {
+        "simpler": "Masses: edges matter. Macros often benign. Clustered micros can be concerning.",
+        "example": "Dietary calcium does not create mammographic calcifications.",
+        "deeper": "Asymmetry and architectural distortion lexicon terms are atlas-bound; leave them for a source-backed update."
+      },
+      "checkQuestionId": "q-ap-034",
+      "evidenceIds": [
+        "ev-ap-nci-mass-calcs",
+        "ev-ap-acr-birads-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-benign",
+      "objectiveId": "obj-ap-benign-conditions",
+      "title": "Common benign conditions — know the names",
+      "estMinutes": 4,
+      "summary": "Fibroadenoma, cyst, lipoma, intraductal papilloma, fat necrosis, and related terms at dictionary level—not mammographic differential diagnosis.",
+      "explanation": [
+        {
+          "heading": "Solid benign tumors",
+          "body": "**Fibroadenoma**: most common benign breast tumor (fibrous + glandular), usually mobile and well-defined; most do not raise cancer risk. **Lipoma**: benign fat-cell tumor. **Hamartoma**: benign growth of a disordered mixture of local tissues."
+        },
+        {
+          "heading": "Cysts and duct findings",
+          "body": "**Cyst**: fluid-filled sac; most are benign. NCI notes smooth round clear-edged lumps are often cysts. **Intraductal papilloma**: benign wart-like duct growth, often near the nipple, may cause discharge; a single papilloma does not increase risk per NCI."
+        },
+        {
+          "heading": "Post-injury and other",
+          "body": "**Fat necrosis** can follow trauma, surgery, or radiation and may feel like a firm lump. **Fibrocystic changes** are common benign cyclic breast changes that do not increase cancer risk (NCI)."
+        }
+      ],
+      "example": "History of seat-belt trauma with a new firm area: fat necrosis is on the clinician’s differential—you document history and image as ordered.",
+      "misconception": {
+        "belief": "Benign means “cannot look weird on a mammogram.”",
+        "correction": "Radial scars (high-risk lesson) and fat necrosis can mimic concerning findings; biopsy decisions belong to the care team."
+      },
+      "variants": {
+        "simpler": "Learn the dictionary definitions; do not assign the diagnosis from the image.",
+        "example": "Nipple discharge plus a near-nipple lesion may prompt papilloma evaluation—ordered by the provider.",
+        "deeper": "Galactocele, duct ectasia, hematoma, abscess, edema, and seroma appear on the blueprint list; only terms with retrieved dictionary/SEER support are taught here—others stay gaps."
+      },
+      "checkQuestionId": "q-ap-038",
+      "evidenceIds": [
+        "ev-ap-dict-fibroadenoma",
+        "ev-ap-dict-cyst",
+        "ev-ap-dict-lipoma",
+        "ev-ap-dict-papilloma",
+        "ev-ap-dict-fat-necrosis",
+        "ev-ap-nci-mass-calcs"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-high-risk",
+      "objectiveId": "obj-ap-high-risk-lesions",
+      "title": "High-risk and risk-marker lesions — awareness only",
+      "estMinutes": 3,
+      "summary": "ADH, ALH, LCIS, radial scar, and phyllodes: what the names mean and why upgrade/risk talk stays with the clinician.",
+      "explanation": [
+        {
+          "heading": "Atypia",
+          "body": "**ADH** and **ALH** are benign conditions with too many abnormal-appearing cells in ducts or lobules; both increase breast cancer risk (NCI Dictionary)."
+        },
+        {
+          "heading": "LCIS",
+          "body": "**LCIS**: abnormal cells in lobules; seldom becomes invasive itself, but raises risk in either breast."
+        },
+        {
+          "heading": "Mimics and uncommon tumors",
+          "body": "**Radial scar** may look like cancer on a mammogram; biopsy usually needed. **Phyllodes** tumors grow quickly in connective tissue; most are benign but some are malignant/borderline."
+        }
+      ],
+      "example": "A pathology addendum says ADH on core biopsy. Your role is not to counsel upgrade risk percentages—you facilitate imaging/procedures the team orders.",
+      "misconception": {
+        "belief": "LCIS is treated exactly like DCIS because both say carcinoma in situ.",
+        "correction": "NCI describes LCIS as seldom becoming invasive itself while still raising bilateral risk—management differs and is clinician-led."
+      },
+      "variants": {
+        "simpler": "ADH/ALH/LCIS raise risk. Radial scar can mimic cancer. Phyllodes are uncommon connective-tissue tumors.",
+        "example": "“Upgrade potential” means a core biopsy label might change after excision—interpreted by pathology/surgery, not the technologist.",
+        "deeper": "Flat epithelial atypia and papilloma with atypia need additional sourced entries before scored teaching."
+      },
+      "checkQuestionId": "q-ap-042",
+      "evidenceIds": [
+        "ev-ap-dict-adh",
+        "ev-ap-dict-alh",
+        "ev-ap-dict-lcis",
+        "ev-ap-dict-radial-scar",
+        "ev-ap-dict-phyllodes"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    },
+    {
+      "id": "les-ap-malignant",
+      "objectiveId": "obj-ap-malignant",
+      "title": "Malignant disease names at technologist level",
+      "estMinutes": 4,
+      "summary": "DCIS, invasive ductal and lobular carcinoma, inflammatory breast cancer, and Paget disease—definitions for literacy, not image diagnosis.",
+      "explanation": [
+        {
+          "heading": "Common carcinomas",
+          "body": "**DCIS** stays in the duct. **IDC** is the most common invasive cancer (SEER ~70%). **ILC** begins in lobules (~10–15% of invasive cancers per SEER) and spreads into surrounding tissue."
+        },
+        {
+          "heading": "Special clinical presentations",
+          "body": "**Inflammatory breast cancer**: rare, fast-growing, blocks skin lymphatics; swollen/red/peau-d’orange appearance; often no lump and may not show on mammogram. **Paget disease**: nipple/areola skin changes; usually accompanied by DCIS or invasive cancer."
+        },
+        {
+          "heading": "Stay in your scope",
+          "body": "Recognizing why a clinical history of skin changes or nipple changes matters for exam urgency is appropriate. Declaring a histologic type from a screening image is not."
+        }
+      ],
+      "example": "A patient arrives with rapid breast redness and edema ordered as diagnostic—you prioritize the clinical pathway and avoid reassuring “it is probably infection” from the hallway.",
+      "misconception": {
+        "belief": "If mammography is normal, inflammatory cancer is excluded.",
+        "correction": "NCI: inflammatory breast cancer may not be seen on a mammogram."
+      },
+      "variants": {
+        "simpler": "DCIS in the duct; IDC/ILC invade tissue; IBC is a skin-lymphatic emergency picture; Paget involves the nipple.",
+        "example": "ILC can be harder to see as a classic mass—another reason clinical history and multimodal imaging are clinician decisions.",
+        "deeper": "Sarcoma, lymphoma, and metastases to breast are uncommon blueprint items left for a later sourced expansion."
+      },
+      "checkQuestionId": "q-ap-045",
+      "evidenceIds": [
+        "ev-ap-seer-histologies",
+        "ev-ap-dict-dcis",
+        "ev-ap-dict-idc",
+        "ev-ap-dict-ilc",
+        "ev-ap-dict-ibc",
+        "ev-ap-dict-paget"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Pathology/interpretation-adjacent; keep out of verified pools until qualified review."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-anatomy-pathology"
+    }
+  ]
+}

@@ -21,12 +21,19 @@ describe("content validation", () => {
   it("loads MQSA content without errors", () => {
     expect(loaded.ok).toBe(true);
     expect(loaded.issues.filter((i) => i.level === "error")).toEqual([]);
-    expect(loaded.modules[0].questions).toHaveLength(48);
-    expect(loaded.modules[0].lessons.length).toBeGreaterThanOrEqual(8);
+    const mqsa = loaded.modules.find((m) => m.id === "mod-mqsa");
+    expect(mqsa).toBeTruthy();
+    expect(mqsa!.questions).toHaveLength(48);
+    expect(mqsa!.lessons.length).toBeGreaterThanOrEqual(8);
+    const anatomy = loaded.modules.find((m) => m.id === "mod-anatomy-pathology");
+    expect(anatomy).toBeTruthy();
+    expect(anatomy!.questions.length).toBeGreaterThanOrEqual(40);
+    expect(anatomy!.lessons.length).toBeGreaterThanOrEqual(8);
   });
 
   it("keeps review status distinct from clinical review", () => {
-    const q = loaded.modules[0].questions[0];
+    const mqsa = loaded.modules.find((m) => m.id === "mod-mqsa")!;
+    const q = mqsa.questions[0];
     expect(isLearnerVisible(q.review.status)).toBe(true);
     expect(isValidatedPool(q.review.status)).toBe(false);
   });
