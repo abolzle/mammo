@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mammo
 
-## Getting Started
+Free study software for people preparing for the U.S. ARRT Mammography certification examination. No account, no paywall, no live AI calls while studying.
 
-First, run the development server:
+This repository currently ships **Stage 1**: the learner app, local progress, and one complete MQSA module (lessons, recall cards, ~48 questions, schematic visuals) plus a full curriculum map. It is a public **beta**. Material is AI-assisted and source-backed from federal rules; it is **not independently clinically validated**. Practice scores are not ARRT scaled scores and are not pass probabilities.
+
+## Run locally
 
 ```bash
+npm install
+npm run content:assemble
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://127.0.0.1:43147](http://127.0.0.1:43147). Studying starts on Today. Optional onboarding can be skipped.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm test              # schema, planner, backup, resume unit tests
+npm run content:validate
+npx playwright test   # core journey (install browsers once with npx playwright install)
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Static export:
 
-## Learn More
+```bash
+npm run build         # writes `out/`
+```
 
-To learn more about Next.js, take a look at the following resources:
+Serve `out/` with any static host. The app uses IndexedDB on the learner's device. There is no server database.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## What works now
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Today / Learn / Practice / Progress, plus About, Requirements, Sources, Reference, Settings
+- Daily sessions sized to 5/10/15/20 minutes, with a five-minute option
+- Session player with explanations, source drawer, refresh/resume, no duplicate answer events
+- Spaced recall via [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) (fuzz off for determinism)
+- Short beta quizzes; study mode vs test mode
+- JSON backup/import with merge (duplicate events skipped)
+- Service worker cache of the shell, MQSA JSON, and schematic SVGs
+- Maintainer workshop: coverage, paste-in JSON validation, generation/critique prompt templates
 
-## Deploy on Vercel
+## What is not claimed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Effectiveness or sufficiency for passing the registry exam
+- A clinically reviewed question pool (none yet)
+- Full-length 145-item simulation (the bank is too small; the UI says so)
+- Cross-device sync
+- Secure proctored testing (answers ship with the static site)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Zero-budget hosting
+
+Any static host works (GitHub Pages, Cloudflare Pages, Netlify, or an `npx serve out` folder). Check the host's current free-tier terms before promising a public pilot. Do not enable paid analytics, auth, or databases by default.
+
+Optional future sync would be a replaceable adapter; local mode must remain complete.
+
+## Content rights
+
+Facts may be taught in original wording. Restricted sources are **link-only**. An objective is **blocked** only when no accessible source verifies the fact. Review status (draft / auto-checked / source-checked / clinically reviewed) is separate from blocked.
+
+Do not add leaked exam items, copied commercial banks, or patient images.
+
+## Layout
+
+- `content/` — exam-aligned curriculum, source register, evidence, MQSA module, pipeline prompts
+- `public/content/` — assembled JSON produced by `npm run content:assemble`
+- `src/lib` — schemas, validator, IndexedDB, study engine
+- `docs/CHECKLIST.md` — completed vs remaining work

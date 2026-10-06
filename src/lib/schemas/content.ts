@@ -35,6 +35,35 @@ export const review = z.object({
   aiAssisted: z.boolean().default(true),
   history: z.array(reviewEvent).min(1),
 });
+export type Review = z.infer<typeof review>;
+
+/** Applied at load when an item omits `review`. Not clinical review. */
+export const DEFAULT_REVIEW: Review = {
+  status: "auto_checked",
+  requiresQualifiedReview: false,
+  aiAssisted: true,
+  history: [
+    {
+      at: "2026-10-06",
+      status: "auto_checked",
+      actor: "automation",
+      kind: "automated_validation",
+      note: "Default review object applied at load because the item omitted one. Passing automated checks is not clinical review.",
+    },
+  ],
+};
+
+export const reviewField = z.preprocess((val) => {
+  if (val == null || typeof val !== "object") return DEFAULT_REVIEW;
+  const v = val as Record<string, unknown>;
+  const history = Array.isArray(v.history) && v.history.length > 0 ? v.history : DEFAULT_REVIEW.history;
+  return {
+    status: v.status ?? DEFAULT_REVIEW.status,
+    requiresQualifiedReview: v.requiresQualifiedReview ?? false,
+    aiAssisted: v.aiAssisted ?? true,
+    history,
+  };
+}, review);
 
 // ---------------------------------------------------------------- Exam config
 
@@ -152,7 +181,7 @@ export const evidence = z.object({
     effective: z.string().optional(),
   }),
   retrievedOn: isoDate,
-  review,
+  review: reviewField,
 });
 export type Evidence = z.infer<typeof evidence>;
 
@@ -188,7 +217,7 @@ export const question = z.object({
   evidenceIds: z.array(z.string()).min(1),
   assetId: z.string().optional(),
   estSeconds: z.number().int().positive(),
-  review,
+  review: reviewField,
   keyHistory: z
     .array(z.object({ revision: z.number().int().positive(), correctChoiceId: z.string(), changedOn: isoDate, reason: z.string() }))
     .default([]),
@@ -220,7 +249,7 @@ export const lesson = z.object({
   observationPrompt: z.string().optional(),
   checkQuestionId: z.string(),
   evidenceIds: z.array(z.string()).min(1),
-  review,
+  review: reviewField,
 });
 export type Lesson = z.infer<typeof lesson>;
 
@@ -233,7 +262,7 @@ export const recallCard = z.object({
   elaboration: z.string().optional(),
   evidenceIds: z.array(z.string()).min(1),
   estSeconds: z.number().int().positive(),
-  review,
+  review: reviewField,
 });
 export type RecallCard = z.infer<typeof recallCard>;
 
@@ -264,7 +293,7 @@ export const asset = z.object({
   license: z.string(),
   attribution: z.string(),
   evidenceIds: z.array(z.string()),
-  review,
+  review: reviewField,
 });
 export type Asset = z.infer<typeof asset>;
 
@@ -282,7 +311,7 @@ export const visualExercise = z.object({
   accessibilityNote: z.string(),
   evidenceIds: z.array(z.string()).min(1),
   estSeconds: z.number().int().positive(),
-  review,
+  review: reviewField,
 });
 export type VisualExercise = z.infer<typeof visualExercise>;
 

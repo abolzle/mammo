@@ -1,0 +1,703 @@
+{
+  "sources": [
+    {
+      "id": "src-ecfr-21-cfr-900",
+      "title": "21 CFR Part 900 — Mammography (eCFR, current text)",
+      "publisher": "U.S. Office of the Federal Register / National Archives (eCFR)",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-I/part-900",
+      "publishedOrEffective": "Current through latest amendment dated 2024-09-10 (eCFR versioner metadata)",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Fetched via eCFR renderer API (title-21, part=900). Full regulatory text read for §§ 900.2, 900.4, 900.11, 900.12.",
+      "sections": [
+        "§ 900.2",
+        "§ 900.4",
+        "§ 900.11",
+        "§ 900.12"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. federal regulation text is a work of the U.S. Government and not subject to copyright (17 U.S.C. § 105). eCFR is an editorial compilation and not an official legal edition; verify against the annual CFR for legal use."
+      },
+      "kind": "regulation"
+    },
+    {
+      "id": "src-fr-88-15126",
+      "title": "Mammography Quality Standards Act — Final Rule (88 FR 15126, March 10, 2023)",
+      "publisher": "Food and Drug Administration via Federal Register",
+      "url": "https://www.federalregister.gov/documents/2023/03/10/2023-04550/mammography-quality-standards-act",
+      "publishedOrEffective": "Published 2023-03-10; effective 2024-09-10",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Effective date confirmed via Federal Register API (document 2023-04550). Summary and Executive Summary read.",
+      "sections": [
+        "SUMMARY",
+        "DATES",
+        "I. Executive Summary"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "Federal Register documents authored by federal agencies are U.S. Government works."
+      },
+      "kind": "regulation"
+    },
+    {
+      "id": "src-fda-mqsa-program",
+      "title": "Mammography Quality Standards Act (MQSA) and MQSA Program",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mammography-quality-standards-act-mqsa-and-mqsa-program",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "fda.gov refused automated requests (HTTP 404 to scripted clients; WebFetch timed out). Read via Internet Archive snapshot captured 2026-09-20: https://web.archive.org/web/20260920171240/https://www.fda.gov/radiation-emitting-products/mammography-quality-standards-act-mqsa-and-mqsa-program . Re-verify live page manually before publishing.",
+      "sections": [
+        "What are the Key Features of MQSA?",
+        "Who Must Meet MQSA Requirements?"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA Website Policies: FDA website text and graphics are in the public domain unless otherwise noted.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-website-policies",
+      "title": "FDA Website Policies (copyright status)",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/about-fda/about-website/website-policies",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Read via Internet Archive snapshot captured 2026-10-02 because fda.gov refused automated requests.",
+      "sections": [
+        "Copyright Status"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "Self-describing policy page. Exceptions: content marked as copyrighted (e.g., third-party images) is excluded."
+      },
+      "kind": "policy"
+    },
+    {
+      "id": "src-fda-equip",
+      "title": "EQUIP: Enhancing Quality Using the Inspection Program (MQSA Insights)",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mqsa-insights/equip-enhancing-quality-using-inspection-program",
+      "publishedOrEffective": "Initiative introduced 2016-10-27; inspection questions began 2017-01-01",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Live page blocked to automated clients. Read via Internet Archive snapshot captured 2022-09-30 (latest available). Content may have been revised since; re-verify live page.",
+      "sections": [
+        "Full article"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-small-entity-guide",
+      "title": "MQSA and Regulation Amendments: Small Entity Compliance Guide",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/mammography-quality-standards-act-and-regulation-amendments-small-entity-compliance-guide",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Landing page read via Internet Archive. Guide PDF not yet extracted.",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA guidance documents are U.S. Government works.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-fda-policy-guidance-help-system",
+      "title": "MQSA Policy Guidance Help System",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/radiation-emitting-products/mammography-quality-standards-act-and-program/guidance",
+      "publishedOrEffective": null,
+      "retrievedOn": null,
+      "retrievalStatus": "blocked",
+      "retrievalNote": "Live fda.gov blocked automated retrieval on 2026-10-06; the Internet Archive URL tried returned 404. Needs manual browser retrieval by a maintainer.",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "FDA website content is public domain unless marked otherwise.",
+        "basisSourceId": "src-fda-website-policies"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-arrt-mammography-page",
+      "title": "ARRT — Mammography credential page",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://www.arrt.org/pages/earn-arrt-credentials/credential-options/mammography",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Used to locate the current linked discipline documents (content specifications, task inventory, structured education, clinical experience).",
+      "sections": [
+        "Earn ARRT Credentials in Mammography",
+        "Read these documents"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ARRT website content is copyrighted. Facts are cited by link; text is not reproduced."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-arrt-content-spec-2025",
+      "title": "ARRT Mammography Examination Content Specifications (implementation date September 1, 2025; V.2024.09.09)",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/b3b1f1be-3ade-4215-81d8-fc303a796a79/Mammography%20Content%20Specifications%202025.pdf",
+      "publishedOrEffective": "Board approved July 2024; implementation 2025-09-01",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Read in full. Category counts (20/30/26/39; 115 scored; 30 pilot) verified on page 1. The curriculum in this app is an original concept map; it references outline categories by code and does not reproduce the outline.",
+      "sections": [
+        "p.1 content category table",
+        "pp.2–8 content outline"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "Document states: reproduction in whole or part is not permitted without ARRT's written consent. Category names and counts are facts cited by locator."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-arrt-postprimary-handbook-2026",
+      "title": "ARRT 2026 Postprimary Eligibility Pathway Handbook",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/4521cd9b-c1fe-44f7-b81c-5cd8ccc12166/arrt-postprimary-handbook.pdf",
+      "publishedOrEffective": "2026 edition",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Mammography row of the exam timing chart (Section 4, p.47): 115 scored, 30 pilot, 145 total, 150 min test time, 170 min appointment. p.45: answer required before moving on; flag and review supported; about one minute per question.",
+      "sections": [
+        "Section 4 pp.45–47 Exam format and timing"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ARRT copyrighted publication; numbers cited as facts with locator."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-arrt-score-report",
+      "title": "ARRT — Interpreting Your Score Report",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://www.arrt.org/pages/resources/exam-information/after-the-exam/interpreting-your-score-report",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Scaled score range 1–99; total scaled score of 75 required to pass; 75 is not 75% correct.",
+      "sections": [
+        "How is my score calculated?"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ARRT website content; facts cited by link."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-arrt-handbooks-index",
+      "title": "ARRT Reference Documents — Handbooks",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://www.arrt.org/pages/arrt-reference-documents/by-document-type/handbooks",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ARRT website content; link only."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-arrt-task-inventory-2025",
+      "title": "ARRT Mammography Task Inventory (2025)",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/e40dda32-a467-4094-b259-bc6bd25d0bda/Mammography%20Task%20Inventory%202025.pdf",
+      "publishedOrEffective": "2025",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ARRT copyrighted document; link only."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-arrt-structured-education-2025",
+      "title": "ARRT Mammography Structured Education Requirements (effective September 1, 2025)",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/1f6f94a4-07c4-4961-8807-bde2c62c8e94/Mammography_Structured%20Education%20Requirements_2025.pdf",
+      "publishedOrEffective": "2025-09-01",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ARRT copyrighted document; link only."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-arrt-clinical-experience-2025",
+      "title": "ARRT Mammography Clinical Experience Requirements (2025)",
+      "publisher": "American Registry of Radiologic Technologists",
+      "url": "https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/35b46fc8-224d-46fb-980e-d3367c13edbe/Mammography_Clinical_Experience_Requirements_2025.pdf",
+      "publishedOrEffective": "2025",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ARRT copyrighted document; link only."
+      },
+      "kind": "official_exam_document"
+    },
+    {
+      "id": "src-acr-dmqc-manual",
+      "title": "ACR 2018 Digital Mammography Quality Control Manual — resources page",
+      "publisher": "American College of Radiology",
+      "url": "https://www.acr.org/Accreditation/Resources/Digital-Mammography-QC-Manual",
+      "publishedOrEffective": "2018 manual; FAQ updated 2024-05-01",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Resources page read; it states the manual is publicly downloadable and that FDA has determined facilities may use it for QC of 2D and DBT. The manual itself has not yet been read for test-by-test facts (Stage 2).",
+      "sections": [
+        "Resources page"
+      ],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACR copyrighted manual. Free download does not authorize redistribution or bulk AI ingestion. Facts may be taught in original wording with section/page locators."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-acr-dmqc-faq",
+      "title": "ACR Digital Mammography QC Manual FAQ (updated 5/1/24)",
+      "publisher": "American College of Radiology",
+      "url": "https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/Accreditation/Resources/DMQC-FAQs.pdf",
+      "publishedOrEffective": "2024-05-01",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "PDF downloaded; not yet extracted into evidence.",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACR copyrighted document; link only."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-acr-ciq-1999",
+      "title": "ACR Mammography Quality Control Manual — Clinical Image Quality (1999)",
+      "publisher": "American College of Radiology",
+      "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Practice-Parameters-and-Technical-Standards",
+      "publishedOrEffective": "1999",
+      "retrievedOn": null,
+      "retrievalStatus": "not_attempted",
+      "retrievalNote": "Named by the ARRT content specifications as the positioning reference. No open online copy located yet; the URL is a starting point, not the document. Positioning objectives need either this document (link-only) or an accessible equivalent.",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_permission_needed",
+        "canRead": false,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "Commercial ACR publication; access not yet established."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-acr-birads-atlas",
+      "title": "ACR BI-RADS® Atlas (Mammography lexicon)",
+      "publisher": "American College of Radiology",
+      "url": "https://www.acr.org/Clinical-Resources/Clinical-Tools-and-Reference/Reporting-and-Data-Systems/BI-RADS",
+      "publishedOrEffective": null,
+      "retrievedOn": null,
+      "retrievalStatus": "not_attempted",
+      "retrievalNote": "Lexicon descriptors (mass shape/margin, calcification morphology/distribution) need this atlas or an accessible secondary source. MQSA assessment and density categories are already covered by 21 CFR 900.12(c).",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": false,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "Copyrighted atlas; link-only if accessed."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-nci-mammograms",
+      "title": "Mammograms (NCI fact sheet)",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/screening/mammograms",
+      "publishedOrEffective": "Updated 2025-12-02",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [
+        "Screening vs diagnostic",
+        "Breast density",
+        "3D mammography (DBT)"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: text is free of copyright unless otherwise indicated; credit NCI. Graphics vary—check each.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-dense-breasts",
+      "title": "Dense Breasts: Answers to Commonly Asked Questions",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/breast-changes/dense-breasts",
+      "publishedOrEffective": "Updated 2025-12-02",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy (text).",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-reuse",
+      "title": "NCI Copyright and Reuse Policy",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/policies/copyright-reuse",
+      "publishedOrEffective": "Reviewed 2025-03-12",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [
+        "Reuse of Text",
+        "Reuse of Graphics"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "Policy page."
+      },
+      "kind": "policy"
+    },
+    {
+      "id": "src-nci-pdq-breast-screening-hp",
+      "title": "Breast Cancer Screening (PDQ®) — Health Professional Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-screening-pdq",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Retrieved; not yet extracted into evidence (Stage 2: epidemiology, risk factors, modalities).",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI PDQ text is not copyrighted; PDQ trademark and some graphics restricted.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-pdq-breast-treatment-hp",
+      "title": "Breast Cancer Treatment (PDQ®) — Health Professional Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Retrieved; not yet extracted (Stage 2: treatment options, receptor status, pathology).",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI PDQ text is not copyrighted.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-nci-seer-breast",
+      "title": "SEER Training Modules — Breast Cancer (anatomy, risk factors, imaging)",
+      "publisher": "National Cancer Institute SEER Program",
+      "url": "https://training.seer.cancer.gov/breast/anatomy.html",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Module index retrieved; anatomy page path located. Not yet extracted.",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI/NIH government work; verify per-graphic credits.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-uspstf-breast-2024",
+      "title": "USPSTF Recommendation: Breast Cancer Screening (2024)",
+      "publisher": "U.S. Preventive Services Task Force (AHRQ)",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/breast-cancer-screening",
+      "publishedOrEffective": "2024",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Retrieved; not yet extracted. Useful contrast with ACS/ACR guidance named in the ARRT outline.",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "AHRQ/USPSTF federal work; check page-level notices."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-acs-early-detection",
+      "title": "American Cancer Society Recommendations for the Early Detection of Breast Cancer",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/breast-cancer/screening-tests-and-early-detection/american-cancer-society-recommendations-for-the-early-detection-of-breast-cancer.html",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "link_only",
+      "retrievalNote": "HTTP 200 but compressed payload not parsed by tooling; read in a browser in Stage 2. Named in the ARRT outline for screening/BSE/CBE recommendations.",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ACS copyrighted content; facts cited by link."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-asrt-mammo-curriculum",
+      "title": "ASRT Mammography Curriculum",
+      "publisher": "American Society of Radiologic Technologists",
+      "url": "https://www.asrt.org/educators/asrt-curricula/mammography",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Landing page retrieved; curriculum document not downloaded.",
+      "sections": [],
+      "rights": {
+        "status": "copyrighted_link_only",
+        "canRead": true,
+        "canQuote": false,
+        "canRedistribute": false,
+        "canSubmitToAI": false,
+        "basis": "ASRT copyrighted; link only."
+      },
+      "kind": "professional_guideline"
+    },
+    {
+      "id": "src-tcia-cbis-ddsm",
+      "title": "CBIS-DDSM (Curated Breast Imaging Subset of DDSM) — The Cancer Imaging Archive",
+      "publisher": "The Cancer Imaging Archive",
+      "url": "https://www.cancerimagingarchive.net/collection/cbis-ddsm/",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Collection page lists CC BY 3.0 for data files. Images are digitized screen-film mammograms (historical film); must be labeled as such and never presented as modern DBT. No images imported in Stage 1.",
+      "sections": [
+        "License"
+      ],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY 3.0 (per collection page) plus TCIA Data Usage Policy and citation requirements",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": false,
+        "basis": "Open license for data; AI submission not needed or planned."
+      },
+      "kind": "dataset"
+    },
+    {
+      "id": "src-openstax-college-physics-2e",
+      "title": "OpenStax College Physics 2e",
+      "publisher": "OpenStax (Rice University)",
+      "url": "https://openstax.org/details/books/college-physics-2e",
+      "publishedOrEffective": "2022",
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "OpenStax CMS API reports license CC BY-NC-SA (not CC BY). Chapter pages not yet extracted.",
+      "sections": [],
+      "rights": {
+        "status": "open_license",
+        "license": "CC BY-NC-SA 4.0",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "Quotes allowed with attribution; adapted text must be shared alike and non-commercially. Mammo is non-commercial."
+      },
+      "kind": "other"
+    },
+    {
+      "id": "src-nrc-radiation-cancer",
+      "title": "NRC — Radiation Exposure and Cancer",
+      "publisher": "U.S. Nuclear Regulatory Commission",
+      "url": "https://www.nrc.gov/about-nrc/radiation/health-effects/rad-exposure-cancer.html",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. Government work."
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-osha-bloodborne",
+      "title": "OSHA — Bloodborne Pathogens and Needlestick Prevention",
+      "publisher": "Occupational Safety and Health Administration",
+      "url": "https://www.osha.gov/bloodborne-pathogens",
+      "publishedOrEffective": null,
+      "retrievedOn": "2026-10-06",
+      "retrievalStatus": "retrieved",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. Government work."
+      },
+      "kind": "government_guidance"
+    },
+    {
+      "id": "src-cdc-hand-hygiene",
+      "title": "CDC — Clinical Safety: Hand Hygiene for Healthcare Workers",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/clean-hands/hcp/clinical-safety/index.html",
+      "publishedOrEffective": null,
+      "retrievedOn": null,
+      "retrievalStatus": "blocked",
+      "retrievalNote": "cdc.gov returned HTTP 403 to automated requests on 2026-10-06. Retry from a browser.",
+      "sections": [],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "U.S. Government work (verify page notices)."
+      },
+      "kind": "government_guidance"
+    }
+  ]
+}

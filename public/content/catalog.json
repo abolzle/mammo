@@ -1,0 +1,43 @@
+{
+  "version": "2026-10-06.1",
+  "assembledAt": "2026-10-06",
+  "modules": [
+    {
+      "id": "mod-mqsa",
+      "version": "1.0.0-beta.1",
+      "title": "MQSA quality standards",
+      "summary": "The federal rules that shape everyday mammography work: certification and accreditation, technologist qualifications, reports and results timelines, labeling, records, the outcomes audit, required policies, and equipment QC basics.",
+      "topicIds": [
+        "top-ip-accreditation",
+        "top-ip-mqsa-personnel",
+        "top-ip-mqsa-records",
+        "top-ip-mqsa-audit-policies",
+        "top-ip-qc-technologist",
+        "top-ip-qc-physicist",
+        "top-ip-image-evaluation",
+        "top-ip-unit-design",
+        "top-pc-results",
+        "top-pp-variance",
+        "top-pp-exams",
+        "top-ap-reporting"
+      ],
+      "path": "/content/modules/mqsa.json",
+      "lessonCount": 12,
+      "questionCount": 48,
+      "cardCount": 44,
+      "visualCount": 4
+    }
+  ],
+  "coverageSummary": {
+    "objectives": 79,
+    "withLesson": 12,
+    "withGap": 67,
+    "breakdown": {
+      "public_domain_open": 23,
+      "link_only": 0,
+      "needs_clinical_review": 29,
+      "truly_blocked": 3,
+      "needs_source": 53
+    }
+  }
+}

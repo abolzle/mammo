@@ -3,10 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "npm run content:assemble && next dev --port 43147 --hostname 127.0.0.1",
+    "build": "npm run content:assemble && next build",
+    "start": "next start --port 43147",
+    "lint": "eslint",
+    "content:assemble": "tsx scripts/assemble-content.ts",
+    "content:validate": "tsx scripts/assemble-content.ts",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
