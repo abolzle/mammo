@@ -1,0 +1,1161 @@
+{
+  "cards": [
+    {
+      "id": "card-pqd-phantom-weekly",
+      "revision": 1,
+      "objectiveId": "obj-qc-phantom",
+      "estSeconds": 20,
+      "prompt": "How often is screen-film phantom image QC required federally?",
+      "answer": "At least weekly using an FDA-approved phantom.",
+      "evidenceIds": [
+        "ev-pqd-phantom-weekly-sf"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-phantom-stop",
+      "revision": 1,
+      "objectiveId": "obj-qc-phantom",
+      "estSeconds": 20,
+      "prompt": "Failed phantom QC: image patients anyway?",
+      "answer": "No—correct before further examinations on the failed component.",
+      "evidenceIds": [
+        "ev-pqd-phantom-before-exams"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-digital-qa",
+      "revision": 1,
+      "objectiveId": "obj-qc-phantom",
+      "estSeconds": 20,
+      "prompt": "Digital QA default under (e)(6)?",
+      "answer": "Substantially the same as the image-receptor manufacturer's recommended program (dose ceiling still applies).",
+      "evidenceIds": [
+        "ev-pqd-digital-manufacturer-qc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-alt24",
+      "revision": 1,
+      "objectiveId": "obj-qc-phantom",
+      "estSeconds": 20,
+      "prompt": "What is FDA Alt Standard #24?",
+      "answer": "Permission to use ACR DMQC Manual (+ DBT Supplement) with ACR phantom instead of manufacturer QC for FFDM/DBT.",
+      "evidenceIds": [
+        "ev-pqd-alt24-acr-dmqc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-acr-link",
+      "revision": 1,
+      "objectiveId": "obj-qc-phantom",
+      "estSeconds": 20,
+      "prompt": "May Mammo reprint ACR phantom scoring keys?",
+      "answer": "No—copyrighted; cite link-only.",
+      "evidenceIds": [
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-detector-purpose",
+      "revision": 1,
+      "objectiveId": "obj-qc-detector-calibration",
+      "estSeconds": 20,
+      "prompt": "Purpose of detector calibration (principle)?",
+      "answer": "Keep receptor response within the accepted QA program's expected range; steps are manual-specific.",
+      "evidenceIds": [
+        "ev-pqd-digital-manufacturer-qc",
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-detector-where",
+      "revision": 1,
+      "objectiveId": "obj-qc-detector-calibration",
+      "estSeconds": 20,
+      "prompt": "Where are detector calibration steps?",
+      "answer": "Manufacturer QC manual or ACR DMQC if Alt #24 is used.",
+      "evidenceIds": [
+        "ev-pqd-alt24-acr-dmqc",
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-comp-min",
+      "revision": 1,
+      "objectiveId": "obj-qc-compression-tests",
+      "estSeconds": 20,
+      "prompt": "Minimum available compression force?",
+      "answer": "At least 111 N (25 lb).",
+      "evidenceIds": [
+        "ev-pqd-compression-force"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-comp-max",
+      "revision": 1,
+      "objectiveId": "obj-qc-compression-tests",
+      "estSeconds": 20,
+      "prompt": "Initial power-drive max force band?",
+      "answer": "111–200 N (25–45 lb) after Oct 28, 2002.",
+      "evidenceIds": [
+        "ev-pqd-compression-force"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-comp-stop",
+      "revision": 1,
+      "objectiveId": "obj-qc-compression-tests",
+      "estSeconds": 20,
+      "prompt": "Failed compression device performance timing?",
+      "answer": "Before further examinations.",
+      "evidenceIds": [
+        "ev-pqd-compression-before-exams"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-thickness-gap",
+      "revision": 1,
+      "objectiveId": "obj-qc-compression-tests",
+      "estSeconds": 20,
+      "prompt": "Thickness-indicator criteria live where?",
+      "answer": "ACR DMQC / manufacturer manuals (link-only).",
+      "evidenceIds": [
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-clean-protocols",
+      "revision": 1,
+      "objectiveId": "obj-qc-visual-checklist",
+      "estSeconds": 20,
+      "prompt": "Cleanliness protocols must cover?",
+      "answer": "Darkroom, screen, and view box cleanliness with documented frequencies.",
+      "evidenceIds": [
+        "ev-pqd-facility-cleanliness"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-visual-gap",
+      "revision": 1,
+      "objectiveId": "obj-qc-visual-checklist",
+      "estSeconds": 20,
+      "prompt": "Full digital visual checklist items?",
+      "answer": "Manual-specific; not redistributed here.",
+      "evidenceIds": [
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-hotlights",
+      "revision": 1,
+      "objectiveId": "obj-qc-monitors-viewing",
+      "estSeconds": 20,
+      "prompt": "Hot-lights requirement?",
+      "answer": "Available to IPs; brighter than the view box.",
+      "evidenceIds": [
+        "ev-pqd-hotlights-masking"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-masking",
+      "revision": 1,
+      "objectiveId": "obj-qc-monitors-viewing",
+      "estSeconds": 20,
+      "prompt": "Film masking devices do what?",
+      "answer": "Limit illuminated area to about the exposed image.",
+      "evidenceIds": [
+        "ev-pqd-hotlights-masking"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-monitor-link",
+      "revision": 1,
+      "objectiveId": "obj-qc-monitors-viewing",
+      "estSeconds": 20,
+      "prompt": "SMPTE/TG18 procedures?",
+      "answer": "Manufacturer/ACR DMQC link-only.",
+      "evidenceIds": [
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-repeat-2",
+      "revision": 1,
+      "objectiveId": "obj-qc-repeat-analysis",
+      "estSeconds": 20,
+      "prompt": "Repeat/reject change trigger?",
+      "answer": "More than 2.0% of films analyzed versus prior rate.",
+      "evidenceIds": [
+        "ev-pqd-repeat-analysis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-repeat-loop",
+      "revision": 1,
+      "objectiveId": "obj-qc-repeat-analysis",
+      "estSeconds": 20,
+      "prompt": "After finding reasons for a rate change?",
+      "answer": "Record corrective actions and assess results.",
+      "evidenceIds": [
+        "ev-pqd-repeat-analysis"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-phys-scope",
+      "revision": 1,
+      "objectiveId": "obj-qc-physicist-tests",
+      "estSeconds": 20,
+      "prompt": "Annual survey must include?",
+      "answer": "Annual (e)(5)/(e)(6) tests and weekly phantom performance.",
+      "evidenceIds": [
+        "ev-pqd-phys-survey-includes-annual"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-phys-collimation",
+      "revision": 1,
+      "objectiveId": "obj-qc-physicist-tests",
+      "estSeconds": 20,
+      "prompt": "Collimation/alignment purpose?",
+      "answer": "Field to chest wall; ≤2% SID beyond receptor edges.",
+      "evidenceIds": [
+        "ev-pqd-phys-collimation-purpose"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-phys-dose",
+      "revision": 1,
+      "objectiveId": "obj-qc-physicist-tests",
+      "estSeconds": 20,
+      "prompt": "Phantom CC dose ceiling?",
+      "answer": "≤ 3.0 mGy average glandular dose.",
+      "evidenceIds": [
+        "ev-pqd-phys-hvl-dose"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-phys-artifacts",
+      "revision": 1,
+      "objectiveId": "obj-qc-physicist-tests",
+      "estSeconds": 20,
+      "prompt": "System artifact test uses?",
+      "answer": "Homogeneous material covering each cassette size/clinical configuration.",
+      "evidenceIds": [
+        "ev-pqd-phys-artifacts"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-snr-link",
+      "revision": 1,
+      "objectiveId": "obj-qc-physicist-tests",
+      "estSeconds": 20,
+      "prompt": "SNR/CNR/MTF tables?",
+      "answer": "ACR/manufacturer link-only.",
+      "evidenceIds": [
+        "ev-pqd-phys-snr-cnr-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-xccl",
+      "revision": 1,
+      "objectiveId": "obj-pp-exaggerated-cleavage-at",
+      "estSeconds": 20,
+      "prompt": "XCCL means?",
+      "answer": "Laterally exaggerated craniocaudal (toward axilla).",
+      "evidenceIds": [
+        "ev-pqd-xccl-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-cleavage",
+      "revision": 1,
+      "objectiveId": "obj-pp-exaggerated-cleavage-at",
+      "estSeconds": 20,
+      "prompt": "Cleavage view in terminology?",
+      "answer": "A distinct mammography-view qualifier.",
+      "evidenceIds": [
+        "ev-pqd-cleavage-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-at",
+      "revision": 1,
+      "objectiveId": "obj-pp-exaggerated-cleavage-at",
+      "estSeconds": 20,
+      "prompt": "Axillary tail view?",
+      "answer": "Named mammography-view qualifier distinct from cleavage.",
+      "evidenceIds": [
+        "ev-pqd-axillary-tail-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-rolled",
+      "revision": 1,
+      "objectiveId": "obj-pp-tangential-rolled",
+      "estSeconds": 20,
+      "prompt": "Rolled view definition?",
+      "answer": "Breast is rolled to one side.",
+      "evidenceIds": [
+        "ev-pqd-rolled-term"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-tangential",
+      "revision": 1,
+      "objectiveId": "obj-pp-tangential-rolled",
+      "estSeconds": 20,
+      "prompt": "Tangential imaging association (link-only)?",
+      "answer": "Localizing skin lesions.",
+      "evidenceIds": [
+        "ev-pqd-ml-triangulation-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-lateral-ml",
+      "revision": 1,
+      "objectiveId": "obj-pp-lateral-views",
+      "estSeconds": 20,
+      "prompt": "ML for triangulation (link-only)?",
+      "answer": "90° ML frequently obtained for diagnostic triangulation.",
+      "evidenceIds": [
+        "ev-pqd-ml-triangulation-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-diagnostic-angles",
+      "revision": 1,
+      "objectiveId": "obj-pp-lateral-views",
+      "estSeconds": 20,
+      "prompt": "Diagnostic vs screening angles (NCI)?",
+      "answer": "Diagnostic uses images from more angles.",
+      "evidenceIds": [
+        "ev-pqd-nci-more-angles"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-up-three",
+      "revision": 1,
+      "objectiveId": "obj-pp-interventional-prep",
+      "estSeconds": 20,
+      "prompt": "Universal Protocol three parts?",
+      "answer": "Verification, site marking, time-out.",
+      "evidenceIds": [
+        "ev-pqd-universal-protocol",
+        "ev-pqd-timeout-steps"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-timeout",
+      "revision": 1,
+      "objectiveId": "obj-pp-interventional-prep",
+      "estSeconds": 20,
+      "prompt": "When is time-out?",
+      "answer": "Just prior to the procedure, wherever performed.",
+      "evidenceIds": [
+        "ev-pqd-timeout-steps"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-consent",
+      "revision": 1,
+      "objectiveId": "obj-pp-interventional-prep",
+      "estSeconds": 20,
+      "prompt": "Consent in verification?",
+      "answer": "Signed consent form is among documents reviewed.",
+      "evidenceIds": [
+        "ev-pqd-consent-in-verification"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-triang-purpose",
+      "revision": 1,
+      "objectiveId": "obj-ap-triangulation",
+      "estSeconds": 20,
+      "prompt": "Triangulation purpose?",
+      "answer": "Estimate lesion location from multiple projections.",
+      "evidenceIds": [
+        "ev-pqd-ml-triangulation-link",
+        "ev-pqd-nci-more-angles"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-triang-gap",
+      "revision": 1,
+      "objectiveId": "obj-ap-triangulation",
+      "estSeconds": 20,
+      "prompt": "Clock-face worksheets?",
+      "answer": "Needs-source / copyrighted manuals—not invented here.",
+      "evidenceIds": [
+        "ev-pqd-acr-ciq-views-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "card-pqd-dose-digital",
+      "revision": 1,
+      "objectiveId": "obj-qc-phantom",
+      "estSeconds": 20,
+      "prompt": "Digital QC and 3.0 mGy?",
+      "answer": "Dose ceiling still applies under (e)(6) and Alt #24.",
+      "evidenceIds": [
+        "ev-pqd-digital-manufacturer-qc",
+        "ev-pqd-alt24-acr-dmqc"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}

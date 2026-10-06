@@ -1,0 +1,1040 @@
+{
+  "version": "2026-10-06.1",
+  "defaults": {
+    "retrievedOn": "2026-10-06",
+    "review": {
+      "status": "auto_checked",
+      "requiresQualifiedReview": false,
+      "aiAssisted": true,
+      "history": [
+        {
+          "at": "2026-10-06",
+          "status": "draft",
+          "actor": "ai-assisted",
+          "kind": "revision",
+          "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+        },
+        {
+          "at": "2026-10-06",
+          "status": "auto_checked",
+          "actor": "automation",
+          "kind": "automated_validation",
+          "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "id": "ev-pqd-phantom-weekly-sf",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(2)",
+      "claim": "Facilities with screen-film systems must perform an FDA-approved phantom image quality evaluation test at least weekly.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Facilities with screen-film systems shall perform an image quality evaluation test, using an FDA-approved phantom, at least weekly."
+    },
+    {
+      "id": "ev-pqd-phantom-before-exams",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(8)(ii)(A)",
+      "claim": "If phantom image quality testing ((e)(2)) falls outside action limits, corrective action is required before further examinations using the failed component.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Before any further examinations are performed or any films are processed using a component of the mammography system that failed any of the tests described in paragraphs (e)(1), (e)(2), (e)(4)(i), (e)(4)(ii), (e)(4)(iii), (e)(5)(vi), (e)(6), or (e)(7) of this section;"
+    },
+    {
+      "id": "ev-pqd-digital-manufacturer-qc",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(6)",
+      "claim": "For image receptor modalities other than screen-film, the QA program must be substantially the same as the image-receptor manufacturer's recommended QA program, except the average glandular dose for a standard-breast phantom CC view still may not exceed 3.0 mGy.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "For systems with image receptor modalities other than screen-film, the quality assurance program shall be substantially the same as the quality assurance program recommended by the image receptor manufacturer, except that the maximum allowable dose shall not exceed the maximum allowable dose for screen-film systems in paragraph (e)(5)(vi) of this section."
+    },
+    {
+      "id": "ev-pqd-alt24-acr-dmqc",
+      "sourceId": "src-fda-alt-standard-24",
+      "locator": "FDA MQSA Alternative Standard #24 approved alternative text for § 900.12(e)(6)",
+      "claim": "FDA approved an alternative allowing FFDM/DBT facilities to follow the ACR Digital Mammography QC Manual (and DBT Supplement) with the ACR Digital Mammography Phantom instead of the manufacturer's QC program, while still obeying the 3.0 mGy phantom dose ceiling. Mammo does not redistribute ACR worksheets or pass/fail tables.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "For full-field digital mammography and digital breast tomosynthesis systems, the quality assurance program shall be substantially the same as the quality assurance program recommended by the ACR Digital Mammography Quality Control Manual and Supplement for Digital Breast Tomosynthesis ... when used with the ACR Digital Mammography Phantom, except that the maximum allowable dose shall not exceed the maximum allowable dose for screen-film systems in paragraph (e)(5)(vi) of this section."
+    },
+    {
+      "id": "ev-pqd-acr-dmqc-link",
+      "sourceId": "src-acr-dmqc-manual",
+      "locator": "ACR Digital Mammography QC Manual resources page",
+      "claim": "Technologist phantom scoring keys, visual checklist contents, compression thickness-indicator procedures, detector calibration steps, and monitor test-pattern procedures live in the ACR Digital Mammography QC Manual (or the facility's manufacturer manual). Those copyrighted procedures are link-only and are not redistributed here.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pqd-compression-force",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(4)(iii)",
+      "claim": "Screen-film facilities must test compression device performance at least semiannually: at least 111 N (25 lb) of force must be available, and after Oct 28, 2002 the initial power-drive maximum force must be between 111 N and 200 N (25–45 lb).",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "A compression force of at least 111 newtons (25 pounds) shall be provided. ... the maximum compression force for the initial power drive shall be between 111 newtons (25 pounds) and 200 newtons (45 pounds)."
+    },
+    {
+      "id": "ev-pqd-compression-before-exams",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(8)(ii)(A) citing (e)(4)(iii)",
+      "claim": "Failed compression device performance testing is on the before-further-examinations corrective-action list.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Before any further examinations are performed ... that failed any of the tests described in paragraphs ... (e)(4)(iii) ..."
+    },
+    {
+      "id": "ev-pqd-facility-cleanliness",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(11)",
+      "claim": "Facilities must establish and implement adequate protocols for maintaining darkroom, screen, and view box cleanliness and document that cleaning is performed at the frequencies in those protocols.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The facility shall establish and implement adequate protocols for maintaining darkroom, screen, and view box cleanliness. The facility shall document that all cleaning procedures are performed at the frequencies specified in the protocols."
+    },
+    {
+      "id": "ev-pqd-repeat-analysis",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(3)(ii)",
+      "claim": "For screen-film systems, if the total repeat or reject rate changes from the previously determined rate by more than 2.0 percent of the total films in the analysis, the reason(s) must be determined; corrective actions and their results must be recorded and assessed.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "If the total repeat or reject rate changes from the previously determined rate by more than 2.0 percent of the total films included in the analysis, the reason(s) for the change shall be determined. Any corrective actions shall be recorded and the results of these corrective actions shall be assessed."
+    },
+    {
+      "id": "ev-pqd-action-limits-compare",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(8)(i)",
+      "claim": "After QC tests, facilities compare results to specified action limits; for nonscreen-film modalities, to the manufacturer's recommended action limits (or to facility-established limits for mobile post-move testing).",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "the facility shall compare the test results to the corresponding specified action limits; or, for nonscreen-film modalities, to the manufacturer's recommended action limits;"
+    },
+    {
+      "id": "ev-pqd-hotlights-masking",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(b)(14)–(15)",
+      "claim": "Facilities must make hot-lights available to interpreting physicians and ensure film masking devices that can limit the illuminated area to the exposed portion of the film are available.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The facility shall make special lights for film illumination, i.e., hot-lights, capable of producing light levels greater than that provided by the view box, available to the interpreting physicians. ... film masking devices that can limit the illuminated area to a region equal to or smaller than the exposed portion of the film are available to all interpreting physicians"
+    },
+    {
+      "id": "ev-pqd-phys-survey-includes-annual",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(9)(i)",
+      "claim": "The annual medical physicist survey must include tests ensuring the facility meets annual QA requirements in (e)(5) and (e)(6) and the weekly phantom image quality test in (e)(2).",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "At a minimum, this survey shall include the performance of tests to ensure that the facility meets the quality assurance requirements of the annual tests described in paragraphs (e)(5) and (e)(6) of this section and the weekly phantom image quality test described in paragraph (e)(2) of this section."
+    },
+    {
+      "id": "ev-pqd-phys-collimation-purpose",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(vii)",
+      "claim": "Annual alignment/collimation testing checks that the x-ray field reaches the chest-wall edge of the receptor and does not extend beyond any edge by more than 2% of SID, and that the compression paddle's chest-wall edge does not project a visible shadow.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "All systems shall have beam-limiting devices that allow the entire chest wall edge of the x-ray field to extend to the chest wall edge of the image receptor and provide means to assure that the x-ray field does not extend beyond any edge of the image receptor by more than 2 percent of the SID."
+    },
+    {
+      "id": "ev-pqd-phys-resolution-purpose",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(iii)(A)",
+      "claim": "Annual system resolution testing (focal spot condition after Oct 28, 2002) requires minimum high-contrast bar-pattern resolution of 11 lp/mm perpendicular and 13 lp/mm parallel to the anode-cathode axis under specified geometry.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "shall provide a minimum resolution of 11 Cycles/millimeter (mm) (line-pairs/mm) when a high contrast resolution bar test pattern is oriented with the bars perpendicular to the anode-cathode axis, and a minimum resolution of 13 line-pairs/mm when the bars are parallel to that axis."
+    },
+    {
+      "id": "ev-pqd-phys-snr-cnr-link",
+      "sourceId": "src-acr-dmqc-manual",
+      "locator": "ACR DMQC Manual — physicist digital tests (SNR/CNR/MTF and related)",
+      "claim": "SNR/CNR, MTF, and other digital-specific physicist metrics are specified in the ACR Digital Mammography QC Manual or manufacturer QC—not as redistributable pass/fail tables in this module. Federal digital path is manufacturer QC or FDA Alternative Standard #24.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pqd-phys-aec-purpose",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(i) and (e)(5)(v)",
+      "claim": "Annual AEC performance and breast-entrance air kerma / AEC reproducibility tests verify automatic exposure control maintains optical density within stated tolerances across thickness/kVp and that air kerma and mAs coefficients of variation do not exceed 0.05.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The coefficient of variation for both air kerma and mAs shall not exceed 0.05."
+    },
+    {
+      "id": "ev-pqd-phys-hvl-dose",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(iv) and (e)(5)(vi)",
+      "claim": "Annual physicist testing includes beam quality (HVL meeting minimums) and dosimetry: average glandular dose for a single CC view of an FDA-accepted standard-breast phantom must not exceed 3.0 mGy.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The average glandular dose delivered during a single cranio-caudal view of an FDA-accepted phantom simulating a standard breast shall not exceed 3.0 milligray (mGy) (0.3 rad) per exposure."
+    },
+    {
+      "id": "ev-pqd-phys-artifacts",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(e)(5)(ix)",
+      "claim": "Annual system artifact evaluation uses homogeneous material covering the cassette for all cassette sizes, grids, focal spots, and target-filter combinations used clinically.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "System artifacts shall be evaluated with a high-grade, defect-free sheet of homogeneous material large enough to cover the mammography cassette and shall be performed for all cassette sizes used in the facility"
+    },
+    {
+      "id": "ev-pqd-nci-more-angles",
+      "sourceId": "src-nci-mammograms",
+      "locator": "NCI Mammograms fact sheet — diagnostic mammography",
+      "claim": "Diagnostic mammography evaluates a lump or other change and requires images from more angles than screening mammography.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "diagnostic mammography requires images from more angles than screening mammography, so the dose of radiation is higher."
+    },
+    {
+      "id": "ev-pqd-mqsa-diagnostic-individualized",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.12(f)(1)",
+      "claim": "For MQSA audit definitions, a diagnostic mammogram consists of individualized views for symptoms, signs, or abnormal screening findings (versus routine screening views).",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "a mammographic examination consisting of individualized views of a patient with breast symptoms, physical signs of breast disease, or abnormal findings on a screening mammogram shall be termed a diagnostic mammogram."
+    },
+    {
+      "id": "ev-pqd-xccl-term",
+      "sourceId": "src-nci-evs-xccl",
+      "locator": "NCI EVS concept CL571604 — View XCCL synonyms",
+      "claim": "XCCL is a recognized mammography view term meaning laterally exaggerated craniocaudal (also glossed as cranio-caudal view exaggerated to the axilla / internally rotated CC).",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Laterally exaggerated craniocaudal; Cranio Caudal view eXaggerated to axilLa; Internally rotated CC"
+    },
+    {
+      "id": "ev-pqd-cleavage-term",
+      "sourceId": "src-nci-evs-cleavage",
+      "locator": "NCI EVS SNOMEDCT_US 399161006",
+      "claim": "Cleavage mammography view is a recognized mammography-view qualifier in the mammography view hierarchy (alongside axillary tail mammography view).",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Cleavage mammography view"
+    },
+    {
+      "id": "ev-pqd-axillary-tail-term",
+      "sourceId": "src-nci-evs-cleavage",
+      "locator": "NCI EVS hierarchy under Mammography view (441753009)",
+      "claim": "Axillary tail mammography view is listed as a distinct mammography-view qualifier alongside cleavage view.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Axillary tail mammography view"
+    },
+    {
+      "id": "ev-pqd-rolled-term",
+      "sourceId": "src-nci-evs-rolled",
+      "locator": "NCI EVS / LOINC 37016-3 CHANGE_REASON_PUBLIC",
+      "claim": "In a rolled mammography view, the breast is rolled to one side (LOINC change-reason language).",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "Changed \"roll\" to \"rolled\" to better represent that in this view, the breast is rolled to one side."
+    },
+    {
+      "id": "ev-pqd-ml-triangulation-link",
+      "sourceId": "src-pmc-dbt-clinical-impl-2014",
+      "locator": "PMC4128330 — localization / triangulation discussion",
+      "claim": "Peer-reviewed clinical DBT implementation literature notes that a 90-degree mediolateral (ML) view is frequently obtained for diagnostic triangulation, and that tangential imaging is used to localize skin lesions. Detailed clock-face triangulation recipes are not redistributed here.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pqd-acr-ciq-views-link",
+      "sourceId": "src-acr-positioning-review-table",
+      "locator": "ACR Mammography Positioning Review Guidelines Table (Learning Network) — link-only",
+      "claim": "Detailed evaluation criteria and correction recipes for ML/LM, XCCL/XCCM, cleavage, axillary tail, rolled, and tangential views are in copyrighted ACR positioning references. Cited link-only; not redistributed.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pqd-universal-protocol",
+      "sourceId": "src-ahrq-psnet-universal-protocol",
+      "locator": "AHRQ PSNet Universal Protocol issue page",
+      "claim": "The Universal Protocol (summarized by AHRQ) was developed to prevent wrong-site, wrong-procedure, and wrong-person surgery and includes preprocedure verification, site marking, and a time-out.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "In July 2004, The Joint Commission enacted a Universal Protocol that was developed through expert consensus on principles and steps for preventing wrong-site, wrong-procedure, and wrong-person surgery. ... The protocol requires performing a time out prior to beginning surgery"
+    },
+    {
+      "id": "ev-pqd-timeout-steps",
+      "sourceId": "src-ahrq-psnet-timeout-inside",
+      "locator": "AHRQ PSNet — The Inside of a Time Out",
+      "claim": "Universal Protocol requires three separate steps: preoperative identification/verification, marking of the operative site, and a final time-out just prior to the surgery or procedure.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The Universal Protocol requires three separate steps: the proper preoperative identification of the patient by the three members of the team (surgeon, anesthesiologist, nurse), marking of the operative site, and a final \"time out\" just prior to the surgery or procedure regardless of where it is being performed."
+    },
+    {
+      "id": "ev-pqd-consent-in-verification",
+      "sourceId": "src-ahrq-psnet-wrong-catheter",
+      "locator": "AHRQ PSNet — Wrong Catheter in the Right Patient (Universal Protocol discussion)",
+      "claim": "Preprocedure verification seeks to catch missing information or discrepancies before starting and reviews relevant documentation that includes the signed consent form along with history/physical and related items.",
+      "scope": "U.S. mammography facilities / ARRT Mammography exam study context.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "excerpt": "The preoperative verification process seeks to address missing information or discrepancies before starting the procedure, i.e. the correct procedure, correct patient, and correct site. Relevant documentation includes the case history, physical examination, signed consent form, and pre-anesthesia assessment."
+    }
+  ]
+}

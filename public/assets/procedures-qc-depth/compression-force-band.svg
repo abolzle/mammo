@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" role="img" aria-label="Schematic compression force limits">
+  <rect width="640" height="280" fill="#F7F5F1"/>
+  <text x="24" y="32" font-family="Georgia, serif" font-size="16" fill="#1B2A41">Compression force performance (schematic)</text>
+  <rect x="40" y="110" width="140" height="70" rx="4" fill="#EAF7EE" stroke="#2F6B45" stroke-width="2"/>
+  <text x="55" y="140" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#1B2A41">≥ 111 N</text>
+  <text x="55" y="160" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">available (25 lb)</text>
+  <rect x="220" y="100" width="200" height="90" rx="4" fill="#E8F0FF" stroke="#2F5D8C" stroke-width="2"/>
+  <text x="245" y="135" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#1B2A41">111–200 N</text>
+  <text x="235" y="158" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">initial power-drive max</text>
+  <text x="250" y="176" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">(25–45 lb)</text>
+  <rect x="460" y="110" width="140" height="70" rx="4" fill="#FDECEC" stroke="#8B3A3A" stroke-width="2"/>
+  <text x="485" y="140" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#1B2A41">&gt; 200 N</text>
+  <text x="478" y="160" font-family="system-ui,sans-serif" font-size="12" fill="#1B2A41">above max band</text>
+  <text x="24" y="250" font-family="system-ui,sans-serif" font-size="11" fill="#5A6472">SCHEMATIC — NOT A MAMMOGRAM · Thickness-indicator tests not shown (manual link-only)</text>
+</svg>

@@ -822,9 +822,11 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900",
+        "src-fda-alt-standard-24"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-qc-compression-tests",
@@ -840,7 +842,7 @@
         "src-acr-dmqc-manual",
         "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-qc-visual-checklist",
@@ -851,9 +853,10 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-qc-monitors-viewing",
@@ -869,7 +872,7 @@
         "src-dicom-ps3-1",
         "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-qc-repeat-analysis",
@@ -880,9 +883,10 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-qc-detector-calibration",
@@ -893,9 +897,11 @@
       "depth": "define",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900",
+        "src-fda-alt-standard-24"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-qc-physicist-survey",
@@ -926,7 +932,7 @@
         "src-acr-dmqc-manual",
         "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-exposure-factors",
@@ -1019,8 +1025,12 @@
       ],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-pmc-dbt-clinical-impl-2014",
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_link_only"
     },
     {
       "id": "obj-ap-external-landmarks",
@@ -1206,8 +1216,12 @@
       ],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900",
+        "src-pmc-dbt-clinical-impl-2014"
+      ],
+      "sourceState": "source_backed_link_only"
     },
     {
       "id": "obj-pp-exaggerated-cleavage-at",
@@ -1219,8 +1233,12 @@
       ],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-nci-evs-xccl",
+        "src-nci-evs-cleavage",
+        "src-nci-mammograms"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-tangential-rolled",
@@ -1232,8 +1250,12 @@
       ],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-nci-evs-rolled",
+        "src-pmc-dbt-clinical-impl-2014",
+        "src-nci-mammograms"
+      ],
+      "sourceState": "source_backed_link_only"
     },
     {
       "id": "obj-pp-implant-displaced",
@@ -1343,8 +1365,12 @@
       "prerequisites": [],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-ahrq-psnet-universal-protocol",
+        "src-ahrq-psnet-timeout-inside",
+        "src-ahrq-psnet-wrong-catheter"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-biopsy-localization",

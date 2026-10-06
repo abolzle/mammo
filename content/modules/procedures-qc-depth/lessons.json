@@ -1,0 +1,749 @@
+{
+  "lessons": [
+    {
+      "id": "les-pqd-phantom-federal",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-qc-phantom",
+      "title": "Phantom image QC: federal purpose and timing",
+      "estMinutes": 3,
+      "summary": "Screen-film facilities must run an FDA-approved phantom image quality test at least weekly; a failed phantom test blocks further exams on the failed component until corrected.",
+      "explanation": [
+        {
+          "heading": "Weekly phantom rule (screen-film text)",
+          "body": "§ 900.12(e)(2) requires facilities with screen-film systems to perform an image quality evaluation using an FDA-approved phantom at least weekly, with optical-density and accreditation-body score limits stated in that paragraph."
+        },
+        {
+          "heading": "Digital path is not a free pass",
+          "body": "For FFDM/DBT, § 900.12(e)(6) points to manufacturer-recommended QA (or FDA Alternative Standard #24 using the ACR DMQC Manual). Phantom procedure worksheets and pass/fail scoring tables stay in those manuals—link-only here."
+        },
+        {
+          "heading": "Failed phantom → stop clinical use",
+          "body": "Under § 900.12(e)(8), phantom image testing is on the before-further-examinations corrective-action list. Document the problem, fix it, and keep proof."
+        }
+      ],
+      "example": "A technologist's weekly phantom score is outside the facility's action limits: the unit is not used for patients until the source is fixed and retested.",
+      "misconception": {
+        "belief": "Phantom QC can wait until the physicist annual survey.",
+        "correction": "Federal screen-film text sets a weekly floor; digital follows manufacturer or Alt Standard #24 frequencies—not 'annual only.'"
+      },
+      "variants": {
+        "simpler": "Screen-film facilities must run an FDA-approved phantom image quality test at least weekly; a failed phantom test blocks further exams on the failed component until corrected.",
+        "example": "A technologist's weekly phantom score is outside the facility's action limits: the unit is not used for patients until the source is fixed and retested.",
+        "deeper": "Under § 900.12(e)(8), phantom image testing is on the before-further-examinations corrective-action list. Document the problem, fix it, and keep proof."
+      },
+      "observationPrompt": "Ask which phantom and which manual (manufacturer vs ACR DMQC) your site uses, and where weekly scores are logged.",
+      "checkQuestionId": "q-pqd-001",
+      "evidenceIds": [
+        "ev-pqd-phantom-weekly-sf",
+        "ev-pqd-phantom-before-exams",
+        "ev-pqd-digital-manufacturer-qc",
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-digital-qc-path",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-qc-detector-calibration",
+      "title": "Digital QC path and why detector calibration exists",
+      "estMinutes": 3,
+      "summary": "Digital mammography QA must track the manufacturer program—or FDA Alternative Standard #24 (ACR DMQC)—and still obey the 3.0 mGy phantom dose ceiling. Detector calibration is a manufacturer/manual procedure, not a freestyle technologist invention.",
+      "explanation": [
+        {
+          "heading": "Default digital rule",
+          "body": "§ 900.12(e)(6) says nonscreen-film QA shall be substantially the same as the image-receptor manufacturer's recommended program, except dose still cannot exceed the screen-film phantom ceiling of 3.0 mGy."
+        },
+        {
+          "heading": "Alternative Standard #24",
+          "body": "FDA approved using the ACR Digital Mammography QC Manual (+ DBT Supplement) with the ACR Digital Mammography Phantom as an alternative to manufacturer QC for FFDM/DBT. That is a regulatory permission, not a license to photocopy ACR worksheets into Mammo."
+        },
+        {
+          "heading": "Detector calibration purpose (principle level)",
+          "body": "Manufacturer (or ACR DMQC) programs include detector calibration so the receptor's response stays within the vendor's expected range. Exact steps, tools, and pass/fail numbers are manual-specific—link-only."
+        }
+      ],
+      "example": "A site electing Alt Standard #24 follows ACR DMQC technologist tests for its FFDM unit instead of the OEM binder, but still must keep phantom dose ≤ 3.0 mGy.",
+      "misconception": {
+        "belief": "Any technologist can invent detector calibration steps if images look fine.",
+        "correction": "Calibration procedures come from the manufacturer or the FDA-accepted ACR DMQC alternative—not ad hoc judgment."
+      },
+      "variants": {
+        "simpler": "Digital mammography QA must track the manufacturer program—or FDA Alternative Standard #24 (ACR DMQC)—and still obey the 3.0 mGy phantom dose ceiling. Detector calibration is a manufacturer/manual procedure, not a freestyle technologist invention.",
+        "example": "A site electing Alt Standard #24 follows ACR DMQC technologist tests for its FFDM unit instead of the OEM binder, but still must keep phantom dose ≤ 3.0 mGy.",
+        "deeper": "Manufacturer (or ACR DMQC) programs include detector calibration so the receptor's response stays within the vendor's expected range. Exact steps, tools, and pass/fail numbers are manual-specific—link-only."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-006",
+      "evidenceIds": [
+        "ev-pqd-digital-manufacturer-qc",
+        "ev-pqd-alt24-acr-dmqc",
+        "ev-pqd-acr-dmqc-link",
+        "ev-pqd-action-limits-compare"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-compression-tests",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-qc-compression-tests",
+      "title": "Compression QC: federal force limits vs manual thickness tests",
+      "estMinutes": 3,
+      "summary": "Federal rules set semiannual compression force performance limits for screen-film systems and put compression-device failures on the before-further-exams list. Thickness-indicator procedures are ACR/manufacturer detail (link-only).",
+      "explanation": [
+        {
+          "heading": "Force performance (federal numbers)",
+          "body": "§ 900.12(e)(4)(iii): at least 111 N (25 lb) available; initial power-drive maximum between 111 N and 200 N (25–45 lb) after Oct 28, 2002. Screen-film text places this among semiannual tests."
+        },
+        {
+          "heading": "Corrective timing",
+          "body": "Compression device performance is listed in § 900.12(e)(8)(ii)(A)—failures must be corrected before further examinations on the failed component."
+        },
+        {
+          "heading": "Thickness indicator stays in the manual",
+          "body": "Compression thickness indicator accuracy checks, tools, and tolerances are specified in the ACR DMQC Manual or manufacturer QC. This module links those manuals and does not reprint their procedures."
+        }
+      ],
+      "example": "Power drive maxes out above 45 lb on the gauge: stop clinical use until compression is serviced and retested.",
+      "misconception": {
+        "belief": "Federal law publishes the ACR thickness-indicator pass/fail table.",
+        "correction": "Federal text states force limits; thickness-indicator criteria remain in copyrighted manuals."
+      },
+      "variants": {
+        "simpler": "Federal rules set semiannual compression force performance limits for screen-film systems and put compression-device failures on the before-further-exams list. Thickness-indicator procedures are ACR/manufacturer detail (link-only).",
+        "example": "Power drive maxes out above 45 lb on the gauge: stop clinical use until compression is serviced and retested.",
+        "deeper": "Compression thickness indicator accuracy checks, tools, and tolerances are specified in the ACR DMQC Manual or manufacturer QC. This module links those manuals and does not reprint their procedures."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-010",
+      "evidenceIds": [
+        "ev-pqd-compression-force",
+        "ev-pqd-compression-before-exams",
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-visual-cleanliness",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-qc-visual-checklist",
+      "title": "Visual / cleanliness checks: federal floor, manual checklist",
+      "estMinutes": 3,
+      "summary": "MQSA requires documented cleanliness protocols for darkroom, screens, and view boxes. Modern digital 'visual checklist' line items live in ACR/manufacturer QC manuals and are cited link-only.",
+      "explanation": [
+        {
+          "heading": "Federal cleanliness duty",
+          "body": "§ 900.12(e)(11) requires adequate protocols for darkroom, screen, and view box cleanliness and documentation that cleaning happens at the protocol frequencies."
+        },
+        {
+          "heading": "Viewing aids",
+          "body": "§ 900.12(b)(14)–(15) require hot-lights and film masking devices for interpreting physicians—viewing conditions are part of the quality system, not optional furniture."
+        },
+        {
+          "heading": "Digital visual checklist contents",
+          "body": "Which switches, paddles, cables, and room items appear on today's technologist visual checklist—and what finding fails—are ACR DMQC / manufacturer worksheet content. Link-only; do not memorize invented lists from this app."
+        }
+      ],
+      "example": "Inspector asks for the facility's cleanliness protocol and cleaning logs—not only a verbal claim that the room 'looks fine.'",
+      "misconception": {
+        "belief": "If the room looks clean, no written cleanliness protocol is needed.",
+        "correction": "Federal text requires written protocols and documented frequencies for the listed cleaning items."
+      },
+      "variants": {
+        "simpler": "MQSA requires documented cleanliness protocols for darkroom, screens, and view boxes. Modern digital 'visual checklist' line items live in ACR/manufacturer QC manuals and are cited link-only.",
+        "example": "Inspector asks for the facility's cleanliness protocol and cleaning logs—not only a verbal claim that the room 'looks fine.'",
+        "deeper": "Which switches, paddles, cables, and room items appear on today's technologist visual checklist—and what finding fails—are ACR DMQC / manufacturer worksheet content. Link-only; do not memorize invented lists from this app."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-014",
+      "evidenceIds": [
+        "ev-pqd-facility-cleanliness",
+        "ev-pqd-hotlights-masking",
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-repeat-analysis",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-qc-repeat-analysis",
+      "title": "Repeat/reject analysis: the federal 2% change trigger",
+      "estMinutes": 3,
+      "summary": "Screen-film MQSA text requires investigating when the total repeat/reject rate changes by more than 2.0% of films analyzed, then recording corrective actions and assessing whether they worked.",
+      "explanation": [
+        {
+          "heading": "The 2% change rule",
+          "body": "§ 900.12(e)(3)(ii): if the total repeat or reject rate changes from the previously determined rate by more than 2.0 percent of the total films included in the analysis, determine the reason(s)."
+        },
+        {
+          "heading": "Close the loop",
+          "body": "Corrective actions must be recorded and their results assessed—not only discussed. That effectiveness loop matches the broader MQSA corrective-action culture."
+        },
+        {
+          "heading": "Digital worksheets",
+          "body": "How digital sites compute categories and thresholds day-to-day follows manufacturer or ACR DMQC forms. Federal text still teaches the investigation-and-assessment principle; detailed category taxonomies stay link-only."
+        }
+      ],
+      "example": "Repeat rate jumps from 2% to 5% of films in the analysis window: the facility investigates causes (positioning, motion, exposure), documents fixes, and checks whether the rate returns.",
+      "misconception": {
+        "belief": "Repeat analysis is optional if EQUIP periodic review is done.",
+        "correction": "Repeat/reject analysis is a separate QC activity; EQUIP FAQ materials note it is not a substitute for periodic clinical image review."
+      },
+      "variants": {
+        "simpler": "Screen-film MQSA text requires investigating when the total repeat/reject rate changes by more than 2.0% of films analyzed, then recording corrective actions and assessing whether they worked.",
+        "example": "Repeat rate jumps from 2% to 5% of films in the analysis window: the facility investigates causes (positioning, motion, exposure), documents fixes, and checks whether the rate returns.",
+        "deeper": "Pair this with EQUIP lessons: clinical image sample review and repeat analysis answer different questions."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-018",
+      "evidenceIds": [
+        "ev-pqd-repeat-analysis",
+        "ev-pqd-action-limits-compare",
+        "ev-pqd-acr-dmqc-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-monitors-viewing",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-qc-monitors-viewing",
+      "title": "Monitors and viewing: federal viewing aids plus digital QC path",
+      "estMinutes": 3,
+      "summary": "Federal rules still require hot-lights and masking for interpretation and cleanliness protocols for view boxes. Acquisition/interpretation monitor calibration patterns (SMPTE/TG18 and similar) are manufacturer or ACR DMQC procedures—link-only.",
+      "explanation": [
+        {
+          "heading": "Hardcopy-era viewing duties that still teach the principle",
+          "body": "Hot-lights brighter than the view box and masking devices that crop illumination to the exposed image are required under § 900.12(b)(14)–(15). Cleanliness protocols cover view boxes under (e)(11)."
+        },
+        {
+          "heading": "Digital displays follow the digital QC path",
+          "body": "Monitor cleanliness, calibration, and test-pattern QC for acquisition and interpretation workstations are part of manufacturer QA or ACR DMQC under Alt Standard #24—not free inventing of luminance numbers."
+        },
+        {
+          "heading": "Action limits still matter",
+          "body": "§ 900.12(e)(8)(i) says nonscreen-film results are compared to manufacturer-recommended action limits. Failed digital QC that falls under (e)(6) is on the before-further-exams list."
+        }
+      ],
+      "example": "An interpretation workstation fails its facility's monitor QC pattern check: follow the site's manufacturer/ACR procedure and corrective timing before using that display for final reads.",
+      "misconception": {
+        "belief": "Any bright office monitor is fine for final mammography interpretation without QC.",
+        "correction": "Digital interpretation displays are governed by the facility's accepted digital QA program and action limits."
+      },
+      "variants": {
+        "simpler": "Federal rules still require hot-lights and masking for interpretation and cleanliness protocols for view boxes. Acquisition/interpretation monitor calibration patterns (SMPTE/TG18 and similar) are manufacturer or ACR DMQC procedures—link-only.",
+        "example": "An interpretation workstation fails its facility's monitor QC pattern check: follow the site's manufacturer/ACR procedure and corrective timing before using that display for final reads.",
+        "deeper": "§ 900.12(e)(8)(i) says nonscreen-film results are compared to manufacturer-recommended action limits. Failed digital QC that falls under (e)(6) is on the before-further-exams list."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-022",
+      "evidenceIds": [
+        "ev-pqd-hotlights-masking",
+        "ev-pqd-facility-cleanliness",
+        "ev-pqd-digital-manufacturer-qc",
+        "ev-pqd-acr-dmqc-link",
+        "ev-pqd-action-limits-compare"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-physicist-tests",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-qc-physicist-tests",
+      "title": "Major physicist tests: federal purposes (not cookbook steps)",
+      "estMinutes": 3,
+      "summary": "The annual survey must cover annual equipment tests and weekly phantom performance. Federal screen-film text states purposes and numeric limits for collimation/alignment, resolution, AEC, HVL, dose, and artifacts; digital-specific SNR/CNR/MTF details remain ACR/manufacturer link-only.",
+      "explanation": [
+        {
+          "heading": "What the survey must cover",
+          "body": "§ 900.12(e)(9) requires the physicist survey to include annual tests in (e)(5)/(e)(6) and the weekly phantom image quality test in (e)(2), plus review of facility QC results and corrective actions."
+        },
+        {
+          "heading": "Collimation / alignment purpose",
+          "body": "(e)(5)(vii) checks x-ray field vs receptor edges (≤2% SID beyond edges) and that the paddle chest-wall edge does not cast a visible shadow."
+        },
+        {
+          "heading": "Resolution, AEC, HVL, dose, artifacts",
+          "body": "Resolution/focal-spot condition, AEC performance and reproducibility, HVL, ≤3.0 mGy phantom dose, and system artifact evaluation are annual federal purposes. SNR/CNR/MTF cookbook values for digital units stay in ACR/manufacturer manuals."
+        }
+      ],
+      "example": "Physicist report flags collimation exceeding 2% SID beyond a receptor edge: facility corrects before relying on that geometry, consistent with survey recommendations and applicable corrective timing.",
+      "misconception": {
+        "belief": "Technologists perform annual HVL and dose tests instead of the medical physicist.",
+        "correction": "Survey tests are performed by a medical physicist or someone under a physicist's direct supervision."
+      },
+      "variants": {
+        "simpler": "The annual survey must cover annual equipment tests and weekly phantom performance. Federal screen-film text states purposes and numeric limits for collimation/alignment, resolution, AEC, HVL, dose, and artifacts; digital-specific SNR/CNR/MTF details remain ACR/manufacturer link-only.",
+        "example": "Physicist report flags collimation exceeding 2% SID beyond a receptor edge: facility corrects before relying on that geometry, consistent with survey recommendations and applicable corrective timing.",
+        "deeper": "Resolution/focal-spot condition, AEC performance and reproducibility, HVL, ≤3.0 mGy phantom dose, and system artifact evaluation are annual federal purposes. SNR/CNR/MTF cookbook values for digital units stay in ACR/manufacturer manuals."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-026",
+      "evidenceIds": [
+        "ev-pqd-phys-survey-includes-annual",
+        "ev-pqd-phys-collimation-purpose",
+        "ev-pqd-phys-resolution-purpose",
+        "ev-pqd-phys-aec-purpose",
+        "ev-pqd-phys-hvl-dose",
+        "ev-pqd-phys-artifacts",
+        "ev-pqd-phys-snr-cnr-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-lateral-ml-lm",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-pp-lateral-views",
+      "title": "True laterals (ML/LM): diagnostic purpose, criteria still thin",
+      "estMinutes": 3,
+      "summary": "Diagnostic mammography uses individualized additional angles beyond routine screening views. A 90° ML is commonly obtained when triangulation/localization is needed (link-only clinical literature). Detailed ML vs LM selection recipes remain ACR-criteria territory.",
+      "explanation": [
+        {
+          "heading": "Why extra angles exist",
+          "body": "NCI: diagnostic mammography uses more angles than screening. MQSA audit language: diagnostic exams use individualized views for symptoms or abnormal screening findings."
+        },
+        {
+          "heading": "ML in the localization pathway",
+          "body": "Link-only clinical DBT implementation literature notes a 90° mediolateral (ML) view is frequently obtained for diagnostic triangulation. That supports purpose-level study; it is not a full ARRT checklist of ML/LM evaluation criteria."
+        },
+        {
+          "heading": "What stays blocked / needs source",
+          "body": "Step-by-step ML vs LM choice rules and 'side of interest nearest the receptor' evaluation criteria are taught in copyrighted ACR clinical image quality / positioning references. Until those are maintainer link-only source-checked, do not treat invented criteria as verified."
+        }
+      ],
+      "example": "A finding seen on CC and MLO needs a true lateral to refine superior-inferior localization before biopsy planning—your site's protocol may call for ML.",
+      "misconception": {
+        "belief": "Screening always includes ML and LM on every patient.",
+        "correction": "Screening uses routine views; laterals are individualized diagnostic/problem-solving views unless a protocol says otherwise."
+      },
+      "variants": {
+        "simpler": "Diagnostic mammography uses individualized additional angles beyond routine screening views. A 90° ML is commonly obtained when triangulation/localization is needed (link-only clinical literature). Detailed ML vs LM selection recipes remain ACR-criteria territory.",
+        "example": "A finding seen on CC and MLO needs a true lateral to refine superior-inferior localization before biopsy planning—your site's protocol may call for ML.",
+        "deeper": "Step-by-step ML vs LM choice rules and 'side of interest nearest the receptor' evaluation criteria are taught in copyrighted ACR clinical image quality / positioning references. Until those are maintainer link-only source-checked, do not treat invented criteria as verified."
+      },
+      "observationPrompt": "Ask which lateral (ML or LM) your site prefers for triangulation and where that preference is written.",
+      "checkQuestionId": "q-pqd-030",
+      "evidenceIds": [
+        "ev-pqd-nci-more-angles",
+        "ev-pqd-mqsa-diagnostic-individualized",
+        "ev-pqd-ml-triangulation-link",
+        "ev-pqd-acr-ciq-views-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-xccl-cleavage",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-pp-exaggerated-cleavage-at",
+      "title": "XCCL, cleavage, and axillary-tail view names (sourced terms)",
+      "estMinutes": 3,
+      "summary": "Public terminology sources define XCCL as laterally exaggerated craniocaudal (toward the axilla) and list cleavage and axillary-tail as distinct mammography views. Positioning how-to criteria remain ACR link-only / needs-source.",
+      "explanation": [
+        {
+          "heading": "XCCL naming",
+          "body": "NCI EVS/LOINC synonyms for View XCCL include laterally exaggerated craniocaudal and cranio-caudal view exaggerated to the axilla (also 'internally rotated CC'). The name itself states the tissue goal: lateral/axillary-tail coverage beyond a standard CC."
+        },
+        {
+          "heading": "Cleavage and axillary tail as named views",
+          "body": "NCI EVS lists Cleavage mammography view and Axillary tail mammography view as distinct mammography-view qualifiers. Use the names correctly; do not invent pass/fail positioning checklists here."
+        },
+        {
+          "heading": "When they appear",
+          "body": "These are problem-solving / diagnostic additions when standard CC/MLO do not show the tissue of interest—consistent with NCI's 'more angles' diagnostic framing—not random extra dose."
+        }
+      ],
+      "example": "Standard CC clips the far-lateral tissue that holds a finding: the radiologist requests an XCCL (laterally exaggerated CC) rather than an identical repeat CC.",
+      "misconception": {
+        "belief": "XCCL is just another name for MLO.",
+        "correction": "XCCL is an exaggerated craniocaudal aimed laterally/toward the axilla, not an MLO."
+      },
+      "variants": {
+        "simpler": "Public terminology sources define XCCL as laterally exaggerated craniocaudal (toward the axilla) and list cleavage and axillary-tail as distinct mammography views. Positioning how-to criteria remain ACR link-only / needs-source.",
+        "example": "Standard CC clips the far-lateral tissue that holds a finding: the radiologist requests an XCCL (laterally exaggerated CC) rather than an identical repeat CC.",
+        "deeper": "These are problem-solving / diagnostic additions when standard CC/MLO do not show the tissue of interest—consistent with NCI's 'more angles' diagnostic framing—not random extra dose."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-034",
+      "evidenceIds": [
+        "ev-pqd-xccl-term",
+        "ev-pqd-cleavage-term",
+        "ev-pqd-axillary-tail-term",
+        "ev-pqd-nci-more-angles",
+        "ev-pqd-acr-ciq-views-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-rolled-tangential",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-pp-tangential-rolled",
+      "title": "Rolled and tangential views: what public sources actually say",
+      "estMinutes": 3,
+      "summary": "LOINC/NCI EVS define rolled views as rolling the breast to one side. Link-only clinical literature associates tangential imaging with localizing skin lesions. Full technique cards remain ACR/needs-source.",
+      "explanation": [
+        {
+          "heading": "Rolled = breast rolled to one side",
+          "body": "NCI EVS surfaces LOINC's public change note: 'rolled' means the breast is rolled to one side. That is a purpose-level definition for separating or rearranging overlapping tissue relationships—not a hand-placement cookbook."
+        },
+        {
+          "heading": "Tangential and skin",
+          "body": "Link-only peer-reviewed discussion notes tangential imaging is used to localize skin lesions. Without an accessible public procedure text, Mammo does not invent beam-angle recipes."
+        },
+        {
+          "heading": "Still a diagnostic tool",
+          "body": "Like other additional views, these appear when individualized problem-solving angles are needed (NCI diagnostic framing), not as routine screening defaults."
+        }
+      ],
+      "example": "A radiologist asks for rolled views when two densities overlap on CC and may represent one finding versus two stacked structures.",
+      "misconception": {
+        "belief": "Rolled views are the same as implant displacement views.",
+        "correction": "Rolled views move native breast tissue relationships; implant displacement is a different technique for implants."
+      },
+      "variants": {
+        "simpler": "LOINC/NCI EVS define rolled views as rolling the breast to one side. Link-only clinical literature associates tangential imaging with localizing skin lesions. Full technique cards remain ACR/needs-source.",
+        "example": "A radiologist asks for rolled views when two densities overlap on CC and may represent one finding versus two stacked structures.",
+        "deeper": "Like other additional views, these appear when individualized problem-solving angles are needed (NCI diagnostic framing), not as routine screening defaults."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-038",
+      "evidenceIds": [
+        "ev-pqd-rolled-term",
+        "ev-pqd-ml-triangulation-link",
+        "ev-pqd-nci-more-angles",
+        "ev-pqd-acr-ciq-views-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-consent-timeout",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-pp-interventional-prep",
+      "title": "Interventional prep: consent in verification and the time-out",
+      "estMinutes": 3,
+      "summary": "AHRQ summaries of the Universal Protocol: preprocedure verification (including signed consent), site marking, and a time-out immediately before the invasive procedure—applicable wherever the procedure is performed.",
+      "explanation": [
+        {
+          "heading": "Three Universal Protocol steps",
+          "body": "AHRQ PSNet materials describe preoperative identification/verification, marking the site, and a final time-out just before the procedure."
+        },
+        {
+          "heading": "Consent lives in verification",
+          "body": "Preprocedure verification reviews relevant documents—including the signed consent form—alongside history/physical and related items so discrepancies are caught before starting."
+        },
+        {
+          "heading": "Time-out is not paperwork theater",
+          "body": "The time-out is the last team pause to confirm correct patient, procedure, and site/side before skin entry or needle placement. Facility checklists may add equipment and imaging review; Joint Commission copyrighted text is not copied here."
+        }
+      ],
+      "example": "Before a stereotactic biopsy, the team pauses for a time-out confirming patient identity, left vs right breast, and the planned procedure matching the consent.",
+      "misconception": {
+        "belief": "Consent and time-out are only for operating rooms, not breast imaging suites.",
+        "correction": "AHRQ notes the time-out applies prior to the procedure regardless of where it is performed."
+      },
+      "variants": {
+        "simpler": "AHRQ summaries of the Universal Protocol: preprocedure verification (including signed consent), site marking, and a time-out immediately before the invasive procedure—applicable wherever the procedure is performed.",
+        "example": "Before a stereotactic biopsy, the team pauses for a time-out confirming patient identity, left vs right breast, and the planned procedure matching the consent.",
+        "deeper": "The time-out is the last team pause to confirm correct patient, procedure, and site/side before skin entry or needle placement. Facility checklists may add equipment and imaging review; Joint Commission copyrighted text is not copied here."
+      },
+      "observationPrompt": "Walk through your biopsy checklist: where consent is verified and who leads the time-out.",
+      "checkQuestionId": "q-pqd-042",
+      "evidenceIds": [
+        "ev-pqd-universal-protocol",
+        "ev-pqd-timeout-steps",
+        "ev-pqd-consent-in-verification"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "les-pqd-triangulation",
+      "revision": 1,
+      "moduleId": "mod-procedures-qc-depth",
+      "objectiveId": "obj-ap-triangulation",
+      "title": "Triangulation purpose—and where the cookbook is blocked",
+      "estMinutes": 3,
+      "summary": "Additional 90° lateral views are used in diagnostic pathways to refine lesion location (link-only clinical literature). Step-by-step clock-face triangulation methods from copyrighted teaching atlases are not redistributed; treat those as needs-source until a maintainer performs a link-only check.",
+      "explanation": [
+        {
+          "heading": "Why triangulation comes up",
+          "body": "Findings may project differently on CC and MLO. Diagnostic workups add angles—NCI notes more angles than screening—to estimate where a lesion sits before ultrasound or biopsy."
+        },
+        {
+          "heading": "ML as a common triangulation view",
+          "body": "Link-only literature states a 90° ML view is frequently obtained for diagnostic triangulation. That is purpose-level evidence, not a full method worksheet."
+        },
+        {
+          "heading": "Blocked detail",
+          "body": "Exact paper-ruler / clock-face triangulation procedures taught in commercial radiology texts or ACR positioning manuals remain outside this module. See gap URLs in coverage.json rather than inventing steps."
+        }
+      ],
+      "example": "A mass is lateral on CC and high on MLO; the radiologist adds a true lateral to refine superior-inferior position before scheduling ultrasound.",
+      "misconception": {
+        "belief": "Triangulation means drawing triangles on the patient's skin before every screening exam.",
+        "correction": "Triangulation here means using multiple mammographic projections to estimate lesion location—not a screening skin-art ritual."
+      },
+      "variants": {
+        "simpler": "Additional 90° lateral views are used in diagnostic pathways to refine lesion location (link-only clinical literature). Step-by-step clock-face triangulation methods from copyrighted teaching atlases are not redistributed; treat those as needs-source until a maintainer performs a link-only check.",
+        "example": "A mass is lateral on CC and high on MLO; the radiologist adds a true lateral to refine superior-inferior position before scheduling ultrasound.",
+        "deeper": "Exact paper-ruler / clock-face triangulation procedures taught in commercial radiology texts or ACR positioning manuals remain outside this module. See gap URLs in coverage.json rather than inventing steps."
+      },
+      "observationPrompt": "Ask your preceptor which facility documents cover this topic and where the source lives.",
+      "checkQuestionId": "q-pqd-046",
+      "evidenceIds": [
+        "ev-pqd-ml-triangulation-link",
+        "ev-pqd-nci-more-angles",
+        "ev-pqd-mqsa-diagnostic-individualized",
+        "ev-pqd-acr-ciq-views-link"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public FDA/eCFR/NCI/AHRQ sources and link-only ACR/ARRT/PMC references. ACR DMQC procedures are not redistributed."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    }
+  ]
+}
