@@ -3150,6 +3150,1528 @@
           }
         ]
       }
+    },
+    {
+      "id": "q-pc-049",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-pre-exam-instructions"
+      ],
+      "familyId": "fam-pc-fa-lotion-counts",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "A patient remembered to skip deodorant, but she applied a scented body lotion across her chest and under her arms this morning. What is the best technologist response?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Proceed; only deodorant and antiperspirant can show on the image.",
+          "rationale": "Misconception. NCI lists lotions, creams, powders, and perfumes alongside deodorant as products that can appear on the image."
+        },
+        {
+          "id": "b",
+          "text": "Explain that lotions can also show on the image, and remove the product per facility procedure before imaging.",
+          "rationale": "Correct. NCI groups lotions with deodorants, powders, creams, and perfumes because residue can appear on the image and interfere with interpretation."
+        },
+        {
+          "id": "c",
+          "text": "Cancel the appointment and reschedule for another day.",
+          "rationale": "Unnecessary. The concern is residue on the skin, which facility procedures can address; nothing in the cited guidance requires rescheduling."
+        },
+        {
+          "id": "d",
+          "text": "Image now and ask the radiologist to ignore anything that looks like lotion.",
+          "rationale": "Residue can interfere with interpretation; asking the reader to ignore it does not fix the image-quality problem."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI advises avoiding deodorants, antiperspirants, powders, lotions, creams, and perfumes around the breasts and underarms on exam day because these products can appear on the mammogram and interfere with interpretation. Lotion is on the same list as deodorant.",
+      "variants": {
+        "simpler": "Lotion counts too. It can show up on the picture, so it comes off before imaging.",
+        "example": "A patient who used body powder instead of deodorant gets the same explanation: powders are on the same NCI list."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-deodorant"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-050",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-pre-exam-instructions"
+      ],
+      "familyId": "fam-pc-fa-tender-prep",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
+      "stem": "While scheduling, a patient says her breasts are very tender and asks what might make the exam more comfortable. Which suggestion stays within NCI patient guidance and technologist scope?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Schedule for the week of her period, when tenderness is lowest.",
+          "rationale": "Reversed. NCI notes breasts can be especially tender right before or during the menstrual period."
+        },
+        {
+          "id": "b",
+          "text": "Apply a numbing cream to the breasts an hour before the exam.",
+          "rationale": "Creams are among the products NCI says to avoid around the breasts on exam day because they can appear on the image."
+        },
+        {
+          "id": "c",
+          "text": "Take a specific prescription pain medication dose that the technologist recommends.",
+          "rationale": "Outside technologist scope. Medication choices belong with the patient's own clinician."
+        },
+        {
+          "id": "d",
+          "text": "Consider scheduling outside the days just before or during her period, and ask her own clinician whether an over-the-counter pain reliever beforehand is right for her.",
+          "rationale": "Correct. NCI notes scheduling around menses may help and that over-the-counter pain medication beforehand may lessen discomfort; the patient's own clinician advises on medication."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI says compression can be painful for some people, that breasts may be especially tender right before or during menses, and that over-the-counter pain medication beforehand may lessen discomfort. The technologist can share timing tips but should not prescribe; medication questions go to the patient's clinician. Creams on the breast are a pre-exam product to avoid.",
+      "variants": {
+        "simpler": "Pick a less tender time of the month, and let her own clinician decide about a pain reliever.",
+        "example": "A patient who wants to rub a cream on beforehand hears that creams can show on the image."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-compression-comfort",
+        "ev-pc-nci-deodorant"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-051",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-rapport-support"
+      ],
+      "familyId": "fam-pc-fa-reposition-why",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "Midway through a screening exam, a patient asks, \"Why do you keep moving me and starting over?\" Which explanation is accurate and reassuring?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"The exam includes several pictures from different angles, so I reposition the breast for each one.\"",
+          "rationale": "Correct. NCI explains that several images are taken from different angles, with the breast repositioned each time."
+        },
+        {
+          "id": "b",
+          "text": "\"The first picture showed something, so I'm taking extra ones.\"",
+          "rationale": "Inaccurate and alarming. Routine views from different angles are planned parts of the exam, and the technologist does not interpret findings."
+        },
+        {
+          "id": "c",
+          "text": "\"The machine only works if you move between every exposure.\"",
+          "rationale": "Not a real reason. Repositioning is for different viewing angles, not an equipment requirement to move."
+        },
+        {
+          "id": "d",
+          "text": "\"It's to spread the radiation dose around the breast.\"",
+          "rationale": "Unsupported. The cited reason is to image the breast from different angles."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI's patient explanation is that several images are taken from different angles and the breast is repositioned each time. Saying so keeps the exam on track without implying a finding.",
+      "variants": {
+        "simpler": "Different angles need different positions. That's the normal exam.",
+        "example": "Before the MLO after the CC, you can say: \"Now the same breast from a different angle.\""
+      },
+      "evidenceIds": [
+        "ev-pc-nci-compression-why"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-052",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-rapport-support",
+        "obj-pc-social-risk"
+      ],
+      "familyId": "fam-pc-fa-cost-access",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "After her exam, an uninsured patient with a low income tells you she may not be able to afford next year's screening mammogram. Which response is supported by NCI and avoids overpromising?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tell her the facility will waive all future charges.",
+          "rationale": "Overpromises. The technologist cannot guarantee billing decisions."
+        },
+        {
+          "id": "b",
+          "text": "Mention CDC's National Breast and Cervical Cancer Early Detection Program and that CDC (1-800-CDC-INFO) can point her to local programs, without promising she qualifies.",
+          "rationale": "Correct. NCI points low-income, uninsured women to the CDC program for screening services, and eligibility is not guaranteed."
+        },
+        {
+          "id": "c",
+          "text": "Tell her she can skip screening because one normal mammogram is enough for several years.",
+          "rationale": "Unsupported and harmful. It replaces her clinician's screening plan with a made-up interval."
+        },
+        {
+          "id": "d",
+          "text": "Say cost questions are not part of patient care and end the conversation.",
+          "rationale": "Dismissive. Pointing to a public access resource is appropriate support."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI notes that CDC's National Breast and Cervical Cancer Early Detection Program provides screening services, including mammograms, to low-income, uninsured women, and that CDC or 1-800-CDC-INFO can identify local programs. A technologist can share the resource without guaranteeing eligibility.",
+      "variants": {
+        "simpler": "Share the free public screening program, but don't promise she qualifies.",
+        "example": "If a patient says she lost her insurance, the same CDC program is a reasonable pointer."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-access-nbccedp"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-053",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-explain-compression"
+      ],
+      "familyId": "fam-pc-fa-force-limit",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "A nervous patient asks whether the machine could \"just keep squeezing.\" Which reply is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"No. Federal rules cap the force of the machine's powered compression, and I fine-tune the final compression with separate controls.\"",
+          "rationale": "Correct. MQSA sets a maximum force for the initial power drive (between 25 and 45 lb) and requires fine-adjustment controls."
+        },
+        {
+          "id": "b",
+          "text": "\"There is no limit; it compresses until the image looks right.\"",
+          "rationale": "False. MQSA sets a maximum for the initial power drive."
+        },
+        {
+          "id": "c",
+          "text": "\"The limit is whatever you can tolerate, so the machine has no setting.\"",
+          "rationale": "Comfort matters, but this denies the equipment requirement MQSA sets."
+        },
+        {
+          "id": "d",
+          "text": "\"Compression is applied only by hand, so the machine never squeezes.\"",
+          "rationale": "Inaccurate. MQSA describes power-driven initial compression plus fine-adjustment controls."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA requires power-driven initial compression with hands-free controls plus fine-adjustment controls. At least 111 N (25 lb) must be available, and the maximum force of the initial power drive is between 111 N and 200 N (25 to 45 lb). A technologist can say the powered drive has a federal cap without quoting device-specific settings.",
+      "variants": {
+        "simpler": "The machine's motor has a federal force cap, and the final squeeze is fine-tuned.",
+        "example": "If a patient asks who controls the squeeze, explain the powered start and the fine adjustment."
+      },
+      "evidenceIds": [
+        "ev-mqsa-compression-force",
+        "ev-mqsa-compression-device"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-054",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fa-age-75-plus",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 80,
+      "stem": "A healthy 77-year-old at average risk asks whether she should keep having screening mammograms. Which summary of the guidance is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "USPSTF recommends against screening after 74, and ACS says to stop at 75.",
+          "rationale": "Both halves are wrong. USPSTF issued an insufficient-evidence (I) statement for 75+, not a recommendation against, and ACS ties continuation to health and life expectancy, not to an age cutoff."
+        },
+        {
+          "id": "b",
+          "text": "USPSTF gives a Grade B recommendation for biennial screening through age 80.",
+          "rationale": "The USPSTF Grade B range is 40 to 74."
+        },
+        {
+          "id": "c",
+          "text": "USPSTF found the evidence insufficient for 75 and older, and ACS says to continue while in good health with a life expectancy of about 10 or more years. She should decide with her clinician.",
+          "rationale": "Correct. This matches the 2024 USPSTF I statement and ACS average-risk guidance."
+        },
+        {
+          "id": "d",
+          "text": "Both organizations require annual mammograms for life.",
+          "rationale": "Neither source says this."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "USPSTF 2024 concludes the evidence is insufficient to assess the benefits and harms of screening mammography at 75 and older (an I statement, neither for nor against). ACS average-risk guidance says to continue while in good health with a life expectancy of about 10 years or more. Individual decisions belong with the patient's clinician.",
+      "variants": {
+        "simpler": "USPSTF: not enough evidence after 74. ACS: keep going if healthy with about 10+ years ahead.",
+        "example": "An 80-year-old in good health asking the same question gets the same contrast."
+      },
+      "evidenceIds": [
+        "ev-pc-uspstf-75",
+        "ev-pc-acs-average-ages"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-055",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fa-uspstf-family-hx",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 65,
+      "stem": "A 45-year-old's mother had breast cancer. No one in the family has a known high-risk genetic variant, and the patient has no other listed high-risk factors. Does the 2024 USPSTF screening recommendation apply to her?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "No. Any family history removes a patient from the USPSTF population.",
+          "rationale": "Too broad. USPSTF explicitly includes people with a first-degree family history."
+        },
+        {
+          "id": "b",
+          "text": "Only if she also has dense breasts.",
+          "rationale": "Dense breasts are a separate factor the statement also includes; they are not required."
+        },
+        {
+          "id": "c",
+          "text": "No. USPSTF covers only people with no risk factors at all.",
+          "rationale": "Incorrect. The statement names family history and dense breasts as factors that remain within scope."
+        },
+        {
+          "id": "d",
+          "text": "Yes. The statement also applies to people with factors such as a first-degree family history.",
+          "rationale": "Correct. Exclusions are high-risk genetic markers or syndromes, high-dose chest radiation at a young age, prior breast cancer, or a high-risk lesion on prior biopsy."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "The 2024 USPSTF statement covers people assigned female at birth aged 40 and older at average risk, including those with a first-degree family history or dense breasts. It excludes people with high-risk genetic markers or syndromes, high-dose chest radiation at a young age, previous breast cancer, or a high-risk lesion on prior biopsy.",
+      "variants": {
+        "simpler": "A mother's breast cancer alone does not move her outside USPSTF.",
+        "example": "A patient with dense breasts and no listed exclusions is also inside the USPSTF population."
+      },
+      "evidenceIds": [
+        "ev-pc-uspstf-population"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-056",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fa-acs-high-risk-start",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
+      "stem": "A 32-year-old had chest radiation for lymphoma as a teenager. According to the ACS high-risk guidance summarized in Breast Cancer Facts & Figures 2024-2025, what screening approach is generally recommended?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Biennial mammography starting at 40.",
+          "rationale": "This is the USPSTF average-risk pattern. Prior chest radiation is a high-risk factor that USPSTF excludes."
+        },
+        {
+          "id": "b",
+          "text": "Annual breast MRI and mammography, generally starting at age 30.",
+          "rationale": "Correct. ACS high-risk guidance includes prior chest radiation and generally starts annual MRI plus mammography at 30."
+        },
+        {
+          "id": "c",
+          "text": "Annual mammography only, starting at 45.",
+          "rationale": "This is the ACS average-risk annual band and leaves out MRI."
+        },
+        {
+          "id": "d",
+          "text": "No imaging until symptoms appear.",
+          "rationale": "Contradicts the high-risk screening guidance."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ACS high-risk guidance covers women with about a 20-25% or greater lifetime risk, a known high-risk genetic variant or a first-degree relative with one, a strong family history, or prior chest radiation. For these women it generally recommends annual MRI and mammography starting at age 30. The USPSTF average-risk statement does not apply to people who had high-dose chest radiation at a young age.",
+      "variants": {
+        "simpler": "Prior chest radiation means high-risk guidance: yearly MRI plus mammogram, usually from 30.",
+        "example": "A 31-year-old with a known high-risk genetic variant falls on the same ACS high-risk pathway."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-high-risk",
+        "ev-pc-uspstf-population"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-057",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-screening-guidelines"
+      ],
+      "familyId": "fam-pc-fa-acs-55-plus",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Under ACS average-risk guidance (Facts & Figures 2024-2025), what may a healthy 58-year-old do about her screening interval?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "She must keep having annual mammograms with no option to change.",
+          "rationale": "Too rigid. ACS allows a choice at 55 and older."
+        },
+        {
+          "id": "b",
+          "text": "She should stop screening at 55.",
+          "rationale": "ACS says to continue while in good health with about 10 or more years of life expectancy."
+        },
+        {
+          "id": "c",
+          "text": "She should switch to MRI-only screening.",
+          "rationale": "MRI is part of the high-risk pathway, not the average-risk interval choice."
+        },
+        {
+          "id": "d",
+          "text": "She may move to every-other-year screening or continue annually.",
+          "rationale": "Correct. ACS describes this option for ages 55 and older."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "ACS average-risk guidance: ages 40-44 may begin annual screening, 45-54 should be screened annually, and at 55 and older patients may transition to every other year or continue annually, continuing while in good health with a life expectancy of about 10 years or more.",
+      "variants": {
+        "simpler": "At 55+, ACS lets average-risk patients choose yearly or every two years.",
+        "example": "A 50-year-old is still in the ACS annual band, so this option starts later."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-average-ages"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-058",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-pc-fa-dose-cancer-worry",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 80,
+      "stem": "A patient asks, \"Will this mammogram give me cancer?\" Which answer neither minimizes nor overstates the risk?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Mammograms have zero radiation risk.\"",
+          "rationale": "Minimizes. Radiation protection conservatively assumes any dose may carry some risk."
+        },
+        {
+          "id": "b",
+          "text": "\"Mammograms use low-dose x-rays. Safety rules conservatively assume even small doses may carry some risk, so we take only the images the exam needs.\"",
+          "rationale": "Correct. This combines NCI's low-dose description, NRC's conservative linear no-threshold (LNT) framing, and ALARA."
+        },
+        {
+          "id": "c",
+          "text": "\"Each mammogram greatly raises your chance of cancer.\"",
+          "rationale": "Overstates. NRC says public health data do not absolutely establish cancer occurrence at low doses; the conservative model is not evidence of a large personal risk."
+        },
+        {
+          "id": "d",
+          "text": "\"Let me calculate your personal cancer risk from today's dose.\"",
+          "rationale": "Unsupported. The cited sources give risk-communication framing, not a patient-specific calculator."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI describes mammography as using low-dose x-rays. NRC notes that public health data do not absolutely establish cancer occurrence below about 100 mSv, but the radiation protection community conservatively assumes any amount may pose some risk that rises with dose (the LNT model). ALARA means avoiding exposure without direct benefit. An honest answer acknowledges a small assumed risk without inventing numbers.",
+      "variants": {
+        "simpler": "Low dose, a small assumed risk, and only the images that are needed.",
+        "example": "If a patient asks whether her yearly mammograms \"add up,\" the same framing applies: low dose, a conservative assumption of risk, and only needed images."
+      },
+      "evidenceIds": [
+        "ev-ip-nci-mammogram-low-dose",
+        "ev-ip-nrc-lnt",
+        "ev-ip-cdc-alara"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-059",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-pc-fa-no-extra-views",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "A coworker suggests routinely adding an extra view of each breast for every screening patient \"just in case,\" to cut down on callbacks. Which principle argues most directly against this?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "ALARA: avoid radiation exposure that has no direct benefit, even if the dose is small.",
+          "rationale": "Correct. CDC's ALARA guidance says to avoid exposure without direct benefit, even when the dose is small."
+        },
+        {
+          "id": "b",
+          "text": "The MQSA phantom dose limit forbids more than four exposures per exam.",
+          "rationale": "Invented rule. The phantom dose limit applies per exposure of a standard phantom; it is not a per-exam view count."
+        },
+        {
+          "id": "c",
+          "text": "Extra views are acceptable because each one is low dose.",
+          "rationale": "This is the reasoning ALARA rejects. A small dose still needs a direct benefit."
+        },
+        {
+          "id": "d",
+          "text": "Linear no-threshold means small doses have no effect.",
+          "rationale": "Reversed. LNT conservatively assumes risk rises with any dose."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "ALARA means as low as reasonably achievable: avoid radiation exposure with no direct benefit, even if the dose is small. Additional views should have a reason, such as protocol, image quality, or a radiologist request, rather than being added routinely.",
+      "variants": {
+        "simpler": "No extra images without a real reason, even at low dose.",
+        "example": "Repeating a view because it is blurred has a benefit. Adding one out of habit does not."
+      },
+      "evidenceIds": [
+        "ev-ip-cdc-alara",
+        "ev-ip-nrc-lnt"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-060",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-typical-dose"
+      ],
+      "familyId": "fam-pc-fa-why-tech-steps-out",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 60,
+      "stem": "A patient asks, \"If this is safe, why do you leave and stand behind that wall?\" Which explanation is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Your dose today is dangerous, so I can't be near it.\"",
+          "rationale": "Overstates the patient's risk and misstates the reason."
+        },
+        {
+          "id": "b",
+          "text": "\"It's only a habit from older machines.\"",
+          "rationale": "Inaccurate. Using a barrier is a current ALARA practice."
+        },
+        {
+          "id": "c",
+          "text": "\"I do many exams every day. Stepping behind the barrier uses distance and shielding to limit my repeated exposure.\"",
+          "rationale": "Correct. CDC uses this exact clinic example: the technologist goes behind a barrier to protect against repeated occupational exposure."
+        },
+        {
+          "id": "d",
+          "text": "\"The wall makes the x-ray stronger for your image.\"",
+          "rationale": "False. The barrier protects staff; it does not change the patient's image."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "CDC's ALARA example describes the technologist going behind a barrier during the exposure, combining time, distance, and shielding to protect against repeated occupational exposure. Saying so explains the practice without suggesting that the patient's single exam is dangerous.",
+      "variants": {
+        "simpler": "The barrier protects the worker who does many exams a day.",
+        "example": "A trainee watching from the control area is following the same principle."
+      },
+      "evidenceIds": [
+        "ev-ip-cdc-tech-barrier",
+        "ev-ip-cdc-alara"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-061",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-pc-fa-typical-vs-max",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 75,
+      "stem": "A patient says, \"The NCI website says results come in about 2 weeks, but your sign says up to 30 days. Which is it?\" Which answer is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"NCI is wrong; results always take a full 30 days.\"",
+          "rationale": "Misreads both. NCI describes the typical timing; 30 days is the federal outer limit."
+        },
+        {
+          "id": "b",
+          "text": "\"The 2-week figure is the federal deadline.\"",
+          "rationale": "MQSA's deadline for an ordinary lay summary is 30 calendar days from the exam."
+        },
+        {
+          "id": "c",
+          "text": "\"If nothing arrives in 30 days, the result was normal.\"",
+          "rationale": "Unsafe. NCI advises contacting the provider if results haven't arrived within about 2 weeks; silence is not a result."
+        },
+        {
+          "id": "d",
+          "text": "\"Both are true. Results typically arrive in about 2 weeks, and federal rules set 30 calendar days from the exam as the latest for a typical result. If you haven't heard in about 2 weeks, contact your provider.\"",
+          "rationale": "Correct. NCI gives the typical timeframe and MQSA sets the maximum."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI says patients typically receive the screening report within about 2 weeks and should contact their provider if they have not. MQSA requires the lay summary within 30 calendar days of the exam (7 days from final interpretation for Suspicious or Highly Suggestive results). A typical time and a legal maximum are different things.",
+      "variants": {
+        "simpler": "About 2 weeks is typical; 30 days is the legal limit for an ordinary result.",
+        "example": "A patient who hears nothing by week three should call her provider rather than assume the result was fine."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-results-timing",
+        "ev-mqsa-lay-summary-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-062",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-pc-fa-lay-contents",
+      "pool": "form-a",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "Which set of items must the patient's MQSA lay summary include?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The kVp and mAs used for each view.",
+          "rationale": "These are technique values the system displays; they are not lay-summary contents."
+        },
+        {
+          "id": "b",
+          "text": "Technologist identification and mammography unit identification.",
+          "rationale": "These are image-labeling requirements, not lay-summary contents."
+        },
+        {
+          "id": "c",
+          "text": "The patient's name; the facility's name, address, and telephone number; and a breast density statement.",
+          "rationale": "Correct. MQSA lists these items for the lay summary."
+        },
+        {
+          "id": "d",
+          "text": "The average glandular dose from the phantom test.",
+          "rationale": "Phantom dose is an equipment QC measure, not patient result content."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "Under 21 CFR 900.12(c)(2), each patient receives a lay-language summary that includes her name, the facility's name, address, and telephone number, and a breast density statement, within the required timeframe.",
+      "variants": {
+        "simpler": "Her name, how to reach the facility, and a density statement.",
+        "example": "A letter missing the facility phone number is missing a required element."
+      },
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-pc-nci-mqsa-lay"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-063",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-pc-fa-designee-7day",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 80,
+      "stem": "A diagnostic exam is read as Suspicious. The patient says, \"My doctor is on vacation for two weeks. Will my results just sit there?\" Which answer matches MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Yes. The report waits until your doctor returns.\"",
+          "rationale": "MQSA does not allow waiting for the provider's return. A responsible designee can receive the report."
+        },
+        {
+          "id": "b",
+          "text": "\"The report must reach your provider, or the provider's responsible designee, within 7 calendar days of the final interpretation, and your own lay summary is also due within 7 days.\"",
+          "rationale": "Correct. Suspicious and Highly Suggestive results trigger 7-day timelines for both the provider report and the patient's lay summary."
+        },
+        {
+          "id": "c",
+          "text": "\"You'll get results within 30 days like any routine exam.\"",
+          "rationale": "The 30-day limit applies to ordinary results. Suspicious results have 7-day timelines."
+        },
+        {
+          "id": "d",
+          "text": "\"Only your doctor can receive anything; you'll get nothing directly.\"",
+          "rationale": "Patients always receive a lay summary."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "MQSA requires the written report to reach the referring provider (or a responsible designee) within 7 calendar days of final interpretation when the assessment is Suspicious or Highly Suggestive of Malignancy, and the patient's lay summary is due within 7 calendar days of the final interpretation.",
+      "variants": {
+        "simpler": "Suspicious means 7 days for both the doctor's side and the patient's letter, and a designee can receive it.",
+        "example": "For a Highly Suggestive result read on a Friday, both 7-day clocks start on that Friday."
+      },
+      "evidenceIds": [
+        "ev-mqsa-provider-report",
+        "ev-mqsa-lay-summary-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "simulationRole": "pilot"
+    },
+    {
+      "id": "q-pc-064",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-results-pathway"
+      ],
+      "familyId": "fam-pc-fa-density-not-result",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "A patient reads her lay summary aloud: \"Your breast tissue is not dense.\" She asks, \"So that means I don't have cancer?\" Which response is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Correct. Not dense means the result is normal.\"",
+          "rationale": "Conflates two separate report elements. Density does not tell her whether anything abnormal was found."
+        },
+        {
+          "id": "b",
+          "text": "\"No. Not dense means your cancer risk is zero.\"",
+          "rationale": "Unsupported. Density is one risk factor; not dense does not mean zero risk."
+        },
+        {
+          "id": "c",
+          "text": "\"I can't share anything; ask the front desk.\"",
+          "rationale": "Too evasive. The difference between density and assessment is general education, not a diagnosis."
+        },
+        {
+          "id": "d",
+          "text": "\"The density sentence describes your breast tissue type on the mammogram. The radiologist's assessment of what the exam found is a separate part of the result.\"",
+          "rationale": "Correct. MQSA reports carry an assessment category and a density category as separate elements."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA reports list the overall final assessment category and the overall breast density category as separate required items, and the lay summary maps density to a required dense or not-dense paragraph. A density statement describes tissue, not whether a finding was present.",
+      "variants": {
+        "simpler": "Density describes the tissue. The assessment describes the findings.",
+        "example": "A dense-tissue letter does not mean something was found either. It describes tissue type."
+      },
+      "evidenceIds": [
+        "ev-mqsa-report-contents",
+        "ev-mqsa-density-statements",
+        "ev-pc-nci-density-miss"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-065",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-additional-imaging"
+      ],
+      "familyId": "fam-pc-fa-dense-callbacks",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
+      "stem": "A patient with dense breasts says, \"This is my second callback in three years. Does that mean something is wrong with me?\" Which explanation is supported?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Dense tissue and some abnormal changes can both look white on a mammogram, so callbacks can be more common with dense breasts. Most people called back don't have cancer.\"",
+          "rationale": "Correct. NCI explains the white-on-white effect and notes that most people called back are not found to have cancer."
+        },
+        {
+          "id": "b",
+          "text": "\"Repeated callbacks mean you probably have cancer.\"",
+          "rationale": "Contradicts NCI, which says most people called back are not found to have breast cancer."
+        },
+        {
+          "id": "c",
+          "text": "\"Dense breasts make mammograms more sensitive, so they catch more.\"",
+          "rationale": "Reversed. Mammography is less sensitive in dense breasts."
+        },
+        {
+          "id": "d",
+          "text": "\"Callbacks happen only when the technologist makes an error.\"",
+          "rationale": "False. Callbacks are radiologist requests for more imaging, and dense tissue is one recognized reason they occur."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI explains that dense tissue and some abnormal changes both appear white on a mammogram while fat looks dark, so mammography is less sensitive in dense breasts and callbacks may be more common. NCI also notes that most people called back are not found to have cancer. The technologist can explain without diagnosing.",
+      "variants": {
+        "simpler": "Dense tissue can hide or mimic things, so extra looks happen more often. Most callbacks are not cancer.",
+        "example": "A first callback for a patient with extremely dense tissue can be explained the same way."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-dense-white-on-white",
+        "ev-pc-nci-callback",
+        "ev-pc-nci-density-miss"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-066",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-inherent-risk"
+      ],
+      "familyId": "fam-pc-fa-dense-not-disease",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "single",
+      "estSeconds": 60,
+      "stem": "A patient asks, \"Is having dense breasts a disease?\" Which statement matches NCI?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes. Dense breasts are a disease that needs treatment.",
+          "rationale": "NCI says dense breasts are not a disease."
+        },
+        {
+          "id": "b",
+          "text": "No. Dense breasts only make mammograms harder to read and carry no separate risk.",
+          "rationale": "Incomplete. NCI says density is also a risk factor, separate from masking."
+        },
+        {
+          "id": "c",
+          "text": "No. Dense breasts are not a disease, but they are a breast cancer risk factor separate from making mammograms harder to read.",
+          "rationale": "Correct. NCI separates the masking effect from the risk-factor effect."
+        },
+        {
+          "id": "d",
+          "text": "Density matters only if the patient can feel it.",
+          "rationale": "Density cannot be felt; it is determined on the mammogram."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI states that dense breasts are not a disease, but they are a risk factor for breast cancer separate from their masking effect on mammography. Individual risk counseling belongs with the clinician.",
+      "variants": {
+        "simpler": "Not a disease, but a risk factor, and it can also hide things on the image.",
+        "example": "Two facts to keep separate: dense tissue can mask cancer, and density is itself a risk factor."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-dense-risk",
+        "ev-pc-nci-density-miss"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-067",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-clinician-role"
+      ],
+      "familyId": "fam-pc-fa-recs-to-provider",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "A patient shows you her report and asks, \"It says the radiologist has a recommendation. What should I do next?\" What is the best technologist response?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Interpret the recommendation and tell her what follow-up exam she needs.",
+          "rationale": "Outside technologist scope. Clinical next steps are discussed with her provider."
+        },
+        {
+          "id": "b",
+          "text": "Explain that the report's recommendations are addressed to her healthcare provider, and encourage her to review next steps with that provider.",
+          "rationale": "Correct. MQSA lists recommendations to the healthcare provider as part of the report."
+        },
+        {
+          "id": "c",
+          "text": "Tell her that recommendations are optional and can be ignored.",
+          "rationale": "Dismissive and unsafe."
+        },
+        {
+          "id": "d",
+          "text": "Schedule an MRI for her today.",
+          "rationale": "Imaging is ordered through her clinician, not decided by the technologist."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "MQSA lists recommendations to the healthcare provider among the required report contents. The technologist can explain where the recommendation is directed and encourage the patient to discuss next steps with her provider, without interpreting it.",
+      "variants": {
+        "simpler": "The recommendation is written for her provider. She should talk with them.",
+        "example": "If a self-referred patient has no provider, the facility's referral system applies when clinically indicated."
+      },
+      "evidenceIds": [
+        "ev-mqsa-report-contents",
+        "ev-mqsa-self-referred"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-068",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-clinician-role"
+      ],
+      "familyId": "fam-pc-fa-tech-density-call",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 65,
+      "stem": "While reviewing images for quality, you think the tissue looks dense. The patient asks, \"Am I dense?\" What should you say?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Yes, you're extremely dense.\"",
+          "rationale": "The technologist does not assign the density category."
+        },
+        {
+          "id": "b",
+          "text": "\"No, you're fine.\"",
+          "rationale": "Same problem in the other direction, and it implies a result."
+        },
+        {
+          "id": "c",
+          "text": "\"I can tell by feeling during positioning.\"",
+          "rationale": "NCI says density cannot be felt on exam."
+        },
+        {
+          "id": "d",
+          "text": "\"The radiologist determines breast density from the mammogram, and it will be stated in your report and your results letter.\"",
+          "rationale": "Correct. Only a radiologist reading the mammogram determines density, and MQSA requires it in the report and lay summary."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI states that only a radiologist reading a mammogram can determine breast density; it cannot be felt. MQSA requires the density category in the report and a density statement in the lay summary. The technologist refers the patient to those results.",
+      "variants": {
+        "simpler": "The radiologist decides density, and it will be in her letter.",
+        "example": "The same applies if a coworker asks you to tell the patient her category."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-dense-not-palpable",
+        "ev-mqsa-report-contents",
+        "ev-mqsa-density-statements"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-069",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-clinician-role"
+      ],
+      "familyId": "fam-pc-fa-relative-variant",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 80,
+      "stem": "A patient says her sister has a known high-risk genetic variant linked to breast cancer, and she asks whether the USPSTF every-two-years schedule is right for her. What is the best technologist response?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Yes. USPSTF covers everyone over 40.\"",
+          "rationale": "Overgeneralizes. USPSTF's average-risk statement has exclusions, and her family situation may call for high-risk guidance."
+        },
+        {
+          "id": "b",
+          "text": "\"High-risk guidance can differ. ACS includes having a first-degree relative with a known high-risk variant. Please talk with your clinician about your risk and schedule.\"",
+          "rationale": "Correct. This points to the relevant guidance difference without setting her plan."
+        },
+        {
+          "id": "c",
+          "text": "\"You definitely carry the variant, so you need MRI.\"",
+          "rationale": "Presumes a genetic result and prescribes imaging, both outside scope."
+        },
+        {
+          "id": "d",
+          "text": "\"Family history doesn't matter for screening.\"",
+          "rationale": "Contradicts both ACS high-risk criteria and USPSTF scope language."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "ACS high-risk guidance includes a first-degree relative with a known high-risk genetic variant, and generally starts annual MRI and mammography at 30. USPSTF's average-risk statement excludes people with high-risk genetic markers or syndromes. Whether this patient is high risk is a clinician assessment, so the technologist flags the difference and refers.",
+      "variants": {
+        "simpler": "A relative with a known variant changes the guidance question. Her clinician decides.",
+        "example": "A patient whose mother had breast cancer but no known variant is a different case; USPSTF still includes first-degree family history."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-high-risk",
+        "ev-pc-uspstf-population"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-070",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-prior-images"
+      ],
+      "familyId": "fam-pc-fa-transfer-fees",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "case",
+      "estSeconds": 75,
+      "stem": "A patient wants her prior mammograms sent from her old facility for comparison. She worries the old facility will charge whatever it wants. Which statement matches MQSA?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The facility must transfer the originals or copies within 15 calendar days of the request, and any fee cannot exceed the facility's documented costs.",
+          "rationale": "Correct. MQSA sets both the 15-day timeline and the documented-cost fee limit."
+        },
+        {
+          "id": "b",
+          "text": "The facility may refuse unless the patient pays a standard market fee.",
+          "rationale": "MQSA limits fees to documented costs."
+        },
+        {
+          "id": "c",
+          "text": "Transfers are optional for digital images.",
+          "rationale": "MQSA requires transfer in the original modality, including electronic originals for digital images sent for final interpretation."
+        },
+        {
+          "id": "d",
+          "text": "The facility has 90 days and may charge any amount.",
+          "rationale": "The transfer limit is 15 calendar days, and fees are limited."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "On request by or for the patient, MQSA requires the facility to transfer original mammograms (or release copies) within 15 calendar days, in the original modality. Fees cannot exceed documented costs. Prior images help comparison, so explaining how to request them is part of patient care.",
+      "variants": {
+        "simpler": "Fifteen days, and the fee can't exceed real documented costs.",
+        "example": "Requesting priors from a hospital across town follows the same rule."
+      },
+      "evidenceIds": [
+        "ev-mqsa-record-transfer"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pc-071",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pc-modalities"
+      ],
+      "familyId": "fam-pc-fa-mammo-not-diagnosis",
+      "pool": "form-a",
+      "difficultyIntent": "understand",
+      "kind": "case",
+      "estSeconds": 70,
+      "stem": "A patient asks, \"Will today's mammogram tell me for sure whether I have cancer?\" Which answer is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "\"Yes. A mammogram diagnoses cancer by itself.\"",
+          "rationale": "OpenStax notes a mammogram cannot diagnose malignancy by itself."
+        },
+        {
+          "id": "b",
+          "text": "\"No. It can show things like a lump or a denser area, and further imaging or a biopsy is sometimes needed to find out what an area is.\"",
+          "rationale": "Correct. OpenStax and NCI support this framing."
+        },
+        {
+          "id": "c",
+          "text": "\"No. Mammograms only measure density.\"",
+          "rationale": "Understates the exam. It images the breast to look for evidence of cancer."
+        },
+        {
+          "id": "d",
+          "text": "\"Only 3D mammograms can diagnose cancer.\"",
+          "rationale": "No modality in the cited sources is described as diagnosing malignancy by itself."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "OpenStax notes that a mammogram cannot by itself diagnose malignancy; it shows evidence such as a lump or denser region. NCI notes that some patients are called back for further imaging or biopsy, and that most of them are not found to have cancer.",
+      "variants": {
+        "simpler": "A mammogram shows areas; other tests can confirm what an area is.",
+        "example": "A patient expecting a same-day diagnosis can be told what the exam can and cannot show."
+      },
+      "evidenceIds": [
+        "ev-ip-breast-soft-tissue-contrast",
+        "ev-pc-nci-callback"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted reserved Form A draft written only from existing repository evidence records. New question family; not a rewording of a practice item."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }
