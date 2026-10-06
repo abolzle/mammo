@@ -3,10 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "content:build": "tsx scripts/build-content.ts",
+    "content:check": "tsx scripts/build-content.ts --check",
+    "content:packet": "tsx scripts/packet.ts",
+    "content:import": "tsx scripts/import-draft.ts",
+    "predev": "npm run content:build",
+    "dev": "next dev -p 4317 -H 0.0.0.0",
+    "prebuild": "npm run content:build",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "preview": "npx serve@14 out -l 4318",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

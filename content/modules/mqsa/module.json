@@ -3,23 +3,136 @@
   "version": "1.0.0-beta.1",
   "title": "MQSA quality standards",
   "summary": "The federal rules that shape everyday mammography work: certification and accreditation, technologist qualifications, reports and results timelines, labeling, records, the outcomes audit, required policies, and equipment QC basics.",
-  "topicIds": ["top-ip-accreditation", "top-ip-mqsa-personnel", "top-ip-mqsa-records", "top-ip-mqsa-audit-policies", "top-ip-qc-technologist", "top-ip-qc-physicist", "top-ip-image-evaluation", "top-ip-unit-design", "top-pc-results", "top-pp-variance", "top-pp-exams", "top-ap-reporting"],
+  "topicIds": [
+    "top-ip-accreditation",
+    "top-ip-mqsa-personnel",
+    "top-ip-mqsa-records",
+    "top-ip-mqsa-audit-policies",
+    "top-ip-qc-technologist",
+    "top-ip-qc-physicist",
+    "top-ip-image-evaluation",
+    "top-ip-unit-design",
+    "top-pc-results",
+    "top-pp-variance",
+    "top-pp-exams",
+    "top-ap-reporting"
+  ],
   "assets": [
-    { "id": "asset-mqsa-mlo-label-regions", "kind": "svg_schematic", "title": "Schematic MLO outline", "src": "/assets/mqsa/mlo-label-regions.svg", "width": 400, "height": 300, "alt": "Schematic line drawing of a mediolateral oblique view with the chest wall at left, pectoral muscle band at upper left, and nipple at right. Not a mammogram.", "isSchematic": true, "modality": "schematic", "license": "Original work for Mammo; same license as repository content", "attribution": "Mammo contributors", "evidenceIds": ["ev-mqsa-image-identification"] },
-    { "id": "asset-mqsa-unit-components", "kind": "svg_schematic", "title": "Schematic side view of a mammography unit", "src": "/assets/mqsa/unit-components.svg", "width": 300, "height": 400, "alt": "Schematic side view of a mammography unit showing, from top to bottom, the tube housing, beam-limiting device, compression paddle, compressed breast, and breast support with image receptor. Not to scale.", "isSchematic": true, "modality": "schematic", "license": "Original work for Mammo; same license as repository content", "attribution": "Mammo contributors", "evidenceIds": ["ev-mqsa-mammography-unit-definition", "ev-mqsa-compression-device"], "review": { "requiresQualifiedReview": true } },
-    { "id": "asset-mqsa-results-timeline", "kind": "svg_schematic", "title": "Days-after-exam timeline", "src": "/assets/mqsa/results-timeline.svg", "width": 600, "height": 160, "alt": "Timeline starting at exam day with markers at day 7, 15, 30, and 60.", "isSchematic": true, "modality": "none", "license": "Original work for Mammo; same license as repository content", "attribution": "Mammo contributors", "evidenceIds": ["ev-mqsa-lay-summary-timing"] },
-    { "id": "asset-mqsa-density-categories", "kind": "svg_schematic", "title": "Report density categories", "src": "/assets/mqsa/density-categories.svg", "width": 640, "height": 200, "alt": "Four boxes, lightest to darkest: almost entirely fatty; scattered areas of fibroglandular density; heterogeneously dense; extremely dense. Shading is symbolic.", "isSchematic": true, "modality": "none", "license": "Original work for Mammo; same license as repository content", "attribution": "Mammo contributors", "evidenceIds": ["ev-mqsa-density-categories"] }
+    {
+      "id": "asset-mqsa-mlo-label-regions",
+      "kind": "svg_schematic",
+      "title": "Schematic MLO outline",
+      "src": "/assets/mqsa/mlo-label-regions.svg",
+      "width": 400,
+      "height": 300,
+      "alt": "Schematic line drawing of a mediolateral oblique view with the chest wall at left, pectoral muscle band at upper left, and nipple at right. Not a mammogram.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-image-identification"
+      ]
+    },
+    {
+      "id": "asset-mqsa-unit-components",
+      "kind": "svg_schematic",
+      "title": "Schematic side view of a mammography unit",
+      "src": "/assets/mqsa/unit-components.svg",
+      "width": 300,
+      "height": 400,
+      "alt": "Schematic side view of a mammography unit showing, from top to bottom, the tube housing, beam-limiting device, compression paddle, compressed breast, and breast support with image receptor. Not to scale.",
+      "isSchematic": true,
+      "modality": "schematic",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-compression-device"
+      ],
+      "review": {
+        "requiresQualifiedReview": true
+      }
+    },
+    {
+      "id": "asset-mqsa-results-timeline",
+      "kind": "svg_schematic",
+      "title": "Days-after-exam timeline",
+      "src": "/assets/mqsa/results-timeline.svg",
+      "width": 600,
+      "height": 160,
+      "alt": "Timeline starting at exam day with markers at day 7, 15, 30, and 60.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing"
+      ]
+    },
+    {
+      "id": "asset-mqsa-density-categories",
+      "kind": "svg_schematic",
+      "title": "Report density categories",
+      "src": "/assets/mqsa/density-categories.svg",
+      "width": 640,
+      "height": 200,
+      "alt": "Four boxes, lightest to darkest: almost entirely fatty; scattered areas of fibroglandular density; heterogeneously dense; extremely dense. Shading is symbolic.",
+      "isSchematic": true,
+      "modality": "none",
+      "license": "Original work for Mammo; same license as repository content",
+      "attribution": "Mammo contributors",
+      "evidenceIds": [
+        "ev-mqsa-density-categories"
+      ]
+    }
   ],
   "visuals": [
     {
-      "id": "vis-mqsa-label-placement", "revision": 1, "objectiveId": "obj-mqsa-image-labeling", "assetId": "asset-mqsa-mlo-label-regions", "estSeconds": 45,
+      "id": "vis-mqsa-label-placement",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-image-labeling",
+      "assetId": "asset-mqsa-mlo-label-regions",
+      "estSeconds": 45,
       "title": "Where does the view and laterality marker go?",
       "prompt": "On this schematic MLO, select the region where MQSA requires the view and laterality label.",
       "hotspots": [
-        { "id": "a", "neutralLabel": "Region A, upper-left corner", "x": 34, "y": 4, "w": 80, "h": 56, "revealLabel": "Near the axilla: required location" },
-        { "id": "b", "neutralLabel": "Region B, right side near the outer contour", "x": 290, "y": 150, "w": 90, "h": 80, "revealLabel": "Near the nipple" },
-        { "id": "c", "neutralLabel": "Region C, lower-left corner", "x": 34, "y": 235, "w": 80, "h": 56, "revealLabel": "Near the inframammary region" },
-        { "id": "d", "neutralLabel": "Region D, center of the image", "x": 150, "y": 110, "w": 90, "h": 70, "revealLabel": "Over breast tissue: would obscure anatomy" }
+        {
+          "id": "a",
+          "neutralLabel": "Region A, upper-left corner",
+          "x": 34,
+          "y": 4,
+          "w": 80,
+          "h": 56,
+          "revealLabel": "Near the axilla: required location"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Region B, right side near the outer contour",
+          "x": 290,
+          "y": 150,
+          "w": 90,
+          "h": 80,
+          "revealLabel": "Near the nipple"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Region C, lower-left corner",
+          "x": 34,
+          "y": 235,
+          "w": 80,
+          "h": 56,
+          "revealLabel": "Near the inframammary region"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Region D, center of the image",
+          "x": 150,
+          "y": 110,
+          "w": 90,
+          "h": 70,
+          "revealLabel": "Over breast tissue: would obscure anatomy"
+        }
       ],
       "correctHotspotId": "a",
       "feedback": {
@@ -30,17 +143,55 @@
       },
       "explanation": "§ 900.12(c)(5)(iii) places view and laterality near the axilla. All labels must be permanent, legible, unambiguous, and must not obscure anatomic structures.",
       "accessibilityNote": "Each region can be chosen with the keyboard or a screen reader using its position description. The positions describe the same information a sighted learner sees; recognizing which position corresponds to the axilla is the skill being tested.",
-      "evidenceIds": ["ev-mqsa-image-identification"]
+      "evidenceIds": [
+        "ev-mqsa-image-identification"
+      ]
     },
     {
-      "id": "vis-mqsa-unit-components", "revision": 1, "objectiveId": "obj-ip-unit-components", "assetId": "asset-mqsa-unit-components", "estSeconds": 45,
+      "id": "vis-mqsa-unit-components",
+      "revision": 1,
+      "objectiveId": "obj-ip-unit-components",
+      "assetId": "asset-mqsa-unit-components",
+      "estSeconds": 45,
       "title": "Components along the beam path",
       "prompt": "Select the beam-limiting device on this schematic unit.",
       "hotspots": [
-        { "id": "a", "neutralLabel": "Component A, top of the C-arm", "x": 95, "y": 15, "w": 120, "h": 70, "revealLabel": "Tube housing assembly" },
-        { "id": "b", "neutralLabel": "Component B, directly below A", "x": 120, "y": 86, "w": 70, "h": 32, "revealLabel": "Beam-limiting device (collimator)" },
-        { "id": "c", "neutralLabel": "Component C, thin plate above the breast", "x": 80, "y": 224, "w": 160, "h": 22, "revealLabel": "Compression paddle" },
-        { "id": "d", "neutralLabel": "Component D, base below the breast", "x": 70, "y": 292, "w": 180, "h": 32, "revealLabel": "Breast support with image receptor" }
+        {
+          "id": "a",
+          "neutralLabel": "Component A, top of the C-arm",
+          "x": 95,
+          "y": 15,
+          "w": 120,
+          "h": 70,
+          "revealLabel": "Tube housing assembly"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Component B, directly below A",
+          "x": 120,
+          "y": 86,
+          "w": 70,
+          "h": 32,
+          "revealLabel": "Beam-limiting device (collimator)"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Component C, thin plate above the breast",
+          "x": 80,
+          "y": 224,
+          "w": 160,
+          "h": 22,
+          "revealLabel": "Compression paddle"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Component D, base below the breast",
+          "x": 70,
+          "y": 292,
+          "w": 180,
+          "h": 32,
+          "revealLabel": "Breast support with image receptor"
+        }
       ],
       "correctHotspotId": "b",
       "feedback": {
@@ -51,18 +202,59 @@
       },
       "explanation": "MQSA defines a mammography unit as including at least an x-ray generator, x-ray control, tube housing assembly, beam-limiting device, and supporting structures (§ 900.2(dd)). Along the beam: tube housing → beam-limiting device → compression paddle → breast → breast support and receptor.",
       "accessibilityNote": "Components are described by position only; their names appear after you answer.",
-      "evidenceIds": ["ev-mqsa-mammography-unit-definition", "ev-mqsa-compression-device"],
-      "review": { "requiresQualifiedReview": true }
+      "evidenceIds": [
+        "ev-mqsa-mammography-unit-definition",
+        "ev-mqsa-compression-device"
+      ],
+      "review": {
+        "requiresQualifiedReview": true
+      }
     },
     {
-      "id": "vis-mqsa-results-timeline", "revision": 1, "objectiveId": "obj-mqsa-results-communication", "assetId": "asset-mqsa-results-timeline", "estSeconds": 40,
+      "id": "vis-mqsa-results-timeline",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-results-communication",
+      "assetId": "asset-mqsa-results-timeline",
+      "estSeconds": 40,
       "title": "Results deadline on a timeline",
       "prompt": "A screening exam on day 0 is assessed Benign. Select the latest day by which the patient's lay summary must be provided.",
       "hotspots": [
-        { "id": "a", "neutralLabel": "Day 7 marker", "x": 80, "y": 60, "w": 42, "h": 70, "revealLabel": "Day 7: deadline for Suspicious/Highly Suggestive (from final interpretation)" },
-        { "id": "b", "neutralLabel": "Day 15 marker", "x": 149, "y": 60, "w": 42, "h": 70, "revealLabel": "Day 15: records transfer on request" },
-        { "id": "c", "neutralLabel": "Day 30 marker", "x": 279, "y": 60, "w": 42, "h": 70, "revealLabel": "Day 30: lay summary and provider report deadline" },
-        { "id": "d", "neutralLabel": "Day 60 marker", "x": 530, "y": 60, "w": 50, "h": 70, "revealLabel": "Day 60: not an MQSA results deadline" }
+        {
+          "id": "a",
+          "neutralLabel": "Day 7 marker",
+          "x": 80,
+          "y": 60,
+          "w": 42,
+          "h": 70,
+          "revealLabel": "Day 7: deadline for Suspicious/Highly Suggestive (from final interpretation)"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Day 15 marker",
+          "x": 149,
+          "y": 60,
+          "w": 42,
+          "h": 70,
+          "revealLabel": "Day 15: records transfer on request"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Day 30 marker",
+          "x": 279,
+          "y": 60,
+          "w": 42,
+          "h": 70,
+          "revealLabel": "Day 30: lay summary and provider report deadline"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Day 60 marker",
+          "x": 530,
+          "y": 60,
+          "w": 50,
+          "h": 70,
+          "revealLabel": "Day 60: not an MQSA results deadline"
+        }
       ],
       "correctHotspotId": "c",
       "feedback": {
@@ -73,17 +265,56 @@
       },
       "explanation": "Lay summary: within 30 calendar days of the exam, or within 7 calendar days of final interpretation for Suspicious or Highly Suggestive results.",
       "accessibilityNote": "Markers are announced by day number. This exercise is fully equivalent in text form.",
-      "evidenceIds": ["ev-mqsa-lay-summary-timing", "ev-mqsa-record-transfer"]
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-mqsa-record-transfer"
+      ]
     },
     {
-      "id": "vis-mqsa-density-boundary", "revision": 1, "objectiveId": "obj-mqsa-density-reporting", "assetId": "asset-mqsa-density-categories", "estSeconds": 40,
+      "id": "vis-mqsa-density-boundary",
+      "revision": 1,
+      "objectiveId": "obj-mqsa-density-reporting",
+      "assetId": "asset-mqsa-density-categories",
+      "estSeconds": 40,
       "title": "Where does 'dense' begin?",
       "prompt": "Select the least dense category whose lay summary must say 'Your breast tissue is dense.'",
       "hotspots": [
-        { "id": "a", "neutralLabel": "Almost entirely fatty", "x": 20, "y": 30, "w": 135, "h": 150, "revealLabel": "Not dense" },
-        { "id": "b", "neutralLabel": "Scattered areas of fibroglandular density", "x": 175, "y": 30, "w": 135, "h": 150, "revealLabel": "Not dense" },
-        { "id": "c", "neutralLabel": "Heterogeneously dense", "x": 330, "y": 30, "w": 135, "h": 150, "revealLabel": "Dense: first category requiring the dense statement" },
-        { "id": "d", "neutralLabel": "Extremely dense", "x": 485, "y": 30, "w": 135, "h": 150, "revealLabel": "Dense" }
+        {
+          "id": "a",
+          "neutralLabel": "Almost entirely fatty",
+          "x": 20,
+          "y": 30,
+          "w": 135,
+          "h": 150,
+          "revealLabel": "Not dense"
+        },
+        {
+          "id": "b",
+          "neutralLabel": "Scattered areas of fibroglandular density",
+          "x": 175,
+          "y": 30,
+          "w": 135,
+          "h": 150,
+          "revealLabel": "Not dense"
+        },
+        {
+          "id": "c",
+          "neutralLabel": "Heterogeneously dense",
+          "x": 330,
+          "y": 30,
+          "w": 135,
+          "h": 150,
+          "revealLabel": "Dense: first category requiring the dense statement"
+        },
+        {
+          "id": "d",
+          "neutralLabel": "Extremely dense",
+          "x": 485,
+          "y": 30,
+          "w": 135,
+          "h": 150,
+          "revealLabel": "Dense: dense statement also required"
+        }
       ],
       "correctHotspotId": "c",
       "feedback": {
@@ -94,26 +325,131 @@
       },
       "explanation": "The first two report categories map to 'not dense'; heterogeneously and extremely dense map to 'dense' (§ 900.12(c)(2)(iii)–(iv)).",
       "accessibilityNote": "Category names are read aloud because they are printed on the image; the dense/not-dense mapping is revealed only after you answer.",
-      "evidenceIds": ["ev-mqsa-density-statements", "ev-mqsa-density-categories"]
+      "evidenceIds": [
+        "ev-mqsa-density-statements",
+        "ev-mqsa-density-categories"
+      ]
     }
   ],
   "glossary": [
-    { "term": "Accreditation body", "definition": "An entity approved by FDA to accredit mammography facilities.", "evidenceIds": ["ev-mqsa-accreditation-body-definition"] },
-    { "term": "Action limits", "definition": "Minimum and maximum values of a QA measurement representing acceptable performance; values outside them require corrective action.", "evidenceIds": ["ev-mqsa-action-limits-definition"] },
-    { "term": "Adverse event", "definition": "An undesirable experience associated with mammography, such as poor image quality, late reports, or use of unqualified personnel.", "evidenceIds": ["ev-mqsa-adverse-event"] },
-    { "term": "Certification", "definition": "Approval of a facility by FDA or a State certification agency to provide mammography services.", "evidenceIds": ["ev-mqsa-accreditation-body-definition"] },
-    { "term": "Consumer", "definition": "Anyone commenting on or complaining about a mammography exam, including the patient or a representative such as a family member or referring provider.", "evidenceIds": ["ev-mqsa-consumer-complaints"] },
-    { "term": "Contact hour", "definition": "An hour of training received through direct instruction. One continuing education unit equals one contact hour.", "evidenceIds": ["ev-mqsa-ceu-definition"] },
-    { "term": "Direct supervision", "definition": "For an exam, the supervisor is present to observe and correct the person performing it.", "evidenceIds": ["ev-mqsa-direct-supervision"] },
-    { "term": "EQUIP", "definition": "Enhancing Quality Using the Inspection Program: FDA inspection questions on ongoing clinical image quality, corrective action, and lead interpreting physician oversight of QA records.", "evidenceIds": ["ev-mqsa-equip"] },
-    { "term": "Lead interpreting physician", "definition": "The interpreting physician with general responsibility for the facility's QA program.", "evidenceIds": ["ev-mqsa-qa-roles"] },
-    { "term": "Mammographic modality", "definition": "A breast radiography technology such as screen-film, FFDM, or DBT.", "evidenceIds": ["ev-mqsa-modality-definition"] },
-    { "term": "Mammography equipment evaluation", "definition": "An onsite assessment by a medical physicist after installation, reassembly, or major repair, before clinical use.", "evidenceIds": ["ev-mqsa-equipment-evaluation"] },
-    { "term": "Positive mammogram", "definition": "A mammogram assessed Suspicious or Highly Suggestive of Malignancy.", "evidenceIds": ["ev-mqsa-positive-mammogram"] },
-    { "term": "Provisional certificate", "definition": "A certificate of up to 6 months that lets a new facility perform mammography while completing accreditation; one 90-day extension possible.", "evidenceIds": ["ev-mqsa-provisional-certificate"] },
-    { "term": "Quality control technologist", "definition": "A qualified technologist responsible for QA tasks not assigned to the lead interpreting physician or medical physicist.", "evidenceIds": ["ev-mqsa-qa-roles"] },
-    { "term": "Recall rate", "definition": "Percentage of screening mammograms assessed 'Incomplete: Need additional imaging evaluation.'", "evidenceIds": ["ev-mqsa-outcomes-audit"] },
-    { "term": "Serious complaint", "definition": "A report of a serious adverse event.", "evidenceIds": ["ev-mqsa-adverse-event"] },
-    { "term": "Standard breast", "definition": "A 4.2 cm compressed breast of 50% glandular and 50% adipose tissue, used for phantom dosimetry.", "evidenceIds": ["ev-mqsa-dose-limit"] }
+    {
+      "term": "Accreditation body",
+      "definition": "An entity approved by FDA to accredit mammography facilities.",
+      "evidenceIds": [
+        "ev-mqsa-accreditation-body-definition"
+      ]
+    },
+    {
+      "term": "Action limits",
+      "definition": "Minimum and maximum values of a QA measurement representing acceptable performance; values outside them require corrective action.",
+      "evidenceIds": [
+        "ev-mqsa-action-limits-definition"
+      ]
+    },
+    {
+      "term": "Adverse event",
+      "definition": "An undesirable experience associated with mammography, such as poor image quality, late reports, or use of unqualified personnel.",
+      "evidenceIds": [
+        "ev-mqsa-adverse-event"
+      ]
+    },
+    {
+      "term": "Certification",
+      "definition": "Approval of a facility by FDA or a State certification agency to provide mammography services.",
+      "evidenceIds": [
+        "ev-mqsa-accreditation-body-definition"
+      ]
+    },
+    {
+      "term": "Consumer",
+      "definition": "Anyone commenting on or complaining about a mammography exam, including the patient or a representative such as a family member or referring provider.",
+      "evidenceIds": [
+        "ev-mqsa-consumer-complaints"
+      ]
+    },
+    {
+      "term": "Contact hour",
+      "definition": "An hour of training received through direct instruction. One continuing education unit equals one contact hour.",
+      "evidenceIds": [
+        "ev-mqsa-ceu-definition"
+      ]
+    },
+    {
+      "term": "Direct supervision",
+      "definition": "For an exam, the supervisor is present to observe and correct the person performing it.",
+      "evidenceIds": [
+        "ev-mqsa-direct-supervision"
+      ]
+    },
+    {
+      "term": "EQUIP",
+      "definition": "Enhancing Quality Using the Inspection Program: FDA inspection questions on ongoing clinical image quality, corrective action, and lead interpreting physician oversight of QA records.",
+      "evidenceIds": [
+        "ev-mqsa-equip"
+      ]
+    },
+    {
+      "term": "Lead interpreting physician",
+      "definition": "The interpreting physician with general responsibility for the facility's QA program.",
+      "evidenceIds": [
+        "ev-mqsa-qa-roles"
+      ]
+    },
+    {
+      "term": "Mammographic modality",
+      "definition": "A breast radiography technology such as screen-film, FFDM, or DBT.",
+      "evidenceIds": [
+        "ev-mqsa-modality-definition"
+      ]
+    },
+    {
+      "term": "Mammography equipment evaluation",
+      "definition": "An onsite assessment by a medical physicist after installation, reassembly, or major repair, before clinical use.",
+      "evidenceIds": [
+        "ev-mqsa-equipment-evaluation"
+      ]
+    },
+    {
+      "term": "Positive mammogram",
+      "definition": "A mammogram assessed Suspicious or Highly Suggestive of Malignancy.",
+      "evidenceIds": [
+        "ev-mqsa-positive-mammogram"
+      ]
+    },
+    {
+      "term": "Provisional certificate",
+      "definition": "A certificate of up to 6 months that lets a new facility perform mammography while completing accreditation; one 90-day extension possible.",
+      "evidenceIds": [
+        "ev-mqsa-provisional-certificate"
+      ]
+    },
+    {
+      "term": "Quality control technologist",
+      "definition": "A qualified technologist responsible for QA tasks not assigned to the lead interpreting physician or medical physicist.",
+      "evidenceIds": [
+        "ev-mqsa-qa-roles"
+      ]
+    },
+    {
+      "term": "Recall rate",
+      "definition": "Percentage of screening mammograms assessed 'Incomplete: Need additional imaging evaluation.'",
+      "evidenceIds": [
+        "ev-mqsa-outcomes-audit"
+      ]
+    },
+    {
+      "term": "Serious complaint",
+      "definition": "A report of a serious adverse event.",
+      "evidenceIds": [
+        "ev-mqsa-adverse-event"
+      ]
+    },
+    {
+      "term": "Standard breast",
+      "definition": "A 4.2 cm compressed breast of 50% glandular and 50% adipose tissue, used for phantom dosimetry.",
+      "evidenceIds": [
+        "ev-mqsa-dose-limit"
+      ]
+    }
   ]
 }
