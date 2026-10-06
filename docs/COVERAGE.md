@@ -11,8 +11,8 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 | Objectives complete | 22 / 79 | all |
 | Micro-lessons | 69 | 60–80 |
 | Recall cards | 202 | 200+ |
-| Practice questions | 269 | ~800 incl. two full forms |
-| Reserved-form questions | 101 | two full forms |
+| Practice questions | 271 | ~800 incl. two full forms |
+| Reserved-form questions | 99 | two full forms |
 | Visual exercises | 24 | — |
 
 Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
@@ -87,10 +87,10 @@ Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
 | `obj-ap-tdlu` | needs_source | 1 | 3 | 4 | 1 | needs source retrieval before a lesson can be written |
 | `obj-ap-cytology` | needs_source | 1 | 2 | 4 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-lexicon-masses-calcs` | blocked | 1 | 2 | 4 | 0 | blocked: no accessible source verifies the fact |
-| `obj-ap-assessment-density-categories` | source_backed_open | 3 | 6 | 10 | 1 |  |
+| `obj-ap-assessment-density-categories` | source_backed_open | 3 | 6 | 11 | 1 |  |
 | `obj-ap-benign-conditions` | needs_source | 1 | 2 | 5 | 0 | needs source retrieval before a lesson can be written |
 | `obj-ap-high-risk-lesions` | needs_source | 1 | 2 | 4 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ap-malignant` | needs_source | 1 | 4 | 4 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ap-malignant` | needs_source | 1 | 4 | 5 | 0 | needs source retrieval before a lesson can be written |
 | `obj-pp-cc` | blocked | 2 | 3 | 8 | 1 | blocked: no accessible source verifies the fact |
 | `obj-pp-mlo` | blocked | 2 | 2 | 6 | 1 | blocked: no accessible source verifies the fact |
 | `obj-pp-lateral-views` | needs_source | 1 | 1 | 0 | 0 | needs source retrieval before a lesson can be written |

@@ -1012,7 +1012,7 @@ add("q-ap-049", "obj-ap-assessment-density-categories", "fam-ap-form-a-dense-wor
      ("c", "BI-RADS 0 only", "Assessment ≠ density."),
      ("d", "No letter is required", "MQSA requires density notification.")],
     "b", "Extremely dense → dense lay statement.",
-    ["ev-ap-nci-dense-four", "ev-ap-mqsa-density"], pool="form-a", diff="apply")
+    ["ev-ap-nci-dense-four", "ev-ap-mqsa-density"], pool="practice", diff="apply")
 
 add("q-ap-050", "obj-ap-malignant", "fam-ap-form-a-dcis",
     "DCIS is best described as:",
@@ -1021,7 +1021,7 @@ add("q-ap-050", "obj-ap-malignant", "fam-ap-form-a-dcis",
      ("c", "A benign lipoma", "Incorrect."),
      ("d", "Normal myoepithelial physiology", "Incorrect.")],
     "a", "DCIS = in-duct abnormal cells without spread outside the duct.",
-    ["ev-ap-dict-dcis"], pool="form-a", review=NEED)
+    ["ev-ap-dict-dcis"], pool="practice", review=NEED)
 
 wjson(MOD / "questions.json", {"questions": questions})
 print("questions", len(questions), "lessons", len(lessons), "cards", len(cards))

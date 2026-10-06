@@ -3133,7 +3133,7 @@
         "obj-ap-assessment-density-categories"
       ],
       "familyId": "fam-ap-form-a-dense-wording",
-      "pool": "form-a",
+      "pool": "practice",
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
@@ -3188,6 +3188,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice: too close to a practice item (q-ap-025 / q-ap-019) to count as an unseen reserved question. Stem and key unchanged."
           }
         ]
       }
@@ -3199,7 +3206,7 @@
         "obj-ap-malignant"
       ],
       "familyId": "fam-ap-form-a-dcis",
-      "pool": "form-a",
+      "pool": "practice",
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
@@ -3253,6 +3260,13 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "Moved from form-a to practice: too close to a practice item (q-ap-025 / q-ap-019) to count as an unseen reserved question. Stem and key unchanged."
           }
         ]
       }

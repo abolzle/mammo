@@ -1576,7 +1576,7 @@
       "visualIds": [
         "vis-ap-dense-map"
       ],
-      "learnerQuestionCount": 10,
+      "learnerQuestionCount": 11,
       "validatedQuestionCount": 0,
       "gap": null
     },
@@ -1673,7 +1673,7 @@
         "q-ap-093"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 4,
+      "learnerQuestionCount": 5,
       "validatedQuestionCount": 0,
       "gap": "needs source retrieval before a lesson can be written"
     },
