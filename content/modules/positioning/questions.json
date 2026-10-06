@@ -5454,6 +5454,139 @@
           }
         ]
       }
+    },
+    {
+      "id": "q-pos-087",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-forma-pos-087",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A 35-year-old with a known high-risk genetic marker asks whether the 2024 USPSTF biennial screening recommendation applies to her. Which answer is accurate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yes; it applies to everyone assigned female at birth age 40 and older",
+          "rationale": "It applies to average-risk people 40 and older, and it explicitly excludes high-risk genetic markers."
+        },
+        {
+          "id": "b",
+          "text": "Yes; USPSTF recommends she start biennial mammograms at 35",
+          "rationale": "USPSTF's biennial recommendation covers ages 40\u201374 at average risk."
+        },
+        {
+          "id": "c",
+          "text": "No; USPSTF says she should never have mammography",
+          "rationale": "Being excluded from the recommendation doesn't mean she shouldn't be screened. High-risk screening is planned separately with her clinician."
+        },
+        {
+          "id": "d",
+          "text": "No; USPSTF says its recommendation does not apply to people with high-risk genetic markers",
+          "rationale": "Correct. The 2024 USPSTF recommendation excludes people with high-risk genetic markers or syndromes."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "The USPSTF recommendation covers average-risk people 40 and older, including those with a first-degree family history or dense breasts. It does not apply to people with high-risk genetic markers or syndromes, high-dose chest radiation at a young age, previous breast cancer, or a high-risk lesion on prior biopsy. ACS guidance for high-risk women generally adds annual MRI starting at 30.",
+      "variants": {
+        "simpler": "High-risk genetics falls outside the USPSTF average-risk recommendation.",
+        "example": "Record her genetic history accurately; her clinician plans high-risk screening such as MRI."
+      },
+      "evidenceIds": [
+        "ev-pc-uspstf-population",
+        "ev-pc-acs-high-risk"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-088",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical",
+        "obj-pp-implant-inquiry"
+      ],
+      "familyId": "fam-forma-pos-088",
+      "pool": "form-a",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 70,
+      "stem": "A patient had a left mastectomy with implant reconstruction and has a native right breast. Which general NCI statement helps the technologist confirm the exam plan?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Both breasts always need identical bilateral views",
+          "rationale": "NCI notes the reconstructed breast usually does not need a mammogram; follow the order."
+        },
+        {
+          "id": "b",
+          "text": "People with implant reconstruction after mastectomy usually do not need a mammogram of the reconstructed breast",
+          "rationale": "Correct. NCI says most people with implants after mastectomy reconstruction usually do not need a mammogram of the reconstructed breast. Confirm the order for her native right breast."
+        },
+        {
+          "id": "c",
+          "text": "Mammography is not allowed for any patient with an implant",
+          "rationale": "NCI says people with implants should keep having mammograms of native breast tissue."
+        },
+        {
+          "id": "d",
+          "text": "Implant history doesn't need to be asked because the surgery is in her chart",
+          "rationale": "MQSA requires asking about implants before every exam."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Surgical history changes the exam plan. NCI's general guidance says the reconstructed breast usually does not need mammography, and MQSA still requires asking about implants before the exam. The order and facility protocol determine the final views.",
+      "variants": {
+        "simpler": "Reconstructed side usually not imaged; confirm the plan for the native breast.",
+        "example": "\"I see your left side was reconstructed. Today's order is for your right breast. Is that what you expected?\""
+      },
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement",
+        "ev-mqsa-implant-inquiry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-06",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted Form A draft written only from the cited evidence records. Reserved for assessments; kept out of daily study."
+          },
+          {
+            "at": "2026-10-06",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }

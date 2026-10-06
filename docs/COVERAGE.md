@@ -12,7 +12,7 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 | Micro-lessons | 69 | 60–80 |
 | Recall cards | 202 | 200+ |
 | Practice questions | 269 | ~800 incl. two full forms |
-| Reserved-form questions | 97 | two full forms |
+| Reserved-form questions | 101 | two full forms |
 | Visual exercises | 24 | — |
 
 Source state: 23 open/public-domain, 0 link-only, 53 need a source, 3 blocked.
