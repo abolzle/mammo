@@ -28,3 +28,17 @@ test("practice does not invent a full-length simulation", async ({ page }) => {
   await page.getByRole("button", { name: /full 145-question simulation/i }).click();
   await expect(page.getByRole("status")).toContainText(/not offered/i);
 });
+
+test("checkpoint is refused honestly", async ({ page }) => {
+  await page.goto("/practice/");
+  await page.getByRole("button", { name: /60-question checkpoint/i }).click();
+  await expect(page.getByRole("status")).toContainText(/60/);
+});
+
+test("learn and settings routes load", async ({ page }) => {
+  await page.goto("/learn/");
+  await expect(page.getByRole("heading", { name: /learn/i })).toBeVisible();
+  await page.goto("/settings/");
+  await expect(page.getByRole("heading", { name: /settings/i })).toBeVisible();
+  await expect(page.getByRole("button", { name: /download json backup/i })).toBeVisible();
+});

@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button";
 import { useApp } from "@/components/app-provider";
 import { EXAM } from "@/config/exam";
 import { planFullSimulationUnavailable, practiceQuestions, reservedFamilies } from "@/lib/engine/planner";
-import { startQuizSession } from "@/lib/engine/start";
+import { startFormQuizSession, startQuizSession } from "@/lib/engine/start";
+import { offerAssessment } from "@/lib/engine/assessment";
 
 export default function PracticePage() {
   const { content, ready, error } = useApp();
@@ -21,10 +22,23 @@ export default function PracticePage() {
   const available = practiceQuestions(content.modules).length;
   const reserved = reservedFamilies(content.modules).size;
   const sim = planFullSimulationUnavailable(EXAM.totalQuestions, available);
+  const baseline = offerAssessment("baseline", content.modules);
+  const checkpoint = offerAssessment("checkpoint", content.modules);
+  const formQuiz = offerAssessment("form_quiz", content.modules);
 
   async function go(size: number, topicId?: string) {
     if (!content) return;
     const s = await startQuizSession(content, size, mode, topicId);
+    router.push(`/session/?id=${s.id}`);
+  }
+
+  async function goForm() {
+    if (!content) return;
+    if (!formQuiz.ok) {
+      setNote(formQuiz.reason);
+      return;
+    }
+    const s = await startFormQuizSession(content, formQuiz.size);
     router.push(`/session/?id=${s.id}`);
   }
 
@@ -56,11 +70,24 @@ export default function PracticePage() {
           variant="outline"
           className="min-h-11"
           onClick={() => {
-            if (available < 30) setNote(`A 30-question baseline is not offered yet. ${available} practice items are available — take the 20-question quiz instead of a padded score.`);
+            if (!baseline.ok) setNote(baseline.reason);
             else void go(30);
           }}
         >
           30-question baseline
+        </Button>
+        <Button
+          variant="outline"
+          className="min-h-11"
+          onClick={() => {
+            if (!checkpoint.ok) setNote(checkpoint.reason);
+            else void go(60);
+          }}
+        >
+          60-question checkpoint
+        </Button>
+        <Button variant="outline" className="min-h-11" onClick={() => void goForm()}>
+          Reserved Form A quiz (test mode)
         </Button>
         <Button variant="outline" className="min-h-11" onClick={() => setNote(sim.message)}>
           Full {EXAM.totalQuestions}-question simulation

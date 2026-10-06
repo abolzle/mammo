@@ -29,6 +29,28 @@ export function applyAnswer(args: {
   confidence?: number | null;
   firstExposure: boolean;
 }): { session: StudySession; event: ResponseEvent } {
+  const existingItem = args.session.items.find((i) => i.id === args.itemId);
+  if (existingItem?.status === "answered") {
+    return {
+      session: args.session,
+      event: {
+        id: eventId(args.session.id, args.itemId),
+        sessionId: args.session.id,
+        itemId: args.itemId,
+        contentId: existingItem.contentId,
+        contentRevision: existingItem.revision,
+        type: existingItem.type,
+        answer: existingItem.selected ?? args.answer,
+        correct: existingItem.correct ?? args.correct,
+        confidence: existingItem.confidence ?? null,
+        selfRating: existingItem.selfRating ?? null,
+        objectiveIds: existingItem.objectiveIds,
+        firstExposure: args.firstExposure,
+        createdAt: existingItem.answeredAt ?? nowIso(),
+        elapsedMs: liveElapsedMs(args.session),
+      },
+    };
+  }
   const now = nowIso();
   const items = args.session.items.map((it) =>
     it.id === args.itemId

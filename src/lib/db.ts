@@ -17,9 +17,9 @@ export const DB_NAME = "mammo";
 export interface MammoDB extends DBSchema {
   meta: { key: string; value: unknown };
   profile: { key: string; value: Profile };
-  sessions: { key: string; value: StudySession };
-  events: { key: string; value: ResponseEvent };
-  schedules: { key: string; value: CardSchedule };
+  sessions: { key: string; value: StudySession; indexes: { "by-status": string } };
+  events: { key: string; value: ResponseEvent; indexes: { "by-session": string } };
+  schedules: { key: string; value: CardSchedule; indexes: { "by-due": string } };
   objectives: { key: string; value: ObjectiveHistory };
   exposures: { key: string; value: Exposure };
   settings: { key: string; value: Settings };
@@ -29,7 +29,7 @@ export interface MammoDB extends DBSchema {
 
 let dbPromise: Promise<IDBPDatabase<MammoDB>> | null = null;
 
-const MIGRATIONS: Array<(db: IDBDatabase) => void> = [
+const MIGRATIONS: Array<(db: IDBDatabase, tx: IDBTransaction) => void> = [
   (db) => {
     db.createObjectStore("meta");
     db.createObjectStore("profile", { keyPath: "id" });
@@ -42,6 +42,12 @@ const MIGRATIONS: Array<(db: IDBDatabase) => void> = [
     db.createObjectStore("issues", { keyPath: "id" });
     db.createObjectStore("outcomes", { keyPath: "id" });
   },
+  // v2: lookup indexes. Never edit a shipped migration; append instead.
+  (_db, tx) => {
+    tx.objectStore("sessions").createIndex("by-status", "status");
+    tx.objectStore("events").createIndex("by-session", "sessionId");
+    tx.objectStore("schedules").createIndex("by-due", "due");
+  },
 ];
 
 export function openMammoDB() {
@@ -49,9 +55,8 @@ export function openMammoDB() {
     dbPromise = openDB<MammoDB>(DB_NAME, LEARNER_SCHEMA_VERSION, {
       upgrade(db, oldVersion, _newVersion, transaction) {
         for (let v = oldVersion; v < MIGRATIONS.length; v++) {
-          MIGRATIONS[v](transaction.db as unknown as IDBDatabase);
+          MIGRATIONS[v](transaction.db as unknown as IDBDatabase, transaction as unknown as IDBTransaction);
         }
-        void transaction;
       },
     });
   }
@@ -70,6 +75,7 @@ export async function resetDb() {
     req.onerror = () => reject(req.error);
     req.onblocked = () => resolve();
   });
+  dbPromise = null;
 }
 
 export function defaultProfile(now = new Date().toISOString()): Profile {
@@ -145,12 +151,17 @@ export async function activeSession() {
 }
 
 /** Idempotent: same event id is not stored twice. */
-export async function putEvent(ev: ResponseEvent) {
+export async function putEvent(ev: ResponseEvent): Promise<{ event: ResponseEvent; inserted: boolean }> {
   const db = await openMammoDB();
   const existing = await db.get("events", ev.id);
-  if (existing) return existing;
+  if (existing) return { event: existing, inserted: false };
   await db.put("events", ev);
-  return ev;
+  return { event: ev, inserted: true };
+}
+
+export async function eventsForSession(sessionId: string) {
+  const db = await openMammoDB();
+  return db.getAllFromIndex("events", "by-session", sessionId);
 }
 
 export async function allEvents() {

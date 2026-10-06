@@ -7,8 +7,13 @@ import { defaultProfile } from "../src/lib/db";
 import { applyAnswer, liveElapsedMs } from "../src/lib/engine/session";
 import { createSession } from "../src/lib/engine/create";
 import { eventId } from "../src/lib/engine/ids";
-import { parseBackupText } from "../src/lib/engine/backup";
+import { parseBackupText, importBackup, exportBackup } from "../src/lib/engine/backup";
 import { EXAM } from "../src/config/exam";
+import { offerAssessment } from "../src/lib/engine/assessment";
+import { parseDraftJson, buildGeneratePacket } from "../src/lib/content/packet";
+import { reconcileEvent } from "../src/lib/engine/reconcile";
+import { ensureProfile, putEvent, putExposure, getExposure, resetDb } from "../src/lib/db";
+import { planInsufficientTime } from "../src/lib/engine/planner";
 
 const loaded = loadRepoContent();
 
@@ -118,6 +123,145 @@ describe("backup", () => {
   it("rejects a non-backup file", () => {
     const r = parseBackupText(JSON.stringify({ hello: "world" }));
     expect(r.ok).toBe(false);
+  });
+
+  it("merges backups and skips duplicate events", async () => {
+    await resetDb();
+    await ensureProfile();
+    const versions = { curriculum: "test" };
+    const first = await exportBackup(versions);
+    const event = {
+      id: "evt-ses-it-one",
+      sessionId: "ses-one",
+      itemId: "it-one",
+      contentId: "q-mqsa-001",
+      contentRevision: 1,
+      type: "question" as const,
+      answer: "a",
+      correct: true,
+      confidence: null,
+      selfRating: null,
+      objectiveIds: ["obj-mqsa-certification"],
+      firstExposure: true,
+      createdAt: new Date().toISOString(),
+      elapsedMs: 1000,
+    };
+    first.events = [event];
+    const result = await importBackup(first, versions, "merge");
+    expect(result.ok).toBe(true);
+    const again = await importBackup(first, { curriculum: "newer" }, "merge");
+    expect(again.skippedEvents).toBeGreaterThan(0);
+    expect(again.contentVersionNote).toMatch(/not silently rescored/i);
+  });
+});
+
+describe("assessment honesty", () => {
+  it("refuses a 60-question checkpoint and a 145-item simulation", () => {
+    const checkpoint = offerAssessment("checkpoint", loaded.modules);
+    expect(checkpoint.ok).toBe(false);
+    if (!checkpoint.ok) expect(checkpoint.fallback).toBeTruthy();
+    const sim = offerAssessment("simulation", loaded.modules);
+    expect(sim.ok).toBe(false);
+  });
+
+  it("offers a reserved Form A quiz without mixing those families into daily study", () => {
+    const form = offerAssessment("form_quiz", loaded.modules);
+    expect(form.ok).toBe(true);
+    const reserved = reservedFamilies(loaded.modules);
+    const daily = planStudySession({
+      catalog: { curriculum: loaded.curriculum!, modules: loaded.modules },
+      profile: defaultProfile(),
+      minutes: 10,
+      schedules: [],
+      histories: [],
+      seenContent: new Set(),
+    });
+    expect(daily.items.filter((i) => i.familyId && reserved.has(i.familyId))).toEqual([]);
+  });
+});
+
+describe("pipeline", () => {
+  it("rejects clinically reviewed status on import and unsafe text", () => {
+    expect(parseDraftJson("<script>alert(1)</script>").ok).toBe(false);
+    const sample = loaded.modules[0].questions[0];
+    const bad = { ...sample, review: { ...sample.review, status: "clinically_reviewed" } };
+    expect(parseDraftJson(JSON.stringify(bad)).ok).toBe(false);
+  });
+
+  it("fills a generation packet from authorized evidence", () => {
+    const text = buildGeneratePacket(
+      { sources: loaded.sources, evidence: loaded.evidence, curriculum: loaded.curriculum! },
+      ["obj-mqsa-certification"],
+      "# Generation packet\n## Evidence\nPaste authorized evidence records here.\n## Objectives\nPaste objective ids and statements here.\n",
+    );
+    expect(text).toContain("obj-mqsa-certification");
+    expect(text).not.toContain("Paste authorized evidence records here.");
+  });
+});
+
+describe("key correction", () => {
+  it("keeps the original result next to a corrected key", () => {
+    const q = { ...loaded.modules[0].questions[0], revision: 2, correctChoiceId: "b" as const, keyHistory: [{ revision: 1, correctChoiceId: "a", changedOn: "2026-10-06", reason: "test" }] };
+    const event = {
+      id: "evt-x",
+      sessionId: "ses-x",
+      itemId: "it-x",
+      contentId: q.id,
+      contentRevision: 1,
+      type: "question" as const,
+      answer: "a",
+      correct: true,
+      confidence: null,
+      selfRating: null,
+      objectiveIds: q.objectiveIds,
+      firstExposure: true,
+      createdAt: new Date().toISOString(),
+      elapsedMs: 1,
+    };
+    const r = reconcileEvent(event, q);
+    expect(r.status).toBe("key_corrected");
+    expect(r.correctedCorrect).toBe(false);
+    expect(r.event.correct).toBe(true);
+  });
+});
+
+describe("IndexedDB", () => {
+  it("does not duplicate exposures when the same event is written twice", async () => {
+    await resetDb();
+    await ensureProfile();
+    const ev = {
+      id: "evt-dup",
+      sessionId: "ses-dup",
+      itemId: "it-dup",
+      contentId: "q-dup",
+      contentRevision: 1,
+      type: "question" as const,
+      answer: "a",
+      correct: true,
+      confidence: null,
+      selfRating: null,
+      objectiveIds: ["obj-mqsa-certification"],
+      firstExposure: true,
+      createdAt: new Date().toISOString(),
+      elapsedMs: 1,
+    };
+    expect((await putEvent(ev)).inserted).toBe(true);
+    expect((await putEvent(ev)).inserted).toBe(false);
+    await putExposure({ contentId: "q-dup", familyId: "fam-x", firstAt: ev.createdAt, lastAt: ev.createdAt, count: 1 });
+    const exp = await getExposure("q-dup");
+    expect(exp?.count).toBe(1);
+  });
+});
+
+describe("plan fit", () => {
+  it("warns when remaining material cannot fit before the exam date", () => {
+    const note = planInsufficientTime({
+      examDate: "2026-10-10",
+      minutesPref: 5,
+      remainingObjectives: 70,
+      now: new Date("2026-10-06T00:00:00"),
+    });
+    expect(note).toMatch(/does not fit/i);
   });
 });
 

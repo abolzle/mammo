@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { EXAM } from "@/config/exam";
 import { useApp } from "@/components/app-provider";
 import { allEvents, allObjectives, allSessions } from "@/lib/db";
+import { reconcileEvent } from "@/lib/engine/reconcile";
 import type { ObjectiveHistory, ResponseEvent, StudySession } from "@/lib/schemas/learner";
 
 export default function ProgressPage() {
@@ -27,6 +28,11 @@ export default function ProgressPage() {
   const firstCorrect = first.filter((e) => e.correct).length;
   const completed = sessions.filter((s) => s.status === "completed");
   const minutes = Math.round(sessions.reduce((a, s) => a + s.elapsedMs, 0) / 60000);
+
+  const questions = content.modules.flatMap((m) => m.questions);
+  const corrections = events
+    .map((e) => reconcileEvent(e, questions.find((q) => q.id === e.contentId)))
+    .filter((r) => r.status === "key_corrected");
 
   const byDomain = EXAM.domains.map((d) => {
     const topicIds = new Set(content.curriculum.topics.filter((t) => t.domainId === d.id).map((t) => t.id));
@@ -73,6 +79,16 @@ export default function ProgressPage() {
       <p className="text-sm text-muted-foreground">
         Denominator for first-exposure accuracy is {first.length || 0} answered items. Self-selected study on one device cannot show that Mammo caused a pass.
       </p>
+      {corrections.length ? (
+        <section>
+          <h2 className="font-heading text-xl">Key corrections</h2>
+          <ul className="mt-2 space-y-2 text-sm">
+            {corrections.map((c) => (
+              <li key={c.event.id}>{c.note}</li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
     </div>
   );
 }

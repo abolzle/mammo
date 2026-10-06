@@ -134,16 +134,18 @@ export function SessionPlayer({ sessionId }: { sessionId: string }) {
       selfRating: extra?.selfRating,
       firstExposure: !exposure,
     });
-    await putEvent(event);
-    await putExposure({
-      contentId: item.contentId,
-      familyId: item.familyId,
-      firstAt: exposure?.firstAt ?? event.createdAt,
-      lastAt: event.createdAt,
-      count: (exposure?.count ?? 0) + 1,
-    });
-    for (const oid of item.objectiveIds) {
-      await putObjective(bumpObjective(await getObjective(oid), oid, correct));
+    const stored = await putEvent(event);
+    if (stored.inserted) {
+      await putExposure({
+        contentId: item.contentId,
+        familyId: item.familyId,
+        firstAt: exposure?.firstAt ?? event.createdAt,
+        lastAt: event.createdAt,
+        count: (exposure?.count ?? 0) + 1,
+      });
+      for (const oid of item.objectiveIds) {
+        await putObjective(bumpObjective(await getObjective(oid), oid, correct));
+      }
     }
     if (item.type === "card" && extra?.selfRating) {
       await putSchedule(scheduleAfterCard(await getSchedule(item.contentId), item.contentId, extra.selfRating));
@@ -543,6 +545,7 @@ function RecapView({
         {score.limited && score.total > 0 ? <p className="text-sm text-muted-foreground">Limited evidence — small sample.</p> : null}
         <p className="text-sm">{session.why}</p>
         <p className="text-sm text-muted-foreground">This is not an ARRT scaled score and is not a pass probability.</p>
+        <p className="text-sm text-muted-foreground">Progress is only on this device. Download a JSON backup from Settings after a real study streak.</p>
         <Button className="min-h-11" onClick={onHome}>
           Back to Today
         </Button>
