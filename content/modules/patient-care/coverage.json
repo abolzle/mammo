@@ -1,6 +1,6 @@
 {
   "moduleId": "mod-patient-care",
-  "version": "2026-10-06.2",
+  "version": "2026-10-07.1",
   "note": "Patient-care coverage including risk/epidemiology, signs/history, and treatment-terminology batch. curriculumFollowUps open sourceState for coverage counting; curriculum.json sourceState remains needs_source until Aaron source-checks.",
   "objectiveCoverage": [
     {
@@ -71,16 +71,23 @@
     },
     {
       "objectiveId": "obj-pc-clinician-role",
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-clinician-role"
+      ],
       "questionIds": [
         "q-pc-006",
         "q-pc-024",
         "q-pc-030",
         "q-pc-033",
-        "q-pc-043"
+        "q-pc-043",
+        "q-pc-067",
+        "q-pc-069",
+        "q-pc-097",
+        "q-pc-099"
       ],
       "cardIds": [
-        "card-pc-no-diagnose"
+        "card-pc-no-diagnose",
+        "card-pc-clinician-vs-tech"
       ],
       "visualIds": [
         "vis-pc-who-explains-density"
@@ -260,11 +267,16 @@
     },
     {
       "objectiveId": "obj-pp-biohazard",
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-biohazard"
+      ],
       "questionIds": [
         "q-pc-035",
         "q-pc-036",
-        "q-pc-037"
+        "q-pc-037",
+        "q-pc-084",
+        "q-pc-091",
+        "q-pc-095"
       ],
       "cardIds": [
         "card-pc-bbp",
@@ -455,16 +467,26 @@
         "card-pc-rx-implant"
       ],
       "visualIds": []
+    },
+    {
+      "objectiveId": "obj-pc-bse-cbe",
+      "lessonIds": [
+        "les-pc-bse-cbe"
+      ],
+      "questionIds": [
+        "q-pc-166",
+        "q-pc-167",
+        "q-pc-168",
+        "q-pc-169"
+      ],
+      "cardIds": [
+        "card-pc-acs-bse",
+        "card-pc-nci-bse-limit"
+      ],
+      "visualIds": []
     }
   ],
   "gapsNoted": [
-    {
-      "objectiveId": "obj-pc-bse-cbe",
-      "note": "Still uncovered; ACS BSE/CBE position not extracted into evidence this batch.",
-      "urlsNeeded": [
-        "https://www.cancer.org/cancer/types/breast-cancer/screening-tests-and-early-detection/american-cancer-society-recommendations-for-the-early-detection-of-breast-cancer.html"
-      ]
-    },
     {
       "objectiveId": "obj-pc-typical-dose",
       "note": "Patient-friendly dose script still reserved; not part of this risk/symptoms/treatment batch.",
@@ -565,7 +587,37 @@
         "src-nci-breast-surgery",
         "src-nci-seer-breast"
       ],
-      "note": "Radiation/chemo/HT/receptors/implant reconstruction at definition level only\u2014no prescribing."
+      "note": "Radiation/chemo/HT/receptors/implant reconstruction at definition level only—no prescribing."
+    },
+    {
+      "objectiveId": "obj-pc-bse-cbe",
+      "suggestedSourceState": "source_backed_link_only",
+      "suggestedSourceIds": [
+        "src-acs-early-detection",
+        "src-nci-breast-screening-patient",
+        "src-nci-pdq-breast-screening-hp"
+      ],
+      "note": "ACS average-risk BSE/CBE schedule is link-only; NCI patient + HP PDQ supply open restatements on adequacy/mortality."
+    },
+    {
+      "objectiveId": "obj-pc-clinician-role",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-nci-mammograms",
+        "src-nci-dense-breasts"
+      ],
+      "note": "MQSA report/lay-summary pathway + NCI density-not-palpable / results timing support technologist vs clinician scope."
+    },
+    {
+      "objectiveId": "obj-pp-biohazard",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-osha-bloodborne",
+        "src-cdc-hand-hygiene",
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "OSHA BBP + CDC hand hygiene + MQSA infection-control equipment cleaning."
     }
   ]
 }

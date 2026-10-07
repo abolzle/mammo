@@ -1,6 +1,6 @@
 {
   "moduleId": "mod-image-production",
-  "version": "1.0.0-beta.1",
+  "version": "2026-10-07.1",
   "assembledForCurriculumVersion": "2026-10-06.1",
   "note": "Module-local coverage to avoid conflicting edits to shared curriculum.json. Topic moduleId pointers in curriculum may still list mod-mqsa for overlapping topics.",
   "counts": {
@@ -208,7 +208,8 @@
         "q-ip-029",
         "q-ip-030",
         "q-ip-031",
-        "q-ip-032"
+        "q-ip-032",
+        "q-ip-123"
       ],
       "cardIds": [
         "card-ip-indicate-target"
@@ -278,6 +279,83 @@
       ],
       "gap": false,
       "notes": "Dose/QC numeric items remain needs-review; ACR DMQC is link-only."
+    },
+    {
+      "objectiveId": "obj-ip-patient-artifacts",
+      "lessonIds": [
+        "les-ip-patient-artifacts"
+      ],
+      "questionIds": [
+        "q-ip-119",
+        "q-ip-120",
+        "q-ip-121",
+        "q-ip-122"
+      ],
+      "cardIds": [
+        "card-ip-deodorant-artifact",
+        "card-ip-motion-compression"
+      ],
+      "visualIds": [],
+      "gap": false,
+      "notes": ""
+    }
+  ],
+  "curriculumFollowUps": [
+    {
+      "objectiveId": "obj-ip-kvp-tube",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-openstax-college-physics-2e",
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "OpenStax tube physics + MQSA technique display; device charts remain facility/ACR link-only."
+    },
+    {
+      "objectiveId": "obj-ip-geometry",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-openstax-college-physics-2e"
+      ],
+      "note": "MQSA magnification equipment range + geometric SID/OID ideas from OpenStax/MQSA field alignment."
+    },
+    {
+      "objectiveId": "obj-ip-exposure-factors",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-openstax-college-physics-2e",
+        "src-ecfr-21-cfr-900",
+        "src-nci-mammograms"
+      ],
+      "note": "Penetration/contrast physics + MQSA technique display + NCI diagnostic-more-images dose context."
+    },
+    {
+      "objectiveId": "obj-ip-thickness-target-filter",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-openstax-college-physics-2e",
+        "src-nci-mammograms"
+      ],
+      "note": "MQSA technique/target-filter indication + compression purpose + soft-tissue contrast physics. ACR DMQC charts stay link-only."
+    },
+    {
+      "objectiveId": "obj-ip-magnification-technique",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-ecfr-21-cfr-900",
+        "src-cdc-alara"
+      ],
+      "note": "MQSA magnification equipment requirements + ALARA framing for air-gap/no-grid technique changes."
+    },
+    {
+      "objectiveId": "obj-ip-patient-artifacts",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "NCI deodorant/product artifact warning + MQSA motion/artifacts CIQ attributes."
     }
   ]
 }

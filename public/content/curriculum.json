@@ -315,9 +315,11 @@
       "depth": "define",
       "requiresQualifiedReview": false,
       "sourceIds": [
-        "src-acs-early-detection"
+        "src-acs-early-detection",
+        "src-nci-breast-screening-patient",
+        "src-nci-pdq-breast-screening-hp"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_link_only"
     },
     {
       "id": "obj-pc-typical-dose",
@@ -391,9 +393,11 @@
       "requiresQualifiedReview": false,
       "sourceIds": [
         "src-ecfr-21-cfr-900",
-        "src-asrt-mammo-curriculum"
+        "src-asrt-mammo-curriculum",
+        "src-nci-mammograms",
+        "src-nci-dense-breasts"
       ],
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "blockedNote": "MQSA covers who receives which report; the technologist's communication scope needs ASRT practice standards (link-only) or equivalent."
     },
     {
@@ -531,9 +535,10 @@
       "requiresQualifiedReview": true,
       "sourceIds": [
         "src-openstax-college-physics-2e",
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-paddles-grids",
@@ -560,7 +565,7 @@
         "src-ecfr-21-cfr-900",
         "src-openstax-college-physics-2e"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-unit-components",
@@ -961,9 +966,11 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-openstax-college-physics-2e"
+        "src-openstax-college-physics-2e",
+        "src-ecfr-21-cfr-900",
+        "src-nci-mammograms"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-thickness-target-filter",
@@ -974,9 +981,12 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-acr-dmqc-manual"
+        "src-acr-dmqc-manual",
+        "src-ecfr-21-cfr-900",
+        "src-openstax-college-physics-2e",
+        "src-nci-mammograms"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-magnification-technique",
@@ -989,9 +999,10 @@
       "depth": "apply",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-ecfr-21-cfr-900"
+        "src-ecfr-21-cfr-900",
+        "src-cdc-alara"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ip-image-quality-attributes",
@@ -1015,8 +1026,11 @@
       "prerequisites": [],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-ap-clock-quadrants",
@@ -1326,8 +1340,10 @@
       ],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-postsurgical",
@@ -1340,8 +1356,11 @@
       ],
       "depth": "apply",
       "requiresQualifiedReview": true,
-      "sourceIds": [],
-      "sourceState": "needs_source"
+      "sourceIds": [
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900"
+      ],
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-screening-vs-diagnostic",
@@ -1366,9 +1385,12 @@
       "depth": "define",
       "requiresQualifiedReview": false,
       "sourceIds": [
-        "src-nci-pdq-breast-screening-hp"
+        "src-nci-pdq-breast-screening-hp",
+        "src-nci-breast-screening-patient",
+        "src-uspstf-breast-2024",
+        "src-acs-facts-2024-2025"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-interventional-prep",
@@ -1396,9 +1418,10 @@
       "depth": "explain",
       "requiresQualifiedReview": true,
       "sourceIds": [
-        "src-ecfr-21-cfr-900"
+        "src-ecfr-21-cfr-900",
+        "src-nci-dictionary"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     },
     {
       "id": "obj-pp-biohazard",
@@ -1412,9 +1435,10 @@
       "requiresQualifiedReview": false,
       "sourceIds": [
         "src-osha-bloodborne",
-        "src-cdc-hand-hygiene"
+        "src-cdc-hand-hygiene",
+        "src-ecfr-21-cfr-900"
       ],
-      "sourceState": "needs_source"
+      "sourceState": "source_backed_open"
     }
   ]
 }

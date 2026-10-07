@@ -2458,6 +2458,103 @@
           }
         ]
       }
+    },
+    {
+      "id": "card-pc-acs-bse",
+      "objectiveId": "obj-pc-bse-cbe",
+      "prompt": "Does ACS put regular BSE/CBE on the average-risk screening schedule?",
+      "answer": "No. ACS does not recommend regular BSE or CBE as part of routine average-risk screening; it emphasizes breast awareness and reporting changes.",
+      "evidenceIds": [
+        "ev-pc-acs-bse-cbe"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
+    },
+    {
+      "id": "card-pc-nci-bse-limit",
+      "objectiveId": "obj-pc-bse-cbe",
+      "prompt": "Is BSE alone an adequate breast cancer screening test (NCI)?",
+      "answer": "No. NCI states breast self-exams are not an adequate screening test on their own; still report unusual changes promptly.",
+      "evidenceIds": [
+        "ev-pc-nci-cbe-not-adequate"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
+    },
+    {
+      "id": "card-pc-clinician-vs-tech",
+      "objectiveId": "obj-pc-clinician-role",
+      "prompt": "Who explains diagnosis and personal density implications after mammography?",
+      "answer": "The interpreting physician / ordering clinician. Technologists explain exam process and that written results will arrive—not a console diagnosis.",
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-pc-nci-results-timing"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
     }
   ]
 }

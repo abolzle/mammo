@@ -1,6 +1,6 @@
 # Coverage report
 
-Generated 2026-10-06 by `npm run content:assemble`. Do not treat completeness as clinical review.
+Generated 2026-10-07 by `npm run content:assemble`. Do not treat completeness as clinical review.
 
 An objective is **complete** when it is source-backed and has a lesson, recall cards, at least 3 learner-visible practice questions, and at least one learner-visible assessment-form item, counting only items whose evidence resolves to a registered, retrieved (or link-only) source. Links come from item objective ids plus each module's `coverage.json`; module `curriculumFollowUps` are applied to source states.
 
@@ -8,22 +8,22 @@ An objective is **complete** when it is source-backed and has a lesson, recall c
 
 | Measure | Current | Production target |
 |---|---|---|
-| Objectives complete | 66 / 79 | all |
-| Micro-lessons | 102 | 60–80 |
-| Recall cards | 324 | 200+ |
-| Practice questions | 447 | ~800 incl. two full forms |
-| Reserved-form questions | 334 | two full forms |
+| Objectives complete | 79 / 79 | all |
+| Micro-lessons | 109 | 60–80 |
+| Recall cards | 335 | 200+ |
+| Practice questions | 464 | ~800 incl. two full forms |
+| Reserved-form questions | 338 | two full forms |
 | Visual exercises | 32 | — |
 
-Source state: 58 open/public-domain, 8 link-only, 13 need a source, 0 blocked.
+Source state: 70 open/public-domain, 9 link-only, 0 need a source, 0 blocked.
 
 ## Complete objectives by domain
 
 | Domain | Complete | Objectives |
 |---|---|---|
-| dom-patient-care | 17 | 19 |
-| dom-image-production | 28 | 34 |
-| dom-procedures | 21 | 26 |
+| dom-patient-care | 19 | 19 |
+| dom-image-production | 34 | 34 |
+| dom-procedures | 26 | 26 |
 
 ## Blocked objectives and the URLs needed
 
@@ -38,12 +38,12 @@ None.
 | `obj-pc-explain-compression` | source_backed_link_only | 2 | 3 | 7 | 5 | 0 |  |
 | `obj-pc-explain-repeat` | source_backed_open | 1 | 1 | 3 | 1 | 0 |  |
 | `obj-pc-screening-guidelines` | source_backed_link_only | 1 | 5 | 5 | 9 | 0 |  |
-| `obj-pc-bse-cbe` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pc-bse-cbe` | source_backed_link_only | 1 | 2 | 3 | 1 | 0 |  |
 | `obj-pc-typical-dose` | source_backed_open | 1 | 6 | 3 | 7 | 1 |  |
 | `obj-pc-modalities` | source_backed_open | 1 | 2 | 3 | 2 | 0 |  |
 | `obj-pc-results-pathway` | source_backed_open | 1 | 3 | 8 | 8 | 0 |  |
 | `obj-pc-additional-imaging` | source_backed_open | 1 | 2 | 5 | 2 | 0 |  |
-| `obj-pc-clinician-role` | needs_source | 0 | 1 | 5 | 4 | 1 | needs source retrieval before a lesson can be written |
+| `obj-pc-clinician-role` | source_backed_open | 1 | 2 | 5 | 4 | 1 |  |
 | `obj-pc-epidemiology` | source_backed_open | 1 | 4 | 8 | 1 | 0 |  |
 | `obj-pc-inherent-risk` | source_backed_open | 1 | 7 | 9 | 4 | 0 |  |
 | `obj-pc-social-risk` | source_backed_open | 1 | 4 | 8 | 1 | 0 |  |
@@ -52,9 +52,9 @@ None.
 | `obj-pc-prior-images` | source_backed_open | 1 | 4 | 10 | 2 | 0 |  |
 | `obj-pc-surgical-options` | source_backed_open | 1 | 5 | 8 | 1 | 0 |  |
 | `obj-pc-nonsurgical-options` | source_backed_open | 1 | 4 | 8 | 1 | 0 |  |
-| `obj-ip-kvp-tube` | needs_source | 1 | 5 | 0 | 1 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-kvp-tube` | source_backed_open | 1 | 5 | 4 | 1 | 0 |  |
 | `obj-ip-paddles-grids` | source_backed_open | 1 | 4 | 5 | 3 | 0 |  |
-| `obj-ip-geometry` | needs_source | 1 | 2 | 0 | 3 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-geometry` | source_backed_open | 1 | 2 | 4 | 3 | 0 |  |
 | `obj-ip-unit-components` | source_backed_open | 1 | 3 | 5 | 2 | 2 |  |
 | `obj-ip-acquisition-types` | source_backed_link_only | 1 | 4 | 4 | 1 | 1 |  |
 | `obj-ip-receptors-monitors` | source_backed_link_only | 2 | 4 | 5 | 1 | 0 |  |
@@ -81,11 +81,11 @@ None.
 | `obj-qc-detector-calibration` | source_backed_open | 1 | 2 | 4 | 2 | 1 |  |
 | `obj-qc-physicist-survey` | source_backed_open | 1 | 4 | 3 | 2 | 0 |  |
 | `obj-qc-physicist-tests` | source_backed_open | 1 | 5 | 4 | 2 | 0 |  |
-| `obj-ip-exposure-factors` | needs_source | 1 | 3 | 2 | 1 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-thickness-target-filter` | needs_source | 1 | 1 | 1 | 0 | 0 | needs source retrieval before a lesson can be written |
-| `obj-ip-magnification-technique` | needs_source | 1 | 2 | 1 | 1 | 1 | needs source retrieval before a lesson can be written |
+| `obj-ip-exposure-factors` | source_backed_open | 1 | 3 | 4 | 1 | 0 |  |
+| `obj-ip-thickness-target-filter` | source_backed_open | 1 | 1 | 4 | 1 | 0 |  |
+| `obj-ip-magnification-technique` | source_backed_open | 1 | 2 | 4 | 1 | 1 |  |
 | `obj-ip-image-quality-attributes` | source_backed_open | 1 | 7 | 9 | 6 | 0 |  |
-| `obj-ip-patient-artifacts` | needs_source | 0 | 0 | 0 | 0 | 0 | needs source retrieval before a lesson can be written |
+| `obj-ip-patient-artifacts` | source_backed_open | 1 | 2 | 3 | 1 | 0 |  |
 | `obj-ap-clock-quadrants` | source_backed_open | 1 | 4 | 5 | 8 | 1 |  |
 | `obj-ap-triangulation` | source_backed_link_only | 1 | 2 | 4 | 2 | 0 |  |
 | `obj-ap-external-landmarks` | source_backed_open | 1 | 3 | 4 | 3 | 0 |  |
@@ -105,10 +105,10 @@ None.
 | `obj-pp-implant-displaced` | source_backed_open | 1 | 1 | 4 | 1 | 1 |  |
 | `obj-pp-spot-mag-nipple` | source_backed_open | 1 | 1 | 3 | 6 | 0 |  |
 | `obj-pp-implant-inquiry` | source_backed_open | 2 | 4 | 8 | 8 | 0 |  |
-| `obj-pp-body-habitus` | needs_source | 0 | 0 | 1 | 3 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-postsurgical` | needs_source | 0 | 1 | 1 | 6 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-body-habitus` | source_backed_open | 1 | 2 | 4 | 3 | 0 |  |
+| `obj-pp-postsurgical` | source_backed_open | 1 | 1 | 4 | 6 | 0 |  |
 | `obj-pp-screening-vs-diagnostic` | source_backed_open | 2 | 8 | 11 | 19 | 1 |  |
-| `obj-pp-us-mri` | needs_source | 0 | 0 | 0 | 13 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-us-mri` | source_backed_open | 1 | 2 | 3 | 13 | 0 |  |
 | `obj-pp-interventional-prep` | source_backed_open | 1 | 3 | 4 | 6 | 1 |  |
-| `obj-pp-biopsy-localization` | needs_source | 0 | 0 | 0 | 6 | 0 | needs source retrieval before a lesson can be written |
-| `obj-pp-biohazard` | needs_source | 0 | 3 | 3 | 20 | 0 | needs source retrieval before a lesson can be written |
+| `obj-pp-biopsy-localization` | source_backed_open | 1 | 3 | 3 | 7 | 0 |  |
+| `obj-pp-biohazard` | source_backed_open | 1 | 3 | 3 | 20 | 0 |  |

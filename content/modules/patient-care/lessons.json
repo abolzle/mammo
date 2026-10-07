@@ -1355,6 +1355,185 @@
         "ev-pc-nci-local-systemic",
         "ev-pc-nci-reconstruction-implant"
       ]
+    },
+    {
+      "id": "les-pc-bse-cbe",
+      "objectiveId": "obj-pc-bse-cbe",
+      "title": "BSE and CBE: ACS schedule vs awareness",
+      "estMinutes": 3,
+      "summary": "ACS does not put regular BSE or CBE on the average-risk screening schedule. Teach breast awareness and prompt reporting; do not promise that self-exam replaces mammography.",
+      "explanation": [
+        {
+          "heading": "ACS average-risk position (link-only)",
+          "body": "ACS materials state that **regular clinical breast exams and breast self-exams are not recommended** as part of a routine average-risk screening schedule. Research has not shown a clear early-detection benefit from those exams when people also get screening mammograms. ACS still wants people to **know how their breasts normally look and feel** and to report changes quickly."
+        },
+        {
+          "heading": "NCI framing",
+          "body": "NCI patient materials: CBE alone is **not an adequate screening test**. BSE alone is **not an adequate screening test**. Awareness still matters—report new lumps or changes even after a recent normal mammogram. NCI's professional PDQ adds that formal BSE has shown **no mortality benefit**, and screening-CBE efficacy is not established."
+        },
+        {
+          "heading": "Technologist script",
+          "body": "If a patient asks whether monthly self-exams are \"required,\" explain that major U.S. guidance emphasizes **awareness + mammography**, not a formal BSE ritual, and that the clinician sets any high-risk exam plan. Never tell a patient to skip an ordered mammogram because they \"check themselves.\""
+        }
+      ],
+      "example": "Patient: \"I do self-exams every month—do I still need this mammogram?\" You: \"Self-checks help you notice changes, but they are not a substitute for mammography. Today's exam is the screening test that was ordered.\"",
+      "misconception": {
+        "belief": "ACS still requires monthly BSE for every average-risk adult.",
+        "correction": "ACS does not recommend regular BSE/CBE on the average-risk screening schedule; it emphasizes awareness and reporting changes."
+      },
+      "variants": {
+        "simpler": "ACS: no routine BSE/CBE schedule for average risk—know your normal and report changes. Mammography still matters.",
+        "example": "Do not cancel a mammogram because the patient reports monthly self-exams."
+      },
+      "evidenceIds": [
+        "ev-pc-acs-bse-cbe",
+        "ev-pc-nci-cbe-not-adequate",
+        "ev-pc-pdq-bse-no-mortality"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-patient-care",
+      "checkQuestionId": "q-pc-166"
+    },
+    {
+      "id": "les-pc-clinician-role",
+      "objectiveId": "obj-pc-clinician-role",
+      "title": "What the technologist may say—and what the clinician explains",
+      "estMinutes": 3,
+      "summary": "Technologists educate about the exam process and MQSA lay-summary timing. Interpreting physicians and ordering providers explain diagnoses, density meaning for the individual, and next clinical steps.",
+      "explanation": [
+        {
+          "heading": "Reports vs coaching",
+          "body": "MQSA requires a **written report to the healthcare provider** and a **lay summary to the patient** within stated timeframes. You can explain that a report and patient letter will come, and you can describe what compression or positioning feels like. You do **not** invent a diagnosis at the console."
+        },
+        {
+          "heading": "Density notification",
+          "body": "Density category and the FDA-required density statements live in the interpreting physician's report/lay summary pathway. If a patient asks what \"dense\" means for *their* cancer risk or whether they need ultrasound today, redirect to the **ordering/interpreting clinician**—you may share general NCI language that density is assigned from the mammogram, not by feel."
+        },
+        {
+          "heading": "Support without overreach",
+          "body": "Rapport skills (narrating steps, acknowledging anxiety) are in scope. Declaring BI-RADS categories, promising benign results, or ordering supplemental tests is not."
+        }
+      ],
+      "example": "Patient after imaging: \"So I'm fine, right?\" You: \"I can't interpret your images—the radiologist's report and your provider will explain the results. You should receive a patient letter; call your clinic if it does not arrive in the expected window.\"",
+      "misconception": {
+        "belief": "If the images look routine to you, you may reassure the patient they are negative.",
+        "correction": "Interpretation and medical advice belong to the interpreting physician/provider; technologists explain process and logistics."
+      },
+      "variants": {
+        "simpler": "You explain the exam and that results come in writing. Clinicians explain diagnosis, density meaning, and next steps.",
+        "example": "Density questions about personal risk → clinician, not a hallway diagnosis."
+      },
+      "evidenceIds": [
+        "ev-mqsa-lay-summary-timing",
+        "ev-pc-nci-results-timing",
+        "ev-mqsa-density-statements",
+        "ev-pc-nci-dense-not-palpable"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-patient-care",
+      "checkQuestionId": "q-pc-006"
+    },
+    {
+      "id": "les-pc-biohazard",
+      "objectiveId": "obj-pp-biohazard",
+      "title": "Sharps, specimens, and body-fluid safety in breast procedures",
+      "estMinutes": 3,
+      "summary": "Treat biopsy-day blood and OPIM under OSHA bloodborne rules and CDC hand hygiene. MQSA still requires documented cleaning after blood/OPIM contact on mammography equipment.",
+      "explanation": [
+        {
+          "heading": "Bloodborne pathogens",
+          "body": "OSHA: bloodborne pathogens include **HBV, HCV, and HIV**. Needlesticks and other sharps injuries can expose workers. Facilities need an **exposure control plan** with engineering/work-practice controls, PPE, training, medical surveillance, and hepatitis B vaccination."
+        },
+        {
+          "heading": "Hands and gloves",
+          "body": "CDC moments: clean hands before patient contact, after contact with the patient or surroundings, after body-fluid exposure risk, and **immediately after glove removal**. Gloves never replace hand hygiene. Prefer alcohol-based sanitizer unless hands are visibly soiled."
+        },
+        {
+          "heading": "Room and equipment",
+          "body": "MQSA infection-control policy: clean and disinfect mammography equipment after contact with blood or other potentially infectious materials, document it, and follow manufacturer/facility disinfectant contact times."
+        }
+      ],
+      "example": "After a wire-localization case with spotting on the paddle, you glove, disinfect per protocol, document, remove gloves, and sanitize before the next patient—never walk a used sharp outside its engineered disposal path.",
+      "misconception": {
+        "belief": "Biopsy trays are the radiologist's problem; mammography technologists only position.",
+        "correction": "Anyone with reasonably anticipated exposure follows the exposure control plan; MQSA still requires equipment cleaning after blood/OPIM contact."
+      },
+      "variants": {
+        "simpler": "Sharps and blood: PPE + exposure control plan. Hands after gloves. Clean the unit after blood/OPIM and document.",
+        "example": "Do not recap by hand; use the sharps container at the point of use."
+      },
+      "evidenceIds": [
+        "ev-pc-osha-bbp",
+        "ev-pc-osha-ecp",
+        "ev-pc-cdc-hh-moments",
+        "ev-pc-cdc-gloves"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "moduleId": "mod-patient-care",
+      "checkQuestionId": "q-pc-035"
     }
   ]
 }

@@ -93,7 +93,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Positioning, as an accreditation attribute, is defined by sufficient tissue coverage \u2014 not by a single cosmetic landmark.",
+      "explanation": "Positioning, as an accreditation attribute, is defined by sufficient tissue coverage — not by a single cosmetic landmark.",
       "variants": {
         "simpler": "Enough tissue on the image so disease is less likely missed.",
         "example": "A pretty outline with missing posterior tissue can still fail positioning."
@@ -128,7 +128,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "According to FDA\u2019s EQUIP FAQ for facilities, which statement about periodic clinical image quality review is accurate?",
+      "stem": "According to FDA’s EQUIP FAQ for facilities, which statement about periodic clinical image quality review is accurate?",
       "choices": [
         {
           "id": "a",
@@ -155,7 +155,7 @@
       "explanation": "EQUIP FAQ Q2.27 clarifies that diagnostic CC/MLO can still be judged on the eight attributes.",
       "variants": {
         "simpler": "Diagnostic CC/MLO can still be reviewed for image quality.",
-        "example": "Your diagnostic RMLO can be part of a technologist\u2019s sample review set."
+        "example": "Your diagnostic RMLO can be part of a technologist’s sample review set."
       },
       "evidenceIds": [
         "ev-pos-fda-equip-cc-mlo-diagnostic"
@@ -205,7 +205,7 @@
         },
         {
           "id": "d",
-          "text": "BI-RADS 0 through 6 plus density A\u2013D",
+          "text": "BI-RADS 0 through 6 plus density A–D",
           "rationale": "Reporting categories, not the eight attributes."
         }
       ],
@@ -311,7 +311,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "An open ACR\u2013AAPM\u2013SIIM digital mammography guideline discusses comparing posterior tissue between views. Which statement matches that discussion?",
+      "stem": "An open ACR–AAPM–SIIM digital mammography guideline discusses comparing posterior tissue between views. Which statement matches that discussion?",
       "choices": [
         {
           "id": "a",
@@ -386,7 +386,7 @@
         {
           "id": "b",
           "text": "Nipple-to-posterior depth on CC versus nipple-to-pectoralis depth on MLO (PNL)",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -451,7 +451,7 @@
         {
           "id": "b",
           "text": "Because that ACR manual is a copyrighted reference named by ARRT and is not redistributable here; criteria are taught from accessible sources or link-only pointers",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -465,7 +465,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Copyright protects the manual\u2019s expression. We teach sourced facts in original wording and link out for ACR materials.",
+      "explanation": "Copyright protects the manual’s expression. We teach sourced facts in original wording and link out for ACR materials.",
       "variants": {
         "simpler": "No copying the ACR score sheet into the app.",
         "example": "Use preceptorship and ACR links for full checklists."
@@ -572,7 +572,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "According to the cited open ACR\u2013AAPM\u2013SIIM guideline discussion, which pectoralis appearance is desirable on the MLO?",
+      "stem": "According to the cited open ACR–AAPM–SIIM guideline discussion, which pectoralis appearance is desirable on the MLO?",
       "choices": [
         {
           "id": "a",
@@ -582,7 +582,7 @@
         {
           "id": "b",
           "text": "Convex anterior edge, ideally extending to the level of the nipple",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -646,8 +646,8 @@
         },
         {
           "id": "b",
-          "text": "Perpendicular to the pectoralis muscle (often about 45\u00b0 on the image)",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "text": "Perpendicular to the pectoralis muscle (often about 45° on the image)",
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -663,7 +663,7 @@
       "correctChoiceId": "b",
       "explanation": "MLO PNL runs from the nipple perpendicular to the anterior muscle edge.",
       "variants": {
-        "simpler": "PNL \u22a5 muscle on MLO.",
+        "simpler": "PNL ⊥ muscle on MLO.",
         "example": "If you draw PNL parallel to the muscle, you are not using the described method."
       },
       "evidenceIds": [
@@ -702,7 +702,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "A technologist\u2019s MLO shows a sharp nipple but truncates posterior tissue that was available on prior exams. Which clinical image attribute is most directly implicated?",
+      "stem": "A technologist’s MLO shows a sharp nipple but truncates posterior tissue that was available on prior exams. Which clinical image attribute is most directly implicated?",
       "choices": [
         {
           "id": "a",
@@ -728,7 +728,7 @@
       "correctChoiceId": "b",
       "explanation": "Missing tissue is a positioning problem under the MQSA attribute definition.",
       "variants": {
-        "simpler": "Missing tissue \u2192 positioning.",
+        "simpler": "Missing tissue → positioning.",
         "example": "Even with perfect exposure, truncated posterior tissue fails the positioning goal."
       },
       "evidenceIds": [
@@ -764,13 +764,13 @@
       "choices": [
         {
           "id": "a",
-          "text": "Whether the patient\u2019s cancer risk score changed",
+          "text": "Whether the patient’s cancer risk score changed",
           "rationale": "PNL is not a risk model."
         },
         {
           "id": "b",
           "text": "Whether CC posterior tissue depth nearly matches the depth shown on MLO",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -834,8 +834,8 @@
         },
         {
           "id": "b",
-          "text": "The CC posterior depth is within about 1 cm of the MLO, which matches the guideline\u2019s approximate comparison",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "text": "The CC posterior depth is within about 1 cm of the MLO, which matches the guideline’s approximate comparison",
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -849,7 +849,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "0.5 cm difference fits the \u201cno more than about 1 cm less\u201d teaching point.",
+      "explanation": "0.5 cm difference fits the “no more than about 1 cm less” teaching point.",
       "variants": {
         "simpler": "Within ~1 cm is the comparison target taught here.",
         "example": "Still correlate with overall tissue coverage and facility criteria."
@@ -900,7 +900,7 @@
         {
           "id": "b",
           "text": "The CC may not include as much posterior tissue as the MLO shows is available",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -916,7 +916,7 @@
       "correctChoiceId": "b",
       "explanation": "A short CC PNL suggests missing posterior tissue on CC.",
       "variants": {
-        "simpler": "Short CC PNL \u2192 check posterior tissue on CC.",
+        "simpler": "Short CC PNL → check posterior tissue on CC.",
         "example": "Discuss correction strategy with your preceptor; this app does not invent a single correction recipe."
       },
       "evidenceIds": [
@@ -955,26 +955,26 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "A classmate says PNL is how radiologists measure tumor size. What is the better response in this positioning module\u2019s terms?",
+      "stem": "A classmate says PNL is how radiologists measure tumor size. What is the better response in this positioning module’s terms?",
       "choices": [
         {
           "id": "a",
-          "text": "Agree \u2014 PNL is a BI-RADS tumor measurement",
+          "text": "Agree — PNL is a BI-RADS tumor measurement",
           "rationale": "No; here PNL is a positioning geometry check."
         },
         {
           "id": "b",
-          "text": "Disagree \u2014 here PNL compares how far back tissue is included on CC versus MLO",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "text": "Disagree — here PNL compares how far back tissue is included on CC versus MLO",
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
-          "text": "Agree \u2014 PNL replaces clock-face localization",
+          "text": "Agree — PNL replaces clock-face localization",
           "rationale": "Localization uses clock/quadrants; different skill."
         },
         {
           "id": "d",
-          "text": "Disagree \u2014 PNL only applies to ultrasound",
+          "text": "Disagree — PNL only applies to ultrasound",
           "rationale": "PNL discussion here is mammographic positioning."
         }
       ],
@@ -1020,7 +1020,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "According to NCI\u2019s patient-facing mammogram explanation, why is the breast pressed between two plates?",
+      "stem": "According to NCI’s patient-facing mammogram explanation, why is the breast pressed between two plates?",
       "choices": [
         {
           "id": "a",
@@ -1030,7 +1030,7 @@
         {
           "id": "b",
           "text": "Pressing helps get a better x-ray picture of the inside of the breast",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1044,9 +1044,9 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "NCI\u2019s wording is the right patient explanation starting point: better picture of the inside of the breast.",
+      "explanation": "NCI’s wording is the right patient explanation starting point: better picture of the inside of the breast.",
       "variants": {
-        "simpler": "Compression \u2192 clearer picture.",
+        "simpler": "Compression → clearer picture.",
         "example": "You can add that several angled images are taken with repositioning."
       },
       "evidenceIds": [
@@ -1069,7 +1069,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1095,7 +1095,7 @@
         {
           "id": "b",
           "text": "Compression that minimizes overlying tissue obscuration and motion artifact",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1134,7 +1134,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1155,12 +1155,12 @@
         {
           "id": "a",
           "text": "Immobilization/shorter exposure, thinner more uniform tissue, less scatter/superposition, lower dose",
-          "rationale": "Correct \u2014 restated from the link-only guideline."
+          "rationale": "Correct — restated from the link-only guideline."
         },
         {
           "id": "b",
           "text": "Higher kVp only, without changing thickness",
-          "rationale": "kVp choice is separate from compression\u2019s geometric effects."
+          "rationale": "kVp choice is separate from compression’s geometric effects."
         },
         {
           "id": "c",
@@ -1176,7 +1176,7 @@
       "correctChoiceId": "a",
       "explanation": "Compression helps by immobilizing, thinning, reducing scatter/superposition, and lowering dose.",
       "variants": {
-        "simpler": "Thinner, stiller tissue \u2192 clearer image, often less dose.",
+        "simpler": "Thinner, stiller tissue → clearer image, often less dose.",
         "example": "Still explain comfort honestly; benefits do not make compression painless for everyone."
       },
       "evidenceIds": [
@@ -1200,7 +1200,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1231,7 +1231,7 @@
         {
           "id": "c",
           "text": "Performing manufacturer-specific compression-force QC test steps and pass/fail logging",
-          "rationale": "Correct \u2014 device QC procedures belong in QC modules/manuals, not this positioning purpose lesson."
+          "rationale": "Correct — device QC procedures belong in QC modules/manuals, not this positioning purpose lesson."
         },
         {
           "id": "d",
@@ -1242,7 +1242,7 @@
       "correctChoiceId": "c",
       "explanation": "Know the difference between clinical compression purpose and equipment QC procedures.",
       "variants": {
-        "simpler": "Purpose \u2260 QC worksheet.",
+        "simpler": "Purpose ≠ QC worksheet.",
         "example": "Force-limit QC lives with physicist/technologist QC content."
       },
       "evidenceIds": [
@@ -1266,7 +1266,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -1292,7 +1292,7 @@
         {
           "id": "b",
           "text": "Near the axilla",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1350,17 +1350,17 @@
         {
           "id": "b",
           "text": "Using a permanent, legible technologist identifier",
-          "rationale": "Required \u2014 see the cited evidence for why."
+          "rationale": "Required — see the cited evidence for why."
         },
         {
           "id": "c",
           "text": "Allowing a view marker to obscure anatomic structures",
-          "rationale": "Correct \u2014 labels must not obscure anatomy."
+          "rationale": "Correct — labels must not obscure anatomy."
         },
         {
           "id": "d",
           "text": "Including facility name and location",
-          "rationale": "Required \u2014 see the cited evidence for why."
+          "rationale": "Required — see the cited evidence for why."
         }
       ],
       "correctChoiceId": "c",
@@ -1408,7 +1408,7 @@
         {
           "id": "b",
           "text": "Missing view/laterality marker near the axilla",
-          "rationale": "Correct \u2014 identification."
+          "rationale": "Correct — identification."
         },
         {
           "id": "c",
@@ -1424,7 +1424,7 @@
       "correctChoiceId": "b",
       "explanation": "Missing or wrong labels are examination identification.",
       "variants": {
-        "simpler": "Bad/missing labels \u2192 exam ID attribute.",
+        "simpler": "Bad/missing labels → exam ID attribute.",
         "example": "Know which attribute you are fixing before you repeat an exposure."
       },
       "evidenceIds": [
@@ -1457,26 +1457,26 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Which item is part of MQSA\u2019s required on-image identification set?",
+      "stem": "Which item is part of MQSA’s required on-image identification set?",
       "choices": [
         {
           "id": "a",
-          "text": "Patient\u2019s cell phone number",
+          "text": "Patient’s cell phone number",
           "rationale": "Not required."
         },
         {
           "id": "b",
           "text": "Technologist identification",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
-          "text": "Patient\u2019s employer",
+          "text": "Patient’s employer",
           "rationale": "Not required."
         },
         {
           "id": "d",
-          "text": "Interpreting physician\u2019s pager number",
+          "text": "Interpreting physician’s pager number",
           "rationale": "Not an on-image requirement."
         }
       ],
@@ -1533,7 +1533,7 @@
         {
           "id": "b",
           "text": "They require images from more angles, so dose is higher",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1547,7 +1547,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "More angles for diagnostic work \u2192 higher dose than routine screening.",
+      "explanation": "More angles for diagnostic work → higher dose than routine screening.",
       "variants": {
         "simpler": "Diagnostic = more tailored angles.",
         "example": "A symptomatic patient may still get CC/MLO plus extras."
@@ -1591,7 +1591,7 @@
         {
           "id": "b",
           "text": "Routine views of an asymptomatic patient",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1644,7 +1644,7 @@
         {
           "id": "a",
           "text": "An individualized examination for clinical signs/symptoms or abnormal screening findings",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "b",
@@ -1666,7 +1666,7 @@
       "explanation": "Diagnostic = individualized for symptoms or abnormal screen.",
       "variants": {
         "simpler": "Diagnostic answers a specific clinical/imaging question.",
-        "example": "Positioning then follows the question \u2014 possibly adding problem-solving views."
+        "example": "Positioning then follows the question — possibly adding problem-solving views."
       },
       "evidenceIds": [
         "ev-pos-mqsa-screening-diagnostic-audit"
@@ -1702,7 +1702,7 @@
         {
           "id": "a",
           "text": "Bilateral CC and MLO as the routine pair, unless a facility protocol adds nothing else for screening",
-          "rationale": "Correct \u2014 routine views."
+          "rationale": "Correct — routine views."
         },
         {
           "id": "b",
@@ -1723,7 +1723,7 @@
       "correctChoiceId": "a",
       "explanation": "Screening centers on the routine CC/MLO pair.",
       "variants": {
-        "simpler": "Asymptomatic routine \u2192 CC/MLO.",
+        "simpler": "Asymptomatic routine → CC/MLO.",
         "example": "Save tailored extras for diagnostic pathways unless protocol says otherwise."
       },
       "evidenceIds": [
@@ -1774,7 +1774,7 @@
         {
           "id": "b",
           "text": "Have a procedure to inquire whether the patient has breast implants prior to the exam",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1788,10 +1788,10 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Ask before the exam \u2014 it is a required facility procedure.",
+      "explanation": "Ask before the exam — it is a required facility procedure.",
       "variants": {
         "simpler": "Inquiry first.",
-        "example": "Document the answer in your facility\u2019s history workflow."
+        "example": "Document the answer in your facility’s history workflow."
       },
       "evidenceIds": [
         "ev-pos-mqsa-implant-inquiry"
@@ -1827,7 +1827,7 @@
         {
           "id": "a",
           "text": "Views that maximize visualization of breast tissue",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "b",
@@ -1842,7 +1842,7 @@
         {
           "id": "d",
           "text": "Using only synthesized 2D without projection images",
-          "rationale": "Not stated in \u00a7 900.12(g)."
+          "rationale": "Not stated in § 900.12(g)."
         }
       ],
       "correctChoiceId": "a",
@@ -1890,7 +1890,7 @@
         {
           "id": "b",
           "text": "Because implants can hide some breast tissue, making changes harder to see",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1904,7 +1904,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Implants can obscure tissue \u2014 disclosure lets the facility use an appropriate technique.",
+      "explanation": "Implants can obscure tissue — disclosure lets the facility use an appropriate technique.",
       "variants": {
         "simpler": "Implants can hide tissue.",
         "example": "That is why inquiry + tailored views matter."
@@ -1948,7 +1948,7 @@
         {
           "id": "b",
           "text": "Most women with breast reconstruction using implants after mastectomy usually do not need a mammogram of the reconstructed breast",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -1996,7 +1996,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "What is the purpose of implant displacement views as described at NCI\u2019s patient-education level?",
+      "stem": "What is the purpose of implant displacement views as described at NCI’s patient-education level?",
       "choices": [
         {
           "id": "a",
@@ -2006,12 +2006,12 @@
         {
           "id": "b",
           "text": "A special technique that may be used because implants can hide tissue",
-          "rationale": "Correct \u2014 NCI names implant displacement views in that context."
+          "rationale": "Correct — NCI names implant displacement views in that context."
         },
         {
           "id": "c",
           "text": "To measure implant volume for billing",
-          "rationale": "Not an imaging purpose in NCI\u2019s page."
+          "rationale": "Not an imaging purpose in NCI’s page."
         },
         {
           "id": "d",
@@ -2046,7 +2046,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only \u2014 not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
+            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only — not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
           }
         ]
       }
@@ -2062,7 +2062,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "How should implant-displaced imaging be framed under MQSA \u00a7 900.12(g)?",
+      "stem": "How should implant-displaced imaging be framed under MQSA § 900.12(g)?",
       "choices": [
         {
           "id": "a",
@@ -2072,7 +2072,7 @@
         {
           "id": "b",
           "text": "As part of obtaining views that maximize breast-tissue visualization unless contraindicated or physician-modified",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -2112,7 +2112,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only \u2014 not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
+            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only — not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
           }
         ]
       }
@@ -2128,17 +2128,17 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "A practice question asks for an unsourced, highly specific hand-maneuver sequence to \u201calways\u201d displace every implant. What should Mammo do?",
+      "stem": "A practice question asks for an unsourced, highly specific hand-maneuver sequence to “always” displace every implant. What should Mammo do?",
       "choices": [
         {
           "id": "a",
           "text": "Invent a universal sequence so the question bank looks complete",
-          "rationale": "Forbidden \u2014 no invented positioning corrections."
+          "rationale": "Forbidden — no invented positioning corrections."
         },
         {
           "id": "b",
           "text": "Refuse inventing steps; teach purpose + MQSA/NCI framing and point to clinical preceptorship/link-only references",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -2178,7 +2178,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only \u2014 not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
+            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only — not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
           }
         ]
       }
@@ -2194,7 +2194,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "NCI\u2019s implant guidance for mammography begins with which overarching message for patients who still have native breast tissue and implants?",
+      "stem": "NCI’s implant guidance for mammography begins with which overarching message for patients who still have native breast tissue and implants?",
       "choices": [
         {
           "id": "a",
@@ -2204,7 +2204,7 @@
         {
           "id": "b",
           "text": "Continue getting mammograms and tell the facility about implants",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -2243,7 +2243,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only \u2014 not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
+            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only — not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
           }
         ]
       }
@@ -2269,7 +2269,7 @@
         {
           "id": "b",
           "text": "1.4 to 2.0",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -2285,7 +2285,7 @@
       "correctChoiceId": "b",
       "explanation": "Magnification systems must offer at least one value between 1.4 and 2.0.",
       "variants": {
-        "simpler": "Mag factor in 1.4\u20132.0.",
+        "simpler": "Mag factor in 1.4–2.0.",
         "example": "Also remember grid-out capability for magnification systems."
       },
       "evidenceIds": [
@@ -2308,7 +2308,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2329,12 +2329,12 @@
         {
           "id": "a",
           "text": "The grid must be locked in for every magnification exposure",
-          "rationale": "Opposite \u2014 see the cited evidence for why."
+          "rationale": "Opposite — see the cited evidence for why."
         },
         {
           "id": "b",
           "text": "The system must be able to operate with the grid removed",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -2350,7 +2350,7 @@
       "correctChoiceId": "b",
       "explanation": "Magnification systems must allow grid removal.",
       "variants": {
-        "simpler": "Mag \u2192 grid out capability.",
+        "simpler": "Mag → grid out capability.",
         "example": "Air-gap geometry is part of why mag technique differs from contact imaging."
       },
       "evidenceIds": [
@@ -2373,7 +2373,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2399,7 +2399,7 @@
         {
           "id": "b",
           "text": "Zoom enlarges already-acquired data; geometric magnification changes acquisition geometry for finer detail",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -2413,7 +2413,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "Acquisition geometry \u2260 display zoom.",
+      "explanation": "Acquisition geometry ≠ display zoom.",
       "variants": {
         "simpler": "Mag view is acquired differently; zoom is display-only.",
         "example": "Problem-solving may need a true mag acquisition."
@@ -2465,7 +2465,7 @@
         {
           "id": "b",
           "text": "When imaging is individualized for symptoms or an abnormal screening finding",
-          "rationale": "Correct \u2014 diagnostic/problem-solving pathway."
+          "rationale": "Correct — diagnostic/problem-solving pathway."
         },
         {
           "id": "c",
@@ -2512,7 +2512,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -2538,7 +2538,7 @@
         {
           "id": "b",
           "text": "Place the side of interest closer to the image receptor",
-          "rationale": "Correct \u2014 minimize OID for the region of interest."
+          "rationale": "Correct — minimize OID for the region of interest."
         },
         {
           "id": "c",
@@ -2554,7 +2554,7 @@
       "correctChoiceId": "b",
       "explanation": "Region of interest toward the receptor for laterals.",
       "variants": {
-        "simpler": "Side of interest \u2192 against the detector.",
+        "simpler": "Side of interest → against the detector.",
         "example": "That is why ML vs LM is a choice, not a coin flip."
       },
       "evidenceIds": [
@@ -2598,7 +2598,7 @@
         {
           "id": "a",
           "text": "To intentionally include lateral/axillary-tail tissue not shown on the standard CC",
-          "rationale": "Correct \u2014 purposeful additional view."
+          "rationale": "Correct — purposeful additional view."
         },
         {
           "id": "b",
@@ -2613,7 +2613,7 @@
         {
           "id": "d",
           "text": "To replace MLO forever",
-          "rationale": "Extras complement; they do not erase the standard pair\u2019s role."
+          "rationale": "Extras complement; they do not erase the standard pair’s role."
         }
       ],
       "correctChoiceId": "a",
@@ -2669,7 +2669,7 @@
         {
           "id": "b",
           "text": "To help separate superimposed tissue that overlaps on a standard projection",
-          "rationale": "Correct \u2014 problem-solving separation."
+          "rationale": "Correct — problem-solving separation."
         },
         {
           "id": "c",
@@ -2686,7 +2686,7 @@
       "explanation": "Rolled views rearrange overlapping tissue relationships for problem solving.",
       "variants": {
         "simpler": "Roll to untangle overlap.",
-        "example": "Specific roll directions for a finding are clinical teaching \u2014 not invented here as a universal recipe."
+        "example": "Specific roll directions for a finding are clinical teaching — not invented here as a universal recipe."
       },
       "evidenceIds": [
         "ev-pos-nci-screening-vs-diagnostic",
@@ -2730,7 +2730,7 @@
         {
           "id": "a",
           "text": "A view aimed at far-medial tissue that may not be included on standard CCs",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "b",
@@ -2751,7 +2751,7 @@
       "correctChoiceId": "a",
       "explanation": "Cleavage views target medial tissue between the breasts.",
       "variants": {
-        "simpler": "Cleavage \u2192 medial tissue.",
+        "simpler": "Cleavage → medial tissue.",
         "example": "Use when the clinical question involves tissue not seen medially on routine CCs."
       },
       "evidenceIds": [
@@ -2790,7 +2790,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "A patient cannot perform the textbook arm position for MLO. What approach matches this module\u2019s sourced framing?",
+      "stem": "A patient cannot perform the textbook arm position for MLO. What approach matches this module’s sourced framing?",
       "choices": [
         {
           "id": "a",
@@ -2800,7 +2800,7 @@
         {
           "id": "b",
           "text": "Adapt technique to pursue sufficient tissue imaging, document limitations, and follow facility/physician guidance",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -2810,7 +2810,7 @@
         {
           "id": "d",
           "text": "Omit view/laterality labels to save time",
-          "rationale": "Never \u2014 see the cited evidence for why."
+          "rationale": "Never — see the cited evidence for why."
         }
       ],
       "correctChoiceId": "b",
@@ -2864,18 +2864,18 @@
         },
         {
           "id": "b",
-          "text": "Because anatomy and whether a breast/reconstructed side should be imaged can change the exam plan \u2014 including implant/reconstruction considerations highlighted by NCI and MQSA inquiry rules",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "text": "Because anatomy and whether a breast/reconstructed side should be imaged can change the exam plan — including implant/reconstruction considerations highlighted by NCI and MQSA inquiry rules",
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
           "text": "Because surgery removes the need for compression forever",
-          "rationale": "Not true \u2014 see the cited evidence for why."
+          "rationale": "Not true — see the cited evidence for why."
         },
         {
           "id": "d",
           "text": "Because only ML views are legal after any surgery",
-          "rationale": "Not true \u2014 see the cited evidence for why."
+          "rationale": "Not true — see the cited evidence for why."
         }
       ],
       "correctChoiceId": "b",
@@ -2922,7 +2922,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Which statement should remain outside Mammo\u2019s verified assessment pool until qualified review exists?",
+      "stem": "Which statement should remain outside Mammo’s verified assessment pool until qualified review exists?",
       "choices": [
         {
           "id": "a",
@@ -2932,11 +2932,11 @@
         {
           "id": "b",
           "text": "An unsourced, device-specific sequence claiming the only correct mosaic tiling pattern for every large breast",
-          "rationale": "Correct \u2014 invented/unsupported detailed correction protocols stay out."
+          "rationale": "Correct — invented/unsupported detailed correction protocols stay out."
         },
         {
           "id": "c",
-          "text": "NCI\u2019s statement that compression helps get a better picture",
+          "text": "NCI’s statement that compression helps get a better picture",
           "rationale": "Sourced patient education."
         },
         {
@@ -2952,7 +2952,6 @@
         "example": "Beta practice may teach concepts with honest review flags."
       },
       "evidenceIds": [
-        "ev-pos-acr-ciq-link-only",
         "ev-pos-mqsa-positioning-attribute"
       ],
       "review": {
@@ -2989,7 +2988,7 @@
       "difficultyIntent": "apply",
       "kind": "case",
       "estSeconds": 55,
-      "stem": "A screening exam\u2019s CC PNL is far shorter than its MLO PNL, the MLO pectoralis is high and concave, and the RMLO marker sits over mid-breast tissue. Which reading best applies this module?",
+      "stem": "A screening exam’s CC PNL is far shorter than its MLO PNL, the MLO pectoralis is high and concave, and the RMLO marker sits over mid-breast tissue. Which reading best applies this module?",
       "choices": [
         {
           "id": "a",
@@ -2999,7 +2998,7 @@
         {
           "id": "b",
           "text": "Positioning concerns (posterior tissue / MLO muscle) and an examination-identification problem (marker not near axilla / obscuring) should both be addressed",
-          "rationale": "Correct \u2014 this matches the cited source."
+          "rationale": "Correct — this matches the cited source."
         },
         {
           "id": "c",
@@ -3015,8 +3014,8 @@
       "correctChoiceId": "b",
       "explanation": "Separate attributes: tissue coverage (positioning) vs marker placement (exam ID).",
       "variants": {
-        "simpler": "Fix tissue coverage and fix labels \u2014 both matter.",
-        "example": "Keep schematics labeled SCHEMATIC \u2014 NOT A MAMMOGRAM when practicing visually."
+        "simpler": "Fix tissue coverage and fix labels — both matter.",
+        "example": "Keep schematics labeled SCHEMATIC — NOT A MAMMOGRAM when practicing visually."
       },
       "evidenceIds": [
         "ev-pos-pmc-pnl-cc-mlo",
@@ -3569,7 +3568,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -3641,7 +3640,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -3657,7 +3656,7 @@
       "difficultyIntent": "apply",
       "kind": "calculation",
       "estSeconds": 75,
-      "stem": "A magnification stand offers only two settings: 1.2\u00d7 and 2.2\u00d7. Does it meet the MQSA magnification requirement?",
+      "stem": "A magnification stand offers only two settings: 1.2× and 2.2×. Does it meet the MQSA magnification requirement?",
       "choices": [
         {
           "id": "a",
@@ -3666,17 +3665,17 @@
         },
         {
           "id": "b",
-          "text": "Yes; 2.2\u00d7 exceeds the minimum, so it qualifies",
-          "rationale": "The requirement is a value within 1.4\u20132.0, not simply above 1.4."
+          "text": "Yes; 2.2× exceeds the minimum, so it qualifies",
+          "rationale": "The requirement is a value within 1.4–2.0, not simply above 1.4."
         },
         {
           "id": "c",
           "text": "No; MQSA requires at least one magnification value from 1.4 to 2.0",
-          "rationale": "Correct. Neither 1.2 nor 2.2 falls in the 1.4\u20132.0 range."
+          "rationale": "Correct. Neither 1.2 nor 2.2 falls in the 1.4–2.0 range."
         },
         {
           "id": "d",
-          "text": "Yes; 1.2\u00d7 is close enough to 1.4\u00d7",
+          "text": "Yes; 1.2× is close enough to 1.4×",
           "rationale": "1.2 is outside the range."
         }
       ],
@@ -3684,7 +3683,7 @@
       "explanation": "21 CFR 900.12(b)(6): systems used for magnification provide at least one magnification value within 1.4 to 2.0. Check each available setting against that range.",
       "variants": {
         "simpler": "At least one setting has to be between 1.4 and 2.0.",
-        "example": "A stand offering 1.5\u00d7 and 1.8\u00d7 would meet it."
+        "example": "A stand offering 1.5× and 1.8× would meet it."
       },
       "evidenceIds": [
         "ev-mqsa-magnification-equipment"
@@ -3713,7 +3712,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -3795,7 +3794,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "In ACS guidance as stated in Breast Cancer Facts & Figures 2024\u20132025, women at high risk generally begin annual MRI and mammography at what age?",
+      "stem": "In ACS guidance as stated in Breast Cancer Facts & Figures 2024–2025, women at high risk generally begin annual MRI and mammography at what age?",
       "choices": [
         {
           "id": "a",
@@ -3870,8 +3869,8 @@
         },
         {
           "id": "b",
-          "text": "About 20\u201325% or greater",
-          "rationale": "Correct. ACS uses about 20\u201325% or greater lifetime risk."
+          "text": "About 20–25% or greater",
+          "rationale": "Correct. ACS uses about 20–25% or greater lifetime risk."
         },
         {
           "id": "c",
@@ -3885,7 +3884,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "In ACS guidance, high risk includes about 20\u201325% or greater lifetime risk by family-history tools, a known high-risk genetic variant (or a first-degree relative with one), a strong family history, or prior chest radiation.",
+      "explanation": "In ACS guidance, high risk includes about 20–25% or greater lifetime risk by family-history tools, a known high-risk genetic variant (or a first-degree relative with one), a strong family history, or prior chest radiation.",
       "variants": {
         "simpler": "High risk is about a 1-in-5 lifetime risk or higher.",
         "example": "Risk estimates come from clinicians' tools; the technologist records the history that feeds them."
@@ -3950,7 +3949,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "ACS high-risk criteria include about 20\u201325% or greater lifetime risk, a known high-risk genetic variant (or a first-degree relative with one), a strong family history, and prior chest radiation.",
+      "explanation": "ACS high-risk criteria include about 20–25% or greater lifetime risk, a known high-risk genetic variant (or a first-degree relative with one), a strong family history, and prior chest radiation.",
       "variants": {
         "simpler": "Past chest radiation is a high-risk criterion.",
         "example": "Record prior chest radiation clearly in the history; it changes the screening plan."
@@ -5328,7 +5327,7 @@
       "correctChoiceId": "a",
       "explanation": "The callback makes the exam diagnostic (individualized views). The equipment must meet MQSA's magnification requirements: at least one factor from 1.4 to 2.0, operable with the grid removed.",
       "variants": {
-        "simpler": "Callback = diagnostic; magnification needs a 1.4\u20132.0 factor.",
+        "simpler": "Callback = diagnostic; magnification needs a 1.4–2.0 factor.",
         "example": "Check the unit's magnification stand setting before positioning."
       },
       "evidenceIds": [
@@ -5359,7 +5358,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -5581,7 +5580,7 @@
         {
           "id": "b",
           "text": "Yes; USPSTF recommends she start biennial mammograms at 35",
-          "rationale": "USPSTF's biennial recommendation covers ages 40\u201374 at average risk."
+          "rationale": "USPSTF's biennial recommendation covers ages 40–74 at average risk."
         },
         {
           "id": "c",
@@ -5704,12 +5703,12 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 70,
-      "stem": "In MQSA\u2019s PPV definition tied to positive mammograms, breast cancer diagnosis is counted within what time window after the exam?",
+      "stem": "In MQSA’s PPV definition tied to positive mammograms, breast cancer diagnosis is counted within what time window after the exam?",
       "choices": [
         {
           "id": "a",
           "text": "Within 1 year of the exam",
-          "rationale": "Correct. \u2014 see cited evidence."
+          "rationale": "Correct. — see cited evidence."
         },
         {
           "id": "b",
@@ -5780,7 +5779,7 @@
         {
           "id": "b",
           "text": "Cancer detection rate (per 1,000 patients)",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "c",
@@ -5794,10 +5793,10 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "MQSA\u2019s medical outcomes audit must at minimum determine PPV, cancer detection rate per 1,000 patients, and recall rate.",
+      "explanation": "MQSA’s medical outcomes audit must at minimum determine PPV, cancer detection rate per 1,000 patients, and recall rate.",
       "variants": {
         "simpler": "Outcomes audit includes cancer detection rate per 1,000.",
-        "example": "Audit spreadsheet tracks CDR, PPV, and recall\u2014not paddle force."
+        "example": "Audit spreadsheet tracks CDR, PPV, and recall—not paddle force."
       },
       "evidenceIds": [
         "ev-mqsa-outcomes-audit"
@@ -5836,7 +5835,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Under MQSA\u2019s definition used for PPV, a \u201cpositive mammogram\u201d has which overall assessment?",
+      "stem": "Under MQSA’s definition used for PPV, a “positive mammogram” has which overall assessment?",
       "choices": [
         {
           "id": "a",
@@ -5846,12 +5845,12 @@
         {
           "id": "b",
           "text": "Almost entirely fatty density",
-          "rationale": "Density \u2260 positive assessment."
+          "rationale": "Density ≠ positive assessment."
         },
         {
           "id": "c",
           "text": "Suspicious or Highly Suggestive of Malignancy",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "d",
@@ -5922,13 +5921,13 @@
         {
           "id": "d",
           "text": "They usually include images from more angles and therefore a higher radiation dose",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
       "explanation": "NCI: diagnostic mammograms use the same machines but usually take images from more angles, so dose is higher.",
       "variants": {
-        "simpler": "Diagnostic \u2192 more angles \u2192 higher dose (same machines).",
+        "simpler": "Diagnostic → more angles → higher dose (same machines).",
         "example": "Callback with spot/mag adds angles beyond the screening pair."
       },
       "evidenceIds": [
@@ -5973,7 +5972,7 @@
         {
           "id": "a",
           "text": "Screening mammogram",
-          "rationale": "Correct \u2014 routine views of an asymptomatic patient."
+          "rationale": "Correct — routine views of an asymptomatic patient."
         },
         {
           "id": "b",
@@ -6044,7 +6043,7 @@
         {
           "id": "b",
           "text": "Regular review of sample images from each technologist and interpreting physician",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "c",
@@ -6058,10 +6057,10 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "EQUIP\u2019s clinical-image compliance procedures include regular review of sample images from each technologist and interpreting physician.",
+      "explanation": "EQUIP’s clinical-image compliance procedures include regular review of sample images from each technologist and interpreting physician.",
       "variants": {
         "simpler": "EQUIP: review sample images from each tech and IP.",
-        "example": "Lead IP audits a monthly sample of each tech\u2019s clinical images."
+        "example": "Lead IP audits a monthly sample of each tech’s clinical images."
       },
       "evidenceIds": [
         "ev-mqsa-equip"
@@ -6100,12 +6099,12 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "The 2023 MQSA density final rule\u2019s effective date for the updated patient/report density requirements was:",
+      "stem": "The 2023 MQSA density final rule’s effective date for the updated patient/report density requirements was:",
       "choices": [
         {
           "id": "a",
           "text": "September 10, 2024",
-          "rationale": "Correct \u2014 the rule took effect September 10, 2024."
+          "rationale": "Correct — the rule took effect September 10, 2024."
         },
         {
           "id": "b",
@@ -6186,13 +6185,13 @@
         {
           "id": "d",
           "text": "Compression",
-          "rationale": "Correct \u2014 overlying tissue + motion artifact."
+          "rationale": "Correct — overlying tissue + motion artifact."
         }
       ],
       "correctChoiceId": "d",
       "explanation": "Compression attribute targets overlying tissue obscuration and motion artifact.",
       "variants": {
-        "simpler": "Overlap + motion blur \u2192 compression attribute.",
+        "simpler": "Overlap + motion blur → compression attribute.",
         "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
@@ -6232,12 +6231,12 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "A facility\u2019s periodic clinical image quality review pulls a standard CC from a diagnostic work-up. Per FDA\u2019s EQUIP FAQ framing in the cited evidence, is that allowed?",
+      "stem": "A facility’s periodic clinical image quality review pulls a standard CC from a diagnostic work-up. Per FDA’s EQUIP FAQ framing in the cited evidence, is that allowed?",
       "choices": [
         {
           "id": "a",
           "text": "Yes; standard CC or MLO views from a diagnostic exam may be evaluated on the eight attributes",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
@@ -6308,7 +6307,7 @@
         {
           "id": "b",
           "text": "It keeps ACR CIQ link-only and points learners to the copyrighted reference / facility preceptorship for score-sheet detail",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "c",
@@ -6325,7 +6324,7 @@
       "explanation": "The module names ACR CIQ as a link-only copyrighted reference and does not reproduce score-sheet criteria; detailed criteria are studied from authorized sources or preceptorship.",
       "variants": {
         "simpler": "ACR CIQ score sheets = link-only; no paste/invent.",
-        "example": "Need score-sheet detail \u2192 authorized ACR/facility source, not this JSON."
+        "example": "Need score-sheet detail → authorized ACR/facility source, not this JSON."
       },
       "evidenceIds": [
         "ev-pos-acr-ciq-link-only"
@@ -6364,7 +6363,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 65,
-      "stem": "Open ACR\u2013AAPM\u2013SIIM PNL discussion: comparing CC and MLO lengths is meant to judge whether:",
+      "stem": "Open ACR–AAPM–SIIM PNL discussion: comparing CC and MLO lengths is meant to judge whether:",
       "choices": [
         {
           "id": "a",
@@ -6379,7 +6378,7 @@
         {
           "id": "c",
           "text": "Posterior/retromammary tissue inclusion is similar across those views",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "d",
@@ -6429,7 +6428,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 70,
-      "stem": "A quality meeting reviews last month\u2019s \u201crecall rate.\u201d Which screening assessment numerator does MQSA use for that percentage?",
+      "stem": "A quality meeting reviews last month’s “recall rate.” Which screening assessment numerator does MQSA use for that percentage?",
       "choices": [
         {
           "id": "a",
@@ -6439,7 +6438,7 @@
         {
           "id": "b",
           "text": "Almost entirely fatty density labels",
-          "rationale": "Density \u2260 recall rate."
+          "rationale": "Density ≠ recall rate."
         },
         {
           "id": "c",
@@ -6449,7 +6448,7 @@
         {
           "id": "d",
           "text": "Incomplete: Need additional imaging evaluation",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
@@ -6495,17 +6494,17 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 65,
-      "stem": "Under MQSA field-alignment rules, how far may the compression paddle\u2019s chest-wall edge extend beyond the image receptor\u2019s chest-wall edge?",
+      "stem": "Under MQSA field-alignment rules, how far may the compression paddle’s chest-wall edge extend beyond the image receptor’s chest-wall edge?",
       "choices": [
         {
           "id": "a",
-          "text": "No more than 1% of the SID, and the paddle\u2019s vertical edge must not be visible on the image",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "No more than 1% of the SID, and the paddle’s vertical edge must not be visible on the image",
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
           "text": "Up to 10% of the SID is always acceptable",
-          "rationale": "The cited limit is 1% of SID for the paddle\u2019s chest-wall overhang."
+          "rationale": "The cited limit is 1% of SID for the paddle’s chest-wall overhang."
         },
         {
           "id": "c",
@@ -6519,9 +6518,9 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "The paddle\u2019s chest-wall edge may not extend beyond the receptor\u2019s chest-wall edge by more than 1% of SID, and the paddle\u2019s vertical edge must not be visible on the image.",
+      "explanation": "The paddle’s chest-wall edge may not extend beyond the receptor’s chest-wall edge by more than 1% of SID, and the paddle’s vertical edge must not be visible on the image.",
       "variants": {
-        "simpler": "Paddle chest-wall overhang \u22641% SID; edge not on image.",
+        "simpler": "Paddle chest-wall overhang ≤1% SID; edge not on image.",
         "example": "Paddle shadow along the chest wall on the image fails the cited rule."
       },
       "evidenceIds": [
@@ -6562,7 +6561,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "EQUIP\u2019s inspection focus on corrective procedures for poor-quality images includes which element in the cited summary?",
+      "stem": "EQUIP’s inspection focus on corrective procedures for poor-quality images includes which element in the cited summary?",
       "choices": [
         {
           "id": "a",
@@ -6572,7 +6571,7 @@
         {
           "id": "b",
           "text": "Feedback to technologists",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "c",
@@ -6589,7 +6588,7 @@
       "explanation": "EQUIP includes corrective procedures for poor-quality images, including feedback to technologists, plus lead IP oversight of QA/QC records.",
       "variants": {
         "simpler": "EQUIP corrective path includes feedback to technologists.",
-        "example": "Repeat positioning failures \u2192 documented feedback and follow-up review."
+        "example": "Repeat positioning failures → documented feedback and follow-up review."
       },
       "evidenceIds": [
         "ev-mqsa-equip"
@@ -6643,7 +6642,7 @@
         {
           "id": "c",
           "text": "Cleavage view for far-medial tissue; exaggerated lateral CC (e.g., XCCL) for lateral/axillary-tail tissue",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "d",
@@ -6652,10 +6651,10 @@
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "At purpose level, cleavage views target far-medial tissue and exaggerated CCs target lateral/axillary-tail tissue not shown on standard CCs\u2014without inventing ACR score-sheet cutoffs.",
+      "explanation": "At purpose level, cleavage views target far-medial tissue and exaggerated CCs target lateral/axillary-tail tissue not shown on standard CCs—without inventing ACR score-sheet cutoffs.",
       "variants": {
-        "simpler": "Medial gap \u2192 cleavage; lateral/axillary-tail gap \u2192 XCCL.",
-        "example": "Medial lesion poorly included \u2192 cleavage; outer-tail gap \u2192 XCCL."
+        "simpler": "Medial gap → cleavage; lateral/axillary-tail gap → XCCL.",
+        "example": "Medial lesion poorly included → cleavage; outer-tail gap → XCCL."
       },
       "evidenceIds": [
         "ev-pos-mqsa-positioning-attribute"
@@ -6694,7 +6693,7 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 65,
-      "stem": "Rolled views are requested to help separate overlapping densities seen on a screening CC. For MQSA audit definitions, how should today\u2019s individualized exam be classified?",
+      "stem": "Rolled views are requested to help separate overlapping densities seen on a screening CC. For MQSA audit definitions, how should today’s individualized exam be classified?",
       "choices": [
         {
           "id": "a",
@@ -6714,14 +6713,14 @@
         {
           "id": "d",
           "text": "Diagnostic, because imaging is individualized for an abnormal screening finding",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
       "explanation": "Individualized views for an abnormal screening finding are diagnostic under MQSA audit definitions; rolled views are one problem-solving approach for overlapping tissue.",
       "variants": {
-        "simpler": "Rolled views after abnormal screen \u2192 diagnostic exam.",
-        "example": "Callback for overlapping density \u2192 rolled pair coded diagnostic."
+        "simpler": "Rolled views after abnormal screen → diagnostic exam.",
+        "example": "Callback for overlapping density → rolled pair coded diagnostic."
       },
       "evidenceIds": [
         "ev-mqsa-screening-diagnostic-definition",
@@ -6765,7 +6764,7 @@
         {
           "id": "a",
           "text": "More uniform breast thickness (as framed in the cited discussion)",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
@@ -6830,7 +6829,7 @@
         {
           "id": "a",
           "text": "At least 111 newtons (25 pounds)",
-          "rationale": "Correct. \u2014 see cited evidence."
+          "rationale": "Correct. — see cited evidence."
         },
         {
           "id": "b",
@@ -6966,7 +6965,7 @@
         {
           "id": "b",
           "text": "They permanently damage the compression paddle electronics",
-          "rationale": "NCI\u2019s reason is image artifact/interference, not electronics damage."
+          "rationale": "NCI’s reason is image artifact/interference, not electronics damage."
         },
         {
           "id": "c",
@@ -6976,7 +6975,7 @@
         {
           "id": "d",
           "text": "These products can appear on the image and interfere with interpretation",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
@@ -7027,7 +7026,7 @@
         {
           "id": "a",
           "text": "The supervisor is present to observe and correct, as needed, the person performing the examination",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
@@ -7098,7 +7097,7 @@
         {
           "id": "b",
           "text": "City, State, and ZIP",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "c",
@@ -7153,7 +7152,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 50,
-      "stem": "MQSA\u2019s permanent image-ID list includes patient identifiers, facility data, exam date, view/laterality \u2014 and which staff ID?",
+      "stem": "MQSA’s permanent image-ID list includes patient identifiers, facility data, exam date, view/laterality — and which staff ID?",
       "choices": [
         {
           "id": "a",
@@ -7168,7 +7167,7 @@
         {
           "id": "c",
           "text": "Technologist identification",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "d",
@@ -7218,7 +7217,7 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 50,
-      "stem": "NCI\u2019s short description of DBT (\u201c3D mammography\u201d) says it creates:",
+      "stem": "NCI’s short description of DBT (“3D mammography”) says it creates:",
       "choices": [
         {
           "id": "a",
@@ -7238,11 +7237,11 @@
         {
           "id": "d",
           "text": "Multiple thin-slice images assembled into a 3D picture, and also 2D images",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
-      "explanation": "DBT: thin slices \u2192 3D picture; also creates 2D images.",
+      "explanation": "DBT: thin slices → 3D picture; also creates 2D images.",
       "variants": {
         "simpler": "DBT = thin slices (+2D images).",
         "example": "Match the stem to the cited evidence before choosing."
@@ -7288,7 +7287,7 @@
         {
           "id": "a",
           "text": "Unless contraindicated or modified by a physician",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
@@ -7309,8 +7308,8 @@
       "correctChoiceId": "a",
       "explanation": "Unless contraindicated or modified by a physician, implant patients receive views that maximize visualization of breast tissue.",
       "variants": {
-        "simpler": "Maximize tissue with implants \u2014 unless contraindicated/MD-modified.",
-        "example": "Physician limits views after recent implant surgery \u2192 follow the modification."
+        "simpler": "Maximize tissue with implants — unless contraindicated/MD-modified.",
+        "example": "Physician limits views after recent implant surgery → follow the modification."
       },
       "evidenceIds": [
         "ev-mqsa-implant-inquiry",
@@ -7355,7 +7354,7 @@
         {
           "id": "a",
           "text": "Until the next annual inspection survey that follows their departure",
-          "rationale": "Correct. \u2014 see cited evidence."
+          "rationale": "Correct. — see cited evidence."
         },
         {
           "id": "b",
@@ -7431,7 +7430,7 @@
         {
           "id": "c",
           "text": "Surgical and reconstruction history",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "d",
@@ -7483,33 +7482,33 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "Problem-solving unit provides geometric mag of 1.5\u00d7 only, grid removable. MQSA 1.4\u20132.0 rule status:",
+      "stem": "Problem-solving unit provides geometric mag of 1.5× only, grid removable. MQSA 1.4–2.0 rule status:",
       "choices": [
         {
           "id": "a",
-          "text": "Irrelevant \u2014 zoom replaces acquisition mag",
-          "rationale": "Zoom \u2260 acquisition magnification."
+          "text": "Irrelevant — zoom replaces acquisition mag",
+          "rationale": "Zoom ≠ acquisition magnification."
         },
         {
           "id": "b",
-          "text": "Noncompliant \u2014 three mag factors are mandatory",
-          "rationale": "Only \u22651 in-range value required."
+          "text": "Noncompliant — three mag factors are mandatory",
+          "rationale": "Only ≥1 in-range value required."
         },
         {
           "id": "c",
-          "text": "Noncompliant \u2014 only 2.0\u00d7 is accepted",
+          "text": "Noncompliant — only 2.0× is accepted",
           "rationale": "Any in-range value works."
         },
         {
           "id": "d",
-          "text": "Compliant \u2014 1.5\u00d7 is inside the required window",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "text": "Compliant — 1.5× is inside the required window",
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
       "explanation": "At least one magnification value between 1.4 and 2.0 is required.",
       "variants": {
-        "simpler": "1.5\u00d7 satisfies the 1.4\u20132.0 mag rule.",
+        "simpler": "1.5× satisfies the 1.4–2.0 mag rule.",
         "example": "Match the stem to the cited evidence before choosing."
       },
       "evidenceIds": [
@@ -7549,12 +7548,12 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "How does MQSA\u2019s compression-device standard treat special-purpose paddles such as spot paddles?",
+      "stem": "How does MQSA’s compression-device standard treat special-purpose paddles such as spot paddles?",
       "choices": [
         {
           "id": "a",
           "text": "They may be provided in addition to paddles that match full-field receptor sizes",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
@@ -7619,7 +7618,7 @@
         {
           "id": "a",
           "text": "Both sides of the patient",
-          "rationale": "Correct. \u2014 see cited evidence."
+          "rationale": "Correct. — see cited evidence."
         },
         {
           "id": "b",
@@ -7628,7 +7627,7 @@
         },
         {
           "id": "c",
-          "text": "Only the medical physicist\u2019s survey kit",
+          "text": "Only the medical physicist’s survey kit",
           "rationale": "Clinical unit controls."
         },
         {
@@ -7685,7 +7684,7 @@
         {
           "id": "a",
           "text": "The National Breast and Cervical Cancer Early Detection Program (NBCCEDP)",
-          "rationale": "Correct. \u2014 see cited evidence."
+          "rationale": "Correct. — see cited evidence."
         },
         {
           "id": "b",
@@ -7704,7 +7703,7 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "CDC\u2019s NBCCEDP provides screening services, including clinical breast exams and mammograms, to low-income, underinsured eligible people.",
+      "explanation": "CDC’s NBCCEDP provides screening services, including clinical breast exams and mammograms, to low-income, underinsured eligible people.",
       "variants": {
         "simpler": "NBCCEDP helps eligible people get screening exams.",
         "example": "Match the stem to the cited evidence before choosing."
@@ -7765,14 +7764,14 @@
         {
           "id": "d",
           "text": "Evidence is insufficient to assess benefits and harms (I statement)",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
       "explanation": "USPSTF concludes evidence is insufficient to assess benefits and harms of screening mammography in women 75 or older (I statement).",
       "variants": {
         "simpler": "Age 75+: USPSTF I statement for screening mammo.",
-        "example": "78-year-old asks whether USPSTF requires mammo \u2192 evidence insufficient."
+        "example": "78-year-old asks whether USPSTF requires mammo → evidence insufficient."
       },
       "evidenceIds": [
         "ev-pc-uspstf-75"
@@ -7815,7 +7814,7 @@
         {
           "id": "a",
           "text": "Both digital mammography and digital breast tomosynthesis are effective mammographic screening modalities",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
@@ -7837,7 +7836,7 @@
       "explanation": "USPSTF states both digital mammography and DBT are effective mammographic screening modalities.",
       "variants": {
         "simpler": "USPSTF: digital and DBT both effective for screening.",
-        "example": "Facility offers DBT screening \u2014 consistent with USPSTF modality statement."
+        "example": "Facility offers DBT screening — consistent with USPSTF modality statement."
       },
       "evidenceIds": [
         "ev-pc-uspstf-modalities",
@@ -7876,12 +7875,12 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Besides high lifetime-risk scores, which personal history does ACS (Facts & Figures 2024\u20132025) list among high-risk reasons for annual MRI plus mammography?",
+      "stem": "Besides high lifetime-risk scores, which personal history does ACS (Facts & Figures 2024–2025) list among high-risk reasons for annual MRI plus mammography?",
       "choices": [
         {
           "id": "a",
           "text": "A known high-risk genetic mutation (as summarized in the cited ACS guidance)",
-          "rationale": "Correct. \u2014 see cited evidence."
+          "rationale": "Correct. — see cited evidence."
         },
         {
           "id": "b",
@@ -7946,7 +7945,7 @@
         {
           "id": "a",
           "text": "Inform women if they have dense breasts",
-          "rationale": "Correct. \u2014 see cited evidence."
+          "rationale": "Correct. — see cited evidence."
         },
         {
           "id": "b",
@@ -8027,13 +8026,13 @@
         {
           "id": "d",
           "text": "Both appear white on the mammogram while fat appears dark",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         }
       ],
       "correctChoiceId": "d",
       "explanation": "Dense tissue and some abnormal changes both appear white while fat appears dark, so cancers can be masked and callbacks may be more common.",
       "variants": {
-        "simpler": "Dense tissue and some lesions both look white \u2192 masking.",
+        "simpler": "Dense tissue and some lesions both look white → masking.",
         "example": "Heterogeneously dense background can hide a white mass."
       },
       "evidenceIds": [
@@ -8078,7 +8077,7 @@
         {
           "id": "a",
           "text": "Known Biopsy-Proven Malignancy",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "b",
@@ -8100,7 +8099,7 @@
       "explanation": "MQSA final assessment categories include Known Biopsy-Proven Malignancy as distinct from Post-Procedure Mammogram for Marker Placement.",
       "variants": {
         "simpler": "Known Biopsy-Proven Malignancy is its own assessment category.",
-        "example": "Patient with proven cancer imaged for treatment planning \u2192 Known Biopsy-Proven Malignancy."
+        "example": "Patient with proven cancer imaged for treatment planning → Known Biopsy-Proven Malignancy."
       },
       "evidenceIds": [
         "ev-mqsa-assessment-categories"
@@ -8139,17 +8138,17 @@
       "difficultyIntent": "apply",
       "kind": "single",
       "estSeconds": 55,
-      "stem": "Sterile biopsy prep is starting; gloves are next. CDC\u2019s hand-hygiene timing relative to glove donning is:",
+      "stem": "Sterile biopsy prep is starting; gloves are next. CDC’s hand-hygiene timing relative to glove donning is:",
       "choices": [
         {
           "id": "a",
-          "text": "Skip cleansing \u2014 gloves replace hygiene",
+          "text": "Skip cleansing — gloves replace hygiene",
           "rationale": "Gloves are not a substitute."
         },
         {
           "id": "b",
           "text": "Clean hands before donning gloves",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "c",
@@ -8205,7 +8204,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "OSHA\u2019s exposure control plan bundles PPE with engineering/work-practice controls, training, medical surveillance, and which vaccination topic?",
+      "stem": "OSHA’s exposure control plan bundles PPE with engineering/work-practice controls, training, medical surveillance, and which vaccination topic?",
       "choices": [
         {
           "id": "a",
@@ -8220,7 +8219,7 @@
         {
           "id": "c",
           "text": "Hepatitis B vaccination",
-          "rationale": "Correct \u2014 matches the cited evidence."
+          "rationale": "Correct — matches the cited evidence."
         },
         {
           "id": "d",
@@ -8297,7 +8296,7 @@
       "explanation": "Accreditation clinical image review for each unit uses craniocaudal (CC) and mediolateral oblique (MLO) views from two examinations.",
       "variants": {
         "simpler": "CIR per unit: CC + MLO from two exams.",
-        "example": "When preparing accreditation images, pull two exams\u2019 standard CC/MLO pairs."
+        "example": "When preparing accreditation images, pull two exams’ standard CC/MLO pairs."
       },
       "evidenceIds": [
         "ev-pos-mqsa-cc-mlo-submission"
@@ -8362,7 +8361,7 @@
       "explanation": "Axillary tail mammography view is listed as a distinct mammography-view qualifier alongside cleavage view.",
       "variants": {
         "simpler": "Axillary tail view is a named view alongside cleavage.",
-        "example": "When documenting supplemental views, AT is its own labeled projection\u2014not a free-text alias."
+        "example": "When documenting supplemental views, AT is its own labeled projection—not a free-text alias."
       },
       "evidenceIds": [
         "ev-pqd-axillary-tail-term",
@@ -8402,7 +8401,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "NCI\u2019s implant guidance notes an exception to routine mammography of which reconstructed situation?",
+      "stem": "NCI’s implant guidance notes an exception to routine mammography of which reconstructed situation?",
       "choices": [
         {
           "id": "a",
@@ -8459,7 +8458,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only \u2014 not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
+            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only — not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
           }
         ]
       }
@@ -8475,12 +8474,12 @@
       "difficultyIntent": "recall",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "According to AHRQ\u2019s Universal Protocol summary used in this module, the protocol was developed to prevent which trio of errors?",
+      "stem": "According to AHRQ’s Universal Protocol summary used in this module, the protocol was developed to prevent which trio of errors?",
       "choices": [
         {
           "id": "a",
           "text": "Wrong contrast brand, wrong kVp, and wrong grid.",
-          "rationale": "Those are technique issues, not the Universal Protocol\u2019s stated purpose."
+          "rationale": "Those are technique issues, not the Universal Protocol’s stated purpose."
         },
         {
           "id": "b",
@@ -8490,7 +8489,7 @@
         {
           "id": "c",
           "text": "Wrong BI-RADS category, wrong density letter, and wrong lay-summary language.",
-          "rationale": "Reporting categories are outside UP\u2019s stated purpose."
+          "rationale": "Reporting categories are outside UP’s stated purpose."
         },
         {
           "id": "d",
@@ -8549,7 +8548,7 @@
         },
         {
           "id": "b",
-          "text": "The receptor is rotated 90\u00b0 while the breast stays fixed in CC.",
+          "text": "The receptor is rotated 90° while the breast stays fixed in CC.",
           "rationale": "The cited language is about rolling the breast, not only rotating the receptor."
         },
         {
@@ -8567,7 +8566,7 @@
       "explanation": "In a rolled mammography view, the breast is rolled to one side (LOINC change-reason language).",
       "variants": {
         "simpler": "Rolled view = breast rolled to one side.",
-        "example": "When the order says \u201crolled CC,\u201d expect intentional breast roll\u2014not a unchanged repeat."
+        "example": "When the order says “rolled CC,” expect intentional breast roll—not a unchanged repeat."
       },
       "evidenceIds": [
         "ev-pqd-rolled-term"
@@ -8605,7 +8604,7 @@
       "difficultyIntent": "understand",
       "kind": "single",
       "estSeconds": 60,
-      "stem": "After lumpectomy or radiation, a patient reports a new firm lump near the treatment site. Which benign entity in this module\u2019s evidence can replace fat with a cyst or scar that feels like a firm lump?",
+      "stem": "After lumpectomy or radiation, a patient reports a new firm lump near the treatment site. Which benign entity in this module’s evidence can replace fat with a cyst or scar that feels like a firm lump?",
       "choices": [
         {
           "id": "a",
@@ -8694,7 +8693,7 @@
         }
       ],
       "correctChoiceId": "a",
-      "explanation": "The nipple should sit near midline (roughly 20\u00b0 or less off center). Exaggeration that moves it off midline and drops medial or lateral posterior tissue counts as excessive.",
+      "explanation": "The nipple should sit near midline (roughly 20° or less off center). Exaggeration that moves it off midline and drops medial or lateral posterior tissue counts as excessive.",
       "variants": {
         "simpler": "Nipple far to one side plus missing tissue = too much exaggeration.",
         "example": "A CC rotated so far laterally that inner tissue falls off the image fails even if the nipple is in profile."
@@ -8760,7 +8759,7 @@
         }
       ],
       "correctChoiceId": "b",
-      "explanation": "The CC PNL should be within about 1 cm of the MLO PNL. 11.0 \u2212 9.6 = 1.4 cm, so the CC is too short.",
+      "explanation": "The CC PNL should be within about 1 cm of the MLO PNL. 11.0 − 9.6 = 1.4 cm, so the CC is too short.",
       "variants": {
         "simpler": "Subtract: more than 1 cm short means flag it.",
         "example": "MLO 11.0, CC 9.6: difference 1.4 cm, outside tolerance."
@@ -9090,7 +9089,7 @@
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "9.0 \u2212 8.3 = 0.7 cm, within the 1 cm tolerance.",
+      "explanation": "9.0 − 8.3 = 0.7 cm, within the 1 cm tolerance.",
       "variants": {
         "simpler": "Less than 1 cm short = meets.",
         "example": "MLO 9.0, CC 8.3: 0.7 cm difference, acceptable."
@@ -9353,9 +9352,9 @@
         }
       ],
       "correctChoiceId": "c",
-      "explanation": "On the MLO the PNL runs from the nipple at a right angle to the anterior pectoralis edge, often around 45\u00b0 on the image.",
+      "explanation": "On the MLO the PNL runs from the nipple at a right angle to the anterior pectoralis edge, often around 45° on the image.",
       "variants": {
-        "simpler": "Nipple \u2192 straight back to the muscle at 90\u00b0.",
+        "simpler": "Nipple → straight back to the muscle at 90°.",
         "example": "Draw from the nipple to meet the muscle edge at a right angle."
       },
       "evidenceIds": [
@@ -9713,6 +9712,789 @@
         ]
       },
       "simulationRole": "scored"
+    },
+    {
+      "id": "q-pos-134",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-body-habitus"
+      ],
+      "familyId": "fam-pos-habitus-tissue",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "When kyphosis or a protruding abdomen makes standard positioning difficult, MQSA's positioning clinical image quality attribute still requires that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sufficient breast tissue be imaged so cancers are not likely missed because of inadequate positioning",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Only implant-included views be performed",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "kVp be doubled for every habitus variant",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "The exam be converted to screening ultrasound automatically",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "MQSA positioning attribute: image sufficient tissue so cancers are not likely missed from inadequate positioning.",
+      "variants": {
+        "simpler": "MQSA positioning attribute: image sufficient tissue so cancers are not likely missed from inadequate positioning.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-135",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-body-habitus"
+      ],
+      "familyId": "fam-pos-habitus-adapt",
+      "pool": "practice",
+      "difficultyIntent": "apply",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Best practice when body habitus prevents a single-view capture of posterior tissue is to:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Skip documentation because the patient is difficult",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Adapt positioning/paddle strategy per protocol and document limitations while still pursuing sufficient tissue",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Invent a facility-unauthorized kVp chart on the spot",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Tell the patient mammography is impossible forever",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "Adapt and document under the MQSA sufficient-tissue positioning goal; do not invent unsourced technique myths.",
+      "variants": {
+        "simpler": "Adapt and document under the MQSA sufficient-tissue positioning goal; do not invent unsourced technique myths.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-136",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-pos-postsurg-inquiry",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Before mammography, MQSA requires the facility to inquire about:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Preferred PACS theme",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Social media handles",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Breast implants",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Favorite compression paddle color",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "MQSA requires inquiry about breast implants before the examination.",
+      "variants": {
+        "simpler": "MQSA requires inquiry about breast implants before the examination.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pos-mqsa-implant-inquiry",
+        "ev-mqsa-implant-inquiry"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-137",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-pos-postsurg-displace",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI describes implant displacement views as techniques that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pull breast tissue forward while displacing the implant back to image more tissue",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Remove the implant before every screening exam",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Replace all MLO views with chest CT",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Are forbidden whenever reconstruction is present",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI implant-displacement description: displace implant back / bring tissue forward to image more native tissue.",
+      "variants": {
+        "simpler": "NCI implant-displacement description: displace implant back / bring tissue forward to image more native tissue.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pos-nci-implants-displacement"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-138",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-postsurgical"
+      ],
+      "familyId": "fam-pos-postsurg-maximize",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "For patients with implants, MQSA's imaging expectation is to maximize imaged tissue:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only on DBT units",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Never, because implants exclude mammography",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Only after prophylactic mastectomy",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Unless the exam is contraindicated or the views are modified",
+          "rationale": "Best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "MQSA maximize-tissue framing includes contraindicated/modified exceptions.",
+      "variants": {
+        "simpler": "MQSA maximize-tissue framing includes contraindicated/modified exceptions.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pos-mqsa-implant-inquiry",
+        "ev-pos-nci-implants-displacement"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-139",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-pos-mri-physics",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Compared with mammography, NCI states that breast MRI:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Uses higher average glandular dose than DBT by definition",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Uses radio waves and a strong magnet and does not involve ionizing radiation",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Is performed with the same compression paddle pressures as CC/MLO",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Is the USPSTF-required replacement for ages 40–74",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI: breast MRI uses radio waves and a magnet without ionizing radiation.",
+      "variants": {
+        "simpler": "NCI: breast MRI uses radio waves and a magnet without ionizing radiation.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-us-mri-roles"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-140",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-pos-us-dense",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "For dense breasts, NCI notes supplemental screening ultrasound may be offered, but:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is not known whether additional ultrasound screening improves health outcomes",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Ultrasound is mandatory under MQSA for every dense patient",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Ultrasound replaces the lay summary",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Ultrasound assigns BI-RADS density categories",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI: outcome benefit of supplemental ultrasound for dense breasts is not known.",
+      "variants": {
+        "simpler": "NCI: outcome benefit of supplemental ultrasound for dense breasts is not known.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-us-mri-roles",
+        "ev-pc-nci-dense-supplemental"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-141",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-us-mri"
+      ],
+      "familyId": "fam-pos-mri-highrisk",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI's high-risk framing for breast MRI alongside mammography emphasizes that MRI is:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Less sensitive than mammography in high-risk patients",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "Identical to screening CBE",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "More sensitive at detecting cancer than mammography, which alone may miss some cancers in high-risk women",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "Used only to measure paddle force",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI: MRI is more sensitive; mammography alone may miss some cancers in high-risk women.",
+      "variants": {
+        "simpler": "NCI: MRI is more sensitive; mammography alone may miss some cancers in high-risk women.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pc-nci-us-mri-roles"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-142",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization"
+      ],
+      "familyId": "fam-pos-stereo-def",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "Stereotactic biopsy (NCI Dictionary) is best described as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A biopsy using a computer and 3-dimensional scanning device to locate a site and guide tissue removal",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "A surgical mastectomy without imaging",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "An OSHA bloodborne titer test",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "A mobile van MQSA inspection checklist",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "a",
+      "explanation": "NCI definition of stereotactic biopsy.",
+      "variants": {
+        "simpler": "NCI definition of stereotactic biopsy.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pc-dict-stereotactic-biopsy"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-143",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization"
+      ],
+      "familyId": "fam-pos-wire-def",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "During wire localization, after the hooked wire is correctly placed:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wire is immediately interpreted as BI-RADS 6",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "The needle is removed and the wire is left to guide surgical removal; the wire is removed when the biopsy is done",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "The specimen is discarded before pathology sees it",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "The clip must be removed within 24 hours",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "b",
+      "explanation": "NCI wire localization: needle out, wire stays until biopsy/surgery, then wire removed.",
+      "variants": {
+        "simpler": "NCI wire localization: needle out, wire stays until biopsy/surgery, then wire removed.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pc-dict-wire-localization"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-144",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization"
+      ],
+      "familyId": "fam-pos-clip-def",
+      "pool": "practice",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "A breast biopsy clip/marker is left in the breast primarily so that:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "OSHA can track bloodborne titers",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "AEC can auto-select tungsten filtration",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "The patient can skip all future mammograms",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "The sampled area can be seen on later mammograms or other imaging",
+          "rationale": "Best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "d",
+      "explanation": "NCI: clip marks the biopsy site for future imaging.",
+      "variants": {
+        "simpler": "NCI: clip marks the biopsy site for future imaging.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pc-dict-biopsy-clip"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "q-pos-145",
+      "revision": 1,
+      "objectiveIds": [
+        "obj-pp-biopsy-localization"
+      ],
+      "familyId": "fam-pos-specimen-def",
+      "pool": "form-b",
+      "difficultyIntent": "recall",
+      "kind": "single",
+      "estSeconds": 55,
+      "stem": "NCI defines a biopsy specimen as:",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A phantom image for weekly QC only",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "b",
+          "text": "The lay summary mailed to the patient",
+          "rationale": "Not the best answer based on the cited evidence."
+        },
+        {
+          "id": "c",
+          "text": "Tissue removed from the body and examined under a microscope to determine whether disease is present",
+          "rationale": "Best answer based on the cited evidence."
+        },
+        {
+          "id": "d",
+          "text": "The accreditation body certificate",
+          "rationale": "Not the best answer based on the cited evidence."
+        }
+      ],
+      "correctChoiceId": "c",
+      "explanation": "NCI Dictionary definition of biopsy specimen.",
+      "variants": {
+        "simpler": "NCI Dictionary definition of biopsy specimen.",
+        "example": "Apply the same sourced rule on the next patient encounter."
+      },
+      "evidenceIds": [
+        "ev-pc-dict-biopsy-specimen"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }

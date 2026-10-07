@@ -367,7 +367,8 @@
             "q-ip-029",
             "q-ip-030",
             "q-ip-031",
-            "q-ip-032"
+            "q-ip-032",
+            "q-ip-123"
           ],
           "visualIds": []
         },
@@ -426,9 +427,83 @@
           "visualIds": [
             "vis-ip-alara-shield"
           ]
+        },
+        {
+          "objectiveId": "obj-ip-patient-artifacts",
+          "lessonIds": [
+            "les-ip-patient-artifacts"
+          ],
+          "cardIds": [
+            "card-ip-deodorant-artifact",
+            "card-ip-motion-compression"
+          ],
+          "questionIds": [
+            "q-ip-119",
+            "q-ip-120",
+            "q-ip-121",
+            "q-ip-122"
+          ],
+          "visualIds": []
         }
       ],
-      "followUps": []
+      "followUps": [
+        {
+          "objectiveId": "obj-ip-kvp-tube",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-openstax-college-physics-2e",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "OpenStax tube physics + MQSA technique display; device charts remain facility/ACR link-only."
+        },
+        {
+          "objectiveId": "obj-ip-geometry",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-openstax-college-physics-2e"
+          ],
+          "note": "MQSA magnification equipment range + geometric SID/OID ideas from OpenStax/MQSA field alignment."
+        },
+        {
+          "objectiveId": "obj-ip-exposure-factors",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-openstax-college-physics-2e",
+            "src-ecfr-21-cfr-900",
+            "src-nci-mammograms"
+          ],
+          "note": "Penetration/contrast physics + MQSA technique display + NCI diagnostic-more-images dose context."
+        },
+        {
+          "objectiveId": "obj-ip-thickness-target-filter",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-openstax-college-physics-2e",
+            "src-nci-mammograms"
+          ],
+          "note": "MQSA technique/target-filter indication + compression purpose + soft-tissue contrast physics. ACR DMQC charts stay link-only."
+        },
+        {
+          "objectiveId": "obj-ip-magnification-technique",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-cdc-alara"
+          ],
+          "note": "MQSA magnification equipment requirements + ALARA framing for air-gap/no-grid technique changes."
+        },
+        {
+          "objectiveId": "obj-ip-patient-artifacts",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-mammograms",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "NCI deodorant/product artifact warning + MQSA motion/artifacts CIQ attributes."
+        }
+      ]
     },
     {
       "moduleId": "mod-informatics",
@@ -729,16 +804,23 @@
         },
         {
           "objectiveId": "obj-pc-clinician-role",
-          "lessonIds": [],
+          "lessonIds": [
+            "les-pc-clinician-role"
+          ],
           "cardIds": [
-            "card-pc-no-diagnose"
+            "card-pc-no-diagnose",
+            "card-pc-clinician-vs-tech"
           ],
           "questionIds": [
             "q-pc-006",
             "q-pc-024",
             "q-pc-030",
             "q-pc-033",
-            "q-pc-043"
+            "q-pc-043",
+            "q-pc-067",
+            "q-pc-069",
+            "q-pc-097",
+            "q-pc-099"
           ],
           "visualIds": [
             "vis-pc-who-explains-density"
@@ -918,7 +1000,9 @@
         },
         {
           "objectiveId": "obj-pp-biohazard",
-          "lessonIds": [],
+          "lessonIds": [
+            "les-pc-biohazard"
+          ],
           "cardIds": [
             "card-pc-bbp",
             "card-pc-hh",
@@ -927,7 +1011,10 @@
           "questionIds": [
             "q-pc-035",
             "q-pc-036",
-            "q-pc-037"
+            "q-pc-037",
+            "q-pc-084",
+            "q-pc-091",
+            "q-pc-095"
           ],
           "visualIds": []
         },
@@ -1113,6 +1200,23 @@
             "q-pc-072"
           ],
           "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pc-bse-cbe",
+          "lessonIds": [
+            "les-pc-bse-cbe"
+          ],
+          "cardIds": [
+            "card-pc-acs-bse",
+            "card-pc-nci-bse-limit"
+          ],
+          "questionIds": [
+            "q-pc-166",
+            "q-pc-167",
+            "q-pc-168",
+            "q-pc-169"
+          ],
+          "visualIds": []
         }
       ],
       "followUps": [
@@ -1197,6 +1301,36 @@
             "src-nci-seer-breast"
           ],
           "note": "Radiation/chemo/HT/receptors/implant reconstruction at definition level only—no prescribing."
+        },
+        {
+          "objectiveId": "obj-pc-bse-cbe",
+          "suggestedSourceState": "source_backed_link_only",
+          "suggestedSourceIds": [
+            "src-acs-early-detection",
+            "src-nci-breast-screening-patient",
+            "src-nci-pdq-breast-screening-hp"
+          ],
+          "note": "ACS average-risk BSE/CBE schedule is link-only; NCI patient + HP PDQ supply open restatements on adequacy/mortality."
+        },
+        {
+          "objectiveId": "obj-pc-clinician-role",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900",
+            "src-nci-mammograms",
+            "src-nci-dense-breasts"
+          ],
+          "note": "MQSA report/lay-summary pathway + NCI density-not-palpable / results timing support technologist vs clinician scope."
+        },
+        {
+          "objectiveId": "obj-pp-biohazard",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-osha-bloodborne",
+            "src-cdc-hand-hygiene",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "OSHA BBP + CDC hand hygiene + MQSA infection-control equipment cleaning."
         }
       ]
     },
@@ -1338,22 +1472,37 @@
             "les-pos-special-circumstances"
           ],
           "cardIds": [
-            "card-pos-adapt"
+            "card-pos-adapt",
+            "card-pos-habitus-document"
           ],
           "questionIds": [
             "q-pos-045",
-            "q-pos-047"
+            "q-pos-047",
+            "q-pos-080",
+            "q-pos-102",
+            "q-pos-109",
+            "q-pos-134",
+            "q-pos-135"
           ],
           "visualIds": []
         },
         {
           "objectiveId": "obj-pp-postsurgical",
-          "lessonIds": [],
+          "lessonIds": [
+            "les-pos-postsurgical"
+          ],
           "cardIds": [
             "card-pos-recon"
           ],
           "questionIds": [
-            "q-pos-046"
+            "q-pos-046",
+            "q-pos-136",
+            "q-pos-137",
+            "q-pos-138",
+            "q-pos-079",
+            "q-pos-088",
+            "q-pos-115",
+            "q-pos-130"
           ],
           "visualIds": []
         },
@@ -1422,6 +1571,45 @@
             "q-pos-004"
           ],
           "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-us-mri",
+          "lessonIds": [
+            "les-pos-us-mri"
+          ],
+          "cardIds": [
+            "card-pos-us-vs-mri",
+            "card-pos-dense-supplemental"
+          ],
+          "questionIds": [
+            "q-pos-139",
+            "q-pos-140",
+            "q-pos-141",
+            "q-pos-059",
+            "q-pos-060",
+            "q-pos-061"
+          ],
+          "visualIds": []
+        },
+        {
+          "objectiveId": "obj-pp-biopsy-localization",
+          "lessonIds": [
+            "les-pos-biopsy-localization"
+          ],
+          "cardIds": [
+            "card-pos-stereo-def",
+            "card-pos-clip-def",
+            "card-pos-wire-def"
+          ],
+          "questionIds": [
+            "q-pos-142",
+            "q-pos-143",
+            "q-pos-144",
+            "q-pos-145",
+            "q-pos-064",
+            "q-pos-065"
+          ],
+          "visualIds": []
         }
       ],
       "followUps": [
@@ -1433,6 +1621,43 @@
             "src-ecfr-21-cfr-900"
           ],
           "note": "NCI retrieved fact sheet names implant displacement views and reconstruction exception; MQSA supplies maximize-tissue unless contraindicated/modified. Detailed hand maneuvers remain preceptorship/link-only (requiresQualifiedReview preserved)."
+        },
+        {
+          "objectiveId": "obj-pp-body-habitus",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "MQSA positioning attribute (sufficient tissue). Detailed mosaic/paddle recipes remain preceptorship; blocked ACR CIQ not used for completeness counting."
+        },
+        {
+          "objectiveId": "obj-pp-postsurgical",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-mammograms",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "NCI implant displacement + MQSA implant inquiry / maximize tissue. Complex reconstruction maneuvers stay qualified-review / preceptorship."
+        },
+        {
+          "objectiveId": "obj-pp-us-mri",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-breast-screening-patient",
+            "src-nci-pdq-breast-screening-hp",
+            "src-uspstf-breast-2024",
+            "src-acs-facts-2024-2025"
+          ],
+          "note": "NCI US/MRI roles + USPSTF dense I; ACS high-risk MRI ages remain link-only facts."
+        },
+        {
+          "objectiveId": "obj-pp-biopsy-localization",
+          "suggestedSourceState": "source_backed_open",
+          "suggestedSourceIds": [
+            "src-nci-dictionary",
+            "src-ecfr-21-cfr-900"
+          ],
+          "note": "NCI Dictionary definitions for stereo/US biopsy, wire localization, specimen, clip. Device-specific steps remain preceptorship."
         }
       ]
     },

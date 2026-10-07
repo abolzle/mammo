@@ -944,7 +944,16 @@
         "chemotherapy",
         "radiation therapy",
         "hormone therapy",
-        "breast reconstruction"
+        "breast reconstruction",
+        "stereotactic biopsy",
+        "ultrasound-guided biopsy",
+        "wire localization",
+        "needle localization",
+        "biopsy specimen",
+        "breast biopsy clip",
+        "breast biopsy marker",
+        "biopsy",
+        "needle biopsy"
       ],
       "rights": {
         "status": "public_domain",
@@ -1363,6 +1372,33 @@
         "basis": "License statement on the PMC article page (checked 2026-10-06): © The Author(s) 2024. Licensed under a Creative Commons Attribution 4.0 International License. Creative Commons Attribution 4.0 permits reuse with attribution and indication of changes. Mammo restates facts in original wording and cites by link; no figures are reused."
       },
       "kind": "other"
+    },
+    {
+      "id": "src-nci-breast-screening-patient",
+      "title": "Breast Cancer Screening (PDQ®)–Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/patient/breast-screening-pdq",
+      "publishedOrEffective": "Retrieved 2026-10-07",
+      "retrievedOn": "2026-10-07",
+      "retrievalStatus": "retrieved",
+      "retrievalNote": "Patient-facing NCI screening overview including clinical breast exam, breast self-exam, ultrasound, and MRI role statements.",
+      "sections": [
+        "Clinical breast exam",
+        "Breast self-exam",
+        "Breast magnetic resonance imaging (MRI)",
+        "Breast ultrasound",
+        "Mammography"
+      ],
+      "rights": {
+        "status": "public_domain",
+        "canRead": true,
+        "canQuote": true,
+        "canRedistribute": true,
+        "canSubmitToAI": true,
+        "basis": "NCI reuse policy: unless otherwise noted, information on Cancer.gov is in the public domain.",
+        "basisSourceId": "src-nci-reuse"
+      },
+      "kind": "government_guidance"
     },
     {
       "id": "src-ecfr-21-cfr-892-image-devices",

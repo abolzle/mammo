@@ -1,7 +1,7 @@
 {
-  "version": "2026-10-06.1",
+  "version": "2026-10-07.1",
   "moduleId": "mod-positioning",
-  "note": "Module-local coverage. Curriculum.json was not rewritten; these rows map existing curriculum objective IDs to this module\u2019s assets. Detailed positioning corrections without an accessible sourced document remain gaps/beta.",
+  "note": "Module-local coverage. Curriculum.json was not rewritten; these rows map existing curriculum objective IDs to this module’s assets. Detailed positioning corrections without an accessible sourced document remain gaps/beta.",
   "counts": {
     "lessons": 12,
     "questions": 48,
@@ -13,15 +13,15 @@
   "blockedOrLinkOnly": [
     {
       "id": "src-acr-ciq-1999",
-      "note": "ARRT-named positioning manual \u2014 link-only / not reproduced"
+      "note": "ARRT-named positioning manual — link-only / not reproduced"
     },
     {
       "id": "src-acr-positioning-review-table",
-      "note": "ACR Learning Network table \u2014 link-only"
+      "note": "ACR Learning Network table — link-only"
     },
     {
       "id": "src-acr-aapm-siim-dm-iq-2013",
-      "note": "Retrieved via PMC; copyrighted expression \u2014 link-only restatement for PNL/muscle/compression benefits"
+      "note": "Retrieved via PMC; copyrighted expression — link-only restatement for PNL/muscle/compression benefits"
     }
   ],
   "rows": [
@@ -194,12 +194,18 @@
       ],
       "questionIds": [
         "q-pos-045",
-        "q-pos-047"
+        "q-pos-047",
+        "q-pos-080",
+        "q-pos-102",
+        "q-pos-109",
+        "q-pos-134",
+        "q-pos-135"
       ],
       "cardIds": [
-        "card-pos-adapt"
+        "card-pos-adapt",
+        "card-pos-habitus-document"
       ],
-      "sourceNote": "Adapt/document frame; no invented mosaic rules",
+      "sourceNote": "MQSA positioning attribute; blocked ACR CIQ evidence removed from counting paths.",
       "assessmentPool": "practice_beta_only",
       "clinicallyReviewed": false,
       "gap": false
@@ -207,14 +213,23 @@
     {
       "objectiveId": "obj-pp-postsurgical",
       "moduleId": "mod-positioning",
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pos-postsurgical"
+      ],
       "questionIds": [
-        "q-pos-046"
+        "q-pos-046",
+        "q-pos-136",
+        "q-pos-137",
+        "q-pos-138",
+        "q-pos-079",
+        "q-pos-088",
+        "q-pos-115",
+        "q-pos-130"
       ],
       "cardIds": [
         "card-pos-recon"
       ],
-      "sourceNote": "History/reconstruction pathway notes from NCI + inquiry",
+      "sourceNote": "NCI implant displacement + MQSA implant inquiry / maximize tissue.",
       "assessmentPool": "practice_beta_only",
       "clinicallyReviewed": false,
       "gap": false
@@ -300,6 +315,53 @@
       "assessmentPool": "practice_beta_only",
       "clinicallyReviewed": false,
       "gap": false
+    },
+    {
+      "moduleId": "mod-positioning",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false,
+      "objectiveId": "obj-pp-us-mri",
+      "lessonIds": [
+        "les-pos-us-mri"
+      ],
+      "questionIds": [
+        "q-pos-139",
+        "q-pos-140",
+        "q-pos-141",
+        "q-pos-059",
+        "q-pos-060",
+        "q-pos-061"
+      ],
+      "cardIds": [
+        "card-pos-us-vs-mri",
+        "card-pos-dense-supplemental"
+      ],
+      "sourceNote": "NCI US/MRI roles + USPSTF dense I + ACS high-risk MRI pathway (link-only)."
+    },
+    {
+      "moduleId": "mod-positioning",
+      "assessmentPool": "practice_beta_only",
+      "clinicallyReviewed": false,
+      "gap": false,
+      "objectiveId": "obj-pp-biopsy-localization",
+      "lessonIds": [
+        "les-pos-biopsy-localization"
+      ],
+      "questionIds": [
+        "q-pos-142",
+        "q-pos-143",
+        "q-pos-144",
+        "q-pos-145",
+        "q-pos-064",
+        "q-pos-065"
+      ],
+      "cardIds": [
+        "card-pos-stereo-def",
+        "card-pos-clip-def",
+        "card-pos-wire-def"
+      ],
+      "sourceNote": "NCI Dictionary terminology for stereo/US biopsy, wire localization, specimen, clip."
     }
   ],
   "curriculumFollowUps": [
@@ -311,6 +373,43 @@
         "src-ecfr-21-cfr-900"
       ],
       "note": "NCI retrieved fact sheet names implant displacement views and reconstruction exception; MQSA supplies maximize-tissue unless contraindicated/modified. Detailed hand maneuvers remain preceptorship/link-only (requiresQualifiedReview preserved)."
+    },
+    {
+      "objectiveId": "obj-pp-body-habitus",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "MQSA positioning attribute (sufficient tissue). Detailed mosaic/paddle recipes remain preceptorship; blocked ACR CIQ not used for completeness counting."
+    },
+    {
+      "objectiveId": "obj-pp-postsurgical",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-nci-mammograms",
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "NCI implant displacement + MQSA implant inquiry / maximize tissue. Complex reconstruction maneuvers stay qualified-review / preceptorship."
+    },
+    {
+      "objectiveId": "obj-pp-us-mri",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-nci-breast-screening-patient",
+        "src-nci-pdq-breast-screening-hp",
+        "src-uspstf-breast-2024",
+        "src-acs-facts-2024-2025"
+      ],
+      "note": "NCI US/MRI roles + USPSTF dense I; ACS high-risk MRI ages remain link-only facts."
+    },
+    {
+      "objectiveId": "obj-pp-biopsy-localization",
+      "suggestedSourceState": "source_backed_open",
+      "suggestedSourceIds": [
+        "src-nci-dictionary",
+        "src-ecfr-21-cfr-900"
+      ],
+      "note": "NCI Dictionary definitions for stereo/US biopsy, wire localization, specimen, clip. Device-specific steps remain preceptorship."
     }
   ]
 }

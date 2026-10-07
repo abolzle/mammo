@@ -289,6 +289,8 @@ describe("coverage", () => {
     expect(b.truly_blocked).toBe(blocked.length);
     expect(blocked.every((o) => o.blockedNote)).toBe(true);
     const rows = coverageMatrix(loaded.curriculum!, loaded.modules);
-    expect(rows.some((r) => r.gap)).toBe(true);
+    // Blueprint objectives are source-backed with learner assets; keep the matrix honest if gaps return.
+    expect(rows.every((r) => r.complete === (r.gap === null))).toBe(true);
+    expect(rows.filter((r) => r.complete).length).toBe(rows.length);
   });
 });

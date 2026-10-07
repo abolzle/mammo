@@ -77,7 +77,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -109,7 +109,7 @@
     },
     {
       "id": "card-pos-cc-purpose",
-      "prompt": "What is the CC view\u2019s basic beam orientation?",
+      "prompt": "What is the CC view’s basic beam orientation?",
       "answer": "Superior to inferior (craniocaudal).",
       "objectiveId": "obj-pp-cc",
       "evidenceIds": [
@@ -161,7 +161,7 @@
     {
       "id": "card-pos-pnl",
       "prompt": "What does comparing CC vs MLO PNL check?",
-      "answer": "Whether CC posterior tissue depth nearly matches MLO (about \u22641 cm shorter on CC per cited guideline).",
+      "answer": "Whether CC posterior tissue depth nearly matches MLO (about ≤1 cm shorter on CC per cited guideline).",
       "objectiveId": "obj-pp-cc",
       "evidenceIds": [
         "ev-pos-pmc-pnl-cc-mlo"
@@ -186,7 +186,7 @@
     {
       "id": "card-pos-mlo-muscle",
       "prompt": "Desirable MLO pectoralis appearance in the cited open guideline?",
-      "answer": "Convex anterior edge, ideally to nipple level; PNL drawn perpendicular to muscle (~45\u00b0).",
+      "answer": "Convex anterior edge, ideally to nipple level; PNL drawn perpendicular to muscle (~45°).",
       "objectiveId": "obj-pp-mlo",
       "evidenceIds": [
         "ev-pos-pmc-pnl-cc-mlo"
@@ -235,7 +235,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -417,7 +417,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only \u2014 not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
+            "note": "Aaron Bolzle confirmed that the cited NCI/MQSA evidence supports the implant-displaced claims. Maintainer source check only — not clinical review. Broken ACR CIQ evidence id removed where it did not resolve."
           }
         ]
       }
@@ -474,7 +474,7 @@
             "status": "source_checked",
             "actor": "Aaron Bolzle",
             "kind": "maintainer_source_check",
-            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only \u2014 not clinical review."
+            "note": "Aaron Bolzle confirmed via the source-check worksheet that the cited evidence supports the claims. Maintainer source check only — not clinical review."
           }
         ]
       }
@@ -532,7 +532,7 @@
     {
       "id": "card-pos-equip-dx",
       "prompt": "Can diagnostic CC/MLO be used in periodic clinical image review?",
-      "answer": "Yes \u2014 EQUIP FAQ says standard CC/MLO from diagnostic exams can be scored on the eight attributes.",
+      "answer": "Yes — EQUIP FAQ says standard CC/MLO from diagnostic exams can be scored on the eight attributes.",
       "objectiveId": "obj-pp-screening-vs-diagnostic",
       "evidenceIds": [
         "ev-pos-fda-equip-cc-mlo-diagnostic"
@@ -560,8 +560,7 @@
       "answer": "Adapt to pursue enough tissue; document limits; do not invent unsupported correction rules.",
       "objectiveId": "obj-pp-body-habitus",
       "evidenceIds": [
-        "ev-pos-mqsa-positioning-attribute",
-        "ev-pos-acr-ciq-link-only"
+        "ev-pos-mqsa-positioning-attribute"
       ],
       "revision": 1,
       "estSeconds": 25,
@@ -585,7 +584,7 @@
       "revision": 1,
       "objectiveId": "obj-pp-cc",
       "prompt": "On a CC, where should the nipple be?",
-      "answer": "In profile and near midline (about 20\u00b0 or less off center).",
+      "answer": "In profile and near midline (about 20° or less off center).",
       "evidenceIds": [
         "ev-svl-brahim-cc",
         "ev-svl-acr-table-cc"
@@ -905,6 +904,199 @@
           }
         ]
       }
+    },
+    {
+      "id": "card-pos-habitus-document",
+      "objectiveId": "obj-pp-body-habitus",
+      "prompt": "When body habitus limits standard CC/MLO tissue inclusion, what is the sourced priority?",
+      "answer": "Adapt and document so positioning still aims to image sufficient tissue (MQSA positioning attribute); do not invent undocumented mosaic rules.",
+      "evidenceIds": [
+        "ev-pos-mqsa-positioning-attribute"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
+    },
+    {
+      "id": "card-pos-us-vs-mri",
+      "objectiveId": "obj-pp-us-mri",
+      "prompt": "Does breast MRI use ionizing radiation (NCI)?",
+      "answer": "No. NCI describes breast MRI as using radio waves and a strong magnet without ionizing radiation.",
+      "evidenceIds": [
+        "ev-pc-nci-us-mri-roles"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
+    },
+    {
+      "id": "card-pos-dense-supplemental",
+      "objectiveId": "obj-pp-us-mri",
+      "prompt": "Is supplemental US/MRI for dense breasts after a negative screen a proven outcome benefit (USPSTF/NCI)?",
+      "answer": "No—evidence is insufficient to recommend for or against; clinicians individualize.",
+      "evidenceIds": [
+        "ev-pc-uspstf-dense-i",
+        "ev-pc-nci-dense-supplemental"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
+    },
+    {
+      "id": "card-pos-stereo-def",
+      "objectiveId": "obj-pp-biopsy-localization",
+      "prompt": "Define stereotactic biopsy (NCI Dictionary).",
+      "answer": "A biopsy using a computer and 3D scanning device to find a site and guide tissue removal for microscopy.",
+      "evidenceIds": [
+        "ev-pc-dict-stereotactic-biopsy"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
+    },
+    {
+      "id": "card-pos-clip-def",
+      "objectiveId": "obj-pp-biopsy-localization",
+      "prompt": "Why is a breast biopsy clip left in place?",
+      "answer": "To mark the biopsy site so it can be seen on future mammograms or other imaging; it does not harm the body.",
+      "evidenceIds": [
+        "ev-pc-dict-biopsy-clip"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
+    },
+    {
+      "id": "card-pos-wire-def",
+      "objectiveId": "obj-pp-biopsy-localization",
+      "prompt": "What is wire localization for?",
+      "answer": "To mark a small abnormal area with a hooked wire so surgery can find and remove it; the wire is removed when the biopsy is done.",
+      "evidenceIds": [
+        "ev-pc-dict-wire-localization"
+      ],
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      },
+      "revision": 1,
+      "estSeconds": 25
     }
   ]
 }

@@ -270,6 +270,78 @@
           }
         ]
       }
+    },
+    {
+      "id": "ev-ip-mqsa-artifacts-attribute",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(2) / clinical image review attributes (artifacts)",
+      "claim": "Artifacts are one of the eight accreditation-body clinical image quality attributes used in MQSA clinical image review, alongside positioning, compression, exposure level, contrast, sharpness, noise, and examination identification.",
+      "excerpt": "There are eight image quality attributes listed in 900.4(c)(2)(i-viii). They are: positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "citation": "quoted_public",
+      "scope": "Recognition that patient- and process-related artifacts matter in clinical image quality review.",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-mqsa-motion-compression",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(2)(ii) compression attribute",
+      "claim": "For clinical image review, compression shall be applied in a manner that minimizes the potential obscuring effect of overlying breast tissue and motion artifact.",
+      "excerpt": "Compression. Compression shall be applied in a manner that minimizes the potential obscuring effect of overlying breast tissue and motion artifact.",
+      "citation": "quoted_public",
+      "scope": "Motion-artifact prevention via compression purpose; not a numeric compression recipe.",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
     }
   ]
 }

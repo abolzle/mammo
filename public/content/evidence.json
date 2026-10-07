@@ -1690,6 +1690,80 @@
       }
     },
     {
+      "id": "ev-ip-mqsa-artifacts-attribute",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(2) / clinical image review attributes (artifacts)",
+      "claim": "Artifacts are one of the eight accreditation-body clinical image quality attributes used in MQSA clinical image review, alongside positioning, compression, exposure level, contrast, sharpness, noise, and examination identification.",
+      "scope": "Recognition that patient- and process-related artifacts matter in clinical image quality review.",
+      "excerpt": "There are eight image quality attributes listed in 900.4(c)(2)(i-viii). They are: positioning, compression, exposure level, contrast, sharpness, noise, artifacts, and examination identification.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-ip-mqsa-motion-compression",
+      "sourceId": "src-ecfr-21-cfr-900",
+      "locator": "21 CFR 900.4(c)(2)(ii) compression attribute",
+      "claim": "For clinical image review, compression shall be applied in a manner that minimizes the potential obscuring effect of overlying breast tissue and motion artifact.",
+      "scope": "Motion-artifact prevention via compression purpose; not a numeric compression recipe.",
+      "excerpt": "Compression. Compression shall be applied in a manner that minimizes the potential obscuring effect of overlying breast tissue and motion artifact.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US federal"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
       "id": "ev-inf-mesh-ris",
       "sourceId": "src-nlm-mesh-2026",
       "locator": "MeSH descriptor D011873 Radiology Information Systems, scope note",
@@ -7481,6 +7555,333 @@
             "actor": "automation",
             "kind": "automated_validation",
             "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-acs-bse-cbe",
+      "sourceId": "src-acs-early-detection",
+      "locator": "ACS Recommendations for the Early Detection of Breast Cancer — Clinical breast exam (CBE) and breast self-exam (BSE) (Wayback 2024-09-01 mirror of live ACS page; copyrighted, not quoted)",
+      "claim": "ACS does not recommend regular clinical breast exams or breast self-exams as part of a routine average-risk breast cancer screening schedule. ACS instead emphasizes that people should know how their breasts normally look and feel and report changes promptly. Providers may still offer CBE in higher-risk counseling situations; routine BSE/CBE are not shown to add clear early-detection benefit when screening mammograms are also used.",
+      "scope": "Average-risk ACS screening schedule language; not a substitute for clinician advice in high-risk pathways.",
+      "citation": "link_only",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-cbe-not-adequate",
+      "sourceId": "src-nci-breast-screening-patient",
+      "locator": "Breast Cancer Screening (PDQ)–Patient Version — Clinical breast exam; Breast self-exam (cross-checked with HP PDQ BSE mortality statement)",
+      "claim": "A clinical breast exam alone is not an adequate screening test for breast cancer. Breast self-exams are not an adequate screening test on their own; patients should still know how their breasts normally feel and report unusual changes even after a recent normal mammogram.",
+      "scope": "Screening adequacy framing for technologist patient education; not a physical-exam skill checklist.",
+      "excerpt": "A clinical breast exam alone is not an adequate screening test for breast cancer. … It is important for all women to be aware of how their breasts normally feel so that they can check with their doctors about any unusual changes. Even if you have recently had a normal mammogram, you should let your doctor know if you feel something unusual. However, breast self-exams are not an adequate breast cancer screening test on their own.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-nci-us-mri-roles",
+      "sourceId": "src-nci-breast-screening-patient",
+      "locator": "Breast Cancer Screening (PDQ)–Patient Version — Breast MRI; Breast ultrasound",
+      "claim": "Breast MRI uses magnets and radio waves (no ionizing radiation) and may be used with mammography for high-risk screening because it is more sensitive; mammography alone may miss some cancers in high-risk patients. Breast ultrasound uses sound waves. For dense breasts, supplemental MRI or ultrasound may be offered, but it is not known whether that supplemental screening improves health outcomes.",
+      "scope": "Indication-level education; not protocol parameters or contrast dosing.",
+      "excerpt": "Breast MRI uses radio waves, a strong magnet, and a computer … It does not involve radiation. If you are at high risk … you may have breast MRI along with mammography. … MRI is more sensitive … mammography alone may miss some cancers in high-risk women. … Breast ultrasound uses high-energy sound waves … If you have dense breasts, you may be offered screening with ultrasound in addition to mammography. It is not known whether additional screening with breast ultrasound leads to better health outcomes.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "MRI",
+          "ultrasound",
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-stereotactic-biopsy",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — stereotactic biopsy (termId 44299)",
+      "claim": "Stereotactic biopsy uses a computer and a 3-dimensional scanning device to find a tumor site and guide removal of tissue for microscopic examination.",
+      "scope": "Terminology for interventional mammography pathways.",
+      "excerpt": "A biopsy procedure that uses a computer and a 3-dimensional scanning device to find a tumor site and guide the removal of tissue for examination under a microscope.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-us-guided-biopsy",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — ultrasound-guided biopsy (termId 304745)",
+      "claim": "Ultrasound-guided biopsy uses an ultrasound imaging device to find abnormal tissue and guide its removal for microscopic examination.",
+      "scope": "Terminology only.",
+      "excerpt": "A biopsy procedure that uses an ultrasound imaging device to find an abnormal area of tissue and guide its removal for examination under a microscope.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "ultrasound"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-wire-localization",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — wire localization / needle localization (termId 635815)",
+      "claim": "Wire (needle) localization marks a small abnormal area for surgical removal: imaging guides a thin hooked wire through a hollow needle into or around the abnormality; the needle is removed, the wire stays until biopsy/surgery, then the wire is removed.",
+      "scope": "Terminology; facility technique details remain preceptorship.",
+      "excerpt": "A procedure used to mark a small area of abnormal tissue so it can be removed by surgery. An imaging device is used to guide a thin wire with a hook at the end through a hollow needle to place the wire in or around the abnormal area. Once the wire is in the right place, the needle is removed and the wire is left in place so the doctor will know where the abnormal tissue is. The wire is removed when a biopsy is done.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography",
+          "ultrasound"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-biopsy-specimen",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — biopsy specimen (termId 45619)",
+      "claim": "A biopsy specimen is tissue removed from the body and examined under a microscope to determine whether disease is present.",
+      "scope": "Specimen handling terminology at technologist level.",
+      "excerpt": "Tissue removed from the body and examined under a microscope to determine whether disease is present.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-dict-biopsy-clip",
+      "sourceId": "src-nci-dictionary",
+      "locator": "NCI Dictionary — breast biopsy clip (termId 804976)",
+      "claim": "A breast biopsy clip/marker is a tiny metal object placed during biopsy to mark the sampled area so it can be seen on later mammograms or other imaging; it does not cause pain or harm the body.",
+      "scope": "Post-biopsy imaging identification.",
+      "excerpt": "A tiny, metal object that is placed into the breast during a biopsy to mark the area where the biopsy was done. The clip or marker is left inside the breast so it can be seen on a mammogram or other imaging test performed in the future. The clip does not cause any pain or harm the body.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [
+          "mammography"
+        ],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": false,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved public or link-only registered sources for remaining-objectives pass."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Not maintainer source-checked; not clinically reviewed. Beta practice only."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ev-pc-pdq-bse-no-mortality",
+      "sourceId": "src-nci-pdq-breast-screening-hp",
+      "locator": "Breast Cancer Screening PDQ (HP) — Breast Self-Examination (BSE); Clinical Breast Examination (CBE)",
+      "claim": "BSE compared with no screening has shown no benefit in reducing breast cancer mortality. Evidence is insufficient to assess the additional benefits and harms of screening CBE; efficacy of screening CBE cannot yet be concluded from available trials.",
+      "scope": "Evidence summary for education; ACS schedule language is separate (link-only).",
+      "excerpt": "BSE has been compared with no screening and has been shown to have no benefit in reducing breast cancer mortality. … Thus, the efficacy of screening CBE cannot be assessed yet. … The current evidence is insufficient to assess the additional benefits and harms of CBE.",
+      "citation": "quoted_public",
+      "context": {
+        "modality": [],
+        "jurisdiction": "US"
+      },
+      "retrievedOn": "2026-10-06",
+      "review": {
+        "status": "auto_checked",
+        "requiresQualifiedReview": true,
+        "aiAssisted": true,
+        "history": [
+          {
+            "at": "2026-10-07",
+            "status": "draft",
+            "actor": "ai-assisted",
+            "kind": "revision",
+            "note": "AI-assisted draft from retrieved NCI PDQ."
+          },
+          {
+            "at": "2026-10-07",
+            "status": "auto_checked",
+            "actor": "automation",
+            "kind": "automated_validation",
+            "note": "Passed repository schema/cross-check validation. Beta practice only."
           }
         ]
       }

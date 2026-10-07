@@ -172,18 +172,28 @@
       "topicId": "top-pc-education",
       "domainId": "dom-patient-care",
       "statement": "State the ACS position on breast self-examination and clinical breast examination.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_link_only",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-pc-bse-cbe"
+      ],
+      "cardIds": [
+        "card-pc-acs-bse",
+        "card-pc-nci-bse-limit"
+      ],
+      "questionIds": [
+        "q-pc-166",
+        "q-pc-167",
+        "q-pc-168",
+        "q-pc-169"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
-      "formQuestionCount": 0,
+      "learnerQuestionCount": 3,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-typical-dose",
@@ -333,12 +343,15 @@
       "topicId": "top-pc-results",
       "domainId": "dom-patient-care",
       "statement": "Distinguish what the technologist may say from what the interpreting physician or provider explains, including density notification.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "blockedNote": "MQSA covers who receives which report; the technologist's communication scope needs ASRT practice standards (link-only) or equivalent.",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-clinician-role"
+      ],
       "cardIds": [
-        "card-pc-no-diagnose"
+        "card-pc-no-diagnose",
+        "card-pc-clinician-vs-tech"
       ],
       "questionIds": [
         "q-pc-006",
@@ -358,8 +371,8 @@
       "formQuestionCount": 4,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pc-epidemiology",
@@ -658,7 +671,7 @@
       "topicId": "top-ip-unit-design",
       "domainId": "dom-image-production",
       "statement": "Explain why mammography uses a low kVp range and how anode material, filtration, window, and focal spot shape the beam.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ip-xray-production"
@@ -678,12 +691,12 @@
         "q-ip-116"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-paddles-grids",
@@ -724,7 +737,7 @@
       "topicId": "top-ip-unit-design",
       "domainId": "dom-image-production",
       "statement": "Relate SID, OID, and magnification, including the MQSA magnification range requirement.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ip-geometry"
@@ -743,12 +756,12 @@
         "q-ip-115"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 3,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-unit-components",
@@ -1819,7 +1832,7 @@
       "topicId": "top-ip-technique",
       "domainId": "dom-image-production",
       "statement": "Predict how kVp, mAs, AEC, and manual technique affect contrast, noise, and dose.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ip-exposure-factors"
@@ -1837,19 +1850,19 @@
         "q-ip-116"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 2,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-thickness-target-filter",
       "topicId": "top-ip-technique",
       "domainId": "dom-image-production",
       "statement": "Relate compressed thickness, target/filter selection, focal spot, and grid use to image quality and dose.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ip-thickness-target"
@@ -1861,22 +1874,23 @@
         "q-ip-029",
         "q-ip-030",
         "q-ip-031",
-        "q-ip-032"
+        "q-ip-032",
+        "q-ip-123"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
-      "formQuestionCount": 0,
+      "learnerQuestionCount": 4,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-magnification-technique",
       "topicId": "top-ip-technique",
       "domainId": "dom-image-production",
       "statement": "Explain technique changes for magnification (small focal spot, no grid, air gap).",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
       "lessonIds": [
         "les-ip-mag-technique"
@@ -1895,12 +1909,12 @@
       "visualIds": [
         "vis-ip-mag-air-gap"
       ],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ip-image-quality-attributes",
@@ -1951,18 +1965,28 @@
       "topicId": "top-ip-image-evaluation",
       "domainId": "dom-image-production",
       "statement": "Recognize patient-related artifacts (motion, clothing, overlapping anatomy, implanted devices) and how to prevent them.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
-      "questionIds": [],
+      "lessonIds": [
+        "les-ip-patient-artifacts"
+      ],
+      "cardIds": [
+        "card-ip-deodorant-artifact",
+        "card-ip-motion-compression"
+      ],
+      "questionIds": [
+        "q-ip-119",
+        "q-ip-120",
+        "q-ip-121",
+        "q-ip-122"
+      ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
-      "formQuestionCount": 0,
+      "learnerQuestionCount": 3,
+      "formQuestionCount": 1,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-ap-clock-quadrants",
@@ -2746,36 +2770,42 @@
       "topicId": "top-pp-variance",
       "domainId": "dom-procedures",
       "statement": "Adapt positioning for chest wall variation, kyphosis/lordosis, protruding abdomen, and very large or small breasts (mosaic/tiling, paddle selection).",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pos-special-circumstances"
+      ],
+      "cardIds": [
+        "card-pos-adapt",
+        "card-pos-habitus-document"
+      ],
       "questionIds": [
         "q-pos-045",
+        "q-pos-047",
         "q-pos-080",
         "q-pos-102",
-        "q-pos-109"
+        "q-pos-109",
+        "q-pos-134",
+        "q-pos-135"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 3,
       "validatedQuestionCount": 0,
-      "unresolvedItemIds": [
-        "les-pos-special-circumstances",
-        "card-pos-adapt",
-        "q-pos-047"
-      ],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "unresolvedItemIds": [],
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-postsurgical",
       "topicId": "top-pp-variance",
       "domainId": "dom-procedures",
       "statement": "Adapt imaging for irradiated, reduced, or post-surgical breasts, patients assigned male at birth, implanted devices, and lactation.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pos-postsurgical"
+      ],
       "cardIds": [
         "card-pos-recon"
       ],
@@ -2786,15 +2816,18 @@
         "q-pos-114",
         "q-pos-115",
         "q-pos-130",
-        "q-pos-133"
+        "q-pos-133",
+        "q-pos-136",
+        "q-pos-137",
+        "q-pos-138"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 1,
+      "learnerQuestionCount": 4,
       "formQuestionCount": 6,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-screening-vs-diagnostic",
@@ -2864,10 +2897,15 @@
       "topicId": "top-pp-exams",
       "domainId": "dom-procedures",
       "statement": "Describe basic indications and patient preparation for breast ultrasound and MRI.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pos-us-mri"
+      ],
+      "cardIds": [
+        "card-pos-us-vs-mri",
+        "card-pos-dense-supplemental"
+      ],
       "questionIds": [
         "q-pos-059",
         "q-pos-060",
@@ -2881,15 +2919,18 @@
         "q-pos-121",
         "q-pos-122",
         "q-pos-123",
-        "q-pos-124"
+        "q-pos-124",
+        "q-pos-139",
+        "q-pos-140",
+        "q-pos-141"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
+      "learnerQuestionCount": 3,
       "formQuestionCount": 13,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-interventional-prep",
@@ -2933,34 +2974,46 @@
       "topicId": "top-pp-interventional",
       "domainId": "dom-procedures",
       "statement": "Describe stereotactic and ultrasound biopsy, wire localization, specimen imaging, and clip placement imaging.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": true,
-      "lessonIds": [],
-      "cardIds": [],
+      "lessonIds": [
+        "les-pos-biopsy-localization"
+      ],
+      "cardIds": [
+        "card-pos-stereo-def",
+        "card-pos-clip-def",
+        "card-pos-wire-def"
+      ],
       "questionIds": [
         "q-pos-064",
         "q-pos-065",
         "q-pos-066",
         "q-pos-082",
         "q-pos-091",
-        "q-pos-125"
+        "q-pos-125",
+        "q-pos-142",
+        "q-pos-143",
+        "q-pos-144",
+        "q-pos-145"
       ],
       "visualIds": [],
-      "learnerQuestionCount": 0,
-      "formQuestionCount": 6,
+      "learnerQuestionCount": 3,
+      "formQuestionCount": 7,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     },
     {
       "objectiveId": "obj-pp-biohazard",
       "topicId": "top-pp-interventional",
       "domainId": "dom-procedures",
       "statement": "Handle and dispose of specimens, body fluids, sharps, and biopsy supplies safely.",
-      "sourceState": "needs_source",
+      "sourceState": "source_backed_open",
       "requiresQualifiedReview": false,
-      "lessonIds": [],
+      "lessonIds": [
+        "les-pc-biohazard"
+      ],
       "cardIds": [
         "card-pc-bbp",
         "card-pc-hh",
@@ -2996,15 +3049,15 @@
       "formQuestionCount": 20,
       "validatedQuestionCount": 0,
       "unresolvedItemIds": [],
-      "complete": false,
-      "gap": "needs source retrieval before a lesson can be written"
+      "complete": true,
+      "gap": null
     }
   ],
   "breakdown": {
-    "public_domain_open": 58,
-    "link_only": 8,
+    "public_domain_open": 70,
+    "link_only": 9,
     "needs_clinical_review": 27,
     "truly_blocked": 0,
-    "needs_source": 13
+    "needs_source": 0
   }
 }
